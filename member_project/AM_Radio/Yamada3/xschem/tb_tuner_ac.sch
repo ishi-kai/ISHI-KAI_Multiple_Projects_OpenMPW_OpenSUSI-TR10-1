@@ -51,7 +51,7 @@ C1:Range 25-160pF} 1030 -1105 0 1 0.5 0.5 {}
 T {AM Radio frequency : 500KHz - 1Meg
 Frequency tuning -> Adjust C1,C2,L5
 Resonace Filter Q turning -> Adjust R2
-Sensivity tuning -> Adjust turn ratio between L6 and L5} 1800 -1045 0 1 0.5 0.5 {}
+Sensitivity tuning -> Adjust turn ratio between L6 and L5} 1800 -1045 0 1 0.5 0.5 {}
 T {Rod antenna} 820 -1475 0 1 0.5 0.5 {}
 N 480 -1260 480 -1240 {lab=GND}
 N 480 -1360 480 -1320 {lab=in}
