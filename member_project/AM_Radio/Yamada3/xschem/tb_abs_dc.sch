@@ -86,30 +86,30 @@ C {devices/gnd.sym} 740 -1260 0 0 {name=l4 lab=GND}
 C {devices/vsource.sym} 740 -1310 0 0 {name=V2 value="dc 5" savecurrent=false}
 C {devices/isource.sym} 680 -970 0 0 {name=I0 value=10u}
 C {devices/lab_pin.sym} 920 -1020 0 1 {name=p3 sig_type=std_logic lab=out}
-C {devices/code.sym} 440 -1350 0 0 {name=TR10_MODELS
-only_toplevel=true
-format="tcleval( @value )"
-value=".include $::LIB/../ip62_models"
-spice_ignore=false}
 C {devices/vdd.sym} 660 -1360 0 0 {name=l8 lab=VREF}
 C {devices/gnd.sym} 660 -1260 0 0 {name=l9 lab=GND}
 C {devices/vsource.sym} 660 -1310 0 0 {name=V3 value="dc 2.5" savecurrent=false}
 C {devices/vdd.sym} 680 -1160 0 0 {name=l13 lab=VDD}
-C {IP62LIB/MP.sym} 720 -1090 0 1 {name=XM4 model=PMOS w=90u l=3u m=1 as=0 ad=0 ps=0 pd=0 nrd=0 nrs=0}
-C {IP62LIB/MP.sym} 820 -1090 0 0 {name=XM5 model=PMOS w=90u l=3u m=1 as=0 ad=0 ps=0 pd=0 nrd=0 nrs=0}
 C {devices/vdd.sym} 860 -1160 0 0 {name=l15 lab=VDD}
 C {devices/gnd.sym} 680 -920 0 0 {name=l16 lab=GND}
-C {IP62LIB/MP.sym} 830 -940 1 1 {name=XM2 model=PMOS w=90u l=3u m=1 as=0 ad=0 ps=0 pd=0 nrd=0 nrs=0}
 C {devices/vdd.sym} 830 -1020 0 0 {name=l1 lab=VDD}
 C {devices/gnd.sym} 830 -920 0 0 {name=l7 lab=VREF2}
 C {devices/isource.sym} 440 -970 0 0 {name=I1 value=10u}
 C {devices/gnd.sym} 440 -920 0 0 {name=l11 lab=GND}
 C {devices/lab_pin.sym} 520 -1020 0 1 {name=p4 sig_type=std_logic lab=VREF2}
 C {devices/vdd.sym} 440 -1160 0 0 {name=l5 lab=VREF}
-C {IP62LIB/MP.sym} 400 -1110 0 0 {name=XM1 model=PMOS w=90u l=3u m=1 as=0 ad=0 ps=0 pd=0 nrd=0 nrs=0}
 C {devices/vdd.sym} 500 -1160 0 0 {name=l6 lab=VDD}
 C {devices/launcher.sym} 1100 -1380 0 0 {name=h5
 descr="load waves (CTRL + LEFT BUTTON CLICK)" 
 tclcommand="xschem raw_read $netlist_dir/tb_abs_dc.raw dc"
 }
 C {devices/vsource.sym} 830 -1310 0 0 {name=V1 value="dc 2.5" savecurrent=false}
+C {MP.sym} 400 -1110 0 0 {name=XM3 model=PMOS w=90u l=3u m=1 as=0 ad=0 ps=0 pd=0 nrd=0 nrs=0}
+C {devices/code.sym} 420 -1350 0 0 {name=TR-1um_MODELS
+only_toplevel=true
+format="tcleval( @value )"
+value=".include $::LIB/ip62_models"
+spice_ignore=false}
+C {MP.sym} 720 -1090 0 1 {name=XM1 model=PMOS w=90u l=3u m=1 as=0 ad=0 ps=0 pd=0 nrd=0 nrs=0}
+C {MP.sym} 820 -1090 0 0 {name=XM4 model=PMOS w=90u l=3u m=1 as=0 ad=0 ps=0 pd=0 nrd=0 nrs=0}
+C {MP.sym} 830 -940 3 0 {name=XM5 model=PMOS w=90u l=3u m=1 as=0 ad=0 ps=0 pd=0 nrd=0 nrs=0}
