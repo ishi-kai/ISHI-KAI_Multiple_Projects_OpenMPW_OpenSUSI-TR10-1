@@ -7,7 +7,7 @@ Yamada3チーム用ディレクトリ
 ## トランジェント解析
 [tb_all_tran.sch](xschem/tb_all_tran.sch)
 ![tb_all_tran](image/tb_all_tran_1.png)
-![tb_all_tran](image/tb_all_tran_1.png)
+![tb_all_tran](image/tb_all_tran_2.png)
 
 # 高周波増幅回路
 ## トランジェント解析
