@@ -24,11 +24,11 @@ logy=0
 rawfile=$netlist_dir/tb_abs_tran.raw
 sim_type=tran
 hilight_wave=-1
-x1=0.0
+x1=0
 autoload=1
 y1=0
 y2=5
-x2=6m}
+x2=5m}
 B 2 1240 -1280 2040 -880 {flags=graph
 y1=0
 y2=5
@@ -52,7 +52,7 @@ sim_type=tran
 hilight_wave=-1
 autoload=1
 rawfile=$netlist_dir/tb_abs_tran.raw
-x2=6m}
+x2=5m}
 T {Absolute Function - Transient analysis} 430 -1725 0 0 0.8 0.8 {}
 N 830 -1280 830 -1260 {lab=GND}
 N 830 -1380 830 -1340 {lab=in}
@@ -98,7 +98,7 @@ C {devices/code_shown.sym} 425 -1640 0 0 {name=control only_toplevel=false value
 .control
 save all
 # Transienst analysis
-tran 0.1u 7m 0 0.1u
+tran 0.1u 5m 0 0.1u
 write tb_abs_tran.raw
 .endc"}
 C {devices/gnd.sym} 830 -1260 0 0 {name=l2 lab=GND}
