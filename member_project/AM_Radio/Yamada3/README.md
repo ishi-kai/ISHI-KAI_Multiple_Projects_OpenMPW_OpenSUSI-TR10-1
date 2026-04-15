@@ -48,12 +48,17 @@ OTAであれば、抵抗を使用しなくて済む。gmを少なめにするこ
 LPFを理想OTAを使用した場合の原理確認用シミュレーションを作りました。カットオフ周波数は可聴周波数の20Khzとし、コンデンサは東海理化で作成可能な単一コンデンサ最大容量8.856pFとしました。OTAは電圧→電流変換ゲインgmは1.113E-6であればよさそうです。
 OTAのゲインが達成可能か調べるためにPMOSおよびNMOSのgmを調べました。
 ゲート電圧1.5Vのとき必要なgm以上のゲインがあるのでゲインを下げることを考える必要があります。
+そのため、OTAはカレントミラーOTAとして、カレントミラーの比率を変えて、ゲインを下げます。
 
 [tb_cmos_dc.sch](xschem/tb_cmos_dc.sch)
 ![tb_cmos_dc](image/tb_cmos_dc.png)
 
+OTAの回路図を以下に示します。
+[ota.sch](xschem/ota.sch)
+![ota](image/ota.png)
 
 ### AC解析
+理想的なLPFを理想素子（電圧制御電流源）を使用して実装した場合を上(IDEAL)、実際のLPFをCMOSトランジスタを使用して実装した場合は下(REAL)に示します。
 [tb_lpf_ac.sch](xschem/tb_lpf_ac.sch)
 ![lpf_ac](image/tb_lpf_ac.png)
 
