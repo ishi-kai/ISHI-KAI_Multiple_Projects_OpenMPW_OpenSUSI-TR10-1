@@ -39,9 +39,9 @@ y1=-3
 rawfile=$netlist_dir/tb_tuner_ac.raw
 autoload=1
 y2=1
-x2=7
-x1=4
-hilight_wave=0}
+hilight_wave=0
+x1=5
+x2=7}
 T {Tuner - AC analysis} 430 -1615 0 0 0.8 0.8 {}
 T {Bar antenna:
 L6:10turn
@@ -90,7 +90,7 @@ C {devices/gnd.sym} 480 -1240 0 0 {name=l2 lab=GND}
 C {devices/lab_pin.sym} 480 -1360 0 1 {name=p1 sig_type=std_logic lab=in}
 C {devices/launcher.sym} 1170 -1520 0 0 {name=h5
 descr="load waves (CTRL + LEFT BUTTON CLICK)" 
-tclcommand="xschem raw_read $netlist_dir/tb_tuner.raw ac"
+tclcommand="xschem raw_read $netlist_dir/tb_tuner_ac.raw ac"
 }
 C {devices/vsource.sym} 480 -1290 0 0 {name=V1 value="dc 0 ac 1m" savecurrent=false}
 C {devices/capa.sym} 800 -1350 0 0 {name=C1
@@ -126,7 +126,7 @@ m=1}
 C {devices/gnd.sym} 640 -1240 0 1 {name=l7 lab=GND}
 C {devices/capa.sym} 860 -1350 0 0 {name=C2
 m=1
-value=680p
+value=120p
 footprint=1206
 device="ceramic capacitor"}
 C {devices/gnd.sym} 400 -1240 0 0 {name=l3 lab=GND}

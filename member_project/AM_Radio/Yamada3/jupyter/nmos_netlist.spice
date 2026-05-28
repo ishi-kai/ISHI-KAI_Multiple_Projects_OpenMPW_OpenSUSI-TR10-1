@@ -1,0 +1,29 @@
+* NMOS VGS sweep
+* Please Modify include and lib path according to your enviroment.
+.include "~/pdk/TR-1um/libs.tech/spice/models/ip62_models"
+
+* MOS parameter
+.param mos_l=1u
+.param mos_w=4u
+
+XM1  D G S B NMOS w=mos_w l=mos_l nrd=0 nrs=0
+vg g 0 dc 1 ac 1
+vd d 0 3.3
+vs s 0 0
+vb b 0 0
+.op
+.option post nomod
+.end
+.control
+* DC alanysis to obtain id vs Vgs
+dc vg 0 3.3 0.001
+display
+set wr_vecnames               ; for wrdata: write the vector names
+wrdata nmos_output_dc.txt i(vd)
+
+* AC analysis from 1Hz to 1GHz to obtain Cgg
+ac dec 10 1 1G
+let cgg = imag(i(vg)) / (2 * pi * frequency)
+set wr_vecnames               ; for wrdata: write the vector names
+wrdata nmos_output_ac.txt cgg
+.endc

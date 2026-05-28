@@ -109,6 +109,32 @@ x2=5
 rawfile=$netlist_dir/tb_cmos_dc.raw
 color=4
 node=i(gm_pmos)}
+B 2 900 -680 1700 -280 {flags=graph
+y1=0
+ypos1=0
+ypos2=2
+divy=5
+subdivy=1
+unity=1
+x1=0
+divx=5
+subdivx=1
+xlabmag=1.0
+ylabmag=1.0
+dataset=-1
+unitx=1
+logx=0
+logy=0
+hilight_wave=-1
+sim_type=dc
+autoload=1
+rainbow=0
+mode=Line
+x2=5
+rawfile=$netlist_dir/tb_cmos_dc.raw
+color=4
+node=gmid_nmos
+y2=50}
 T {CMOS - DC analysis} 430 -1615 0 0 0.8 0.8 {}
 N 750 -1220 750 -1200 {lab=GND}
 N 750 -1320 750 -1280 {lab=in}
@@ -137,6 +163,11 @@ save all
 dc v1  0  5 0.1
 let gm_nmos= deriv(i(vmeas_nmos))
 let gm_pmos= deriv(i(vmeas_pmos))
+let gmid_nmos= gm_nmos/i(vmeas_nmos)
+let gmid_pmos= gm_pmos/i(vmeas_pmos)
+
+
+
 
 write tb_cmos_dc.raw
 .endc"}
