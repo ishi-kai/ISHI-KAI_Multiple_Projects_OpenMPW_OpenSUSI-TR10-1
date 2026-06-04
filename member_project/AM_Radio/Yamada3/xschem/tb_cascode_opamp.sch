@@ -177,7 +177,7 @@ rainbow=1
 color=11
 node=out2}
 T {Telescopic cascode two stage opamp} 30 -1390 0 0 1 1 {}
-T {Test circuit - voltage follower} 210 -920 0 0 0.4 0.4 {}
+T {Test circuit - 60db AMP} 210 -920 0 0 0.4 0.4 {}
 T {DC analysis} 2280 -1150 0 0 0.8 0.8 {}
 T {AC analysis} 3020 -1150 0 0 0.8 0.8 {}
 T {TRAN analysis} 3750 -1150 0 0 0.8 0.8 {}
