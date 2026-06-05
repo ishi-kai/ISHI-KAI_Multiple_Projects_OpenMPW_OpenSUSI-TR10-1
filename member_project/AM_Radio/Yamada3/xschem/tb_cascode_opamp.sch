@@ -75,7 +75,7 @@ rawfile=$netlist_dir/tb_cascode_opamp_dc.raw
 rainbow=1
 y2=4}
 B 2 2770 -1080 3480 -540 {flags=graph
-y1=0
+y1=30
 ypos1=0
 ypos2=2
 divy=5
@@ -153,7 +153,7 @@ color=4
 node=vin_p}
 B 2 3510 -540 4220 0 {flags=graph
 y1=1.2
-y2=2
+y2=2.5
 ypos1=0
 ypos2=2
 divy=5
@@ -208,7 +208,7 @@ lab=GND}
 N 1860 -380 1860 -360 {
 lab=OUT2}
 N 1790 -410 1820 -410 {
-lab=VB3}
+lab=iB}
 N 1860 -480 1860 -460 {
 lab=VDD}
 N 1860 -210 1860 -200 {
@@ -298,12 +298,12 @@ N 320 -510 400 -510 {lab=VDD}
 N 400 -610 400 -510 {lab=VDD}
 N 180 -610 280 -610 {lab=VB4}
 N 140 -580 140 -540 {lab=VB4}
-N 180 -510 280 -510 {lab=VB3}
+N 180 -510 280 -510 {lab=iB}
 N 140 -560 200 -560 {lab=VB4}
 N 200 -610 200 -560 {lab=VB4}
-N 140 -480 140 -420 {lab=VB3}
-N 140 -460 200 -460 {lab=VB3}
-N 200 -510 200 -460 {lab=VB3}
+N 140 -480 140 -420 {lab=iB}
+N 140 -460 200 -460 {lab=iB}
+N 200 -510 200 -460 {lab=iB}
 N 140 -680 140 -640 {lab=VDD}
 N 240 -610 240 -560 {lab=VB4}
 N 1830 -840 1870 -840 {lab=VDD}
@@ -335,8 +335,7 @@ N 580 -1240 580 -1190 {lab=OUT2}
 N 580 -1130 580 -1110 {lab=GND}
 N 220 -1260 240 -1260 {lab=VIN_P}
 N 440 -1210 440 -1190 {lab=GND}
-N 140 -340 140 -320 {lab=GND}
-N 140 -420 140 -400 {lab=VB3}
+N 140 -420 140 -400 {lab=iB}
 N 440 -1290 440 -1270 {lab=VDD}
 N 580 -1240 600 -1240 {lab=OUT2}
 N 1420 -600 1420 -520 {lab=GND}
@@ -355,7 +354,7 @@ N 1200 -480 1200 -440 {lab=#net11}
 N 1200 -510 1280 -510 {lab=VDD}
 N 1280 -610 1280 -510 {lab=VDD}
 N 1200 -440 1200 -420 {lab=#net11}
-N 240 -510 240 -480 {lab=VB3}
+N 240 -510 240 -480 {lab=iB}
 N 1120 -610 1160 -610 {lab=VB4}
 N 1120 -510 1160 -510 {lab=VB3}
 N 1140 -390 1160 -390 {lab=#net11}
@@ -369,7 +368,7 @@ N 660 -1130 660 -1110 {lab=GND}
 N 660 -1240 660 -1190 {lab=OUT2}
 N 320 -1120 320 -1100 {lab=VIN_N}
 N 320 -1040 320 -1010 {lab=VREF}
-C {devices/isource.sym} 140 -370 0 0 {name=I0 value=100e-6}
+N 1830 -640 1870 -640 {lab=VIN_N}
 C {devices/code.sym} 1230 -1270 0 0 {name=TR-1um_MODELS
 only_toplevel=true
 format="tcleval( @value )"
@@ -396,7 +395,7 @@ C {devices/lab_pin.sym} 810 -290 0 1 {name=p26 sig_type=std_logic lab=GND}
 C {devices/lab_pin.sym} 710 -290 0 0 {name=p27 sig_type=std_logic lab=VB1}
 C {devices/lab_pin.sym} 780 -200 0 1 {name=p28 sig_type=std_logic lab=GND}
 C {devices/lab_pin.sym} 780 -840 0 1 {name=p29 sig_type=std_logic lab=VDD}
-C {devices/lab_pin.sym} 1790 -410 0 0 {name=p9 sig_type=std_logic lab=VB3}
+C {devices/lab_pin.sym} 1790 -410 0 0 {name=p9 sig_type=std_logic lab=iB}
 C {devices/lab_pin.sym} 1860 -480 0 1 {name=p10 sig_type=std_logic lab=VDD}
 C {devices/lab_pin.sym} 1860 -200 0 1 {name=p11 sig_type=std_logic lab=GND}
 C {devices/lab_pin.sym} 980 -580 0 1 {name=p12 sig_type=std_logic lab=OUT1}
@@ -485,7 +484,6 @@ device=resistor
 m=1}
 C {devices/gnd.sym} 580 -1110 0 0 {name=l7 lab=GND}
 C {devices/gnd.sym} 440 -1190 0 0 {name=l17 lab=GND}
-C {devices/gnd.sym} 140 -320 0 0 {name=l19 lab=GND}
 C {devices/vdd.sym} 440 -1290 0 0 {name=l4 lab=VDD}
 C {devices/lab_pin.sym} 680 -1240 0 1 {name=l6 sig_type=std_logic lab=OUT2}
 C {devices/lab_pin.sym} 220 -1260 0 0 {name=l8 sig_type=std_logic lab=VIN_P}
@@ -495,7 +493,7 @@ C {devices/lab_pin.sym} 1200 -680 0 1 {name=p3 sig_type=std_logic lab=VDD}
 C {MP.sym} 1160 -510 0 0 {name=MM1 model=PMOS w=30u l=1u m=1 as=0 ad=0 ps=0 pd=0 nrd=0 nrs=0}
 C {MP.sym} 1160 -610 0 0 {name=MM9 model=PMOS w=30u l=1u m=1 as=0 ad=0 ps=0 pd=0 nrd=0 nrs=0}
 C {devices/lab_pin.sym} 1120 -610 0 0 {name=p4 sig_type=std_logic lab=VB4}
-C {devices/lab_pin.sym} 240 -480 0 1 {name=p5 sig_type=std_logic lab=VB3}
+C {devices/lab_pin.sym} 240 -480 0 1 {name=p5 sig_type=std_logic lab=iB}
 C {devices/lab_pin.sym} 1120 -510 0 0 {name=p6 sig_type=std_logic lab=VB3}
 C {devices/lab_pin.sym} 770 -400 0 1 {name=p7 sig_type=std_logic lab=GND}
 C {devices/capa.sym} 660 -1160 0 0 {name=C1
@@ -510,3 +508,6 @@ value=1k
 footprint=1206
 device=resistor
 m=1}
+C {devices/lab_pin.sym} 140 -400 0 1 {name=p8 sig_type=std_logic lab=iB}
+C {devices/ipin.sym} 1870 -640 0 1 {name=p22 lab=iB}
+C {devices/lab_pin.sym} 1830 -640 0 0 {name=p33 sig_type=std_logic lab=iB}
