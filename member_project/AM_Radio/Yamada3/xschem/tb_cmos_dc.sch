@@ -30,10 +30,9 @@ rainbow=0
 mode=Line
 x2=5
 rawfile=$netlist_dir/tb_cmos_dc.raw
-y2=300u}
+y2=30m}
 B 2 900 -1120 1700 -720 {flags=graph
 y1=0
-y2=200u
 ypos1=0
 ypos2=2
 divy=5
@@ -56,7 +55,8 @@ mode=Line
 x2=5
 rawfile=$netlist_dir/tb_cmos_dc.raw
 color=4
-node=i(gm_nmos)}
+node=i(gm_nmos)
+y2=10m}
 B 2 1740 -1560 2540 -1160 {flags=graph
 y1=0
 ypos1=0
@@ -82,9 +82,9 @@ rainbow=0
 mode=Line
 x2=5
 rawfile=$netlist_dir/tb_cmos_dc.raw
-y2=10e-05}
+y2=30m}
 B 2 1740 -1120 2540 -720 {flags=graph
-y1=-50u
+y1=-10m
 y2=0
 ypos1=0
 ypos2=2
@@ -134,7 +134,85 @@ x2=5
 rawfile=$netlist_dir/tb_cmos_dc.raw
 color=4
 node=gmid_nmos
-y2=50}
+y2=25}
+B 2 1740 -680 2540 -280 {flags=graph
+y1=-25
+ypos1=0
+ypos2=2
+divy=5
+subdivy=1
+unity=1
+x1=0
+divx=5
+subdivx=1
+xlabmag=1.0
+ylabmag=1.0
+dataset=-1
+unitx=1
+logx=0
+logy=0
+hilight_wave=-1
+sim_type=dc
+autoload=1
+rainbow=0
+mode=Line
+x2=5
+rawfile=$netlist_dir/tb_cmos_dc.raw
+color=4
+node=gmid_pmos
+y2=0}
+B 2 900 -240 1700 160 {flags=graph
+ypos1=0
+ypos2=2
+divy=5
+subdivy=8
+unity=1
+x1=0
+divx=5
+subdivx=1
+xlabmag=1.0
+ylabmag=1.0
+dataset=-1
+unitx=1
+logx=0
+logy=1
+hilight_wave=-1
+sim_type=dc
+autoload=1
+rainbow=0
+mode=Line
+x2=5
+rawfile=$netlist_dir/tb_cmos_dc.raw
+color=4
+node=ft_nmos
+y2=10
+y1=6}
+B 2 1740 -240 2540 160 {flags=graph
+ypos1=0
+ypos2=2
+divy=5
+subdivy=8
+unity=1
+x1=0
+divx=5
+subdivx=1
+xlabmag=1.0
+ylabmag=1.0
+dataset=-1
+unitx=1
+logx=0
+logy=1
+hilight_wave=-1
+sim_type=dc
+autoload=1
+rainbow=0
+mode=Line
+x2=5
+rawfile=$netlist_dir/tb_cmos_dc.raw
+color=4
+node=ft_pmos
+y2=10
+y1=6}
 T {CMOS - DC analysis} 430 -1615 0 0 0.8 0.8 {}
 N 750 -1220 750 -1200 {lab=GND}
 N 750 -1320 750 -1280 {lab=in}
@@ -160,15 +238,16 @@ C {devices/code_shown.sym} 425 -1530 0 0 {name=control only_toplevel=false value
 .control
 save all
 # DC analysis
-dc v1  0  5 0.1
+dc v1  0  5 1m
 let gm_nmos= deriv(i(vmeas_nmos))
 let gm_pmos= deriv(i(vmeas_pmos))
 let gmid_nmos= gm_nmos/i(vmeas_nmos)
 let gmid_pmos= gm_pmos/i(vmeas_pmos)
+let ft_nmos=abs(gm_nmos/(2*pi*@m.xm1.m1[cgg]))
+let ft_pmos=abs(gm_pmos/(2*pi*@m.xm2.m1[cgg]))
 
-
-
-
+print pi
+show
 write tb_cmos_dc.raw
 .endc"}
 C {devices/gnd.sym} 750 -1200 0 0 {name=l2 lab=GND}
@@ -181,12 +260,12 @@ descr="load waves (CTRL + LEFT BUTTON CLICK)"
 tclcommand="xschem raw_read $netlist_dir/tb_cmos_dc.raw dc"
 }
 C {devices/vsource.sym} 750 -1250 0 0 {name=V1 value="dc 2.5" savecurrent=false}
-C {devices/code.sym} 430 -1310 0 0 {name=TR-1um_MODELS
+C {devices/code.sym} 440 -760 0 0 {name=TR-1um_MODELS
 only_toplevel=true
 format="tcleval( @value )"
 value=".include $::LIB/ip62_models"
 spice_ignore=false}
-C {MN.sym} 680 -960 0 0 {name=M1 model=NMOS w=4u l=4u nrd=0 nrs=0 m=1 spiceprefix=X}
+C {MN.sym} 680 -960 0 0 {name=M1 model=NMOS w=80u l=1u nrd=0 nrs=0 m=1 spiceprefix=X}
 C {devices/gnd.sym} 720 -890 0 0 {name=l1 lab=GND}
 C {devices/ammeter.sym} 720 -1040 0 0 {name=Vmeas_nmos savecurrent=true spice_ignore=0}
 C {devices/vdd.sym} 720 -1090 0 0 {name=l5 lab=VDD}
@@ -195,4 +274,4 @@ C {devices/gnd.sym} 520 -890 0 0 {name=l6 lab=GND}
 C {devices/ammeter.sym} 520 -1040 0 0 {name=Vmeas_pmos savecurrent=true spice_ignore=0}
 C {devices/vdd.sym} 520 -1090 0 0 {name=l7 lab=VDD}
 C {devices/lab_pin.sym} 440 -960 0 0 {name=p3 sig_type=std_logic lab=in}
-C {MP.sym} 480 -960 0 0 {name=M2 model=PMOS w=4u l=4u nrd=0 nrs=0 m=1 spiceprefix=X}
+C {MP.sym} 480 -960 0 0 {name=M2 model=PMOS w=80u l=1u nrd=0 nrs=0 m=1 spiceprefix=X}
