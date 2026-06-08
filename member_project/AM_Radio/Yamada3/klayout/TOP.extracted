@@ -1,8 +1,0 @@
-* Created by KLayout
-
-* cell TOP
-* pin VSS
-.SUBCKT TOP VSS
-* device instance $1 r0 *1 -0.305,0.095 NMOS
-M$1 \$I2 \$I3 \$I1 VSS NMOS L=1U W=3.4U AS=9.52P AD=9.52P PS=12.4U PD=12.4U
-.ENDS TOP

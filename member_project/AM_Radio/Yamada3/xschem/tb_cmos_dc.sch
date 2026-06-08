@@ -30,7 +30,7 @@ rainbow=0
 mode=Line
 x2=5
 rawfile=$netlist_dir/tb_cmos_dc.raw
-y2=30m}
+y2=0.5m}
 B 2 640 -1320 1440 -920 {flags=graph
 ypos1=0
 ypos2=2
@@ -54,7 +54,7 @@ x2=5
 rawfile=$netlist_dir/tb_cmos_dc.raw
 color=4
 node=i(gm_nmos)
-y2=10m
+y2=0.1m
 y1=0
 dataset=-1}
 B 2 1480 -1760 2280 -1360 {flags=graph
@@ -320,7 +320,7 @@ only_toplevel=true
 format="tcleval( @value )"
 value=".include $::LIB/ip62_models"
 spice_ignore=false}
-C {MN.sym} 360 -920 0 0 {name=M1 model=NMOS w=30u l=1u nrd=0 nrs=0 m=1 spiceprefix=X}
+C {MN.sym} 360 -920 0 0 {name=M1 model=NMOS w=2u l=1u nrd=0 nrs=0 m=1 spiceprefix=X}
 C {devices/gnd.sym} 400 -850 0 0 {name=l1 lab=GND}
 C {devices/ammeter.sym} 400 -1000 0 0 {name=Vmeas_nmos savecurrent=true spice_ignore=0}
 C {devices/vdd.sym} 400 -1050 0 0 {name=l5 lab=VDD}
@@ -329,4 +329,4 @@ C {devices/gnd.sym} 200 -850 0 0 {name=l6 lab=GND}
 C {devices/ammeter.sym} 200 -1000 0 0 {name=Vmeas_pmos savecurrent=true spice_ignore=0}
 C {devices/vdd.sym} 200 -1050 0 0 {name=l7 lab=VDD}
 C {devices/lab_pin.sym} 120 -920 0 0 {name=p3 sig_type=std_logic lab=in}
-C {MP.sym} 160 -920 0 0 {name=M2 model=PMOS w=30u l=1u nrd=0 nrs=0 m=1 spiceprefix=X}
+C {MP.sym} 160 -920 0 0 {name=M2 model=PMOS w=2u l=1u nrd=0 nrs=0 m=1 spiceprefix=X}
