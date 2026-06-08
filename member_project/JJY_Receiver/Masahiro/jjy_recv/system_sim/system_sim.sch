@@ -29,7 +29,7 @@ N 300 60 380 60 {lab=0}
 N 20 50 20 60 {lab=0}
 N 20 60 70 60 {lab=0}
 N 70 60 70 80 {lab=0}
-N 20 -10 130 -10 {lab=#net1}
+N 20 -10 130 -10 {lab=in}
 N 380 -20 380 -10 {lab=st2}
 N 380 60 430 60 {lab=0}
 N 430 30 430 60 {lab=0}
@@ -45,10 +45,10 @@ N 610 -10 660 -10 {lab=filt}
 N 590 60 840 60 {lab=0}
 N 700 40 700 60 {lab=0}
 N 660 30 660 60 {lab=0}
-N 700 -40 700 -20 {lab=#net2}
-N 700 -40 760 -40 {lab=#net2}
-N 760 -40 760 -10 {lab=#net2}
-N 760 -10 790 -10 {lab=#net2}
+N 700 -40 700 -20 {lab=#net1}
+N 700 -40 760 -40 {lab=#net1}
+N 760 -40 760 -10 {lab=#net1}
+N 760 -10 790 -10 {lab=#net1}
 N 840 60 900 60 {lab=0}
 N 850 -10 900 -10 {lab=out}
 N 410 30 410 100 {lab=lo}
@@ -57,14 +57,15 @@ N 370 60 370 160 {lab=0}
 C {devices/vcvs.sym} 170 10 0 0 {name=E1 value=33
 }
 C {devices/gnd.sym} 170 80 0 0 {name=l1 lab=0}
-C {devices/vsource.sym} 20 20 0 0 {name=vin value="DC 0 AC 1 sin(0 100u 40k)" savecurrent=false}
+C {devices/vsource.sym} 20 20 0 0 {name=vin value="DC 0 AC 1 sin(0 50u 40k)" savecurrent=false}
 C {devices/gnd.sym} 70 80 0 0 {name=l2 lab=0}
 C {devices/lab_pin.sym} 260 -20 0 0 {name=p1 sig_type=std_logic lab=st1}
 C {devices/code_shown.sym} 0 -260 0 0 {name=spice only_toplevel=false value="""
 .option savecurrent
 .control
 op
-tran 0.1u 2m
+tran 0.01u 2m
+plot v(in)
 plot v(st2)
 plot v(lo)
 plot v(filt)
@@ -103,3 +104,4 @@ device="ceramic capacitor"}
 C {devices/vcvs.sym} 700 10 0 0 {name=E3 value=15}
 C {devices/lab_pin.sym} 640 -10 0 0 {name=p5 sig_type=std_logic lab=filt}
 C {devices/lab_pin.sym} 410 80 0 0 {name=p6 sig_type=std_logic lab=lo}
+C {devices/lab_pin.sym} 90 -10 0 0 {name=p7 sig_type=std_logic lab=in}
