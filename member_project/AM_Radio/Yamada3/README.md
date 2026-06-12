@@ -28,11 +28,30 @@ Yamada3チーム用ディレクトリ
 ![tb_all_tran](image/tb_all_tran_2.png)
 
 # 高周波増幅回路
-
 ## トランジェント解析
 
 [tb_lna_tran.sch](xschem/tb_lna_tran.sch)
 ![tb_lna_tran](image/tb_lna_tran.png)
+
+## テレスコピック・カスコード２段オペアンプ
+LNAですが、テレスコピック・カスコード・2段オペアンプが、速度・ゲイン・出力インピーダンスから考えてよいのではないかと考えています。
+
+入力段をNMOS: gm/Cggを稼ぐ
+
+カスコード接続：出力抵抗を高くしてゲインを稼ぐ
+
+出力段をコモンソース：出力インピーダンスを下げる
+
+
+
+![tb_cascode_opamp_sch.png](image/tb_cascode_opamp_sch.png)
+
+
+## DC/AC/トランジェント解析
+テレスコピック・カスコード２段アンプをシミュレーションしてみました。
+負荷ありで1MHzだと40db(１００倍)ぐらいになりました。1MHzで60db(1000倍)はかなり難しいですね。市販品の安価なオペアンプよりは、けた違いに早いのですが、あと１０倍ぐらい、性能が出ればうれしいですね。早い代わりに電圧スイング範囲は、５V電源時で1.4Vぐらいしかありません。完全にGBW特化型です
+![tb_cascode_opamp_result.png](image/tb_cascode_opamp_result.png)
+
 
 # 検波回路
 

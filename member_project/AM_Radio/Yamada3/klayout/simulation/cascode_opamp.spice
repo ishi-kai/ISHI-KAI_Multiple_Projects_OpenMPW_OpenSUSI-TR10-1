@@ -1,0 +1,27 @@
+** sch_path: /home/yutaka/01_proj/08_tr10-am-radio/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/member_project/AM_Radio/Yamada3/klayout/cascode_opamp.sch
+.subckt cascode_opamp VOUT VIN_N VIN_P VSS VDD iB
+*.PININFO VOUT:O VIN_N:I VIN_P:I VSS:I VDD:I iB:I
+MMM2 net2 net1 VDD VDD PMOS w=30u l=1u
+MMM4 OUT1 VB2 net5 VSS NMOS w=10u l=1u
+MMM7 VOUT iB VDD VDD PMOS w=300u l=1u
+MMM8 VOUT OUT1 VSS VSS NMOS w=200u l=1u
+MMM16 net1 net1 VDD VDD PMOS w=30u l=1u
+MMM17 OUT1 net3 net2 VDD PMOS w=30u l=1u
+MMM18 net3 net3 net1 VDD PMOS w=30u l=1u
+MMM19 net3 VB2 net4 VSS NMOS w=10u l=1u
+MMM20 net5 VIN_P net6 VSS NMOS w=80u l=1u
+MMM21 net4 VIN_N net6 VSS NMOS w=80u l=1u
+MMM22 net6 VB1 VSS VSS NMOS w=10u l=1u
+MMM3 net7 net11 OUT1 VSS NMOS w=20u l=1u
+MMM6 net8 net8 VSS VSS NMOS w=20u l=1u
+MMM13 VB2 VB2 VB1 VSS NMOS w=10u l=1u
+MMM14 VB1 VB1 VSS VSS NMOS w=10u l=1u
+MMM23 VB4 VB4 VDD VDD PMOS w=30u l=1u
+MMM24 VB2 iB net9 VDD PMOS w=30u l=1u
+MMM25 net9 VB4 VDD VDD PMOS w=30u l=1u
+MMM26 iB iB VB4 VDD PMOS w=30u l=1u
+MMM1 net11 iB net10 VDD PMOS w=30u l=1u
+MMM9 net10 VB4 VDD VDD PMOS w=30u l=1u
+MMM5 net11 net11 net8 VSS NMOS w=20u l=1u
+XXC1 net7 VOUT VSS F_CSIO x=28.5u y=28.5u A=812.2p P=114u
+.ends
