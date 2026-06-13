@@ -72,7 +72,7 @@ N 680 -580 760 -580 {lab=#net3}
 N 760 -630 760 -580 {lab=#net3}
 N 720 -530 840 -530 {lab=VB2}
 N 780 -530 780 -500 {lab=VB2}
-N 880 -530 920 -530 {lab=GND}
+N 880 -530 920 -530 {lab=VSS}
 N 880 -630 960 -630 {lab=VDD}
 N 960 -730 960 -630 {lab=VDD}
 N 600 -630 680 -630 {lab=VDD}
@@ -250,14 +250,14 @@ C {devices/lab_pin.sym} 140 -400 0 1 {name=p8 sig_type=std_logic lab=iB}
 C {devices/ipin.sym} 1870 -640 0 1 {name=p22 lab=iB}
 C {devices/lab_pin.sym} 1830 -640 0 0 {name=p33 sig_type=std_logic lab=iB}
 C {devices/lab_pin.sym} 1790 -270 0 0 {name=p13 sig_type=std_logic lab=OUT1}
+C {devices/lab_pin.sym} 1500 -580 0 1 {name=p1 sig_type=std_logic lab=VSS}
+C {MN.sym} 1160 -410 0 0 {name=MM5 model=NMOS w=20u l=1u m=1 as=0 ad=0 ps=0 pd=0 nrd=0 nrs=0}
 C {IP62LIB/CSIO.sym} 1470 -630 3 0 {name=XC1
 model=F_CSIO
 spiceprefix=X
-x=28.5u
-y=28.5u
+x=30u
+y=30u
 c="expr_eng( 0.6e-3 * @x * @y )"
 a="expr_eng( @x * @y )"
 p="expr_eng( 2 * ( @x + @y ) )"
 m=1}
-C {devices/lab_pin.sym} 1500 -580 0 1 {name=p1 sig_type=std_logic lab=VSS}
-C {MN.sym} 1160 -410 0 0 {name=MM5 model=NMOS w=20u l=1u m=1 as=0 ad=0 ps=0 pd=0 nrd=0 nrs=0}

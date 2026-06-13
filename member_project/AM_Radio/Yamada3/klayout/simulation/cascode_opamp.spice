@@ -23,5 +23,5 @@ MMM26 iB iB VB4 VDD PMOS w=30u l=1u
 MMM1 net11 iB net10 VDD PMOS w=30u l=1u
 MMM9 net10 VB4 VDD VDD PMOS w=30u l=1u
 MMM5 net11 net11 net8 VSS NMOS w=20u l=1u
-XXC1 net7 VOUT VSS F_CSIO x=28.5u y=28.5u A=812.2p P=114u
+XXC1 net7 VOUT VSS F_CSIO x=30u y=30u A=900p P=120u
 .ends
