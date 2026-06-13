@@ -85,6 +85,7 @@ save all
 # Transienst analysis
 tran 0.1u 1m 0 0.1u
 write tb_ideal_diode.raw
+exit
 .endc"}
 C {devices/lab_pin.sym} -150 -280 0 1 {name=p5 sig_type=std_logic lab=VOUT}
 C {devices/res.sym} -240 -280 1 0 {name=R2
