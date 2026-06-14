@@ -1,9 +1,8 @@
-v {xschem version=3.4.8RC file_version=1.3}
+v {xschem version=3.4.7RC file_version=1.2}
 G {}
 K {}
 V {}
 S {}
-F {}
 E {}
 L 4 540 -180 540 -120 {}
 L 4 540 -120 1040 -120 {}
@@ -257,7 +256,5 @@ model=F_CSIO
 spiceprefix=X
 x=30u
 y=30u
-c="expr_eng( 0.6e-3 * @x * @y )"
-a="expr_eng( @x * @y )"
-p="expr_eng( 2 * ( @x + @y ) )"
+c=0.54p
 m=1}

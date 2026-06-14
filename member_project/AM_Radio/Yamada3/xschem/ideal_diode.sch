@@ -51,8 +51,8 @@ C {devices/lab_pin.sym} -370 0 0 1 {name=l10 sig_type=std_logic lab=VREF}
 C {devices/lab_pin.sym} -370 40 0 1 {name=l11 sig_type=std_logic lab=iB}
 C {devices/lab_pin.sym} -370 80 0 1 {name=l12 sig_type=std_logic lab=VIN}
 C {devices/lab_pin.sym} -370 120 0 1 {name=l13 sig_type=std_logic lab=VOUT}
-C {DP.sym} 200 0 1 0 {name=D1 model=DP m=1}
-C {DP.sym} 70 160 1 0 {name=D2 model=DP m=1}
+C {DP.sym} 200 0 1 0 {name=D1 model=DP m=4}
+C {DP.sym} 70 160 1 0 {name=D2 model=DP m=4}
 C {CSIO.sym} -170 110 3 0 {name=C2
 model=F_CSIO
 c=0.5p
