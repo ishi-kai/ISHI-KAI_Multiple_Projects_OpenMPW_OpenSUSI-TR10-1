@@ -7,9 +7,8 @@ PTAT電流を生成し、ダイオードに流して定電圧を得る回路
 ### bgr_b
 定電流を生成し、抵抗に流して定電圧を得る回路（定電流はそのままカレントミラーして電流出力にもしている）
 
-## Schematic & Layout
-[Schematic](/schematic/)
-[Layout](/layout/)
+## Design data
+[design](/design/)
 
 ## Design Report
 [DesignReport_BGR_OpenSUSI-TR1um.pdf](/DesignReport_BGR_OpenSUSI-TR1um.pdf)
