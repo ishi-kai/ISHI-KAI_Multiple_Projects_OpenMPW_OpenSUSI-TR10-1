@@ -16,11 +16,11 @@ N 130 0 170 0 {lab=#net1}
 N 210 -70 210 -30 {lab=#net2}
 N 210 -70 290 -70 {lab=#net2}
 N 290 -70 290 20 {lab=#net2}
-C {MN.sym} 170 0 0 0 {name=M1 model=NMOS w=20u l=1u nrd=0 nrs=0 m=1 spiceprefix=X}
+C {MN.sym} 170 0 0 0 {name=M1 model=NMOS w=40u l=4u nrd=0 nrs=0 m=1 spiceprefix=X}
 C {devices/gnd.sym} 210 80 0 0 {name=l1 lab=0}
 C {devices/gnd.sym} 130 80 0 0 {name=l2 lab=0}
 C {devices/gnd.sym} 290 80 0 0 {name=l3 lab=0}
-C {devices/vsource.sym} 130 50 0 0 {name=V1 value=2.5 savecurrent=false}
+C {devices/vsource.sym} 130 50 0 0 {name=V1 value=1 savecurrent=false}
 C {devices/vsource.sym} 290 50 0 0 {name=V2 value=2.5 savecurrent=false}
 C {devices/code.sym} -260 180 0 0 {name=TR-1um_MODELS
 only_toplevel=true

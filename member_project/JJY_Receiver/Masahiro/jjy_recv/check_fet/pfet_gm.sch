@@ -22,9 +22,9 @@ only_toplevel=true
 format="tcleval( @value )"
 value=".include $::LIB/ip62_models"
 spice_ignore=false}
-C {MP.sym} 330 70 0 0 {name=M1 model=PMOS w=40u l=2u nrd=0 nrs=0 m=1 spiceprefix=X}
+C {MP.sym} 330 70 0 0 {name=M1 model=PMOS w=90u l=4u nrd=0 nrs=0 m=1 spiceprefix=X}
 C {devices/vsource.sym} 470 70 0 0 {name=V1 value=2.5 savecurrent=false}
-C {devices/vsource.sym} 270 40 0 0 {name=V2 value=2.5 savecurrent=false}
+C {devices/vsource.sym} 270 40 0 0 {name=V2 value=1 savecurrent=false}
 C {devices/gnd.sym} 470 10 2 0 {name=l1 lab=0}
 C {devices/code_shown.sym} 0 170 0 0 {name=s1 only_toplevel=false value="""
 .option savecurrent
@@ -39,7 +39,7 @@ dc v2 0 5 0.01
 plot -i(v1)
 plot @m.xm1.m1[gm]
 plot @m.xm1.m1[gds]
-dc v1 0 5 0.01 v2 2.0 3.0 0.2
+dc v1 0 5 0.01 v2 1.0 3.0 0.2
 plot -i(v1)
 
 .endc
