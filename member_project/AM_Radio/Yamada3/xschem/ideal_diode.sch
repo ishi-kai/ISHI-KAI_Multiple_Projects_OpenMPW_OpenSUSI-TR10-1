@@ -71,5 +71,5 @@ tc1=0
 tc2=0
 m=1}
 C {devices/lab_pin.sym} 290 230 0 1 {name=l14 sig_type=std_logic lab=VREF}
-C {devices/lab_pin.sym} 360 120 0 1 {name=l15 sig_type=std_logic lab=VSS}
+C {devices/lab_pin.sym} 360 120 0 1 {name=l15 sig_type=std_logic lab=VDD}
 C {cascode_opamp_2.sym} -80 0 0 0 {name=x1}
