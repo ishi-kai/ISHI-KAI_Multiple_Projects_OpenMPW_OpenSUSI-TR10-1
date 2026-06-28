@@ -5,112 +5,94 @@ V {}
 S {}
 F {}
 E {}
-N 0 -90 0 -50 {lab=VDD}
-N -70 -160 -30 -160 {lab=VN}
-N 30 -160 90 -160 {lab=VP}
-N 90 -160 90 30 {lab=VP}
-N -70 -160 -70 30 {lab=VN}
-N -70 30 -70 110 {lab=VN}
-N 90 30 90 110 {lab=VP}
-N -70 170 -70 210 {lab=VSS}
-N -70 210 0 210 {lab=VSS}
-N 50 210 90 210 {lab=VSS}
-N 90 170 90 210 {lab=VSS}
-N -70 210 -70 240 {lab=VSS}
-N -70 -260 -70 -160 {lab=VN}
-N 90 -260 90 -160 {lab=VP}
-N -60 -370 -30 -370 {lab=#net1}
-N 30 -370 60 -370 {lab=#net2}
-N -120 -300 -30 -300 {lab=VN}
-N -120 -340 -120 -300 {lab=VN}
-N 30 -300 120 -300 {lab=VP}
-N 120 -340 120 -300 {lab=VP}
-N -160 -260 -70 -260 {lab=VN}
-N 90 -260 160 -260 {lab=VP}
-N 90 210 190 210 {lab=VSS}
-N 50 -90 190 -90 {lab=VDD}
-N -0 -20 50 -20 {lab=VDD}
-N 50 -90 50 -20 {lab=VDD}
-N -0 30 0 40 {lab=VP}
-N -40 30 -40 70 {lab=VN}
-N -70 30 -40 30 {lab=VN}
-N -0 30 90 30 {lab=VP}
-N 0 100 0 210 {lab=VSS}
-N 0 70 50 70 {lab=VSS}
-N 50 70 50 210 {lab=VSS}
-N -120 -370 -120 -340 {lab=VN}
-N 120 -370 120 -340 {lab=VP}
-N 0 -90 50 -90 {lab=VDD}
-N -40 -20 -40 30 {lab=VN}
-N 0 10 -0 30 {lab=VP}
-N -0 210 50 210 {lab=VSS}
-N -160 -330 -160 -260 {lab=VN}
-N -160 -330 -120 -330 {lab=VN}
-N 160 -330 160 -260 {lab=VP}
-N 120 -330 160 -330 {lab=VP}
-N 190 -90 190 -0 {lab=VDD}
-N 190 60 190 210 {lab=VSS}
-C {devices/res.sym} 0 -160 1 0 {name=R1
-value=20000k
-footprint=1206
-device=resistor
-m=1}
-C {devices/capa.sym} 90 140 0 0 {name=C1
-m=1
-value=12.5p
-footprint=1206
-device="ceramic capacitor"}
-C {devices/capa.sym} -70 140 0 0 {name=C2
-m=1
-value=12.5p
-footprint=1206
-device="ceramic capacitor"}
-C {devices/ipin.sym} -70 240 0 0 {name=p1 lab=VSS}
-C {devices/ipin.sym} -70 -160 0 0 {name=p2 lab=VN}
-C {devices/ipin.sym} 90 -160 2 0 {name=p3 lab=VP}
-C {devices/ipin.sym} 0 -90 0 0 {name=p4 lab=VDD}
-C {devices/ind.sym} -90 -370 1 0 {name=L1
-m=1
-value=7.9k
-footprint=1206
-device=inductor}
-C {devices/capa.sym} 0 -370 1 0 {name=C3
-m=1
-value=2f
-footprint=1206
-device="ceramic capacitor"}
-C {devices/res.sym} 90 -370 1 0 {name=R2
-value=50k
-footprint=1206
-device=resistor
-m=1}
-C {devices/capa.sym} 0 -300 1 0 {name=C4
-m=1
-value=0.8p
-footprint=1206
-device="ceramic capacitor"}
-C {devices/code.sym} -330 -300 0 0 {name=TR-1um_MODELS
-only_toplevel=true
-format="tcleval( @value )"
-value=".include $::LIB/ip62_models"
-spice_ignore=false}
-C {devices/code_shown.sym} -500 -410 0 0 {name=spice only_toplevel=false value="""
-.option savecurrent
-*.options chgtol=1e-16 delmax=500n
-*.options delmax=500n
-.control
-save all
-tran 500n 0.5
-plot VP VN
-plot VN
-.endc
-"""}
-C {devices/vsource.sym} 190 30 0 0 {name=V1 value="pwl(0 0 100n 5)" savecurrent=false}
-C {devices/gnd.sym} -20 270 0 0 {name=l2 lab=0}
-C {devices/res.sym} -20 240 0 0 {name=R3
-value=0
-footprint=1206
-device=resistor
-m=1}
-C {MP.sym} -40 -20 0 0 {name=M1 model=PMOS w=12u l=10u nrd=0 nrs=0 m=1 spiceprefix=X}
-C {MN.sym} -40 70 0 0 {name=M2 model=NMOS w=4u l=10u nrd=0 nrs=0 m=1 spiceprefix=X}
+N 250 -160 250 -150 {lab=VSS}
+N 250 -290 250 -270 {lab=VDD}
+N 250 -70 250 -50 {lab=VDD}
+N -70 -110 200 -110 {lab=XTALN}
+N 670 -160 670 -150 {lab=VSS}
+N 670 -290 670 -270 {lab=VDD}
+N 670 -70 670 -50 {lab=VDD}
+N 320 -230 340 -230 {lab=VOP0}
+N 320 -110 340 -110 {lab=VON0}
+N 250 -190 250 -160 {lab=VSS}
+N 670 -190 670 -160 {lab=VSS}
+N 760 -230 900 -230 {lab=#net1}
+N 760 -110 900 -110 {lab=VOP}
+N 820 -160 830 -160 {lab=VSS}
+N 830 -180 830 -160 {lab=VSS}
+N 830 -180 840 -180 {lab=VSS}
+N 730 -160 740 -160 {lab=VDD}
+N 940 -180 950 -180 {lab=VDD}
+N 840 -180 850 -180 {lab=VSS}
+N 850 -180 860 -180 {lab=VSS}
+N 740 -230 760 -230 {lab=#net1}
+N 740 -110 760 -110 {lab=VOP}
+N 900 -110 960 -110 {lab=VOP}
+N 900 -230 960 -230 {lab=#net1}
+N 320 -290 320 -230 {lab=VOP0}
+N 320 -110 320 -50 {lab=VON0}
+N 150 -230 150 -110 {lab=XTALN}
+N 150 -230 200 -230 {lab=XTALN}
+N 390 -160 390 -150 {lab=VSS}
+N 390 -290 390 -270 {lab=VDD}
+N 390 -70 390 -50 {lab=VDD}
+N 390 -190 390 -160 {lab=VSS}
+N 460 -230 480 -230 {lab=VOP1}
+N 460 -110 480 -110 {lab=VON1}
+N 460 -290 460 -230 {lab=VOP1}
+N 460 -110 460 -50 {lab=VON1}
+N 530 -160 530 -150 {lab=VSS}
+N 530 -290 530 -270 {lab=VDD}
+N 530 -70 530 -50 {lab=VDD}
+N 530 -190 530 -160 {lab=VSS}
+N 600 -230 620 -230 {lab=VOP2}
+N 600 -110 620 -110 {lab=VON2}
+N 600 -290 600 -230 {lab=VOP2}
+N 600 -110 600 -50 {lab=VON2}
+N -70 -110 -70 -70 {lab=XTALN}
+N -70 -70 -40 -70 {lab=XTALN}
+N -70 -160 -70 -110 {lab=XTALN}
+N 70 -70 100 -70 {lab=XTALP}
+N 100 -160 100 -70 {lab=XTALP}
+N -70 -50 -40 -50 {lab=VDD}
+N -70 -30 -40 -30 {lab=VSS}
+C {devices/ipin.sym} -60 -280 0 0 {name=p1 lab=VSS}
+C {devices/opin.sym} 960 -230 0 0 {name=p2 lab=VON}
+C {devices/opin.sym} 960 -110 2 1 {name=p3 lab=VOP}
+C {devices/ipin.sym} -60 -300 0 0 {name=p4 lab=VDD}
+C {INV_X1.sym} 220 -110 2 1 {name=x2}
+C {devices/lab_pin.sym} 250 -290 0 0 {name=p5 sig_type=std_logic lab=VDD}
+C {devices/lab_pin.sym} 250 -50 0 0 {name=p8 sig_type=std_logic lab=VDD}
+C {INV_X4.sym} 640 -230 0 0 {name=x3}
+C {INV_X4.sym} 640 -110 2 1 {name=x4}
+C {devices/lab_pin.sym} 670 -290 0 0 {name=p9 sig_type=std_logic lab=VDD}
+C {devices/lab_pin.sym} 670 -50 0 0 {name=p10 sig_type=std_logic lab=VDD}
+C {INV_X1.sym} 900 -210 1 0 {name=x5}
+C {INV_X1.sym} 780 -130 3 0 {name=x6}
+C {devices/lab_pin.sym} 670 -170 0 0 {name=p11 sig_type=std_logic lab=VSS}
+C {devices/lab_pin.sym} 250 -170 0 0 {name=p12 sig_type=std_logic lab=VSS}
+C {devices/lab_pin.sym} 730 -160 0 0 {name=p13 sig_type=std_logic lab=VDD}
+C {devices/lab_pin.sym} 950 -180 0 1 {name=p14 sig_type=std_logic lab=VDD}
+C {devices/lab_pin.sym} 830 -160 0 1 {name=p15 sig_type=std_logic lab=VSS}
+C {devices/ipin.sym} 100 -160 2 1 {name=p16 lab=XTALP}
+C {devices/ipin.sym} -70 -160 2 1 {name=p17 lab=XTALN}
+C {devices/lab_pin.sym} 320 -290 0 0 {name=p20 sig_type=std_logic lab=VOP0}
+C {devices/lab_pin.sym} 320 -50 0 0 {name=p21 sig_type=std_logic lab=VON0}
+C {BUF_X1.sym} 220 -230 0 0 {name=x7}
+C {INV_X1.sym} 360 -110 2 1 {name=x1}
+C {devices/lab_pin.sym} 390 -290 0 0 {name=p22 sig_type=std_logic lab=VDD}
+C {devices/lab_pin.sym} 390 -50 0 0 {name=p23 sig_type=std_logic lab=VDD}
+C {devices/lab_pin.sym} 390 -170 0 0 {name=p24 sig_type=std_logic lab=VSS}
+C {INV_X1.sym} 360 -230 0 0 {name=x8}
+C {devices/lab_pin.sym} 460 -290 0 0 {name=p25 sig_type=std_logic lab=VOP1}
+C {devices/lab_pin.sym} 460 -50 0 0 {name=p26 sig_type=std_logic lab=VON1}
+C {INV_X2.sym} 500 -110 2 1 {name=x9}
+C {devices/lab_pin.sym} 530 -290 0 0 {name=p27 sig_type=std_logic lab=VDD}
+C {devices/lab_pin.sym} 530 -50 0 0 {name=p28 sig_type=std_logic lab=VDD}
+C {devices/lab_pin.sym} 530 -170 0 0 {name=p29 sig_type=std_logic lab=VSS}
+C {INV_X2.sym} 500 -230 0 0 {name=x10}
+C {devices/lab_pin.sym} 600 -290 0 0 {name=p30 sig_type=std_logic lab=VOP2}
+C {devices/lab_pin.sym} 600 -50 0 0 {name=p31 sig_type=std_logic lab=VON2}
+C {XTALOSC_INV.sym} -20 -20 0 0 {name=x11}
+C {devices/lab_pin.sym} -70 -50 0 0 {name=p6 sig_type=std_logic lab=VDD}
+C {devices/lab_pin.sym} -70 -30 0 0 {name=p7 sig_type=std_logic lab=VSS}
