@@ -1,4 +1,4 @@
-** sch_path: /home/taka/ISHI_Kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/member_project/AM_Radio/Yamada3/xschem/cascode_opamp_2.sch
+** sch_path: /home/taka/ISHI_Kai/TokaiRIKA_TR10/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/member_project/AM_Radio/Yamada3/xschem/cascode_opamp_2.sch
 .subckt cascode_opamp_2 VDD VSS VIN_P VIN_N VOUT iB
 *.PININFO VOUT:O VIN_N:I VIN_P:I VSS:I VDD:I iB:I
 MM2 net2 net1 VDD VDD PMOS w=30u l=1u nrd=0 nrs=0 m=1

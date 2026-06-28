@@ -1,16 +1,16 @@
-** sch_path: /home/taka/ISHI_Kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/member_project/AM_Radio/Yamada3/xschem/ideal_diode.sch
+** sch_path: /home/taka/ISHI_Kai/TokaiRIKA_TR10/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/member_project/AM_Radio/Yamada3/xschem/ideal_diode.sch
 .subckt ideal_diode VDD VSS VIN VOUT iB VREF
 *.PININFO VDD:B VIN:I VOUT:O VSS:B VREF:B iB:B
-DD1 opout VOUT DP A=51.84p P=57.6u
-DD2 VREF opout DP A=51.84p P=57.6u
-XC2 VOUT opout VSS F_CSIO C=5.4e-13 A=900p P=120u X=29.9999996628 Y=30.0000003372 m=1
-XR1 VOUT VREF VSS F_RR w=4e-06 l=76.9e-06 R=20k tc1=0 tc2=0 m=1
+D1 opout VOUT DP A=51.84p P=57.6u
+D2 VREF opout DP A=51.84p P=57.6u
+C2 VOUT opout VSS F_CSIO C=5.4e-13 A=900p P=120u X=29.9999996628 Y=30.0000003372 m=1
+XR1 VOUT VREF VDD F_RR R=19.25 L=77u W=4u A=308p P=162u m=1
 x1 VDD VSS VIN VOUT opout iB cascode_opamp_2
 .ends
 
 * expanding   symbol:  cascode_opamp_2.sym # of pins=6
-** sym_path: /home/taka/ISHI_Kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/member_project/AM_Radio/Yamada3/xschem/cascode_opamp_2.sym
-** sch_path: /home/taka/ISHI_Kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/member_project/AM_Radio/Yamada3/xschem/cascode_opamp_2.sch
+** sym_path: /home/taka/ISHI_Kai/TokaiRIKA_TR10/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/member_project/AM_Radio/Yamada3/xschem/cascode_opamp_2.sym
+** sch_path: /home/taka/ISHI_Kai/TokaiRIKA_TR10/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/member_project/AM_Radio/Yamada3/xschem/cascode_opamp_2.sch
 .subckt cascode_opamp_2 VDD VSS VIN_P VIN_N VOUT iB
 *.PININFO VOUT:O VIN_N:I VIN_P:I VSS:I VDD:I iB:I
 MM2 net2 net1 VDD VDD PMOS w=30u l=1u nrd=0 nrs=0 m=1
