@@ -1,0 +1,34 @@
+* Created by KLayout
+*** My special header ***
+
+* cell gilbert_cell
+* pin VSS
+* pin ifn
+* pin ifp
+* pin lon
+* pin lop
+* pin rfn
+* pin rfp
+* pin vb
+* pin vdd
+* pin vt
+.SUBCKT gilbert_cell VSS ifn ifp lon lop rfn rfp vb vdd vt
+* device instance $1 r0 *1 -814.2,1237.2 NMOS
+XM$1 \$23 rfn \$12 VSS NMOS L=2u W=20u AS=43p AD=43p PS=38.6u PD=38.6u
+* device instance $3 r0 *1 -854.2,1237.2 NMOS
+XM$3 \$21 rfp \$12 VSS NMOS L=2u W=20u AS=43p AD=43p PS=38.6u PD=38.6u
+* device instance $5 r0 *1 -844.2,1280.8 NMOS
+XM$5 ifp lon \$21 VSS NMOS L=2u W=20u AS=43p AD=43p PS=38.6u PD=38.6u
+* device instance $7 r0 *1 -864.2,1280.8 NMOS
+XM$7 ifn lop \$21 VSS NMOS L=2u W=20u AS=43p AD=43p PS=38.6u PD=38.6u
+* device instance $9 r0 *1 -804.2,1280.8 NMOS
+XM$9 ifp lop \$23 VSS NMOS L=2u W=20u AS=43p AD=43p PS=38.6u PD=38.6u
+* device instance $11 r0 *1 -824.2,1280.8 NMOS
+XM$11 ifn lon \$23 VSS NMOS L=2u W=20u AS=43p AD=43p PS=38.6u PD=38.6u
+* device instance $13 r0 *1 -834.2,1183.6 NMOS
+XM$13 \$12 vt VSS VSS NMOS L=2u W=20u AS=43p AD=43p PS=38.6u PD=38.6u
+* device instance $15 r0 *1 -823.8,1341.5 PMOS
+XM$15 ifn vb vdd vdd PMOS L=2u W=45.2u AS=97.18p AD=97.18p PS=76.4u PD=76.4u
+* device instance $17 r0 *1 -844.6,1341.5 PMOS
+XM$17 ifp vb vdd vdd PMOS L=2u W=45.2u AS=97.18p AD=97.18p PS=76.4u PD=76.4u
+.ENDS gilbert_cell
