@@ -1,0 +1,17 @@
+** sch_path: /home/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/member_project/JJY_Receiver/Masahiro/jjy_recv/diff_amp/fully_diff_amp.sch
+.subckt fully_diff_amp vb vdd vop von vss vinn vinp vt
+*.PININFO vop:O von:O vinp:I vb:I vt:I vinn:I vdd:B vss:B
+MM1 vop vb vdd vdd PMOS w=45u l=2u
+MM2 von vb vdd vdd PMOS w=45u l=2u
+MM3 net1 vt vss vss NMOS w=10u l=2u m=2
+MM7 von vinp net1 vss NMOS w=20u l=2u
+MM8 vop vinn net1 vss NMOS w=20u l=2u
+MM6 net2 net2 vop vdd PMOS w=45u l=8u
+MM9 net2 net2 vinn vdd PMOS w=45u l=8u
+MM5 net3 net3 von vdd PMOS w=45u l=8u
+MM10 net3 net3 vinp vdd PMOS w=45u l=8u
+MM12 vinn vinn vss vss NMOS w=12.6u l=8u
+MM13 vinn vinn vdd vdd PMOS w=34.4u l=8u
+MM11 vinp vinp vss vss NMOS w=12.6u l=8u
+MM14 vinp vinp vdd vdd PMOS w=34.4u l=8u
+.ends
