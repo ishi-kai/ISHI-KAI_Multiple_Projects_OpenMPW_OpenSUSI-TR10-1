@@ -5,12 +5,7 @@ V {}
 S {}
 F {}
 E {}
-N 460 610 510 610 {lab=ib}
-N 390 640 390 670 {lab=vss}
 N 550 640 550 670 {lab=vss}
-N 330 610 390 610 {lab=vss}
-N 330 610 330 670 {lab=vss}
-N 330 670 390 670 {lab=vss}
 N 550 610 600 610 {lab=vss}
 N 600 610 600 670 {lab=vss}
 N 550 670 600 670 {lab=vss}
@@ -18,15 +13,11 @@ N 550 430 550 445 {lab=vss}
 N 540 130 580 130 {lab=vb}
 N 390 130 460 130 {lab=vdd}
 N 620 130 690 130 {lab=vdd}
-N 390 670 550 670 {lab=vss}
 N 460 60 460 100 {lab=vdd}
 N 460 60 620 60 {lab=vdd}
 N 620 60 620 100 {lab=vdd}
-N 390 580 460 580 {lab=ib}
-N 460 580 460 610 {lab=ib}
 N 620 160 620 190 {lab=ifp}
 N 460 160 460 190 {lab=ifn}
-N 430 610 460 610 {lab=ib}
 N 500 130 540 130 {lab=vb}
 N 620 190 780 190 {lab=ifp}
 N 300 190 460 190 {lab=ifn}
@@ -37,7 +28,6 @@ N 250 430 290 430 {lab=rfp}
 N 330 300 410 300 {lab=vss}
 N 330 300 330 315 {lab=vss}
 N 250 300 330 300 {lab=vss}
-N 390 560 390 580 {lab=ib}
 N 250 370 410 370 {lab=#net1}
 N 330 370 330 400 {lab=#net1}
 N 750 300 830 300 {lab=vss}
@@ -70,8 +60,7 @@ N 410 330 410 370 {lab=#net1}
 N 550 500 550 580 {lab=#net3}
 C {MP.sym} 580 130 0 0 {name=M1 model=PMOS w=45u l=2u nrd=0 nrs=0 m=1 spiceprefix=X}
 C {MP.sym} 500 130 0 1 {name=M2 model=PMOS w=45u l=2u nrd=0 nrs=0 m=1 spiceprefix=X}
-C {MN.sym} 510 610 0 0 {name=M3 model=NMOS w=20u l=2u nrd=0 nrs=0 m=1 spiceprefix=X}
-C {MN.sym} 430 610 0 1 {name=M4 model=NMOS w=20u l=2u nrd=0 nrs=0 m=1 spiceprefix=X}
+C {MN.sym} 510 610 0 0 {name=M3 model=NMOS w=10u l=2u nrd=0 nrs=0 m=2 spiceprefix=X}
 C {devices/lab_pin.sym} 540 60 3 1 {name=p3 sig_type=std_logic lab=vdd}
 C {MN.sym} 290 430 0 0 {name=M7 model=NMOS w=20u l=2u nrd=0 nrs=0 m=1 spiceprefix=X}
 C {MN.sym} 790 430 0 1 {name=M8 model=NMOS w=20u l=2u nrd=0 nrs=0 m=1 spiceprefix=X}
@@ -84,11 +73,12 @@ C {devices/opin.sym} 780 190 0 0 {name=p1 lab=ifp}
 C {devices/opin.sym} 300 190 0 1 {name=p2 lab=ifn}
 C {devices/ipin.sym} 250 430 0 0 {name=p6 lab=rfp}
 C {devices/ipin.sym} 540 130 1 0 {name=p7 lab=vb}
-C {devices/ipin.sym} 390 560 1 0 {name=p8 lab=ib}
+C {devices/ipin.sym} 510 610 2 1 {name=p8 lab=vt
+}
 C {devices/ipin.sym} 820 430 0 1 {name=p9 lab=rfn}
 C {devices/lab_pin.sym} 690 130 0 1 {name=p4 sig_type=std_logic lab=vdd}
 C {devices/lab_pin.sym} 390 130 0 0 {name=p10 sig_type=std_logic lab=vdd}
-C {devices/lab_pin.sym} 470 670 3 0 {name=p12 sig_type=std_logic lab=vss}
+C {devices/lab_pin.sym} 550 670 3 0 {name=p12 sig_type=std_logic lab=vss}
 C {devices/lab_pin.sym} 550 445 3 0 {name=p15 sig_type=std_logic lab=vss}
 C {devices/lab_pin.sym} 85 180 0 1 {name=p18 sig_type=std_logic lab=vdd}
 C {devices/iopin.sym} 60 180 0 1 {name=p19 lab=vdd}
