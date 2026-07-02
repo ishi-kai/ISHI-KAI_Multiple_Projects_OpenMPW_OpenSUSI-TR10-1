@@ -113,3 +113,4 @@ C {devices/iopin.sym} 720 -680 0 1 {name=p16 lab=VSS}
 C {devices/iopin.sym} 720 -640 0 1 {name=p17 lab=iB}
 C {devices/iopin.sym} 720 -600 0 1 {name=p19 lab=iB1}
 C {devices/iopin.sym} 720 -560 0 1 {name=p20 lab=iB2}
+C {devices/lab_pin.sym} 960 -480 0 1 {name=p21 sig_type=std_logic lab=iB2}
