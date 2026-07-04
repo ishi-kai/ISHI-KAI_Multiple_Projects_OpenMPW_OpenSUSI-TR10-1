@@ -1,0 +1,6 @@
+** sch_path: /home/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/member_project/JJY_Receiver/Masahiro/jjy_recv/check_fet/check_lvs.sch
+.subckt check_lvs t1 t2 vss
+*.PININFO t1:B t2:B vss:B
+MXM1 t2 t1 vss vss NMOS w=3.4u l=1u
+MXM2 t1 t1 vss vss NMOS w=3.4u l=1u
+.ends

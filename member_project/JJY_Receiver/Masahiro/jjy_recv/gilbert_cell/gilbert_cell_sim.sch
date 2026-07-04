@@ -74,7 +74,6 @@ C {devices/lab_pin.sym} 890 320 1 0 {name=p9 sig_type=std_logic lab=lop}
 C {devices/lab_pin.sym} 930 320 1 0 {name=p10 sig_type=std_logic lab=lon}
 C {devices/lab_pin.sym} 1010 420 2 0 {name=p11 sig_type=std_logic lab=ifp}
 C {devices/lab_pin.sym} 1010 380 2 0 {name=p12 sig_type=std_logic lab=ifn}
-C {gilbert_cell.sym} 860 400 0 0 {name=x1}
 C {TR-1umLIB/MN.sym} 720 240 0 1 {name=XM1
 model=NMOS
 w=10u
@@ -88,3 +87,4 @@ pd=0
 nrd=0
 nrs=0}
 C {devices/gnd.sym} 680 290 0 0 {name=l8 lab=0}
+C {/home/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/member_project/JJY_Receiver/Masahiro/jjy_recv/gilbert_cell/gilbert_cell.sym} 860 400 0 0 {name=x1}
