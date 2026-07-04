@@ -1,0 +1,11 @@
+* Created by KLayout
+*** My special header ***
+
+* cell n_tail
+* pin VSS
+.SUBCKT n_tail VSS
+* device instance $1 r0 *1 -2.5,2.25 NMOS
+XM$1 \$8 \$6 \$10 VSS NMOS L=2u W=10u AS=28p AD=15p PS=25.6u PD=13u
+* device instance $2 r0 *1 2.5,2.25 NMOS
+XM$2 \$10 \$6 \$8 VSS NMOS L=2u W=10u AS=15p AD=28p PS=13u PD=25.6u
+.ENDS n_tail
