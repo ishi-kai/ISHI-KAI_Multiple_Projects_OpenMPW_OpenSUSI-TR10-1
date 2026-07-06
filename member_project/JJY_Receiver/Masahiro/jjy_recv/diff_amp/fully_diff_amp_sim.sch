@@ -104,7 +104,6 @@ device="ceramic capacitor"}
 C {devices/gnd.sym} 840 440 0 0 {name=l6 lab=0}
 C {devices/gnd.sym} 840 260 2 0 {name=l7 lab=0}
 C {devices/gnd.sym} 730 410 0 0 {name=l1 lab=0}
-C {fully_diff_amp.sym} 730 350 0 0 {name=x1}
 C {devices/isource.sym} 610 70 0 0 {name=I1 value=40u}
 C {devices/vdd.sym} 610 40 0 0 {name=l8 lab=VDD}
 C {TR-1umLIB/MN.sym} 650 170 0 1 {name=XM1
@@ -120,3 +119,4 @@ pd=0
 nrd=0
 nrs=0}
 C {devices/gnd.sym} 610 220 0 0 {name=l9 lab=0}
+C {/home/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/member_project/JJY_Receiver/Masahiro/jjy_recv/diff_amp/fully_diff_amp.sym} 730 350 0 0 {name=x1}

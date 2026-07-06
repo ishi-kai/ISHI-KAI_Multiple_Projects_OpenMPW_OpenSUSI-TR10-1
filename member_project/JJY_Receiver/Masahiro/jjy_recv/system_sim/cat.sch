@@ -13,7 +13,7 @@ N 870 360 870 370 {lab=von}
 N 870 310 870 320 {lab=vop}
 N 840 320 1010 320 {lab=vop}
 N 840 360 1010 360 {lab=von}
-N 1110 230 1110 260 {lab=#net2}
+N 1110 230 1110 260 {lab=#net1}
 N 1310 320 1330 320 {lab=ifn}
 N 1310 360 1330 360 {lab=ifp}
 N 20 470 20 480 {lab=lop}
@@ -22,6 +22,16 @@ N 1330 360 1330 370 {lab=ifp}
 N 1330 360 1350 360 {lab=ifp}
 N 1330 310 1330 320 {lab=ifn}
 N 1330 320 1350 320 {lab=ifn}
+N 710 130 710 150 {lab=#net1}
+N 710 140 760 140 {lab=#net1}
+N 760 140 760 250 {lab=#net1}
+N 750 180 760 180 {lab=#net1}
+N 760 200 1110 200 {lab=#net1}
+N 1110 200 1110 230 {lab=#net1}
+N 710 210 710 230 {lab=0}
+N 700 210 710 220 {lab=0}
+N 700 180 700 210 {lab=0}
+N 700 180 710 180 {lab=0}
 C {devices/code.sym} -10 40 0 0 {name=TR-1um_MODELS
 only_toplevel=true
 format="tcleval( @value )"
@@ -66,8 +76,8 @@ C {devices/lab_pin.sym} 930 320 3 1 {name=p4 sig_type=std_logic lab=vop}
 C {devices/lab_pin.sym} 930 360 1 1 {name=p5 sig_type=std_logic lab=von}
 C {devices/vdd.sym} 730 280 0 0 {name=l2 lab=VDD}
 C {devices/lab_pin.sym} 790 280 1 0 {name=p7 sig_type=std_logic lab=vb}
-C {devices/isource.sym} 760 220 0 0 {name=I0 value=40u}
-C {devices/vdd.sym} 760 190 0 0 {name=l14 lab=VDD}
+C {devices/isource.sym} 710 100 0 0 {name=I0 value=40u}
+C {devices/vdd.sym} 710 70 0 0 {name=l14 lab=VDD}
 C {devices/capa.sym} 870 280 2 0 {name=C1
 m=1
 value=100f
@@ -81,12 +91,10 @@ device="ceramic capacitor"}
 C {devices/gnd.sym} 870 430 0 0 {name=l6 lab=0}
 C {devices/gnd.sym} 870 250 2 0 {name=l7 lab=0}
 C {devices/gnd.sym} 760 400 0 0 {name=l8 lab=0}
-C {/home/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/member_project/JJY_Receiver/Masahiro/jjy_recv/diff_amp/fully_diff_amp.sym} 760 340 0 0 {name=x1}
+C {fully_diff_amp.sym} 760 340 0 0 {name=x1}
 C {/home/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/member_project/JJY_Receiver/Masahiro/jjy_recv/gilbert_cell/gilbert_cell.sym} 1160 340 0 0 {name=x2}
 C {devices/gnd.sym} 1160 420 0 0 {name=l1 lab=0}
 C {devices/vdd.sym} 1080 260 0 0 {name=l9 lab=VDD}
-C {devices/isource.sym} 1110 200 0 0 {name=I1 value=40u}
-C {devices/vdd.sym} 1110 170 0 0 {name=l11 lab=VDD}
 C {devices/lab_pin.sym} 1140 260 1 0 {name=p1 sig_type=std_logic lab=vb}
 C {devices/lab_pin.sym} 1190 260 1 0 {name=p11 sig_type=std_logic lab=lop
 }
@@ -134,3 +142,16 @@ value=100f
 footprint=1206
 device="ceramic capacitor"}
 C {devices/gnd.sym} 1330 250 2 0 {name=l12 lab=0}
+C {TR-1umLIB/MN.sym} 750 180 0 1 {name=XM1
+model=NMOS
+w=10u
+l=2u
+m=2
+spiceprefix=X
+as=0
+ad=0
+ps=0
+pd=0
+nrd=0
+nrs=0}
+C {devices/gnd.sym} 710 230 0 0 {name=l20 lab=0}
