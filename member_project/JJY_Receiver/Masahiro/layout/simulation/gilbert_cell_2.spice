@@ -1,5 +1,5 @@
 ** sch_path: /home/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/member_project/JJY_Receiver/Masahiro/jjy_recv/gilbert_cell/gilbert_cell.sch
-.subckt gilbert_cell vb ifn vdd ifp vss lop lon rfn rfp vt
+.subckt gilbert_cell_2 vb ifn vdd ifp vss lop lon rfn rfp vt
 *.PININFO ifp:O ifn:O rfp:I vb:I vt:I rfn:I vdd:B vss:B lon:I lop:I
 MM1 ifp vb vdd vdd PMOS w=45u l=2u
 MM2 ifn vb vdd vdd PMOS w=45u l=2u

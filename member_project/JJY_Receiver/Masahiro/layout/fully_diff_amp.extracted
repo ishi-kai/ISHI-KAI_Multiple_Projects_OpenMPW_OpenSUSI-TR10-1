@@ -1,0 +1,40 @@
+* Created by KLayout
+*** My special header ***
+
+* cell fully_diff_amp
+* pin vb
+* pin vdd
+* pin vinn
+* pin vinp
+* pin von
+* pin vop
+* pin vss
+* pin vt
+.SUBCKT fully_diff_amp vb vdd vinn vinp von vop vss vt
+* device instance $1 r0 *1 100,-32.1 PMOS
+XM$1 vdd vinn vinn vdd PMOS L=8u W=34.4u AS=73.96p AD=73.96p PS=60.2u PD=60.2u
+* device instance $3 r0 *1 100,-65.15 NMOS
+XM$3 vss vinn vinn vss NMOS L=8u W=12.6u AS=27.09p AD=27.09p PS=27.5u PD=27.5u
+* device instance $5 m90 *1 -171,-32.1 PMOS
+XM$5 vdd vinp vinp vdd PMOS L=8u W=34.4u AS=73.96p AD=73.96p PS=60.2u PD=60.2u
+* device instance $7 m90 *1 -171,-65.15 NMOS
+XM$7 vss vinp vinp vss NMOS L=8u W=12.6u AS=27.09p AD=27.09p PS=27.5u PD=27.5u
+* device instance $9 r0 *1 -43,70.65 PMOS
+XM$9 vdd vb von vdd PMOS L=2u W=45u AS=96.75p AD=67.5p PS=76.1u PD=51u
+* device instance $11 r0 *1 -33,70.65 PMOS
+XM$11 vdd vb vop vdd PMOS L=2u W=45u AS=67.5p AD=96.75p PS=51u PD=76.1u
+* device instance $13 r0 *1 -38,-44.2 NMOS
+XM$13 vss vt \$31 vss NMOS L=2u W=20u AS=43p AD=43p PS=38.6u PD=38.6u
+* device instance $15 r0 *1 -193.1,30.35 PMOS
+XM$15 \$I228 \$I228 von vdd PMOS L=8u W=45u AS=96.75p AD=67.5p PS=76.1u PD=51u
+* device instance $17 r0 *1 -171.1,30.35 PMOS
+XM$17 \$I228 \$I228 vinp vdd PMOS L=8u W=45u AS=67.5p AD=96.75p PS=51u PD=76.1u
+* device instance $19 m90 *1 122.1,30.35 PMOS
+XM$19 \$I229 \$I229 vop vdd PMOS L=8u W=45u AS=96.75p AD=67.5p PS=76.1u PD=51u
+* device instance $21 m90 *1 100.1,30.35 PMOS
+XM$21 \$I229 \$I229 vinn vdd PMOS L=8u W=45u AS=67.5p AD=96.75p PS=51u PD=76.1u
+* device instance $23 r0 *1 -43,6.4 NMOS
+XM$23 \$31 vinp von vss NMOS L=2u W=20u AS=43p AD=30p PS=38.6u PD=26u
+* device instance $25 r0 *1 -33,6.4 NMOS
+XM$25 \$31 vinn vop vss NMOS L=2u W=20u AS=30p AD=43p PS=26u PD=38.6u
+.ENDS fully_diff_amp
