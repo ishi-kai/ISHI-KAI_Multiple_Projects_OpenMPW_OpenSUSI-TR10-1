@@ -1,0 +1,16 @@
+** sch_path: /home/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/member_project/JJY_Receiver/Masahiro/jjy_recv/gilbert_cell/gilbert_cell.sch
+.subckt gilbert_cell_2 vb ifn vdd ifp vss lop lon rfn rfp vt
+*.PININFO ifp:O ifn:O rfp:I vb:I vt:I rfn:I vdd:B vss:B lon:I lop:I
+MM1 ifp vb vdd vdd PMOS w=45u l=2u
+MM2 ifn vb vdd vdd PMOS w=45u l=2u
+MM3 net3 vt vss vss NMOS w=10u l=2u m=2
+MM7 net1 rfp net3 vss NMOS w=20u l=2u
+MM8 net2 rfn net3 vss NMOS w=20u l=2u
+MM5 ifn lop net1 vss NMOS w=20u l=2u
+MM6 ifp lon net1 vss NMOS w=20u l=2u
+MM9 ifn lon net2 vss NMOS w=20u l=2u
+MM10 ifp lop net2 vss NMOS w=20u l=2u
+**** begin user architecture code
+* .include /home/ishi-kai/pdk/TR-1um/libs.tech/spice/models/ip62_models
+**** end user architecture code
+.ends

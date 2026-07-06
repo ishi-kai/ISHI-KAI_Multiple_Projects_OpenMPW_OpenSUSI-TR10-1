@@ -22,14 +22,6 @@ N -70 -160 -70 30 {lab=XTALN}
 N 0 100 0 130 {lab=VSS}
 N -70 -440 -70 -340 {lab=XTALN}
 N 90 -440 90 -340 {lab=XTALP}
-N -60 -550 -30 -550 {lab=#net1}
-N 30 -550 60 -550 {lab=#net2}
-N -120 -480 -30 -480 {lab=XTALN}
-N -120 -520 -120 -480 {lab=XTALN}
-N 30 -480 120 -480 {lab=XTALP}
-N 120 -520 120 -480 {lab=XTALP}
-N -160 -440 -70 -440 {lab=XTALN}
-N 90 -440 160 -440 {lab=XTALP}
 N -0 -20 50 -20 {lab=VDD}
 N 50 -90 50 -20 {lab=VDD}
 N -0 30 0 40 {lab=XTALP}
@@ -37,17 +29,11 @@ N -40 30 -40 70 {lab=XTALN}
 N -70 30 -40 30 {lab=XTALN}
 N -0 30 90 30 {lab=XTALP}
 N 0 70 50 70 {lab=VSS}
-N -120 -550 -120 -520 {lab=XTALN}
-N 120 -550 120 -520 {lab=XTALP}
 N 0 -90 50 -90 {lab=VDD}
 N -40 -20 -40 30 {lab=XTALN}
 N 0 10 -0 30 {lab=XTALP}
-N -160 -510 -160 -440 {lab=XTALN}
-N -160 -510 -120 -510 {lab=XTALN}
-N 160 -510 160 -440 {lab=XTALP}
-N 120 -510 160 -510 {lab=XTALP}
-N -160 -340 -130 -340 {lab=VSS}
-N 150 -340 180 -340 {lab=VSS}
+N -160 -380 -130 -380 {lab=VSS}
+N 150 -380 180 -380 {lab=VSS}
 N 50 70 50 130 {lab=VSS}
 N 0 130 50 130 {lab=VSS}
 N -70 -220 -70 -160 {lab=XTALN}
@@ -108,12 +94,12 @@ value=20000k
 footprint=1206
 device=resistor
 m=1}
-C {devices/capa.sym} 120 -340 3 0 {name=C1
+C {devices/capa.sym} 120 -380 3 0 {name=CL_offchip0
 m=1
 value=12.5p
 footprint=1206
 device="ceramic capacitor"}
-C {devices/capa.sym} -100 -340 1 0 {name=C2
+C {devices/capa.sym} -100 -380 1 1 {name=CL_offchip1
 m=1
 value=12.5p
 footprint=1206
@@ -122,26 +108,6 @@ C {devices/ipin.sym} 0 130 0 0 {name=p1 lab=VSS}
 C {devices/opin.sym} 960 -110 0 0 {name=p2 lab=VON}
 C {devices/opin.sym} 960 -230 2 1 {name=p3 lab=VOP}
 C {devices/ipin.sym} 0 -90 0 0 {name=p4 lab=VDD}
-C {devices/ind.sym} -90 -550 1 0 {name=L1
-m=1
-value=7.9k
-footprint=1206
-device=inductor}
-C {devices/capa.sym} 0 -550 1 0 {name=C3
-m=1
-value=2f
-footprint=1206
-device="ceramic capacitor"}
-C {devices/res.sym} 90 -550 1 0 {name=R2
-value=50k
-footprint=1206
-device=resistor
-m=1}
-C {devices/capa.sym} 0 -480 1 0 {name=C4
-m=1
-value=0.8p
-footprint=1206
-device="ceramic capacitor"}
 C {devices/code.sym} -450 -320 0 0 {name=TR-1um_MODELS
 only_toplevel=true
 format="tcleval( @value )"
@@ -150,8 +116,8 @@ spice_ignore=false}
 C {MP.sym} -40 -20 0 0 {name=M1 model=PMOS w=12u l=10u nrd=0 nrs=0 m=1 spiceprefix=X}
 C {MN.sym} -40 70 0 0 {name=M2 model=NMOS w=4u l=10u nrd=0 nrs=0 m=1 spiceprefix=X}
 C {INV_X1.sym} 220 -110 2 1 {name=x2}
-C {devices/lab_pin.sym} -160 -340 0 0 {name=p6 sig_type=std_logic lab=VSS}
-C {devices/lab_pin.sym} 180 -340 0 1 {name=p7 sig_type=std_logic lab=VSS}
+C {devices/lab_pin.sym} -160 -380 0 0 {name=p6 sig_type=std_logic lab=VSS}
+C {devices/lab_pin.sym} 180 -380 0 1 {name=p7 sig_type=std_logic lab=VSS}
 C {devices/lab_pin.sym} 250 -290 0 0 {name=p5 sig_type=std_logic lab=VDD}
 C {devices/lab_pin.sym} 250 -50 0 0 {name=p8 sig_type=std_logic lab=VDD}
 C {INV_X4.sym} 640 -230 0 0 {name=x3}
@@ -204,3 +170,4 @@ C {devices/lab_pin.sym} 530 -170 0 0 {name=p29 sig_type=std_logic lab=VSS}
 C {INV_X2.sym} 500 -230 0 0 {name=x10}
 C {devices/lab_pin.sym} 600 -290 0 0 {name=p30 sig_type=std_logic lab=VOP2}
 C {devices/lab_pin.sym} 600 -50 0 0 {name=p31 sig_type=std_logic lab=VON2}
+C {XTAL_model.sym} 10 -420 0 0 {name=x11}
