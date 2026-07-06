@@ -1,0 +1,14 @@
+** sch_path: /home/ishi-kai/OpenEDA-PDK_SetupScript/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/member_project/AM_Radio/Yamada3/xschem/current_mirror.sch
+.subckt current_mirror VDD VSS iB iB1 iB2
+*.PININFO VDD:B VSS:B iB:B iB1:B iB2:B
+MM13 VB2 VB2 VB1 VSS NMOS w=10u l=1u nrd=0 nrs=0
+MM14 VB1 VB1 VSS VSS NMOS w=10u l=1u nrd=0 nrs=0
+MM23 VB4 VB4 VDD VDD PMOS w=30u l=1u nrd=0 nrs=0
+MM24 VB2 iB net1 VDD PMOS w=30u l=1u nrd=0 nrs=0
+MM25 net1 VB4 VDD VDD PMOS w=30u l=1u nrd=0 nrs=0
+MM26 iB iB VB4 VDD PMOS w=30u l=1u nrd=0 nrs=0
+MM1 iB1 VB2 net2 VSS NMOS w=10u l=1u nrd=0 nrs=0
+MM2 net2 VB1 VSS VSS NMOS w=10u l=1u nrd=0 nrs=0
+MM3 iB2 VB2 net3 VSS NMOS w=10u l=1u nrd=0 nrs=0
+MM4 net3 VB1 VSS VSS NMOS w=10u l=1u nrd=0 nrs=0
+.ends
