@@ -150,6 +150,27 @@ LPFのバッファはOPAMPをボルテージフォロワ構成で使用してい
 [tb_pa_tran.sch](xschem/tb_pa_tran.sch)
 ![tb_pa_tran](image/tb_pa_tran.png)
 
+## カレントミラー
+
+cascode_opamp と ideal_diode に供給するバイアス電流を生成するために、カレントミラーを作成しました。
+
+入力電流 `iB` を基準として、2つのバイアス電流 `iB1` と `iB2` を生成しています。
+
+- `iB1`：cascode_opamp に供給するバイアス電流
+- `iB2`：ideal_diode に供給するバイアス電流
+
+1つの基準電流から複数の回路へ同じバイアス電流を供給できるため、各回路の動作を安定させることができます。
+
+[current_mirror.sch](xschem/current_mirror.sch)
+
+### DC解析
+
+入力電流 `iB` をスイープし、`iB1` と `iB2` に同じ電流が出力されることを確認しました。
+
+[tb_current_mirror_dc.sch](xschem/tb_current_mirror_dc.sch)
+
+![tb_current_mirror_dc](image/tb_current_mirror_dc.png)
+
 # AMチップ外
 
 ## 同調回路
