@@ -1,0 +1,18 @@
+* Created by KLayout
+*** My special header ***
+
+* cell bias40u
+* pin ib40u
+* pin is40u
+* pin vdd
+* pin vss
+.SUBCKT bias40u ib40u is40u vdd vss
+* device instance $1 r0 *1 10.85,40.4 NMOS
+XM$1 vss ib40u ib40u vss NMOS L=2u W=20u AS=43p AD=30p PS=38.6u PD=26u
+* device instance $3 r0 *1 20.85,40.4 NMOS
+XM$3 vss ib40u \$13 vss NMOS L=2u W=20u AS=30p AD=43p PS=26u PD=38.6u
+* device instance $5 r0 *1 10.85,104.65 PMOS
+XM$5 vdd vdd is40u vdd PMOS L=2u W=45u AS=96.75p AD=67.5p PS=76.1u PD=51u
+* device instance $7 r0 *1 20.85,104.65 PMOS
+XM$7 vdd vdd \$13 vdd PMOS L=2u W=45u AS=67.5p AD=96.75p PS=51u PD=76.1u
+.ENDS bias40u

@@ -1,0 +1,8 @@
+** sch_path: /home/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/member_project/JJY_Receiver/Masahiro/jjy_recv/bias_for_mix_amp/bias40u.sch
+.subckt bias40u vdd ib40u is40u vss
+*.PININFO vss:B ib40u:B vdd:B is40u:O
+MXM1 ib40u ib40u vss vss NMOS w=10u l=2u m=2
+MXM2 net1 ib40u vss vss NMOS w=10u l=2u m=2
+MXM3 net1 vdd vdd vdd PMOS w=45u l=2u
+MXM4 is40u vdd vdd vdd PMOS w=45u l=2u
+.ends
