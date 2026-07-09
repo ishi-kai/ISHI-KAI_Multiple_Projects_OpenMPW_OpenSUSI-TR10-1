@@ -21,7 +21,6 @@ N 170 -290 170 -190 {lab=XTALN}
 N 330 -290 330 -190 {lab=XTALP}
 N 80 -230 110 -230 {lab=VSS}
 N 390 -230 420 -230 {lab=VSS}
-N 330 -190 330 -100 {lab=XTALP}
 N 170 -190 170 -100 {lab=XTALN}
 N 0 -140 0 -110 {lab=VSS}
 N 0 -230 0 -200 {lab=VDD}
@@ -30,6 +29,7 @@ N 170 -100 230 -100 {lab=XTALN}
 N 230 -100 230 -80 {lab=XTALN}
 N 260 -100 260 -80 {lab=XTALP}
 N 260 -100 330 -100 {lab=XTALP}
+N 330 -190 330 -100 {lab=XTALP}
 C {devices/res.sym} 240 -190 1 0 {name=R1
 value=20000k
 footprint=1206
@@ -54,11 +54,12 @@ value=".include $::LIB/ip62_models"
 spice_ignore=false}
 C {devices/lab_pin.sym} 80 -230 0 0 {name=p6 sig_type=std_logic lab=VSS}
 C {devices/lab_pin.sym} 420 -230 0 1 {name=p7 sig_type=std_logic lab=VSS}
-C {devices/code_shown.sym} -250 -160 0 0 {name=spice only_toplevel=false value="""
-#.option savecurrent
+C {devices/code_shown.sym} -320 50 0 0 {name=spice only_toplevel=false value="""
+.options savecurrent delmax=10n method=trap
 .control
+set units = d
 #save all
-tran 500n 0.2
+tran 1u 2
 plot VOP VON
 plot VOP0 VON0
 plot VOP1 VON1
@@ -74,9 +75,9 @@ footprint=1206
 device=resistor
 m=1}
 C {devices/gnd.sym} 0 -20 0 0 {name=l2 lab=0}
-C {XTAL_model.sym} 250 -270 0 0 {name=x11}
-C {XTALOSC.sym} 180 -20 0 0 {name=x12}
 C {devices/lab_pin.sym} 160 -50 0 0 {name=p1 sig_type=std_logic lab=VDD}
 C {devices/lab_pin.sym} 160 -30 0 0 {name=p4 sig_type=std_logic lab=VSS}
 C {devices/lab_pin.sym} 170 -100 0 0 {name=p5 sig_type=std_logic lab=XTALN}
 C {devices/lab_pin.sym} 330 -100 0 1 {name=p8 sig_type=std_logic lab=XTALP}
+C {/home/ishi-kai/Projects/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/member_project/JJY_Receiver/Masahiro/jjy_recv/XTALOSC/XTAL_model.sym} 250 -270 0 0 {name=x1}
+C {/home/ishi-kai/Projects/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/member_project/JJY_Receiver/Masahiro/jjy_recv/XTALOSC/XTALOSC.sym} 180 -20 0 0 {name=x3}
