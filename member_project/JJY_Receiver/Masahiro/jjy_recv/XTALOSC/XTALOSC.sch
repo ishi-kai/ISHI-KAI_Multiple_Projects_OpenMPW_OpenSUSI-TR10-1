@@ -58,7 +58,7 @@ N -70 -50 -40 -50 {lab=VDD}
 N -70 -30 -40 -30 {lab=VSS}
 C {devices/ipin.sym} -60 -280 0 0 {name=p1 lab=VSS}
 C {devices/opin.sym} 960 -230 0 0 {name=p2 lab=VON}
-C {devices/opin.sym} 960 -110 2 1 {name=p3 lab=VOP}
+C {devices/opin.sym} 950 -110 2 1 {name=p3 lab=VOP}
 C {devices/ipin.sym} -60 -300 0 0 {name=p4 lab=VDD}
 C {INV_X1.sym} 220 -110 2 1 {name=x2}
 C {devices/lab_pin.sym} 250 -290 0 0 {name=p5 sig_type=std_logic lab=VDD}
@@ -67,8 +67,6 @@ C {INV_X4.sym} 640 -230 0 0 {name=x3}
 C {INV_X4.sym} 640 -110 2 1 {name=x4}
 C {devices/lab_pin.sym} 670 -290 0 0 {name=p9 sig_type=std_logic lab=VDD}
 C {devices/lab_pin.sym} 670 -50 0 0 {name=p10 sig_type=std_logic lab=VDD}
-C {INV_X1.sym} 900 -210 1 0 {name=x5}
-C {INV_X1.sym} 780 -130 3 0 {name=x6}
 C {devices/lab_pin.sym} 670 -170 0 0 {name=p11 sig_type=std_logic lab=VSS}
 C {devices/lab_pin.sym} 250 -170 0 0 {name=p12 sig_type=std_logic lab=VSS}
 C {devices/lab_pin.sym} 730 -160 0 0 {name=p13 sig_type=std_logic lab=VDD}
@@ -93,6 +91,8 @@ C {devices/lab_pin.sym} 530 -170 0 0 {name=p29 sig_type=std_logic lab=VSS}
 C {INV_X2.sym} 500 -230 0 0 {name=x10}
 C {devices/lab_pin.sym} 600 -290 0 0 {name=p30 sig_type=std_logic lab=VOP2}
 C {devices/lab_pin.sym} 600 -50 0 0 {name=p31 sig_type=std_logic lab=VON2}
-C {XTALOSC_INV.sym} -20 -20 0 0 {name=x11}
 C {devices/lab_pin.sym} -70 -50 0 0 {name=p6 sig_type=std_logic lab=VDD}
 C {devices/lab_pin.sym} -70 -30 0 0 {name=p7 sig_type=std_logic lab=VSS}
+C {/home/ishi-kai/Projects/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/member_project/JJY_Receiver/Masahiro/jjy_recv/XTALOSC/XTALOSC_INV.sym} -20 -20 0 0 {name=x11}
+C {INV_X1.sym} 900 -210 1 0 {name=x5}
+C {INV_X1.sym} 780 -130 3 0 {name=x6}
