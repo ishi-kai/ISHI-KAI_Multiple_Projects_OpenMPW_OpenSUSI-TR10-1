@@ -205,7 +205,6 @@ footprint=1206
 device="ceramic capacitor"}
 C {devices/lab_pin.sym} 680 80 0 0 {name=p29 sig_type=std_logic lab=XTALN}
 C {devices/lab_pin.sym} 830 80 0 1 {name=p30 sig_type=std_logic lab=XTALP}
-C {XTALOSC.sym} 690 160 0 0 {name=x5}
 C {devices/lab_pin.sym} 860 190 0 1 {name=p11 sig_type=std_logic lab=VXOP}
 C {devices/lab_pin.sym} 840 190 0 0 {name=p12 sig_type=std_logic lab=VXON}
 C {devices/gnd.sym} 620 -50 1 0 {name=l25 lab=0}
@@ -246,10 +245,11 @@ C {devices/gnd.sym} 1030 550 3 1 {name=l11 lab=0}
 C {devices/lab_pin.sym} 440 290 1 0 {name=p1 sig_type=std_logic lab=VT}
 C {devices/lab_pin.sym} 1010 390 2 1 {name=p6 sig_type=std_logic lab=IBN40U}
 C {devices/vsource.sym} 120 90 0 0 {name=VDD value="pwl(0 0 1u 5)" savecurrent=false}
-C {XTAL_model.sym} 760 -70 0 0 {name=x6}
 C {devices/res.sym} 760 -10 1 0 {name=R1
 value=10000k
 footprint=1206
 device=resistor
 m=1}
 C {/home/ishi-kai/Projects/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/member_project/JJY_Receiver/Masahiro/jjy_recv/OBUF_SSF/OBUF_SSF.sym} 1160 390 0 0 {name=X1}
+C {/home/ishi-kai/Projects/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/member_project/JJY_Receiver/Masahiro/jjy_recv/XTALOSC/XTALOSC.sym} 690 160 0 0 {name=x5}
+C {/home/ishi-kai/Projects/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/member_project/JJY_Receiver/Masahiro/jjy_recv/XTALOSC/XTAL_model.sym} 760 -70 0 0 {name=x6}

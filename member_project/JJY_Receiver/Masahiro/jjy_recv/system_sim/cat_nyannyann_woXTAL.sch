@@ -205,7 +205,6 @@ footprint=1206
 device="ceramic capacitor"}
 C {devices/lab_pin.sym} 680 80 0 0 {name=p29 sig_type=std_logic lab=XTALN}
 C {devices/lab_pin.sym} 830 80 0 1 {name=p30 sig_type=std_logic lab=XTALP}
-C {XTALOSC.sym} 690 160 0 0 {name=x5}
 C {devices/lab_pin.sym} 860 190 0 1 {name=p11 sig_type=std_logic lab=VXOP}
 C {devices/lab_pin.sym} 840 190 0 0 {name=p12 sig_type=std_logic lab=VXON}
 C {devices/gnd.sym} 620 -50 1 0 {name=l25 lab=0}
@@ -249,3 +248,4 @@ C {devices/vsource.sym} 120 90 0 0 {name=VDD value="pwl(0 0 1u 5)" savecurrent=f
 C {devices/vsource.sym} 750 -120 0 0 {name=VINn4 value="pulse(0 5 13.1579u 100n 100n 13.1479u 26.315u)" savecurrent=false}
 C {devices/gnd.sym} 750 -90 0 0 {name=l16 lab=0}
 C {/home/ishi-kai/Projects/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/member_project/JJY_Receiver/Masahiro/jjy_recv/OBUF_SSF/OBUF_SSF.sym} 1160 390 0 0 {name=x1}
+C {/home/ishi-kai/Projects/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/member_project/JJY_Receiver/Masahiro/jjy_recv/XTALOSC/XTALOSC.sym} 690 160 0 0 {name=x5}
