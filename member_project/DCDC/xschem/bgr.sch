@@ -220,8 +220,6 @@ N 1010 100 1010 530 {lab=3v}
 N -400 540 -340 540 {lab=R6top}
 N -380 30 -380 810 {lab=vdd}
 N 910 80 910 100 {lab=3v}
-N 890 130 890 560 {lab=vss}
-N 870 160 910 160 {lab=#net19}
 C {MN.sym} 50 370 0 1 {name=M1 model=NMOS w=10u l=2u nrd=0 nrs=0 m=5 spiceprefix=X}
 C {MN.sym} 50 290 0 1 {name=M2 model=NMOS w=20u l=1u nrd=0 nrs=0 m=5 spiceprefix=X}
 C {MN.sym} 110 370 0 0 {name=M5 model=NMOS w=10u l=2u nrd=0 nrs=0 m=5 spiceprefix=X}
@@ -683,14 +681,5 @@ model=F_RR
 spiceprefix=X
 tc1=0
 tc2=0
-m=1}
-C {TR-1umLIB/CSIO.sym} 910 100 0 0 {name=XC1
-model=F_CSIO
-spiceprefix=X
-x=88.4u
-y=88.4u
-c="expr_eng( 0.6e-3 * @x * @y )"
-a="expr_eng( @x * @y )"
-p="expr_eng( 2 * ( @x + @y ) )"
 m=1}
 C {devices/lab_pin.sym} 870 290 0 1 {name=p28 sig_type=std_logic lab=X3out}
