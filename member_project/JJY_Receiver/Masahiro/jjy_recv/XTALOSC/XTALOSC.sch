@@ -8,7 +8,6 @@ E {}
 N 250 -160 250 -150 {lab=VSS}
 N 250 -290 250 -270 {lab=VDD}
 N 250 -70 250 -50 {lab=VDD}
-N -70 -110 200 -110 {lab=XTALN}
 N 670 -160 670 -150 {lab=VSS}
 N 670 -290 670 -270 {lab=VDD}
 N 670 -70 670 -50 {lab=VDD}
@@ -31,8 +30,8 @@ N 900 -110 960 -110 {lab=VOP}
 N 900 -230 960 -230 {lab=VON}
 N 320 -290 320 -230 {lab=VOP0}
 N 320 -110 320 -50 {lab=VON0}
-N 150 -230 150 -110 {lab=XTALN}
-N 150 -230 200 -230 {lab=XTALN}
+N 150 -230 150 -110 {lab=XTALP}
+N 150 -230 200 -230 {lab=XTALP}
 N 390 -160 390 -150 {lab=VSS}
 N 390 -290 390 -270 {lab=VDD}
 N 390 -70 390 -50 {lab=VDD}
@@ -50,12 +49,15 @@ N 600 -110 620 -110 {lab=VON2}
 N 600 -290 600 -230 {lab=VOP2}
 N 600 -110 600 -50 {lab=VON2}
 N -70 -110 -70 -70 {lab=XTALN}
-N -70 -70 -40 -70 {lab=XTALN}
 N -70 -160 -70 -110 {lab=XTALN}
-N 70 -70 100 -70 {lab=XTALP}
+N -70 -70 -40 -70 {lab=XTALN}
 N 100 -160 100 -70 {lab=XTALP}
 N -70 -50 -40 -50 {lab=VDD}
 N -70 -30 -40 -30 {lab=VSS}
+N 70 -70 100 -70 {lab=XTALP}
+N 100 -70 130 -70 {lab=XTALP}
+N 130 -110 130 -70 {lab=XTALP}
+N 130 -110 200 -110 {lab=XTALP}
 C {devices/ipin.sym} -60 -280 0 0 {name=p1 lab=VSS}
 C {devices/opin.sym} 960 -230 0 0 {name=p2 lab=VON}
 C {devices/opin.sym} 950 -110 2 1 {name=p3 lab=VOP}
