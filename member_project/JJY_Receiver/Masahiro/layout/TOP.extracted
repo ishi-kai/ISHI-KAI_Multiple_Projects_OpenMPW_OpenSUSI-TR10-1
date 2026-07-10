@@ -2,23 +2,32 @@
 *** My special header ***
 
 * cell TOP
-* pin VSS
-.SUBCKT TOP VSS
-* cell instance $1 r0 *1 213.65,-43.9
-X$1 \$5 \$11 VSS \$1 bias40u
-* cell instance $2 r0 *1 369.85,39
-X$2 \$1 \$2 VSS OBUF_SSF
+* pin ibn40u
+* pin vb
+* pin vdd
+* pin vinn
+* pin vinp
+* pin vout
+* pin vss
+* pin xtaln
+* pin xtalp
+.SUBCKT TOP ibn40u vb vdd vinn vinp vout vss xtaln xtalp
+* cell instance $1 r0 *1 -130.4,29.2
+X$1 vdd xtaln xtalp \$13 \$14 vss XTALOSC
 * cell instance $3 r0 *1 -82.9,-213.55
-X$3 \$4 \$2 VSS \$5 \$9 \$9 \$5 \$3 \$11 amp_and_mixer
-* cell instance $4 r0 *1 -130.4,29.2
-X$4 \$11 \$3 \$4 VSS XTALOSC
+X$3 \$14 vinp vinn \$7 \$12 vss ibn40u vb vb ibn40u \$13 vdd amp_and_mixer
+* cell instance $12 r0 *1 213.65,-43.9
+X$12 ibn40u vdd vss \$11 bias40u
+* cell instance $37 r0 *1 369.85,39
+X$37 \$11 \$12 vout vss OBUF_SSF
 .ENDS TOP
 
 * cell OBUF_SSF
 * pin IBN40U
 * pin VIN
+* pin VOUT
 * pin VSS
-.SUBCKT OBUF_SSF IBN40U VIN VSS
+.SUBCKT OBUF_SSF IBN40U VIN VOUT VSS
 * cell instance $1 r0 *1 5,-27.1
 X$1 \$1 VOUT VSS NMOS640um_CM
 * cell instance $3 r0 *1 -114.4,121.3
@@ -52,6 +61,9 @@ XM$4 is40u ib40u vss vss NMOS L=2u W=10u AS=15p AD=28p PS=13u PD=25.6u
 * cell amp_and_mixer
 * pin 
 * pin 
+* pin 
+* pin 
+* pin 
 * pin VSS
 * pin 
 * pin 
@@ -59,7 +71,7 @@ XM$4 is40u ib40u vss vss NMOS L=2u W=10u AS=15p AD=28p PS=13u PD=25.6u
 * pin 
 * pin 
 * pin 
-.SUBCKT amp_and_mixer \$1 \$7 VSS \$I14 \$I13 \$I12 \$I11 \$I10 \$I8
+.SUBCKT amp_and_mixer \$1 \$2 \$3 \$6 \$7 VSS \$I14 \$I13 \$I12 \$I11 \$I10 \$I8
 * cell instance $1 r0 *1 217.9,348.25
 X$1 \$I8 \$I14 \$7 \$6 \$I13 \$5 \$4 \$1 \$I10 VSS gilbert_cell_2
 * cell instance $4 r0 *1 217.9,91.45
@@ -68,10 +80,12 @@ X$4 \$I8 \$2 \$3 \$4 \$5 \$I12 VSS \$I11 fully_diff_amp
 
 * cell XTALOSC
 * pin VDD
+* pin XTALN
+* pin XTALP
 * pin VON
 * pin VOP
 * pin VSS
-.SUBCKT XTALOSC VDD VON VOP VSS
+.SUBCKT XTALOSC VDD XTALN XTALP VON VOP VSS
 * cell instance $2 m0 *1 76.6,121.3
 X$2 \$23 VON VDD VSS INV_X4
 * cell instance $3 m0 *1 60.1,121.3
