@@ -1,0 +1,133 @@
+* Created by KLayout
+*** My special header ***
+
+* cell amp_and_mixer
+* pin VSS
+.SUBCKT amp_and_mixer VSS
+* cell instance $2 r0 *1 217.9,348.25
+X$2 \$I8 \$2 \$8 \$7 \$6 \$5 VSS gilbert_cell_2
+* cell instance $4 r0 *1 217.9,91.45
+X$4 \$I8 \$3 \$4 \$5 \$6 VSS fully_diff_amp
+.ENDS amp_and_mixer
+
+* cell gilbert_cell_2
+* pin vdd
+* pin lop
+* pin ifn
+* pin ifp
+* pin rfn
+* pin rfp
+* pin vss
+.SUBCKT gilbert_cell_2 vdd lop ifn ifp rfn rfp vss
+* cell instance $5 r0 *1 -35.5,71.05
+X$5 vdd vdd vb ifn ifp p_current_source_pair
+* cell instance $31 r0 *1 -2.7,-7.5
+X$31 \$18 lon lop ifn ifp vss n_diff_amp_pair
+* cell instance $32 r0 *1 -68.3,-7.5
+X$32 \$19 lop lon ifn ifp vss n_diff_amp_pair
+* cell instance $35 m90 *1 -2.75,-150.7
+X$35 vt \$34 vss vss n_tail
+* cell instance $41 r0 *1 -35.5,-73.5
+X$41 \$34 rfp rfn \$19 \$18 vss n_diff_amp_pair
+.ENDS gilbert_cell_2
+
+* cell fully_diff_amp
+* pin vdd
+* pin vinp
+* pin vinn
+* pin von
+* pin vop
+* pin vss
+.SUBCKT fully_diff_amp vdd vinp vinn von vop vss
+* cell instance $1 r0 *1 -176.6,30.35
+X$1 von vdd vinp pseudo_res
+* cell instance $2 r0 *1 107.05,-55.4
+X$2 vinn vdd vss inv_bias
+* cell instance $3 r0 *1 -35.5,69.15
+X$3 vdd vdd vb vop von p_current_source_pair
+* cell instance $84 m90 *1 105.6,30.35
+X$84 vop vdd vinn pseudo_res
+* cell instance $91 m90 *1 -178.05,-55.4
+X$91 vinp vdd vss inv_bias
+* cell instance $103 r0 *1 -35.5,5.6
+X$103 \$25 vinp vinn von vop vss n_diff_amp_pair
+* cell instance $104 m90 *1 -2.75,-71.6
+X$104 \$I225 \$25 vss vss n_tail
+.ENDS fully_diff_amp
+
+* cell inv_bias
+* pin 
+* pin 
+* pin VSS
+.SUBCKT inv_bias \$1 \$2 VSS
+* device instance $1 r0 *1 -7.05,23.3 PMOS
+XM$1 \$2 \$1 \$1 \$2 PMOS L=8u W=17.2u AS=48.16p AD=25.8p PS=40u PD=20.2u
+* device instance $2 r0 *1 3.95,23.3 PMOS
+XM$2 \$1 \$1 \$2 \$2 PMOS L=8u W=17.2u AS=25.8p AD=48.16p PS=20.2u PD=40u
+* device instance $3 r0 *1 -7.05,-9.75 NMOS
+XM$3 VSS \$1 \$1 VSS NMOS L=8u W=6.3u AS=17.64p AD=9.45p PS=18.2u PD=9.3u
+* device instance $4 r0 *1 3.95,-9.75 NMOS
+XM$4 \$1 \$1 VSS VSS NMOS L=8u W=6.3u AS=9.45p AD=17.64p PS=9.3u PD=18.2u
+.ENDS inv_bias
+
+* cell p_current_source_pair
+* pin 
+* pin 
+* pin 
+* pin 
+* pin 
+.SUBCKT p_current_source_pair \$1 \$2 \$3 \$5 \$6
+* device instance $1 r0 *1 -7.5,1.5 PMOS
+XM$1 \$1 \$3 \$6 \$2 PMOS L=2u W=22.5u AS=63p AD=33.75p PS=50.6u PD=25.5u
+* device instance $2 r0 *1 -2.5,1.5 PMOS
+XM$2 \$6 \$3 \$1 \$2 PMOS L=2u W=22.5u AS=33.75p AD=33.75p PS=25.5u PD=25.5u
+* device instance $3 r0 *1 2.5,1.5 PMOS
+XM$3 \$1 \$3 \$5 \$2 PMOS L=2u W=22.5u AS=33.75p AD=33.75p PS=25.5u PD=25.5u
+* device instance $4 r0 *1 7.5,1.5 PMOS
+XM$4 \$5 \$3 \$1 \$2 PMOS L=2u W=22.5u AS=33.75p AD=63p PS=25.5u PD=50.6u
+.ENDS p_current_source_pair
+
+* cell n_tail
+* pin 
+* pin 
+* pin 
+* pin VSS
+.SUBCKT n_tail \$2 \$4 \$5 VSS
+* device instance $1 r0 *1 30.25,27.4 NMOS
+XM$1 \$5 \$2 \$4 VSS NMOS L=2u W=10u AS=28p AD=15p PS=25.6u PD=13u
+* device instance $2 r0 *1 35.25,27.4 NMOS
+XM$2 \$4 \$2 \$5 VSS NMOS L=2u W=10u AS=15p AD=28p PS=13u PD=25.6u
+.ENDS n_tail
+
+* cell pseudo_res
+* pin 
+* pin 
+* pin 
+.SUBCKT pseudo_res \$1 \$2 \$8
+* device instance $1 r0 *1 -16.5,0 PMOS
+XM$1 \$3 \$3 \$1 \$2 PMOS L=8u W=22.5u AS=63p AD=33.75p PS=50.6u PD=25.5u
+* device instance $2 r0 *1 -5.5,0 PMOS
+XM$2 \$1 \$3 \$3 \$2 PMOS L=8u W=22.5u AS=33.75p AD=33.75p PS=25.5u PD=25.5u
+* device instance $3 r0 *1 5.5,0 PMOS
+XM$3 \$3 \$3 \$8 \$2 PMOS L=8u W=22.5u AS=33.75p AD=33.75p PS=25.5u PD=25.5u
+* device instance $4 r0 *1 16.5,0 PMOS
+XM$4 \$8 \$3 \$3 \$2 PMOS L=8u W=22.5u AS=33.75p AD=63p PS=25.5u PD=50.6u
+.ENDS pseudo_res
+
+* cell n_diff_amp_pair
+* pin 
+* pin 
+* pin 
+* pin 
+* pin 
+* pin VSS
+.SUBCKT n_diff_amp_pair \$1 \$3 \$4 \$9 \$10 VSS
+* device instance $1 r0 *1 -7.5,0.8 NMOS
+XM$1 \$1 \$3 \$9 VSS NMOS L=2u W=10u AS=28p AD=15p PS=25.6u PD=13u
+* device instance $2 r0 *1 -2.5,0.8 NMOS
+XM$2 \$9 \$3 \$1 VSS NMOS L=2u W=10u AS=15p AD=15p PS=13u PD=13u
+* device instance $3 r0 *1 2.5,0.8 NMOS
+XM$3 \$1 \$4 \$10 VSS NMOS L=2u W=10u AS=15p AD=15p PS=13u PD=13u
+* device instance $4 r0 *1 7.5,0.8 NMOS
+XM$4 \$10 \$4 \$1 VSS NMOS L=2u W=10u AS=15p AD=28p PS=13u PD=25.6u
+.ENDS n_diff_amp_pair
