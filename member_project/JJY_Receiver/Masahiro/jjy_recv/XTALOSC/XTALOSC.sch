@@ -93,6 +93,6 @@ C {devices/lab_pin.sym} 600 -290 0 0 {name=p30 sig_type=std_logic lab=VOP2}
 C {devices/lab_pin.sym} 600 -50 0 0 {name=p31 sig_type=std_logic lab=VON2}
 C {devices/lab_pin.sym} -70 -50 0 0 {name=p6 sig_type=std_logic lab=VDD}
 C {devices/lab_pin.sym} -70 -30 0 0 {name=p7 sig_type=std_logic lab=VSS}
-C {/home/ishi-kai/Projects/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/member_project/JJY_Receiver/Masahiro/jjy_recv/XTALOSC/XTALOSC_INV.sym} -20 -20 0 0 {name=x11}
 C {INV_X1.sym} 900 -210 1 0 {name=x5}
 C {INV_X1.sym} 780 -130 3 0 {name=x6}
+C {XTALOSC/XTALOSC_INV.sym} -20 -20 0 0 {name=x11}
