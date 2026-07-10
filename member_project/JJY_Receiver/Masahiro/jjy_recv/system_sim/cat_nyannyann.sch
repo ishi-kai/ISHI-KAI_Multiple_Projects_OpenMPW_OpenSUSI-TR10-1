@@ -160,7 +160,6 @@ device="ceramic capacitor"}
 C {devices/gnd.sym} 550 440 0 0 {name=l6 lab=0}
 C {devices/gnd.sym} 550 260 2 0 {name=l7 lab=0}
 C {devices/gnd.sym} 440 410 0 0 {name=l8 lab=0}
-C {/home/ishi-kai/Projects/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/member_project/JJY_Receiver/Masahiro/jjy_recv/gilbert_cell/gilbert_cell.sym} 740 350 0 0 {name=x2}
 C {devices/gnd.sym} 740 430 0 0 {name=l1 lab=0}
 C {devices/vdd.sym} 660 270 0 0 {name=l9 lab=VDD}
 C {devices/lab_pin.sym} 890 330 1 0 {name=p13 sig_type=std_logic lab=ifn}
@@ -177,7 +176,6 @@ value=100f
 footprint=1206
 device="ceramic capacitor"}
 C {devices/gnd.sym} 910 260 2 0 {name=l12 lab=0}
-C {/home/ishi-kai/Projects/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/member_project/JJY_Receiver/Masahiro/jjy_recv/diff_amp/fully_diff_amp.sym} 440 350 0 0 {name=x3}
 C {devices/gnd.sym} 1010 430 1 0 {name=l21 lab=0}
 C {devices/lab_pin.sym} 1250 370 2 0 {name=p9 sig_type=std_logic lab=VSPEAKER}
 C {devices/res.sym} 1250 440 0 0 {name=R_SPEAKER
@@ -234,7 +232,6 @@ m=1
 value=100n
 footprint=1206
 device=polarized_capacitor}
-C {/home/ishi-kai/Projects/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/member_project/JJY_Receiver/Masahiro/jjy_recv/bias_for_mix_amp/bias40u.sym} 410 140 0 0 {name=x4}
 C {devices/vdd.sym} 510 110 0 0 {name=l15 lab=VDD}
 C {devices/lab_pin.sym} 550 150 2 0 {name=p22 sig_type=std_logic lab=IBN40U}
 C {devices/gnd.sym} 510 170 3 0 {name=l20 lab=0}
@@ -250,6 +247,9 @@ value=10000k
 footprint=1206
 device=resistor
 m=1}
-C {/home/ishi-kai/Projects/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/member_project/JJY_Receiver/Masahiro/jjy_recv/OBUF_SSF/OBUF_SSF.sym} 1160 390 0 0 {name=X1}
-C {/home/ishi-kai/Projects/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/member_project/JJY_Receiver/Masahiro/jjy_recv/XTALOSC/XTALOSC.sym} 690 160 0 0 {name=x5}
-C {/home/ishi-kai/Projects/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/member_project/JJY_Receiver/Masahiro/jjy_recv/XTALOSC/XTAL_model.sym} 760 -70 0 0 {name=x6}
+C {gilbert_cell/gilbert_cell.sym} 740 350 0 0 {name=x2}
+C {diff_amp/fully_diff_amp.sym} 440 350 0 0 {name=x3}
+C {OBUF_SSF/OBUF_SSF.sym} 1160 390 0 0 {name=x1}
+C {bias_for_mix_amp/bias40u.sym} 410 140 0 0 {name=x4}
+C {XTALOSC/XTALOSC.sym} 690 160 0 0 {name=x5}
+C {XTALOSC/XTAL_model.sym} 760 -70 0 0 {name=x6}

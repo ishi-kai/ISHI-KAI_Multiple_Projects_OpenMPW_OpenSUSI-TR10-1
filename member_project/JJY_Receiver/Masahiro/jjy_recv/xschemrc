@@ -1,0 +1,10 @@
+source [file join $env(HOME) .xschem xschemrc]
+
+set PROJECT_ROOT [file dirname [file normalize [info script]]]
+append XSCHEM_LIBRARY_PATH :$PROJECT_ROOT
+append XSCHEM_LIBRARY_PATH :$PROJECT_ROOT/gilbert_cell
+append XSCHEM_LIBRARY_PATH :$PROJECT_ROOT/diff_amp
+append XSCHEM_LIBRARY_PATH :$PROJECT_ROOT/bias_for_mix_amp
+append XSCHEM_LIBRARY_PATH :$PROJECT_ROOT/OBUF_SSF
+append XSCHEM_LIBRARY_PATH :$PROJECT_ROOT/XTALOSC
+
