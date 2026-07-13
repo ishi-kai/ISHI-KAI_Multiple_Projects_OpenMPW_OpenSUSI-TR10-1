@@ -248,3 +248,4 @@ C {OBUF_SSF/OBUF_SSF.sym} 1160 390 0 0 {name=x1}
 C {gilbert_cell/gilbert_cell.sym} 740 350 0 0 {name=x2}
 C {diff_amp/fully_diff_amp.sym} 440 350 0 0 {name=x3}
 C {XTALOSC/XTALOSC.sym} 690 160 0 0 {name=x4}
+C {bias_for_mix_amp/bias40u.sym} 410 140 0 0 {name=x5}
