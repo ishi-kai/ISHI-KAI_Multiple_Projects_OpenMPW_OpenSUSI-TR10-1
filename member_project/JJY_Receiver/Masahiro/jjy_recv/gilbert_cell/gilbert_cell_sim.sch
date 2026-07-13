@@ -44,6 +44,7 @@ show m
 
 tran 0.1u 100u
 plot v(rfp) v(rfn)
+plot v(rfp)-v(rfn)
 plot v(lop) v(lon)
 plot v(ifp) v(ifn)
 plot v(ifp)-v(ifn)
@@ -87,4 +88,4 @@ pd=0
 nrd=0
 nrs=0}
 C {devices/gnd.sym} 680 290 0 0 {name=l8 lab=0}
-C {/home/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/member_project/JJY_Receiver/Masahiro/jjy_recv/gilbert_cell/gilbert_cell.sym} 860 400 0 0 {name=x1}
+C {gilbert_cell/gilbert_cell.sym} 860 400 0 0 {name=x1}
