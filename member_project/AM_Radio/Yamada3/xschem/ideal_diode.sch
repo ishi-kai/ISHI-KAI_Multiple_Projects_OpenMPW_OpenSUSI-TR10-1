@@ -1,8 +1,9 @@
-v {xschem version=3.4.7RC file_version=1.2}
+v {xschem version=3.4.8RC file_version=1.3}
 G {}
 K {}
 V {}
 S {}
+F {}
 E {}
 N -80 -100 -80 -60 {lab=VDD}
 N -40 60 -40 80 {lab=iB}
@@ -28,7 +29,7 @@ N 70 160 100 160 {lab=opout}
 N 230 -0 330 0 {lab=VOUT}
 N 290 0 290 90 {lab=VOUT}
 N 290 150 290 230 {lab=VREF}
-N 310 120 360 120 {lab=VSS}
+N 310 120 360 120 {lab=VDD}
 N -110 110 20 110 {lab=opout}
 N 20 0 20 110 {lab=opout}
 N 100 -0 100 160 {lab=opout}
@@ -51,15 +52,6 @@ C {devices/lab_pin.sym} -370 0 0 1 {name=l10 sig_type=std_logic lab=VREF}
 C {devices/lab_pin.sym} -370 40 0 1 {name=l11 sig_type=std_logic lab=iB}
 C {devices/lab_pin.sym} -370 80 0 1 {name=l12 sig_type=std_logic lab=VIN}
 C {devices/lab_pin.sym} -370 120 0 1 {name=l13 sig_type=std_logic lab=VOUT}
-C {DP.sym} 200 0 1 0 {name=D1 model=DP m=4}
-C {DP.sym} 70 160 1 0 {name=D2 model=DP m=4}
-C {CSIO.sym} -170 110 3 0 {name=C2
-model=F_CSIO
-c=0.5p
-x=28.5u
-y=28.5u
-m=1
-spiceprefix=X}
 C {devices/lab_pin.sym} -140 190 0 0 {name=l4 sig_type=std_logic lab=VSS}
 C {IP62LIB/RR.sym} 290 90 0 0 {name=R1
 w=4e-06
@@ -73,3 +65,28 @@ m=1}
 C {devices/lab_pin.sym} 290 230 0 1 {name=l14 sig_type=std_logic lab=VREF}
 C {devices/lab_pin.sym} 360 120 0 1 {name=l15 sig_type=std_logic lab=VDD}
 C {cascode_opamp_2.sym} -80 0 0 0 {name=x1}
+C {TR-1umLIB/CSIO.sym} -170 110 3 0 {name=XC1
+model=F_CSIO
+spiceprefix=X
+x=30u
+y=30u
+c="expr_eng( 0.6e-3 * @x * @y )"
+a="expr_eng( @x * @y )"
+p="expr_eng( 2 * ( @x + @y ) )"
+m=1}
+C {TR-1umLIB/DP.sym} 200 0 1 0 {name=D1
+model=DP
+w=3.6u
+l=3.6u
+a="expr_eng( @w * @l )"
+p="expr_eng( 2 * ( @w + @l ) )"
+spiceprefix=D
+m=4}
+C {TR-1umLIB/DP.sym} 70 160 1 0 {name=D2
+model=DP
+w=3.6u
+l=3.6u
+a="expr_eng( @w * @l )"
+p="expr_eng( 2 * ( @w + @l ) )"
+spiceprefix=D
+m=4}
