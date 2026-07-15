@@ -65,7 +65,7 @@ m=1}
 C {devices/lab_pin.sym} 290 230 0 1 {name=l14 sig_type=std_logic lab=VREF}
 C {devices/lab_pin.sym} 360 120 0 1 {name=l15 sig_type=std_logic lab=VDD}
 C {cascode_opamp_2.sym} -80 0 0 0 {name=x1}
-C {TR-1umLIB/CSIO.sym} -170 110 3 0 {name=XC1
+C {TR-1umLIB/CSIO.sym} -110 110 1 1 {name=XC1
 model=F_CSIO
 spiceprefix=X
 x=30u

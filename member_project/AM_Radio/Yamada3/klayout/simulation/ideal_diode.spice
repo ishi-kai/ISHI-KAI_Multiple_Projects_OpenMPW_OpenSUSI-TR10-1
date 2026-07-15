@@ -3,7 +3,7 @@
 *.PININFO VDD:B VIN:I VOUT:O VSS:B VREF:B iB:B
 XR1 VOUT VREF VDD F_RR w=4e-06 l=76.9e-06
 x1 VDD VSS VIN VOUT opout iB cascode_opamp_2
-XXC1 VOUT opout VSS F_CSIO x=30u y=30u A=900p P=120u
+XXC1 opout VOUT VSS F_CSIO x=30u y=30u A=900p P=120u
 DD1 opout VOUT DP A=12.96p P=14.4u m=4
 DD2 VREF opout DP A=12.96p P=14.4u m=4
 .ends
