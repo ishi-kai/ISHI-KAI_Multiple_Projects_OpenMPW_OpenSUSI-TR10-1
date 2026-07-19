@@ -1,11 +1,11 @@
 ** sch_path: /home/taka/ISHI_Kai/TokaiRIKA_TR10/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/member_project/AM_Radio/Yamada3/xschem/ideal_diode.sch
 .subckt ideal_diode VDD VSS VIN VOUT iB VREF
 *.PININFO VDD:B VIN:I VOUT:O VSS:B VREF:B iB:B
-D1 opout VOUT DP A=51.84p P=57.6u
-D2 VREF opout DP A=51.84p P=57.6u
-C2 VOUT opout VSS F_CSIO C=5.4e-13 A=900p P=120u X=29.9999996628 Y=30.0000003372 m=1
-XR1 VOUT VREF VDD F_RR R=19.25 L=77u W=4u A=308p P=162u m=1
+XR1 VOUT VREF VDD F_RR w=4e-06 l=76.9e-06
 x1 VDD VSS VIN VOUT opout iB cascode_opamp_2
+XXC1 opout VOUT VSS F_CSIO x=30u y=30u A=900p P=120u
+DD1 opout VOUT DP A=12.96p P=14.4u m=4
+DD2 VREF opout DP A=12.96p P=14.4u m=4
 .ends
 
 * expanding   symbol:  cascode_opamp_2.sym # of pins=6
@@ -13,28 +13,28 @@ x1 VDD VSS VIN VOUT opout iB cascode_opamp_2
 ** sch_path: /home/taka/ISHI_Kai/TokaiRIKA_TR10/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/member_project/AM_Radio/Yamada3/xschem/cascode_opamp_2.sch
 .subckt cascode_opamp_2 VDD VSS VIN_P VIN_N VOUT iB
 *.PININFO VOUT:O VIN_N:I VIN_P:I VSS:I VDD:I iB:I
-MM2 net2 net1 VDD VDD PMOS w=30u l=1u nrd=0 nrs=0 m=1
-MM4 OUT1 VB2 net5 VSS NMOS w=10u l=1u nrd=0 nrs=0 m=1
-MM7 VOUT iB VDD VDD PMOS w=300u l=1u nrd=0 nrs=0 m=1
-MM8 VOUT OUT1 VSS VSS NMOS w=200u l=1u nrd=0 nrs=0 m=1
-MM16 net1 net1 VDD VDD PMOS w=30u l=1u nrd=0 nrs=0 m=1
-MM17 OUT1 net3 net2 VDD PMOS w=30u l=1u nrd=0 nrs=0 m=1
-MM18 net3 net3 net1 VDD PMOS w=30u l=1u nrd=0 nrs=0 m=1
-MM19 net3 VB2 net4 VSS NMOS w=10u l=1u nrd=0 nrs=0 m=1
-MM20 net5 VIN_P net6 VSS NMOS w=80u l=1u nrd=0 nrs=0 m=1
-MM21 net4 VIN_N net6 VSS NMOS w=80u l=1u nrd=0 nrs=0 m=1
-MM22 net6 VB1 VSS VSS NMOS w=10u l=1u nrd=0 nrs=0 m=1
-MM3 net7 net11 OUT1 VSS NMOS w=20u l=1u nrd=0 nrs=0 m=1
-MM6 net8 net8 VSS VSS NMOS w=20u l=1u nrd=0 nrs=0 m=1
-MM13 VB2 VB2 VB1 VSS NMOS w=10u l=1u nrd=0 nrs=0 m=1
-MM14 VB1 VB1 VSS VSS NMOS w=10u l=1u nrd=0 nrs=0 m=1
-MM23 VB4 VB4 VDD VDD PMOS w=30u l=1u nrd=0 nrs=0 m=1
-MM24 VB2 iB net9 VDD PMOS w=30u l=1u nrd=0 nrs=0 m=1
-MM25 net9 VB4 VDD VDD PMOS w=30u l=1u nrd=0 nrs=0 m=1
-MM26 iB iB VB4 VDD PMOS w=30u l=1u nrd=0 nrs=0 m=1
-MM1 net11 iB net10 VDD PMOS w=30u l=1u nrd=0 nrs=0 m=1
-MM9 net10 VB4 VDD VDD PMOS w=30u l=1u nrd=0 nrs=0 m=1
-MM5 net11 net11 net8 VSS NMOS w=20u l=1u nrd=0 nrs=0 m=1
-XC1 net7 VOUT VSS F_CSIO C=5.4e-13 A=900p P=120u X=29.9999996628 Y=30.0000003372 m=1
+MMM2 net2 net1 VDD VDD PMOS w=30u l=1u
+MMM4 OUT1 VB2 net5 VSS NMOS w=10u l=1u
+MMM7 VOUT iB VDD VDD PMOS w=300u l=1u
+MMM8 VOUT OUT1 VSS VSS NMOS w=200u l=1u
+MMM16 net1 net1 VDD VDD PMOS w=30u l=1u
+MMM17 OUT1 net3 net2 VDD PMOS w=30u l=1u
+MMM18 net3 net3 net1 VDD PMOS w=30u l=1u
+MMM19 net3 VB2 net4 VSS NMOS w=10u l=1u
+MMM20 net5 VIN_P net6 VSS NMOS w=80u l=1u
+MMM21 net4 VIN_N net6 VSS NMOS w=80u l=1u
+MMM22 net6 VB1 VSS VSS NMOS w=10u l=1u
+MMM3 net7 net11 OUT1 VSS NMOS w=20u l=1u
+MMM6 net8 net8 VSS VSS NMOS w=20u l=1u
+MMM13 VB2 VB2 VB1 VSS NMOS w=10u l=1u
+MMM14 VB1 VB1 VSS VSS NMOS w=10u l=1u
+MMM23 VB4 VB4 VDD VDD PMOS w=30u l=1u
+MMM24 VB2 iB net9 VDD PMOS w=30u l=1u
+MMM25 net9 VB4 VDD VDD PMOS w=30u l=1u
+MMM26 iB iB VB4 VDD PMOS w=30u l=1u
+MMM1 net11 iB net10 VDD PMOS w=30u l=1u
+MMM9 net10 VB4 VDD VDD PMOS w=30u l=1u
+MMM5 net11 net11 net8 VSS NMOS w=20u l=1u
+XXC1 net7 VOUT VSS F_CSIO x=30u y=30u A=900p P=120u
 .ends
 

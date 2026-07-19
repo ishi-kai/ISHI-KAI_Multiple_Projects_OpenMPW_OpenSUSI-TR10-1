@@ -1,0 +1,3 @@
+source [file join $env(HOME) .xschem xschemrc]
+source ../xschemrc
+
