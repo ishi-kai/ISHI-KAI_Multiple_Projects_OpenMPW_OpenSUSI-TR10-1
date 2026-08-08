@@ -1,17 +1,18 @@
-v {xschem version=3.4.7RC file_version=1.2}
+v {xschem version=3.4.8RC file_version=1.3}
 G {}
 K {}
 V {}
 S {}
+F {}
 E {}
 B 2 80 -430 880 -30 {flags=graph
-y2=2.7655592
+y2=2.2446534
 ypos1=0
 ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=0.00010024078
+x1=0.00022733946
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -20,22 +21,22 @@ dataset=-1
 unitx=1
 logx=0
 logy=0
-x2=0.0011518678
+x2=0.0007303147
 autoload=1
-y1=0.16103
+y1=-0.35987584
 sim_type=tran
 color=4
 node=VIN}
 B 2 80 30 880 430 {flags=graph
-y1=1.5027011
-y2=2.2167556
+y1=1.569216
+y2=2.0337112
 ypos1=0
 ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=0.00010024078
-x2=0.0011518678
+x1=0.00022733946
+x2=0.0007303147
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -85,7 +86,7 @@ save all
 # Transienst analysis
 tran 0.1u 1m 0 0.1u
 write tb_ideal_diode.raw
-exit
+*exit
 .endc"}
 C {devices/lab_pin.sym} -150 -280 0 1 {name=p5 sig_type=std_logic lab=VOUT}
 C {devices/res.sym} -240 -280 1 0 {name=R2
