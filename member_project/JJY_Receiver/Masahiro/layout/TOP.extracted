@@ -2,43 +2,43 @@
 *** My special header ***
 
 * cell TOP
+* pin VDDBUF
 * pin ibn40u
 * pin vb
 * pin vdd
-* pin vddbuf
 * pin vinn
 * pin vinp
 * pin vout
 * pin vss
 * pin xtaln
 * pin xtalp
-.SUBCKT TOP ibn40u vb vdd vddbuf vinn vinp vout vss xtaln xtalp
-* cell instance $1 r0 *1 27.45,283.6
-X$1 vdd xtaln xtalp \$26 \$19 vss XTALOSC
-* cell instance $218 r0 *1 391.4,210.5
-X$218 ibn40u vdd \$14 vss bias40u
-* cell instance $269 r0 *1 645.35,224.8
-X$269 \$14 \$20 vout vddbuf vss OBUF_SSF
-* cell instance $271 r0 *1 312.75,132.3
-X$271 vdd vinp vinn \$I270 \$I271 ibn40u vb vss fully_diff_amp
-* device instance $1 r0 *1 269.75,461.65 PMOS
-XM$1 vdd vb \$270.ifp vdd PMOS L=2u W=45u AS=96.75p AD=67.5p PS=76.1u PD=51u
-* device instance $3 r0 *1 279.75,461.65 PMOS
-XM$3 vdd vb \$20 vdd PMOS L=2u W=45u AS=67.5p AD=96.75p PS=51u PD=76.1u
-* device instance $5 m90 *1 279.75,265.8 NMOS
-XM$5 vss ibn40u \$I275 vss NMOS L=2u W=20u AS=43p AD=43p PS=38.6u PD=38.6u
+.SUBCKT TOP VDDBUF ibn40u vb vdd vinn vinp vout vss xtaln xtalp
+* cell instance $6 r0 *1 391.4,212
+X$6 ibn40u vdd \$30 vss bias40u
+* cell instance $15 r0 *1 27.45,283.6
+X$15 vdd xtaln xtalp \$35 \$28 vss XTALOSC
+* cell instance $510 r0 *1 658.45,274.8
+X$510 \$30 \$37 vout VDDBUF vss OBUF_SSF
+* cell instance $512 r0 *1 312.75,132.3
+X$512 vdd vinp vinn \$I2054 \$I2055 ibn40u vb vss fully_diff_amp
+* device instance $1 m90 *1 279.75,265.8 NMOS
+XM$1 vss ibn40u \$I2059 vss NMOS L=2u W=20u AS=43p AD=43p PS=38.6u PD=38.6u
+* device instance $3 r0 *1 236.95,382.4 NMOS
+XM$3 \$I2058 \$28 \$37 vss NMOS L=2u W=20u AS=43p AD=30p PS=38.6u PD=26u
+* device instance $5 r0 *1 246.95,382.4 NMOS
+XM$5 \$I2058 \$35 \$511.ifp vss NMOS L=2u W=20u AS=30p AD=43p PS=26u PD=38.6u
 * device instance $7 r0 *1 302.55,382.4 NMOS
-XM$7 \$I273 \$26 \$20 vss NMOS L=2u W=20u AS=43p AD=30p PS=38.6u PD=26u
+XM$7 \$I2057 \$35 \$37 vss NMOS L=2u W=20u AS=43p AD=30p PS=38.6u PD=26u
 * device instance $9 r0 *1 312.55,382.4 NMOS
-XM$9 \$I273 \$19 \$270.ifp vss NMOS L=2u W=20u AS=30p AD=43p PS=26u PD=38.6u
-* device instance $11 r0 *1 236.95,382.4 NMOS
-XM$11 \$I274 \$19 \$20 vss NMOS L=2u W=20u AS=43p AD=30p PS=38.6u PD=26u
-* device instance $13 r0 *1 246.95,382.4 NMOS
-XM$13 \$I274 \$26 \$270.ifp vss NMOS L=2u W=20u AS=30p AD=43p PS=26u PD=38.6u
-* device instance $15 r0 *1 269.75,316.4 NMOS
-XM$15 \$I275 \$I270 \$I274 vss NMOS L=2u W=20u AS=43p AD=30p PS=38.6u PD=26u
-* device instance $17 r0 *1 279.75,316.4 NMOS
-XM$17 \$I275 \$I271 \$I273 vss NMOS L=2u W=20u AS=30p AD=43p PS=26u PD=38.6u
+XM$9 \$I2057 \$28 \$511.ifp vss NMOS L=2u W=20u AS=30p AD=43p PS=26u PD=38.6u
+* device instance $11 r0 *1 269.75,316.4 NMOS
+XM$11 \$I2059 \$I2054 \$I2058 vss NMOS L=2u W=20u AS=43p AD=30p PS=38.6u PD=26u
+* device instance $13 r0 *1 279.75,316.4 NMOS
+XM$13 \$I2059 \$I2055 \$I2057 vss NMOS L=2u W=20u AS=30p AD=43p PS=26u PD=38.6u
+* device instance $15 r0 *1 269.75,461.65 PMOS
+XM$15 vdd vb \$511.ifp vdd PMOS L=2u W=45u AS=96.75p AD=67.5p PS=76.1u PD=51u
+* device instance $17 r0 *1 279.75,461.65 PMOS
+XM$17 vdd vb \$37 vdd PMOS L=2u W=45u AS=67.5p AD=96.75p PS=51u PD=76.1u
 .ENDS TOP
 
 * cell fully_diff_amp
@@ -59,24 +59,24 @@ XM$3 vss vinn vinn vss NMOS L=8u W=12.6u AS=27.09p AD=27.09p PS=27.5u PD=27.5u
 XM$5 vdd vinp vinp vdd PMOS L=8u W=34.4u AS=73.96p AD=73.96p PS=60.2u PD=60.2u
 * device instance $7 m90 *1 -171,-65.15 NMOS
 XM$7 vss vinp vinp vss NMOS L=8u W=12.6u AS=27.09p AD=27.09p PS=27.5u PD=27.5u
-* device instance $9 r0 *1 -43,70.65 PMOS
-XM$9 vdd vb von vdd PMOS L=2u W=45u AS=96.75p AD=67.5p PS=76.1u PD=51u
-* device instance $11 r0 *1 -33,70.65 PMOS
-XM$11 vdd vb vop vdd PMOS L=2u W=45u AS=67.5p AD=96.75p PS=51u PD=76.1u
-* device instance $13 m90 *1 -33,-44.2 NMOS
-XM$13 vss vt \$25 vss NMOS L=2u W=20u AS=43p AD=43p PS=38.6u PD=38.6u
-* device instance $15 r0 *1 -193.1,30.35 PMOS
-XM$15 \$I229 \$I229 von vdd PMOS L=8u W=45u AS=96.75p AD=67.5p PS=76.1u PD=51u
-* device instance $17 r0 *1 -171.1,30.35 PMOS
-XM$17 \$I229 \$I229 vinp vdd PMOS L=8u W=45u AS=67.5p AD=96.75p PS=51u PD=76.1u
-* device instance $19 m90 *1 122.1,30.35 PMOS
-XM$19 \$I230 \$I230 vop vdd PMOS L=8u W=45u AS=96.75p AD=67.5p PS=76.1u PD=51u
-* device instance $21 m90 *1 100.1,30.35 PMOS
-XM$21 \$I230 \$I230 vinn vdd PMOS L=8u W=45u AS=67.5p AD=96.75p PS=51u PD=76.1u
-* device instance $23 r0 *1 -43,6.4 NMOS
-XM$23 \$25 vinp von vss NMOS L=2u W=20u AS=43p AD=30p PS=38.6u PD=26u
-* device instance $25 r0 *1 -33,6.4 NMOS
-XM$25 \$25 vinn vop vss NMOS L=2u W=20u AS=30p AD=43p PS=26u PD=38.6u
+* device instance $9 m90 *1 -33,-44.2 NMOS
+XM$9 vss vt \$25 vss NMOS L=2u W=20u AS=43p AD=43p PS=38.6u PD=38.6u
+* device instance $11 r0 *1 -193.1,30.35 PMOS
+XM$11 \$I229 \$I229 von vdd PMOS L=8u W=45u AS=96.75p AD=67.5p PS=76.1u PD=51u
+* device instance $13 r0 *1 -171.1,30.35 PMOS
+XM$13 \$I229 \$I229 vinp vdd PMOS L=8u W=45u AS=67.5p AD=96.75p PS=51u PD=76.1u
+* device instance $15 m90 *1 122.1,30.35 PMOS
+XM$15 \$I230 \$I230 vop vdd PMOS L=8u W=45u AS=96.75p AD=67.5p PS=76.1u PD=51u
+* device instance $17 m90 *1 100.1,30.35 PMOS
+XM$17 \$I230 \$I230 vinn vdd PMOS L=8u W=45u AS=67.5p AD=96.75p PS=51u PD=76.1u
+* device instance $19 r0 *1 -43,6.4 NMOS
+XM$19 \$25 vinp von vss NMOS L=2u W=20u AS=43p AD=30p PS=38.6u PD=26u
+* device instance $21 r0 *1 -33,6.4 NMOS
+XM$21 \$25 vinn vop vss NMOS L=2u W=20u AS=30p AD=43p PS=26u PD=38.6u
+* device instance $23 r0 *1 -43,70.65 PMOS
+XM$23 vdd vb von vdd PMOS L=2u W=45u AS=96.75p AD=67.5p PS=76.1u PD=51u
+* device instance $25 r0 *1 -33,70.65 PMOS
+XM$25 vdd vb vop vdd PMOS L=2u W=45u AS=67.5p AD=96.75p PS=51u PD=76.1u
 .ENDS fully_diff_amp
 
 * cell bias40u
