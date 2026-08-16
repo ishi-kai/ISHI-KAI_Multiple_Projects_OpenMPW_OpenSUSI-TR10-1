@@ -127,8 +127,13 @@ IF出力信号
 
 ![Layout_top](image/top.png)
 
+# 参考文献
 
+- [JJY標準電波の受信とデコードに挑戦する](https://blog.goediy.com/?p=802)
 
+- [電波時計受信用 LSI の開発](https://jjy.nict.go.jp/QandA/reference/Proceeding/sympo-pro5.pdf)
+
+- LA1652FN タイムコード受信用ICデータシート
 
 
 
