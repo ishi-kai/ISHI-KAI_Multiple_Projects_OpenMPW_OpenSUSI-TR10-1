@@ -1,0 +1,37 @@
+Tiny555 / tr_1um_Tiny555 SIGNOFF
+================================
+
+NAME MAPPING
+------------
+Core file      : ../Tiny555.gds
+Core top cell  : Tiny555
+Core Xschem    : ../../xschem/Tiny555.sch + Tiny555.sym
+Core reference : ../simulation/Tiny555.spice (.subckt Tiny555)
+
+Frame file      : ../tr_1um_Tiny555.gds
+Frame top cell  : tr_1um_Tiny555
+Frame reference : ../simulation/tr_1um_Tiny555.spice
+                  (.subckt tr_1um_Tiny555)
+Testbench       : ../../xschem/tb_Tiny555_tran.sch -> Tiny555.sym
+
+DRC / LVS
+---------
+DEV  Tiny555          : DRC PASS 0 markers / LVS PASS
+DEV  tr_1um_Tiny555   : DRC PASS 0 markers / LVS PASS
+MAIN Tiny555          : DRC PASS 0 markers / LVS PASS
+MAIN tr_1um_Tiny555   : DRC PASS 0 markers / LVS PASS
+
+LVS XREF (CORE)
+  circuit=1, pins=7, nets=21, devices=34
+  all Match; warnings=0; mismatches=0
+
+LVS XREF (FRAME)
+  circuit=1, pins=18, nets=32, devices=64
+  all Match; warnings=0; mismatches=0
+
+NAME CONSISTENCY CHECK: PASS
+M1 LABEL CHECK: PASS (VDD VSS DISCH RAMP OUT, 5/5 on M1)
+
+PAD MAP
+  VDD=VDD, VSS=VSS, P11=DISCH, P12=RAMP, P13=OUT
+

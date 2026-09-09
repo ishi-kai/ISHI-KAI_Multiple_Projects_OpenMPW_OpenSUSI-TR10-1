@@ -1,0 +1,36 @@
+* Created by KLayout
+*** My special header ***
+
+* cell opamp_r2r_MR
+* pin INM
+* pin INP
+* pin OUT
+* pin VB
+* pin VDD
+* pin VSS
+.SUBCKT opamp_r2r_MR INM INP OUT VB VDD VSS
+* cell instance $1 r0 *1 781,-60.3
+X$1 OUT \$18 VDD \$1 \$3 \$2 VSS opamp_r2r_ABAMP_MR
+* cell instance $3 r0 *1 646.8,-3.4
+X$3 \$17 \$16 \$1 \$12 \$2 \$19 \$18 \$8 VDD \$3 \$11 \$14 \$15 VSS
++ opamp_r2r_cascode
+* cell instance $13 r0 *1 -1,0.2
+X$13 \$12 \$23 \$20 \$8 \$11 \$19 VB VDD VSS opamp_r2r_CS
+* cell instance $34 r0 *1 213.2,134.6
+X$34 \$23 \$12 \$15 \$14 INM INP \$17 \$16 VDD \$11 \$20 VSS opamp_r2r_diff_MR
+.ENDS opamp_r2r_MR
+
+* cell opamp_r2r_ABAMP_MR
+* pin OUT
+* pin AB_P
+* pin VDD
+* pin AB_N
+* pin CAP_P
+* pin CAP_N
+* pin VSS
+.SUBCKT opamp_r2r_ABAMP_MR OUT AB_P VDD AB_N CAP_P CAP_N VSS
+* device instance $1 r180 *1 320.9,34.8 PMOS
+XM$1 VDD AB_P OUT VDD PMOS L=4u W=576u AS=895.2p AD=895.2p PS=674.6u PD=674.6u
+* device instance $25 r180 *1 278.9,-38.2 NMOS
+XM$25 VSS AB_N OUT VSS NMOS L=4u W=288u AS=463.2p AD=463.2p PS=350.6u PD=350.6u
+* device instance $37 r270 *1 -14.2,-51.4 F_CSIO

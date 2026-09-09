@@ -1,0 +1,112 @@
+** sch_path: /mnt/c/Data/OneDrive/MyDocuments/Community/ISHIKAI/shuttle/OpenSUSI-TR10/2026/kyoto-ths/02/MR/opamp_r2r_MR.sch
+.subckt opamp_r2r_MR OUT VDD VSS VB INM INP
+*.PININFO OUT:O VDD:B VSS:B VB:I INM:I INP:I
+x1 net11 net12 net13 net14 VDD OUT VSS opamp_r2r_ABAMP_MR
+x2 VDD net1 net2 net6 net11 net7 net12 net13 net8 net14 net9 net3 net4 VSS opamp_r2r_cascode
+x3 VDD net5 net1 net2 net6 INM INP net9 net3 net4 net10 VSS opamp_r2r_diff_MR
+x4 VDD net5 net6 net7 VB net8 net9 net10 VSS opamp_r2r_CS
+.ends
+
+* expanding   symbol:  opamp_r2r_ABAMP_MR.sym # of pins=7
+** sym_path: /mnt/c/Data/OneDrive/MyDocuments/Community/ISHIKAI/shuttle/OpenSUSI-TR10/2026/kyoto-ths/02/MR/opamp_r2r_ABAMP_MR.sym
+** sch_path: /mnt/c/Data/OneDrive/MyDocuments/Community/ISHIKAI/shuttle/OpenSUSI-TR10/2026/kyoto-ths/02/MR/opamp_r2r_ABAMP_MR.sch
+.subckt opamp_r2r_ABAMP_MR AB_P CAP_P CAP_N AB_N VDD OUT VSS
+*.PININFO VDD:B VSS:B OUT:O AB_P:I AB_N:I CAP_P:I CAP_N:I
+MMDRVP OUT AB_P VDD VDD PMOS w=6u l=4u m=96
+MMDRVN OUT AB_N VSS VSS NMOS w=6u l=4u m=48
+XXCP2 CAP_P OUT VSS F_CSIO x=80.6u y=80.6u A=6.496n P=322.4u
+XXCP1 CAP_P OUT VSS F_CSIO x=80.6u y=80.6u A=6.496n P=322.4u
+XXCN2 CAP_N OUT VSS F_CSIO x=80.6u y=80.6u A=6.496n P=322.4u
+XXCN1 CAP_N OUT VSS F_CSIO x=80.6u y=80.6u A=6.496n P=322.4u
+.ends
+
+
+* expanding   symbol:  opamp_r2r_cascode.sym # of pins=14
+** sym_path: /mnt/c/Data/OneDrive/MyDocuments/Community/ISHIKAI/shuttle/OpenSUSI-TR10/2026/kyoto-ths/02/MR/opamp_r2r_cascode.sym
+** sch_path: /mnt/c/Data/OneDrive/MyDocuments/Community/ISHIKAI/shuttle/OpenSUSI-TR10/2026/kyoto-ths/02/MR/opamp_r2r_cascode.sch
+.subckt opamp_r2r_cascode VDD INP_N INM_N BPI AB_P BPF CAP_P CAP_N BNF AB_N BNI INM_P INP_P VSS
+*.PININFO VDD:B VSS:B INP_N:I AB_P:O AB_N:O CAP_P:O CAP_N:O INM_N:I INM_P:I INP_P:I BPI:I BPF:I BNF:I BNI:I
+MMCSMP1 INM_N net1 VDD VDD PMOS w=6u l=4u m=16
+MMCSMP2 net1 BPI INM_N VDD PMOS w=6u l=4u m=8
+MMCSMP3 net2 BPF net1 VDD PMOS w=6u l=4u m=4
+MMCSPP1 INP_N net1 VDD VDD PMOS w=6u l=4u m=16
+MMCSPP2 AB_P BPI INP_N VDD PMOS w=6u l=4u m=8
+MMCSPP3 AB_N BPF AB_P VDD PMOS w=6u l=4u m=4
+MMCSMN2 net2 BNI INM_P VSS NMOS w=6u l=4u m=4
+MMCSMN1 INM_P net2 VSS VSS NMOS w=6u l=4u m=8
+MMCSMN3 net1 BNF net2 VSS NMOS w=6u l=4u m=2
+MMCSPN3 AB_P BNF AB_N VSS NMOS w=6u l=4u m=2
+MMCSPN2 AB_N BNI INP_P VSS NMOS w=6u l=4u m=4
+MMCSPN1 INP_P net2 VSS VSS NMOS w=6u l=4u m=8
+MMSBPN2 net4 net4 net3 VSS NMOS w=6u l=4u m=2
+MMSBPN1 net3 net3 VSS VSS NMOS w=6u l=4u m=2
+MMSBPP1 net4 AB_P VDD VDD PMOS w=6u l=4u m=4
+MMSBNP1 net5 net5 VDD VDD PMOS w=6u l=4u m=4
+MMSBNP2 net6 net6 net5 VDD PMOS w=6u l=4u m=4
+MMSBNN1 net6 AB_N VSS VSS NMOS w=6u l=4u m=2
+MMSBNP3 CAP_P net6 INP_N VDD PMOS w=6u l=4u m=16
+MMSBPN3 CAP_N net4 INP_P VSS NMOS w=6u l=4u m=8
+MMSBPDMYN INP_P VSS VSS VSS NMOS w=6u l=4u m=2
+MMSBNDMYP INP_N VDD VDD VDD PMOS w=6u l=4u m=4
+MMCSMDMYP net2 VDD net1 VDD PMOS w=6u l=4u m=4
+MMCSPDMYP AB_N VDD AB_P VDD PMOS w=6u l=4u m=4
+MMCSMDMYN net1 VSS net2 VSS NMOS w=6u l=4u m=2
+MMCSPDMYN AB_P VSS AB_N VSS NMOS w=6u l=4u m=2
+.ends
+
+
+* expanding   symbol:  opamp_r2r_diff_MR.sym # of pins=12
+** sym_path: /mnt/c/Data/OneDrive/MyDocuments/Community/ISHIKAI/shuttle/OpenSUSI-TR10/2026/kyoto-ths/02/MR/opamp_r2r_diff_MR.sym
+** sch_path: /mnt/c/Data/OneDrive/MyDocuments/Community/ISHIKAI/shuttle/OpenSUSI-TR10/2026/kyoto-ths/02/MR/opamp_r2r_diff_MR.sch
+.subckt opamp_r2r_diff_MR VDD BPO INP_N INM_N BPI INM INP BNI INM_P INP_P BNO VSS
+*.PININFO VDD:B VSS:B INP:I INM:I INP_N:O INM_N:O INM_P:O INP_P:O BPO:I BPI:I BNI:I BNO:I
+MMINPP1 net1 BPO VDD VDD PMOS w=6u l=4u m=8
+MMINPP2 net2 BPI net1 VDD PMOS w=6u l=4u m=8
+MMINPP3 INP_P INP net2 VDD PMOS w=6u l=4u m=8
+MMINMP1 net3 BPO VDD VDD PMOS w=6u l=4u m=8
+MMINMP2 net2 BPI net3 VDD PMOS w=6u l=4u m=8
+MMINMP3 INM_P INM net2 VDD PMOS w=6u l=4u m=8
+MMINPN2 net4 BNI net5 VSS NMOS w=6u l=4u m=4
+MMINPN1 net5 BNO VSS VSS NMOS w=6u l=4u m=4
+MMINPN3 INP_N INP net4 VSS NMOS w=6u l=4u m=4
+MMINMN2 net4 BNI net6 VSS NMOS w=6u l=4u m=4
+MMINMN1 net6 BNO VSS VSS NMOS w=6u l=4u m=4
+MMINMN3 INM_N INM net4 VSS NMOS w=6u l=4u m=4
+.ends
+
+
+* expanding   symbol:  opamp_r2r_CS.sym # of pins=9
+** sym_path: /mnt/c/Data/OneDrive/MyDocuments/Community/ISHIKAI/shuttle/OpenSUSI-TR10/2026/kyoto-ths/02/MR/opamp_r2r_CS.sym
+** sch_path: /mnt/c/Data/OneDrive/MyDocuments/Community/ISHIKAI/shuttle/OpenSUSI-TR10/2026/kyoto-ths/02/MR/opamp_r2r_CS.sch
+.subckt opamp_r2r_CS VDD BPO BPI BPF VB BNF BNI BNO VSS
+*.PININFO VDD:B VSS:B VB:I BPO:O BPI:O BPF:O BNF:O BNI:O BNO:O
+MMB4P1 net1 BPO VDD VDD PMOS w=6u l=4u m=4
+MMB4P2 BPO BPI net1 VDD PMOS w=6u l=4u m=4
+MMB3P1 net2 BPI VDD VDD PMOS w=6u l=4u m=2
+MMB3P2 net3 BPI net2 VDD PMOS w=6u l=4u m=2
+MMB3P3 BPI BPI net3 VDD PMOS w=6u l=4u m=2
+MMB4N2 BPO BNI net4 VSS NMOS w=6u l=4u m=2
+MMB3N2 BPI BNI net5 VSS NMOS w=6u l=4u m=2
+MMB4N1 net4 BNO VSS VSS NMOS w=6u l=4u m=2
+MMB3N1 net5 BNO VSS VSS NMOS w=6u l=4u m=2
+MMB1N2 BNO BNI net7 VSS NMOS w=6u l=4u m=2
+MMB2N2 net6 BNI net8 VSS NMOS w=6u l=4u
+MMB1N1 net7 BNO VSS VSS NMOS w=6u l=4u m=2
+MMB2N1 net8 BNI VSS VSS NMOS w=6u l=4u
+MMB2N3 BNI BNI net6 VSS NMOS w=6u l=4u
+MMB5P1 net9 BPO VDD VDD PMOS w=6u l=4u m=4
+MMB5P2 BNF BPI net9 VDD PMOS w=6u l=4u m=4
+MMB5N2 net10 BNI net11 VSS NMOS w=6u l=4u m=2
+MMB5N1 net11 net10 VSS VSS NMOS w=6u l=4u m=2
+MMB5N3 BNF BNF net10 VSS NMOS w=6u l=4u m=2
+MMB6P1 net12 net14 VDD VDD PMOS w=6u l=4u m=4
+MMB6P2 net14 BPI net12 VDD PMOS w=6u l=4u m=4
+MMB6N2 BPF BNI net13 VSS NMOS w=6u l=4u m=2
+MMB6N1 net13 BNO VSS VSS NMOS w=6u l=4u m=2
+MMB6P3 BPF BPF net14 VDD PMOS w=6u l=4u m=4
+MMB2DMYN BNI VSS VSS VSS NMOS w=6u l=4u
+MMPVB1 BNI VB VDD VDD PMOS w=6u l=4u m=2
+MMPVB2 BNO VB VDD VDD PMOS w=6u l=4u m=2
+MMDMYP4 BPI VDD VDD VDD PMOS w=6u l=4u m=2
+.ends
+

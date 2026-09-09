@@ -1,0 +1,224 @@
+* Created by KLayout
+*** My special header ***
+
+* cell opamp_r2r_HK
+* pin INM
+* pin INP
+* pin OUT
+* pin VB
+* pin VDD
+* pin VSS
+.SUBCKT opamp_r2r_HK INM INP OUT VB VDD VSS
+* cell instance $1 r0 *1 1123.9,42.7
+X$1 OUT VDD \$2 \$1 \$16 \$15 VSS opamp_r2r_ABAMP_HK
+* cell instance $3 r0 *1 735.6,20.3
+X$3 \$20 \$19 \$2 \$21 \$15 \$11 \$1 \$12 VDD \$16 \$10 \$17 \$18 VSS
++ opamp_r2r_cascode
+* cell instance $7 r0 *1 6.3,-5.5
+X$7 \$21 \$I1 \$9 \$12 \$10 \$11 VB VDD VSS opamp_r2r_CS
+* cell instance $18 r0 *1 236.4,55.5
+X$18 INM \$19 \$20 VDD \$17 \$21 \$I1 \$18 INP \$10 \$9 VSS opamp_r2r_diff_HK
+.ENDS opamp_r2r_HK
+
+* cell opamp_r2r_ABAMP_HK
+* pin OUT
+* pin VDD
+* pin AB_N
+* pin AB_P
+* pin CAP_P
+* pin CAP_N
+* pin VSS
+.SUBCKT opamp_r2r_ABAMP_HK OUT VDD AB_N AB_P CAP_P CAP_N VSS
+* device instance $1 r0 *1 -83.6,8.5 PMOS
+XM$1 VDD AB_P OUT VDD PMOS L=4u W=576u AS=895.2p AD=895.2p PS=674.6u PD=674.6u
+* device instance $25 r0 *1 -41.6,-67.3 NMOS
+XM$25 VSS AB_N OUT VSS NMOS L=4u W=288u AS=463.2p AD=463.2p PS=350.6u PD=350.6u
+* device instance $37 r90 *1 -183.8,17.1 F_CSIO
+XC$37 CAP_P OUT VSS F_CSIO C=3.897816e-12 A=6496.36p P=322.4u X=80.6 Y=80.6 m=2
+* device instance $38 r90 *1 -283.2,-82.3 F_CSIO
+XC$38 CAP_N OUT VSS F_CSIO C=3.897816e-12 A=6496.36p P=322.4u X=80.6 Y=80.6 m=2
+.ENDS opamp_r2r_ABAMP_HK
+
+* cell opamp_r2r_cascode
+* pin INP_P
+* pin INM_P
+* pin AB_N
+* pin BNI
+* pin CAP_N
+* pin BNF
+* pin AB_P
+* pin BPF
+* pin 
+* pin CAP_P
+* pin BPI
+* pin INP_N
+* pin INM_N
+* pin VSS
+.SUBCKT opamp_r2r_cascode INP_P INM_P AB_N BNI CAP_N BNF AB_P BPF \$30 CAP_P
++ BPI INP_N INM_N VSS
+* device instance $1 r0 *1 -224.2,106.2 PMOS
+XM$1 INM_N \$20 \$30 \$30 PMOS L=4u W=96u AS=159.6p AD=159.6p PS=134.6u
++ PD=134.6u
+* device instance $9 m90 *1 -83.8,106.2 PMOS
+XM$9 INP_N \$20 \$30 \$30 PMOS L=4u W=96u AS=159.6p AD=159.6p PS=134.6u
++ PD=134.6u
+* device instance $17 r0 *1 -38.1,16.2 PMOS
+XM$17 CAP_P \$13 INP_N \$30 PMOS L=4u W=96u AS=159.6p AD=159.6p PS=134.6u
++ PD=134.6u
+* device instance $25 m90 *1 -116.8,-129.4 NMOS
+XM$25 INP_P \$6 VSS VSS NMOS L=4u W=48u AS=87.6p AD=87.6p PS=74.6u PD=74.6u
+* device instance $29 r0 *1 -191.2,-129.4 NMOS
+XM$29 INM_P \$6 VSS VSS NMOS L=4u W=48u AS=87.6p AD=87.6p PS=74.6u PD=74.6u
+* device instance $33 m90 *1 -130.8,-79.4 NMOS
+XM$33 AB_N BNI INP_P VSS NMOS L=4u W=24u AS=51.6p AD=51.6p PS=44.6u PD=44.6u
+* device instance $35 r0 *1 -177.2,-79.4 NMOS
+XM$35 \$6 BNI INM_P VSS NMOS L=4u W=24u AS=51.6p AD=51.6p PS=44.6u PD=44.6u
+* device instance $37 r0 *1 -196.2,61.2 PMOS
+XM$37 \$20 BPI INM_N \$30 PMOS L=4u W=48u AS=87.6p AD=87.6p PS=74.6u PD=74.6u
+* device instance $41 m90 *1 -111.8,61.2 PMOS
+XM$41 AB_P BPI INP_N \$30 PMOS L=4u W=48u AS=87.6p AD=87.6p PS=74.6u PD=74.6u
+* device instance $45 r0 *1 -25.2,-29.4 NMOS
+XM$45 CAP_N \$12 INP_P VSS NMOS L=4u W=48u AS=87.6p AD=87.6p PS=74.6u PD=74.6u
+* device instance $49 r0 *1 -216.2,-30.7 NMOS
+XM$49 \$6 VSS \$20 VSS NMOS L=4u W=12u AS=33.6p AD=33.6p PS=29.6u PD=29.6u
+* device instance $50 m90 *1 -183.8,-30.7 NMOS
+XM$50 \$6 BNF \$20 VSS NMOS L=4u W=12u AS=33.6p AD=33.6p PS=29.6u PD=29.6u
+* device instance $51 m90 *1 -91.8,-30.7 NMOS
+XM$51 AB_N VSS AB_P VSS NMOS L=4u W=12u AS=33.6p AD=33.6p PS=29.6u PD=29.6u
+* device instance $52 r0 *1 -124.2,-30.7 NMOS
+XM$52 AB_N BNF AB_P VSS NMOS L=4u W=12u AS=33.6p AD=33.6p PS=29.6u PD=29.6u
+* device instance $53 r0 *1 -55.2,-130.7 NMOS
+XM$53 INP_P VSS VSS VSS NMOS L=4u W=12u AS=33.6p AD=33.6p PS=29.6u PD=29.6u
+* device instance $54 r0 *1 -25.2,-80.7 NMOS
+XM$54 \$5 \$12 \$12 VSS NMOS L=4u W=12u AS=33.6p AD=33.6p PS=29.6u PD=29.6u
+* device instance $55 r0 *1 -25.2,-130.7 NMOS
+XM$55 VSS \$5 \$5 VSS NMOS L=4u W=12u AS=33.6p AD=33.6p PS=29.6u PD=29.6u
+* device instance $56 r0 *1 14.8,-80.7 NMOS
+XM$56 VSS AB_N \$13 VSS NMOS L=4u W=12u AS=33.6p AD=33.6p PS=29.6u PD=29.6u
+* device instance $57 r0 *1 -38.2,61.2 PMOS
+XM$57 \$12 AB_P \$30 \$30 PMOS L=4u W=24u AS=51.6p AD=51.6p PS=44.6u PD=44.6u
+* device instance $59 r0 *1 7.8,61.2 PMOS
+XM$59 \$13 \$13 \$53 \$30 PMOS L=4u W=24u AS=51.6p AD=51.6p PS=44.6u PD=44.6u
+* device instance $61 r0 *1 7.8,106.2 PMOS
+XM$61 \$53 \$53 \$30 \$30 PMOS L=4u W=24u AS=51.6p AD=51.6p PS=44.6u PD=44.6u
+* device instance $63 r0 *1 -48.2,106.2 PMOS
+XM$63 INP_N \$30 \$30 \$30 PMOS L=4u W=24u AS=51.6p AD=51.6p PS=44.6u PD=44.6u
+* device instance $65 m90 *1 -171.8,16.2 PMOS
+XM$65 \$6 BPF \$20 \$30 PMOS L=4u W=24u AS=51.6p AD=51.6p PS=44.6u PD=44.6u
+* device instance $67 r0 *1 -228.2,16.2 PMOS
+XM$67 \$6 \$30 \$20 \$30 PMOS L=4u W=24u AS=51.6p AD=51.6p PS=44.6u PD=44.6u
+* device instance $69 m90 *1 -79.8,16.2 PMOS
+XM$69 AB_N \$30 AB_P \$30 PMOS L=4u W=24u AS=51.6p AD=51.6p PS=44.6u PD=44.6u
+* device instance $71 r0 *1 -136.2,16.2 PMOS
+XM$71 AB_N BPF AB_P \$30 PMOS L=4u W=24u AS=51.6p AD=51.6p PS=44.6u PD=44.6u
+.ENDS opamp_r2r_cascode
+
+* cell opamp_r2r_diff_HK
+* pin INM
+* pin INM_P
+* pin INP_P
+* pin VDD
+* pin INP_N
+* pin BNI
+* pin BNO
+* pin INM_N
+* pin INP
+* pin BPI
+* pin BPO
+* pin VSS
+.SUBCKT opamp_r2r_diff_HK INM INM_P INP_P VDD INP_N BNI BNO INM_N INP BPI BPO
++ VSS
+* device instance $1 r0 *1 111.7,-117.7 NMOS
+XM$1 \$5 BNI \$3 VSS NMOS L=4u W=24u AS=51.6p AD=51.6p PS=44.6u PD=44.6u
+* device instance $3 r0 *1 111.6,-49.8 NMOS
+XM$3 \$3 INM INM_N VSS NMOS L=4u W=24u AS=51.6p AD=51.6p PS=44.6u PD=44.6u
+* device instance $5 r0 *1 111.3,-171.8 NMOS
+XM$5 \$5 BNO VSS VSS NMOS L=4u W=24u AS=51.6p AD=51.6p PS=44.6u PD=44.6u
+* device instance $7 r0 *1 11.4,-172.3 NMOS
+XM$7 \$7 BNO VSS VSS NMOS L=4u W=24u AS=51.6p AD=51.6p PS=44.6u PD=44.6u
+* device instance $9 r0 *1 11.8,-118.2 NMOS
+XM$9 \$7 BNI \$3 VSS NMOS L=4u W=24u AS=51.6p AD=51.6p PS=44.6u PD=44.6u
+* device instance $11 r0 *1 11.7,-50.3 NMOS
+XM$11 \$3 INP INP_N VSS NMOS L=4u W=24u AS=51.6p AD=51.6p PS=44.6u PD=44.6u
+* device instance $13 r0 *1 4.5,117.4 PMOS
+XM$13 VDD BPO \$I45 VDD PMOS L=4u W=48u AS=87.6p AD=87.6p PS=74.6u PD=74.6u
+* device instance $17 r0 *1 4.5,57.4 PMOS
+XM$17 \$1 BPI \$I45 VDD PMOS L=4u W=48u AS=87.6p AD=87.6p PS=74.6u PD=74.6u
+* device instance $21 r0 *1 4.5,-2.6 PMOS
+XM$21 INP_P INP \$1 VDD PMOS L=4u W=48u AS=87.6p AD=87.6p PS=74.6u PD=74.6u
+* device instance $25 m90 *1 125.5,117.4 PMOS
+XM$25 VDD BPO \$I46 VDD PMOS L=4u W=48u AS=87.6p AD=87.6p PS=74.6u PD=74.6u
+* device instance $29 m90 *1 125.5,57.4 PMOS
+XM$29 \$1 BPI \$I46 VDD PMOS L=4u W=48u AS=87.6p AD=87.6p PS=74.6u PD=74.6u
+* device instance $33 m90 *1 125.5,-2.6 PMOS
+XM$33 INM_P INM \$1 VDD PMOS L=4u W=48u AS=87.6p AD=87.6p PS=74.6u PD=74.6u
+.ENDS opamp_r2r_diff_HK
+
+* cell opamp_r2r_CS
+* pin BNI
+* pin BNO
+* pin BPO
+* pin BPF
+* pin BPI
+* pin BNF
+* pin VB
+* pin VDD
+* pin VSS
+.SUBCKT opamp_r2r_CS BNI BNO BPO BPF BPI BNF VB VDD VSS
+* device instance $1 r0 *1 -189.3,-70 NMOS
+XM$1 BNO BNI \$9 VSS NMOS L=4u W=12u AS=25.8p AD=25.8p PS=26.6u PD=26.6u
+* device instance $3 r0 *1 10,-70 NMOS
+XM$3 \$22 BNI \$5 VSS NMOS L=4u W=12u AS=25.8p AD=25.8p PS=26.6u PD=26.6u
+* device instance $5 r0 *1 -96.2,-70 NMOS
+XM$5 BPI BNI \$8 VSS NMOS L=4u W=12u AS=25.8p AD=25.8p PS=26.6u PD=26.6u
+* device instance $7 r0 *1 -50,-70 NMOS
+XM$7 BPO BNI \$7 VSS NMOS L=4u W=12u AS=25.8p AD=25.8p PS=26.6u PD=26.6u
+* device instance $9 r0 *1 70,-70 NMOS
+XM$9 BPF BNI \$4 VSS NMOS L=4u W=12u AS=25.8p AD=25.8p PS=26.6u PD=26.6u
+* device instance $11 r0 *1 70,-112.8 NMOS
+XM$11 VSS BNO \$4 VSS NMOS L=4u W=12u AS=25.8p AD=25.8p PS=26.6u PD=26.6u
+* device instance $13 r0 *1 -50,-112.8 NMOS
+XM$13 VSS BNO \$7 VSS NMOS L=4u W=12u AS=25.8p AD=25.8p PS=26.6u PD=26.6u
+* device instance $15 r0 *1 -96.2,-112.8 NMOS
+XM$15 VSS BNO \$8 VSS NMOS L=4u W=12u AS=25.8p AD=25.8p PS=26.6u PD=26.6u
+* device instance $17 r0 *1 -189.3,-112.8 NMOS
+XM$17 VSS BNO \$9 VSS NMOS L=4u W=12u AS=25.8p AD=25.8p PS=26.6u PD=26.6u
+* device instance $19 r0 *1 10,-112.8 NMOS
+XM$19 VSS \$22 \$5 VSS NMOS L=4u W=12u AS=25.8p AD=25.8p PS=26.6u PD=26.6u
+* device instance $21 r0 *1 10,-27.2 NMOS
+XM$21 BNF BNF \$22 VSS NMOS L=4u W=12u AS=25.8p AD=25.8p PS=26.6u PD=26.6u
+* device instance $23 r0 *1 -235.4,-114.1 NMOS
+XM$23 VSS BNI \$6 VSS NMOS L=4u W=6u AS=16.8p AD=16.8p PS=17.6u PD=17.6u
+* device instance $24 r0 *1 -235.4,-28.5 NMOS
+XM$24 \$13 BNI BNI VSS NMOS L=4u W=6u AS=16.8p AD=16.8p PS=17.6u PD=17.6u
+* device instance $25 r0 *1 -235.4,-71.3 NMOS
+XM$25 \$13 BNI \$6 VSS NMOS L=4u W=6u AS=16.8p AD=16.8p PS=17.6u PD=17.6u
+* device instance $26 r0 *1 -262.5,-28.5 NMOS
+XM$26 VSS VSS BNI VSS NMOS L=4u W=6u AS=16.8p AD=16.8p PS=17.6u PD=17.6u
+* device instance $27 r0 *1 -43,52.2 PMOS
+XM$27 BPO BPI \$43 VDD PMOS L=4u W=24u AS=43.8p AD=43.8p PS=44.6u PD=44.6u
+* device instance $31 r0 *1 17,94.2 PMOS
+XM$31 \$44 BPO VDD VDD PMOS L=4u W=24u AS=43.8p AD=43.8p PS=44.6u PD=44.6u
+* device instance $35 r0 *1 -43,94.2 PMOS
+XM$35 \$43 BPO VDD VDD PMOS L=4u W=24u AS=43.8p AD=43.8p PS=44.6u PD=44.6u
+* device instance $39 r0 *1 77,13.2 PMOS
+XM$39 BPF BPF \$38 VDD PMOS L=4u W=24u AS=43.8p AD=43.8p PS=44.6u PD=44.6u
+* device instance $43 r0 *1 77,52.2 PMOS
+XM$43 \$38 BPI \$45 VDD PMOS L=4u W=24u AS=43.8p AD=43.8p PS=44.6u PD=44.6u
+* device instance $47 r0 *1 17,52.2 PMOS
+XM$47 BNF BPI \$44 VDD PMOS L=4u W=24u AS=43.8p AD=43.8p PS=44.6u PD=44.6u
+* device instance $51 r0 *1 77,94.2 PMOS
+XM$51 \$45 \$38 VDD VDD PMOS L=4u W=24u AS=43.8p AD=43.8p PS=44.6u PD=44.6u
+* device instance $55 r0 *1 -228.4,52.2 PMOS
+XM$55 BNI VB VDD VDD PMOS L=4u W=12u AS=25.8p AD=25.8p PS=26.6u PD=26.6u
+* device instance $57 m90 *1 -171.8,52.2 PMOS
+XM$57 BNO VB VDD VDD PMOS L=4u W=12u AS=25.8p AD=25.8p PS=26.6u PD=26.6u
+* device instance $59 r0 *1 -136.2,13.2 PMOS
+XM$59 BPI VDD VDD VDD PMOS L=4u W=12u AS=25.8p AD=25.8p PS=26.6u PD=26.6u
+* device instance $61 r0 *1 -89.2,13.2 PMOS
+XM$61 BPI BPI \$51 VDD PMOS L=4u W=12u AS=25.8p AD=25.8p PS=26.6u PD=26.6u
+* device instance $63 r0 *1 -89.2,94.2 PMOS
+XM$63 \$56 BPI VDD VDD PMOS L=4u W=12u AS=25.8p AD=25.8p PS=26.6u PD=26.6u
+* device instance $65 r0 *1 -89.2,52.2 PMOS
+XM$65 \$51 BPI \$56 VDD PMOS L=4u W=12u AS=25.8p AD=25.8p PS=26.6u PD=26.6u
+.ENDS opamp_r2r_CS

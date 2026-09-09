@@ -1,0 +1,6 @@
+** sch_path: /workspace/ys4i_inv.sch
+.subckt ys4i_inv vout vin GND VDD
+*.PININFO vout:B vin:B GND:B VDD:B
+MXM1 vout vin VDD net1 PMOS w=3.4u l=1u
+MXM2 vout vin GND net2 NMOS w=3.4u l=1u
+.ends
