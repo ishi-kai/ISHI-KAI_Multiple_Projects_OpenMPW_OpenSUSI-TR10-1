@@ -1,0 +1,53 @@
+{
+  "upstream_gds_sha256": "df17be3b7582353514aeb8c9713d62d2c6305ffc22e59e6764488a9a9dd0346d",
+  "design_gds_sha256": "bf3fbe7ba308f51c86cf6477c6e8114bf2011aa93e142ce269145675af5c7d83",
+  "edits": [
+    {
+      "cell": "BUF_X4",
+      "add_m1_label": "GND",
+      "at_um": [
+        0,
+        0
+      ]
+    },
+    {
+      "cell": "NAND3",
+      "add_m1_label": "VDD",
+      "at_um": [
+        0,
+        55
+      ]
+    },
+    {
+      "cell": "OR3",
+      "add_m1_label": "VDD",
+      "at_um": [
+        0,
+        55
+      ]
+    },
+    {
+      "cell": "NAND3",
+      "signal_label_mapping": {
+        "A": "C",
+        "C": "A"
+      }
+    },
+    {
+      "cell": "OR3",
+      "signal_label_mapping": {
+        "B": "C",
+        "C": "B"
+      }
+    },
+    {
+      "cell": "OR4",
+      "signal_label_mapping": {
+        "A": "B",
+        "B": "A"
+      }
+    }
+  ],
+  "mask_geometry_changed": false,
+  "pdk_or_verification_decks_changed": false
+}

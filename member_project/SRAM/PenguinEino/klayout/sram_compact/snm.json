@@ -1,0 +1,30 @@
+{
+  "model_sha256": "251864d489d0e15a3081871763af29e1bbc8654ae55662bede40e0a7bbac1400",
+  "extracted_sha256": "0e470c13459b6239cd7911baa77c47538e90bf4336b0c674884ff3ef2a6ebb5a",
+  "results": [
+    {
+      "variant": "compact",
+      "mode": "hold",
+      "vdd_v": 5,
+      "temperature_c": 27,
+      "snm_v": 1.5372669849225225,
+      "lobes_v": [
+        1.5372669849225225,
+        1.5372669849225225
+      ],
+      "dc_step_v": 0.0025
+    },
+    {
+      "variant": "compact",
+      "mode": "read",
+      "vdd_v": 5,
+      "temperature_c": 27,
+      "snm_v": 0.4421274838373962,
+      "lobes_v": [
+        0.44212748383739653,
+        0.4421274838373962
+      ],
+      "dc_step_v": 0.0025
+    }
+  ]
+}

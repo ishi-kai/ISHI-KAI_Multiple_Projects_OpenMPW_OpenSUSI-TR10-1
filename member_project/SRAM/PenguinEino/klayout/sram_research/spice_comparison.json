@@ -1,0 +1,418 @@
+{
+  "model_file": "/home/ishi-kai/pdk/TR-1um/libs.tech/spice/models/models_IP62_mos_v2.lib",
+  "model_sha256": "251864d489d0e15a3081871763af29e1bbc8654ae55662bede40e0a7bbac1400",
+  "testbench_sha256": "d0fea849c5f8da5f735f0d5b4195cceb8bfa395256ec86a8cc8500ed70afb0a8",
+  "scope": "Actual 2x2 GDS extracted MOS including junction geometry; nominal process model; no wire RC or mismatch.",
+  "transient": [
+    {
+      "variant": "baseline",
+      "vdd_v": 5,
+      "temperature_c": -40,
+      "cbl": "10f",
+      "cy": "100f",
+      "pass": true,
+      "min_abs_read_diff_v": 4.99298,
+      "read_differentials_v": {
+        "diff_4": -4.99298,
+        "diff_5": 4.99298,
+        "diff_6": 4.99298,
+        "diff_7": -4.99298,
+        "diff_12": 4.99298,
+        "diff_13": -4.99298,
+        "diff_14": -4.99298,
+        "diff_15": 4.99298
+      },
+      "log": "build/sram_research/spice/baseline_-40_10f/ngspice.log"
+    },
+    {
+      "variant": "baseline",
+      "vdd_v": 5,
+      "temperature_c": -40,
+      "cbl": "100f",
+      "cy": "100f",
+      "pass": true,
+      "min_abs_read_diff_v": 4.99165,
+      "read_differentials_v": {
+        "diff_4": -4.99166,
+        "diff_5": 4.99166,
+        "diff_6": 4.99166,
+        "diff_7": -4.99166,
+        "diff_12": 4.99165,
+        "diff_13": -4.99166,
+        "diff_14": -4.99166,
+        "diff_15": 4.99166
+      },
+      "log": "build/sram_research/spice/baseline_-40_100f/ngspice.log"
+    },
+    {
+      "variant": "baseline",
+      "vdd_v": 5,
+      "temperature_c": -40,
+      "cbl": "1p",
+      "cy": "100f",
+      "pass": true,
+      "min_abs_read_diff_v": 4.39046,
+      "read_differentials_v": {
+        "diff_4": -4.39053,
+        "diff_5": 4.39052,
+        "diff_6": 4.39067,
+        "diff_7": -4.39066,
+        "diff_12": 4.39046,
+        "diff_13": -4.39052,
+        "diff_14": -4.39067,
+        "diff_15": 4.39066
+      },
+      "log": "build/sram_research/spice/baseline_-40_1p/ngspice.log"
+    },
+    {
+      "variant": "baseline",
+      "vdd_v": 5,
+      "temperature_c": 27,
+      "cbl": "10f",
+      "cy": "100f",
+      "pass": true,
+      "min_abs_read_diff_v": 4.98873,
+      "read_differentials_v": {
+        "diff_4": -4.98873,
+        "diff_5": 4.98873,
+        "diff_6": 4.98874,
+        "diff_7": -4.98874,
+        "diff_12": 4.98873,
+        "diff_13": -4.98873,
+        "diff_14": -4.98874,
+        "diff_15": 4.98874
+      },
+      "log": "build/sram_research/spice/baseline_27_10f/ngspice.log"
+    },
+    {
+      "variant": "baseline",
+      "vdd_v": 5,
+      "temperature_c": 27,
+      "cbl": "100f",
+      "cy": "100f",
+      "pass": true,
+      "min_abs_read_diff_v": 4.97857,
+      "read_differentials_v": {
+        "diff_4": -4.97857,
+        "diff_5": 4.97859,
+        "diff_6": 4.9786,
+        "diff_7": -4.9786,
+        "diff_12": 4.97857,
+        "diff_13": -4.97859,
+        "diff_14": -4.9786,
+        "diff_15": 4.9786
+      },
+      "log": "build/sram_research/spice/baseline_27_100f/ngspice.log"
+    },
+    {
+      "variant": "baseline",
+      "vdd_v": 5,
+      "temperature_c": 27,
+      "cbl": "1p",
+      "cy": "100f",
+      "pass": true,
+      "min_abs_read_diff_v": 3.72258,
+      "read_differentials_v": {
+        "diff_4": -3.72258,
+        "diff_5": 3.72268,
+        "diff_6": 3.72304,
+        "diff_7": -3.72303,
+        "diff_12": 3.72258,
+        "diff_13": -3.72268,
+        "diff_14": -3.72304,
+        "diff_15": 3.72303
+      },
+      "log": "build/sram_research/spice/baseline_27_1p/ngspice.log"
+    },
+    {
+      "variant": "baseline",
+      "vdd_v": 5,
+      "temperature_c": 85,
+      "cbl": "10f",
+      "cy": "100f",
+      "pass": true,
+      "min_abs_read_diff_v": 4.96268,
+      "read_differentials_v": {
+        "diff_4": -4.96268,
+        "diff_5": 4.96269,
+        "diff_6": 4.9627,
+        "diff_7": -4.96271,
+        "diff_12": 4.96268,
+        "diff_13": -4.96269,
+        "diff_14": -4.9627,
+        "diff_15": 4.96271
+      },
+      "log": "build/sram_research/spice/baseline_85_10f/ngspice.log"
+    },
+    {
+      "variant": "baseline",
+      "vdd_v": 5,
+      "temperature_c": 85,
+      "cbl": "100f",
+      "cy": "100f",
+      "pass": true,
+      "min_abs_read_diff_v": 4.92085,
+      "read_differentials_v": {
+        "diff_4": -4.92085,
+        "diff_5": 4.92086,
+        "diff_6": 4.92092,
+        "diff_7": -4.92092,
+        "diff_12": 4.92085,
+        "diff_13": -4.92086,
+        "diff_14": -4.92092,
+        "diff_15": 4.92092
+      },
+      "log": "build/sram_research/spice/baseline_85_100f/ngspice.log"
+    },
+    {
+      "variant": "baseline",
+      "vdd_v": 5,
+      "temperature_c": 85,
+      "cbl": "1p",
+      "cy": "100f",
+      "pass": true,
+      "min_abs_read_diff_v": 2.71916,
+      "read_differentials_v": {
+        "diff_4": -2.71924,
+        "diff_5": 2.71916,
+        "diff_6": 2.72048,
+        "diff_7": -2.72037,
+        "diff_12": 2.71924,
+        "diff_13": -2.71916,
+        "diff_14": -2.72048,
+        "diff_15": 2.72037
+      },
+      "log": "build/sram_research/spice/baseline_85_1p/ngspice.log"
+    },
+    {
+      "variant": "euler_shared",
+      "vdd_v": 5,
+      "temperature_c": -40,
+      "cbl": "10f",
+      "cy": "100f",
+      "pass": true,
+      "min_abs_read_diff_v": 4.99299,
+      "read_differentials_v": {
+        "diff_4": -4.99299,
+        "diff_5": 4.99299,
+        "diff_6": 4.99299,
+        "diff_7": -4.99299,
+        "diff_12": 4.99299,
+        "diff_13": -4.99299,
+        "diff_14": -4.99299,
+        "diff_15": 4.99299
+      },
+      "log": "build/sram_research/spice/euler_shared_-40_10f/ngspice.log"
+    },
+    {
+      "variant": "euler_shared",
+      "vdd_v": 5,
+      "temperature_c": -40,
+      "cbl": "100f",
+      "cy": "100f",
+      "pass": true,
+      "min_abs_read_diff_v": 4.99168,
+      "read_differentials_v": {
+        "diff_4": -4.99169,
+        "diff_5": 4.99169,
+        "diff_6": 4.99169,
+        "diff_7": -4.99169,
+        "diff_12": 4.99168,
+        "diff_13": -4.99169,
+        "diff_14": -4.99169,
+        "diff_15": 4.99169
+      },
+      "log": "build/sram_research/spice/euler_shared_-40_100f/ngspice.log"
+    },
+    {
+      "variant": "euler_shared",
+      "vdd_v": 5,
+      "temperature_c": -40,
+      "cbl": "1p",
+      "cy": "100f",
+      "pass": true,
+      "min_abs_read_diff_v": 4.39067,
+      "read_differentials_v": {
+        "diff_4": -4.39074,
+        "diff_5": 4.39074,
+        "diff_6": 4.39088,
+        "diff_7": -4.39087,
+        "diff_12": 4.39067,
+        "diff_13": -4.39074,
+        "diff_14": -4.39088,
+        "diff_15": 4.39087
+      },
+      "log": "build/sram_research/spice/euler_shared_-40_1p/ngspice.log"
+    },
+    {
+      "variant": "euler_shared",
+      "vdd_v": 5,
+      "temperature_c": 27,
+      "cbl": "10f",
+      "cy": "100f",
+      "pass": true,
+      "min_abs_read_diff_v": 4.9888,
+      "read_differentials_v": {
+        "diff_4": -4.9888,
+        "diff_5": 4.9888,
+        "diff_6": 4.9888,
+        "diff_7": -4.9888,
+        "diff_12": 4.9888,
+        "diff_13": -4.9888,
+        "diff_14": -4.9888,
+        "diff_15": 4.9888
+      },
+      "log": "build/sram_research/spice/euler_shared_27_10f/ngspice.log"
+    },
+    {
+      "variant": "euler_shared",
+      "vdd_v": 5,
+      "temperature_c": 27,
+      "cbl": "100f",
+      "cy": "100f",
+      "pass": true,
+      "min_abs_read_diff_v": 4.97875,
+      "read_differentials_v": {
+        "diff_4": -4.97876,
+        "diff_5": 4.97876,
+        "diff_6": 4.97877,
+        "diff_7": -4.97877,
+        "diff_12": 4.97875,
+        "diff_13": -4.97876,
+        "diff_14": -4.97877,
+        "diff_15": 4.97877
+      },
+      "log": "build/sram_research/spice/euler_shared_27_100f/ngspice.log"
+    },
+    {
+      "variant": "euler_shared",
+      "vdd_v": 5,
+      "temperature_c": 27,
+      "cbl": "1p",
+      "cy": "100f",
+      "pass": true,
+      "min_abs_read_diff_v": 3.72214,
+      "read_differentials_v": {
+        "diff_4": -3.72225,
+        "diff_5": 3.72225,
+        "diff_6": 3.7226,
+        "diff_7": -3.72259,
+        "diff_12": 3.72214,
+        "diff_13": -3.72225,
+        "diff_14": -3.7226,
+        "diff_15": 3.72259
+      },
+      "log": "build/sram_research/spice/euler_shared_27_1p/ngspice.log"
+    },
+    {
+      "variant": "euler_shared",
+      "vdd_v": 5,
+      "temperature_c": 85,
+      "cbl": "10f",
+      "cy": "100f",
+      "pass": true,
+      "min_abs_read_diff_v": 4.9629,
+      "read_differentials_v": {
+        "diff_4": -4.9629,
+        "diff_5": 4.96291,
+        "diff_6": 4.96292,
+        "diff_7": -4.96293,
+        "diff_12": 4.9629,
+        "diff_13": -4.96291,
+        "diff_14": -4.96292,
+        "diff_15": 4.96293
+      },
+      "log": "build/sram_research/spice/euler_shared_85_10f/ngspice.log"
+    },
+    {
+      "variant": "euler_shared",
+      "vdd_v": 5,
+      "temperature_c": 85,
+      "cbl": "100f",
+      "cy": "100f",
+      "pass": true,
+      "min_abs_read_diff_v": 4.9213,
+      "read_differentials_v": {
+        "diff_4": -4.9213,
+        "diff_5": 4.92131,
+        "diff_6": 4.92136,
+        "diff_7": -4.92137,
+        "diff_12": 4.9213,
+        "diff_13": -4.92131,
+        "diff_14": -4.92136,
+        "diff_15": 4.92137
+      },
+      "log": "build/sram_research/spice/euler_shared_85_100f/ngspice.log"
+    },
+    {
+      "variant": "euler_shared",
+      "vdd_v": 5,
+      "temperature_c": 85,
+      "cbl": "1p",
+      "cy": "100f",
+      "pass": true,
+      "min_abs_read_diff_v": 2.7167,
+      "read_differentials_v": {
+        "diff_4": -2.71678,
+        "diff_5": 2.7167,
+        "diff_6": 2.71802,
+        "diff_7": -2.71791,
+        "diff_12": 2.71678,
+        "diff_13": -2.7167,
+        "diff_14": -2.71802,
+        "diff_15": 2.71791
+      },
+      "log": "build/sram_research/spice/euler_shared_85_1p/ngspice.log"
+    }
+  ],
+  "static_noise_margin": [
+    {
+      "variant": "baseline",
+      "mode": "hold",
+      "vdd_v": 5,
+      "temperature_c": 27,
+      "snm_v": 1.5372669849225225,
+      "lobes_v": [
+        1.5372669849225225,
+        1.5372669849225225
+      ],
+      "dc_step_v": 0.0025
+    },
+    {
+      "variant": "baseline",
+      "mode": "read",
+      "vdd_v": 5,
+      "temperature_c": 27,
+      "snm_v": 0.4421274838373962,
+      "lobes_v": [
+        0.44212748383739653,
+        0.4421274838373962
+      ],
+      "dc_step_v": 0.0025
+    },
+    {
+      "variant": "euler_shared",
+      "mode": "hold",
+      "vdd_v": 5,
+      "temperature_c": 27,
+      "snm_v": 1.5372669849225225,
+      "lobes_v": [
+        1.5372669849225225,
+        1.5372669849225225
+      ],
+      "dc_step_v": 0.0025
+    },
+    {
+      "variant": "euler_shared",
+      "mode": "read",
+      "vdd_v": 5,
+      "temperature_c": 27,
+      "snm_v": 0.4421274838373962,
+      "lobes_v": [
+        0.44212748383739653,
+        0.4421274838373962
+      ],
+      "dc_step_v": 0.0025
+    }
+  ]
+}

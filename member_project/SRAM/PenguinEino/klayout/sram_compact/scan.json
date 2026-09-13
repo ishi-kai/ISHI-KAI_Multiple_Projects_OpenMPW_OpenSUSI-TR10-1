@@ -1,0 +1,171 @@
+[
+  {
+    "case": "t0_h29p6",
+    "shift_um": 0,
+    "pitch_um": [
+      22.4,
+      29.6
+    ],
+    "core_um2": 663.04,
+    "valid": true,
+    "gds": "build/sram_compact/scan/t0_h29p6/candidate.gds",
+    "drc": {
+      "pass": true,
+      "items": 0,
+      "categories": {}
+    },
+    "lvs": {
+      "pass": true,
+      "circuit_pairs": [
+        "Match"
+      ],
+      "errors": []
+    }
+  },
+  {
+    "case": "t0p1_h29p6",
+    "shift_um": 0.1,
+    "pitch_um": [
+      22.2,
+      29.6
+    ],
+    "core_um2": 657.12,
+    "valid": true,
+    "gds": "build/sram_compact/scan/t0p1_h29p6/candidate.gds",
+    "drc": {
+      "pass": true,
+      "items": 0,
+      "categories": {}
+    },
+    "lvs": {
+      "pass": true,
+      "circuit_pairs": [
+        "Match"
+      ],
+      "errors": []
+    }
+  },
+  {
+    "case": "t0p2_h29p6",
+    "shift_um": 0.2,
+    "pitch_um": [
+      22.0,
+      29.6
+    ],
+    "core_um2": 651.2,
+    "valid": true,
+    "gds": "build/sram_compact/scan/t0p2_h29p6/candidate.gds",
+    "drc": {
+      "pass": true,
+      "items": 0,
+      "categories": {}
+    },
+    "lvs": {
+      "pass": true,
+      "circuit_pairs": [
+        "Match"
+      ],
+      "errors": []
+    }
+  },
+  {
+    "case": "t0p25_h29p6",
+    "shift_um": 0.25,
+    "pitch_um": [
+      21.9,
+      29.6
+    ],
+    "core_um2": 648.24,
+    "valid": false,
+    "gds": "build/sram_compact/scan/t0p25_h29p6/candidate.gds",
+    "drc": {
+      "pass": false,
+      "items": 32,
+      "categories": {
+        "M1.S1:M1 Smin <  1.4": 16,
+        "V1.GC:V1-GC Smin <  1.2": 16
+      }
+    },
+    "lvs": {
+      "pass": true,
+      "circuit_pairs": [
+        "Match"
+      ],
+      "errors": []
+    }
+  },
+  {
+    "case": "t0p3_h29p6",
+    "shift_um": 0.3,
+    "pitch_um": [
+      21.799999999999997,
+      29.6
+    ],
+    "core_um2": 645.28,
+    "valid": false,
+    "gds": "build/sram_compact/scan/t0p3_h29p6/candidate.gds",
+    "drc": {
+      "pass": false,
+      "items": 32,
+      "categories": {
+        "M1.S1:M1 Smin <  1.4": 16,
+        "V1.GC:V1-GC Smin <  1.2": 16
+      }
+    },
+    "lvs": {
+      "pass": true,
+      "circuit_pairs": [
+        "Match"
+      ],
+      "errors": []
+    }
+  },
+  {
+    "case": "t0p2_h29p5",
+    "shift_um": 0.2,
+    "pitch_um": [
+      22.0,
+      29.5
+    ],
+    "core_um2": 649.0,
+    "valid": false,
+    "gds": "build/sram_compact/scan/t0p2_h29p5/candidate.gds",
+    "drc": {
+      "pass": false,
+      "items": 16,
+      "categories": {
+        "GC.S1:GC Smin <  1.2": 16
+      }
+    },
+    "lvs": {
+      "pass": true,
+      "circuit_pairs": [
+        "Match"
+      ],
+      "errors": []
+    }
+  },
+  {
+    "case": "t0p2_h28p5",
+    "shift_um": 0.2,
+    "pitch_um": [
+      22.0,
+      28.5
+    ],
+    "core_um2": 627.0,
+    "valid": false,
+    "gds": "build/sram_compact/scan/t0p2_h28p5/candidate.gds",
+    "drc": {
+      "pass": true,
+      "items": 0,
+      "categories": {}
+    },
+    "lvs": {
+      "pass": false,
+      "circuit_pairs": [
+        "NoMatch"
+      ],
+      "errors": []
+    }
+  }
+]

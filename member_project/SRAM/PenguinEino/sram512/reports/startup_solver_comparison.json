@@ -1,0 +1,66 @@
+{
+  "scope": "Numerical diagnostic of the identical full physical circuit during the first 20 ns of a 1 us VDD ramp. Neither a full startup test nor a functional signoff.",
+  "source_gds_sha256": "dee111388a5c4d3131b68772507706706d894248988ab761bf9c4070e9194e61",
+  "runs": [
+    {
+      "folder": "/home/ishi-kai/sram/build/sram512/analog/pd102_startup_profile20n",
+      "deck_sha256": "dc1c0b5f669324be8519c90e6b4f4d4fbffd18cf79daec8f729e90d7e6481820",
+      "points": 133,
+      "stop_ns": 20.0,
+      "iterations": 4896.0,
+      "rejected_points": 41.0,
+      "analysis_seconds": 85.0911
+    },
+    {
+      "folder": "/home/ishi-kai/sram/build/sram512/analog/pd102_startup_profile20n_sparse",
+      "deck_sha256": "1fb4fe32c2f781505bd95e46fc3660f8f6b592e2f9b7478e33056c7901daa54d",
+      "points": 17,
+      "stop_ns": 20.0,
+      "iterations": 32.0,
+      "rejected_points": 0.0,
+      "analysis_seconds": 8.00117
+    }
+  ],
+  "worst_voltage_differences": [
+    {
+      "node": "v(wl0)",
+      "maximum_difference_v": 0.0003547719863851752
+    },
+    {
+      "node": "v(wl1)",
+      "maximum_difference_v": 0.00035443220422056755
+    },
+    {
+      "node": "v(wl2)",
+      "maximum_difference_v": 0.0003515278601885774
+    },
+    {
+      "node": "v(wl3)",
+      "maximum_difference_v": 0.000349632938774172
+    },
+    {
+      "node": "v(wl4)",
+      "maximum_difference_v": 0.00034748581955060427
+    },
+    {
+      "node": "v(wl5)",
+      "maximum_difference_v": 0.00034529144110397383
+    },
+    {
+      "node": "v(wl6)",
+      "maximum_difference_v": 0.00034362837053918995
+    },
+    {
+      "node": "v(wl7)",
+      "maximum_difference_v": 0.00034219311695411585
+    },
+    {
+      "node": "v(wl8)",
+      "maximum_difference_v": 0.0003406631294987448
+    },
+    {
+      "node": "v(wl9)",
+      "maximum_difference_v": 0.00033959279923585425
+    }
+  ]
+}

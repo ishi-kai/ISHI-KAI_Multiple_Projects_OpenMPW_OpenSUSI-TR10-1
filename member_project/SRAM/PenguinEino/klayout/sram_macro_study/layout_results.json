@@ -1,0 +1,183 @@
+[
+  {
+    "top": "wlstrap4_4x17",
+    "gds": "klayout/sram_macro_study/wlstrap_arrays.gds",
+    "input_sha256": "b9f41725a409ff2fccd619202ab35cfa4d785694ebe5736a4dd0d07d213823be",
+    "drc": {
+      "pass": true,
+      "items": 0,
+      "categories": {}
+    },
+    "lvs": {
+      "pass": true,
+      "circuit_pairs": [
+        "Match"
+      ],
+      "errors": []
+    }
+  },
+  {
+    "top": "wlstrap4_16x16",
+    "gds": "klayout/sram_macro_study/wlstrap_arrays.gds",
+    "input_sha256": "af72d2b6d1a3f2c6e7fb110f63876a38e048530d111003b6f5bb941a131424df",
+    "drc": {
+      "pass": true,
+      "items": 0,
+      "categories": {}
+    },
+    "lvs": {
+      "pass": true,
+      "circuit_pairs": [
+        "Match"
+      ],
+      "errors": []
+    }
+  },
+  {
+    "top": "wlstrap4_16x32",
+    "gds": "klayout/sram_macro_study/wlstrap_arrays.gds",
+    "input_sha256": "51af58b12be799bae4ffdd8efd1b981d9f61c10b8683f11798ea59d3b00677ae",
+    "drc": {
+      "pass": true,
+      "items": 0,
+      "categories": {}
+    },
+    "lvs": {
+      "pass": true,
+      "circuit_pairs": [
+        "Match"
+      ],
+      "errors": []
+    }
+  },
+  {
+    "top": "wlstrap8_4x17",
+    "gds": "klayout/sram_macro_study/wlstrap_arrays.gds",
+    "input_sha256": "8ec7184f8792639934efe5b84d316781078b4a58d0db0919b27928b24a28b8d6",
+    "drc": {
+      "pass": true,
+      "items": 0,
+      "categories": {}
+    },
+    "lvs": {
+      "pass": true,
+      "circuit_pairs": [
+        "Match"
+      ],
+      "errors": []
+    }
+  },
+  {
+    "top": "wlstrap8_16x16",
+    "gds": "klayout/sram_macro_study/wlstrap_arrays.gds",
+    "input_sha256": "e2c632b2e1f1451c1ea3baab4509a05eb98af2b9be36c21add84a4de4db962c3",
+    "drc": {
+      "pass": true,
+      "items": 0,
+      "categories": {}
+    },
+    "lvs": {
+      "pass": true,
+      "circuit_pairs": [
+        "Match"
+      ],
+      "errors": []
+    }
+  },
+  {
+    "top": "wlstrap8_16x32",
+    "gds": "klayout/sram_macro_study/wlstrap_arrays.gds",
+    "input_sha256": "868a62483f6d24484facced40e9658aedba65b77766f5434d19a8ec852163c41",
+    "drc": {
+      "pass": true,
+      "items": 0,
+      "categories": {}
+    },
+    "lvs": {
+      "pass": true,
+      "circuit_pairs": [
+        "Match"
+      ],
+      "errors": []
+    }
+  },
+  {
+    "top": "wlstrap16_4x17",
+    "gds": "klayout/sram_macro_study/wlstrap_arrays.gds",
+    "input_sha256": "62141cfa702aff18c371af9800ce7477194d81395eadb5c931c8b4258b6c866e",
+    "drc": {
+      "pass": true,
+      "items": 0,
+      "categories": {}
+    },
+    "lvs": {
+      "pass": true,
+      "circuit_pairs": [
+        "Match"
+      ],
+      "errors": []
+    }
+  },
+  {
+    "top": "wlstrap16_16x16",
+    "gds": "klayout/sram_macro_study/wlstrap_arrays.gds",
+    "input_sha256": "338755fbc718caa96224916d60d80222feec6711e3e2eacc6c73cc9dd4125271",
+    "drc": {
+      "pass": true,
+      "items": 0,
+      "categories": {}
+    },
+    "lvs": {
+      "pass": true,
+      "circuit_pairs": [
+        "Match"
+      ],
+      "errors": []
+    }
+  },
+  {
+    "top": "wlstrap16_16x32",
+    "gds": "klayout/sram_macro_study/wlstrap_arrays.gds",
+    "input_sha256": "8608bd735dc4ef34d4a36e7d4d1efc90ee2763b8c6a435311cd27489e321d8a2",
+    "drc": {
+      "pass": true,
+      "items": 0,
+      "categories": {}
+    },
+    "lvs": {
+      "pass": true,
+      "circuit_pairs": [
+        "Match"
+      ],
+      "errors": []
+    }
+  },
+  {
+    "top": "stdcell_abutment",
+    "gds": "klayout/sram_macro_study/stdcell_abutment.gds",
+    "input_sha256": "9559a27ee80d42755cb74d57be0efbb2bcf3e4b76fe793a161b2e157c005c984",
+    "drc": {
+      "pass": true,
+      "items": 0,
+      "categories": {}
+    },
+    "lvs": {
+      "pass": true,
+      "circuit_pairs": [
+        "Match",
+        "Match",
+        "Match",
+        "Match",
+        "Match",
+        "Match",
+        "Match",
+        "Match",
+        "Match",
+        "Match",
+        "Match",
+        "Match"
+      ],
+      "errors": []
+    }
+  }
+]

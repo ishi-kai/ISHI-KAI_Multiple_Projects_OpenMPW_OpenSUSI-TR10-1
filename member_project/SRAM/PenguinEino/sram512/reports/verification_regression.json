@@ -1,0 +1,41 @@
+{
+  "passed": true,
+  "unit_tests": 8,
+  "negative_probes": {
+    "stale_evidence": {
+      "changed_source": "sram512/schematics/sram512_bitcell.sch",
+      "change": "First MOS W: 3.4u -> 6.8u",
+      "original_sha256": "bc92f49c3383fbe5681e3fc3c38c69b0e8b17f1002c7a914364dca1efb2d01ec",
+      "changed_sha256": "e907ed892f293308d58fd15be78fcb449b68d211e6a43735ab6893117f66052c",
+      "summary_all_pass": false,
+      "summary_pass_count": 0,
+      "summary_stamps_changed_source": false,
+      "full_archive_exit_code": 1,
+      "full_archives": [],
+      "flat_export_exit_code": 1,
+      "flat_export_source_guard_triggered": false
+    },
+    "waveform_checker": {
+      "source_waveform": "build/sram512/analog/pd102_nominal/sram512_tb.raw",
+      "source_sha256": "1294ff9ac057c877ddef3259ce03e07138bcbcd2cbe8028624c442d52ca9347a",
+      "baseline_passed": true,
+      "checks": 2910,
+      "sdo_glitch": {
+        "interval_ns": [
+          2500,
+          2700
+        ],
+        "samples": 53,
+        "injected_v": 5,
+        "expected_v": 0,
+        "accepted_as_pass": false
+      },
+      "truncated_trace": {
+        "actual_end_ns": 288981.3800699098,
+        "required_last_check_ns": 289800.0,
+        "accepted_as_pass": false
+      }
+    },
+    "scope": "Intentional defects are confined to scratch copies or arrays; live sources and raw files are read-only."
+  }
+}

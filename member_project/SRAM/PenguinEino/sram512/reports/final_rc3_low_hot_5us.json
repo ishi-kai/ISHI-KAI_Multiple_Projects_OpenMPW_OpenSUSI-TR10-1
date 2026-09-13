@@ -1,0 +1,524 @@
+{
+  "passed": false,
+  "checks": 22357,
+  "failure_count": 64,
+  "failures": [
+    {
+      "net": "xarray.xr0c0.Q",
+      "expected": 0,
+      "start_ns": 99000.0,
+      "end_ns": null,
+      "min_v": 4.499998823663364,
+      "max_v": 4.499998823663364
+    },
+    {
+      "net": "xarray.xr0c0.QB",
+      "expected": 1,
+      "start_ns": 99000.0,
+      "end_ns": null,
+      "min_v": 6.783659358532753e-08,
+      "max_v": 6.783659358532753e-08
+    },
+    {
+      "net": "xarray.xr0c0.Q",
+      "expected": 0,
+      "start_ns": 99500.0,
+      "end_ns": 149500.0,
+      "min_v": 4.499968854834545,
+      "max_v": 4.500012145527124
+    },
+    {
+      "net": "xarray.xr0c0.Q",
+      "expected": 0,
+      "start_ns": 150000.0,
+      "end_ns": 189000.0,
+      "min_v": 4.498903076289807,
+      "max_v": 4.500403477397229
+    },
+    {
+      "net": "xarray.xr0c0.QB",
+      "expected": 1,
+      "start_ns": 99500.0,
+      "end_ns": 149500.0,
+      "min_v": -2.5536761176295765e-05,
+      "max_v": 1.4039582772908827e-05
+    },
+    {
+      "net": "xarray.xr0c0.QB",
+      "expected": 1,
+      "start_ns": 150000.0,
+      "end_ns": 189000.0,
+      "min_v": -0.0005536096459422655,
+      "max_v": 0.08748958632738604
+    },
+    {
+      "net": "xarray.xr0c0.Q",
+      "expected": 0,
+      "start_ns": 189500.0,
+      "end_ns": 239500.0,
+      "min_v": 4.499997278233165,
+      "max_v": 4.500017794751691
+    },
+    {
+      "net": "xarray.xr0c0.Q",
+      "expected": 0,
+      "start_ns": 240000.0,
+      "end_ns": 279000.0,
+      "min_v": 4.499956765118682,
+      "max_v": 4.500027971928165
+    },
+    {
+      "net": "xarray.xr0c0.QB",
+      "expected": 1,
+      "start_ns": 189500.0,
+      "end_ns": 239500.0,
+      "min_v": -1.5219185356428728e-06,
+      "max_v": 1.8453503195009133e-05
+    },
+    {
+      "net": "xarray.xr0c0.QB",
+      "expected": 1,
+      "start_ns": 240000.0,
+      "end_ns": 279000.0,
+      "min_v": -3.0023324402859796e-05,
+      "max_v": 2.2791496201218703e-05
+    },
+    {
+      "net": "xarray.xr0c0.Q",
+      "expected": 0,
+      "start_ns": 279500.0,
+      "end_ns": 329500.0,
+      "min_v": 4.499982594635628,
+      "max_v": 4.500026392288622
+    },
+    {
+      "net": "xarray.xr0c0.Q",
+      "expected": 0,
+      "start_ns": 330000.0,
+      "end_ns": 369000.0,
+      "min_v": 4.499953562972448,
+      "max_v": 4.500030344445239
+    },
+    {
+      "net": "xarray.xr0c0.QB",
+      "expected": 1,
+      "start_ns": 279500.0,
+      "end_ns": 329500.0,
+      "min_v": -1.491769504559674e-05,
+      "max_v": 2.65783515343073e-05
+    },
+    {
+      "net": "xarray.xr0c0.QB",
+      "expected": 1,
+      "start_ns": 330000.0,
+      "end_ns": 369000.0,
+      "min_v": -3.194340373696358e-05,
+      "max_v": 2.1548000161219712e-05
+    },
+    {
+      "net": "xarray.xr0c0.Q",
+      "expected": 0,
+      "start_ns": 369500.0,
+      "end_ns": 419500.0,
+      "min_v": 4.499987084970215,
+      "max_v": 4.500032224967809
+    },
+    {
+      "net": "xarray.xr0c0.Q",
+      "expected": 0,
+      "start_ns": 420000.0,
+      "end_ns": 459000.0,
+      "min_v": 4.499313257881574,
+      "max_v": 4.500644461443866
+    },
+    {
+      "net": "xarray.xr0c0.QB",
+      "expected": 1,
+      "start_ns": 369500.0,
+      "end_ns": 419500.0,
+      "min_v": -9.983984952353682e-06,
+      "max_v": 2.644180592775588e-05
+    },
+    {
+      "net": "xarray.xr0c0.QB",
+      "expected": 1,
+      "start_ns": 420000.0,
+      "end_ns": 459000.0,
+      "min_v": -0.0005279275142088523,
+      "max_v": 0.25765841167426584
+    },
+    {
+      "net": "SOUT",
+      "expected": 0,
+      "start_ns": 444000.0,
+      "end_ns": 454000.0,
+      "min_v": 4.498212754737915,
+      "max_v": 4.503523435216352
+    },
+    {
+      "net": "SOUTB",
+      "expected": 1,
+      "start_ns": 444000.0,
+      "end_ns": 454000.0,
+      "min_v": -9.593911000523533e-05,
+      "max_v": 5.332851804215164e-05
+    },
+    {
+      "net": "xarray.xr0c0.Q",
+      "expected": 0,
+      "start_ns": 459000.0,
+      "end_ns": null,
+      "min_v": 4.499999363017774,
+      "max_v": 4.499999363017774
+    },
+    {
+      "net": "xarray.xr0c0.QB",
+      "expected": 1,
+      "start_ns": 459000.0,
+      "end_ns": null,
+      "min_v": 6.73924640566983e-08,
+      "max_v": 6.73924640566983e-08
+    },
+    {
+      "net": "SDO",
+      "expected": 0,
+      "start_ns": 454000.0,
+      "end_ns": 459000.0,
+      "min_v": 4.499999874703666,
+      "max_v": 4.499999875394038
+    },
+    {
+      "net": "xarray.xr0c0.Q",
+      "expected": 0,
+      "start_ns": 459500.0,
+      "end_ns": 509500.0,
+      "min_v": 4.49999147791706,
+      "max_v": 4.500018854933987
+    },
+    {
+      "net": "xarray.xr0c0.Q",
+      "expected": 0,
+      "start_ns": 510000.0,
+      "end_ns": 549000.0,
+      "min_v": 4.499007406023719,
+      "max_v": 4.500400966378596
+    },
+    {
+      "net": "xarray.xr0c0.QB",
+      "expected": 1,
+      "start_ns": 459500.0,
+      "end_ns": 509500.0,
+      "min_v": -1.0297892240033896e-05,
+      "max_v": 1.800116170633548e-05
+    },
+    {
+      "net": "xarray.xr0c0.QB",
+      "expected": 1,
+      "start_ns": 510000.0,
+      "end_ns": 549000.0,
+      "min_v": -0.0005547468911033635,
+      "max_v": 0.08704694377087906
+    },
+    {
+      "net": "xarray.xr0c0.Q",
+      "expected": 0,
+      "start_ns": 549500.0,
+      "end_ns": 599500.0,
+      "min_v": 4.499993521332512,
+      "max_v": 4.500030394596716
+    },
+    {
+      "net": "xarray.xr0c0.Q",
+      "expected": 0,
+      "start_ns": 600000.0,
+      "end_ns": 639000.0,
+      "min_v": 4.499953977463853,
+      "max_v": 4.500028083783709
+    },
+    {
+      "net": "xarray.xr0c0.QB",
+      "expected": 1,
+      "start_ns": 549500.0,
+      "end_ns": 599500.0,
+      "min_v": -4.536767581847801e-06,
+      "max_v": 2.7924413425727425e-05
+    },
+    {
+      "net": "xarray.xr0c0.QB",
+      "expected": 1,
+      "start_ns": 600000.0,
+      "end_ns": 639000.0,
+      "min_v": -3.198053390093911e-05,
+      "max_v": 2.236911076550712e-05
+    },
+    {
+      "net": "xarray.xr0c0.Q",
+      "expected": 0,
+      "start_ns": 639500.0,
+      "end_ns": 689500.0,
+      "min_v": 4.499982606537665,
+      "max_v": 4.50002467957514
+    },
+    {
+      "net": "xarray.xr0c0.Q",
+      "expected": 0,
+      "start_ns": 690000.0,
+      "end_ns": 729000.0,
+      "min_v": 4.49995340341529,
+      "max_v": 4.500029794782011
+    },
+    {
+      "net": "xarray.xr0c0.QB",
+      "expected": 1,
+      "start_ns": 639500.0,
+      "end_ns": 689500.0,
+      "min_v": -1.4454839526890856e-05,
+      "max_v": 2.4851921823746113e-05
+    },
+    {
+      "net": "xarray.xr0c0.QB",
+      "expected": 1,
+      "start_ns": 690000.0,
+      "end_ns": 729000.0,
+      "min_v": -3.183417009597355e-05,
+      "max_v": 2.183217086443446e-05
+    },
+    {
+      "net": "xarray.xr0c0.Q",
+      "expected": 0,
+      "start_ns": 729500.0,
+      "end_ns": 779500.0,
+      "min_v": 4.499989173643821,
+      "max_v": 4.500035901489948
+    },
+    {
+      "net": "xarray.xr0c0.QB",
+      "expected": 1,
+      "start_ns": 729500.0,
+      "end_ns": 779500.0,
+      "min_v": -8.374616710936369e-06,
+      "max_v": 3.4000732038456884e-05
+    },
+    {
+      "net": "xarray.xr15c0.Q",
+      "expected": 0,
+      "start_ns": 999000.0,
+      "end_ns": null,
+      "min_v": 4.49999882379614,
+      "max_v": 4.49999882379614
+    },
+    {
+      "net": "xarray.xr15c0.QB",
+      "expected": 1,
+      "start_ns": 999000.0,
+      "end_ns": null,
+      "min_v": 6.790003189440841e-08,
+      "max_v": 6.790003189440841e-08
+    },
+    {
+      "net": "xarray.xr15c0.Q",
+      "expected": 0,
+      "start_ns": 999500.0,
+      "end_ns": 1049500.0,
+      "min_v": 4.499964493750707,
+      "max_v": 4.500010514145986
+    }
+  ],
+  "read_observations": [
+    {
+      "operation": 4,
+      "row": 0,
+      "col": 0,
+      "sae_half_ns": 440092.37462940736,
+      "y_difference_v": 4.504138091036783
+    },
+    {
+      "operation": 5,
+      "row": 0,
+      "col": 31,
+      "sae_half_ns": 530092.0968382548,
+      "y_difference_v": 4.503719482303753
+    },
+    {
+      "operation": 6,
+      "row": 15,
+      "col": 0,
+      "sae_half_ns": 620092.1962701733,
+      "y_difference_v": 4.503690757666984
+    },
+    {
+      "operation": 7,
+      "row": 15,
+      "col": 31,
+      "sae_half_ns": 710092.3309841703,
+      "y_difference_v": -4.505107373978892
+    },
+    {
+      "operation": 12,
+      "row": 0,
+      "col": 0,
+      "sae_half_ns": 1160092.3745513496,
+      "y_difference_v": 4.504136101165188
+    },
+    {
+      "operation": 13,
+      "row": 0,
+      "col": 31,
+      "sae_half_ns": 1250091.8120963133,
+      "y_difference_v": -4.5037117667572755
+    },
+    {
+      "operation": 14,
+      "row": 15,
+      "col": 0,
+      "sae_half_ns": 1340092.1836784142,
+      "y_difference_v": 4.503663890736424
+    },
+    {
+      "operation": 15,
+      "row": 15,
+      "col": 31,
+      "sae_half_ns": 1430092.323306926,
+      "y_difference_v": 4.504260096847446
+    }
+  ],
+  "points": 86198,
+  "operations": 16,
+  "rc_checks": {
+    "passed": true,
+    "checks": 19456,
+    "failure_count": 0,
+    "failures": [],
+    "clock_branches": 21,
+    "maximum_clock_rising_skew_ns": 18.852986955771485,
+    "minimum_clock_high_ns": 2497.09817072819,
+    "minimum_clock_low_ns": 2502.6341430752072,
+    "scope": "All four BL/WL/common-line RC sections, control gate loads, and every physical clock branch."
+  },
+  "name": "final_rc3_low_hot_5us",
+  "physical_extraction": {
+    "gds_sha256": "bbae5a2e0a63d1d0304937d7a5edef00291f0db6eafc00ce3a7700bdafa9ab02",
+    "lvsdb_sha256": "ad6002d464a8119e7b0abe1c74478af4ced53859d103a0db9082284f5160a18b",
+    "mos_groups": 4877,
+    "physical_fingers": 4953,
+    "model_counts": {
+      "PMOS": 1927,
+      "NMOS": 2950,
+      "DP": 4,
+      "DN": 4
+    },
+    "source": "/home/ishi-kai/sram/build/sram512/layout/final16x32"
+  },
+  "period_ns": 5000.0,
+  "voltage_v": 4.5,
+  "temperature_c": 85.0,
+  "elapsed_seconds": 2.23,
+  "deck_sha256": "05718a0ec431a58aca2fc6a2cee2664a47863437288b11c4110bc018e98156c1",
+  "reused_waveform": true,
+  "model_notices": [
+    {
+      "model": "DN",
+      "unsupported_parameters": [
+        "imax",
+        "imelt"
+      ],
+      "consequence": "Diode current/melting limit flags are not implemented by ngspice."
+    },
+    {
+      "model": "DP",
+      "unsupported_parameters": [
+        "imax",
+        "imelt"
+      ],
+      "consequence": "Diode current/melting limit flags are not implemented by ngspice."
+    },
+    {
+      "kind": "simulation_memory_estimate",
+      "message": "Warning: memory required (1.1754 GB), made of\n       544 nodes and approximately 290.000e3 time steps,\n       is more than the DRAM memory available (386.31 MB)!\n       Swapping data to SSD may slow down the simulation.",
+      "consequence": "Estimated waveform storage exceeds currently free RAM; runtime may increase."
+    }
+  ],
+  "solver": "klu",
+  "maximum_timestep_ns": 100.0,
+  "interconnect": {
+    "kind": "geometry-based RC sensitivity; uncalibrated coefficients",
+    "scale": 3.0,
+    "coefficients": {
+      "M1": {
+        "width_um": 1.8,
+        "sheet_ohm": 1.0,
+        "area_ff_um2": 0.05,
+        "edge_ff_um": 0.02
+      },
+      "M2": {
+        "width_um": 3.4,
+        "sheet_ohm": 1.0,
+        "area_ff_um2": 0.03,
+        "edge_ff_um": 0.02
+      },
+      "GC_field": {
+        "width_um": 1.0,
+        "sheet_ohm": 120.0,
+        "area_ff_um2": 0.05,
+        "edge_ff_um": 0.02
+      }
+    },
+    "segments": 4,
+    "assumptions": [
+      "Series square count sums all conductor branches conservatively.",
+      "Field GC excludes active overlap; intrinsic MOS gate capacitance is not added twice.",
+      "GC sheet R=120 ohm/square is an uncalibrated sensitivity assumption; it is not a qualified GC wiring coefficient.",
+      "CO contact resistance is not separately calibrated or modeled.",
+      "Capacitance is represented to ground; scale sweep also stresses coupling load.",
+      "Power-rail resistance is not included in this signal-RC model."
+    ],
+    "geometry_nets": 1960,
+    "detailed_parameters_sha256": "4b1d8da85cc481532719e7ba2f1ab1a83475d5e8c7607901cb614432bbe6c92b",
+    "detailed_parameters_file": "/home/ishi-kai/sram/build/sram512/analog/final_rc3_low_hot_5us/wire_rc.json",
+    "clock": {
+      "branches": 21,
+      "series_sum_ohm": 258413.1379581571,
+      "cap_ff": 1742.9205749999996
+    },
+    "wire_groups": {
+      "bitline": {
+        "nets": 64,
+        "resistance_ohm_range": [
+          893.6666666666665,
+          893.6666666666665
+        ],
+        "capacitance_ff_range": [
+          208.56600000000003,
+          208.56600000000003
+        ]
+      },
+      "wordline": {
+        "nets": 16,
+        "resistance_ohm_range": [
+          345935.93795975903,
+          345973.1732538767
+        ],
+        "capacitance_ff_range": [
+          659.4438,
+          677.4209999999999
+        ]
+      },
+      "common": {
+        "nets": 2,
+        "resistance_ohm_range": [
+          2762.2047930283225,
+          3996.489651416122
+        ],
+        "capacitance_ff_range": [
+          975.3378,
+          1451.4080999999999
+        ]
+      }
+    }
+  },
+  "supply_current_a": {
+    "max": 0.006332535201223553,
+    "time_mean": 5.8811085480076335e-05,
+    "rms": 0.00036092708940879133
+  }
+}

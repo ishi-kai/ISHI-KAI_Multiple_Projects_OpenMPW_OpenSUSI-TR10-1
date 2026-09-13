@@ -1,0 +1,49 @@
+{
+  "passed": true,
+  "straight_sheet_checks": [
+    {
+      "width_um": 2.0,
+      "grid_um": 0.25,
+      "resistance_sheet_multiples": 57.388437303981455,
+      "analytic": 50.0,
+      "error_fraction": 0.1477687460796291
+    },
+    {
+      "width_um": 2.0,
+      "grid_um": 0.125,
+      "resistance_sheet_multiples": 53.43528300109817,
+      "analytic": 50.0,
+      "error_fraction": 0.06870566002196332
+    },
+    {
+      "width_um": 4.0,
+      "grid_um": 0.25,
+      "resistance_sheet_multiples": 26.768662763335342,
+      "analytic": 25.0,
+      "error_fraction": 0.07074651053341374
+    },
+    {
+      "width_um": 4.0,
+      "grid_um": 0.125,
+      "resistance_sheet_multiples": 25.853731563261118,
+      "analytic": 25.0,
+      "error_fraction": 0.0341492625304447
+    },
+    {
+      "width_um": 14.0,
+      "grid_um": 0.25,
+      "resistance_sheet_multiples": 7.298954929285206,
+      "analytic": 7.142857142857143,
+      "error_fraction": 0.02185369009992888
+    },
+    {
+      "width_um": 14.0,
+      "grid_um": 0.125,
+      "resistance_sheet_multiples": 7.220071182540279,
+      "analytic": 7.142857142857143,
+      "error_fraction": 0.010809965555639067
+    }
+  ],
+  "parallel_path_resistance": 3.333333333333333,
+  "limitations": "Analytic checks bound sampling error for straight wires; arbitrary junctions remain an approximate medial-path model."
+}

@@ -1,0 +1,159 @@
+{
+  "family": "six_single",
+  "pitch_um": [
+    22,
+    29.6
+  ],
+  "area_per_bit_um2": 651.2,
+  "shared_contact_separation_um": 2.0,
+  "tap_interval": 16,
+  "arrays": {
+    "pcell_1x1": {
+      "rows": 1,
+      "columns": 1,
+      "bits": 1,
+      "width_um": 65.0,
+      "height_um": 41.8,
+      "area_um2": 2717.0
+    },
+    "pcell_2x2": {
+      "rows": 2,
+      "columns": 2,
+      "bits": 4,
+      "width_um": 87.0,
+      "height_um": 59.2,
+      "area_um2": 5150.4
+    },
+    "pcell_4x4": {
+      "rows": 4,
+      "columns": 4,
+      "bits": 16,
+      "width_um": 131.0,
+      "height_um": 118.4,
+      "area_um2": 15510.4
+    },
+    "pcell_4x17": {
+      "rows": 4,
+      "columns": 17,
+      "bits": 68,
+      "width_um": 438.2,
+      "height_um": 118.4,
+      "area_um2": 51882.88
+    },
+    "pcell_8x8": {
+      "rows": 8,
+      "columns": 8,
+      "bits": 64,
+      "width_um": 219.0,
+      "height_um": 236.8,
+      "area_um2": 51859.2
+    },
+    "pcell_16x16": {
+      "rows": 16,
+      "columns": 16,
+      "bits": 256,
+      "width_um": 395.0,
+      "height_um": 473.6,
+      "area_um2": 187072.0
+    },
+    "pcell_16x32": {
+      "rows": 16,
+      "columns": 32,
+      "bits": 512,
+      "width_um": 768.2,
+      "height_um": 473.6,
+      "area_um2": 363819.52
+    },
+    "pcell_16x64": {
+      "rows": 16,
+      "columns": 64,
+      "bits": 1024,
+      "width_um": 1514.6,
+      "height_um": 473.6,
+      "area_um2": 717314.56
+    },
+    "pcell_20x76": {
+      "rows": 20,
+      "columns": 76,
+      "bits": 1520,
+      "width_um": 1799.8,
+      "height_um": 592.0,
+      "area_um2": 1065481.6
+    }
+  },
+  "pcell_variants": [
+    {
+      "cell": "fet_n",
+      "library": "TR-1um",
+      "declaration": "fet_n",
+      "parameters": {
+        "cont_between_gates": true,
+        "l": 1.0,
+        "n": 1,
+        "type": "NFET",
+        "w": 3.4,
+        "y0": "c"
+      }
+    },
+    {
+      "cell": "fet_p",
+      "library": "TR-1um",
+      "declaration": "fet_p",
+      "parameters": {
+        "cont_between_gates": true,
+        "l": 1.0,
+        "n": 1,
+        "type": "PFET",
+        "w": 3.4,
+        "y0": "c"
+      }
+    },
+    {
+      "cell": "via_1",
+      "library": "TR-1um",
+      "declaration": "via_1",
+      "parameters": {
+        "x": 3.4,
+        "x0": "c",
+        "y": 3.4,
+        "y0": "c"
+      }
+    },
+    {
+      "cell": "cont_g",
+      "library": "TR-1um",
+      "declaration": "cont_g",
+      "parameters": {
+        "x": 2.6,
+        "x0": "c",
+        "y": 2.6,
+        "y0": "c"
+      }
+    },
+    {
+      "cell": "cont_n",
+      "library": "TR-1um",
+      "declaration": "cont_n",
+      "parameters": {
+        "hole": false,
+        "x": 2.6,
+        "x0": "c",
+        "y": 2.6,
+        "y0": "c"
+      }
+    },
+    {
+      "cell": "cont_p",
+      "library": "TR-1um",
+      "declaration": "cont_p",
+      "parameters": {
+        "hole": false,
+        "x": 2.6,
+        "x0": "c",
+        "y": 2.6,
+        "y0": "c"
+      }
+    }
+  ],
+  "gds_sha256": "f944f38ff126069695ffe2fc5a6664aeb931f32faacf0c93b4a2b414cf431b51"
+}

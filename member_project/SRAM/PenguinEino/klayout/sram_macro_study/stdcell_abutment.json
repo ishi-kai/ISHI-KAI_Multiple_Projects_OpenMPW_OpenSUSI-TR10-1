@@ -1,0 +1,191 @@
+{
+  "instances": [
+    {
+      "name": "u0_0",
+      "cell": "INV_X1",
+      "x_um": 0,
+      "y_um": 0,
+      "mirror": false,
+      "pitch_width_um": 16.5
+    },
+    {
+      "name": "u0_1",
+      "cell": "NAND2",
+      "x_um": 16.5,
+      "y_um": 0,
+      "mirror": false,
+      "pitch_width_um": 16.5
+    },
+    {
+      "name": "u0_2",
+      "cell": "AND2_X1",
+      "x_um": 33.0,
+      "y_um": 0,
+      "mirror": false,
+      "pitch_width_um": 22.0
+    },
+    {
+      "name": "u0_3",
+      "cell": "AND3_X1",
+      "x_um": 55.0,
+      "y_um": 0,
+      "mirror": false,
+      "pitch_width_um": 27.5
+    },
+    {
+      "name": "u0_4",
+      "cell": "AND4_X1",
+      "x_um": 82.5,
+      "y_um": 0,
+      "mirror": false,
+      "pitch_width_um": 33.0
+    },
+    {
+      "name": "u0_5",
+      "cell": "OR2",
+      "x_um": 115.5,
+      "y_um": 0,
+      "mirror": false,
+      "pitch_width_um": 22.0
+    },
+    {
+      "name": "u0_6",
+      "cell": "OR3",
+      "x_um": 137.5,
+      "y_um": 0,
+      "mirror": false,
+      "pitch_width_um": 27.5
+    },
+    {
+      "name": "u0_7",
+      "cell": "OR4",
+      "x_um": 165.0,
+      "y_um": 0,
+      "mirror": false,
+      "pitch_width_um": 33.0
+    },
+    {
+      "name": "u0_8",
+      "cell": "XOR2",
+      "x_um": 198.0,
+      "y_um": 0,
+      "mirror": false,
+      "pitch_width_um": 33.0
+    },
+    {
+      "name": "u0_9",
+      "cell": "MUX2",
+      "x_um": 231.0,
+      "y_um": 0,
+      "mirror": false,
+      "pitch_width_um": 49.5
+    },
+    {
+      "name": "u0_10",
+      "cell": "DFFR",
+      "x_um": 280.5,
+      "y_um": 0,
+      "mirror": false,
+      "pitch_width_um": 88.0
+    },
+    {
+      "name": "u1_0",
+      "cell": "INV_X1",
+      "x_um": 0,
+      "y_um": 110,
+      "mirror": true,
+      "pitch_width_um": 16.5
+    },
+    {
+      "name": "u1_1",
+      "cell": "NAND2",
+      "x_um": 16.5,
+      "y_um": 110,
+      "mirror": true,
+      "pitch_width_um": 16.5
+    },
+    {
+      "name": "u1_2",
+      "cell": "AND2_X1",
+      "x_um": 33.0,
+      "y_um": 110,
+      "mirror": true,
+      "pitch_width_um": 22.0
+    },
+    {
+      "name": "u1_3",
+      "cell": "AND3_X1",
+      "x_um": 55.0,
+      "y_um": 110,
+      "mirror": true,
+      "pitch_width_um": 27.5
+    },
+    {
+      "name": "u1_4",
+      "cell": "AND4_X1",
+      "x_um": 82.5,
+      "y_um": 110,
+      "mirror": true,
+      "pitch_width_um": 33.0
+    },
+    {
+      "name": "u1_5",
+      "cell": "OR2",
+      "x_um": 115.5,
+      "y_um": 110,
+      "mirror": true,
+      "pitch_width_um": 22.0
+    },
+    {
+      "name": "u1_6",
+      "cell": "OR3",
+      "x_um": 137.5,
+      "y_um": 110,
+      "mirror": true,
+      "pitch_width_um": 27.5
+    },
+    {
+      "name": "u1_7",
+      "cell": "OR4",
+      "x_um": 165.0,
+      "y_um": 110,
+      "mirror": true,
+      "pitch_width_um": 33.0
+    },
+    {
+      "name": "u1_8",
+      "cell": "XOR2",
+      "x_um": 198.0,
+      "y_um": 110,
+      "mirror": true,
+      "pitch_width_um": 33.0
+    },
+    {
+      "name": "u1_9",
+      "cell": "MUX2",
+      "x_um": 231.0,
+      "y_um": 110,
+      "mirror": true,
+      "pitch_width_um": 49.5
+    },
+    {
+      "name": "u1_10",
+      "cell": "DFFR",
+      "x_um": 280.5,
+      "y_um": 110,
+      "mirror": true,
+      "pitch_width_um": 88.0
+    }
+  ],
+  "bbox_um": [
+    381.3,
+    113.4
+  ],
+  "row_pitch_um": 55,
+  "local_copy_fixes": [
+    "AND3_X1 GC: 23.705 -> 23.700 um on two vertices",
+    "Uppercase supply labels; add missing OR3 VDD label",
+    "Align OR3 B/C and OR4 A/B labels with schematic stack order",
+    "Original PDK unchanged"
+  ]
+}

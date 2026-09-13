@@ -1,0 +1,18 @@
+{
+  "sources": [
+    {
+      "case": "mux51_rc3_low_hot_5us",
+      "gds_sha256": "cec9923ed79b6763055f835322d862eb11fa331347c1ee43fcddf30684be4419",
+      "deck_sha256": "01066f0975a0c4d317117ba7e6a63aef7f9e53b0590f73aa5e2592ba59893e2f",
+      "origin_ns": 795000
+    },
+    {
+      "case": "pd102_rc3_addr0_5us_fine",
+      "gds_sha256": "dee111388a5c4d3131b68772507706706d894248988ab761bf9c4070e9194e61",
+      "deck_sha256": "d8ef55353a7c4adf6569a6cc99538de1d0b45f334857a6c4cc4d359e8602a9dc",
+      "origin_ns": 255000
+    }
+  ],
+  "plot": "/home/ishi-kai/sram/sram512/reports/write_driver_comparison.png",
+  "scope": "Both traces are full-array extracted simulations. Sequences differ before the compared write; Q starts at 0 and BL/BLB are precharged in both. RC assumptions are uncalibrated."
+}

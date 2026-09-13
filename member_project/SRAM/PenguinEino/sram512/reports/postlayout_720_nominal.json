@@ -1,0 +1,88 @@
+{
+  "passed": true,
+  "checks": 3669,
+  "failure_count": 0,
+  "failures": [],
+  "read_observations": [
+    {
+      "operation": 4,
+      "row": 0,
+      "col": 0,
+      "sae_half_ns": 88016.07500543882,
+      "y_difference_v": -5.028505033995307
+    },
+    {
+      "operation": 5,
+      "row": 0,
+      "col": 31,
+      "sae_half_ns": 106015.99269438465,
+      "y_difference_v": 5.0270926464670485
+    },
+    {
+      "operation": 6,
+      "row": 15,
+      "col": 0,
+      "sae_half_ns": 124015.97045706521,
+      "y_difference_v": 5.0256530662706025
+    },
+    {
+      "operation": 7,
+      "row": 15,
+      "col": 31,
+      "sae_half_ns": 142016.06939160955,
+      "y_difference_v": -5.028008079862307
+    },
+    {
+      "operation": 12,
+      "row": 0,
+      "col": 0,
+      "sae_half_ns": 232015.98572942405,
+      "y_difference_v": 5.02671024330491
+    },
+    {
+      "operation": 13,
+      "row": 0,
+      "col": 31,
+      "sae_half_ns": 250016.0517898505,
+      "y_difference_v": -5.027872100012491
+    },
+    {
+      "operation": 14,
+      "row": 15,
+      "col": 0,
+      "sae_half_ns": 268016.0510886592,
+      "y_difference_v": -5.027842435104751
+    },
+    {
+      "operation": 15,
+      "row": 15,
+      "col": 31,
+      "sae_half_ns": 286015.9756553177,
+      "y_difference_v": 5.026014339248308
+    }
+  ],
+  "points": 53419,
+  "operations": 16,
+  "name": "postlayout_720_nominal",
+  "physical_extraction": {
+    "gds_sha256": "d14e24cfab61a7c702df08f00fcba44efac877f60e34a5def9606162912ffc9e",
+    "lvsdb_sha256": "60936758be11656c6bd250382751a9bd9a03df17a90827efe0bbbfc4ac17f39d",
+    "mos_groups": 5005,
+    "physical_fingers": 5081,
+    "model_counts": {
+      "PMOS": 1991,
+      "NMOS": 3014
+    },
+    "source": "/home/ishi-kai/sram/build/sram512/layout/top_h720"
+  },
+  "period_ns": 1000,
+  "voltage_v": 5,
+  "temperature_c": 27,
+  "elapsed_seconds": 428.46,
+  "deck_sha256": "daf855be4049851768be87be860919e2cd8f5e968aaa73ab605462a84468c1cd",
+  "interconnect": "Extra lumped C only; wire resistance and distributed RC not yet included",
+  "supply_current_a": {
+    "max": 0.01485227572925144,
+    "mean_samples": 0.0016671037499611957
+  }
+}

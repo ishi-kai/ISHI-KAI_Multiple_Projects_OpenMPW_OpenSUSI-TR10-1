@@ -1,0 +1,25 @@
+* Created by KLayout
+*** My special header ***
+
+* cell sram_dense_1x1
+* pin BL0
+* pin BLB0
+* pin Q
+* pin QB
+* pin VDD
+* pin VSS
+* pin WL0
+.SUBCKT sram_dense_1x1 BL0 BLB0 Q QB VDD VSS WL0
+* device instance $1 r0 *1 5,31.6 PMOS
+XM$1 Q QB VDD VDD PMOS L=1u W=3.4u AS=10.88p AD=10.88p PS=13.2u PD=13.2u
+* device instance $2 r0 *1 16.6,31.6 PMOS
+XM$2 QB Q VDD VDD PMOS L=1u W=3.4u AS=10.88p AD=10.88p PS=13.2u PD=13.2u
+* device instance $3 r0 *1 15.7,2.4 NMOS
+XM$3 BLB0 WL0 QB VSS NMOS L=1u W=3.4u AS=10.88p AD=6.46p PS=13.2u PD=7.2u
+* device instance $4 r0 *1 15.7,7.2 NMOS
+XM$4 QB Q VSS VSS NMOS L=1u W=3.4u AS=6.46p AD=10.88p PS=7.2u PD=13.2u
+* device instance $5 r0 *1 5.9,2.4 NMOS
+XM$5 BL0 WL0 Q VSS NMOS L=1u W=3.4u AS=10.88p AD=6.46p PS=13.2u PD=7.2u
+* device instance $6 r0 *1 5.9,7.2 NMOS
+XM$6 Q QB VSS VSS NMOS L=1u W=3.4u AS=6.46p AD=10.88p PS=7.2u PD=13.2u
+.ENDS sram_dense_1x1

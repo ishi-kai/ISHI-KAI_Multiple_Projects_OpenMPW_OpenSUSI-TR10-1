@@ -1,0 +1,1075 @@
+{
+  "passed": true,
+  "checks": 38138,
+  "failure_count": 0,
+  "failures": [],
+  "read_observations": [],
+  "points": 7717,
+  "operations": 1,
+  "voltage_limits": {
+    "passed": true,
+    "checks": 29262,
+    "failure_count": 0,
+    "failures": [],
+    "maximum_by_pair": {
+      "DS": {
+        "device": 4101,
+        "model": "PMOS",
+        "cell": "DFFR",
+        "instance": 72,
+        "pair": "DS",
+        "peak_abs_v": 5.524527081846286,
+        "time_ns": 81041.03352501568,
+        "position_um": [
+          1289.5,
+          273.05
+        ]
+      },
+      "GS": {
+        "device": 4232,
+        "model": "PMOS",
+        "cell": "DFFR",
+        "instance": 76,
+        "pair": "GS",
+        "peak_abs_v": 5.630495534993526,
+        "time_ns": 83516.2504556507,
+        "position_um": [
+          1074.2,
+          572.8
+        ]
+      },
+      "SB": {
+        "device": 4280,
+        "model": "NMOS",
+        "cell": "DFFR",
+        "instance": 77,
+        "pair": "SB",
+        "peak_abs_v": 5.3107267895851535,
+        "time_ns": 26011.726578775913,
+        "position_um": [
+          1613.8,
+          457.8
+        ]
+      },
+      "DB": {
+        "device": 4279,
+        "model": "NMOS",
+        "cell": "DFFR",
+        "instance": 77,
+        "pair": "DB",
+        "peak_abs_v": 5.309932878937926,
+        "time_ns": 26011.726578775913,
+        "position_um": [
+          1609.8,
+          457.8
+        ]
+      },
+      "GD": {
+        "device": 3274,
+        "model": "NMOS",
+        "cell": "MUX2",
+        "instance": 12,
+        "pair": "GD",
+        "peak_abs_v": 5.632028998119247,
+        "time_ns": 99758.4820597106,
+        "position_um": [
+          1518.6,
+          86.55
+        ]
+      },
+      "GB": {
+        "device": 4232,
+        "model": "PMOS",
+        "cell": "DFFR",
+        "instance": 76,
+        "pair": "GB",
+        "peak_abs_v": 5.724146813180817,
+        "time_ns": 86016.9806957103,
+        "position_um": [
+          1074.2,
+          572.8
+        ]
+      }
+    },
+    "limit_abs_v": 5.75,
+    "source": "Unmodified dev OS00 reference manual rev1.1, table I-2-3 (recommended MOS operating voltages).",
+    "scope": "Absolute terminal-pair amplitudes. This does not replace current, ESD, or statistical-corner qualification."
+  },
+  "all_cell_retention": {
+    "passed": true,
+    "checks": 1536,
+    "failure_count": 0,
+    "failures": [],
+    "cells": 512,
+    "operations": 1,
+    "initial_sample_ns": 10000.0,
+    "initial_ones_observed": 512,
+    "scope": "Observe unspecified initial data after RESET settles, then check Q and QB of every cell after every operation. Only a written target may change. Read-disturb transients inside the WL pulse are not rail-tested by this checker."
+  },
+  "power_supply_observations": {
+    "load_nodes": 3257,
+    "minimum_vdd": -1.4499915846376265e-25,
+    "maximum_vdd": 5.0018959742836335,
+    "minimum_vss": -0.0010776399809651143,
+    "maximum_vss": 0.12110603060456895,
+    "worst_vdd_nodes": [
+      {
+        "supply": "VDD",
+        "node": "power_vdd_load_1176",
+        "min_v": -1.4499915846376265e-25,
+        "max_v": 5.000213201533581
+      },
+      {
+        "supply": "VDD",
+        "node": "power_vdd_load_1175",
+        "min_v": -1.4469899885482665e-25,
+        "max_v": 5.000214099833953
+      },
+      {
+        "supply": "VDD",
+        "node": "power_vdd_load_1402",
+        "min_v": -1.4424442293145802e-25,
+        "max_v": 5.000208959665855
+      },
+      {
+        "supply": "VDD",
+        "node": "power_vdd_load_1403",
+        "min_v": -1.4386573420542754e-25,
+        "max_v": 5.000206803957797
+      },
+      {
+        "supply": "VDD",
+        "node": "power_vdd_load_1364",
+        "min_v": -1.4382774608941455e-25,
+        "max_v": 5.000216856275837
+      }
+    ],
+    "worst_vss_nodes": [
+      {
+        "supply": "VSS",
+        "node": "power_vss_load_694",
+        "min_v": -9.005199115042005e-05,
+        "max_v": 0.12110603060456895
+      },
+      {
+        "supply": "VSS",
+        "node": "power_vss_load_693",
+        "min_v": -9.005174159246317e-05,
+        "max_v": 0.1211060151912258
+      },
+      {
+        "supply": "VSS",
+        "node": "power_vss_load_702",
+        "min_v": -9.005127172463355e-05,
+        "max_v": 0.12110544465056033
+      },
+      {
+        "supply": "VSS",
+        "node": "power_vss_load_701",
+        "min_v": -9.005102181119996e-05,
+        "max_v": 0.12110542913780235
+      },
+      {
+        "supply": "VSS",
+        "node": "power_vss_load_550",
+        "min_v": -9.004686478416474e-05,
+        "max_v": 0.12110018635628768
+      }
+    ]
+  },
+  "power_resistance_model": {
+    "sheet_ohm": 0.1,
+    "via_ohm": 1.0,
+    "scope": "Width-aware supply resistance sensitivity on the actual metal topology.\n\nMetal polygons are sampled on a stated grid, reduced to their medial paths,\nand assigned R = sheet_R * path_length / local_width. Local width uses the\ninside distance transform minus one sampling interval. Series-only nodes are\neliminated exactly; branches, loops, every actual via, and load taps remain.\nThis is an explicit numerical sensitivity model, not a foundry PEX deck.\nIt improves on the earlier whole-polygon perimeter proxy without replacing\nthat failed experiment or changing any circuit/DRC/LVS acceptance criterion.\n",
+    "source_gds_sha256": "f32c213db5efaa09449b3c8db709c2b547bae09c6fe011f1eb284dda8342eff2",
+    "grid_um": 0.25,
+    "detailed_parameters_sha256": "da0467f7c13dc2838b5936ab91d2778068442589d6bf88b398753abbde4bf865"
+  },
+  "via_currents": {
+    "passed": true,
+    "checks": 2880,
+    "physical_vias": 1440,
+    "failure_count": 0,
+    "failures": [],
+    "maximum_peak_a": 0.005004025943653711,
+    "maximum_rms_a": 5.1827354014984133e-05,
+    "worst_peak_vias": [
+      {
+        "supply": "VDD",
+        "position_um": [
+          918.5,
+          118.25
+        ],
+        "peak_a": 0.005004025943653711,
+        "mean_absolute_a": 3.057623326576244e-06,
+        "rms_a": 5.1827354014984133e-05,
+        "passed": true
+      },
+      {
+        "supply": "VSS",
+        "position_um": [
+          913.0,
+          143.9
+        ],
+        "peak_a": 0.0031235551780080394,
+        "mean_absolute_a": 2.786739926525204e-06,
+        "rms_a": 4.045066877635855e-05,
+        "passed": true
+      },
+      {
+        "supply": "VSS",
+        "position_um": [
+          880.0,
+          140.25
+        ],
+        "peak_a": 0.0031235551779996134,
+        "mean_absolute_a": 2.786739926517684e-06,
+        "rms_a": 4.045066877624941e-05,
+        "passed": true
+      },
+      {
+        "supply": "VSS",
+        "position_um": [
+          962.5,
+          594.0
+        ],
+        "peak_a": 0.0022229064436265636,
+        "mean_absolute_a": 2.250167506319504e-06,
+        "rms_a": 2.7754620942855272e-05,
+        "passed": true
+      },
+      {
+        "supply": "VDD",
+        "position_um": [
+          40.6,
+          112.7
+        ],
+        "peak_a": 0.002171784785972048,
+        "mean_absolute_a": 4.083969047596456e-07,
+        "rms_a": 1.8836665960011746e-05,
+        "passed": true
+      },
+      {
+        "supply": "VSS",
+        "position_um": [
+          866.8,
+          132.4
+        ],
+        "peak_a": 0.0017143194668352007,
+        "mean_absolute_a": 5.751117097497365e-07,
+        "rms_a": 1.405919611860686e-05,
+        "passed": true
+      },
+      {
+        "supply": "VSS",
+        "position_um": [
+          426.8,
+          132.4
+        ],
+        "peak_a": 0.0015206331489169814,
+        "mean_absolute_a": 2.8556269796503667e-07,
+        "rms_a": 1.134187178381676e-05,
+        "passed": true
+      },
+      {
+        "supply": "VDD",
+        "position_um": [
+          861.4,
+          112.7
+        ],
+        "peak_a": 0.0014897536641801713,
+        "mean_absolute_a": 1.4792984917089326e-06,
+        "rms_a": 1.9872769807682255e-05,
+        "passed": true
+      },
+      {
+        "supply": "VSS",
+        "position_um": [
+          948.75,
+          112.75
+        ],
+        "peak_a": 0.0013932831122298167,
+        "mean_absolute_a": 1.2456705504067195e-06,
+        "rms_a": 1.7189776108455498e-05,
+        "passed": true
+      },
+      {
+        "supply": "VSS",
+        "position_um": [
+          35.2,
+          132.4
+        ],
+        "peak_a": 0.0013249114609746961,
+        "mean_absolute_a": 1.5648463286413857e-07,
+        "rms_a": 9.639451889473185e-06,
+        "passed": true
+      }
+    ],
+    "limits_a": {
+      "instantaneous": 0.0078,
+      "continuous": 0.00078,
+      "rms_screen": 0.00078
+    },
+    "reference": "OpenSUSI OS00 reference manual rev1.1, table I-3-3",
+    "scope": "Compare individual TC currents with the published current limits.\n\n    The 0.78 mA continuous and 7.8 mA instantaneous limits are from OS00\n    rev1.1, table I-3-3. RMS is also checked against the continuous limit as\n    a conservative heating screen. This is conditional on the explicit\n    uncalibrated sheet/via-R model, not an electromigration signoff deck.\n    "
+  },
+  "rc_checks": {
+    "passed": true,
+    "checks": 1216,
+    "failure_count": 0,
+    "failures": [],
+    "clock_branches": 21,
+    "maximum_clock_rising_skew_ns": 0.041311634122394025,
+    "minimum_clock_high_ns": 2499.915059085375,
+    "minimum_clock_low_ns": 2499.975705469449,
+    "scope": "All four BL/WL/common-line RC sections, control gate loads, and every physical clock branch."
+  },
+  "signal_mesh_checks": {
+    "passed": true,
+    "checks": 3072,
+    "failure_count": 0,
+    "failures": [],
+    "scope": "Every physical WL gate tap before, during and after each access, using unchanged 90/10% rail windows."
+  },
+  "name": "signalfix_mesh8_prefix",
+  "physical_extraction": {
+    "gds_sha256": "f32c213db5efaa09449b3c8db709c2b547bae09c6fe011f1eb284dda8342eff2",
+    "lvsdb_sha256": "92fd2b1ecff63e423713e59ef3481afd16726722efd102077c18ebfe8592d348",
+    "mos_groups": 4877,
+    "physical_fingers": 4953,
+    "model_counts": {
+      "PMOS": 1927,
+      "NMOS": 2950,
+      "DP": 4,
+      "DN": 4
+    },
+    "source": "/home/ishi-kai/sram/build/sram512/layout/signal_taps16x32_rev6"
+  },
+  "period_ns": 5000.0,
+  "voltage_v": 5,
+  "temperature_c": 27,
+  "elapsed_seconds": 867.22,
+  "deck_sha256": "1ddcc8c98b0577ca787292ce7ce685a103579c29a494ac34a8596ded2ac0b2f5",
+  "reused_waveform": false,
+  "model_notices": [
+    {
+      "model": "DN",
+      "unsupported_parameters": [
+        "imax",
+        "imelt"
+      ],
+      "consequence": "Diode current/melting limit flags are not implemented by ngspice."
+    },
+    {
+      "model": "DP",
+      "unsupported_parameters": [
+        "imax",
+        "imelt"
+      ],
+      "consequence": "Diode current/melting limit flags are not implemented by ngspice."
+    }
+  ],
+  "solver": "sparse",
+  "simulator_threads": 1,
+  "waveform_storage": "streamed binary file",
+  "local_init_sha256": "2ef8c1ce0b4d65b62053c99e75b2bad1d1158582c6ca6cfc19b1e255c84ecfbc",
+  "numerical_reltol": null,
+  "numerical_pivrel": null,
+  "integration_method": null,
+  "maximum_timestep_ns": 20.0,
+  "signal_mesh": true,
+  "signal_sections": 8,
+  "access_limit": 1,
+  "physical_gate_paths": true,
+  "startup_ramp_ns": 1000.0,
+  "initial_reset_high": false,
+  "startup_scope": "Supply ramps from zero with RESET tracking it.",
+  "interconnect": {
+    "kind": "geometry-based RC sensitivity; uncalibrated coefficients",
+    "scale": 1.0,
+    "coefficients": {
+      "M1": {
+        "width_um": 1.8,
+        "sheet_ohm": 1.0,
+        "area_ff_um2": 0.05,
+        "edge_ff_um": 0.02
+      },
+      "M2": {
+        "width_um": 3.4,
+        "sheet_ohm": 1.0,
+        "area_ff_um2": 0.03,
+        "edge_ff_um": 0.02
+      },
+      "GC_field": {
+        "width_um": 1.0,
+        "sheet_ohm": 120.0,
+        "area_ff_um2": 0.05,
+        "edge_ff_um": 0.02
+      }
+    },
+    "segments": 4,
+    "assumptions": [
+      "WL and C4B retain actual conductor branches and loops; remaining BL/common lines keep the earlier ladder stress model and other gate branches the documented branch approximation.",
+      "Field GC excludes active overlap; intrinsic MOS gate capacitance is not added twice.",
+      "GC sheet R=120 ohm/square is an uncalibrated sensitivity assumption; it is not a qualified GC wiring coefficient.",
+      "CO contact resistance is not separately calibrated or modeled.",
+      "Capacitance is represented to ground; scale sweep also stresses coupling load.",
+      "Power-rail resistance is not included in this signal-RC model."
+    ],
+    "geometry_nets": 1960,
+    "detailed_parameters_sha256": "6238479a75ec6b596513ee92f2e8cb701668eaaeb61c60f42b850294910f44d9",
+    "detailed_parameters_file": "/home/ishi-kai/sram/build/sram512/analog/signalfix_mesh8_prefix/wire_rc.json",
+    "clock": {
+      "branches": 21,
+      "series_sum_ohm": 86137.71265271904,
+      "cap_ff": 580.9735249999999
+    },
+    "wire_groups": {
+      "bitline": {
+        "nets": 64,
+        "resistance_ohm_range": [
+          299.41049382716045,
+          299.41049382716045
+        ],
+        "capacitance_ff_range": [
+          69.8425,
+          69.8425
+        ]
+      },
+      "wordline": {
+        "nets": 16,
+        "resistance_ohm_range": [
+          29203.584815721166,
+          29894.20929964631
+        ],
+        "capacitance_ff_range": [
+          224.8566,
+          230.849
+        ]
+      },
+      "common": {
+        "nets": 2,
+        "resistance_ohm_range": [
+          974.2858569353668,
+          1388.799019607843
+        ],
+        "capacitance_ff_range": [
+          336.20185,
+          494.9537
+        ]
+      }
+    },
+    "signal_topology": {
+      "model": {
+        "version": 1,
+        "grid_um": 0.25,
+        "sections": 8,
+        "coefficients": {
+          "M1": {
+            "width_um": 1.8,
+            "sheet_ohm": 1.0,
+            "area_ff_um2": 0.05,
+            "edge_ff_um": 0.02
+          },
+          "M2": {
+            "width_um": 3.4,
+            "sheet_ohm": 1.0,
+            "area_ff_um2": 0.03,
+            "edge_ff_um": 0.02
+          },
+          "GC_field": {
+            "width_um": 1.0,
+            "sheet_ohm": 120.0,
+            "area_ff_um2": 0.05,
+            "edge_ff_um": 0.02
+          }
+        },
+        "contact_ohm": 1.0,
+        "via_ohm": 1.0,
+        "nets": [
+          "wl0",
+          "wl1",
+          "wl10",
+          "wl11",
+          "wl12",
+          "wl13",
+          "wl14",
+          "wl15",
+          "wl2",
+          "wl3",
+          "wl4",
+          "wl5",
+          "wl6",
+          "wl7",
+          "wl8",
+          "wl9",
+          "xctrl.xphase.c4b"
+        ]
+      },
+      "scope": "Distributed signal RC on the extracted conductor topology.\n\nGC/CO/M1/V1/M2 branches and loops are retained. MOS terminals are separate\nphysical taps. Degree-two wire chains become RC pi sections with exactly the\nsame resistance, total capacitance and first capacitance moment along R.\nThis is geometry-based sensitivity analysis, not qualified foundry PEX.\n",
+      "nets": {
+        "wl0": {
+          "sampled_nodes": 8610,
+          "reduced_nodes": 1666,
+          "cap_ff": 224.8566,
+          "maximum_path_ohm": 29868.390858583793,
+          "observation_columns": [
+            0,
+            15,
+            16,
+            31
+          ],
+          "dc_validation": {
+            "relative_error": 3.1019651407010067e-13,
+            "sink_nodes": [
+              "rc_wl0_1",
+              "rc_wl0_2",
+              "rc_wl0_3",
+              "rc_wl0_4"
+            ],
+            "original_ohm": [
+              4912.375174199002,
+              4286.892344112331,
+              4756.664118954156,
+              4131.181288866635
+            ],
+            "reduced_ohm": [
+              4912.375174199067,
+              4286.89234411279,
+              4756.6641189543425,
+              4131.181288867917
+            ]
+          }
+        },
+        "wl1": {
+          "sampled_nodes": 8739,
+          "reduced_nodes": 1655,
+          "cap_ff": 229.92599999999996,
+          "maximum_path_ohm": 29203.72952728688,
+          "observation_columns": [
+            0,
+            15,
+            16,
+            31
+          ],
+          "dc_validation": {
+            "relative_error": 8.195584828425725e-13,
+            "sink_nodes": [
+              "rc_wl1_1",
+              "rc_wl1_2",
+              "rc_wl1_3",
+              "rc_wl1_4"
+            ],
+            "original_ohm": [
+              4804.053214505372,
+              4159.220507717937,
+              4647.9716179356255,
+              4003.1389111483477
+            ],
+            "reduced_ohm": [
+              4804.053214509309,
+              4159.220507720669,
+              4647.97161793919,
+              4003.138911150462
+            ]
+          }
+        },
+        "wl10": {
+          "sampled_nodes": 8623,
+          "reduced_nodes": 1666,
+          "cap_ff": 225.5666,
+          "maximum_path_ohm": 29869.077269045218,
+          "observation_columns": [
+            0,
+            15,
+            16,
+            31
+          ],
+          "dc_validation": {
+            "relative_error": 4.751971574586554e-13,
+            "sink_nodes": [
+              "rc_wl10_1",
+              "rc_wl10_2",
+              "rc_wl10_3",
+              "rc_wl10_4"
+            ],
+            "original_ohm": [
+              4913.061584662858,
+              4287.578754575258,
+              4757.102371626399,
+              4131.619541538054
+            ],
+            "reduced_ohm": [
+              4913.061584660523,
+              4287.578754574226,
+              4757.102371625681,
+              4131.619541539242
+            ]
+          }
+        },
+        "wl11": {
+          "sampled_nodes": 8759,
+          "reduced_nodes": 1653,
+          "cap_ff": 230.63599999999997,
+          "maximum_path_ohm": 29204.977938023614,
+          "observation_columns": [
+            0,
+            15,
+            16,
+            31
+          ],
+          "dc_validation": {
+            "relative_error": 5.626757572458725e-13,
+            "sink_nodes": [
+              "rc_wl11_1",
+              "rc_wl11_2",
+              "rc_wl11_3",
+              "rc_wl11_4"
+            ],
+            "original_ohm": [
+              4805.4041315893555,
+              4177.1015762125735,
+              4648.692837064875,
+              4020.3902816892796
+            ],
+            "reduced_ohm": [
+              4805.404131591587,
+              4177.101576214054,
+              4648.6928370674905,
+              4020.390281690133
+            ]
+          }
+        },
+        "wl12": {
+          "sampled_nodes": 8640,
+          "reduced_nodes": 1636,
+          "cap_ff": 226.4896,
+          "maximum_path_ohm": 29894.20929964631,
+          "observation_columns": [
+            0,
+            15,
+            16,
+            31
+          ],
+          "dc_validation": {
+            "relative_error": 1.07207678104687e-12,
+            "sink_nodes": [
+              "rc_wl12_1",
+              "rc_wl12_2",
+              "rc_wl12_3",
+              "rc_wl12_4"
+            ],
+            "original_ohm": [
+              4934.843076301852,
+              4285.065002958682,
+              4777.927004546979,
+              4128.14893120425
+            ],
+            "reduced_ohm": [
+              4934.843076307143,
+              4285.065002961751,
+              4777.927004550071,
+              4128.148931204647
+            ]
+          }
+        },
+        "wl13": {
+          "sampled_nodes": 8715,
+          "reduced_nodes": 1653,
+          "cap_ff": 229.03139999999996,
+          "maximum_path_ohm": 29203.584815721166,
+          "observation_columns": [
+            0,
+            15,
+            16,
+            31
+          ],
+          "dc_validation": {
+            "relative_error": 5.225242125654419e-13,
+            "sink_nodes": [
+              "rc_wl13_1",
+              "rc_wl13_2",
+              "rc_wl13_3",
+              "rc_wl13_4"
+            ],
+            "original_ohm": [
+              4803.998200521472,
+              4173.345477682166,
+              4647.347252361933,
+              4016.694529523155
+            ],
+            "reduced_ohm": [
+              4803.998200523983,
+              4173.345477683403,
+              4647.347252364335,
+              4016.69452952396
+            ]
+          }
+        },
+        "wl14": {
+          "sampled_nodes": 8639,
+          "reduced_nodes": 1635,
+          "cap_ff": 226.4186,
+          "maximum_path_ohm": 29892.41626054081,
+          "observation_columns": [
+            0,
+            15,
+            16,
+            31
+          ],
+          "dc_validation": {
+            "relative_error": 7.057581730350104e-13,
+            "sink_nodes": [
+              "rc_wl14_1",
+              "rc_wl14_2",
+              "rc_wl14_3",
+              "rc_wl14_4"
+            ],
+            "original_ohm": [
+              4933.05759877337,
+              4281.117377013277,
+              4776.659321350551,
+              4124.719099590281
+            ],
+            "reduced_ohm": [
+              4933.057598776852,
+              4281.11737701478,
+              4776.659321352707,
+              4124.719099590625
+            ]
+          }
+        },
+        "wl15": {
+          "sampled_nodes": 8708,
+          "reduced_nodes": 1662,
+          "cap_ff": 228.47760000000002,
+          "maximum_path_ohm": 29228.558700524045,
+          "observation_columns": [
+            0,
+            15,
+            16,
+            31
+          ],
+          "dc_validation": {
+            "relative_error": 8.316739772043434e-13,
+            "sink_nodes": [
+              "rc_wl15_1",
+              "rc_wl15_2",
+              "rc_wl15_3",
+              "rc_wl15_4"
+            ],
+            "original_ohm": [
+              4825.670847300391,
+              4173.13001826577,
+              4669.548985559051,
+              4017.008156526072
+            ],
+            "reduced_ohm": [
+              4825.670847303998,
+              4173.130018269025,
+              4669.548985562935,
+              4017.0081565279042
+            ]
+          }
+        },
+        "wl2": {
+          "sampled_nodes": 8620,
+          "reduced_nodes": 1636,
+          "cap_ff": 225.7796,
+          "maximum_path_ohm": 29892.96611393519,
+          "observation_columns": [
+            0,
+            15,
+            16,
+            31
+          ],
+          "dc_validation": {
+            "relative_error": 1.2275671626021792e-12,
+            "sink_nodes": [
+              "rc_wl2_1",
+              "rc_wl2_2",
+              "rc_wl2_3",
+              "rc_wl2_4"
+            ],
+            "original_ohm": [
+              4933.599890589952,
+              4283.821817246801,
+              4777.30929521071,
+              4127.5312218686095
+            ],
+            "reduced_ohm": [
+              4933.599890596009,
+              4283.821817250619,
+              4777.309295214488,
+              4127.531221869069
+            ]
+          }
+        },
+        "wl3": {
+          "sampled_nodes": 8764,
+          "reduced_nodes": 1651,
+          "cap_ff": 230.849,
+          "maximum_path_ohm": 29205.375681020545,
+          "observation_columns": [
+            0,
+            15,
+            16,
+            31
+          ],
+          "dc_validation": {
+            "relative_error": 7.129040610512424e-13,
+            "sink_nodes": [
+              "rc_wl3_1",
+              "rc_wl3_2",
+              "rc_wl3_3",
+              "rc_wl3_4"
+            ],
+            "original_ohm": [
+              4805.78906581984,
+              4175.13634298107,
+              4648.911488446359,
+              4018.2587656079318
+            ],
+            "reduced_ohm": [
+              4805.789065823266,
+              4175.136342982745,
+              4648.911488449201,
+              4018.258765608843
+            ]
+          }
+        },
+        "wl4": {
+          "sampled_nodes": 8649,
+          "reduced_nodes": 1651,
+          "cap_ff": 226.70260000000002,
+          "maximum_path_ohm": 29875.724806224312,
+          "observation_columns": [
+            0,
+            15,
+            16,
+            31
+          ],
+          "dc_validation": {
+            "relative_error": 5.187272857090897e-13,
+            "sink_nodes": [
+              "rc_wl4_1",
+              "rc_wl4_2",
+              "rc_wl4_3",
+              "rc_wl4_4"
+            ],
+            "original_ohm": [
+              4919.044305175231,
+              4283.211835626951,
+              4762.015953409076,
+              4126.183483861904
+            ],
+            "reduced_ohm": [
+              4919.044305177563,
+              4283.211835628322,
+              4762.015953411546,
+              4126.183483862293
+            ]
+          }
+        },
+        "wl5": {
+          "sampled_nodes": 8720,
+          "reduced_nodes": 1662,
+          "cap_ff": 228.90359999999998,
+          "maximum_path_ohm": 29229.08997032483,
+          "observation_columns": [
+            0,
+            15,
+            16,
+            31
+          ],
+          "dc_validation": {
+            "relative_error": 5.81785234938333e-13,
+            "sink_nodes": [
+              "rc_wl5_1",
+              "rc_wl5_2",
+              "rc_wl5_3",
+              "rc_wl5_4"
+            ],
+            "original_ohm": [
+              4826.202117102529,
+              4173.66128806791,
+              4669.524957063739,
+              4016.984128029702
+            ],
+            "reduced_ohm": [
+              4826.202117104785,
+              4173.661288069805,
+              4669.5249570664555,
+              4016.984128031427
+            ]
+          }
+        },
+        "wl6": {
+          "sampled_nodes": 8638,
+          "reduced_nodes": 1655,
+          "cap_ff": 226.20560000000003,
+          "maximum_path_ohm": 29828.27691976824,
+          "observation_columns": [
+            0,
+            15,
+            16,
+            31
+          ],
+          "dc_validation": {
+            "relative_error": 1.2039053955699458e-12,
+            "sink_nodes": [
+              "rc_wl6_1",
+              "rc_wl6_2",
+              "rc_wl6_3",
+              "rc_wl6_4"
+            ],
+            "original_ohm": [
+              4911.9595050307325,
+              4236.070587038839,
+              4755.718567939182,
+              4079.82964994724
+            ],
+            "reduced_ohm": [
+              4911.959505036646,
+              4236.070587042162,
+              4755.718567942224,
+              4079.8296499476514
+            ]
+          }
+        },
+        "wl7": {
+          "sampled_nodes": 8700,
+          "reduced_nodes": 1656,
+          "cap_ff": 228.3498,
+          "maximum_path_ohm": 29225.249272436544,
+          "observation_columns": [
+            0,
+            15,
+            16,
+            31
+          ],
+          "dc_validation": {
+            "relative_error": 1.6495497213227318e-12,
+            "sink_nodes": [
+              "rc_wl7_1",
+              "rc_wl7_2",
+              "rc_wl7_3",
+              "rc_wl7_4"
+            ],
+            "original_ohm": [
+              4822.740444603641,
+              4170.2012391950375,
+              4667.100926199232,
+              4014.5617207898285
+            ],
+            "reduced_ohm": [
+              4822.740444611596,
+              4170.201239200062,
+              4667.1009262031,
+              4014.5617207914665
+            ]
+          }
+        },
+        "wl8": {
+          "sampled_nodes": 8626,
+          "reduced_nodes": 1655,
+          "cap_ff": 225.65179999999998,
+          "maximum_path_ohm": 29867.921849225324,
+          "observation_columns": [
+            0,
+            15,
+            16,
+            31
+          ],
+          "dc_validation": {
+            "relative_error": 6.456832837304338e-13,
+            "sink_nodes": [
+              "rc_wl8_1",
+              "rc_wl8_2",
+              "rc_wl8_3",
+              "rc_wl8_4"
+            ],
+            "original_ohm": [
+              4911.6223619384955,
+              4286.300183435541,
+              4755.975704108645,
+              4130.653525605655
+            ],
+            "reduced_ohm": [
+              4911.6223619412385,
+              4286.3001834383085,
+              4755.975704110077,
+              4130.653525606953
+            ]
+          }
+        },
+        "wl9": {
+          "sampled_nodes": 8735,
+          "reduced_nodes": 1653,
+          "cap_ff": 229.71300000000002,
+          "maximum_path_ohm": 29210.340537889482,
+          "observation_columns": [
+            0,
+            15,
+            16,
+            31
+          ],
+          "dc_validation": {
+            "relative_error": 1.4634959370741313e-12,
+            "sink_nodes": [
+              "rc_wl9_1",
+              "rc_wl9_2",
+              "rc_wl9_3",
+              "rc_wl9_4"
+            ],
+            "original_ohm": [
+              4810.050245712359,
+              4163.2785863706295,
+              4654.106963492917,
+              4007.3353041510804
+            ],
+            "reduced_ohm": [
+              4810.050245719399,
+              4163.27858637569,
+              4654.106963495964,
+              4007.3353041523083
+            ]
+          }
+        },
+        "xctrl.xphase.c4b": {
+          "sampled_nodes": 6575,
+          "reduced_nodes": 671,
+          "cap_ff": 210.3926,
+          "maximum_path_ohm": 23399.88401665374,
+          "observation_columns": null,
+          "dc_validation": {
+            "relative_error": 1.2967894602122892e-09,
+            "sink_nodes": [
+              "sig_xctrl_xphase_c4b_n2184",
+              "sig_xctrl_xphase_c4b_n1302",
+              "sig_xctrl_xphase_c4b_n1111",
+              "sig_xctrl_xphase_c4b_n920"
+            ],
+            "original_ohm": [
+              23355.846746350497,
+              23368.66319753617,
+              23378.120870848663,
+              23399.883985496992
+            ],
+            "reduced_ohm": [
+              23355.846776628416,
+              23368.663227840407,
+              23378.120901160783,
+              23399.884015827833
+            ]
+          }
+        }
+      }
+    }
+  },
+  "supply_current_a": {
+    "max": 0.010940918985097652,
+    "time_mean": 2.7936915701495246e-05,
+    "rms": 0.0003657140876136436
+  }
+}

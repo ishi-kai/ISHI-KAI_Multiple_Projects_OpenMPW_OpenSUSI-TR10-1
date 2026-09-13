@@ -1,0 +1,24 @@
+** sch_path: /home/ryukitsuji/ISHI-HandsOn/opamp/opamp_test.sch
+.subckt opamp_test vinp vinn ib out vdd vss
+*.PININFO vinn:I vinp:I out:O ib:B vss:B vdd:B
+MXM1 net2 vinn net1 vdd PMOS w=25u l=5u m=12
+MXM4 net3 net2 vss vss NMOS w=25u l=5u m=8
+MXM2 net3 vinp net1 vdd PMOS w=25u l=5u m=12
+MXM3 net2 net2 vss vss NMOS w=25u l=5u m=8
+MXM5 net1 ib vdd vdd PMOS w=25u l=5u m=16
+MXM6 out ib vdd vdd PMOS w=25u l=5u m=32
+MXM7 out net3 vss vss NMOS w=25u l=5u m=34
+MXM8 ib ib vdd vdd PMOS w=25u l=5u
+MXM9 net5 ib vdd vdd PMOS w=25u l=5u m=2
+MXM10 net5 net5 net4 vss NMOS w=25u l=5u m=2
+MXM11 net4 net4 vss vss NMOS w=25u l=5u m=2
+MXM12 net6 net5 net3 vss NMOS w=25u l=5u m=4
+MXM_DUMMY2 vdd vdd vdd vdd PMOS w=25u l=5u m=4
+MXM_DUMMY1 vss vss vss vss NMOS w=25u l=5u m=24
+MXM_DUMMY3 net1 vdd vdd vdd PMOS w=25u l=5u m=4
+MXM_DUMMY5 net3 vss vss vss NMOS w=25u l=5u m=2
+MXM_DUMMY4 net5 vdd vdd vdd PMOS w=25u l=5u m=2
+MXM_DUMMY6 ib vdd vdd vdd PMOS w=25u l=5u
+MXM_DUMMY7 out vss vss vss NMOS w=25u l=5u m=2
+XXC2 net6 out vss F_CSIO x=96u y=86u A=8.256n P=364u m=4
+.ends

@@ -1,0 +1,39 @@
+* Created by KLayout
+*** My special header ***
+
+* cell opamp_yamada
+* pin nbp
+* pin vddi
+* pin vinn
+* pin vinp
+* pin vout
+* pin vssi
+.SUBCKT opamp_yamada nbp vddi vinn vinp vout vssi
+* device instance $1 r0 *1 -746,486.9 PMOS
+XM$1 vddi nbp nbp vddi PMOS L=2u W=60u AS=103p AD=103p PS=90.6u PD=90.6u
+* device instance $7 r0 *1 -680.6,486.9 PMOS
+XM$7 vddi nbp \$60 vddi PMOS L=2u W=60u AS=103p AD=103p PS=90.6u PD=90.6u
+* device instance $13 r0 *1 -644.6,359 PMOS
+XM$13 \$23 vinn \$9 \$23 PMOS L=2u W=240u AS=412p AD=412p PS=321.2u PD=321.2u
+* device instance $25 r0 *1 -689.6,359 PMOS
+XM$25 \$23 vinp \$8 \$23 PMOS L=2u W=240u AS=412p AD=412p PS=321.2u PD=321.2u
+* device instance $37 r0 *1 -615.2,484.9 PMOS
+XM$37 vddi nbp \$23 vddi PMOS L=2u W=120u AS=206p AD=206p PS=160.6u PD=160.6u
+* device instance $43 r0 *1 -549.8,484.9 PMOS
+XM$43 vddi nbp vout vddi PMOS L=2u W=480u AS=772p AD=772p PS=597.2u PD=597.2u
+* device instance $67 r0 *1 -664.6,320.8 NMOS
+XM$67 \$8 \$9 vssi vssi NMOS L=2u W=20u AS=56p AD=56p PS=45.6u PD=45.6u
+* device instance $68 r0 *1 -644.6,320.8 NMOS
+XM$68 vssi \$9 \$9 vssi NMOS L=2u W=20u AS=56p AD=56p PS=45.6u PD=45.6u
+* device instance $69 r0 *1 -740,431.6 NMOS
+XM$69 \$52 \$60 \$60 vssi NMOS L=2u W=20u AS=56p AD=56p PS=45.6u PD=45.6u
+* device instance $70 r0 *1 -740,395.7 NMOS
+XM$70 \$52 \$52 vssi vssi NMOS L=2u W=20u AS=56p AD=56p PS=45.6u PD=45.6u
+* device instance $71 r0 *1 -591.4,407.1 NMOS
+XM$71 \$8 \$60 \$51 vssi NMOS L=2u W=14u AS=39.2p AD=39.2p PS=33.6u PD=33.6u
+* device instance $72 r0 *1 -589.4,320.8 NMOS
+XM$72 vssi \$8 vout vssi NMOS L=2u W=160u AS=266p AD=266p PS=206.6u PD=206.6u
+* device instance $80 r0 *1 -471.2,374.8 F_CSIO
+XC$80 \$51 vout vssi F_CSIO C=8.64e-12 A=14400p P=480u X=119.999998651
++ Y=120.000001349 m=1
+.ENDS opamp_yamada

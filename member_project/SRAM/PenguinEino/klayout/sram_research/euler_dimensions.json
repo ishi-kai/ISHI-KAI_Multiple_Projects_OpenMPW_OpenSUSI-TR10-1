@@ -1,0 +1,45 @@
+{
+  "pitch_x_um": 23.2,
+  "pitch_y_um": 29.6,
+  "area_per_bit_um2": 686.72,
+  "tap_interval_columns": 16,
+  "tap_gap_um": 39.6,
+  "shared_tap_columns": false,
+  "footprints": {
+    "euler_1x1": {
+      "width_um": 66.2,
+      "height_um": 41.8,
+      "bits": 1
+    },
+    "euler_2x2": {
+      "width_um": 89.4,
+      "height_um": 59.2,
+      "bits": 4
+    },
+    "euler_4x4": {
+      "width_um": 135.8,
+      "height_um": 118.4,
+      "bits": 16
+    },
+    "euler_4x17": {
+      "width_um": 477.0,
+      "height_um": 118.4,
+      "bits": 68
+    },
+    "euler_8x8": {
+      "width_um": 228.6,
+      "height_um": 236.8,
+      "bits": 64
+    },
+    "euler_16x64": {
+      "width_um": 1646.6,
+      "height_um": 473.6,
+      "bits": 1024
+    },
+    "euler_20x68": {
+      "width_um": 1779.0,
+      "height_um": 592.0,
+      "bits": 1360
+    }
+  }
+}

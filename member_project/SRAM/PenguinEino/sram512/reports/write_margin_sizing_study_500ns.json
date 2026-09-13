@@ -1,0 +1,149 @@
+{
+  "source": {
+    "gds_sha256": "bbae5a2e0a63d1d0304937d7a5edef00291f0db6eafc00ce3a7700bdafa9ab02",
+    "lvsdb_sha256": "ad6002d464a8119e7b0abe1c74478af4ced53859d103a0db9082284f5160a18b",
+    "mos_groups": 4877,
+    "physical_fingers": 4953,
+    "model_counts": {
+      "PMOS": 1927,
+      "NMOS": 2950,
+      "DP": 4,
+      "DN": 4
+    },
+    "source": "/home/ishi-kai/sram/build/sram512/layout/final16x32"
+  },
+  "conditions": {
+    "vdd_v": 4.5,
+    "temperature_c": 85,
+    "wordline_rise_ns": 500.0
+  },
+  "scope": "Diagnostic isolated write-path sizing study; not a macro signoff result.\n\nThe bitcell and nominal devices come from the strict extracted layout.\nAlternative peripheral widths are design proposals, with scaled junctions.\nWorst common-line and local BL resistances use the existing RC3 sensitivity\nassumptions. An ideal selected WL is held high to distinguish static write\nstrength from sequencer/wordline delay. Neither the PDK nor GDS is modified.\n",
+  "results": [
+    {
+      "mux_width_um": 3.4,
+      "pulldown_width_um": 3.4,
+      "data": 0,
+      "passed": false,
+      "q_end": 2.33529,
+      "qb_end": 0.16999,
+      "deck_sha256": "9074254ca03692f5e5ff2f1bfe07c9eda1e8217bff040c9188237594e98a0d2c"
+    },
+    {
+      "mux_width_um": 3.4,
+      "pulldown_width_um": 3.4,
+      "data": 1,
+      "passed": false,
+      "q_end": 0.0941941,
+      "qb_end": 2.62813,
+      "deck_sha256": "42f9e330f33d7c419e229c39002d0ef3d10222649e69876ba1923f4cf19b548c"
+    },
+    {
+      "mux_width_um": 5.1,
+      "pulldown_width_um": 3.4,
+      "data": 0,
+      "passed": true,
+      "q_end": 1.88976e-07,
+      "qb_end": 4.49869,
+      "deck_sha256": "0a42f99a621dd693e0d167c043089156350238f0209f95d5ba95bcedf531d98f"
+    },
+    {
+      "mux_width_um": 5.1,
+      "pulldown_width_um": 3.4,
+      "data": 1,
+      "passed": true,
+      "q_end": 4.49891,
+      "qb_end": 1.85335e-07,
+      "deck_sha256": "ac7c316b35df531b84a4ca055eba0259c533178a62b9d265b031d181ab291790"
+    },
+    {
+      "mux_width_um": 5.1,
+      "pulldown_width_um": 6.8,
+      "data": 0,
+      "passed": true,
+      "q_end": 1.37053e-07,
+      "qb_end": 4.49875,
+      "deck_sha256": "a5b6deaa09ec58c355533a6ed6952215fd67a7fbad4b8c2dde5edbedef4f2e44"
+    },
+    {
+      "mux_width_um": 5.1,
+      "pulldown_width_um": 6.8,
+      "data": 1,
+      "passed": true,
+      "q_end": 4.49909,
+      "qb_end": 1.29548e-07,
+      "deck_sha256": "21da59fd82e02c8b2665d511bc2d8e64a2f75337127f36385dfe3389ad275d99"
+    },
+    {
+      "mux_width_um": 6.8,
+      "pulldown_width_um": 3.4,
+      "data": 0,
+      "passed": true,
+      "q_end": 1.8774e-07,
+      "qb_end": 4.49873,
+      "deck_sha256": "32491151d5299d54026e3cb303662f91fced7f0e74e6980fcc48ac277c4619e1"
+    },
+    {
+      "mux_width_um": 6.8,
+      "pulldown_width_um": 3.4,
+      "data": 1,
+      "passed": true,
+      "q_end": 4.49906,
+      "qb_end": 1.76501e-07,
+      "deck_sha256": "fe97eb1a5d123bda2ae294a4c4ed0ca028056e64e7db58cfc780522c9fd72a11"
+    },
+    {
+      "mux_width_um": 6.8,
+      "pulldown_width_um": 6.8,
+      "data": 0,
+      "passed": true,
+      "q_end": 1.3512e-07,
+      "qb_end": 4.49876,
+      "deck_sha256": "8a9e92d7d0105c75062113a29d0558840fc83a0975db8b2c0c5f239917fad1be"
+    },
+    {
+      "mux_width_um": 6.8,
+      "pulldown_width_um": 6.8,
+      "data": 1,
+      "passed": true,
+      "q_end": 4.4991,
+      "qb_end": 1.28107e-07,
+      "deck_sha256": "1118250ebf646b478efdd21cdb3749a7a7b9867b1cb254cebb261397046ad4c6"
+    },
+    {
+      "mux_width_um": 10.2,
+      "pulldown_width_um": 6.8,
+      "data": 0,
+      "passed": true,
+      "q_end": 1.33897e-07,
+      "qb_end": 4.49876,
+      "deck_sha256": "13695a7a4bfcff6b06e43e465fe5d7abc8985e0dde4e4a15bc8a73ad01242983"
+    },
+    {
+      "mux_width_um": 10.2,
+      "pulldown_width_um": 6.8,
+      "data": 1,
+      "passed": true,
+      "q_end": 4.49909,
+      "qb_end": 1.27427e-07,
+      "deck_sha256": "e1b98f208c337855f3df3548341366000c3d5d9028f4315e2b9eb8052ca8c12d"
+    },
+    {
+      "mux_width_um": 10.2,
+      "pulldown_width_um": 10.2,
+      "data": 0,
+      "passed": true,
+      "q_end": 1.18756e-07,
+      "qb_end": 4.49876,
+      "deck_sha256": "2113a0e7c9848a567856a587ebcd7eb98945d7411a606c6ad86fb64d29eab136"
+    },
+    {
+      "mux_width_um": 10.2,
+      "pulldown_width_um": 10.2,
+      "data": 1,
+      "passed": true,
+      "q_end": 4.49909,
+      "qb_end": 1.14061e-07,
+      "deck_sha256": "db4e78ab22cbf5bf9405a7c5eb14f08ee32d445094c63fb1ebc41b0e11375511"
+    }
+  ]
+}

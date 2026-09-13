@@ -1,0 +1,25 @@
+{
+  "passed": true,
+  "switch_and_restore": [
+    {
+      "profile": "original",
+      "passed": true,
+      "batch_verifier_directory": "/home/ishi-kai/sram/.pdk/original/TR-1um"
+    },
+    {
+      "profile": "dev",
+      "passed": true,
+      "batch_verifier_directory": "/home/ishi-kai/sram/.pdk/dev/TR-1um"
+    }
+  ],
+  "final_profile": "dev",
+  "original_pdk_unchanged": true,
+  "original_environment_unchanged": true,
+  "original_environment_sha256": {
+    "/home/ishi-kai/.klayout/klayoutrc": "ad150702688323cadb48017081e0051ab1795c615305637ac41b80d7d53f57a2",
+    "/home/ishi-kai/.xschem/xschemrc": "2137a185904681580bf97b1ca0ffa6b31d591b503ad9eb5eb36e072a689dcab2",
+    "/home/ishi-kai/current_pdk": "8e9beecac5888d49a40a5cb509b795786980b25b90b1ce3819d46700a48a9f1b",
+    "/home/ishi-kai/.bashrc": "ecc6170aad87fc27751d5d5914feb5ab922849e2cfdea67d804985744f3ad300"
+  },
+  "profiles_match_locked_trees": true
+}

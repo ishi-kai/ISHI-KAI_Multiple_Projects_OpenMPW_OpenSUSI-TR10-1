@@ -1,0 +1,62 @@
+{
+  "connectivity": [
+    {
+      "block": "sram512_phase",
+      "parts": 38,
+      "checked_pin_connections": 221,
+      "passed": true
+    },
+    {
+      "block": "sram512_frame",
+      "parts": 20,
+      "checked_pin_connections": 130,
+      "passed": true
+    },
+    {
+      "block": "sram512_control",
+      "parts": 17,
+      "checked_pin_connections": 101,
+      "passed": true
+    },
+    {
+      "block": "sram512_row_decoder",
+      "parts": 28,
+      "checked_pin_connections": 152,
+      "passed": true
+    },
+    {
+      "block": "sram512_col_decoder",
+      "parts": 44,
+      "checked_pin_connections": 228,
+      "passed": true
+    },
+    {
+      "block": "sram512_array",
+      "cells": 512,
+      "checked_pin_connections": 2560,
+      "passed": true
+    }
+  ],
+  "gate_network": {
+    "flipflops": 21,
+    "standard_cells": 154,
+    "gate_bom": {
+      "inv_x1": 5,
+      "and2_x1": 66,
+      "and3_x1": 25,
+      "buf_x4": 5,
+      "and4_x1": 10,
+      "or2": 4,
+      "dffr": 21,
+      "xor2": 4,
+      "mux2": 12,
+      "or4": 1,
+      "or3": 1
+    },
+    "verilog_sha256": "80c1c69bc64193eebd374682e08ccede4d2a0e9f2c1d9c2ba6adcd294322c63d"
+  },
+  "schematic_netlist_sha256": "e6f04b86adac0f13c4a6ec733ecbca921d1b1df094edd0891358b18041ec4721",
+  "rtl_sha256": "0ffcbe75ee14add1c278654d6f8e401861fbcb094339d0dc53fe086b914b1e1f",
+  "passed": true,
+  "simulation": "PASS: 9270 operations, 4644 reads, 4626 writes, 167013 clocks, 334063 gate/RTL/decode checks; 512 addresses; March C-; 18 reset phases\n/home/ishi-kai/sram/sram512/tb/tb_sram512.sv:118: $finish called at 10021003000 (1ps)"
+}

@@ -1,0 +1,505 @@
+{
+  "passed": true,
+  "checks": 45429,
+  "failure_count": 0,
+  "failures": [],
+  "read_observations": [
+    {
+      "operation": 34,
+      "row": 0,
+      "col": 0,
+      "sae_half_ns": 628016.8988273984,
+      "y_difference_v": -5.03493878440159
+    },
+    {
+      "operation": 35,
+      "row": 0,
+      "col": 16,
+      "sae_half_ns": 646016.898668128,
+      "y_difference_v": -5.034929410919801
+    },
+    {
+      "operation": 36,
+      "row": 0,
+      "col": 31,
+      "sae_half_ns": 664016.898537344,
+      "y_difference_v": 5.033522099056855
+    },
+    {
+      "operation": 37,
+      "row": 1,
+      "col": 1,
+      "sae_half_ns": 682016.8984612667,
+      "y_difference_v": -5.034924061328383
+    },
+    {
+      "operation": 38,
+      "row": 1,
+      "col": 17,
+      "sae_half_ns": 700016.8986040613,
+      "y_difference_v": -5.034930705086977
+    },
+    {
+      "operation": 39,
+      "row": 2,
+      "col": 2,
+      "sae_half_ns": 718016.8986738719,
+      "y_difference_v": -5.034933125909918
+    },
+    {
+      "operation": 40,
+      "row": 2,
+      "col": 18,
+      "sae_half_ns": 736016.8986008854,
+      "y_difference_v": -5.0349304576370315
+    },
+    {
+      "operation": 41,
+      "row": 3,
+      "col": 3,
+      "sae_half_ns": 754016.8985286155,
+      "y_difference_v": -5.034927798618165
+    },
+    {
+      "operation": 42,
+      "row": 3,
+      "col": 19,
+      "sae_half_ns": 772016.8984522811,
+      "y_difference_v": -5.034924736606907
+    },
+    {
+      "operation": 43,
+      "row": 4,
+      "col": 4,
+      "sae_half_ns": 790016.8986704283,
+      "y_difference_v": -5.034932830735286
+    },
+    {
+      "operation": 44,
+      "row": 4,
+      "col": 20,
+      "sae_half_ns": 808016.8986013972,
+      "y_difference_v": -5.034930475616046
+    },
+    {
+      "operation": 45,
+      "row": 5,
+      "col": 5,
+      "sae_half_ns": 826016.8985276014,
+      "y_difference_v": -5.034927711591363
+    },
+    {
+      "operation": 46,
+      "row": 5,
+      "col": 21,
+      "sae_half_ns": 844016.8984547976,
+      "y_difference_v": -5.034924927695099
+    },
+    {
+      "operation": 47,
+      "row": 6,
+      "col": 6,
+      "sae_half_ns": 862016.898525429,
+      "y_difference_v": -5.034927525133024
+    },
+    {
+      "operation": 48,
+      "row": 6,
+      "col": 22,
+      "sae_half_ns": 880016.8984518707,
+      "y_difference_v": -5.034924706809336
+    },
+    {
+      "operation": 49,
+      "row": 7,
+      "col": 7,
+      "sae_half_ns": 898016.8983810783,
+      "y_difference_v": -5.034922026388873
+    },
+    {
+      "operation": 50,
+      "row": 7,
+      "col": 23,
+      "sae_half_ns": 916016.8983043726,
+      "y_difference_v": -5.034919069958596
+    },
+    {
+      "operation": 51,
+      "row": 8,
+      "col": 8,
+      "sae_half_ns": 934016.8986775525,
+      "y_difference_v": -5.034933398766446
+    },
+    {
+      "operation": 52,
+      "row": 8,
+      "col": 24,
+      "sae_half_ns": 952016.8986029085,
+      "y_difference_v": -5.034930591794546
+    },
+    {
+      "operation": 53,
+      "row": 9,
+      "col": 9,
+      "sae_half_ns": 970016.8985257603,
+      "y_difference_v": -5.0349275545245415
+    },
+    {
+      "operation": 54,
+      "row": 9,
+      "col": 25,
+      "sae_half_ns": 988016.8984571862,
+      "y_difference_v": -5.034925107444057
+    },
+    {
+      "operation": 55,
+      "row": 10,
+      "col": 10,
+      "sae_half_ns": 1006016.8985251987,
+      "y_difference_v": -5.034927511046111
+    },
+    {
+      "operation": 56,
+      "row": 10,
+      "col": 26,
+      "sae_half_ns": 1024016.8984568237,
+      "y_difference_v": -5.034925095425997
+    },
+    {
+      "operation": 57,
+      "row": 11,
+      "col": 11,
+      "sae_half_ns": 1042016.898383152,
+      "y_difference_v": -5.034922215368638
+    },
+    {
+      "operation": 58,
+      "row": 11,
+      "col": 27,
+      "sae_half_ns": 1060016.89830881,
+      "y_difference_v": -5.034919418723573
+    },
+    {
+      "operation": 59,
+      "row": 12,
+      "col": 12,
+      "sae_half_ns": 1078016.8985296057,
+      "y_difference_v": -5.034927846631671
+    },
+    {
+      "operation": 60,
+      "row": 12,
+      "col": 28,
+      "sae_half_ns": 1096016.8984533853,
+      "y_difference_v": -5.03492479945646
+    },
+    {
+      "operation": 61,
+      "row": 13,
+      "col": 13,
+      "sae_half_ns": 1114016.898380188,
+      "y_difference_v": -5.034921973504201
+    },
+    {
+      "operation": 62,
+      "row": 13,
+      "col": 29,
+      "sae_half_ns": 1132016.8983091714,
+      "y_difference_v": -5.034919448096235
+    },
+    {
+      "operation": 63,
+      "row": 14,
+      "col": 14,
+      "sae_half_ns": 1150016.8983861885,
+      "y_difference_v": -5.034924310717345
+    },
+    {
+      "operation": 64,
+      "row": 14,
+      "col": 30,
+      "sae_half_ns": 1168016.89830577,
+      "y_difference_v": -5.034921064261684
+    },
+    {
+      "operation": 65,
+      "row": 15,
+      "col": 0,
+      "sae_half_ns": 1186016.8986530274,
+      "y_difference_v": 5.033526830823562
+    },
+    {
+      "operation": 66,
+      "row": 15,
+      "col": 15,
+      "sae_half_ns": 1204016.8980357435,
+      "y_difference_v": -5.0349077268681395
+    },
+    {
+      "operation": 67,
+      "row": 15,
+      "col": 31,
+      "sae_half_ns": 1222016.898065719,
+      "y_difference_v": -5.034909084293379
+    },
+    {
+      "operation": 102,
+      "row": 0,
+      "col": 0,
+      "sae_half_ns": 1852016.8989528415,
+      "y_difference_v": 5.033537778890036
+    },
+    {
+      "operation": 103,
+      "row": 0,
+      "col": 16,
+      "sae_half_ns": 1870016.898665205,
+      "y_difference_v": 5.033526529649354
+    },
+    {
+      "operation": 104,
+      "row": 0,
+      "col": 31,
+      "sae_half_ns": 1888016.89812763,
+      "y_difference_v": -5.034910499867362
+    },
+    {
+      "operation": 105,
+      "row": 1,
+      "col": 1,
+      "sae_half_ns": 1906016.898833898,
+      "y_difference_v": 5.033534735921966
+    },
+    {
+      "operation": 106,
+      "row": 1,
+      "col": 17,
+      "sae_half_ns": 1924016.8985386465,
+      "y_difference_v": 5.033522416523882
+    },
+    {
+      "operation": 107,
+      "row": 2,
+      "col": 2,
+      "sae_half_ns": 1942016.8984775245,
+      "y_difference_v": 5.033518560531082
+    },
+    {
+      "operation": 108,
+      "row": 2,
+      "col": 18,
+      "sae_half_ns": 1960016.8983350876,
+      "y_difference_v": 5.033512687049876
+    },
+    {
+      "operation": 109,
+      "row": 3,
+      "col": 3,
+      "sae_half_ns": 1978016.8982168792,
+      "y_difference_v": 5.033507837972822
+    },
+    {
+      "operation": 110,
+      "row": 3,
+      "col": 19,
+      "sae_half_ns": 1996016.8981091077,
+      "y_difference_v": 5.033503353372693
+    },
+    {
+      "operation": 111,
+      "row": 4,
+      "col": 4,
+      "sae_half_ns": 2014016.8982858139,
+      "y_difference_v": 5.033509241602958
+    },
+    {
+      "operation": 112,
+      "row": 4,
+      "col": 20,
+      "sae_half_ns": 2032016.8981967273,
+      "y_difference_v": 5.033506032946694
+    },
+    {
+      "operation": 113,
+      "row": 5,
+      "col": 5,
+      "sae_half_ns": 2050016.8981066647,
+      "y_difference_v": 5.033502514275071
+    },
+    {
+      "operation": 114,
+      "row": 5,
+      "col": 21,
+      "sae_half_ns": 2068016.8980205196,
+      "y_difference_v": 5.033499183974321
+    },
+    {
+      "operation": 115,
+      "row": 6,
+      "col": 6,
+      "sae_half_ns": 2086016.8980742274,
+      "y_difference_v": 5.033500836012645
+    },
+    {
+      "operation": 116,
+      "row": 6,
+      "col": 22,
+      "sae_half_ns": 2104016.8979926193,
+      "y_difference_v": 5.033497730037186
+    },
+    {
+      "operation": 117,
+      "row": 7,
+      "col": 7,
+      "sae_half_ns": 2122016.897913571,
+      "y_difference_v": 5.0334946956216795
+    },
+    {
+      "operation": 118,
+      "row": 7,
+      "col": 23,
+      "sae_half_ns": 2140016.8978379336,
+      "y_difference_v": 5.033491835749801
+    },
+    {
+      "operation": 119,
+      "row": 8,
+      "col": 8,
+      "sae_half_ns": 2158016.898176347,
+      "y_difference_v": 5.033504192615976
+    },
+    {
+      "operation": 120,
+      "row": 8,
+      "col": 24,
+      "sae_half_ns": 2176016.8980970755,
+      "y_difference_v": 5.0335012447178595
+    },
+    {
+      "operation": 121,
+      "row": 9,
+      "col": 9,
+      "sae_half_ns": 2194016.8980171485,
+      "y_difference_v": 5.033498100221464
+    },
+    {
+      "operation": 122,
+      "row": 9,
+      "col": 25,
+      "sae_half_ns": 2212016.897944603,
+      "y_difference_v": 5.033495545790726
+    },
+    {
+      "operation": 123,
+      "row": 10,
+      "col": 10,
+      "sae_half_ns": 2230016.898005994,
+      "y_difference_v": 5.033497608337543
+    },
+    {
+      "operation": 124,
+      "row": 10,
+      "col": 26,
+      "sae_half_ns": 2248016.8979331376,
+      "y_difference_v": 5.033494995438525
+    },
+    {
+      "operation": 125,
+      "row": 11,
+      "col": 11,
+      "sae_half_ns": 2266016.8978591734,
+      "y_difference_v": 5.0334921380221385
+    },
+    {
+      "operation": 126,
+      "row": 11,
+      "col": 27,
+      "sae_half_ns": 2284016.8977899794,
+      "y_difference_v": 5.033489663916253
+    },
+    {
+      "operation": 127,
+      "row": 12,
+      "col": 12,
+      "sae_half_ns": 2302016.897989386,
+      "y_difference_v": 5.0334969001618095
+    },
+    {
+      "operation": 128,
+      "row": 12,
+      "col": 28,
+      "sae_half_ns": 2320016.897914664,
+      "y_difference_v": 5.033494004001632
+    },
+    {
+      "operation": 129,
+      "row": 13,
+      "col": 13,
+      "sae_half_ns": 2338016.8978402624,
+      "y_difference_v": 5.033491145764984
+    },
+    {
+      "operation": 130,
+      "row": 13,
+      "col": 29,
+      "sae_half_ns": 2356016.897775722,
+      "y_difference_v": 5.033488983288203
+    },
+    {
+      "operation": 131,
+      "row": 14,
+      "col": 14,
+      "sae_half_ns": 2374016.897839372,
+      "y_difference_v": 5.03348938825452
+    },
+    {
+      "operation": 132,
+      "row": 14,
+      "col": 30,
+      "sae_half_ns": 2392016.8977690074,
+      "y_difference_v": 5.033486674617285
+    },
+    {
+      "operation": 133,
+      "row": 15,
+      "col": 0,
+      "sae_half_ns": 2410016.8978357166,
+      "y_difference_v": -5.034895400617481
+    },
+    {
+      "operation": 134,
+      "row": 15,
+      "col": 15,
+      "sae_half_ns": 2428016.8983799675,
+      "y_difference_v": 5.033516996714829
+    },
+    {
+      "operation": 135,
+      "row": 15,
+      "col": 31,
+      "sae_half_ns": 2446016.898093296,
+      "y_difference_v": 5.033504902177076
+    }
+  ],
+  "points": 473719,
+  "operations": 136,
+  "name": "decode_coverage",
+  "voltage_v": 5,
+  "temperature_c": 27,
+  "period_ns": 1000,
+  "extra_wire_loads": {
+    "BL": "70f",
+    "WL": "200f",
+    "Y": "180f"
+  },
+  "output_load": "10p",
+  "edge_ns": 5,
+  "vth_shift_v": {
+    "NMOS": 0,
+    "PMOS": 0
+  },
+  "elapsed_seconds": 2543.1,
+  "input_sha256": "0123c81879e0fde23f27a8459b81370fc7b928d46aa6938108c819c51a2cc9a6",
+  "electrical_sha256": "c9e14492382443605db4563e784edd7a949df38faff81e371c7bae88217d263f",
+  "reused_waveform": false
+}

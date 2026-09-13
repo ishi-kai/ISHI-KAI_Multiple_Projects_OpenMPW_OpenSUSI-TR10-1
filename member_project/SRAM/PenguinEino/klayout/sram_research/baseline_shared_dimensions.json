@@ -1,0 +1,22 @@
+{
+  "baseline_shared_1x1": {
+    "bits": 1,
+    "width_um": 47.4,
+    "height_um": 44.0
+  },
+  "baseline_shared_4x17": {
+    "bits": 68,
+    "width_um": 401.0,
+    "height_um": 139.4
+  },
+  "baseline_shared_16x64": {
+    "bits": 1024,
+    "width_um": 1426.2,
+    "height_um": 547.4
+  },
+  "baseline_shared_17x80": {
+    "bits": 1360,
+    "width_um": 1779.8,
+    "height_um": 588.0
+  }
+}

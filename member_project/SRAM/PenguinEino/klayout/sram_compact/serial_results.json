@@ -1,0 +1,59 @@
+[
+  {
+    "variant": "compact",
+    "temperature_c": 27,
+    "vdd_v": 5,
+    "clock_ns": 100,
+    "cbl": "10f",
+    "cy": "100f",
+    "passed": true,
+    "checks": {
+      "operations": 19,
+      "rtl_checks": 3408,
+      "analog_checks": 745,
+      "total_checks": 4153,
+      "stop_ns": 21680
+    },
+    "failure": null,
+    "input_sha256": "ec73046ddee5a0e38cd479b25c37b1f7903531c047a55d5d0587a2dfd03e756c",
+    "log": "build/sram_compact/serial/compact_27_10f_100f/simulation.log"
+  },
+  {
+    "variant": "compact",
+    "temperature_c": 85,
+    "vdd_v": 5,
+    "clock_ns": 100,
+    "cbl": "10f",
+    "cy": "100f",
+    "passed": true,
+    "checks": {
+      "operations": 19,
+      "rtl_checks": 3408,
+      "analog_checks": 745,
+      "total_checks": 4153,
+      "stop_ns": 21680
+    },
+    "failure": null,
+    "input_sha256": "c7dc1749ad1fb0b1fd0c19293ab03bbc6180daedb120d01aa1ee9ec3fb286b6c",
+    "log": "build/sram_compact/serial/compact_85_10f_100f/simulation.log"
+  },
+  {
+    "variant": "compact",
+    "temperature_c": 27,
+    "vdd_v": 5,
+    "clock_ns": 100,
+    "cbl": "1p",
+    "cy": "1p",
+    "passed": true,
+    "checks": {
+      "operations": 19,
+      "rtl_checks": 3408,
+      "analog_checks": 745,
+      "total_checks": 4153,
+      "stop_ns": 21680
+    },
+    "failure": null,
+    "input_sha256": "30502eea3d180fcfe40fae443d473fc9e33b7116af134028b5adf3a4ac992925",
+    "log": "build/sram_compact/serial/compact_27_1p_1p/simulation.log"
+  }
+]

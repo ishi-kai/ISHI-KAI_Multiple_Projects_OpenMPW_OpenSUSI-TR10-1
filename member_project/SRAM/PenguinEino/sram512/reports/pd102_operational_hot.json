@@ -1,0 +1,157 @@
+{
+  "passed": true,
+  "checks": 5429,
+  "failure_count": 0,
+  "failures": [],
+  "read_observations": [
+    {
+      "operation": 4,
+      "row": 0,
+      "col": 0,
+      "sae_half_ns": 1113018.2280042476,
+      "y_difference_v": -5.024623649107847
+    },
+    {
+      "operation": 5,
+      "row": 0,
+      "col": 31,
+      "sae_half_ns": 1131018.2236490683,
+      "y_difference_v": 5.023377949285956
+    },
+    {
+      "operation": 6,
+      "row": 15,
+      "col": 0,
+      "sae_half_ns": 1149018.2188334342,
+      "y_difference_v": 5.023162513834948
+    },
+    {
+      "operation": 7,
+      "row": 15,
+      "col": 31,
+      "sae_half_ns": 1167018.213242759,
+      "y_difference_v": -5.023943246597165
+    },
+    {
+      "operation": 9,
+      "row": 0,
+      "col": 0,
+      "sae_half_ns": 1206218.2280100016,
+      "y_difference_v": -5.024623963293939
+    },
+    {
+      "operation": 11,
+      "row": 0,
+      "col": 0,
+      "sae_half_ns": 1254418.2280130617,
+      "y_difference_v": -5.024624120886778
+    },
+    {
+      "operation": 13,
+      "row": 0,
+      "col": 0,
+      "sae_half_ns": 1304618.228013019,
+      "y_difference_v": -5.024624152254771
+    },
+    {
+      "operation": 15,
+      "row": 0,
+      "col": 0,
+      "sae_half_ns": 1355818.228013059,
+      "y_difference_v": -5.024624151586526
+    },
+    {
+      "operation": 17,
+      "row": 0,
+      "col": 0,
+      "sae_half_ns": 1408018.2280131157,
+      "y_difference_v": -5.024624146534718
+    },
+    {
+      "operation": 19,
+      "row": 0,
+      "col": 0,
+      "sae_half_ns": 1461218.2280131727,
+      "y_difference_v": -5.02462413958968
+    },
+    {
+      "operation": 21,
+      "row": 0,
+      "col": 0,
+      "sae_half_ns": 1515418.2280131918,
+      "y_difference_v": -5.024624137884795
+    },
+    {
+      "operation": 23,
+      "row": 0,
+      "col": 0,
+      "sae_half_ns": 1570618.2280132638,
+      "y_difference_v": -5.024624130312689
+    },
+    {
+      "operation": 25,
+      "row": 0,
+      "col": 0,
+      "sae_half_ns": 1623818.2280132817,
+      "y_difference_v": -5.02462412861946
+    },
+    {
+      "operation": 27,
+      "row": 0,
+      "col": 0,
+      "sae_half_ns": 1679018.2280132787,
+      "y_difference_v": -5.024624129193947
+    }
+  ],
+  "points": 100156,
+  "operations": 28,
+  "operational_checks": {
+    "passed": true,
+    "checks": 352,
+    "failure_count": 0,
+    "failures": [],
+    "asynchronous_interruptions": 10,
+    "stopped_clock_retention_ns": 1000000
+  },
+  "source": {
+    "gds_sha256": "dee111388a5c4d3131b68772507706706d894248988ab761bf9c4070e9194e61",
+    "lvsdb_sha256": "f1beaee7f6835a3f44d2289d6006250e44fb7001ab74c59a3823f90f1be168b5",
+    "mos_groups": 4877,
+    "physical_fingers": 4953,
+    "model_counts": {
+      "PMOS": 1927,
+      "NMOS": 2950,
+      "DP": 4,
+      "DN": 4
+    },
+    "source": "/home/ishi-kai/sram/build/sram512/layout/final16x32_pd10p2"
+  },
+  "voltage_v": 5,
+  "temperature_c": 85,
+  "deck_sha256": "7d22424eade47cd336a1bf8e1ee62a2cfdead3be1179dcf1c1c24eca77de9c8c",
+  "model_notices": [
+    {
+      "model": "DN",
+      "unsupported_parameters": [
+        "imax",
+        "imelt"
+      ],
+      "consequence": "Diode current/melting limit flags are not implemented by ngspice."
+    },
+    {
+      "model": "DP",
+      "unsupported_parameters": [
+        "imax",
+        "imelt"
+      ],
+      "consequence": "Diode current/melting limit flags are not implemented by ngspice."
+    }
+  ],
+  "supply_ramp_ns": 20000,
+  "elapsed_seconds": 803.58,
+  "solver": "klu",
+  "simulator_threads": 1,
+  "numerical_pivrel": 0.1,
+  "waveform_storage": "streamed binary file",
+  "local_init_sha256": "2ef8c1ce0b4d65b62053c99e75b2bad1d1158582c6ca6cfc19b1e255c84ecfbc"
+}

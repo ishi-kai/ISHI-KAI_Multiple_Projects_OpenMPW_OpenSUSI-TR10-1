@@ -1,0 +1,50 @@
+{
+  "column_pitch_um": 52.6,
+  "row_pair_pitch_um": 32.6,
+  "mirrored_row_translation_um": 21.4,
+  "core_area_um2": 857.3800000000001,
+  "arrays": {
+    "t4_singlewl_1x1": {
+      "bits": 1,
+      "width_um": 55.6,
+      "height_um": 54.5,
+      "area_um2": 3030.2000000000003
+    },
+    "t4_singlewl_2x2": {
+      "bits": 4,
+      "width_um": 108.2,
+      "height_um": 66.30000000000001,
+      "area_um2": 7173.660000000002
+    },
+    "t4_singlewl_4x4": {
+      "bits": 16,
+      "width_um": 213.4,
+      "height_um": 98.9,
+      "area_um2": 21105.260000000002
+    },
+    "t4_singlewl_16x16": {
+      "bits": 256,
+      "width_um": 844.6,
+      "height_um": 294.5,
+      "area_um2": 248734.7
+    },
+    "t4_singlewl_16x32": {
+      "bits": 512,
+      "width_um": 1686.2,
+      "height_um": 294.5,
+      "area_um2": 496585.9
+    },
+    "t4_singlewl_32x8": {
+      "bits": 256,
+      "width_um": 423.8,
+      "height_um": 555.3000000000001,
+      "area_um2": 235336.14000000004
+    },
+    "t4_singlewl_32x32": {
+      "bits": 1024,
+      "width_um": 1686.2,
+      "height_um": 555.3000000000001,
+      "area_um2": 936346.8600000001
+    }
+  }
+}

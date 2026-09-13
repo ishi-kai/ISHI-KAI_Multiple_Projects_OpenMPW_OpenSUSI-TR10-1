@@ -1,0 +1,17 @@
+** sch_path: /mnt/c/Data/OneDrive/MyDocuments/Community/ISHIKAI/shuttle/OpenSUSI-TR10/2026/opamp/opamp_yamada/opamp_yamada.sch
+.subckt opamp_yamada vssi vddi nbp vinn vinp vout
+*.PININFO vssi:B vddi:B nbp:B vinn:B vinp:B vout:B
+MXM8 nbp nbp vddi vddi PMOS w=60u l=2u
+MXM5 net1 nbp vddi vddi PMOS w=120u l=2u
+MXM1 net2 vinn net1 net1 PMOS w=240u l=2u
+MXM2 net3 vinp net1 net1 PMOS w=240u l=2u
+MXM3 net2 net2 vssi vssi NMOS w=20u l=2u
+MXM4 net3 net2 vssi vssi NMOS w=20u l=2u
+MXM6 vout nbp vddi vddi PMOS w=480u l=2u
+MXM7 vout net3 vssi vssi NMOS w=160u l=2u
+MXM9 net5 nbp vddi vddi PMOS w=60u l=2u
+MXM10 net5 net5 net4 vssi NMOS w=20u l=2u
+MXM11 net4 net4 vssi vssi NMOS w=20u l=2u
+MXM12 net6 net5 net3 vssi NMOS w=14u l=2u
+XXC1 net6 vout vssi F_CSIO x=120u y=120u A=14.4n P=480u
+.ends

@@ -1,0 +1,38 @@
+* Created by KLayout
+*** My special header ***
+
+* cell opamp_kubotakeshi
+* pin ib
+* pin out
+* pin vdd
+* pin vinn
+* pin vinp
+* pin vss
+.SUBCKT opamp_kubotakeshi ib out vdd vinn vinp vss
+* device instance $1 r0 *1 495.9,19 PMOS
+XM$1 vdd ib out vdd PMOS L=1u W=270u AS=418p AD=418p PS=363.6u PD=363.6u
+* device instance $28 r0 *1 121.6,-31.1 PMOS
+XM$28 \$27 vinn \$7 \$27 PMOS L=1u W=360u AS=553p AD=553p PS=480.6u PD=480.6u
+* device instance $64 r0 *1 311.7,-31.1 PMOS
+XM$64 \$27 vinp \$9 \$27 PMOS L=1u W=360u AS=553p AD=553p PS=480.6u PD=480.6u
+* device instance $100 r0 *1 255.7,19.8 PMOS
+XM$100 vdd ib \$27 vdd PMOS L=1u W=180u AS=283p AD=283p PS=246.6u PD=246.6u
+* device instance $118 r0 *1 47,18.4 PMOS
+XM$118 vdd ib \$11 vdd PMOS L=1u W=30u AS=58p AD=58p PS=51.6u PD=51.6u
+* device instance $121 r0 *1 1.2,18.4 PMOS
+XM$121 vdd ib ib vdd PMOS L=1u W=30u AS=58p AD=58p PS=51.6u PD=51.6u
+* device instance $124 r0 *1 622.1,-48.9 NMOS
+XM$124 \$24 \$11 \$9 vss NMOS L=1u W=20u AS=43p AD=43p PS=38.6u PD=38.6u
+* device instance $126 r0 *1 531.1,-89.2 NMOS
+XM$126 vss \$9 out vss NMOS L=1u W=90u AS=148p AD=148p PS=129.6u PD=129.6u
+* device instance $135 r0 *1 261.6,-85.9 NMOS
+XM$135 \$7 \$7 vss vss NMOS L=1u W=30u AS=58p AD=58p PS=51.6u PD=51.6u
+* device instance $138 r0 *1 303.7,-85.9 NMOS
+XM$138 vss \$7 \$9 vss NMOS L=1u W=30u AS=58p AD=58p PS=51.6u PD=51.6u
+* device instance $141 r0 *1 49,-96.6 NMOS
+XM$141 vss \$2 \$2 vss NMOS L=1u W=10u AS=28p AD=28p PS=25.6u PD=25.6u
+* device instance $142 r0 *1 49,-76.3 NMOS
+XM$142 \$2 \$11 \$11 vss NMOS L=1u W=10u AS=28p AD=28p PS=25.6u PD=25.6u
+* device instance $143 r270 *1 714.1,-35.9 F_CSIO
+XC$143 \$24 out vss F_CSIO C=8.64e-12 A=14400p P=480u X=120 Y=120 m=1
+.ENDS opamp_kubotakeshi

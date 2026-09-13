@@ -1,0 +1,4175 @@
+{
+  "scope": "600 x 1800 um core including serial controller; no pads/ESD; block estimates, not routed peripheral GDS",
+  "sources_sha256": {
+    "sram_serial_controller": "cbf78d1fd61e52b7b572fd124aa5651f6f6e5dd05dcc24d21def1226804216bb",
+    "row_decoder_1to2": "3ea5a63dcb7446333b9828fc25dd203781a2271b0bcb9e3defc0e4aa9855cc1e",
+    "col_decoder_1to2": "e81088373acd0a83130565ff9cabcffc028aa4d487e34080af8c741e7f1ace61",
+    "write_control": "b563c1af404eecdf5ea480e001e504ac130419d9a14068a51ed3a76dfe0adf7b"
+  },
+  "library_sha256": "f43dc2d2cf83e4b6ddb7c54be616386fdbce067b600bbdaa52c259349eafbd51",
+  "library_dimensions": {
+    "AND2_X1": {
+      "width_um": 34.6,
+      "height_um": 62.6,
+      "bbox_area_um2": 2165.96,
+      "abut_width_um": 22.0,
+      "abut_row_pitch_um": 55
+    },
+    "AND3_X1": {
+      "width_um": 40.1,
+      "height_um": 62.6,
+      "bbox_area_um2": 2510.26,
+      "abut_width_um": 27.5,
+      "abut_row_pitch_um": 55
+    },
+    "AND4_X1": {
+      "width_um": 45.6,
+      "height_um": 62.6,
+      "bbox_area_um2": 2854.56,
+      "abut_width_um": 33.0,
+      "abut_row_pitch_um": 55
+    },
+    "BUF_X4": {
+      "width_um": 45.6,
+      "height_um": 62.6,
+      "bbox_area_um2": 2854.56,
+      "abut_width_um": 33.0,
+      "abut_row_pitch_um": 55
+    },
+    "DFFR": {
+      "width_um": 100.6,
+      "height_um": 62.6,
+      "bbox_area_um2": 6297.56,
+      "abut_width_um": 88.0,
+      "abut_row_pitch_um": 55
+    },
+    "INV_X1": {
+      "width_um": 29.1,
+      "height_um": 62.6,
+      "bbox_area_um2": 1821.66,
+      "abut_width_um": 16.5,
+      "abut_row_pitch_um": 55
+    },
+    "MUX2": {
+      "width_um": 62.1,
+      "height_um": 62.6,
+      "bbox_area_um2": 3887.46,
+      "abut_width_um": 49.5,
+      "abut_row_pitch_um": 55
+    },
+    "NAND2": {
+      "width_um": 29.1,
+      "height_um": 62.6,
+      "bbox_area_um2": 1821.66,
+      "abut_width_um": 16.5,
+      "abut_row_pitch_um": 55
+    },
+    "OR2": {
+      "width_um": 34.6,
+      "height_um": 62.6,
+      "bbox_area_um2": 2165.96,
+      "abut_width_um": 22.0,
+      "abut_row_pitch_um": 55
+    },
+    "OR3": {
+      "width_um": 40.1,
+      "height_um": 62.6,
+      "bbox_area_um2": 2510.26,
+      "abut_width_um": 27.5,
+      "abut_row_pitch_um": 55
+    },
+    "OR4": {
+      "width_um": 45.6,
+      "height_um": 62.6,
+      "bbox_area_um2": 2854.56,
+      "abut_width_um": 33.0,
+      "abut_row_pitch_um": 55
+    },
+    "XOR2": {
+      "width_um": 45.6,
+      "height_um": 62.6,
+      "bbox_area_um2": 2854.56,
+      "abut_width_um": 33.0,
+      "abut_row_pitch_um": 55
+    }
+  },
+  "original_2x2": {
+    "sram_serial_controller": {
+      "cells": 54,
+      "bom": {
+        "AND2_X1": 9,
+        "DFFR": 16,
+        "XOR2": 3,
+        "AND3_X1": 2,
+        "OR2": 3,
+        "NAND2": 2,
+        "AND4_X1": 8,
+        "OR4": 1,
+        "INV_X1": 1,
+        "OR3": 1,
+        "MUX2": 8
+      },
+      "abut_area_um2": 142780.0,
+      "isolated_bbox_sum_um2": 205102.64
+    },
+    "row_decoder_1to2": {
+      "cells": 5,
+      "bom": {
+        "INV_X1": 3,
+        "NAND2": 2
+      },
+      "abut_area_um2": 4537.5,
+      "isolated_bbox_sum_um2": 9108.300000000001
+    },
+    "col_decoder_1to2": {
+      "cells": 2,
+      "bom": {
+        "INV_X1": 2
+      },
+      "abut_area_um2": 1815.0,
+      "isolated_bbox_sum_um2": 3643.32
+    },
+    "write_control": {
+      "cells": 5,
+      "bom": {
+        "INV_X1": 3,
+        "NAND2": 2
+      },
+      "abut_area_um2": 4537.5,
+      "isolated_bbox_sum_um2": 9108.300000000001
+    }
+  },
+  "scenarios": [
+    {
+      "utilization": 0.65,
+      "column_strip_um": 150,
+      "best": {
+        "rows": 14,
+        "columns": 26,
+        "bits": 364,
+        "rb": 4,
+        "cb": 5,
+        "strap_interval": 16,
+        "array_width_um": 667.4,
+        "array_height_um": 414.4,
+        "array_area_um2": 276570.56,
+        "digital_abut_area_um2": 377520.0,
+        "per_column_mos": 4,
+        "common_analog_mos": 11,
+        "target_utilization": 0.65,
+        "column_strip_um": 150,
+        "global_stdcell_bom": {
+          "AND4_X1": 11,
+          "AND2_X1": 32,
+          "OR2": 4,
+          "DFFR": 31,
+          "XOR2": 4,
+          "AND3_X1": 9,
+          "OR4": 1,
+          "INV_X1": 4,
+          "OR3": 1,
+          "MUX2": 22,
+          "NAND2": 2,
+          "BUF_X4": 12
+        },
+        "row_decoder_bom": {
+          "AND2_X1": 8,
+          "AND3_X1": 14
+        },
+        "column_decoder_bom": {
+          "AND2_X1": 30,
+          "AND3_X1": 8
+        },
+        "controller": {
+          "row_bits": 4,
+          "col_bits": 5,
+          "receive_bits": 10,
+          "counter_bits": 5,
+          "flipflops": 31,
+          "clocks_per_operation": 18
+        },
+        "global_logic_rows": 16,
+        "global_logic_height_um": 887.6,
+        "global_actual_occupancy": 0.6365301724137931,
+        "local_row_region_um": 137.6,
+        "common_analog_region_um": [
+          120,
+          60
+        ],
+        "floorplan": {
+          "rotation_deg": 90,
+          "width_um": 592.6,
+          "height_um": 1792.6,
+          "upper_width_um": 564.4,
+          "upper_height_um": 805.0,
+          "fits": true
+        }
+      },
+      "best_binary": {
+        "rows": 16,
+        "columns": 16,
+        "bits": 256,
+        "rb": 4,
+        "cb": 4,
+        "strap_interval": 16,
+        "array_width_um": 414.2,
+        "array_height_um": 473.6,
+        "array_area_um2": 196165.12,
+        "digital_abut_area_um2": 343035.0,
+        "per_column_mos": 4,
+        "common_analog_mos": 11,
+        "target_utilization": 0.65,
+        "column_strip_um": 150,
+        "global_stdcell_bom": {
+          "AND2_X1": 36,
+          "DFFR": 29,
+          "XOR2": 4,
+          "AND3_X1": 1,
+          "AND4_X1": 10,
+          "OR2": 3,
+          "OR4": 1,
+          "INV_X1": 4,
+          "OR3": 1,
+          "MUX2": 20,
+          "NAND2": 2,
+          "BUF_X4": 12
+        },
+        "row_decoder_bom": {
+          "AND2_X1": 8,
+          "AND3_X1": 16
+        },
+        "column_decoder_bom": {
+          "AND2_X1": 24
+        },
+        "controller": {
+          "row_bits": 4,
+          "col_bits": 4,
+          "receive_bits": 9,
+          "counter_bits": 5,
+          "flipflops": 29,
+          "clocks_per_operation": 17
+        },
+        "global_logic_rows": 15,
+        "global_logic_height_um": 837.6,
+        "global_actual_occupancy": 0.6258620689655172,
+        "local_row_region_um": 137.6,
+        "common_analog_region_um": [
+          120,
+          60
+        ],
+        "floorplan": {
+          "rotation_deg": 0,
+          "width_um": 592.6,
+          "height_um": 1561.2,
+          "upper_width_um": 551.8,
+          "upper_height_um": 623.6,
+          "fits": true
+        },
+        "packed_rows": [
+          [
+            {
+              "cell": "DFFR",
+              "x_um": 0,
+              "width_um": 88.0
+            },
+            {
+              "cell": "DFFR",
+              "x_um": 88.0,
+              "width_um": 88.0
+            },
+            {
+              "cell": "DFFR",
+              "x_um": 176.0,
+              "width_um": 88.0
+            },
+            {
+              "cell": "DFFR",
+              "x_um": 264.0,
+              "width_um": 88.0
+            },
+            {
+              "cell": "OR2",
+              "x_um": 352.0,
+              "width_um": 22.0
+            }
+          ],
+          [
+            {
+              "cell": "DFFR",
+              "x_um": 0,
+              "width_um": 88.0
+            },
+            {
+              "cell": "DFFR",
+              "x_um": 88.0,
+              "width_um": 88.0
+            },
+            {
+              "cell": "DFFR",
+              "x_um": 176.0,
+              "width_um": 88.0
+            },
+            {
+              "cell": "DFFR",
+              "x_um": 264.0,
+              "width_um": 88.0
+            },
+            {
+              "cell": "OR2",
+              "x_um": 352.0,
+              "width_um": 22.0
+            }
+          ],
+          [
+            {
+              "cell": "DFFR",
+              "x_um": 0,
+              "width_um": 88.0
+            },
+            {
+              "cell": "DFFR",
+              "x_um": 88.0,
+              "width_um": 88.0
+            },
+            {
+              "cell": "DFFR",
+              "x_um": 176.0,
+              "width_um": 88.0
+            },
+            {
+              "cell": "DFFR",
+              "x_um": 264.0,
+              "width_um": 88.0
+            },
+            {
+              "cell": "OR2",
+              "x_um": 352.0,
+              "width_um": 22.0
+            }
+          ],
+          [
+            {
+              "cell": "DFFR",
+              "x_um": 0,
+              "width_um": 88.0
+            },
+            {
+              "cell": "DFFR",
+              "x_um": 88.0,
+              "width_um": 88.0
+            },
+            {
+              "cell": "DFFR",
+              "x_um": 176.0,
+              "width_um": 88.0
+            },
+            {
+              "cell": "DFFR",
+              "x_um": 264.0,
+              "width_um": 88.0
+            },
+            {
+              "cell": "AND2_X1",
+              "x_um": 352.0,
+              "width_um": 22.0
+            }
+          ],
+          [
+            {
+              "cell": "DFFR",
+              "x_um": 0,
+              "width_um": 88.0
+            },
+            {
+              "cell": "DFFR",
+              "x_um": 88.0,
+              "width_um": 88.0
+            },
+            {
+              "cell": "DFFR",
+              "x_um": 176.0,
+              "width_um": 88.0
+            },
+            {
+              "cell": "DFFR",
+              "x_um": 264.0,
+              "width_um": 88.0
+            },
+            {
+              "cell": "AND2_X1",
+              "x_um": 352.0,
+              "width_um": 22.0
+            }
+          ],
+          [
+            {
+              "cell": "DFFR",
+              "x_um": 0,
+              "width_um": 88.0
+            },
+            {
+              "cell": "DFFR",
+              "x_um": 88.0,
+              "width_um": 88.0
+            },
+            {
+              "cell": "DFFR",
+              "x_um": 176.0,
+              "width_um": 88.0
+            },
+            {
+              "cell": "DFFR",
+              "x_um": 264.0,
+              "width_um": 88.0
+            },
+            {
+              "cell": "AND2_X1",
+              "x_um": 352.0,
+              "width_um": 22.0
+            }
+          ],
+          [
+            {
+              "cell": "DFFR",
+              "x_um": 0,
+              "width_um": 88.0
+            },
+            {
+              "cell": "DFFR",
+              "x_um": 88.0,
+              "width_um": 88.0
+            },
+            {
+              "cell": "DFFR",
+              "x_um": 176.0,
+              "width_um": 88.0
+            },
+            {
+              "cell": "DFFR",
+              "x_um": 264.0,
+              "width_um": 88.0
+            },
+            {
+              "cell": "AND2_X1",
+              "x_um": 352.0,
+              "width_um": 22.0
+            }
+          ],
+          [
+            {
+              "cell": "DFFR",
+              "x_um": 0,
+              "width_um": 88.0
+            },
+            {
+              "cell": "MUX2",
+              "x_um": 88.0,
+              "width_um": 49.5
+            },
+            {
+              "cell": "MUX2",
+              "x_um": 137.5,
+              "width_um": 49.5
+            },
+            {
+              "cell": "MUX2",
+              "x_um": 187.0,
+              "width_um": 49.5
+            },
+            {
+              "cell": "MUX2",
+              "x_um": 236.5,
+              "width_um": 49.5
+            },
+            {
+              "cell": "MUX2",
+              "x_um": 286.0,
+              "width_um": 49.5
+            },
+            {
+              "cell": "XOR2",
+              "x_um": 335.5,
+              "width_um": 33.0
+            }
+          ],
+          [
+            {
+              "cell": "MUX2",
+              "x_um": 0,
+              "width_um": 49.5
+            },
+            {
+              "cell": "MUX2",
+              "x_um": 49.5,
+              "width_um": 49.5
+            },
+            {
+              "cell": "MUX2",
+              "x_um": 99.0,
+              "width_um": 49.5
+            },
+            {
+              "cell": "MUX2",
+              "x_um": 148.5,
+              "width_um": 49.5
+            },
+            {
+              "cell": "MUX2",
+              "x_um": 198.0,
+              "width_um": 49.5
+            },
+            {
+              "cell": "MUX2",
+              "x_um": 247.5,
+              "width_um": 49.5
+            },
+            {
+              "cell": "MUX2",
+              "x_um": 297.0,
+              "width_um": 49.5
+            },
+            {
+              "cell": "OR3",
+              "x_um": 346.5,
+              "width_um": 27.5
+            }
+          ],
+          [
+            {
+              "cell": "MUX2",
+              "x_um": 0,
+              "width_um": 49.5
+            },
+            {
+              "cell": "MUX2",
+              "x_um": 49.5,
+              "width_um": 49.5
+            },
+            {
+              "cell": "MUX2",
+              "x_um": 99.0,
+              "width_um": 49.5
+            },
+            {
+              "cell": "MUX2",
+              "x_um": 148.5,
+              "width_um": 49.5
+            },
+            {
+              "cell": "MUX2",
+              "x_um": 198.0,
+              "width_um": 49.5
+            },
+            {
+              "cell": "MUX2",
+              "x_um": 247.5,
+              "width_um": 49.5
+            },
+            {
+              "cell": "MUX2",
+              "x_um": 297.0,
+              "width_um": 49.5
+            },
+            {
+              "cell": "AND3_X1",
+              "x_um": 346.5,
+              "width_um": 27.5
+            }
+          ],
+          [
+            {
+              "cell": "MUX2",
+              "x_um": 0,
+              "width_um": 49.5
+            },
+            {
+              "cell": "XOR2",
+              "x_um": 49.5,
+              "width_um": 33.0
+            },
+            {
+              "cell": "XOR2",
+              "x_um": 82.5,
+              "width_um": 33.0
+            },
+            {
+              "cell": "XOR2",
+              "x_um": 115.5,
+              "width_um": 33.0
+            },
+            {
+              "cell": "OR4",
+              "x_um": 148.5,
+              "width_um": 33.0
+            },
+            {
+              "cell": "BUF_X4",
+              "x_um": 181.5,
+              "width_um": 33.0
+            },
+            {
+              "cell": "BUF_X4",
+              "x_um": 214.5,
+              "width_um": 33.0
+            },
+            {
+              "cell": "BUF_X4",
+              "x_um": 247.5,
+              "width_um": 33.0
+            },
+            {
+              "cell": "BUF_X4",
+              "x_um": 280.5,
+              "width_um": 33.0
+            },
+            {
+              "cell": "BUF_X4",
+              "x_um": 313.5,
+              "width_um": 33.0
+            },
+            {
+              "cell": "AND2_X1",
+              "x_um": 346.5,
+              "width_um": 22.0
+            }
+          ],
+          [
+            {
+              "cell": "BUF_X4",
+              "x_um": 0,
+              "width_um": 33.0
+            },
+            {
+              "cell": "BUF_X4",
+              "x_um": 33.0,
+              "width_um": 33.0
+            },
+            {
+              "cell": "BUF_X4",
+              "x_um": 66.0,
+              "width_um": 33.0
+            },
+            {
+              "cell": "BUF_X4",
+              "x_um": 99.0,
+              "width_um": 33.0
+            },
+            {
+              "cell": "BUF_X4",
+              "x_um": 132.0,
+              "width_um": 33.0
+            },
+            {
+              "cell": "BUF_X4",
+              "x_um": 165.0,
+              "width_um": 33.0
+            },
+            {
+              "cell": "BUF_X4",
+              "x_um": 198.0,
+              "width_um": 33.0
+            },
+            {
+              "cell": "AND4_X1",
+              "x_um": 231.0,
+              "width_um": 33.0
+            },
+            {
+              "cell": "AND4_X1",
+              "x_um": 264.0,
+              "width_um": 33.0
+            },
+            {
+              "cell": "AND4_X1",
+              "x_um": 297.0,
+              "width_um": 33.0
+            },
+            {
+              "cell": "AND4_X1",
+              "x_um": 330.0,
+              "width_um": 33.0
+            }
+          ],
+          [
+            {
+              "cell": "AND4_X1",
+              "x_um": 0,
+              "width_um": 33.0
+            },
+            {
+              "cell": "AND4_X1",
+              "x_um": 33.0,
+              "width_um": 33.0
+            },
+            {
+              "cell": "AND4_X1",
+              "x_um": 66.0,
+              "width_um": 33.0
+            },
+            {
+              "cell": "AND4_X1",
+              "x_um": 99.0,
+              "width_um": 33.0
+            },
+            {
+              "cell": "AND4_X1",
+              "x_um": 132.0,
+              "width_um": 33.0
+            },
+            {
+              "cell": "AND4_X1",
+              "x_um": 165.0,
+              "width_um": 33.0
+            },
+            {
+              "cell": "AND2_X1",
+              "x_um": 198.0,
+              "width_um": 22.0
+            },
+            {
+              "cell": "AND2_X1",
+              "x_um": 220.0,
+              "width_um": 22.0
+            },
+            {
+              "cell": "AND2_X1",
+              "x_um": 242.0,
+              "width_um": 22.0
+            },
+            {
+              "cell": "AND2_X1",
+              "x_um": 264.0,
+              "width_um": 22.0
+            },
+            {
+              "cell": "AND2_X1",
+              "x_um": 286.0,
+              "width_um": 22.0
+            },
+            {
+              "cell": "AND2_X1",
+              "x_um": 308.0,
+              "width_um": 22.0
+            },
+            {
+              "cell": "AND2_X1",
+              "x_um": 330.0,
+              "width_um": 22.0
+            },
+            {
+              "cell": "AND2_X1",
+              "x_um": 352.0,
+              "width_um": 22.0
+            }
+          ],
+          [
+            {
+              "cell": "AND2_X1",
+              "x_um": 0,
+              "width_um": 22.0
+            },
+            {
+              "cell": "AND2_X1",
+              "x_um": 22.0,
+              "width_um": 22.0
+            },
+            {
+              "cell": "AND2_X1",
+              "x_um": 44.0,
+              "width_um": 22.0
+            },
+            {
+              "cell": "AND2_X1",
+              "x_um": 66.0,
+              "width_um": 22.0
+            },
+            {
+              "cell": "AND2_X1",
+              "x_um": 88.0,
+              "width_um": 22.0
+            },
+            {
+              "cell": "AND2_X1",
+              "x_um": 110.0,
+              "width_um": 22.0
+            },
+            {
+              "cell": "AND2_X1",
+              "x_um": 132.0,
+              "width_um": 22.0
+            },
+            {
+              "cell": "AND2_X1",
+              "x_um": 154.0,
+              "width_um": 22.0
+            },
+            {
+              "cell": "AND2_X1",
+              "x_um": 176.0,
+              "width_um": 22.0
+            },
+            {
+              "cell": "AND2_X1",
+              "x_um": 198.0,
+              "width_um": 22.0
+            },
+            {
+              "cell": "AND2_X1",
+              "x_um": 220.0,
+              "width_um": 22.0
+            },
+            {
+              "cell": "AND2_X1",
+              "x_um": 242.0,
+              "width_um": 22.0
+            },
+            {
+              "cell": "AND2_X1",
+              "x_um": 264.0,
+              "width_um": 22.0
+            },
+            {
+              "cell": "AND2_X1",
+              "x_um": 286.0,
+              "width_um": 22.0
+            },
+            {
+              "cell": "AND2_X1",
+              "x_um": 308.0,
+              "width_um": 22.0
+            },
+            {
+              "cell": "AND2_X1",
+              "x_um": 330.0,
+              "width_um": 22.0
+            },
+            {
+              "cell": "AND2_X1",
+              "x_um": 352.0,
+              "width_um": 22.0
+            }
+          ],
+          [
+            {
+              "cell": "AND2_X1",
+              "x_um": 0,
+              "width_um": 22.0
+            },
+            {
+              "cell": "AND2_X1",
+              "x_um": 22.0,
+              "width_um": 22.0
+            },
+            {
+              "cell": "AND2_X1",
+              "x_um": 44.0,
+              "width_um": 22.0
+            },
+            {
+              "cell": "AND2_X1",
+              "x_um": 66.0,
+              "width_um": 22.0
+            },
+            {
+              "cell": "AND2_X1",
+              "x_um": 88.0,
+              "width_um": 22.0
+            },
+            {
+              "cell": "AND2_X1",
+              "x_um": 110.0,
+              "width_um": 22.0
+            },
+            {
+              "cell": "NAND2",
+              "x_um": 132.0,
+              "width_um": 16.5
+            },
+            {
+              "cell": "NAND2",
+              "x_um": 148.5,
+              "width_um": 16.5
+            },
+            {
+              "cell": "INV_X1",
+              "x_um": 165.0,
+              "width_um": 16.5
+            },
+            {
+              "cell": "INV_X1",
+              "x_um": 181.5,
+              "width_um": 16.5
+            },
+            {
+              "cell": "INV_X1",
+              "x_um": 198.0,
+              "width_um": 16.5
+            },
+            {
+              "cell": "INV_X1",
+              "x_um": 214.5,
+              "width_um": 16.5
+            }
+          ]
+        ]
+      }
+    },
+    {
+      "utilization": 0.75,
+      "column_strip_um": 120,
+      "best": {
+        "rows": 16,
+        "columns": 31,
+        "bits": 496,
+        "rb": 4,
+        "cb": 5,
+        "strap_interval": 16,
+        "array_width_um": 783.4,
+        "array_height_um": 473.6,
+        "array_area_um2": 371018.24,
+        "digital_abut_area_um2": 386595.0,
+        "per_column_mos": 4,
+        "common_analog_mos": 11,
+        "target_utilization": 0.75,
+        "column_strip_um": 120,
+        "global_stdcell_bom": {
+          "AND4_X1": 11,
+          "AND2_X1": 32,
+          "OR2": 4,
+          "DFFR": 31,
+          "XOR2": 4,
+          "AND3_X1": 9,
+          "OR4": 1,
+          "INV_X1": 4,
+          "OR3": 1,
+          "MUX2": 22,
+          "NAND2": 2,
+          "BUF_X4": 12
+        },
+        "row_decoder_bom": {
+          "AND2_X1": 8,
+          "AND3_X1": 16
+        },
+        "column_decoder_bom": {
+          "AND2_X1": 35,
+          "AND3_X1": 8
+        },
+        "controller": {
+          "row_bits": 4,
+          "col_bits": 5,
+          "receive_bits": 10,
+          "counter_bits": 5,
+          "flipflops": 31,
+          "clocks_per_operation": 18
+        },
+        "global_logic_rows": 14,
+        "global_logic_height_um": 777.6,
+        "global_actual_occupancy": 0.7274630541871921,
+        "local_row_region_um": 137.6,
+        "common_analog_region_um": [
+          120,
+          60
+        ],
+        "floorplan": {
+          "rotation_deg": 90,
+          "width_um": 593.6,
+          "height_um": 1798.6,
+          "upper_width_um": 593.6,
+          "upper_height_um": 921.0,
+          "fits": true
+        }
+      },
+      "best_binary": {
+        "rows": 16,
+        "columns": 16,
+        "bits": 256,
+        "rb": 4,
+        "cb": 4,
+        "strap_interval": 16,
+        "array_width_um": 414.2,
+        "array_height_um": 473.6,
+        "array_area_um2": 196165.12,
+        "digital_abut_area_um2": 343035.0,
+        "per_column_mos": 4,
+        "common_analog_mos": 11,
+        "target_utilization": 0.75,
+        "column_strip_um": 120,
+        "global_stdcell_bom": {
+          "AND2_X1": 36,
+          "DFFR": 29,
+          "XOR2": 4,
+          "AND3_X1": 1,
+          "AND4_X1": 10,
+          "OR2": 3,
+          "OR4": 1,
+          "INV_X1": 4,
+          "OR3": 1,
+          "MUX2": 20,
+          "NAND2": 2,
+          "BUF_X4": 12
+        },
+        "row_decoder_bom": {
+          "AND2_X1": 8,
+          "AND3_X1": 16
+        },
+        "column_decoder_bom": {
+          "AND2_X1": 24
+        },
+        "controller": {
+          "row_bits": 4,
+          "col_bits": 4,
+          "receive_bits": 9,
+          "counter_bits": 5,
+          "flipflops": 29,
+          "clocks_per_operation": 17
+        },
+        "global_logic_rows": 13,
+        "global_logic_height_um": 727.6,
+        "global_actual_occupancy": 0.7221485411140584,
+        "local_row_region_um": 137.6,
+        "common_analog_region_um": [
+          120,
+          60
+        ],
+        "floorplan": {
+          "rotation_deg": 0,
+          "width_um": 592.6,
+          "height_um": 1421.2,
+          "upper_width_um": 551.8,
+          "upper_height_um": 593.6,
+          "fits": true
+        },
+        "packed_rows": [
+          [
+            {
+              "cell": "DFFR",
+              "x_um": 0,
+              "width_um": 88.0
+            },
+            {
+              "cell": "DFFR",
+              "x_um": 88.0,
+              "width_um": 88.0
+            },
+            {
+              "cell": "DFFR",
+              "x_um": 176.0,
+              "width_um": 88.0
+            },
+            {
+              "cell": "DFFR",
+              "x_um": 264.0,
+              "width_um": 88.0
+            },
+            {
+              "cell": "MUX2",
+              "x_um": 352.0,
+              "width_um": 49.5
+            },
+            {
+              "cell": "XOR2",
+              "x_um": 401.5,
+              "width_um": 33.0
+            }
+          ],
+          [
+            {
+              "cell": "DFFR",
+              "x_um": 0,
+              "width_um": 88.0
+            },
+            {
+              "cell": "DFFR",
+              "x_um": 88.0,
+              "width_um": 88.0
+            },
+            {
+              "cell": "DFFR",
+              "x_um": 176.0,
+              "width_um": 88.0
+            },
+            {
+              "cell": "DFFR",
+              "x_um": 264.0,
+              "width_um": 88.0
+            },
+            {
+              "cell": "MUX2",
+              "x_um": 352.0,
+              "width_um": 49.5
+            },
+            {
+              "cell": "XOR2",
+              "x_um": 401.5,
+              "width_um": 33.0
+            }
+          ],
+          [
+            {
+              "cell": "DFFR",
+              "x_um": 0,
+              "width_um": 88.0
+            },
+            {
+              "cell": "DFFR",
+              "x_um": 88.0,
+              "width_um": 88.0
+            },
+            {
+              "cell": "DFFR",
+              "x_um": 176.0,
+              "width_um": 88.0
+            },
+            {
+              "cell": "DFFR",
+              "x_um": 264.0,
+              "width_um": 88.0
+            },
+            {
+              "cell": "MUX2",
+              "x_um": 352.0,
+              "width_um": 49.5
+            },
+            {
+              "cell": "XOR2",
+              "x_um": 401.5,
+              "width_um": 33.0
+            }
+          ],
+          [
+            {
+              "cell": "DFFR",
+              "x_um": 0,
+              "width_um": 88.0
+            },
+            {
+              "cell": "DFFR",
+              "x_um": 88.0,
+              "width_um": 88.0
+            },
+            {
+              "cell": "DFFR",
+              "x_um": 176.0,
+              "width_um": 88.0
+            },
+            {
+              "cell": "DFFR",
+              "x_um": 264.0,
+              "width_um": 88.0
+            },
+            {
+              "cell": "MUX2",
+              "x_um": 352.0,
+              "width_um": 49.5
+            },
+            {
+              "cell": "XOR2",
+              "x_um": 401.5,
+              "width_um": 33.0
+            }
+          ],
+          [
+            {
+              "cell": "DFFR",
+              "x_um": 0,
+              "width_um": 88.0
+            },
+            {
+              "cell": "DFFR",
+              "x_um": 88.0,
+              "width_um": 88.0
+            },
+            {
+              "cell": "DFFR",
+              "x_um": 176.0,
+              "width_um": 88.0
+            },
+            {
+              "cell": "DFFR",
+              "x_um": 264.0,
+              "width_um": 88.0
+            },
+            {
+              "cell": "MUX2",
+              "x_um": 352.0,
+              "width_um": 49.5
+            },
+            {
+              "cell": "OR4",
+              "x_um": 401.5,
+              "width_um": 33.0
+            }
+          ],
+          [
+            {
+              "cell": "DFFR",
+              "x_um": 0,
+              "width_um": 88.0
+            },
+            {
+              "cell": "DFFR",
+              "x_um": 88.0,
+              "width_um": 88.0
+            },
+            {
+              "cell": "DFFR",
+              "x_um": 176.0,
+              "width_um": 88.0
+            },
+            {
+              "cell": "DFFR",
+              "x_um": 264.0,
+              "width_um": 88.0
+            },
+            {
+              "cell": "MUX2",
+              "x_um": 352.0,
+              "width_um": 49.5
+            },
+            {
+              "cell": "BUF_X4",
+              "x_um": 401.5,
+              "width_um": 33.0
+            }
+          ],
+          [
+            {
+              "cell": "DFFR",
+              "x_um": 0,
+              "width_um": 88.0
+            },
+            {
+              "cell": "DFFR",
+              "x_um": 88.0,
+              "width_um": 88.0
+            },
+            {
+              "cell": "DFFR",
+              "x_um": 176.0,
+              "width_um": 88.0
+            },
+            {
+              "cell": "DFFR",
+              "x_um": 264.0,
+              "width_um": 88.0
+            },
+            {
+              "cell": "MUX2",
+              "x_um": 352.0,
+              "width_um": 49.5
+            },
+            {
+              "cell": "BUF_X4",
+              "x_um": 401.5,
+              "width_um": 33.0
+            }
+          ],
+          [
+            {
+              "cell": "DFFR",
+              "x_um": 0,
+              "width_um": 88.0
+            },
+            {
+              "cell": "MUX2",
+              "x_um": 88.0,
+              "width_um": 49.5
+            },
+            {
+              "cell": "MUX2",
+              "x_um": 137.5,
+              "width_um": 49.5
+            },
+            {
+              "cell": "MUX2",
+              "x_um": 187.0,
+              "width_um": 49.5
+            },
+            {
+              "cell": "MUX2",
+              "x_um": 236.5,
+              "width_um": 49.5
+            },
+            {
+              "cell": "MUX2",
+              "x_um": 286.0,
+              "width_um": 49.5
+            },
+            {
+              "cell": "MUX2",
+              "x_um": 335.5,
+              "width_um": 49.5
+            },
+            {
+              "cell": "MUX2",
+              "x_um": 385.0,
+              "width_um": 49.5
+            }
+          ],
+          [
+            {
+              "cell": "MUX2",
+              "x_um": 0,
+              "width_um": 49.5
+            },
+            {
+              "cell": "MUX2",
+              "x_um": 49.5,
+              "width_um": 49.5
+            },
+            {
+              "cell": "MUX2",
+              "x_um": 99.0,
+              "width_um": 49.5
+            },
+            {
+              "cell": "MUX2",
+              "x_um": 148.5,
+              "width_um": 49.5
+            },
+            {
+              "cell": "MUX2",
+              "x_um": 198.0,
+              "width_um": 49.5
+            },
+            {
+              "cell": "MUX2",
+              "x_um": 247.5,
+              "width_um": 49.5
+            },
+            {
+              "cell": "BUF_X4",
+              "x_um": 297.0,
+              "width_um": 33.0
+            },
+            {
+              "cell": "BUF_X4",
+              "x_um": 330.0,
+              "width_um": 33.0
+            },
+            {
+              "cell": "BUF_X4",
+              "x_um": 363.0,
+              "width_um": 33.0
+            },
+            {
+              "cell": "BUF_X4",
+              "x_um": 396.0,
+              "width_um": 33.0
+            }
+          ],
+          [
+            {
+              "cell": "BUF_X4",
+              "x_um": 0,
+              "width_um": 33.0
+            },
+            {
+              "cell": "BUF_X4",
+              "x_um": 33.0,
+              "width_um": 33.0
+            },
+            {
+              "cell": "BUF_X4",
+              "x_um": 66.0,
+              "width_um": 33.0
+            },
+            {
+              "cell": "BUF_X4",
+              "x_um": 99.0,
+              "width_um": 33.0
+            },
+            {
+              "cell": "BUF_X4",
+              "x_um": 132.0,
+              "width_um": 33.0
+            },
+            {
+              "cell": "BUF_X4",
+              "x_um": 165.0,
+              "width_um": 33.0
+            },
+            {
+              "cell": "AND4_X1",
+              "x_um": 198.0,
+              "width_um": 33.0
+            },
+            {
+              "cell": "AND4_X1",
+              "x_um": 231.0,
+              "width_um": 33.0
+            },
+            {
+              "cell": "AND4_X1",
+              "x_um": 264.0,
+              "width_um": 33.0
+            },
+            {
+              "cell": "AND4_X1",
+              "x_um": 297.0,
+              "width_um": 33.0
+            },
+            {
+              "cell": "AND4_X1",
+              "x_um": 330.0,
+              "width_um": 33.0
+            },
+            {
+              "cell": "AND4_X1",
+              "x_um": 363.0,
+              "width_um": 33.0
+            },
+            {
+              "cell": "AND4_X1",
+              "x_um": 396.0,
+              "width_um": 33.0
+            }
+          ],
+          [
+            {
+              "cell": "AND4_X1",
+              "x_um": 0,
+              "width_um": 33.0
+            },
+            {
+              "cell": "AND4_X1",
+              "x_um": 33.0,
+              "width_um": 33.0
+            },
+            {
+              "cell": "AND4_X1",
+              "x_um": 66.0,
+              "width_um": 33.0
+            },
+            {
+              "cell": "OR3",
+              "x_um": 99.0,
+              "width_um": 27.5
+            },
+            {
+              "cell": "AND3_X1",
+              "x_um": 126.5,
+              "width_um": 27.5
+            },
+            {
+              "cell": "OR2",
+              "x_um": 154.0,
+              "width_um": 22.0
+            },
+            {
+              "cell": "OR2",
+              "x_um": 176.0,
+              "width_um": 22.0
+            },
+            {
+              "cell": "OR2",
+              "x_um": 198.0,
+              "width_um": 22.0
+            },
+            {
+              "cell": "AND2_X1",
+              "x_um": 220.0,
+              "width_um": 22.0
+            },
+            {
+              "cell": "AND2_X1",
+              "x_um": 242.0,
+              "width_um": 22.0
+            },
+            {
+              "cell": "AND2_X1",
+              "x_um": 264.0,
+              "width_um": 22.0
+            },
+            {
+              "cell": "AND2_X1",
+              "x_um": 286.0,
+              "width_um": 22.0
+            },
+            {
+              "cell": "AND2_X1",
+              "x_um": 308.0,
+              "width_um": 22.0
+            },
+            {
+              "cell": "AND2_X1",
+              "x_um": 330.0,
+              "width_um": 22.0
+            },
+            {
+              "cell": "AND2_X1",
+              "x_um": 352.0,
+              "width_um": 22.0
+            },
+            {
+              "cell": "AND2_X1",
+              "x_um": 374.0,
+              "width_um": 22.0
+            },
+            {
+              "cell": "AND2_X1",
+              "x_um": 396.0,
+              "width_um": 22.0
+            },
+            {
+              "cell": "NAND2",
+              "x_um": 418.0,
+              "width_um": 16.5
+            }
+          ],
+          [
+            {
+              "cell": "AND2_X1",
+              "x_um": 0,
+              "width_um": 22.0
+            },
+            {
+              "cell": "AND2_X1",
+              "x_um": 22.0,
+              "width_um": 22.0
+            },
+            {
+              "cell": "AND2_X1",
+              "x_um": 44.0,
+              "width_um": 22.0
+            },
+            {
+              "cell": "AND2_X1",
+              "x_um": 66.0,
+              "width_um": 22.0
+            },
+            {
+              "cell": "AND2_X1",
+              "x_um": 88.0,
+              "width_um": 22.0
+            },
+            {
+              "cell": "AND2_X1",
+              "x_um": 110.0,
+              "width_um": 22.0
+            },
+            {
+              "cell": "AND2_X1",
+              "x_um": 132.0,
+              "width_um": 22.0
+            },
+            {
+              "cell": "AND2_X1",
+              "x_um": 154.0,
+              "width_um": 22.0
+            },
+            {
+              "cell": "AND2_X1",
+              "x_um": 176.0,
+              "width_um": 22.0
+            },
+            {
+              "cell": "AND2_X1",
+              "x_um": 198.0,
+              "width_um": 22.0
+            },
+            {
+              "cell": "AND2_X1",
+              "x_um": 220.0,
+              "width_um": 22.0
+            },
+            {
+              "cell": "AND2_X1",
+              "x_um": 242.0,
+              "width_um": 22.0
+            },
+            {
+              "cell": "AND2_X1",
+              "x_um": 264.0,
+              "width_um": 22.0
+            },
+            {
+              "cell": "AND2_X1",
+              "x_um": 286.0,
+              "width_um": 22.0
+            },
+            {
+              "cell": "AND2_X1",
+              "x_um": 308.0,
+              "width_um": 22.0
+            },
+            {
+              "cell": "AND2_X1",
+              "x_um": 330.0,
+              "width_um": 22.0
+            },
+            {
+              "cell": "AND2_X1",
+              "x_um": 352.0,
+              "width_um": 22.0
+            },
+            {
+              "cell": "AND2_X1",
+              "x_um": 374.0,
+              "width_um": 22.0
+            },
+            {
+              "cell": "AND2_X1",
+              "x_um": 396.0,
+              "width_um": 22.0
+            },
+            {
+              "cell": "NAND2",
+              "x_um": 418.0,
+              "width_um": 16.5
+            }
+          ],
+          [
+            {
+              "cell": "AND2_X1",
+              "x_um": 0,
+              "width_um": 22.0
+            },
+            {
+              "cell": "AND2_X1",
+              "x_um": 22.0,
+              "width_um": 22.0
+            },
+            {
+              "cell": "AND2_X1",
+              "x_um": 44.0,
+              "width_um": 22.0
+            },
+            {
+              "cell": "AND2_X1",
+              "x_um": 66.0,
+              "width_um": 22.0
+            },
+            {
+              "cell": "AND2_X1",
+              "x_um": 88.0,
+              "width_um": 22.0
+            },
+            {
+              "cell": "AND2_X1",
+              "x_um": 110.0,
+              "width_um": 22.0
+            },
+            {
+              "cell": "AND2_X1",
+              "x_um": 132.0,
+              "width_um": 22.0
+            },
+            {
+              "cell": "AND2_X1",
+              "x_um": 154.0,
+              "width_um": 22.0
+            },
+            {
+              "cell": "INV_X1",
+              "x_um": 176.0,
+              "width_um": 16.5
+            },
+            {
+              "cell": "INV_X1",
+              "x_um": 192.5,
+              "width_um": 16.5
+            },
+            {
+              "cell": "INV_X1",
+              "x_um": 209.0,
+              "width_um": 16.5
+            },
+            {
+              "cell": "INV_X1",
+              "x_um": 225.5,
+              "width_um": 16.5
+            }
+          ]
+        ]
+      }
+    },
+    {
+      "utilization": 0.85,
+      "column_strip_um": 120,
+      "best": {
+        "rows": 16,
+        "columns": 32,
+        "bits": 512,
+        "rb": 4,
+        "cb": 5,
+        "strap_interval": 16,
+        "array_width_um": 806.6,
+        "array_height_um": 473.6,
+        "array_area_um2": 382005.76,
+        "digital_abut_area_um2": 387805.0,
+        "per_column_mos": 4,
+        "common_analog_mos": 11,
+        "target_utilization": 0.85,
+        "column_strip_um": 120,
+        "global_stdcell_bom": {
+          "AND4_X1": 11,
+          "AND2_X1": 32,
+          "OR2": 4,
+          "DFFR": 31,
+          "XOR2": 4,
+          "AND3_X1": 9,
+          "OR4": 1,
+          "INV_X1": 4,
+          "OR3": 1,
+          "MUX2": 22,
+          "NAND2": 2,
+          "BUF_X4": 12
+        },
+        "row_decoder_bom": {
+          "AND2_X1": 8,
+          "AND3_X1": 16
+        },
+        "column_decoder_bom": {
+          "AND2_X1": 36,
+          "AND3_X1": 8
+        },
+        "controller": {
+          "row_bits": 4,
+          "col_bits": 5,
+          "receive_bits": 10,
+          "counter_bits": 5,
+          "flipflops": 31,
+          "clocks_per_operation": 18
+        },
+        "global_logic_rows": 13,
+        "global_logic_height_um": 727.6,
+        "global_actual_occupancy": 0.78342175066313,
+        "local_row_region_um": 137.6,
+        "common_analog_region_um": [
+          120,
+          60
+        ],
+        "floorplan": {
+          "rotation_deg": 90,
+          "width_um": 593.6,
+          "height_um": 1771.8,
+          "upper_width_um": 593.6,
+          "upper_height_um": 944.2,
+          "fits": true
+        }
+      },
+      "best_binary": {
+        "rows": 16,
+        "columns": 32,
+        "bits": 512,
+        "rb": 4,
+        "cb": 5,
+        "strap_interval": 16,
+        "array_width_um": 806.6,
+        "array_height_um": 473.6,
+        "array_area_um2": 382005.76,
+        "digital_abut_area_um2": 387805.0,
+        "per_column_mos": 4,
+        "common_analog_mos": 11,
+        "target_utilization": 0.85,
+        "column_strip_um": 120,
+        "global_stdcell_bom": {
+          "AND4_X1": 11,
+          "AND2_X1": 32,
+          "OR2": 4,
+          "DFFR": 31,
+          "XOR2": 4,
+          "AND3_X1": 9,
+          "OR4": 1,
+          "INV_X1": 4,
+          "OR3": 1,
+          "MUX2": 22,
+          "NAND2": 2,
+          "BUF_X4": 12
+        },
+        "row_decoder_bom": {
+          "AND2_X1": 8,
+          "AND3_X1": 16
+        },
+        "column_decoder_bom": {
+          "AND2_X1": 36,
+          "AND3_X1": 8
+        },
+        "controller": {
+          "row_bits": 4,
+          "col_bits": 5,
+          "receive_bits": 10,
+          "counter_bits": 5,
+          "flipflops": 31,
+          "clocks_per_operation": 18
+        },
+        "global_logic_rows": 13,
+        "global_logic_height_um": 727.6,
+        "global_actual_occupancy": 0.78342175066313,
+        "local_row_region_um": 137.6,
+        "common_analog_region_um": [
+          120,
+          60
+        ],
+        "floorplan": {
+          "rotation_deg": 90,
+          "width_um": 593.6,
+          "height_um": 1771.8,
+          "upper_width_um": 593.6,
+          "upper_height_um": 944.2,
+          "fits": true
+        },
+        "packed_rows": [
+          [
+            {
+              "cell": "DFFR",
+              "x_um": 0,
+              "width_um": 88.0
+            },
+            {
+              "cell": "DFFR",
+              "x_um": 88.0,
+              "width_um": 88.0
+            },
+            {
+              "cell": "DFFR",
+              "x_um": 176.0,
+              "width_um": 88.0
+            },
+            {
+              "cell": "DFFR",
+              "x_um": 264.0,
+              "width_um": 88.0
+            },
+            {
+              "cell": "DFFR",
+              "x_um": 352.0,
+              "width_um": 88.0
+            },
+            {
+              "cell": "MUX2",
+              "x_um": 440.0,
+              "width_um": 49.5
+            }
+          ],
+          [
+            {
+              "cell": "DFFR",
+              "x_um": 0,
+              "width_um": 88.0
+            },
+            {
+              "cell": "DFFR",
+              "x_um": 88.0,
+              "width_um": 88.0
+            },
+            {
+              "cell": "DFFR",
+              "x_um": 176.0,
+              "width_um": 88.0
+            },
+            {
+              "cell": "DFFR",
+              "x_um": 264.0,
+              "width_um": 88.0
+            },
+            {
+              "cell": "DFFR",
+              "x_um": 352.0,
+              "width_um": 88.0
+            },
+            {
+              "cell": "MUX2",
+              "x_um": 440.0,
+              "width_um": 49.5
+            }
+          ],
+          [
+            {
+              "cell": "DFFR",
+              "x_um": 0,
+              "width_um": 88.0
+            },
+            {
+              "cell": "DFFR",
+              "x_um": 88.0,
+              "width_um": 88.0
+            },
+            {
+              "cell": "DFFR",
+              "x_um": 176.0,
+              "width_um": 88.0
+            },
+            {
+              "cell": "DFFR",
+              "x_um": 264.0,
+              "width_um": 88.0
+            },
+            {
+              "cell": "DFFR",
+              "x_um": 352.0,
+              "width_um": 88.0
+            },
+            {
+              "cell": "MUX2",
+              "x_um": 440.0,
+              "width_um": 49.5
+            }
+          ],
+          [
+            {
+              "cell": "DFFR",
+              "x_um": 0,
+              "width_um": 88.0
+            },
+            {
+              "cell": "DFFR",
+              "x_um": 88.0,
+              "width_um": 88.0
+            },
+            {
+              "cell": "DFFR",
+              "x_um": 176.0,
+              "width_um": 88.0
+            },
+            {
+              "cell": "DFFR",
+              "x_um": 264.0,
+              "width_um": 88.0
+            },
+            {
+              "cell": "DFFR",
+              "x_um": 352.0,
+              "width_um": 88.0
+            },
+            {
+              "cell": "MUX2",
+              "x_um": 440.0,
+              "width_um": 49.5
+            }
+          ],
+          [
+            {
+              "cell": "DFFR",
+              "x_um": 0,
+              "width_um": 88.0
+            },
+            {
+              "cell": "DFFR",
+              "x_um": 88.0,
+              "width_um": 88.0
+            },
+            {
+              "cell": "DFFR",
+              "x_um": 176.0,
+              "width_um": 88.0
+            },
+            {
+              "cell": "DFFR",
+              "x_um": 264.0,
+              "width_um": 88.0
+            },
+            {
+              "cell": "DFFR",
+              "x_um": 352.0,
+              "width_um": 88.0
+            },
+            {
+              "cell": "MUX2",
+              "x_um": 440.0,
+              "width_um": 49.5
+            }
+          ],
+          [
+            {
+              "cell": "DFFR",
+              "x_um": 0,
+              "width_um": 88.0
+            },
+            {
+              "cell": "DFFR",
+              "x_um": 88.0,
+              "width_um": 88.0
+            },
+            {
+              "cell": "DFFR",
+              "x_um": 176.0,
+              "width_um": 88.0
+            },
+            {
+              "cell": "DFFR",
+              "x_um": 264.0,
+              "width_um": 88.0
+            },
+            {
+              "cell": "DFFR",
+              "x_um": 352.0,
+              "width_um": 88.0
+            },
+            {
+              "cell": "MUX2",
+              "x_um": 440.0,
+              "width_um": 49.5
+            }
+          ],
+          [
+            {
+              "cell": "DFFR",
+              "x_um": 0,
+              "width_um": 88.0
+            },
+            {
+              "cell": "MUX2",
+              "x_um": 88.0,
+              "width_um": 49.5
+            },
+            {
+              "cell": "MUX2",
+              "x_um": 137.5,
+              "width_um": 49.5
+            },
+            {
+              "cell": "MUX2",
+              "x_um": 187.0,
+              "width_um": 49.5
+            },
+            {
+              "cell": "MUX2",
+              "x_um": 236.5,
+              "width_um": 49.5
+            },
+            {
+              "cell": "MUX2",
+              "x_um": 286.0,
+              "width_um": 49.5
+            },
+            {
+              "cell": "MUX2",
+              "x_um": 335.5,
+              "width_um": 49.5
+            },
+            {
+              "cell": "MUX2",
+              "x_um": 385.0,
+              "width_um": 49.5
+            },
+            {
+              "cell": "MUX2",
+              "x_um": 434.5,
+              "width_um": 49.5
+            }
+          ],
+          [
+            {
+              "cell": "MUX2",
+              "x_um": 0,
+              "width_um": 49.5
+            },
+            {
+              "cell": "MUX2",
+              "x_um": 49.5,
+              "width_um": 49.5
+            },
+            {
+              "cell": "MUX2",
+              "x_um": 99.0,
+              "width_um": 49.5
+            },
+            {
+              "cell": "MUX2",
+              "x_um": 148.5,
+              "width_um": 49.5
+            },
+            {
+              "cell": "MUX2",
+              "x_um": 198.0,
+              "width_um": 49.5
+            },
+            {
+              "cell": "MUX2",
+              "x_um": 247.5,
+              "width_um": 49.5
+            },
+            {
+              "cell": "MUX2",
+              "x_um": 297.0,
+              "width_um": 49.5
+            },
+            {
+              "cell": "MUX2",
+              "x_um": 346.5,
+              "width_um": 49.5
+            },
+            {
+              "cell": "XOR2",
+              "x_um": 396.0,
+              "width_um": 33.0
+            },
+            {
+              "cell": "XOR2",
+              "x_um": 429.0,
+              "width_um": 33.0
+            },
+            {
+              "cell": "OR3",
+              "x_um": 462.0,
+              "width_um": 27.5
+            }
+          ],
+          [
+            {
+              "cell": "XOR2",
+              "x_um": 0,
+              "width_um": 33.0
+            },
+            {
+              "cell": "XOR2",
+              "x_um": 33.0,
+              "width_um": 33.0
+            },
+            {
+              "cell": "OR4",
+              "x_um": 66.0,
+              "width_um": 33.0
+            },
+            {
+              "cell": "BUF_X4",
+              "x_um": 99.0,
+              "width_um": 33.0
+            },
+            {
+              "cell": "BUF_X4",
+              "x_um": 132.0,
+              "width_um": 33.0
+            },
+            {
+              "cell": "BUF_X4",
+              "x_um": 165.0,
+              "width_um": 33.0
+            },
+            {
+              "cell": "BUF_X4",
+              "x_um": 198.0,
+              "width_um": 33.0
+            },
+            {
+              "cell": "BUF_X4",
+              "x_um": 231.0,
+              "width_um": 33.0
+            },
+            {
+              "cell": "BUF_X4",
+              "x_um": 264.0,
+              "width_um": 33.0
+            },
+            {
+              "cell": "BUF_X4",
+              "x_um": 297.0,
+              "width_um": 33.0
+            },
+            {
+              "cell": "BUF_X4",
+              "x_um": 330.0,
+              "width_um": 33.0
+            },
+            {
+              "cell": "BUF_X4",
+              "x_um": 363.0,
+              "width_um": 33.0
+            },
+            {
+              "cell": "BUF_X4",
+              "x_um": 396.0,
+              "width_um": 33.0
+            },
+            {
+              "cell": "BUF_X4",
+              "x_um": 429.0,
+              "width_um": 33.0
+            },
+            {
+              "cell": "AND3_X1",
+              "x_um": 462.0,
+              "width_um": 27.5
+            }
+          ],
+          [
+            {
+              "cell": "BUF_X4",
+              "x_um": 0,
+              "width_um": 33.0
+            },
+            {
+              "cell": "AND4_X1",
+              "x_um": 33.0,
+              "width_um": 33.0
+            },
+            {
+              "cell": "AND4_X1",
+              "x_um": 66.0,
+              "width_um": 33.0
+            },
+            {
+              "cell": "AND4_X1",
+              "x_um": 99.0,
+              "width_um": 33.0
+            },
+            {
+              "cell": "AND4_X1",
+              "x_um": 132.0,
+              "width_um": 33.0
+            },
+            {
+              "cell": "AND4_X1",
+              "x_um": 165.0,
+              "width_um": 33.0
+            },
+            {
+              "cell": "AND4_X1",
+              "x_um": 198.0,
+              "width_um": 33.0
+            },
+            {
+              "cell": "AND4_X1",
+              "x_um": 231.0,
+              "width_um": 33.0
+            },
+            {
+              "cell": "AND4_X1",
+              "x_um": 264.0,
+              "width_um": 33.0
+            },
+            {
+              "cell": "AND4_X1",
+              "x_um": 297.0,
+              "width_um": 33.0
+            },
+            {
+              "cell": "AND4_X1",
+              "x_um": 330.0,
+              "width_um": 33.0
+            },
+            {
+              "cell": "AND4_X1",
+              "x_um": 363.0,
+              "width_um": 33.0
+            },
+            {
+              "cell": "AND3_X1",
+              "x_um": 396.0,
+              "width_um": 27.5
+            },
+            {
+              "cell": "AND3_X1",
+              "x_um": 423.5,
+              "width_um": 27.5
+            },
+            {
+              "cell": "AND3_X1",
+              "x_um": 451.0,
+              "width_um": 27.5
+            }
+          ],
+          [
+            {
+              "cell": "AND3_X1",
+              "x_um": 0,
+              "width_um": 27.5
+            },
+            {
+              "cell": "AND3_X1",
+              "x_um": 27.5,
+              "width_um": 27.5
+            },
+            {
+              "cell": "AND3_X1",
+              "x_um": 55.0,
+              "width_um": 27.5
+            },
+            {
+              "cell": "AND3_X1",
+              "x_um": 82.5,
+              "width_um": 27.5
+            },
+            {
+              "cell": "AND3_X1",
+              "x_um": 110.0,
+              "width_um": 27.5
+            },
+            {
+              "cell": "OR2",
+              "x_um": 137.5,
+              "width_um": 22.0
+            },
+            {
+              "cell": "OR2",
+              "x_um": 159.5,
+              "width_um": 22.0
+            },
+            {
+              "cell": "OR2",
+              "x_um": 181.5,
+              "width_um": 22.0
+            },
+            {
+              "cell": "OR2",
+              "x_um": 203.5,
+              "width_um": 22.0
+            },
+            {
+              "cell": "AND2_X1",
+              "x_um": 225.5,
+              "width_um": 22.0
+            },
+            {
+              "cell": "AND2_X1",
+              "x_um": 247.5,
+              "width_um": 22.0
+            },
+            {
+              "cell": "AND2_X1",
+              "x_um": 269.5,
+              "width_um": 22.0
+            },
+            {
+              "cell": "AND2_X1",
+              "x_um": 291.5,
+              "width_um": 22.0
+            },
+            {
+              "cell": "AND2_X1",
+              "x_um": 313.5,
+              "width_um": 22.0
+            },
+            {
+              "cell": "AND2_X1",
+              "x_um": 335.5,
+              "width_um": 22.0
+            },
+            {
+              "cell": "AND2_X1",
+              "x_um": 357.5,
+              "width_um": 22.0
+            },
+            {
+              "cell": "AND2_X1",
+              "x_um": 379.5,
+              "width_um": 22.0
+            },
+            {
+              "cell": "AND2_X1",
+              "x_um": 401.5,
+              "width_um": 22.0
+            },
+            {
+              "cell": "AND2_X1",
+              "x_um": 423.5,
+              "width_um": 22.0
+            },
+            {
+              "cell": "AND2_X1",
+              "x_um": 445.5,
+              "width_um": 22.0
+            },
+            {
+              "cell": "AND2_X1",
+              "x_um": 467.5,
+              "width_um": 22.0
+            }
+          ],
+          [
+            {
+              "cell": "AND2_X1",
+              "x_um": 0,
+              "width_um": 22.0
+            },
+            {
+              "cell": "AND2_X1",
+              "x_um": 22.0,
+              "width_um": 22.0
+            },
+            {
+              "cell": "AND2_X1",
+              "x_um": 44.0,
+              "width_um": 22.0
+            },
+            {
+              "cell": "AND2_X1",
+              "x_um": 66.0,
+              "width_um": 22.0
+            },
+            {
+              "cell": "AND2_X1",
+              "x_um": 88.0,
+              "width_um": 22.0
+            },
+            {
+              "cell": "AND2_X1",
+              "x_um": 110.0,
+              "width_um": 22.0
+            },
+            {
+              "cell": "AND2_X1",
+              "x_um": 132.0,
+              "width_um": 22.0
+            },
+            {
+              "cell": "AND2_X1",
+              "x_um": 154.0,
+              "width_um": 22.0
+            },
+            {
+              "cell": "AND2_X1",
+              "x_um": 176.0,
+              "width_um": 22.0
+            },
+            {
+              "cell": "AND2_X1",
+              "x_um": 198.0,
+              "width_um": 22.0
+            },
+            {
+              "cell": "AND2_X1",
+              "x_um": 220.0,
+              "width_um": 22.0
+            },
+            {
+              "cell": "AND2_X1",
+              "x_um": 242.0,
+              "width_um": 22.0
+            },
+            {
+              "cell": "AND2_X1",
+              "x_um": 264.0,
+              "width_um": 22.0
+            },
+            {
+              "cell": "AND2_X1",
+              "x_um": 286.0,
+              "width_um": 22.0
+            },
+            {
+              "cell": "AND2_X1",
+              "x_um": 308.0,
+              "width_um": 22.0
+            },
+            {
+              "cell": "AND2_X1",
+              "x_um": 330.0,
+              "width_um": 22.0
+            },
+            {
+              "cell": "AND2_X1",
+              "x_um": 352.0,
+              "width_um": 22.0
+            },
+            {
+              "cell": "AND2_X1",
+              "x_um": 374.0,
+              "width_um": 22.0
+            },
+            {
+              "cell": "AND2_X1",
+              "x_um": 396.0,
+              "width_um": 22.0
+            },
+            {
+              "cell": "AND2_X1",
+              "x_um": 418.0,
+              "width_um": 22.0
+            },
+            {
+              "cell": "NAND2",
+              "x_um": 440.0,
+              "width_um": 16.5
+            },
+            {
+              "cell": "NAND2",
+              "x_um": 456.5,
+              "width_um": 16.5
+            },
+            {
+              "cell": "INV_X1",
+              "x_um": 473.0,
+              "width_um": 16.5
+            }
+          ],
+          [
+            {
+              "cell": "INV_X1",
+              "x_um": 0,
+              "width_um": 16.5
+            },
+            {
+              "cell": "INV_X1",
+              "x_um": 16.5,
+              "width_um": 16.5
+            },
+            {
+              "cell": "INV_X1",
+              "x_um": 33.0,
+              "width_um": 16.5
+            }
+          ]
+        ]
+      }
+    }
+  ],
+  "comparisons": [
+    {
+      "rows": 8,
+      "columns": 16,
+      "bits": 128,
+      "rb": 3,
+      "cb": 4,
+      "strap_interval": 16,
+      "array_width_um": 414.2,
+      "array_height_um": 236.8,
+      "array_area_um2": 98082.56,
+      "digital_abut_area_um2": 297357.5,
+      "per_column_mos": 4,
+      "common_analog_mos": 11,
+      "target_utilization": 0.65,
+      "column_strip_um": 150,
+      "global_stdcell_bom": {
+        "AND4_X1": 9,
+        "AND3_X1": 10,
+        "AND2_X1": 18,
+        "OR4": 2,
+        "DFFR": 26,
+        "XOR2": 3,
+        "OR2": 2,
+        "INV_X1": 4,
+        "OR3": 1,
+        "MUX2": 18,
+        "NAND2": 2,
+        "BUF_X4": 12
+      },
+      "row_decoder_bom": {
+        "AND3_X1": 8,
+        "AND2_X1": 8
+      },
+      "column_decoder_bom": {
+        "AND2_X1": 24
+      },
+      "controller": {
+        "row_bits": 3,
+        "col_bits": 4,
+        "receive_bits": 8,
+        "counter_bits": 4,
+        "flipflops": 26,
+        "clocks_per_operation": 16
+      },
+      "global_logic_rows": 14,
+      "global_logic_height_um": 777.6,
+      "global_actual_occupancy": 0.6008004926108375,
+      "local_row_region_um": 137.6,
+      "common_analog_region_um": [
+        120,
+        60
+      ],
+      "floorplan": {
+        "rotation_deg": 0,
+        "width_um": 592.6,
+        "height_um": 1264.4,
+        "upper_width_um": 551.8,
+        "upper_height_um": 386.8,
+        "fits": true
+      }
+    },
+    {
+      "rows": 8,
+      "columns": 32,
+      "bits": 256,
+      "rb": 3,
+      "cb": 5,
+      "strap_interval": 16,
+      "array_width_um": 806.6,
+      "array_height_um": 236.8,
+      "array_area_um2": 191002.88,
+      "digital_abut_area_um2": 357555.0,
+      "per_column_mos": 4,
+      "common_analog_mos": 11,
+      "target_utilization": 0.65,
+      "column_strip_um": 150,
+      "global_stdcell_bom": {
+        "AND2_X1": 24,
+        "DFFR": 29,
+        "XOR2": 4,
+        "AND3_X1": 17,
+        "AND4_X1": 10,
+        "OR2": 3,
+        "OR4": 1,
+        "INV_X1": 4,
+        "OR3": 1,
+        "MUX2": 20,
+        "NAND2": 2,
+        "BUF_X4": 12
+      },
+      "row_decoder_bom": {
+        "AND2_X1": 8,
+        "AND3_X1": 8
+      },
+      "column_decoder_bom": {
+        "AND2_X1": 36,
+        "AND3_X1": 8
+      },
+      "controller": {
+        "row_bits": 3,
+        "col_bits": 5,
+        "receive_bits": 9,
+        "counter_bits": 5,
+        "flipflops": 29,
+        "clocks_per_operation": 17
+      },
+      "global_logic_rows": 16,
+      "global_logic_height_um": 887.6,
+      "global_actual_occupancy": 0.6057112068965518,
+      "local_row_region_um": 137.6,
+      "common_analog_region_um": [
+        120,
+        60
+      ],
+      "floorplan": {
+        "rotation_deg": 90,
+        "width_um": 592.6,
+        "height_um": 1931.8,
+        "upper_width_um": 386.8,
+        "upper_height_um": 944.2,
+        "fits": false
+      }
+    },
+    {
+      "rows": 16,
+      "columns": 16,
+      "bits": 256,
+      "rb": 4,
+      "cb": 4,
+      "strap_interval": 16,
+      "array_width_um": 414.2,
+      "array_height_um": 473.6,
+      "array_area_um2": 196165.12,
+      "digital_abut_area_um2": 343035.0,
+      "per_column_mos": 4,
+      "common_analog_mos": 11,
+      "target_utilization": 0.65,
+      "column_strip_um": 150,
+      "global_stdcell_bom": {
+        "AND2_X1": 36,
+        "DFFR": 29,
+        "XOR2": 4,
+        "AND3_X1": 1,
+        "AND4_X1": 10,
+        "OR2": 3,
+        "OR4": 1,
+        "INV_X1": 4,
+        "OR3": 1,
+        "MUX2": 20,
+        "NAND2": 2,
+        "BUF_X4": 12
+      },
+      "row_decoder_bom": {
+        "AND2_X1": 8,
+        "AND3_X1": 16
+      },
+      "column_decoder_bom": {
+        "AND2_X1": 24
+      },
+      "controller": {
+        "row_bits": 4,
+        "col_bits": 4,
+        "receive_bits": 9,
+        "counter_bits": 5,
+        "flipflops": 29,
+        "clocks_per_operation": 17
+      },
+      "global_logic_rows": 15,
+      "global_logic_height_um": 837.6,
+      "global_actual_occupancy": 0.6258620689655172,
+      "local_row_region_um": 137.6,
+      "common_analog_region_um": [
+        120,
+        60
+      ],
+      "floorplan": {
+        "rotation_deg": 0,
+        "width_um": 592.6,
+        "height_um": 1561.2,
+        "upper_width_um": 551.8,
+        "upper_height_um": 623.6,
+        "fits": true
+      }
+    },
+    {
+      "rows": 16,
+      "columns": 32,
+      "bits": 512,
+      "rb": 4,
+      "cb": 5,
+      "strap_interval": 16,
+      "array_width_um": 806.6,
+      "array_height_um": 473.6,
+      "array_area_um2": 382005.76,
+      "digital_abut_area_um2": 387805.0,
+      "per_column_mos": 4,
+      "common_analog_mos": 11,
+      "target_utilization": 0.65,
+      "column_strip_um": 150,
+      "global_stdcell_bom": {
+        "AND4_X1": 11,
+        "AND2_X1": 32,
+        "OR2": 4,
+        "DFFR": 31,
+        "XOR2": 4,
+        "AND3_X1": 9,
+        "OR4": 1,
+        "INV_X1": 4,
+        "OR3": 1,
+        "MUX2": 22,
+        "NAND2": 2,
+        "BUF_X4": 12
+      },
+      "row_decoder_bom": {
+        "AND2_X1": 8,
+        "AND3_X1": 16
+      },
+      "column_decoder_bom": {
+        "AND2_X1": 36,
+        "AND3_X1": 8
+      },
+      "controller": {
+        "row_bits": 4,
+        "col_bits": 5,
+        "receive_bits": 10,
+        "counter_bits": 5,
+        "flipflops": 31,
+        "clocks_per_operation": 18
+      },
+      "global_logic_rows": 16,
+      "global_logic_height_um": 887.6,
+      "global_actual_occupancy": 0.6365301724137931,
+      "local_row_region_um": 137.6,
+      "common_analog_region_um": [
+        120,
+        60
+      ],
+      "floorplan": {
+        "rotation_deg": 90,
+        "width_um": 623.6,
+        "height_um": 1931.8,
+        "upper_width_um": 623.6,
+        "upper_height_um": 944.2,
+        "fits": false
+      }
+    },
+    {
+      "rows": 32,
+      "columns": 16,
+      "bits": 512,
+      "rb": 5,
+      "cb": 4,
+      "strap_interval": 16,
+      "array_width_um": 414.2,
+      "array_height_um": 947.2,
+      "array_area_um2": 392330.24,
+      "digital_abut_area_um2": 392645.0,
+      "per_column_mos": 4,
+      "common_analog_mos": 11,
+      "target_utilization": 0.65,
+      "column_strip_um": 150,
+      "global_stdcell_bom": {
+        "AND4_X1": 11,
+        "AND2_X1": 32,
+        "OR2": 4,
+        "DFFR": 31,
+        "XOR2": 4,
+        "AND3_X1": 9,
+        "OR4": 1,
+        "INV_X1": 4,
+        "OR3": 1,
+        "MUX2": 22,
+        "NAND2": 2,
+        "BUF_X4": 12
+      },
+      "row_decoder_bom": {
+        "AND2_X1": 4,
+        "AND3_X1": 40
+      },
+      "column_decoder_bom": {
+        "AND2_X1": 24
+      },
+      "controller": {
+        "row_bits": 5,
+        "col_bits": 4,
+        "receive_bits": 10,
+        "counter_bits": 5,
+        "flipflops": 31,
+        "clocks_per_operation": 18
+      },
+      "global_logic_rows": 16,
+      "global_logic_height_um": 887.6,
+      "global_actual_occupancy": 0.6365301724137931,
+      "local_row_region_um": 137.6,
+      "common_analog_region_um": [
+        120,
+        60
+      ],
+      "floorplan": {
+        "rotation_deg": 0,
+        "width_um": 592.6,
+        "height_um": 2084.8,
+        "upper_width_um": 551.8,
+        "upper_height_um": 1097.2,
+        "fits": false
+      }
+    },
+    {
+      "rows": 8,
+      "columns": 64,
+      "bits": 512,
+      "rb": 3,
+      "cb": 6,
+      "strap_interval": 16,
+      "array_width_um": 1591.4,
+      "array_height_um": 236.8,
+      "array_area_um2": 376843.52,
+      "digital_abut_area_um2": 421685.0,
+      "per_column_mos": 4,
+      "common_analog_mos": 11,
+      "target_utilization": 0.65,
+      "column_strip_um": 150,
+      "global_stdcell_bom": {
+        "AND4_X1": 11,
+        "AND2_X1": 20,
+        "OR2": 4,
+        "DFFR": 31,
+        "XOR2": 4,
+        "AND3_X1": 25,
+        "OR4": 1,
+        "INV_X1": 4,
+        "OR3": 1,
+        "MUX2": 22,
+        "NAND2": 2,
+        "BUF_X4": 12
+      },
+      "row_decoder_bom": {
+        "AND2_X1": 8,
+        "AND3_X1": 8
+      },
+      "column_decoder_bom": {
+        "AND2_X1": 64,
+        "AND3_X1": 16
+      },
+      "controller": {
+        "row_bits": 3,
+        "col_bits": 6,
+        "receive_bits": 10,
+        "counter_bits": 5,
+        "flipflops": 31,
+        "clocks_per_operation": 18
+      },
+      "global_logic_rows": 17,
+      "global_logic_height_um": 947.6,
+      "global_actual_occupancy": 0.6169371196754564,
+      "local_row_region_um": 137.6,
+      "common_analog_region_um": [
+        120,
+        60
+      ],
+      "floorplan": {
+        "rotation_deg": 90,
+        "width_um": 592.6,
+        "height_um": 2776.6,
+        "upper_width_um": 386.8,
+        "upper_height_um": 1729.0,
+        "fits": false
+      }
+    },
+    {
+      "rows": 16,
+      "columns": 64,
+      "bits": 1024,
+      "rb": 4,
+      "cb": 6,
+      "strap_interval": 16,
+      "array_width_um": 1591.4,
+      "array_height_um": 473.6,
+      "array_area_um2": 753687.04,
+      "digital_abut_area_um2": 451027.5,
+      "per_column_mos": 4,
+      "common_analog_mos": 11,
+      "target_utilization": 0.65,
+      "column_strip_um": 150,
+      "global_stdcell_bom": {
+        "AND4_X1": 12,
+        "OR2": 3,
+        "AND2_X1": 28,
+        "DFFR": 33,
+        "XOR2": 4,
+        "AND3_X1": 17,
+        "OR3": 2,
+        "OR4": 1,
+        "INV_X1": 4,
+        "MUX2": 24,
+        "NAND2": 2,
+        "BUF_X4": 12
+      },
+      "row_decoder_bom": {
+        "AND2_X1": 8,
+        "AND3_X1": 16
+      },
+      "column_decoder_bom": {
+        "AND2_X1": 64,
+        "AND3_X1": 16
+      },
+      "controller": {
+        "row_bits": 4,
+        "col_bits": 6,
+        "receive_bits": 11,
+        "counter_bits": 5,
+        "flipflops": 33,
+        "clocks_per_operation": 19
+      },
+      "global_logic_rows": 18,
+      "global_logic_height_um": 997.6,
+      "global_actual_occupancy": 0.6084770114942529,
+      "local_row_region_um": 137.6,
+      "common_analog_region_um": [
+        120,
+        60
+      ],
+      "floorplan": {
+        "rotation_deg": 90,
+        "width_um": 623.6,
+        "height_um": 2826.6,
+        "upper_width_um": 623.6,
+        "upper_height_um": 1729.0,
+        "fits": false
+      }
+    },
+    {
+      "rows": 8,
+      "columns": 16,
+      "bits": 128,
+      "rb": 3,
+      "cb": 4,
+      "strap_interval": 16,
+      "array_width_um": 414.2,
+      "array_height_um": 236.8,
+      "array_area_um2": 98082.56,
+      "digital_abut_area_um2": 297357.5,
+      "per_column_mos": 4,
+      "common_analog_mos": 11,
+      "target_utilization": 0.75,
+      "column_strip_um": 120,
+      "global_stdcell_bom": {
+        "AND4_X1": 9,
+        "AND3_X1": 10,
+        "AND2_X1": 18,
+        "OR4": 2,
+        "DFFR": 26,
+        "XOR2": 3,
+        "OR2": 2,
+        "INV_X1": 4,
+        "OR3": 1,
+        "MUX2": 18,
+        "NAND2": 2,
+        "BUF_X4": 12
+      },
+      "row_decoder_bom": {
+        "AND3_X1": 8,
+        "AND2_X1": 8
+      },
+      "column_decoder_bom": {
+        "AND2_X1": 24
+      },
+      "controller": {
+        "row_bits": 3,
+        "col_bits": 4,
+        "receive_bits": 8,
+        "counter_bits": 4,
+        "flipflops": 26,
+        "clocks_per_operation": 16
+      },
+      "global_logic_rows": 12,
+      "global_logic_height_um": 667.6,
+      "global_actual_occupancy": 0.700933908045977,
+      "local_row_region_um": 137.6,
+      "common_analog_region_um": [
+        120,
+        60
+      ],
+      "floorplan": {
+        "rotation_deg": 0,
+        "width_um": 592.6,
+        "height_um": 1124.4,
+        "upper_width_um": 551.8,
+        "upper_height_um": 356.8,
+        "fits": true
+      }
+    },
+    {
+      "rows": 8,
+      "columns": 32,
+      "bits": 256,
+      "rb": 3,
+      "cb": 5,
+      "strap_interval": 16,
+      "array_width_um": 806.6,
+      "array_height_um": 236.8,
+      "array_area_um2": 191002.88,
+      "digital_abut_area_um2": 357555.0,
+      "per_column_mos": 4,
+      "common_analog_mos": 11,
+      "target_utilization": 0.75,
+      "column_strip_um": 120,
+      "global_stdcell_bom": {
+        "AND2_X1": 24,
+        "DFFR": 29,
+        "XOR2": 4,
+        "AND3_X1": 17,
+        "AND4_X1": 10,
+        "OR2": 3,
+        "OR4": 1,
+        "INV_X1": 4,
+        "OR3": 1,
+        "MUX2": 20,
+        "NAND2": 2,
+        "BUF_X4": 12
+      },
+      "row_decoder_bom": {
+        "AND2_X1": 8,
+        "AND3_X1": 8
+      },
+      "column_decoder_bom": {
+        "AND2_X1": 36,
+        "AND3_X1": 8
+      },
+      "controller": {
+        "row_bits": 3,
+        "col_bits": 5,
+        "receive_bits": 9,
+        "counter_bits": 5,
+        "flipflops": 29,
+        "clocks_per_operation": 17
+      },
+      "global_logic_rows": 13,
+      "global_logic_height_um": 727.6,
+      "global_actual_occupancy": 0.7454907161803713,
+      "local_row_region_um": 137.6,
+      "common_analog_region_um": [
+        120,
+        60
+      ],
+      "floorplan": {
+        "rotation_deg": 90,
+        "width_um": 592.6,
+        "height_um": 1771.8,
+        "upper_width_um": 356.8,
+        "upper_height_um": 944.2,
+        "fits": true
+      }
+    },
+    {
+      "rows": 16,
+      "columns": 16,
+      "bits": 256,
+      "rb": 4,
+      "cb": 4,
+      "strap_interval": 16,
+      "array_width_um": 414.2,
+      "array_height_um": 473.6,
+      "array_area_um2": 196165.12,
+      "digital_abut_area_um2": 343035.0,
+      "per_column_mos": 4,
+      "common_analog_mos": 11,
+      "target_utilization": 0.75,
+      "column_strip_um": 120,
+      "global_stdcell_bom": {
+        "AND2_X1": 36,
+        "DFFR": 29,
+        "XOR2": 4,
+        "AND3_X1": 1,
+        "AND4_X1": 10,
+        "OR2": 3,
+        "OR4": 1,
+        "INV_X1": 4,
+        "OR3": 1,
+        "MUX2": 20,
+        "NAND2": 2,
+        "BUF_X4": 12
+      },
+      "row_decoder_bom": {
+        "AND2_X1": 8,
+        "AND3_X1": 16
+      },
+      "column_decoder_bom": {
+        "AND2_X1": 24
+      },
+      "controller": {
+        "row_bits": 4,
+        "col_bits": 4,
+        "receive_bits": 9,
+        "counter_bits": 5,
+        "flipflops": 29,
+        "clocks_per_operation": 17
+      },
+      "global_logic_rows": 13,
+      "global_logic_height_um": 727.6,
+      "global_actual_occupancy": 0.7221485411140584,
+      "local_row_region_um": 137.6,
+      "common_analog_region_um": [
+        120,
+        60
+      ],
+      "floorplan": {
+        "rotation_deg": 0,
+        "width_um": 592.6,
+        "height_um": 1421.2,
+        "upper_width_um": 551.8,
+        "upper_height_um": 593.6,
+        "fits": true
+      }
+    },
+    {
+      "rows": 16,
+      "columns": 32,
+      "bits": 512,
+      "rb": 4,
+      "cb": 5,
+      "strap_interval": 16,
+      "array_width_um": 806.6,
+      "array_height_um": 473.6,
+      "array_area_um2": 382005.76,
+      "digital_abut_area_um2": 387805.0,
+      "per_column_mos": 4,
+      "common_analog_mos": 11,
+      "target_utilization": 0.75,
+      "column_strip_um": 120,
+      "global_stdcell_bom": {
+        "AND4_X1": 11,
+        "AND2_X1": 32,
+        "OR2": 4,
+        "DFFR": 31,
+        "XOR2": 4,
+        "AND3_X1": 9,
+        "OR4": 1,
+        "INV_X1": 4,
+        "OR3": 1,
+        "MUX2": 22,
+        "NAND2": 2,
+        "BUF_X4": 12
+      },
+      "row_decoder_bom": {
+        "AND2_X1": 8,
+        "AND3_X1": 16
+      },
+      "column_decoder_bom": {
+        "AND2_X1": 36,
+        "AND3_X1": 8
+      },
+      "controller": {
+        "row_bits": 4,
+        "col_bits": 5,
+        "receive_bits": 10,
+        "counter_bits": 5,
+        "flipflops": 31,
+        "clocks_per_operation": 18
+      },
+      "global_logic_rows": 14,
+      "global_logic_height_um": 777.6,
+      "global_actual_occupancy": 0.7274630541871921,
+      "local_row_region_um": 137.6,
+      "common_analog_region_um": [
+        120,
+        60
+      ],
+      "floorplan": {
+        "rotation_deg": 90,
+        "width_um": 593.6,
+        "height_um": 1821.8,
+        "upper_width_um": 593.6,
+        "upper_height_um": 944.2,
+        "fits": false
+      }
+    },
+    {
+      "rows": 32,
+      "columns": 16,
+      "bits": 512,
+      "rb": 5,
+      "cb": 4,
+      "strap_interval": 16,
+      "array_width_um": 414.2,
+      "array_height_um": 947.2,
+      "array_area_um2": 392330.24,
+      "digital_abut_area_um2": 392645.0,
+      "per_column_mos": 4,
+      "common_analog_mos": 11,
+      "target_utilization": 0.75,
+      "column_strip_um": 120,
+      "global_stdcell_bom": {
+        "AND4_X1": 11,
+        "AND2_X1": 32,
+        "OR2": 4,
+        "DFFR": 31,
+        "XOR2": 4,
+        "AND3_X1": 9,
+        "OR4": 1,
+        "INV_X1": 4,
+        "OR3": 1,
+        "MUX2": 22,
+        "NAND2": 2,
+        "BUF_X4": 12
+      },
+      "row_decoder_bom": {
+        "AND2_X1": 4,
+        "AND3_X1": 40
+      },
+      "column_decoder_bom": {
+        "AND2_X1": 24
+      },
+      "controller": {
+        "row_bits": 5,
+        "col_bits": 4,
+        "receive_bits": 10,
+        "counter_bits": 5,
+        "flipflops": 31,
+        "clocks_per_operation": 18
+      },
+      "global_logic_rows": 14,
+      "global_logic_height_um": 777.6,
+      "global_actual_occupancy": 0.7274630541871921,
+      "local_row_region_um": 137.6,
+      "common_analog_region_um": [
+        120,
+        60
+      ],
+      "floorplan": {
+        "rotation_deg": 0,
+        "width_um": 592.6,
+        "height_um": 1944.8,
+        "upper_width_um": 551.8,
+        "upper_height_um": 1067.2,
+        "fits": false
+      }
+    },
+    {
+      "rows": 8,
+      "columns": 64,
+      "bits": 512,
+      "rb": 3,
+      "cb": 6,
+      "strap_interval": 16,
+      "array_width_um": 1591.4,
+      "array_height_um": 236.8,
+      "array_area_um2": 376843.52,
+      "digital_abut_area_um2": 421685.0,
+      "per_column_mos": 4,
+      "common_analog_mos": 11,
+      "target_utilization": 0.75,
+      "column_strip_um": 120,
+      "global_stdcell_bom": {
+        "AND4_X1": 11,
+        "AND2_X1": 20,
+        "OR2": 4,
+        "DFFR": 31,
+        "XOR2": 4,
+        "AND3_X1": 25,
+        "OR4": 1,
+        "INV_X1": 4,
+        "OR3": 1,
+        "MUX2": 22,
+        "NAND2": 2,
+        "BUF_X4": 12
+      },
+      "row_decoder_bom": {
+        "AND2_X1": 8,
+        "AND3_X1": 8
+      },
+      "column_decoder_bom": {
+        "AND2_X1": 64,
+        "AND3_X1": 16
+      },
+      "controller": {
+        "row_bits": 3,
+        "col_bits": 6,
+        "receive_bits": 10,
+        "counter_bits": 5,
+        "flipflops": 31,
+        "clocks_per_operation": 18
+      },
+      "global_logic_rows": 15,
+      "global_logic_height_um": 837.6,
+      "global_actual_occupancy": 0.6991954022988506,
+      "local_row_region_um": 137.6,
+      "common_analog_region_um": [
+        120,
+        60
+      ],
+      "floorplan": {
+        "rotation_deg": 90,
+        "width_um": 592.6,
+        "height_um": 2666.6,
+        "upper_width_um": 356.8,
+        "upper_height_um": 1729.0,
+        "fits": false
+      }
+    },
+    {
+      "rows": 16,
+      "columns": 64,
+      "bits": 1024,
+      "rb": 4,
+      "cb": 6,
+      "strap_interval": 16,
+      "array_width_um": 1591.4,
+      "array_height_um": 473.6,
+      "array_area_um2": 753687.04,
+      "digital_abut_area_um2": 451027.5,
+      "per_column_mos": 4,
+      "common_analog_mos": 11,
+      "target_utilization": 0.75,
+      "column_strip_um": 120,
+      "global_stdcell_bom": {
+        "AND4_X1": 12,
+        "OR2": 3,
+        "AND2_X1": 28,
+        "DFFR": 33,
+        "XOR2": 4,
+        "AND3_X1": 17,
+        "OR3": 2,
+        "OR4": 1,
+        "INV_X1": 4,
+        "MUX2": 24,
+        "NAND2": 2,
+        "BUF_X4": 12
+      },
+      "row_decoder_bom": {
+        "AND2_X1": 8,
+        "AND3_X1": 16
+      },
+      "column_decoder_bom": {
+        "AND2_X1": 64,
+        "AND3_X1": 16
+      },
+      "controller": {
+        "row_bits": 4,
+        "col_bits": 6,
+        "receive_bits": 11,
+        "counter_bits": 5,
+        "flipflops": 33,
+        "clocks_per_operation": 19
+      },
+      "global_logic_rows": 15,
+      "global_logic_height_um": 837.6,
+      "global_actual_occupancy": 0.7301724137931035,
+      "local_row_region_um": 137.6,
+      "common_analog_region_um": [
+        120,
+        60
+      ],
+      "floorplan": {
+        "rotation_deg": 90,
+        "width_um": 593.6,
+        "height_um": 2666.6,
+        "upper_width_um": 593.6,
+        "upper_height_um": 1729.0,
+        "fits": false
+      }
+    },
+    {
+      "rows": 8,
+      "columns": 16,
+      "bits": 128,
+      "rb": 3,
+      "cb": 4,
+      "strap_interval": 16,
+      "array_width_um": 414.2,
+      "array_height_um": 236.8,
+      "array_area_um2": 98082.56,
+      "digital_abut_area_um2": 297357.5,
+      "per_column_mos": 4,
+      "common_analog_mos": 11,
+      "target_utilization": 0.85,
+      "column_strip_um": 120,
+      "global_stdcell_bom": {
+        "AND4_X1": 9,
+        "AND3_X1": 10,
+        "AND2_X1": 18,
+        "OR4": 2,
+        "DFFR": 26,
+        "XOR2": 3,
+        "OR2": 2,
+        "INV_X1": 4,
+        "OR3": 1,
+        "MUX2": 18,
+        "NAND2": 2,
+        "BUF_X4": 12
+      },
+      "row_decoder_bom": {
+        "AND3_X1": 8,
+        "AND2_X1": 8
+      },
+      "column_decoder_bom": {
+        "AND2_X1": 24
+      },
+      "controller": {
+        "row_bits": 3,
+        "col_bits": 4,
+        "receive_bits": 8,
+        "counter_bits": 4,
+        "flipflops": 26,
+        "clocks_per_operation": 16
+      },
+      "global_logic_rows": 11,
+      "global_logic_height_um": 617.6,
+      "global_actual_occupancy": 0.7646551724137931,
+      "local_row_region_um": 137.6,
+      "common_analog_region_um": [
+        120,
+        60
+      ],
+      "floorplan": {
+        "rotation_deg": 0,
+        "width_um": 592.6,
+        "height_um": 1074.4,
+        "upper_width_um": 551.8,
+        "upper_height_um": 356.8,
+        "fits": true
+      }
+    },
+    {
+      "rows": 8,
+      "columns": 32,
+      "bits": 256,
+      "rb": 3,
+      "cb": 5,
+      "strap_interval": 16,
+      "array_width_um": 806.6,
+      "array_height_um": 236.8,
+      "array_area_um2": 191002.88,
+      "digital_abut_area_um2": 357555.0,
+      "per_column_mos": 4,
+      "common_analog_mos": 11,
+      "target_utilization": 0.85,
+      "column_strip_um": 120,
+      "global_stdcell_bom": {
+        "AND2_X1": 24,
+        "DFFR": 29,
+        "XOR2": 4,
+        "AND3_X1": 17,
+        "AND4_X1": 10,
+        "OR2": 3,
+        "OR4": 1,
+        "INV_X1": 4,
+        "OR3": 1,
+        "MUX2": 20,
+        "NAND2": 2,
+        "BUF_X4": 12
+      },
+      "row_decoder_bom": {
+        "AND2_X1": 8,
+        "AND3_X1": 8
+      },
+      "column_decoder_bom": {
+        "AND2_X1": 36,
+        "AND3_X1": 8
+      },
+      "controller": {
+        "row_bits": 3,
+        "col_bits": 5,
+        "receive_bits": 9,
+        "counter_bits": 5,
+        "flipflops": 29,
+        "clocks_per_operation": 17
+      },
+      "global_logic_rows": 12,
+      "global_logic_height_um": 667.6,
+      "global_actual_occupancy": 0.8076149425287357,
+      "local_row_region_um": 137.6,
+      "common_analog_region_um": [
+        120,
+        60
+      ],
+      "floorplan": {
+        "rotation_deg": 90,
+        "width_um": 592.6,
+        "height_um": 1711.8,
+        "upper_width_um": 356.8,
+        "upper_height_um": 944.2,
+        "fits": true
+      }
+    },
+    {
+      "rows": 16,
+      "columns": 16,
+      "bits": 256,
+      "rb": 4,
+      "cb": 4,
+      "strap_interval": 16,
+      "array_width_um": 414.2,
+      "array_height_um": 473.6,
+      "array_area_um2": 196165.12,
+      "digital_abut_area_um2": 343035.0,
+      "per_column_mos": 4,
+      "common_analog_mos": 11,
+      "target_utilization": 0.85,
+      "column_strip_um": 120,
+      "global_stdcell_bom": {
+        "AND2_X1": 36,
+        "DFFR": 29,
+        "XOR2": 4,
+        "AND3_X1": 1,
+        "AND4_X1": 10,
+        "OR2": 3,
+        "OR4": 1,
+        "INV_X1": 4,
+        "OR3": 1,
+        "MUX2": 20,
+        "NAND2": 2,
+        "BUF_X4": 12
+      },
+      "row_decoder_bom": {
+        "AND2_X1": 8,
+        "AND3_X1": 16
+      },
+      "column_decoder_bom": {
+        "AND2_X1": 24
+      },
+      "controller": {
+        "row_bits": 4,
+        "col_bits": 4,
+        "receive_bits": 9,
+        "counter_bits": 5,
+        "flipflops": 29,
+        "clocks_per_operation": 17
+      },
+      "global_logic_rows": 12,
+      "global_logic_height_um": 667.6,
+      "global_actual_occupancy": 0.7823275862068966,
+      "local_row_region_um": 137.6,
+      "common_analog_region_um": [
+        120,
+        60
+      ],
+      "floorplan": {
+        "rotation_deg": 0,
+        "width_um": 592.6,
+        "height_um": 1361.2,
+        "upper_width_um": 551.8,
+        "upper_height_um": 593.6,
+        "fits": true
+      }
+    },
+    {
+      "rows": 16,
+      "columns": 32,
+      "bits": 512,
+      "rb": 4,
+      "cb": 5,
+      "strap_interval": 16,
+      "array_width_um": 806.6,
+      "array_height_um": 473.6,
+      "array_area_um2": 382005.76,
+      "digital_abut_area_um2": 387805.0,
+      "per_column_mos": 4,
+      "common_analog_mos": 11,
+      "target_utilization": 0.85,
+      "column_strip_um": 120,
+      "global_stdcell_bom": {
+        "AND4_X1": 11,
+        "AND2_X1": 32,
+        "OR2": 4,
+        "DFFR": 31,
+        "XOR2": 4,
+        "AND3_X1": 9,
+        "OR4": 1,
+        "INV_X1": 4,
+        "OR3": 1,
+        "MUX2": 22,
+        "NAND2": 2,
+        "BUF_X4": 12
+      },
+      "row_decoder_bom": {
+        "AND2_X1": 8,
+        "AND3_X1": 16
+      },
+      "column_decoder_bom": {
+        "AND2_X1": 36,
+        "AND3_X1": 8
+      },
+      "controller": {
+        "row_bits": 4,
+        "col_bits": 5,
+        "receive_bits": 10,
+        "counter_bits": 5,
+        "flipflops": 31,
+        "clocks_per_operation": 18
+      },
+      "global_logic_rows": 13,
+      "global_logic_height_um": 727.6,
+      "global_actual_occupancy": 0.78342175066313,
+      "local_row_region_um": 137.6,
+      "common_analog_region_um": [
+        120,
+        60
+      ],
+      "floorplan": {
+        "rotation_deg": 90,
+        "width_um": 593.6,
+        "height_um": 1771.8,
+        "upper_width_um": 593.6,
+        "upper_height_um": 944.2,
+        "fits": true
+      }
+    },
+    {
+      "rows": 32,
+      "columns": 16,
+      "bits": 512,
+      "rb": 5,
+      "cb": 4,
+      "strap_interval": 16,
+      "array_width_um": 414.2,
+      "array_height_um": 947.2,
+      "array_area_um2": 392330.24,
+      "digital_abut_area_um2": 392645.0,
+      "per_column_mos": 4,
+      "common_analog_mos": 11,
+      "target_utilization": 0.85,
+      "column_strip_um": 120,
+      "global_stdcell_bom": {
+        "AND4_X1": 11,
+        "AND2_X1": 32,
+        "OR2": 4,
+        "DFFR": 31,
+        "XOR2": 4,
+        "AND3_X1": 9,
+        "OR4": 1,
+        "INV_X1": 4,
+        "OR3": 1,
+        "MUX2": 22,
+        "NAND2": 2,
+        "BUF_X4": 12
+      },
+      "row_decoder_bom": {
+        "AND2_X1": 4,
+        "AND3_X1": 40
+      },
+      "column_decoder_bom": {
+        "AND2_X1": 24
+      },
+      "controller": {
+        "row_bits": 5,
+        "col_bits": 4,
+        "receive_bits": 10,
+        "counter_bits": 5,
+        "flipflops": 31,
+        "clocks_per_operation": 18
+      },
+      "global_logic_rows": 13,
+      "global_logic_height_um": 727.6,
+      "global_actual_occupancy": 0.78342175066313,
+      "local_row_region_um": 137.6,
+      "common_analog_region_um": [
+        120,
+        60
+      ],
+      "floorplan": {
+        "rotation_deg": 0,
+        "width_um": 592.6,
+        "height_um": 1894.8,
+        "upper_width_um": 551.8,
+        "upper_height_um": 1067.2,
+        "fits": false
+      }
+    },
+    {
+      "rows": 8,
+      "columns": 64,
+      "bits": 512,
+      "rb": 3,
+      "cb": 6,
+      "strap_interval": 16,
+      "array_width_um": 1591.4,
+      "array_height_um": 236.8,
+      "array_area_um2": 376843.52,
+      "digital_abut_area_um2": 421685.0,
+      "per_column_mos": 4,
+      "common_analog_mos": 11,
+      "target_utilization": 0.85,
+      "column_strip_um": 120,
+      "global_stdcell_bom": {
+        "AND4_X1": 11,
+        "AND2_X1": 20,
+        "OR2": 4,
+        "DFFR": 31,
+        "XOR2": 4,
+        "AND3_X1": 25,
+        "OR4": 1,
+        "INV_X1": 4,
+        "OR3": 1,
+        "MUX2": 22,
+        "NAND2": 2,
+        "BUF_X4": 12
+      },
+      "row_decoder_bom": {
+        "AND2_X1": 8,
+        "AND3_X1": 8
+      },
+      "column_decoder_bom": {
+        "AND2_X1": 64,
+        "AND3_X1": 16
+      },
+      "controller": {
+        "row_bits": 3,
+        "col_bits": 6,
+        "receive_bits": 10,
+        "counter_bits": 5,
+        "flipflops": 31,
+        "clocks_per_operation": 18
+      },
+      "global_logic_rows": 13,
+      "global_logic_height_um": 727.6,
+      "global_actual_occupancy": 0.806763925729443,
+      "local_row_region_um": 137.6,
+      "common_analog_region_um": [
+        120,
+        60
+      ],
+      "floorplan": {
+        "rotation_deg": 90,
+        "width_um": 592.6,
+        "height_um": 2556.6,
+        "upper_width_um": 356.8,
+        "upper_height_um": 1729.0,
+        "fits": false
+      }
+    },
+    {
+      "rows": 16,
+      "columns": 64,
+      "bits": 1024,
+      "rb": 4,
+      "cb": 6,
+      "strap_interval": 16,
+      "array_width_um": 1591.4,
+      "array_height_um": 473.6,
+      "array_area_um2": 753687.04,
+      "digital_abut_area_um2": 451027.5,
+      "per_column_mos": 4,
+      "common_analog_mos": 11,
+      "target_utilization": 0.85,
+      "column_strip_um": 120,
+      "global_stdcell_bom": {
+        "AND4_X1": 12,
+        "OR2": 3,
+        "AND2_X1": 28,
+        "DFFR": 33,
+        "XOR2": 4,
+        "AND3_X1": 17,
+        "OR3": 2,
+        "OR4": 1,
+        "INV_X1": 4,
+        "MUX2": 24,
+        "NAND2": 2,
+        "BUF_X4": 12
+      },
+      "row_decoder_bom": {
+        "AND2_X1": 8,
+        "AND3_X1": 16
+      },
+      "column_decoder_bom": {
+        "AND2_X1": 64,
+        "AND3_X1": 16
+      },
+      "controller": {
+        "row_bits": 4,
+        "col_bits": 6,
+        "receive_bits": 11,
+        "counter_bits": 5,
+        "flipflops": 33,
+        "clocks_per_operation": 19
+      },
+      "global_logic_rows": 14,
+      "global_logic_height_um": 777.6,
+      "global_actual_occupancy": 0.7823275862068966,
+      "local_row_region_um": 137.6,
+      "common_analog_region_um": [
+        120,
+        60
+      ],
+      "floorplan": {
+        "rotation_deg": 90,
+        "width_um": 593.6,
+        "height_um": 2606.6,
+        "upper_width_um": 593.6,
+        "upper_height_um": 1729.0,
+        "fits": false
+      }
+    }
+  ],
+  "strap_tradeoff": [
+    {
+      "rows": 16,
+      "columns": 16,
+      "bits": 256,
+      "rb": 4,
+      "cb": 4,
+      "strap_interval": 4,
+      "array_width_um": 477.8,
+      "array_height_um": 473.6,
+      "array_area_um2": 226286.08,
+      "digital_abut_area_um2": 343035.0,
+      "per_column_mos": 4,
+      "common_analog_mos": 11,
+      "target_utilization": 0.65,
+      "column_strip_um": 150,
+      "global_stdcell_bom": {
+        "AND2_X1": 36,
+        "DFFR": 29,
+        "XOR2": 4,
+        "AND3_X1": 1,
+        "AND4_X1": 10,
+        "OR2": 3,
+        "OR4": 1,
+        "INV_X1": 4,
+        "OR3": 1,
+        "MUX2": 20,
+        "NAND2": 2,
+        "BUF_X4": 12
+      },
+      "row_decoder_bom": {
+        "AND2_X1": 8,
+        "AND3_X1": 16
+      },
+      "column_decoder_bom": {
+        "AND2_X1": 24
+      },
+      "controller": {
+        "row_bits": 4,
+        "col_bits": 4,
+        "receive_bits": 9,
+        "counter_bits": 5,
+        "flipflops": 29,
+        "clocks_per_operation": 17
+      },
+      "global_logic_rows": 15,
+      "global_logic_height_um": 837.6,
+      "global_actual_occupancy": 0.6258620689655172,
+      "local_row_region_um": 137.6,
+      "common_analog_region_um": [
+        120,
+        60
+      ],
+      "floorplan": {
+        "rotation_deg": 0,
+        "width_um": 615.4,
+        "height_um": 1561.2,
+        "upper_width_um": 615.4,
+        "upper_height_um": 623.6,
+        "fits": false
+      }
+    },
+    {
+      "rows": 16,
+      "columns": 32,
+      "bits": 512,
+      "rb": 4,
+      "cb": 5,
+      "strap_interval": 4,
+      "array_width_um": 933.8,
+      "array_height_um": 473.6,
+      "array_area_um2": 442247.68,
+      "digital_abut_area_um2": 387805.0,
+      "per_column_mos": 4,
+      "common_analog_mos": 11,
+      "target_utilization": 0.85,
+      "column_strip_um": 120,
+      "global_stdcell_bom": {
+        "AND4_X1": 11,
+        "AND2_X1": 32,
+        "OR2": 4,
+        "DFFR": 31,
+        "XOR2": 4,
+        "AND3_X1": 9,
+        "OR4": 1,
+        "INV_X1": 4,
+        "OR3": 1,
+        "MUX2": 22,
+        "NAND2": 2,
+        "BUF_X4": 12
+      },
+      "row_decoder_bom": {
+        "AND2_X1": 8,
+        "AND3_X1": 16
+      },
+      "column_decoder_bom": {
+        "AND2_X1": 36,
+        "AND3_X1": 8
+      },
+      "controller": {
+        "row_bits": 4,
+        "col_bits": 5,
+        "receive_bits": 10,
+        "counter_bits": 5,
+        "flipflops": 31,
+        "clocks_per_operation": 18
+      },
+      "global_logic_rows": 13,
+      "global_logic_height_um": 727.6,
+      "global_actual_occupancy": 0.78342175066313,
+      "local_row_region_um": 137.6,
+      "common_analog_region_um": [
+        120,
+        60
+      ],
+      "floorplan": {
+        "rotation_deg": 90,
+        "width_um": 593.6,
+        "height_um": 1899.0,
+        "upper_width_um": 593.6,
+        "upper_height_um": 1071.4,
+        "fits": false
+      }
+    },
+    {
+      "rows": 16,
+      "columns": 16,
+      "bits": 256,
+      "rb": 4,
+      "cb": 4,
+      "strap_interval": 8,
+      "array_width_um": 435.4,
+      "array_height_um": 473.6,
+      "array_area_um2": 206205.44,
+      "digital_abut_area_um2": 343035.0,
+      "per_column_mos": 4,
+      "common_analog_mos": 11,
+      "target_utilization": 0.65,
+      "column_strip_um": 150,
+      "global_stdcell_bom": {
+        "AND2_X1": 36,
+        "DFFR": 29,
+        "XOR2": 4,
+        "AND3_X1": 1,
+        "AND4_X1": 10,
+        "OR2": 3,
+        "OR4": 1,
+        "INV_X1": 4,
+        "OR3": 1,
+        "MUX2": 20,
+        "NAND2": 2,
+        "BUF_X4": 12
+      },
+      "row_decoder_bom": {
+        "AND2_X1": 8,
+        "AND3_X1": 16
+      },
+      "column_decoder_bom": {
+        "AND2_X1": 24
+      },
+      "controller": {
+        "row_bits": 4,
+        "col_bits": 4,
+        "receive_bits": 9,
+        "counter_bits": 5,
+        "flipflops": 29,
+        "clocks_per_operation": 17
+      },
+      "global_logic_rows": 15,
+      "global_logic_height_um": 837.6,
+      "global_actual_occupancy": 0.6258620689655172,
+      "local_row_region_um": 137.6,
+      "common_analog_region_um": [
+        120,
+        60
+      ],
+      "floorplan": {
+        "rotation_deg": 0,
+        "width_um": 592.6,
+        "height_um": 1561.2,
+        "upper_width_um": 573.0,
+        "upper_height_um": 623.6,
+        "fits": true
+      }
+    },
+    {
+      "rows": 16,
+      "columns": 32,
+      "bits": 512,
+      "rb": 4,
+      "cb": 5,
+      "strap_interval": 8,
+      "array_width_um": 849.0,
+      "array_height_um": 473.6,
+      "array_area_um2": 402086.4,
+      "digital_abut_area_um2": 387805.0,
+      "per_column_mos": 4,
+      "common_analog_mos": 11,
+      "target_utilization": 0.85,
+      "column_strip_um": 120,
+      "global_stdcell_bom": {
+        "AND4_X1": 11,
+        "AND2_X1": 32,
+        "OR2": 4,
+        "DFFR": 31,
+        "XOR2": 4,
+        "AND3_X1": 9,
+        "OR4": 1,
+        "INV_X1": 4,
+        "OR3": 1,
+        "MUX2": 22,
+        "NAND2": 2,
+        "BUF_X4": 12
+      },
+      "row_decoder_bom": {
+        "AND2_X1": 8,
+        "AND3_X1": 16
+      },
+      "column_decoder_bom": {
+        "AND2_X1": 36,
+        "AND3_X1": 8
+      },
+      "controller": {
+        "row_bits": 4,
+        "col_bits": 5,
+        "receive_bits": 10,
+        "counter_bits": 5,
+        "flipflops": 31,
+        "clocks_per_operation": 18
+      },
+      "global_logic_rows": 13,
+      "global_logic_height_um": 727.6,
+      "global_actual_occupancy": 0.78342175066313,
+      "local_row_region_um": 137.6,
+      "common_analog_region_um": [
+        120,
+        60
+      ],
+      "floorplan": {
+        "rotation_deg": 90,
+        "width_um": 593.6,
+        "height_um": 1814.2,
+        "upper_width_um": 593.6,
+        "upper_height_um": 986.6,
+        "fits": false
+      }
+    },
+    {
+      "rows": 16,
+      "columns": 16,
+      "bits": 256,
+      "rb": 4,
+      "cb": 4,
+      "strap_interval": 16,
+      "array_width_um": 414.2,
+      "array_height_um": 473.6,
+      "array_area_um2": 196165.12,
+      "digital_abut_area_um2": 343035.0,
+      "per_column_mos": 4,
+      "common_analog_mos": 11,
+      "target_utilization": 0.65,
+      "column_strip_um": 150,
+      "global_stdcell_bom": {
+        "AND2_X1": 36,
+        "DFFR": 29,
+        "XOR2": 4,
+        "AND3_X1": 1,
+        "AND4_X1": 10,
+        "OR2": 3,
+        "OR4": 1,
+        "INV_X1": 4,
+        "OR3": 1,
+        "MUX2": 20,
+        "NAND2": 2,
+        "BUF_X4": 12
+      },
+      "row_decoder_bom": {
+        "AND2_X1": 8,
+        "AND3_X1": 16
+      },
+      "column_decoder_bom": {
+        "AND2_X1": 24
+      },
+      "controller": {
+        "row_bits": 4,
+        "col_bits": 4,
+        "receive_bits": 9,
+        "counter_bits": 5,
+        "flipflops": 29,
+        "clocks_per_operation": 17
+      },
+      "global_logic_rows": 15,
+      "global_logic_height_um": 837.6,
+      "global_actual_occupancy": 0.6258620689655172,
+      "local_row_region_um": 137.6,
+      "common_analog_region_um": [
+        120,
+        60
+      ],
+      "floorplan": {
+        "rotation_deg": 0,
+        "width_um": 592.6,
+        "height_um": 1561.2,
+        "upper_width_um": 551.8,
+        "upper_height_um": 623.6,
+        "fits": true
+      }
+    },
+    {
+      "rows": 16,
+      "columns": 32,
+      "bits": 512,
+      "rb": 4,
+      "cb": 5,
+      "strap_interval": 16,
+      "array_width_um": 806.6,
+      "array_height_um": 473.6,
+      "array_area_um2": 382005.76,
+      "digital_abut_area_um2": 387805.0,
+      "per_column_mos": 4,
+      "common_analog_mos": 11,
+      "target_utilization": 0.85,
+      "column_strip_um": 120,
+      "global_stdcell_bom": {
+        "AND4_X1": 11,
+        "AND2_X1": 32,
+        "OR2": 4,
+        "DFFR": 31,
+        "XOR2": 4,
+        "AND3_X1": 9,
+        "OR4": 1,
+        "INV_X1": 4,
+        "OR3": 1,
+        "MUX2": 22,
+        "NAND2": 2,
+        "BUF_X4": 12
+      },
+      "row_decoder_bom": {
+        "AND2_X1": 8,
+        "AND3_X1": 16
+      },
+      "column_decoder_bom": {
+        "AND2_X1": 36,
+        "AND3_X1": 8
+      },
+      "controller": {
+        "row_bits": 4,
+        "col_bits": 5,
+        "receive_bits": 10,
+        "counter_bits": 5,
+        "flipflops": 31,
+        "clocks_per_operation": 18
+      },
+      "global_logic_rows": 13,
+      "global_logic_height_um": 727.6,
+      "global_actual_occupancy": 0.78342175066313,
+      "local_row_region_um": 137.6,
+      "common_analog_region_um": [
+        120,
+        60
+      ],
+      "floorplan": {
+        "rotation_deg": 90,
+        "width_um": 593.6,
+        "height_um": 1771.8,
+        "upper_width_um": 593.6,
+        "upper_height_um": 944.2,
+        "fits": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,542 @@
+{
+  "passed": true,
+  "checks": 38901,
+  "failure_count": 0,
+  "failures": [],
+  "read_observations": [
+    {
+      "operation": 34,
+      "row": 0,
+      "col": 0,
+      "sae_half_ns": 628016.0511408552,
+      "y_difference_v": -5.022821262458339
+    },
+    {
+      "operation": 35,
+      "row": 0,
+      "col": 16,
+      "sae_half_ns": 646015.9085017452,
+      "y_difference_v": -5.021265481950383
+    },
+    {
+      "operation": 36,
+      "row": 0,
+      "col": 31,
+      "sae_half_ns": 664015.9901035092,
+      "y_difference_v": 5.022104307906635
+    },
+    {
+      "operation": 37,
+      "row": 1,
+      "col": 1,
+      "sae_half_ns": 682016.051414173,
+      "y_difference_v": -5.022816072789057
+    },
+    {
+      "operation": 38,
+      "row": 1,
+      "col": 17,
+      "sae_half_ns": 700016.0505506366,
+      "y_difference_v": -5.022785953151637
+    },
+    {
+      "operation": 39,
+      "row": 2,
+      "col": 2,
+      "sae_half_ns": 718016.0511173862,
+      "y_difference_v": -5.022819511845274
+    },
+    {
+      "operation": 40,
+      "row": 2,
+      "col": 18,
+      "sae_half_ns": 736016.0503879408,
+      "y_difference_v": -5.022776008265086
+    },
+    {
+      "operation": 41,
+      "row": 3,
+      "col": 3,
+      "sae_half_ns": 754016.0513350407,
+      "y_difference_v": -5.022838733209174
+    },
+    {
+      "operation": 42,
+      "row": 3,
+      "col": 19,
+      "sae_half_ns": 772016.0510878484,
+      "y_difference_v": -5.022823045748651
+    },
+    {
+      "operation": 43,
+      "row": 4,
+      "col": 4,
+      "sae_half_ns": 790016.1114893436,
+      "y_difference_v": -5.0262012854279225
+    },
+    {
+      "operation": 44,
+      "row": 4,
+      "col": 20,
+      "sae_half_ns": 808016.0573765141,
+      "y_difference_v": -5.022927141629403
+    },
+    {
+      "operation": 45,
+      "row": 5,
+      "col": 5,
+      "sae_half_ns": 826016.0510979668,
+      "y_difference_v": -5.022823218443591
+    },
+    {
+      "operation": 46,
+      "row": 5,
+      "col": 21,
+      "sae_half_ns": 844016.0573789099,
+      "y_difference_v": -5.022921471538671
+    },
+    {
+      "operation": 47,
+      "row": 6,
+      "col": 6,
+      "sae_half_ns": 862016.051305124,
+      "y_difference_v": -5.022834454338542
+    },
+    {
+      "operation": 48,
+      "row": 6,
+      "col": 22,
+      "sae_half_ns": 880016.050932912,
+      "y_difference_v": -5.022810759487086
+    },
+    {
+      "operation": 49,
+      "row": 7,
+      "col": 7,
+      "sae_half_ns": 898016.1117124521,
+      "y_difference_v": -5.0262088664674485
+    },
+    {
+      "operation": 50,
+      "row": 7,
+      "col": 23,
+      "sae_half_ns": 916016.219624076,
+      "y_difference_v": -5.035113857529845
+    },
+    {
+      "operation": 51,
+      "row": 8,
+      "col": 8,
+      "sae_half_ns": 934016.0511891184,
+      "y_difference_v": -5.022824985223124
+    },
+    {
+      "operation": 52,
+      "row": 8,
+      "col": 24,
+      "sae_half_ns": 952016.0568460326,
+      "y_difference_v": -5.022929537597621
+    },
+    {
+      "operation": 53,
+      "row": 9,
+      "col": 9,
+      "sae_half_ns": 970016.0724431966,
+      "y_difference_v": -5.023306203574339
+    },
+    {
+      "operation": 54,
+      "row": 9,
+      "col": 25,
+      "sae_half_ns": 988016.0508113356,
+      "y_difference_v": -5.0228050122733485
+    },
+    {
+      "operation": 55,
+      "row": 10,
+      "col": 10,
+      "sae_half_ns": 1006016.051128672,
+      "y_difference_v": -5.022824626986719
+    },
+    {
+      "operation": 56,
+      "row": 10,
+      "col": 26,
+      "sae_half_ns": 1024016.0504216354,
+      "y_difference_v": -5.022781196514911
+    },
+    {
+      "operation": 57,
+      "row": 11,
+      "col": 11,
+      "sae_half_ns": 1042016.0505783146,
+      "y_difference_v": -5.022787999869097
+    },
+    {
+      "operation": 58,
+      "row": 11,
+      "col": 27,
+      "sae_half_ns": 1060016.112227172,
+      "y_difference_v": -5.026223596545694
+    },
+    {
+      "operation": 59,
+      "row": 12,
+      "col": 12,
+      "sae_half_ns": 1078016.0502976878,
+      "y_difference_v": -5.022774922119902
+    },
+    {
+      "operation": 60,
+      "row": 12,
+      "col": 28,
+      "sae_half_ns": 1096016.2194832205,
+      "y_difference_v": -5.035112027418068
+    },
+    {
+      "operation": 61,
+      "row": 13,
+      "col": 13,
+      "sae_half_ns": 1114016.1109706154,
+      "y_difference_v": -5.026203042345911
+    },
+    {
+      "operation": 62,
+      "row": 13,
+      "col": 29,
+      "sae_half_ns": 1132016.111893976,
+      "y_difference_v": -5.026211756670743
+    },
+    {
+      "operation": 63,
+      "row": 14,
+      "col": 14,
+      "sae_half_ns": 1150016.0587337352,
+      "y_difference_v": -5.022944912676515
+    },
+    {
+      "operation": 64,
+      "row": 14,
+      "col": 30,
+      "sae_half_ns": 1168016.0510631253,
+      "y_difference_v": -5.022822135832526
+    },
+    {
+      "operation": 65,
+      "row": 15,
+      "col": 0,
+      "sae_half_ns": 1186016.1118856673,
+      "y_difference_v": 5.025199026337182
+    },
+    {
+      "operation": 66,
+      "row": 15,
+      "col": 15,
+      "sae_half_ns": 1204016.0513096896,
+      "y_difference_v": -5.022812560294361
+    },
+    {
+      "operation": 67,
+      "row": 15,
+      "col": 31,
+      "sae_half_ns": 1222016.0565234956,
+      "y_difference_v": -5.022874134880575
+    },
+    {
+      "operation": 102,
+      "row": 0,
+      "col": 0,
+      "sae_half_ns": 1852015.9910844273,
+      "y_difference_v": 5.022168365186265
+    },
+    {
+      "operation": 103,
+      "row": 0,
+      "col": 16,
+      "sae_half_ns": 1870015.9666770913,
+      "y_difference_v": 5.020885431476828
+    },
+    {
+      "operation": 104,
+      "row": 0,
+      "col": 31,
+      "sae_half_ns": 1888016.1924772195,
+      "y_difference_v": -5.0342971311309155
+    },
+    {
+      "operation": 105,
+      "row": 1,
+      "col": 1,
+      "sae_half_ns": 1906015.9819083745,
+      "y_difference_v": 5.02172867280279
+    },
+    {
+      "operation": 106,
+      "row": 1,
+      "col": 17,
+      "sae_half_ns": 1924015.9739211954,
+      "y_difference_v": 5.021214388109124
+    },
+    {
+      "operation": 107,
+      "row": 2,
+      "col": 2,
+      "sae_half_ns": 1942016.109756238,
+      "y_difference_v": 5.0252021325555845
+    },
+    {
+      "operation": 108,
+      "row": 2,
+      "col": 18,
+      "sae_half_ns": 1960015.9660013511,
+      "y_difference_v": 5.020692398468746
+    },
+    {
+      "operation": 109,
+      "row": 3,
+      "col": 3,
+      "sae_half_ns": 1978015.964128059,
+      "y_difference_v": 5.020567840609811
+    },
+    {
+      "operation": 110,
+      "row": 3,
+      "col": 19,
+      "sae_half_ns": 1996016.1118663272,
+      "y_difference_v": 5.025203520555074
+    },
+    {
+      "operation": 111,
+      "row": 4,
+      "col": 4,
+      "sae_half_ns": 2014015.9617226212,
+      "y_difference_v": 5.020403415238311
+    },
+    {
+      "operation": 112,
+      "row": 4,
+      "col": 20,
+      "sae_half_ns": 2032016.2729075428,
+      "y_difference_v": 5.03390797420748
+    },
+    {
+      "operation": 113,
+      "row": 5,
+      "col": 5,
+      "sae_half_ns": 2050016.1112363543,
+      "y_difference_v": 5.025205184180244
+    },
+    {
+      "operation": 114,
+      "row": 5,
+      "col": 21,
+      "sae_half_ns": 2068016.0774252708,
+      "y_difference_v": 5.022410730721188
+    },
+    {
+      "operation": 115,
+      "row": 6,
+      "col": 6,
+      "sae_half_ns": 2086016.1118218717,
+      "y_difference_v": 5.025206258535508
+    },
+    {
+      "operation": 116,
+      "row": 6,
+      "col": 22,
+      "sae_half_ns": 2104016.2732448718,
+      "y_difference_v": 5.033909788436227
+    },
+    {
+      "operation": 117,
+      "row": 7,
+      "col": 7,
+      "sae_half_ns": 2122016.0770837883,
+      "y_difference_v": 5.022387722752086
+    },
+    {
+      "operation": 118,
+      "row": 7,
+      "col": 23,
+      "sae_half_ns": 2140015.961620141,
+      "y_difference_v": 5.020369648581738
+    },
+    {
+      "operation": 119,
+      "row": 8,
+      "col": 8,
+      "sae_half_ns": 2158016.109926537,
+      "y_difference_v": 5.02522100057803
+    },
+    {
+      "operation": 120,
+      "row": 8,
+      "col": 24,
+      "sae_half_ns": 2176015.964139985,
+      "y_difference_v": 5.020495483380482
+    },
+    {
+      "operation": 121,
+      "row": 9,
+      "col": 9,
+      "sae_half_ns": 2194016.0769715453,
+      "y_difference_v": 5.022378804532922
+    },
+    {
+      "operation": 122,
+      "row": 9,
+      "col": 25,
+      "sae_half_ns": 2212016.0769005315,
+      "y_difference_v": 5.022374584246875
+    },
+    {
+      "operation": 123,
+      "row": 10,
+      "col": 10,
+      "sae_half_ns": 2230016.1118712304,
+      "y_difference_v": 5.025205574240275
+    },
+    {
+      "operation": 124,
+      "row": 10,
+      "col": 26,
+      "sae_half_ns": 2248015.964943163,
+      "y_difference_v": 5.020536856262444
+    },
+    {
+      "operation": 125,
+      "row": 11,
+      "col": 11,
+      "sae_half_ns": 2266015.964834953,
+      "y_difference_v": 5.020533219040338
+    },
+    {
+      "operation": 126,
+      "row": 11,
+      "col": 27,
+      "sae_half_ns": 2284015.964736164,
+      "y_difference_v": 5.020528968007985
+    },
+    {
+      "operation": 127,
+      "row": 12,
+      "col": 12,
+      "sae_half_ns": 2302015.966073753,
+      "y_difference_v": 5.020594164686067
+    },
+    {
+      "operation": 128,
+      "row": 12,
+      "col": 28,
+      "sae_half_ns": 2320015.965930862,
+      "y_difference_v": 5.020587616942366
+    },
+    {
+      "operation": 129,
+      "row": 13,
+      "col": 13,
+      "sae_half_ns": 2338016.076785317,
+      "y_difference_v": 5.022366612408748
+    },
+    {
+      "operation": 130,
+      "row": 13,
+      "col": 29,
+      "sae_half_ns": 2356016.1115566306,
+      "y_difference_v": 5.025213125370551
+    },
+    {
+      "operation": 131,
+      "row": 14,
+      "col": 14,
+      "sae_half_ns": 2374016.076768081,
+      "y_difference_v": 5.0223667685263615
+    },
+    {
+      "operation": 132,
+      "row": 14,
+      "col": 30,
+      "sae_half_ns": 2392015.965884122,
+      "y_difference_v": 5.020588157697823
+    },
+    {
+      "operation": 133,
+      "row": 15,
+      "col": 0,
+      "sae_half_ns": 2410016.109755423,
+      "y_difference_v": -5.026229316069792
+    },
+    {
+      "operation": 134,
+      "row": 15,
+      "col": 15,
+      "sae_half_ns": 2428016.109645761,
+      "y_difference_v": 5.0251964681234655
+    },
+    {
+      "operation": 135,
+      "row": 15,
+      "col": 31,
+      "sae_half_ns": 2446016.0697783255,
+      "y_difference_v": 5.0222111237075975
+    }
+  ],
+  "points": 471459,
+  "operations": 136,
+  "name": "pd102_decode_coverage",
+  "physical_extraction": {
+    "gds_sha256": "dee111388a5c4d3131b68772507706706d894248988ab761bf9c4070e9194e61",
+    "lvsdb_sha256": "f1beaee7f6835a3f44d2289d6006250e44fb7001ab74c59a3823f90f1be168b5",
+    "mos_groups": 4877,
+    "physical_fingers": 4953,
+    "model_counts": {
+      "PMOS": 1927,
+      "NMOS": 2950,
+      "DP": 4,
+      "DN": 4
+    },
+    "source": "/home/ishi-kai/sram/build/sram512/layout/final16x32_pd10p2"
+  },
+  "period_ns": 1000,
+  "voltage_v": 5,
+  "temperature_c": 27,
+  "elapsed_seconds": 3518.65,
+  "deck_sha256": "af20a30fe6448b4864662c0c32574f5cee4decaa1494584d3b5347ae9ab55452",
+  "reused_waveform": false,
+  "model_notices": [
+    {
+      "model": "DN",
+      "unsupported_parameters": [
+        "imax",
+        "imelt"
+      ],
+      "consequence": "Diode current/melting limit flags are not implemented by ngspice."
+    },
+    {
+      "model": "DP",
+      "unsupported_parameters": [
+        "imax",
+        "imelt"
+      ],
+      "consequence": "Diode current/melting limit flags are not implemented by ngspice."
+    }
+  ],
+  "solver": "klu",
+  "simulator_threads": 1,
+  "waveform_storage": "streamed binary file",
+  "local_init_sha256": "2ef8c1ce0b4d65b62053c99e75b2bad1d1158582c6ca6cfc19b1e255c84ecfbc",
+  "numerical_reltol": null,
+  "numerical_pivrel": null,
+  "integration_method": null,
+  "maximum_timestep_ns": 20,
+  "physical_gate_paths": false,
+  "startup_ramp_ns": 0,
+  "initial_reset_high": false,
+  "startup_scope": "DC supply; RESET rises after the initial operating point.",
+  "interconnect": "Extra lumped C only; wire resistance and distributed RC not yet included",
+  "supply_current_a": {
+    "max": 0.014455784846087241,
+    "time_mean": 0.00013315059871686044,
+    "rms": 0.0009132323358213358
+  }
+}

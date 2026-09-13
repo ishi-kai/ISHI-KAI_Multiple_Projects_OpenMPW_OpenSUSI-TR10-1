@@ -1,0 +1,10 @@
+* LVS reference netlist for the 6T SRAM bitcell.
+* Keep this file in sync with sram.sch transistor W/L values.
+.subckt sram WL Vdd BLB BL Q QB Vss
+XXM1 Q QB Vss Vss NMOS w=3.4u l=1u m=1
+XXM2 Q QB Vdd Vdd PMOS w=3.4u l=1u m=1
+XXM3 QB Q Vss Vss NMOS w=3.4u l=1u m=1
+XXM4 QB Q Vdd Vdd PMOS w=3.4u l=1u m=1
+XXM7 Q WL BL Vss NMOS w=3.4u l=1u m=1
+XXM6 QB WL BLB Vss NMOS w=3.4u l=1u m=1
+.ends sram

@@ -1,0 +1,70 @@
+{
+  "source_gds_sha256": "dee111388a5c4d3131b68772507706706d894248988ab761bf9c4070e9194e61",
+  "reports": [
+    {
+      "name": "pd102_signal_mesh4_prefix",
+      "sha256": "df6d1e0df9429cfa2cd406dd99a8ff591e4ccf6fdf8211faf038f461228f56d1"
+    },
+    {
+      "name": "pd102_signal_mesh8_prefix",
+      "sha256": "28a407461a39ea444adfe0d812b7977527289158cdbd24fec32ffe1d29318e5b"
+    }
+  ],
+  "sections": [
+    4,
+    8
+  ],
+  "circuit_passed": [
+    false,
+    false
+  ],
+  "failure_counts": [
+    587,
+    587
+  ],
+  "maximum_mos_voltage_comparison": {
+    "DS": {
+      "peaks_v": [
+        5.524611745731446,
+        5.524610469086053
+      ],
+      "difference_v": 1.2766453929557997e-06
+    },
+    "GS": {
+      "peaks_v": [
+        5.630494534077877,
+        5.6304945347764335
+      ],
+      "difference_v": 6.98556767986247e-10
+    },
+    "SB": {
+      "peaks_v": [
+        5.310721518454992,
+        5.310721520389531
+      ],
+      "difference_v": 1.9345387514135837e-09
+    },
+    "DB": {
+      "peaks_v": [
+        5.30992734966374,
+        5.309927351698394
+      ],
+      "difference_v": 2.0346542228821818e-09
+    },
+    "GD": {
+      "peaks_v": [
+        5.6320288645578,
+        5.632028864582987
+      ],
+      "difference_v": 2.518696362585615e-11
+    },
+    "GB": {
+      "peaks_v": [
+        6.1043125855802325,
+        6.104636389488828
+      ],
+      "difference_v": 0.00032380390859554353
+    }
+  },
+  "scope": "RC spatial-resolution comparison of two complete first-access diagnostics. Numerical agreement does not imply circuit correctness, and cannot replace the full access sequence."
+}

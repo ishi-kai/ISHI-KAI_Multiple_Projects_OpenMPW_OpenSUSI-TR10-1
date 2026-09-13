@@ -1,0 +1,86 @@
+* Historical 16-FF double-bank controller for read-margin regression only.
+* Extracted from the saved 2026-09-11 review netlist; never a production source.
+* Other subcircuits and top-level devices match the 2026-09-12 current netlist.
+.subckt sram_serial_controller CLK RESET SDI WE SOUT RA CA DIN PREB WRITE_EN WL_EN SAE SDO VDD VSS
+*.ipin CLK
+*.ipin RESET
+*.opin PREB
+*.opin WL_EN
+*.opin WRITE_EN
+*.opin SAE
+*.ipin SDI
+*.opin DIN
+*.opin CA
+*.opin RA
+*.ipin WE
+*.ipin SOUT
+*.opin SDO
+*.iopin VDD
+*.iopin VSS
+xnext0 VDD NEXT0 C0B COUNT_RUN VSS AND2_X1
+xcnt0 VDD C0B NEXT0 C0 RESET VSS CLK DFFR
+xtoggle1 VDD net1 C1 C0 VSS XOR2
+xnext1 VDD NEXT1 net1 COUNT_RUN VSS AND2_X1
+xcnt1 VDD C1B NEXT1 C1 RESET VSS CLK DFFR
+xtoggle2 VDD net2 C2 CARRY2 VSS XOR2
+xnext2 VDD NEXT2 net2 COUNT_RUN VSS AND2_X1
+xcnt2 VDD C2B NEXT2 C2 RESET VSS CLK DFFR
+xtoggle3 VDD net3 C3 CARRY3 VSS XOR2
+xnext3 VDD NEXT3 net3 COUNT_RUN VSS AND2_X1
+xcnt3 VDD C3B NEXT3 C3 RESET VSS CLK DFFR
+xcarry2 VDD CARRY2 C0 C1 VSS AND2_X1
+xcarry3 C2 VDD CARRY3 C0 C1 VSS AND3_X1
+xupper VDD net4 C1 C2 VSS OR2
+xrun VDD COUNT_RUN C3 net4 VSS NAND2
+xdecode0 C0 C1 VDD E0 C3B C2B VSS AND4_X1
+xdecode1 C0B C1B VDD E1 C3B C2 VSS AND4_X1
+xdecode2 C0 C1B VDD E2 C3B C2 VSS AND4_X1
+xdecode3 C0B C1 VDD E3 C3B C2 VSS AND4_X1
+xdecode4 C0 C1 VDD E4 C3B C2 VSS AND4_X1
+xdecode5 C0B C1B VDD E5 C3 C2B VSS AND4_X1
+xdecode6 C0 C1B VDD E6 C3 C2B VSS AND4_X1
+xdecode7 C0B C1 VDD E7 C3 C2B VSS AND4_X1
+* noconn E7
+xrx_low VDD net5 C0 C1 VSS NAND2
+xrx net5 VDD RX C3B C2B VSS AND3_X1
+xpc VDD PREB E0 PC_ON RESET VSS CLK DFFR
+* noconn PC_ON
+xwl_d VDD WL_D E3 E4 VSS OR2
+xwl VDD net10 WL_D WL_EN RESET VSS CLK DFFR
+xwrite_window E2 E3 E4 E5 VDD WRITE_WINDOW VSS OR4
+xwrite_d VDD WRITE_D WRITE_WINDOW W VSS AND2_X1
+xwrite VDD net11 WRITE_D WRITE_EN RESET VSS CLK DFFR
+xwe_b VDD WE net6 VSS INV_X1
+xtrack_e0 VDD net8 net6 E0 VSS AND2_X1
+xtrack_window E3 VDD net7 E1 E2 VSS OR3
+xtrack_later VDD net9 net7 W_B VSS AND2_X1
+xtrack_d VDD TRACK_D net8 net9 VSS OR2
+xtrack VDD SAE TRACK_D TRACK RESET VSS CLK DFFR
+* noconn TRACK
+xshift0_mux SR0 SDI RX VDD xshift0_D VSS MUX2
+xshift0_ff VDD net12 xshift0_D SR0 RESET VSS CLK DFFR
+xshift1_mux SR1 SR0 RX VDD xshift1_D VSS MUX2
+xshift1_ff VDD net13 xshift1_D SR1 RESET VSS CLK DFFR
+xshift2_mux SR2 SR1 RX VDD xshift2_D VSS MUX2
+xshift2_ff VDD net14 xshift2_D SR2 RESET VSS CLK DFFR
+xcmd0_mux DIN SR0 E0 VDD xcmd0_D VSS MUX2
+xcmd0_ff VDD net15 xcmd0_D DIN RESET VSS CLK DFFR
+xcmd1_mux CA SR1 E0 VDD xcmd1_D VSS MUX2
+xcmd1_ff VDD net16 xcmd1_D CA RESET VSS CLK DFFR
+xcmd2_mux RA SR2 E0 VDD xcmd2_D VSS MUX2
+xcmd2_ff VDD net17 xcmd2_D RA RESET VSS CLK DFFR
+xcmd3_mux W WE E0 VDD xcmd3_D VSS MUX2
+xcmd3_ff VDD W_B xcmd3_D W RESET VSS CLK DFFR
+xread_capture VDD READ_CAPTURE E6 W_B VSS AND2_X1
+xread_mux SDO SOUT READ_CAPTURE VDD xread_D VSS MUX2
+xread_ff VDD net18 xread_D SDO RESET VSS CLK DFFR
+* noconn #net10
+* noconn #net11
+* noconn #net12
+* noconn #net13
+* noconn #net14
+* noconn #net15
+* noconn #net16
+* noconn #net17
+* noconn #net18
+.ends

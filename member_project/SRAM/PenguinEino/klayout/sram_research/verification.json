@@ -1,0 +1,503 @@
+{
+  "verified_at_utc": "2026-09-11T11:34:43.917743+00:00",
+  "gds_sha256": {
+    "baseline_fit": "c393fa3331c79027d3e93ef536e7a9e11cbb908718a22e21f0693cb7c8b5b7be",
+    "baseline_shared": "0fde4db23ba2e6f0e2efcc81db5b2f6fa3efcd3c45946882d0803d2c2b7b80a1",
+    "euler": "172cd931fb7d4196cb269a018d2e0c7fdeb630cf145402a89e010ad44bb47ec0",
+    "euler_shared": "0f9fed41787658153d00adf16b5718c0b74442280056f85a00ae889b692efa16",
+    "offset_via": "0547a073cc9b17f6e4f05698ee30d66fa75d46230e348b5b3f6e8d6fabd3499d"
+  },
+  "pdk": "/home/ishi-kai/pdk/TR-1um",
+  "deck_sha256": {
+    "drc": "2ff7e04d424aaa796f53270723c6a1c87525a6e8805f950f85432b9312b59c20",
+    "lvs": "b9c776230ab5afe9ddd2dccee5996c49acae5db0fc6ba5cd375dd6be1d36a6f0"
+  },
+  "checks": [
+    {
+      "variant": "baseline_fit",
+      "top": "baseline_probe_2x2",
+      "expected_valid": true,
+      "drc": {
+        "pass": true,
+        "items": 0,
+        "categories": {},
+        "reused_existing_report": true
+      },
+      "lvs": {
+        "pass": true,
+        "circuit_pairs": [
+          "Match"
+        ],
+        "errors": [],
+        "reused_existing_report": true
+      }
+    },
+    {
+      "variant": "euler_shared",
+      "top": "euler_shared_probe_2x2",
+      "expected_valid": true,
+      "drc": {
+        "pass": true,
+        "items": 0,
+        "categories": {},
+        "reused_existing_report": true
+      },
+      "lvs": {
+        "pass": true,
+        "circuit_pairs": [
+          "Match"
+        ],
+        "errors": [],
+        "reused_existing_report": true
+      }
+    },
+    {
+      "variant": "euler",
+      "top": "euler_1x1",
+      "expected_valid": true,
+      "drc": {
+        "pass": true,
+        "items": 0,
+        "categories": {},
+        "reused_existing_report": true
+      },
+      "lvs": {
+        "pass": true,
+        "circuit_pairs": [
+          "Match"
+        ],
+        "errors": [],
+        "reused_existing_report": true
+      }
+    },
+    {
+      "variant": "euler",
+      "top": "euler_2x2",
+      "expected_valid": true,
+      "drc": {
+        "pass": true,
+        "items": 0,
+        "categories": {},
+        "reused_existing_report": true
+      },
+      "lvs": {
+        "pass": true,
+        "circuit_pairs": [
+          "Match"
+        ],
+        "errors": [],
+        "reused_existing_report": true
+      }
+    },
+    {
+      "variant": "euler",
+      "top": "euler_4x4",
+      "expected_valid": true,
+      "drc": {
+        "pass": true,
+        "items": 0,
+        "categories": {},
+        "reused_existing_report": true
+      },
+      "lvs": {
+        "pass": true,
+        "circuit_pairs": [
+          "Match"
+        ],
+        "errors": [],
+        "reused_existing_report": true
+      }
+    },
+    {
+      "variant": "euler",
+      "top": "euler_4x17",
+      "expected_valid": true,
+      "drc": {
+        "pass": true,
+        "items": 0,
+        "categories": {},
+        "reused_existing_report": true
+      },
+      "lvs": {
+        "pass": true,
+        "circuit_pairs": [
+          "Match"
+        ],
+        "errors": [],
+        "reused_existing_report": true
+      }
+    },
+    {
+      "variant": "euler",
+      "top": "euler_8x8",
+      "expected_valid": true,
+      "drc": {
+        "pass": true,
+        "items": 0,
+        "categories": {},
+        "reused_existing_report": true
+      },
+      "lvs": {
+        "pass": true,
+        "circuit_pairs": [
+          "Match"
+        ],
+        "errors": [],
+        "reused_existing_report": true
+      }
+    },
+    {
+      "variant": "euler",
+      "top": "euler_16x64",
+      "expected_valid": true,
+      "drc": {
+        "pass": true,
+        "items": 0,
+        "categories": {},
+        "reused_existing_report": true
+      },
+      "lvs": {
+        "pass": true,
+        "circuit_pairs": [
+          "Match"
+        ],
+        "errors": [],
+        "reused_existing_report": true
+      }
+    },
+    {
+      "variant": "euler",
+      "top": "euler_20x68",
+      "expected_valid": true,
+      "drc": {
+        "pass": true,
+        "items": 0,
+        "categories": {},
+        "reused_existing_report": true
+      },
+      "lvs": {
+        "pass": true,
+        "circuit_pairs": [
+          "Match"
+        ],
+        "errors": [],
+        "reused_existing_report": true
+      }
+    },
+    {
+      "variant": "euler_shared",
+      "top": "euler_shared_1x1",
+      "expected_valid": true,
+      "drc": {
+        "pass": true,
+        "items": 0,
+        "categories": {},
+        "reused_existing_report": true
+      },
+      "lvs": {
+        "pass": true,
+        "circuit_pairs": [
+          "Match"
+        ],
+        "errors": [],
+        "reused_existing_report": true
+      }
+    },
+    {
+      "variant": "euler_shared",
+      "top": "euler_shared_2x2",
+      "expected_valid": true,
+      "drc": {
+        "pass": true,
+        "items": 0,
+        "categories": {},
+        "reused_existing_report": true
+      },
+      "lvs": {
+        "pass": true,
+        "circuit_pairs": [
+          "Match"
+        ],
+        "errors": [],
+        "reused_existing_report": true
+      }
+    },
+    {
+      "variant": "euler_shared",
+      "top": "euler_shared_4x4",
+      "expected_valid": true,
+      "drc": {
+        "pass": true,
+        "items": 0,
+        "categories": {},
+        "reused_existing_report": true
+      },
+      "lvs": {
+        "pass": true,
+        "circuit_pairs": [
+          "Match"
+        ],
+        "errors": [],
+        "reused_existing_report": true
+      }
+    },
+    {
+      "variant": "euler_shared",
+      "top": "euler_shared_4x17",
+      "expected_valid": true,
+      "drc": {
+        "pass": true,
+        "items": 0,
+        "categories": {},
+        "reused_existing_report": true
+      },
+      "lvs": {
+        "pass": true,
+        "circuit_pairs": [
+          "Match"
+        ],
+        "errors": [],
+        "reused_existing_report": true
+      }
+    },
+    {
+      "variant": "euler_shared",
+      "top": "euler_shared_8x8",
+      "expected_valid": true,
+      "drc": {
+        "pass": true,
+        "items": 0,
+        "categories": {},
+        "reused_existing_report": true
+      },
+      "lvs": {
+        "pass": true,
+        "circuit_pairs": [
+          "Match"
+        ],
+        "errors": [],
+        "reused_existing_report": true
+      }
+    },
+    {
+      "variant": "euler_shared",
+      "top": "euler_shared_16x64",
+      "expected_valid": true,
+      "drc": {
+        "pass": true,
+        "items": 0,
+        "categories": {},
+        "reused_existing_report": true
+      },
+      "lvs": {
+        "pass": true,
+        "circuit_pairs": [
+          "Match"
+        ],
+        "errors": [],
+        "reused_existing_report": true
+      }
+    },
+    {
+      "variant": "euler_shared",
+      "top": "euler_shared_20x72",
+      "expected_valid": true,
+      "drc": {
+        "pass": true,
+        "items": 0,
+        "categories": {},
+        "reused_existing_report": true
+      },
+      "lvs": {
+        "pass": true,
+        "circuit_pairs": [
+          "Match"
+        ],
+        "errors": [],
+        "reused_existing_report": true
+      }
+    },
+    {
+      "variant": "baseline_fit",
+      "top": "sram_dense_1x1",
+      "expected_valid": true,
+      "drc": {
+        "pass": true,
+        "items": 0,
+        "categories": {},
+        "reused_existing_report": true
+      },
+      "lvs": {
+        "pass": true,
+        "circuit_pairs": [
+          "Match"
+        ],
+        "errors": [],
+        "reused_existing_report": true
+      }
+    },
+    {
+      "variant": "baseline_fit",
+      "top": "sram_dense_16x64",
+      "expected_valid": true,
+      "drc": {
+        "pass": true,
+        "items": 0,
+        "categories": {},
+        "reused_existing_report": true
+      },
+      "lvs": {
+        "pass": true,
+        "circuit_pairs": [
+          "Match"
+        ],
+        "errors": [],
+        "reused_existing_report": true
+      }
+    },
+    {
+      "variant": "baseline_fit",
+      "top": "sram_dense_17x78",
+      "expected_valid": true,
+      "drc": {
+        "pass": true,
+        "items": 0,
+        "categories": {},
+        "reused_existing_report": true
+      },
+      "lvs": {
+        "pass": true,
+        "circuit_pairs": [
+          "Match"
+        ],
+        "errors": [],
+        "reused_existing_report": true
+      }
+    },
+    {
+      "variant": "baseline_shared",
+      "top": "baseline_shared_1x1",
+      "expected_valid": true,
+      "drc": {
+        "pass": true,
+        "items": 0,
+        "categories": {},
+        "reused_existing_report": false
+      },
+      "lvs": {
+        "pass": true,
+        "circuit_pairs": [
+          "Match"
+        ],
+        "errors": [],
+        "reused_existing_report": false
+      }
+    },
+    {
+      "variant": "baseline_shared",
+      "top": "baseline_shared_4x17",
+      "expected_valid": true,
+      "drc": {
+        "pass": true,
+        "items": 0,
+        "categories": {},
+        "reused_existing_report": false
+      },
+      "lvs": {
+        "pass": true,
+        "circuit_pairs": [
+          "Match"
+        ],
+        "errors": [],
+        "reused_existing_report": false
+      }
+    },
+    {
+      "variant": "baseline_shared",
+      "top": "baseline_shared_16x64",
+      "expected_valid": true,
+      "drc": {
+        "pass": true,
+        "items": 0,
+        "categories": {},
+        "reused_existing_report": false
+      },
+      "lvs": {
+        "pass": true,
+        "circuit_pairs": [
+          "Match"
+        ],
+        "errors": [],
+        "reused_existing_report": false
+      }
+    },
+    {
+      "variant": "baseline_shared",
+      "top": "baseline_shared_17x80",
+      "expected_valid": true,
+      "drc": {
+        "pass": true,
+        "items": 0,
+        "categories": {},
+        "reused_existing_report": false
+      },
+      "lvs": {
+        "pass": true,
+        "circuit_pairs": [
+          "Match"
+        ],
+        "errors": [],
+        "reused_existing_report": false
+      }
+    },
+    {
+      "variant": "offset_via",
+      "top": "sram_dense_2x2",
+      "expected_valid": false,
+      "drc": {
+        "pass": false,
+        "items": 44,
+        "categories": {
+          "AP.AN:AP-AN Smin <  2.8": 4,
+          "AN.AP:AN-AP Smin <  2.8": 4,
+          "GC.S1:GC Smin <  1.2": 4,
+          "M1.S1:M1 Smin <  1.4": 16,
+          "V1.GC:V1-GC Smin <  1.2": 8,
+          "M2.S1:M2 Smin <  2.0": 8
+        },
+        "reused_existing_report": true
+      },
+      "lvs": {
+        "pass": true,
+        "circuit_pairs": [
+          "Match"
+        ],
+        "errors": [],
+        "reused_existing_report": true
+      }
+    }
+  ],
+  "negative_controls": {
+    "cut_feedback": {
+      "rejected": true,
+      "circuit_pairs": [
+        "NoMatch"
+      ],
+      "errors": []
+    },
+    "short_bitlines": {
+      "rejected": true,
+      "circuit_pairs": [
+        "NoMatch"
+      ],
+      "errors": []
+    },
+    "short_wordlines": {
+      "rejected": true,
+      "circuit_pairs": [
+        "NoMatch"
+      ],
+      "errors": []
+    }
+  }
+}

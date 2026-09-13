@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<klayout-macro>
+ <description>SRAM / array LVS (Vss must-connect)</description>
+ <version>1.0</version>
+ <category>lvs</category>
+ <prolog/>
+ <epilog/>
+ <doc>Unmodified TR-1um rules with a cell-scoped VSS/Vss must-connect. WL and Vdd use physical connectivity.</doc>
+ <autorun>false</autorun>
+ <autorun-early>false</autorun-early>
+ <priority>0</priority>
+ <shortcut/>
+ <show-in-menu>true</show-in-menu>
+ <group-name>lvs_scripts</group-name>
+ <menu-path>tools_menu.lvs.end</menu-path>
+ <interpreter>dsl</interpreter>
+ <dsl-interpreter-name>lvs-dsl-xml</dsl-interpreter-name>
+ <text>
+# %include ./sram.lvs
+ </text>
+</klayout-macro>

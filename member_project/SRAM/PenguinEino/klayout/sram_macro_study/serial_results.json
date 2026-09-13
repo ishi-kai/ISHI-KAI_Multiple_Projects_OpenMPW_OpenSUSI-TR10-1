@@ -1,0 +1,78 @@
+[
+  {
+    "variant": "baseline",
+    "temperature_c": 27,
+    "vdd_v": 5,
+    "clock_ns": 100,
+    "cbl": "10f",
+    "cy": "100f",
+    "passed": true,
+    "checks": {
+      "operations": 19,
+      "rtl_checks": 3408,
+      "analog_checks": 745,
+      "total_checks": 4153,
+      "stop_ns": 21680
+    },
+    "failure": null,
+    "input_sha256": "0e8777bf2fa65f521716a25cdd5cb0e49dc02b11faf0e8d1891c8819b4b7a1df",
+    "log": "build/sram_macro_study/serial/baseline_27_10f_100f/simulation.log"
+  },
+  {
+    "variant": "euler_shared",
+    "temperature_c": 27,
+    "vdd_v": 5,
+    "clock_ns": 100,
+    "cbl": "10f",
+    "cy": "100f",
+    "passed": true,
+    "checks": {
+      "operations": 19,
+      "rtl_checks": 3408,
+      "analog_checks": 745,
+      "total_checks": 4153,
+      "stop_ns": 21680
+    },
+    "failure": null,
+    "input_sha256": "8b30882088b586e6f9124df6814f6e0093c0e5a1ce9763e90cd21bf90da27434",
+    "log": "build/sram_macro_study/serial/euler_shared_27_10f_100f/simulation.log"
+  },
+  {
+    "variant": "euler_shared",
+    "temperature_c": 85,
+    "vdd_v": 5,
+    "clock_ns": 100,
+    "cbl": "10f",
+    "cy": "100f",
+    "passed": true,
+    "checks": {
+      "operations": 19,
+      "rtl_checks": 3408,
+      "analog_checks": 745,
+      "total_checks": 4153,
+      "stop_ns": 21680
+    },
+    "failure": null,
+    "input_sha256": "c7c856bdaae6ed3bb5feab742e58ed473ea0bd6c9dcb7edf617ed3a4e27d412b",
+    "log": "build/sram_macro_study/serial/euler_shared_85_10f_100f/simulation.log"
+  },
+  {
+    "variant": "euler_shared",
+    "temperature_c": 27,
+    "vdd_v": 5,
+    "clock_ns": 100,
+    "cbl": "1p",
+    "cy": "1p",
+    "passed": true,
+    "checks": {
+      "operations": 19,
+      "rtl_checks": 3408,
+      "analog_checks": 745,
+      "total_checks": 4153,
+      "stop_ns": 21680
+    },
+    "failure": null,
+    "input_sha256": "e706f6c4d8fc91146ecf28868c3c77840dfcd43bc1c5f0185b89daf9f2d08cc3",
+    "log": "build/sram_macro_study/serial/euler_shared_27_1p_1p/simulation.log"
+  }
+]

@@ -1,0 +1,109 @@
+{
+  "passed": true,
+  "checks": 3669,
+  "failure_count": 0,
+  "failures": [],
+  "read_observations": [
+    {
+      "operation": 4,
+      "row": 0,
+      "col": 0,
+      "sae_half_ns": 88016.07294180505,
+      "y_difference_v": -5.029219154836138
+    },
+    {
+      "operation": 5,
+      "row": 0,
+      "col": 31,
+      "sae_half_ns": 106015.98748955202,
+      "y_difference_v": 5.027578849056542
+    },
+    {
+      "operation": 6,
+      "row": 15,
+      "col": 0,
+      "sae_half_ns": 124015.96806956851,
+      "y_difference_v": 5.026287382790319
+    },
+    {
+      "operation": 7,
+      "row": 15,
+      "col": 31,
+      "sae_half_ns": 142016.06973766262,
+      "y_difference_v": -5.028872092044389
+    },
+    {
+      "operation": 12,
+      "row": 0,
+      "col": 0,
+      "sae_half_ns": 232015.98173707072,
+      "y_difference_v": 5.027261704223503
+    },
+    {
+      "operation": 13,
+      "row": 0,
+      "col": 31,
+      "sae_half_ns": 250015.96719134966,
+      "y_difference_v": -5.027388396702435
+    },
+    {
+      "operation": 14,
+      "row": 15,
+      "col": 0,
+      "sae_half_ns": 268016.0743411221,
+      "y_difference_v": -5.029297464014575
+    },
+    {
+      "operation": 15,
+      "row": 15,
+      "col": 31,
+      "sae_half_ns": 286015.9726731461,
+      "y_difference_v": 5.026617770880076
+    }
+  ],
+  "points": 53444,
+  "operations": 16,
+  "source_deck_sha256": "7408c56a4632171762eedd84da45fabe928b0b30d158bf8178780d5bcaa0207c",
+  "deck_sha256": "fdd26ffd8bc9dd2031c9d35cbafd7904c1c01f906f70d248eeadb6fae38617d8",
+  "model_notices": [
+    {
+      "model": "DN",
+      "unsupported_parameters": [
+        "imax",
+        "imelt"
+      ],
+      "consequence": "Diode current/melting limit flags are not implemented by ngspice."
+    },
+    {
+      "model": "DP",
+      "unsupported_parameters": [
+        "imax",
+        "imelt"
+      ],
+      "consequence": "Diode current/melting limit flags are not implemented by ngspice."
+    }
+  ],
+  "currents": {
+    "vvdd": {
+      "peak_abs_a": 0.012573155289294065,
+      "peak_ns": 90508.60034209579,
+      "time_mean_a": 0.00011891072932903729,
+      "rms_a": 0.0008564119454674357
+    },
+    "vvss": {
+      "peak_abs_a": 0.012575544946156078,
+      "peak_ns": 90508.60034209579,
+      "time_mean_a": 0.0001187387800417367,
+      "rms_a": 0.0008554791791773489
+    },
+    "vpc": {
+      "peak_abs_a": 0.006737952740721261,
+      "peak_ns": 174018.6289021009,
+      "time_mean_a": 2.537504366427657e-06,
+      "rms_a": 0.00010921257183748148
+    }
+  },
+  "elapsed_seconds": 424.34,
+  "hypothetical_precharge_width_um": 3.4,
+  "scope": "Supply-current measurements; proposed widths require new physical implementation and extraction."
+}

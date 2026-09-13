@@ -1,0 +1,585 @@
+{
+  "all_required_reports_pass": true,
+  "created_utc": "2026-09-13T05:40:24.907227+00:00",
+  "source_gds_sha256": "56810ad742a73036fb9db5207c75a2fcd63d344833c17da5f6270f1dc128bca1",
+  "source_mask_sha256": "cbd3e51a3f9ff9c6f90b93c4c3ca134acf3cb28adb3b495ca357f47e6b280ba4",
+  "source_snapshot": {
+    "klayout/sram_pcell/build.py": "5394337bde7072d74d5755d992398bb07208dea54dd81fd7080be0e8411e868a",
+    "pdk/profiles.lock.json": "17c5680342878e312528302a5a8050fb7c05ab175e29d304618ba1eed5317811",
+    "sram512/rtl/sram512_digital_gates.v": "80c1c69bc64193eebd374682e08ccede4d2a0e9f2c1d9c2ba6adcd294322c63d",
+    "sram512/rtl/sram_serial_controller.v": "0ffcbe75ee14add1c278654d6f8e401861fbcb094339d0dc53fe086b914b1e1f",
+    "sram512/schematics/sense_amp_7t.sch": "fd8c65d937b248ae6d1eceec6d3c078b719e57398c8ab1ee282b200bbc7293b1",
+    "sram512/schematics/sense_amp_7t.sym": "2baf283213c54b648d6eedbcbdce39248d61013e2fdc348ccb6be615ddbf8555",
+    "sram512/schematics/sram512.sch": "20ea4a2e70a68adcb3452832df4d674e672619c591ad045b8adb5881612f73da",
+    "sram512/schematics/sram512.sym": "ce6c8b742ddf175fd55302b563c4f370f5c5cf3eddaab4c87becb7b834bfe734",
+    "sram512/schematics/sram512_array.sch": "bf8e760f7cc182bc5947a1f7836e53fb1dcb559442df729c5e1c532c6f268369",
+    "sram512/schematics/sram512_array.sym": "25c7a84249adeeccf2161aa407590aa5aba4212bbe767c8e32d3c31d841942a5",
+    "sram512/schematics/sram512_bitcell.sch": "bc92f49c3383fbe5681e3fc3c38c69b0e8b17f1002c7a914364dca1efb2d01ec",
+    "sram512/schematics/sram512_bitcell.sym": "f3c31ae7fda8dbc656038a160aed9e8f4e1d3fec2837a8e0fc639875ceffe020",
+    "sram512/schematics/sram512_col_decoder.sch": "4e58f38e1d06f9a99233a855deb81e5c6fa226ddb4a07b4691ce7176300cb0a9",
+    "sram512/schematics/sram512_col_decoder.sym": "d1ebd371fbaacc4f83e9389648703c22ff217e64f0f7fafab1a8c27108fcd4d9",
+    "sram512/schematics/sram512_column.sch": "26c65390e5593030fdf734ef21fdda2a38f2d37731eff4305a224e9f39e56098",
+    "sram512/schematics/sram512_column.sym": "8cf87634b28ca56331d689387ad9af676b999e29fa870d8c9cb6cf604a4f62b1",
+    "sram512/schematics/sram512_control.sch": "182dde6ef69ba9112690bbfe4c518d21b38e47fb38b84cbecd5bb5af1c45ab3c",
+    "sram512/schematics/sram512_control.sym": "c69644f8b87a3608c025bf3c8bf287d403daa58abf9050e462a0c9190480e084",
+    "sram512/schematics/sram512_controller.sch": "8a24a5aa7b67bd46e283be1656e206e76031999b10b551cacca5125407911276",
+    "sram512/schematics/sram512_controller.sym": "36675ada4ee265f0fd26871d3826da3fc9ce66e9b0d7a1cf2f94aa9bc455f1cd",
+    "sram512/schematics/sram512_frame.sch": "a138f41d92de490331abb2e94a6d7c3813055b54dcd1927c35ca2c89e918a1a7",
+    "sram512/schematics/sram512_frame.sym": "f969c503cd1c66ad399e6a078ae740ed709c932c8d403e882df01a680a153416",
+    "sram512/schematics/sram512_input_clamp.sch": "95d73e7e74f8e2230df0fe1ea03f19b193627461e28e3fb99b6cbd30229d6047",
+    "sram512/schematics/sram512_input_clamp.sym": "3560f412aa459da561265ef1dfe68854af4b811512c0a7f70d25e6b8af523455",
+    "sram512/schematics/sram512_macro.sch": "34041691e47cfe0587573552a97e687c3ae9369a1de322cf3d8c3c14846b60dc",
+    "sram512/schematics/sram512_macro.sym": "7be35ec3192048210ac23fdf2696b726f044d02445630939abcc5990106bf7a6",
+    "sram512/schematics/sram512_phase.sch": "a5d1a5e52f55bbe1583bbdc2b5d6ad288c2b399ef51bdaf4553fd0addcf29fc9",
+    "sram512/schematics/sram512_phase.sym": "68b64dddf81fa75cb6b1ba7fea015b55a66b13e0b55b87aaf7bf9827ba835f5c",
+    "sram512/schematics/sram512_row_decoder.sch": "ea9ab1ddf99f08eb9454d90628adc218983b00d116ace67aca0e90de8b3f7b45",
+    "sram512/schematics/sram512_row_decoder.sym": "e2dd661c41fb5c3cc6ce47a3fd9bdc5fc33dc67c217421d63d8d4caa5e83fba7",
+    "sram512/schematics/sram512_tb.sch": "a7b6e3467ba2c0187673e5aef49a2d81454c5a53f0881df3601d510b4cef9b88",
+    "sram512/tb/tb_sram512.sv": "ddd9d0c4c344f3b5999fb37a097218333e697d20f2afe6b3a8e09d7b353d11eb"
+  },
+  "current_source_snapshot": {
+    "klayout/sram_pcell/build.py": "5394337bde7072d74d5755d992398bb07208dea54dd81fd7080be0e8411e868a",
+    "pdk/profiles.lock.json": "17c5680342878e312528302a5a8050fb7c05ab175e29d304618ba1eed5317811",
+    "sram512/rtl/sram512_digital_gates.v": "80c1c69bc64193eebd374682e08ccede4d2a0e9f2c1d9c2ba6adcd294322c63d",
+    "sram512/rtl/sram_serial_controller.v": "0ffcbe75ee14add1c278654d6f8e401861fbcb094339d0dc53fe086b914b1e1f",
+    "sram512/schematics/sense_amp_7t.sch": "fd8c65d937b248ae6d1eceec6d3c078b719e57398c8ab1ee282b200bbc7293b1",
+    "sram512/schematics/sense_amp_7t.sym": "2baf283213c54b648d6eedbcbdce39248d61013e2fdc348ccb6be615ddbf8555",
+    "sram512/schematics/sram512.sch": "20ea4a2e70a68adcb3452832df4d674e672619c591ad045b8adb5881612f73da",
+    "sram512/schematics/sram512.sym": "ce6c8b742ddf175fd55302b563c4f370f5c5cf3eddaab4c87becb7b834bfe734",
+    "sram512/schematics/sram512_array.sch": "bf8e760f7cc182bc5947a1f7836e53fb1dcb559442df729c5e1c532c6f268369",
+    "sram512/schematics/sram512_array.sym": "25c7a84249adeeccf2161aa407590aa5aba4212bbe767c8e32d3c31d841942a5",
+    "sram512/schematics/sram512_bitcell.sch": "bc92f49c3383fbe5681e3fc3c38c69b0e8b17f1002c7a914364dca1efb2d01ec",
+    "sram512/schematics/sram512_bitcell.sym": "f3c31ae7fda8dbc656038a160aed9e8f4e1d3fec2837a8e0fc639875ceffe020",
+    "sram512/schematics/sram512_col_decoder.sch": "4e58f38e1d06f9a99233a855deb81e5c6fa226ddb4a07b4691ce7176300cb0a9",
+    "sram512/schematics/sram512_col_decoder.sym": "d1ebd371fbaacc4f83e9389648703c22ff217e64f0f7fafab1a8c27108fcd4d9",
+    "sram512/schematics/sram512_column.sch": "26c65390e5593030fdf734ef21fdda2a38f2d37731eff4305a224e9f39e56098",
+    "sram512/schematics/sram512_column.sym": "8cf87634b28ca56331d689387ad9af676b999e29fa870d8c9cb6cf604a4f62b1",
+    "sram512/schematics/sram512_control.sch": "182dde6ef69ba9112690bbfe4c518d21b38e47fb38b84cbecd5bb5af1c45ab3c",
+    "sram512/schematics/sram512_control.sym": "c69644f8b87a3608c025bf3c8bf287d403daa58abf9050e462a0c9190480e084",
+    "sram512/schematics/sram512_controller.sch": "8a24a5aa7b67bd46e283be1656e206e76031999b10b551cacca5125407911276",
+    "sram512/schematics/sram512_controller.sym": "36675ada4ee265f0fd26871d3826da3fc9ce66e9b0d7a1cf2f94aa9bc455f1cd",
+    "sram512/schematics/sram512_frame.sch": "a138f41d92de490331abb2e94a6d7c3813055b54dcd1927c35ca2c89e918a1a7",
+    "sram512/schematics/sram512_frame.sym": "f969c503cd1c66ad399e6a078ae740ed709c932c8d403e882df01a680a153416",
+    "sram512/schematics/sram512_input_clamp.sch": "95d73e7e74f8e2230df0fe1ea03f19b193627461e28e3fb99b6cbd30229d6047",
+    "sram512/schematics/sram512_input_clamp.sym": "3560f412aa459da561265ef1dfe68854af4b811512c0a7f70d25e6b8af523455",
+    "sram512/schematics/sram512_macro.sch": "34041691e47cfe0587573552a97e687c3ae9369a1de322cf3d8c3c14846b60dc",
+    "sram512/schematics/sram512_macro.sym": "7be35ec3192048210ac23fdf2696b726f044d02445630939abcc5990106bf7a6",
+    "sram512/schematics/sram512_phase.sch": "a5d1a5e52f55bbe1583bbdc2b5d6ad288c2b399ef51bdaf4553fd0addcf29fc9",
+    "sram512/schematics/sram512_phase.sym": "68b64dddf81fa75cb6b1ba7fea015b55a66b13e0b55b87aaf7bf9827ba835f5c",
+    "sram512/schematics/sram512_row_decoder.sch": "ea9ab1ddf99f08eb9454d90628adc218983b00d116ace67aca0e90de8b3f7b45",
+    "sram512/schematics/sram512_row_decoder.sym": "e2dd661c41fb5c3cc6ce47a3fd9bdc5fc33dc67c217421d63d8d4caa5e83fba7",
+    "sram512/schematics/sram512_tb.sch": "a7b6e3467ba2c0187673e5aef49a2d81454c5a53f0881df3601d510b4cef9b88",
+    "sram512/tb/tb_sram512.sv": "ddd9d0c4c344f3b5999fb37a097218333e697d20f2afe6b3a8e09d7b353d11eb"
+  },
+  "pdk": {
+    "profile": "dev",
+    "pdk_directory": "/home/ishi-kai/sram/.pdk/dev/TR-1um",
+    "locked_revision": "6afbd918951f2ea0dcd11c5a46986b4c20f9e6f9",
+    "rule_sha256": {
+      "libs.tech/klayout/tech/drc/00_Layers.drc": "6e029f7adeb58062bd8f5a1983d8c71188d23b5d5c5a2c404501026df8174e86",
+      "libs.tech/klayout/tech/drc/01_Basics.drc": "13eaf0551f4f692fd528605876c340b092e42e0077c54bc6b4958cfa2a389741",
+      "libs.tech/klayout/tech/drc/02_Device.drc": "8fd18abf946c594dddde7c05d44c1321056ff04bde46f6bd727600b1e42fa009",
+      "libs.tech/klayout/tech/drc/03_Electrical.drc": "497d9cd3ddbccbba68f73553618b455fecffe849b4be37f10d750030b7bde085",
+      "libs.tech/klayout/tech/drc/IP62/00_Layers.drc": "32f0957029368e89a032626b3a2fb8b09930c36cc9581b62c0ad132c9d393b07",
+      "libs.tech/klayout/tech/drc/IP62/01_Basics.drc": "eac124d2e77929ca2b675cd6c8b6e36065a5cecf699f2ca59a532647fdea7314",
+      "libs.tech/klayout/tech/drc/IP62/02_Device.drc": "df84a871f7b9c6f1c9809deae2d8d716377596c8a400d1690949a731eeb82010",
+      "libs.tech/klayout/tech/drc/IP62/03_Check.drc": "6487168daa36b1d9765b42e461fd4d271495aeef919a41b2c937745071af7b46",
+      "libs.tech/klayout/tech/drc/IP62/04_Check.drc": "5a2107118f3a92377b57a220c865f75e59e589675956c70e7b35ec890e8c9d2a",
+      "libs.tech/klayout/tech/drc/IP62/05_Check.drc": "1a81ef8b0ce88d435963a2f05cc253dfa786df3841de4e505a7867517aeb3911",
+      "libs.tech/klayout/tech/drc/IP62/06_Check.drc": "ede6baa828403ff2b6bae03953f4d833af22819488fc13f451ad24d179083a88",
+      "libs.tech/klayout/tech/drc/IP62/07_Check.drc": "4ad62763f3ae5c9233fc8a9fd55a5ec999450362070956fcf0348060ce03d758",
+      "libs.tech/klayout/tech/drc/IP62/08_Check.drc": "a4dbf53e06b7993d1e54138da767990f90197a8960fcb86c8c7b63bfa9cf602d",
+      "libs.tech/klayout/tech/drc/IP62/09_Check.drc": "e5602d8aa07ab997a023b5d4da91437ce066f56abf71a1eca4556e1a8110eb72",
+      "libs.tech/klayout/tech/drc/drc.lydrc": "1e610ee59a2022e5e3da275fdf99b6717678403035ddc14f27f7ff94d02b31b8",
+      "libs.tech/klayout/tech/drc/drc_IP62.lydrc": "e5b40a257ce8e7e88e488d8b73086af15e984dc46399ec600818788317b1c1da",
+      "libs.tech/klayout/tech/drc/run.drc": "d478b2da33df0c3f75858cbaa6c6e7ea98cac5cd4840ca1440a9f1b4edeeeb55",
+      "libs.tech/klayout/tech/drc/run_IP62.drc": "0b2de0131fc642ba54389f74d27f5d07d1b9cb5e58381044ed4ef95f16113a0b",
+      "libs.tech/klayout/tech/drc/run_mdp.drc": "ecb027e52c4e94c4ed76b2654f400801e64ab4f9c6f59ecceecad2c1e08ad41e",
+      "libs.tech/klayout/tech/drc/run_tile.drc": "5966f762d81e7408f245957ec1b0813caa346a5cb902fbd9e5fd9ba22dccd135",
+      "libs.tech/klayout/tech/lvs/01_Extract.lvs": "2206d70e86e72b0397a25811c5680715cd63d37ae42fd30e8185e7fdec0e21a6",
+      "libs.tech/klayout/tech/lvs/02_Extract.lvs": "91d26f9d2150cedea78ef2591971bf5159b8c6c7bae0f89d9117837dbb716762",
+      "libs.tech/klayout/tech/lvs/03_Combiner.lvs": "38f081645ca9396735b685ea0acbfb36796b14df252b7c292c371dd911be6388",
+      "libs.tech/klayout/tech/lvs/04_Custom.lvs": "02d483380903cadc17ef30d512a928ece94a68dc9eb221cfd738e286703490ba",
+      "libs.tech/klayout/tech/lvs/05_Compare.lvs": "ba20494aa1483f3f42f9d7668d704c1773ac0b7953482d47476875b25d40c18d",
+      "libs.tech/klayout/tech/lvs/IP62/01_Extract.lvs": "3584c4f1477f9b63b0f6b219a4e7a39db61070ef9e8614ac2a7033b38ea7a1f3",
+      "libs.tech/klayout/tech/lvs/IP62/02_Extract.lvs": "07ef72a2ee9be769a53a83bffc6a75dbf9e85b622d229c416fe12ff57bf0d8ac",
+      "libs.tech/klayout/tech/lvs/IP62/03_Extract.lvs": "05f0ef3f480f8523c2c1f8f109673ad576df5fdf2cdae207726d9182a2be937d",
+      "libs.tech/klayout/tech/lvs/IP62/04_Compare.lvs": "e95cc8df79f34e7faf2d0a0d2e943f966f72e4ccb065fff0278d25bf61893a39",
+      "libs.tech/klayout/tech/lvs/IP62/run.lvs": "df3087c9b616daad0ac0681423436d6e02df19270648220fbaee15db10a56ef0",
+      "libs.tech/klayout/tech/lvs/lvs.lylvs": "1fdbec8c7f76a2f2c93584cefb8b250535f40ab41ffe5f426d14be1248eae70a",
+      "libs.tech/klayout/tech/lvs/run.lvs": "b9c776230ab5afe9ddd2dccee5996c49acae5db0fc6ba5cd375dd6be1d36a6f0"
+    }
+  },
+  "tests": [
+    {
+      "test": "saved_layout_recheck",
+      "purpose": "Current schematic / drawing DRC / strict LVS / full mask DRC",
+      "report": "sram512/reports/saved_layout_recheck.json",
+      "state": "PASS",
+      "report_sha256": "25462db4ce62dfd2c06237280b8321d83444081a7b8cab73de4cfaedef367d12",
+      "source_matches": true,
+      "evidence_receipt": {
+        "path": "sram512/reports/evidence/saved_layout_recheck.json",
+        "sha256": "4c89c29281aeb655b674c808bc189d6de2ef2de0522c3d098e6a05c28bb5d933"
+      },
+      "evidence_errors": [],
+      "required_operations": null,
+      "scope_complete": true,
+      "required_signal_model_present": true,
+      "checks": null,
+      "failure_count": 0
+    },
+    {
+      "test": "pcell_preservation",
+      "purpose": "Original PCell geometry preservation",
+      "report": "sram512/reports/pcell_preservation.json",
+      "state": "PASS",
+      "report_sha256": "e82276f15efdfb7364b16a760c8aa05dc1961e0671398e8288e1f1eda9d29d7d",
+      "source_matches": true,
+      "evidence_receipt": {
+        "path": "sram512/reports/evidence/pcell_preservation.json",
+        "sha256": "277e561d3eb64e05333ea46e2f0eb31d62f0e33bd1aca384f3444ed0bca59dbc"
+      },
+      "evidence_errors": [],
+      "required_operations": null,
+      "scope_complete": true,
+      "required_signal_model_present": true,
+      "checks": null,
+      "failure_count": 0
+    },
+    {
+      "test": "digital",
+      "purpose": "All 512 addresses, March C-, all reset phases",
+      "report": "sram512/reports/digital.json",
+      "state": "PASS",
+      "report_sha256": "91f2d2c30ee18d2163295382b21221261200dc40736ef8471d8f4727c68673e2",
+      "source_matches": true,
+      "evidence_receipt": {
+        "path": "sram512/reports/evidence/digital.json",
+        "sha256": "b2fc7cba85f47abf0d472eead5d74e7e5f37f262c59d4598ef1dc8218162b8d4"
+      },
+      "evidence_errors": [],
+      "required_operations": null,
+      "scope_complete": true,
+      "required_signal_model_present": true,
+      "checks": null,
+      "failure_count": 0
+    },
+    {
+      "test": "decoderfix_decode_coverage",
+      "purpose": "Extracted MOS: every row and column, both data",
+      "report": "sram512/reports/decoderfix_decode_coverage.json",
+      "state": "PASS",
+      "report_sha256": "0c6fe1ae9509de9acda479186ca72bc1eb9df8f9327b749c0eced97fc9b1464f",
+      "source_matches": true,
+      "evidence_receipt": {
+        "path": "sram512/reports/evidence/decoderfix_decode_coverage.json",
+        "sha256": "91b27a6f15c1d7357df19ce9af6a7f3d0005a6aad347325521f7fc332f7e9f14"
+      },
+      "evidence_errors": [],
+      "required_operations": 136,
+      "scope_complete": true,
+      "required_signal_model_present": true,
+      "checks": 38901,
+      "failure_count": 0
+    },
+    {
+      "test": "decoderfix_startup_5n",
+      "purpose": "Supply ramp with physical signal and power networks",
+      "report": "sram512/reports/decoderfix_startup_5n.json",
+      "state": "PASS",
+      "report_sha256": "89cf6feaa228bc4a6c0d0ac2d797b0a7c449be7db346099a379e90ac5ed3f5fb",
+      "source_matches": true,
+      "evidence_receipt": {
+        "path": "sram512/reports/evidence/decoderfix_startup_5n.json",
+        "sha256": "8c37abe5287e233d9040393d0b222d0f66c5010c949f18b9c8a02a7782b52923"
+      },
+      "evidence_errors": [],
+      "required_operations": null,
+      "scope_complete": true,
+      "required_signal_model_present": true,
+      "checks": 33753,
+      "failure_count": 0
+    },
+    {
+      "test": "decoderfix_startup_1n",
+      "purpose": "Finer-step supply ramp, all MOS voltages and vias",
+      "report": "sram512/reports/decoderfix_startup_1n.json",
+      "state": "PASS",
+      "report_sha256": "859338b85819912d8068c93d13360eca8628db6b0c6689a8f0404bd29d546c7a",
+      "source_matches": true,
+      "evidence_receipt": {
+        "path": "sram512/reports/evidence/decoderfix_startup_1n.json",
+        "sha256": "dc994a3c90b565332f0143272585b738010a7dd91ec6f753c90cb6c84d36b338"
+      },
+      "evidence_errors": [],
+      "required_operations": null,
+      "scope_complete": true,
+      "required_signal_model_present": true,
+      "checks": 33753,
+      "failure_count": 0
+    },
+    {
+      "test": "decoderfix_startup_comparison",
+      "purpose": "Startup time-step comparison on the current GDS",
+      "report": "sram512/reports/decoderfix_startup_comparison.json",
+      "state": "PASS",
+      "report_sha256": "89b8f724ed3e1b3659aabb14afb6a738fe3ce57095e25d9f57a8984dfe64b848",
+      "source_matches": true,
+      "evidence_receipt": {
+        "path": "sram512/reports/evidence/decoderfix_startup_comparison.json",
+        "sha256": "e3ba116beb3a9930aa09aa854ec9ecafd088a0e198f7fb449ff2c910f78a1084"
+      },
+      "evidence_errors": [],
+      "required_operations": null,
+      "scope_complete": true,
+      "required_signal_model_present": true,
+      "checks": null,
+      "failure_count": 0
+    },
+    {
+      "test": "decoderfix_mesh4_prefix",
+      "purpose": "All physical gate taps and voltages in first complete access",
+      "report": "sram512/reports/decoderfix_mesh4_prefix.json",
+      "state": "PASS",
+      "report_sha256": "a9561c8f447933fed62e8b36226df402276e5cf5ea333d3c4681205c23834f46",
+      "source_matches": true,
+      "evidence_receipt": {
+        "path": "sram512/reports/evidence/decoderfix_mesh4_prefix.json",
+        "sha256": "b254a29ff4ff330f8ef33af257142253b2f6517035e6d05bb8c4f1a19934cd9b"
+      },
+      "evidence_errors": [],
+      "required_operations": 1,
+      "scope_complete": true,
+      "required_signal_model_present": true,
+      "checks": 38138,
+      "failure_count": 0
+    },
+    {
+      "test": "decoderfix_mesh8_prefix",
+      "purpose": "Finer spatial RC model of first complete access",
+      "report": "sram512/reports/decoderfix_mesh8_prefix.json",
+      "state": "PASS",
+      "report_sha256": "4017c7069d7f19e5b33ed25816d87e8f6626b2be801dd53e805d149e0e106b37",
+      "source_matches": true,
+      "evidence_receipt": {
+        "path": "sram512/reports/evidence/decoderfix_mesh8_prefix.json",
+        "sha256": "1e2484b4bcf4139ba00123d8d5c9222e54f4fa5a26af610c4f2e6b63c55ed3e3"
+      },
+      "evidence_errors": [],
+      "required_operations": 1,
+      "scope_complete": true,
+      "required_signal_model_present": true,
+      "checks": 38138,
+      "failure_count": 0
+    },
+    {
+      "test": "decoderfix_signal_resolution",
+      "purpose": "Spatial RC resolution: both circuits PASS and peaks agree",
+      "report": "sram512/reports/decoderfix_signal_resolution.json",
+      "state": "PASS",
+      "report_sha256": "c4b158171b2ba03673fa7f1ed370838c32d6add26d5d48ea3ab394452d91909c",
+      "source_matches": true,
+      "evidence_receipt": {
+        "path": "sram512/reports/evidence/decoderfix_signal_resolution.json",
+        "sha256": "a7ab8af67e503c189c31f5285db97bc99fdad9f8e44f8c51da69e44fe26f5fd6"
+      },
+      "evidence_errors": [],
+      "required_operations": null,
+      "scope_complete": true,
+      "required_signal_model_present": true,
+      "checks": null,
+      "failure_count": 0
+    },
+    {
+      "test": "decoderfix_power_paths_ramp",
+      "purpose": "Power ramp followed by 16 accesses, signal and supply R/C",
+      "report": "sram512/reports/decoderfix_power_paths_ramp.json",
+      "state": "PASS",
+      "report_sha256": "cb76b765c7ee1342231e74e556111f3157c3030b84d416f9f095ad91ee590e51",
+      "source_matches": true,
+      "evidence_receipt": {
+        "path": "sram512/reports/evidence/decoderfix_power_paths_ramp.json",
+        "sha256": "cf389a3ba465db6801b961e142be1e66a0866ba74c4bba3f5bc304c31817176c"
+      },
+      "evidence_errors": [],
+      "required_operations": 16,
+      "scope_complete": true,
+      "required_signal_model_present": true,
+      "checks": 120547,
+      "failure_count": 0
+    },
+    {
+      "test": "decoderfix_pg_rc3_lowhot",
+      "purpose": "Combined supply and RC x3, 4.5 V / 85 C, all four corners, 16 accesses",
+      "report": "sram512/reports/decoderfix_pg_rc3_lowhot.json",
+      "state": "PASS",
+      "report_sha256": "531d2c34c72563ade3851b7667d3bbf87b704286093e98d5dca0875693c2c374",
+      "source_matches": true,
+      "evidence_receipt": {
+        "path": "sram512/reports/evidence/decoderfix_pg_rc3_lowhot.json",
+        "sha256": "9ddccbe5fe9ec5a3d185c276f4c6f585c1edf84ac02e8175a7763ad30edd3d25"
+      },
+      "evidence_errors": [],
+      "required_operations": 16,
+      "scope_complete": true,
+      "required_signal_model_present": true,
+      "checks": 120547,
+      "failure_count": 0
+    },
+    {
+      "test": "decoderfix_power_paths_ramp_power_wires",
+      "purpose": "Supply-metal mean/RMS current screen over the full nominal sequence",
+      "report": "sram512/reports/decoderfix_power_paths_ramp_power_wires.json",
+      "state": "PASS",
+      "report_sha256": "2be643be56e121a4da55f003ea8d483481697b59303eec1c3648a2e08920b26d",
+      "source_matches": true,
+      "evidence_receipt": {
+        "path": "sram512/reports/evidence/decoderfix_power_paths_ramp_power_wires.json",
+        "sha256": "7754537c7615211e4d0042c0566040e0477550dbb06ac9b89f4f15466fdea578"
+      },
+      "evidence_errors": [],
+      "required_operations": null,
+      "scope_complete": true,
+      "required_signal_model_present": true,
+      "checks": 13406,
+      "failure_count": 0
+    },
+    {
+      "test": "decoderfix_pg_rc3_lowhot_power_wires",
+      "purpose": "Supply-metal mean/RMS current screen over the full RC x3 low/hot sequence",
+      "report": "sram512/reports/decoderfix_pg_rc3_lowhot_power_wires.json",
+      "state": "PASS",
+      "report_sha256": "a10d1ca9a42c7536a24d33e4541aaf7e5d81ce24b711271f2b145bc5e915859c",
+      "source_matches": true,
+      "evidence_receipt": {
+        "path": "sram512/reports/evidence/decoderfix_pg_rc3_lowhot_power_wires.json",
+        "sha256": "ac524434b33ab70c86d20b532b0cf75f147dbc509668527d1e2f7bbe8bd2c131"
+      },
+      "evidence_errors": [],
+      "required_operations": null,
+      "scope_complete": true,
+      "required_signal_model_present": true,
+      "checks": 13406,
+      "failure_count": 0
+    },
+    {
+      "test": "decoderfix_operational_hot",
+      "purpose": "20 us supply ramp, 1 ms retention and asynchronous interruptions",
+      "report": "sram512/reports/decoderfix_operational_hot.json",
+      "state": "PASS",
+      "report_sha256": "85b0bfb53607b4fa5aca1a9f0ffea1c58acc7174ea8e55f3eb26a3307488c9a4",
+      "source_matches": true,
+      "evidence_receipt": {
+        "path": "sram512/reports/evidence/decoderfix_operational_hot.json",
+        "sha256": "2d81c22f78f9b859b8d3c32fd9092294c14ae16afd03125ca988f041e836da3e"
+      },
+      "evidence_errors": [],
+      "required_operations": 28,
+      "scope_complete": true,
+      "required_signal_model_present": true,
+      "checks": 5429,
+      "failure_count": 0
+    },
+    {
+      "test": "decoderfix_reset_write0",
+      "purpose": "Abort write 0 at address 511 with actual signal/power RC; retain all 511 other cells",
+      "report": "sram512/reports/decoderfix_reset_write0.json",
+      "state": "PASS",
+      "report_sha256": "25dfc17943d029b4b3db92075bb409eab005f2290c69844bf629bfc0978900f7",
+      "source_matches": true,
+      "evidence_receipt": {
+        "path": "sram512/reports/evidence/decoderfix_reset_write0.json",
+        "sha256": "fb3dd2dba3439cc6cfea4438b042458bc93b106498b2fefd662a8ef6908a3c23"
+      },
+      "evidence_errors": [],
+      "required_operations": 4,
+      "scope_complete": true,
+      "required_signal_model_present": true,
+      "checks": 56201,
+      "failure_count": 0
+    },
+    {
+      "test": "decoderfix_reset_write1",
+      "purpose": "Abort write 1 at address 511 while CLK is high; retain all 511 other cells",
+      "report": "sram512/reports/decoderfix_reset_write1.json",
+      "state": "PASS",
+      "report_sha256": "da1eee14b4d37d1a6157578d93fcc95bcd2ab81aa3d5bdd204f2358d9342b06d",
+      "source_matches": true,
+      "evidence_receipt": {
+        "path": "sram512/reports/evidence/decoderfix_reset_write1.json",
+        "sha256": "4a38e153ae3e474e3c27086d135aaf2f33a3e6f2d47a1e0c4e47f9bed12c5e0c"
+      },
+      "evidence_errors": [],
+      "required_operations": 4,
+      "scope_complete": true,
+      "required_signal_model_present": true,
+      "checks": 56201,
+      "failure_count": 0
+    },
+    {
+      "test": "analog_pd102_nominal",
+      "purpose": "Schematic MOS sensitivity: nominal",
+      "report": "sram512/reports/analog_pd102_nominal.json",
+      "state": "PASS",
+      "report_sha256": "168da6995f5409e8428b254f81cdece4032d43cf67be7ea77a797b5964cb8c5d",
+      "source_matches": true,
+      "evidence_receipt": {
+        "path": "sram512/reports/evidence/analog_pd102_nominal.json",
+        "sha256": "0b8da548730acb1f64254a3de17b9ff2eb0b13e417caf445d44e40940d69516a"
+      },
+      "evidence_errors": [],
+      "required_operations": 16,
+      "scope_complete": true,
+      "required_signal_model_present": true,
+      "checks": 2901,
+      "failure_count": 0
+    },
+    {
+      "test": "analog_pd102_low_cold",
+      "purpose": "Schematic MOS sensitivity: low_cold",
+      "report": "sram512/reports/analog_pd102_low_cold.json",
+      "state": "PASS",
+      "report_sha256": "3253f074e15e6abd24159299b2b2a608fac584c119f2613b91757ba740f5698f",
+      "source_matches": true,
+      "evidence_receipt": {
+        "path": "sram512/reports/evidence/analog_pd102_low_cold.json",
+        "sha256": "5cf557d288a3097040aa8f56978b98e8677f9eb7ab18f3f40704955c5216e7a7"
+      },
+      "evidence_errors": [],
+      "required_operations": 16,
+      "scope_complete": true,
+      "required_signal_model_present": true,
+      "checks": 2901,
+      "failure_count": 0
+    },
+    {
+      "test": "analog_pd102_low_hot",
+      "purpose": "Schematic MOS sensitivity: low_hot",
+      "report": "sram512/reports/analog_pd102_low_hot.json",
+      "state": "PASS",
+      "report_sha256": "657a93acc40517afa6526859646cc938ff772b088b282341fbe662f4272f4e56",
+      "source_matches": true,
+      "evidence_receipt": {
+        "path": "sram512/reports/evidence/analog_pd102_low_hot.json",
+        "sha256": "f470753f1fa5d3619c6e9e46394249e0f6bb10c378321f9264b456f8420eedc1"
+      },
+      "evidence_errors": [],
+      "required_operations": 16,
+      "scope_complete": true,
+      "required_signal_model_present": true,
+      "checks": 2901,
+      "failure_count": 0
+    },
+    {
+      "test": "analog_pd102_high_cold",
+      "purpose": "Schematic MOS sensitivity: high_cold",
+      "report": "sram512/reports/analog_pd102_high_cold.json",
+      "state": "PASS",
+      "report_sha256": "14791d1a35fb70bd8b14f4203fc90fc9b3778af3ea75e56e6a3a0d125b9da055",
+      "source_matches": true,
+      "evidence_receipt": {
+        "path": "sram512/reports/evidence/analog_pd102_high_cold.json",
+        "sha256": "244248a70cc896ed2f89a123aad90042871a111649562337b714f048fdcff2ad"
+      },
+      "evidence_errors": [],
+      "required_operations": 16,
+      "scope_complete": true,
+      "required_signal_model_present": true,
+      "checks": 2901,
+      "failure_count": 0
+    },
+    {
+      "test": "analog_pd102_high_hot",
+      "purpose": "Schematic MOS sensitivity: high_hot",
+      "report": "sram512/reports/analog_pd102_high_hot.json",
+      "state": "PASS",
+      "report_sha256": "67211c525020243a1894ad892bc7e81d6a42b240f87257697bad61b2ad489259",
+      "source_matches": true,
+      "evidence_receipt": {
+        "path": "sram512/reports/evidence/analog_pd102_high_hot.json",
+        "sha256": "c2a3fd1747be15c1d85a6f6bdfc393465656f1da8a9680b95062bec1228db94c"
+      },
+      "evidence_errors": [],
+      "required_operations": 16,
+      "scope_complete": true,
+      "required_signal_model_present": true,
+      "checks": 2901,
+      "failure_count": 0
+    },
+    {
+      "test": "analog_pd102_wire_3x",
+      "purpose": "Schematic MOS sensitivity: wire_3x",
+      "report": "sram512/reports/analog_pd102_wire_3x.json",
+      "state": "PASS",
+      "report_sha256": "b93bbc009f0c79120700f1005dca509dd2acea7a92b20a042cdf060717664da4",
+      "source_matches": true,
+      "evidence_receipt": {
+        "path": "sram512/reports/evidence/analog_pd102_wire_3x.json",
+        "sha256": "6675a0d72bc6920d15337210809bc5570d4b8ac3f74b85a158073acaeb0fb31d"
+      },
+      "evidence_errors": [],
+      "required_operations": 16,
+      "scope_complete": true,
+      "required_signal_model_present": true,
+      "checks": 2901,
+      "failure_count": 0
+    },
+    {
+      "test": "analog_pd102_wire_1p_hot",
+      "purpose": "Schematic MOS sensitivity: wire_1p_hot",
+      "report": "sram512/reports/analog_pd102_wire_1p_hot.json",
+      "state": "PASS",
+      "report_sha256": "8f590162918a1505a427f71698633a29bbd9a6811308d000673c4b4325c15e33",
+      "source_matches": true,
+      "evidence_receipt": {
+        "path": "sram512/reports/evidence/analog_pd102_wire_1p_hot.json",
+        "sha256": "79e066b736c06160f8a7bdcc64c2f95b49166919b44c7f1a5cad23c0649640d5"
+      },
+      "evidence_errors": [],
+      "required_operations": 16,
+      "scope_complete": true,
+      "required_signal_model_present": true,
+      "checks": 2901,
+      "failure_count": 0
+    },
+    {
+      "test": "analog_pd102_vth_slow_n_fast_p",
+      "purpose": "Schematic MOS sensitivity: vth_slow_n_fast_p",
+      "report": "sram512/reports/analog_pd102_vth_slow_n_fast_p.json",
+      "state": "PASS",
+      "report_sha256": "7b5d70821dab8425304979b6c33dcb83d4b54b37b0aa33e474d6a7c168f7c145",
+      "source_matches": true,
+      "evidence_receipt": {
+        "path": "sram512/reports/evidence/analog_pd102_vth_slow_n_fast_p.json",
+        "sha256": "5cb836756263f97906ad9818d950b8347fe58b7d380a513f576bcfc001eeb71d"
+      },
+      "evidence_errors": [],
+      "required_operations": 16,
+      "scope_complete": true,
+      "required_signal_model_present": true,
+      "checks": 2901,
+      "failure_count": 0
+    },
+    {
+      "test": "analog_pd102_vth_fast_n_slow_p",
+      "purpose": "Schematic MOS sensitivity: vth_fast_n_slow_p",
+      "report": "sram512/reports/analog_pd102_vth_fast_n_slow_p.json",
+      "state": "PASS",
+      "report_sha256": "70716a67a49b1c9c095b76314de9ff1efe7235ac152eec8c0aa8e4ad3b3e360c",
+      "source_matches": true,
+      "evidence_receipt": {
+        "path": "sram512/reports/evidence/analog_pd102_vth_fast_n_slow_p.json",
+        "sha256": "597a4f27f5467102640940834ba3686a22439f38a6a690e6bd48318efa10f34e"
+      },
+      "evidence_errors": [],
+      "required_operations": 16,
+      "scope_complete": true,
+      "required_signal_model_present": true,
+      "checks": 2901,
+      "failure_count": 0
+    }
+  ],
+  "blocking_signal_diagnostics": [],
+  "scope": "Evidence index for this source snapshot, not a replacement for fresh verification. RC coefficients and global Vth shifts are uncalibrated sensitivity tests; pad/frame integration and statistical yield qualification are outside this core verification."
+}

@@ -1,0 +1,174 @@
+<div id="cap-coupling-explainer">
+  <style>
+    #cap-coupling-explainer {
+      color: var(--foreground);
+      font: 14px/1.4 system-ui, sans-serif;
+      width: 100%;
+    }
+    #cap-coupling-explainer .title {
+      font-size: 16px;
+      font-weight: 650;
+      margin: 0 0 10px;
+    }
+    #cap-coupling-explainer .controls {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 12px;
+      margin-bottom: 10px;
+    }
+    #cap-coupling-explainer label {
+      display: grid;
+      gap: 4px;
+      min-width: 0;
+    }
+    #cap-coupling-explainer .value {
+      font-variant-numeric: tabular-nums;
+      font-weight: 650;
+    }
+    #cap-coupling-explainer input { width: 100%; }
+    #cap-coupling-explainer svg {
+      display: block;
+      width: 100%;
+      height: auto;
+      border: 1px solid var(--border);
+      background: color-mix(in srgb, var(--background) 96%, var(--foreground));
+    }
+    #cap-coupling-explainer text {
+      fill: var(--foreground);
+      font: 12px system-ui, sans-serif;
+    }
+    #cap-coupling-explainer .wire {
+      stroke: var(--foreground);
+      stroke-width: 2;
+      fill: none;
+    }
+    #cap-coupling-explainer .wl {
+      stroke: var(--viz-series-1);
+      stroke-width: 5;
+    }
+    #cap-coupling-explainer .node {
+      fill: var(--viz-series-2);
+    }
+    #cap-coupling-explainer .charge-plus { fill: var(--viz-series-3); }
+    #cap-coupling-explainer .charge-minus { fill: var(--viz-series-4); }
+    #cap-coupling-explainer .arrow {
+      stroke: var(--viz-series-2);
+      stroke-width: 3;
+      fill: none;
+    }
+    #cap-coupling-explainer .muted { opacity: 0.72; }
+    @media (max-width: 520px) {
+      #cap-coupling-explainer .controls { grid-template-columns: 1fr; }
+      #cap-coupling-explainer svg text { font-size: 24px; }
+      #cap-coupling-explainer svg .foot,
+      #cap-coupling-explainer svg .direction { display: none; }
+    }
+  </style>
+
+  <div class="title">WLからQへの容量結合</div>
+  <div class="controls">
+    <label>
+      <span>WLの変化 <span class="value" data-vwl></span></span>
+      <input data-vwl-input type="range" min="-5" max="5" step="0.1" value="5">
+    </label>
+    <label>
+      <span>結合容量 <span class="value" data-cc></span></span>
+      <input data-cc-input type="range" min="0.5" max="20" step="0.5" value="5">
+    </label>
+    <label>
+      <span>Q側の容量 <span class="value" data-cn></span></span>
+      <input data-cn-input type="range" min="1" max="100" step="1" value="20">
+    </label>
+  </div>
+
+  <svg viewBox="0 0 720 330" role="img" aria-label="WLとQの間の結合容量、およびQから接地へのノード容量を示す図">
+    <defs>
+      <marker id="cap-arrow-head" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto">
+        <path d="M0,0 L8,4 L0,8 Z" class="node"></path>
+      </marker>
+    </defs>
+
+    <text x="40" y="35" font-weight="650">WL</text>
+    <line x1="95" y1="30" x2="625" y2="30" class="wl"></line>
+    <text x="640" y="35" data-wl-label></text>
+
+    <line x1="300" y1="30" x2="300" y2="92" class="wire"></line>
+    <line x1="260" y1="92" x2="340" y2="92" class="wire"></line>
+    <line x1="260" y1="112" x2="340" y2="112" class="wire"></line>
+    <line x1="300" y1="112" x2="300" y2="175" class="wire"></line>
+    <text x="355" y="106">Ccouple</text>
+
+    <circle cx="300" cy="175" r="7" class="node"></circle>
+    <line x1="300" y1="175" x2="485" y2="175" class="wire"></line>
+    <text x="500" y="180" font-weight="650">Q</text>
+    <text x="535" y="180" data-q-label></text>
+
+    <line x1="300" y1="175" x2="300" y2="220" class="wire"></line>
+    <line x1="260" y1="220" x2="340" y2="220" class="wire"></line>
+    <line x1="260" y1="240" x2="340" y2="240" class="wire"></line>
+    <line x1="300" y1="240" x2="300" y2="278" class="wire"></line>
+    <line x1="270" y1="278" x2="330" y2="278" class="wire"></line>
+    <line x1="280" y1="288" x2="320" y2="288" class="wire"></line>
+    <line x1="290" y1="298" x2="310" y2="298" class="wire"></line>
+    <text x="355" y="235">Cnode</text>
+
+    <path data-coupling-arrow d="M410,62 C465,85 465,130 410,155" class="arrow" marker-end="url(#cap-arrow-head)"></path>
+    <text x="445" y="108" class="muted direction" data-direction-label></text>
+
+    <g data-top-charges></g>
+    <g data-bottom-charges></g>
+    <text x="40" y="315" class="muted foot">理想的な瞬時変化（抵抗・MOS導通・リークなし）</text>
+  </svg>
+
+  <script>
+    (() => {
+      const root = document.getElementById('cap-coupling-explainer');
+      const vwlInput = root.querySelector('[data-vwl-input]');
+      const ccInput = root.querySelector('[data-cc-input]');
+      const cnInput = root.querySelector('[data-cn-input]');
+      const vwlValue = root.querySelector('[data-vwl]');
+      const ccValue = root.querySelector('[data-cc]');
+      const cnValue = root.querySelector('[data-cn]');
+      const wlLabel = root.querySelector('[data-wl-label]');
+      const qLabel = root.querySelector('[data-q-label]');
+      const directionLabel = root.querySelector('[data-direction-label]');
+      const arrow = root.querySelector('[data-coupling-arrow]');
+      const topCharges = root.querySelector('[data-top-charges]');
+      const bottomCharges = root.querySelector('[data-bottom-charges]');
+
+      function chargeMarks(group, y, count, positive) {
+        group.replaceChildren();
+        for (let i = 0; i < count; i += 1) {
+          const t = document.createElementNS('http://www.w3.org/2000/svg', 'text');
+          t.setAttribute('x', String(270 + i * 15));
+          t.setAttribute('y', String(y));
+          t.setAttribute('class', positive ? 'charge-plus' : 'charge-minus');
+          t.textContent = positive ? '+' : '−';
+          group.appendChild(t);
+        }
+      }
+
+      function update() {
+        const dvwl = Number(vwlInput.value);
+        const cc = Number(ccInput.value);
+        const cn = Number(cnInput.value);
+        const dvq = (cc / (cc + cn)) * dvwl;
+        const sign = dvwl >= 0 ? '+' : '−';
+        const count = Math.max(1, Math.min(5, Math.round(Math.abs(dvwl))));
+
+        vwlValue.textContent = `${dvwl >= 0 ? '+' : ''}${dvwl.toFixed(1)} V`;
+        ccValue.textContent = `${cc.toFixed(1)} fF`;
+        cnValue.textContent = `${cn.toFixed(0)} fF`;
+        wlLabel.textContent = `ΔV = ${dvwl >= 0 ? '+' : ''}${dvwl.toFixed(1)} V`;
+        qLabel.textContent = `ΔV ≈ ${dvq >= 0 ? '+' : ''}${dvq.toFixed(2)} V`;
+        directionLabel.textContent = dvwl >= 0 ? 'Qを上へ押す' : 'Qを下へ引く';
+        arrow.setAttribute('transform', dvwl >= 0 ? '' : 'translate(820 217) rotate(180)');
+        chargeMarks(topCharges, 82, count, dvwl >= 0);
+        chargeMarks(bottomCharges, 135, count, dvwl < 0);
+      }
+
+      [vwlInput, ccInput, cnInput].forEach(input => input.addEventListener('input', update));
+      update();
+    })();
+  </script>
+</div>

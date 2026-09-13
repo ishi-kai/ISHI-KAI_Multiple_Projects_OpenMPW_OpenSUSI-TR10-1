@@ -1,0 +1,34 @@
+{
+  "pitch_x_um": 21.2,
+  "pitch_y_um": 34.0,
+  "area_per_bit_um2": 720.8,
+  "tap_interval_columns": 16,
+  "tap_gap_um": 26.2,
+  "footprints": {
+    "sram_dense_1x1": {
+      "width_um": 47.4,
+      "height_um": 44.0,
+      "bits": 1
+    },
+    "sram_dense_2x2": {
+      "width_um": 68.6,
+      "height_um": 71.4,
+      "bits": 4
+    },
+    "sram_dense_4x4": {
+      "width_um": 111.0,
+      "height_um": 139.4,
+      "bits": 16
+    },
+    "sram_dense_8x8": {
+      "width_um": 195.8,
+      "height_um": 275.4,
+      "bits": 64
+    },
+    "sram_dense_16x64": {
+      "width_um": 1461.6,
+      "height_um": 547.4,
+      "bits": 1024
+    }
+  }
+}

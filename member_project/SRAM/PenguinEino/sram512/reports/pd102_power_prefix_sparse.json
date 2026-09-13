@@ -1,0 +1,620 @@
+{
+  "name": "pd102_power_prefix_sparse",
+  "passed": false,
+  "checks": 35066,
+  "failure_count": 49,
+  "sections": {
+    "functional": {
+      "passed": true,
+      "checks": 172,
+      "failure_count": 0,
+      "failures": [],
+      "read_observations": [],
+      "points": 7705,
+      "operations": 1
+    },
+    "voltage": {
+      "passed": false,
+      "checks": 29262,
+      "failure_count": 1,
+      "failures": [
+        {
+          "device": 3475,
+          "model": "PMOS",
+          "cell": "OR2",
+          "instance": 31,
+          "pair": "GB",
+          "peak_abs_v": 6.058050469424587,
+          "time_ns": 86030.74107355844,
+          "position_um": [
+            1474.6,
+            572.8
+          ]
+        }
+      ],
+      "maximum_by_pair": {
+        "DS": {
+          "device": 3683,
+          "model": "PMOS",
+          "cell": "DFFR",
+          "instance": 58,
+          "pair": "DS",
+          "peak_abs_v": 5.523863823204888,
+          "time_ns": 71042.78757786503,
+          "position_um": [
+            1289.5,
+            273.05
+          ]
+        },
+        "GS": {
+          "device": 4164,
+          "model": "PMOS",
+          "cell": "DFFR",
+          "instance": 74,
+          "pair": "GS",
+          "peak_abs_v": 5.630502725386668,
+          "time_ns": 83516.25046254398,
+          "position_um": [
+            1074.2,
+            572.8
+          ]
+        },
+        "SB": {
+          "device": 4144,
+          "model": "NMOS",
+          "cell": "DFFR",
+          "instance": 73,
+          "pair": "SB",
+          "peak_abs_v": 5.310700302397056,
+          "time_ns": 26011.726645462237,
+          "position_um": [
+            1613.8,
+            457.8
+          ]
+        },
+        "DB": {
+          "device": 4143,
+          "model": "NMOS",
+          "cell": "DFFR",
+          "instance": 73,
+          "pair": "DB",
+          "peak_abs_v": 5.309905137798396,
+          "time_ns": 26011.726645462237,
+          "position_um": [
+            1609.8,
+            457.8
+          ]
+        },
+        "GD": {
+          "device": 3274,
+          "model": "NMOS",
+          "cell": "MUX2",
+          "instance": 12,
+          "pair": "GD",
+          "peak_abs_v": 5.632028043438995,
+          "time_ns": 99758.48206036745,
+          "position_um": [
+            1518.6,
+            86.55
+          ]
+        },
+        "GB": {
+          "device": 3475,
+          "model": "PMOS",
+          "cell": "OR2",
+          "instance": 31,
+          "pair": "GB",
+          "peak_abs_v": 6.058050469424587,
+          "time_ns": 86030.74107355844,
+          "position_um": [
+            1474.6,
+            572.8
+          ]
+        }
+      },
+      "limit_abs_v": 5.75,
+      "source": "Unmodified dev OS00 reference manual rev1.1, table I-2-3 (recommended MOS operating voltages).",
+      "scope": "Absolute terminal-pair amplitudes. This does not replace current, ESD, or statistical-corner qualification."
+    },
+    "all_cells": {
+      "passed": true,
+      "checks": 1536,
+      "failure_count": 0,
+      "failures": [],
+      "cells": 512,
+      "operations": 1,
+      "initial_sample_ns": 10000.0,
+      "initial_ones_observed": 512,
+      "scope": "Observe unspecified initial data after RESET settles, then check Q and QB of every cell after every operation. Only a written target may change. Read-disturb transients inside the WL pulse are not rail-tested by this checker."
+    },
+    "vias": {
+      "passed": true,
+      "checks": 2880,
+      "physical_vias": 1440,
+      "failure_count": 0,
+      "failures": [],
+      "maximum_peak_a": 0.004971024878718901,
+      "maximum_rms_a": 5.147880047775627e-05,
+      "worst_peak_vias": [
+        {
+          "supply": "VDD",
+          "position_um": [
+            918.5,
+            118.25
+          ],
+          "peak_a": 0.004971024878718901,
+          "mean_absolute_a": 3.12766535968575e-06,
+          "rms_a": 5.147880047775627e-05,
+          "passed": true
+        },
+        {
+          "supply": "VSS",
+          "position_um": [
+            913.0,
+            143.9
+          ],
+          "peak_a": 0.0033738045626339934,
+          "mean_absolute_a": 2.9335577188050916e-06,
+          "rms_a": 4.0521679608221086e-05,
+          "passed": true
+        },
+        {
+          "supply": "VSS",
+          "position_um": [
+            880.0,
+            140.25
+          ],
+          "peak_a": 0.003373804562624886,
+          "mean_absolute_a": 2.9335577187971735e-06,
+          "rms_a": 4.052167960811178e-05,
+          "passed": true
+        },
+        {
+          "supply": "VDD",
+          "position_um": [
+            40.6,
+            112.7
+          ],
+          "peak_a": 0.002166039371824994,
+          "mean_absolute_a": 4.2863993549727095e-07,
+          "rms_a": 1.8758374942921568e-05,
+          "passed": true
+        },
+        {
+          "supply": "VSS",
+          "position_um": [
+            962.5,
+            594.0
+          ],
+          "peak_a": 0.002025255559201845,
+          "mean_absolute_a": 2.245301829328165e-06,
+          "rms_a": 2.604062901756093e-05,
+          "passed": true
+        },
+        {
+          "supply": "VDD",
+          "position_um": [
+            861.4,
+            112.7
+          ],
+          "peak_a": 0.00147301759427579,
+          "mean_absolute_a": 1.5113268203299887e-06,
+          "rms_a": 1.9697881461659687e-05,
+          "passed": true
+        },
+        {
+          "supply": "VSS",
+          "position_um": [
+            948.75,
+            112.75
+          ],
+          "peak_a": 0.0013228399010859126,
+          "mean_absolute_a": 1.2658160331224545e-06,
+          "rms_a": 1.6254300479814845e-05,
+          "passed": true
+        },
+        {
+          "supply": "VDD",
+          "position_um": [
+            480.6,
+            112.7
+          ],
+          "peak_a": 0.0010969759379363994,
+          "mean_absolute_a": 5.429817947105414e-07,
+          "rms_a": 1.057265385394952e-05,
+          "passed": true
+        },
+        {
+          "supply": "VDD",
+          "position_um": [
+            421.4,
+            112.7
+          ],
+          "peak_a": 0.001017449574991793,
+          "mean_absolute_a": 1.983560512980993e-07,
+          "rms_a": 8.814765658043744e-06,
+          "passed": true
+        },
+        {
+          "supply": "VSS",
+          "position_um": [
+            1034.0,
+            244.75
+          ],
+          "peak_a": 0.001003766477921353,
+          "mean_absolute_a": 2.4913354111689407e-06,
+          "rms_a": 3.185333993329237e-05,
+          "passed": true
+        }
+      ],
+      "limits_a": {
+        "instantaneous": 0.0078,
+        "continuous": 0.00078,
+        "rms_screen": 0.00078
+      },
+      "reference": "OpenSUSI OS00 reference manual rev1.1, table I-3-3",
+      "scope": "Compare individual TC currents with the published current limits.\n\n    The 0.78 mA continuous and 7.8 mA instantaneous limits are from OS00\n    rev1.1, table I-3-3. RMS is also checked against the continuous limit as\n    a conservative heating screen. This is conditional on the explicit\n    uncalibrated sheet/via-R model, not an electromigration signoff deck.\n    "
+    },
+    "rc": {
+      "passed": false,
+      "checks": 1216,
+      "failure_count": 48,
+      "failures": [
+        {
+          "net": "rc_wl0_2",
+          "expected": 0,
+          "start_ns": 12500.0,
+          "end_ns": 75500.0,
+          "min_v": -0.0076487039327162555,
+          "max_v": 0.6302599418042107
+        },
+        {
+          "net": "rc_wl0_3",
+          "expected": 0,
+          "start_ns": 12500.0,
+          "end_ns": 75500.0,
+          "min_v": -0.012463786080663305,
+          "max_v": 0.7076464657783513
+        },
+        {
+          "net": "rc_wl0_4",
+          "expected": 0,
+          "start_ns": 12500.0,
+          "end_ns": 75500.0,
+          "min_v": -0.029002813843276107,
+          "max_v": 0.7367005581353113
+        },
+        {
+          "net": "rc_wl1_2",
+          "expected": 0,
+          "start_ns": 12500.0,
+          "end_ns": 75500.0,
+          "min_v": -0.007583021738130927,
+          "max_v": 0.627405943482001
+        },
+        {
+          "net": "rc_wl1_3",
+          "expected": 0,
+          "start_ns": 12500.0,
+          "end_ns": 75500.0,
+          "min_v": -0.012379620891728392,
+          "max_v": 0.7040053016552651
+        },
+        {
+          "net": "rc_wl1_4",
+          "expected": 0,
+          "start_ns": 12500.0,
+          "end_ns": 75500.0,
+          "min_v": -0.02886902068801195,
+          "max_v": 0.7327452519463058
+        },
+        {
+          "net": "rc_wl2_2",
+          "expected": 0,
+          "start_ns": 12500.0,
+          "end_ns": 75500.0,
+          "min_v": -0.007596890864648962,
+          "max_v": 0.6295042990744596
+        },
+        {
+          "net": "rc_wl2_3",
+          "expected": 0,
+          "start_ns": 12500.0,
+          "end_ns": 75500.0,
+          "min_v": -0.012406729719229712,
+          "max_v": 0.7068970796117581
+        },
+        {
+          "net": "rc_wl2_4",
+          "expected": 0,
+          "start_ns": 12500.0,
+          "end_ns": 75500.0,
+          "min_v": -0.028968994218638147,
+          "max_v": 0.7359905483949735
+        },
+        {
+          "net": "rc_wl3_2",
+          "expected": 0,
+          "start_ns": 12500.0,
+          "end_ns": 75500.0,
+          "min_v": -0.007518909027338705,
+          "max_v": 0.626174218311293
+        },
+        {
+          "net": "rc_wl3_3",
+          "expected": 0,
+          "start_ns": 12500.0,
+          "end_ns": 75500.0,
+          "min_v": -0.012304888742767025,
+          "max_v": 0.7030716253332437
+        },
+        {
+          "net": "rc_wl3_4",
+          "expected": 0,
+          "start_ns": 12500.0,
+          "end_ns": 75500.0,
+          "min_v": -0.028830299065200144,
+          "max_v": 0.7319411020047513
+        },
+        {
+          "net": "rc_wl4_2",
+          "expected": 0,
+          "start_ns": 12500.0,
+          "end_ns": 75500.0,
+          "min_v": -0.007533671198790161,
+          "max_v": 0.62818768257426
+        },
+        {
+          "net": "rc_wl4_3",
+          "expected": 0,
+          "start_ns": 12500.0,
+          "end_ns": 75500.0,
+          "min_v": -0.012334821143263603,
+          "max_v": 0.7058995504806141
+        },
+        {
+          "net": "rc_wl4_4",
+          "expected": 0,
+          "start_ns": 12500.0,
+          "end_ns": 75500.0,
+          "min_v": -0.02890679111097519,
+          "max_v": 0.7351324685739444
+        },
+        {
+          "net": "rc_wl5_2",
+          "expected": 0,
+          "start_ns": 12500.0,
+          "end_ns": 75500.0,
+          "min_v": -0.007484397563631829,
+          "max_v": 0.6265434673970169
+        },
+        {
+          "net": "rc_wl5_3",
+          "expected": 0,
+          "start_ns": 12500.0,
+          "end_ns": 75500.0,
+          "min_v": -0.012272863671973153,
+          "max_v": 0.7041807089415318
+        },
+        {
+          "net": "rc_wl5_4",
+          "expected": 0,
+          "start_ns": 12500.0,
+          "end_ns": 75500.0,
+          "min_v": -0.02884250302784409,
+          "max_v": 0.7333627672737212
+        },
+        {
+          "net": "rc_wl6_2",
+          "expected": 0,
+          "start_ns": 12500.0,
+          "end_ns": 75500.0,
+          "min_v": -0.007483373931777515,
+          "max_v": 0.6277176682710406
+        },
+        {
+          "net": "rc_wl6_3",
+          "expected": 0,
+          "start_ns": 12500.0,
+          "end_ns": 75500.0,
+          "min_v": -0.012280107066076537,
+          "max_v": 0.7059763992609286
+        },
+        {
+          "net": "rc_wl6_4",
+          "expected": 0,
+          "start_ns": 12500.0,
+          "end_ns": 75500.0,
+          "min_v": -0.02890217307374876,
+          "max_v": 0.7354238822879248
+        },
+        {
+          "net": "rc_wl7_2",
+          "expected": 0,
+          "start_ns": 12500.0,
+          "end_ns": 75500.0,
+          "min_v": -0.007434646966206074,
+          "max_v": 0.6260623248455296
+        },
+        {
+          "net": "rc_wl7_3",
+          "expected": 0,
+          "start_ns": 12500.0,
+          "end_ns": 75500.0,
+          "min_v": -0.01221986050590777,
+          "max_v": 0.704271762724799
+        },
+        {
+          "net": "rc_wl7_4",
+          "expected": 0,
+          "start_ns": 12500.0,
+          "end_ns": 75500.0,
+          "min_v": -0.0288376194135247,
+          "max_v": 0.7336764901451418
+        },
+        {
+          "net": "rc_wl8_2",
+          "expected": 0,
+          "start_ns": 12500.0,
+          "end_ns": 75500.0,
+          "min_v": -0.007434324681352185,
+          "max_v": 0.627180427894668
+        },
+        {
+          "net": "rc_wl8_3",
+          "expected": 0,
+          "start_ns": 12500.0,
+          "end_ns": 75500.0,
+          "min_v": -0.012229174965200021,
+          "max_v": 0.706024977485111
+        },
+        {
+          "net": "rc_wl8_4",
+          "expected": 0,
+          "start_ns": 12500.0,
+          "end_ns": 75500.0,
+          "min_v": -0.02888154002521269,
+          "max_v": 0.7357050186921484
+        },
+        {
+          "net": "rc_wl9_2",
+          "expected": 0,
+          "start_ns": 12500.0,
+          "end_ns": 75500.0,
+          "min_v": -0.007366820589870326,
+          "max_v": 0.6243372241765164
+        },
+        {
+          "net": "rc_wl9_3",
+          "expected": 0,
+          "start_ns": 12500.0,
+          "end_ns": 75500.0,
+          "min_v": -0.01214419062289494,
+          "max_v": 0.7028772760483692
+        },
+        {
+          "net": "rc_wl9_4",
+          "expected": 0,
+          "start_ns": 12500.0,
+          "end_ns": 75500.0,
+          "min_v": -0.028765010009372288,
+          "max_v": 0.7324029952749997
+        },
+        {
+          "net": "rc_wl10_2",
+          "expected": 0,
+          "start_ns": 12500.0,
+          "end_ns": 75500.0,
+          "min_v": -0.007380307596436651,
+          "max_v": 0.6263491833591937
+        },
+        {
+          "net": "rc_wl10_3",
+          "expected": 0,
+          "start_ns": 12500.0,
+          "end_ns": 75500.0,
+          "min_v": -0.012171118038914793,
+          "max_v": 0.7057230659877278
+        },
+        {
+          "net": "rc_wl10_4",
+          "expected": 0,
+          "start_ns": 12500.0,
+          "end_ns": 75500.0,
+          "min_v": -0.028861280719478615,
+          "max_v": 0.7356072910077953
+        },
+        {
+          "net": "rc_wl11_2",
+          "expected": 0,
+          "start_ns": 12500.0,
+          "end_ns": 75500.0,
+          "min_v": -0.007302528577296149,
+          "max_v": 0.6228639597951667
+        },
+        {
+          "net": "rc_wl11_3",
+          "expected": 0,
+          "start_ns": 12500.0,
+          "end_ns": 75500.0,
+          "min_v": -0.012073687302788764,
+          "max_v": 0.7018055549261222
+        },
+        {
+          "net": "rc_wl11_4",
+          "expected": 0,
+          "start_ns": 12500.0,
+          "end_ns": 75500.0,
+          "min_v": -0.028716727158136605,
+          "max_v": 0.7314813508930333
+        },
+        {
+          "net": "rc_wl12_2",
+          "expected": 0,
+          "start_ns": 12500.0,
+          "end_ns": 75500.0,
+          "min_v": -0.0073159798116487085,
+          "max_v": 0.6248325833792403
+        },
+        {
+          "net": "rc_wl12_3",
+          "expected": 0,
+          "start_ns": 12500.0,
+          "end_ns": 75500.0,
+          "min_v": -0.01210156076993239,
+          "max_v": 0.7046150856267838
+        },
+        {
+          "net": "rc_wl12_4",
+          "expected": 0,
+          "start_ns": 12500.0,
+          "end_ns": 75500.0,
+          "min_v": -0.028804448426882952,
+          "max_v": 0.734657528635156
+        },
+        {
+          "net": "rc_wl13_2",
+          "expected": 0,
+          "start_ns": 12500.0,
+          "end_ns": 75500.0,
+          "min_v": -0.007263172359665837,
+          "max_v": 0.6228212120760894
+        }
+      ],
+      "clock_branches": 21,
+      "maximum_clock_rising_skew_ns": 0.04130913538392633,
+      "minimum_clock_high_ns": 2499.9150727506876,
+      "minimum_clock_low_ns": 2499.9756929592986,
+      "scope": "All four BL/WL/common-line RC sections, control gate loads, and every physical clock branch."
+    }
+  },
+  "source_gds_sha256": "dee111388a5c4d3131b68772507706706d894248988ab761bf9c4070e9194e61",
+  "experiment": {
+    "name": "pd102_power_prefix_sparse",
+    "pid": 17675,
+    "source_directory": "/home/ishi-kai/sram/build/sram512/analog/pd102_power_paths_ramp",
+    "source_deck_sha256": "043e91f6e81ef50121675ba52bbe0cf3caf8d8759b78fe536fbee68921c5feaf",
+    "deck_sha256": "75118ea3bcaf770c640d0b1e3fff89f73756109c7dc2f8604b791edd4c09588a",
+    "change": "First-access prefix; default Sparse solver replaces KLU. All device/interconnect models, sources, error tolerances, integration method, output step and maximum step retained.",
+    "started_utc": "2026-09-12T10:40:16.366417+00:00"
+  },
+  "model_notices": [
+    {
+      "model": "DN",
+      "unsupported_parameters": [
+        "imax",
+        "imelt"
+      ],
+      "consequence": "Diode current/melting limit flags are not implemented by ngspice."
+    },
+    {
+      "model": "DP",
+      "unsupported_parameters": [
+        "imax",
+        "imelt"
+      ],
+      "consequence": "Diode current/melting limit flags are not implemented by ngspice."
+    }
+  ],
+  "scope": "Complete finite prefix from power-up through one write. All 512 physical cells and complete signal/power networks remain present. This does not complete the 16-access or low-voltage/hot test."
+}

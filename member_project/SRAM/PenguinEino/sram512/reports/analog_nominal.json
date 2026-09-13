@@ -1,0 +1,85 @@
+{
+  "passed": true,
+  "checks": 3669,
+  "failure_count": 0,
+  "failures": [],
+  "read_observations": [
+    {
+      "operation": 4,
+      "row": 0,
+      "col": 0,
+      "sae_half_ns": 88016.89882726589,
+      "y_difference_v": -5.034938768174246
+    },
+    {
+      "operation": 5,
+      "row": 0,
+      "col": 31,
+      "sae_half_ns": 106016.8985104179,
+      "y_difference_v": 5.033520382517682
+    },
+    {
+      "operation": 6,
+      "row": 15,
+      "col": 0,
+      "sae_half_ns": 124016.89848690138,
+      "y_difference_v": 5.033521088064683
+    },
+    {
+      "operation": 7,
+      "row": 15,
+      "col": 31,
+      "sae_half_ns": 142016.89783773545,
+      "y_difference_v": -5.0348992096033145
+    },
+    {
+      "operation": 12,
+      "row": 0,
+      "col": 0,
+      "sae_half_ns": 232016.89897485322,
+      "y_difference_v": 5.0335394843411505
+    },
+    {
+      "operation": 13,
+      "row": 0,
+      "col": 31,
+      "sae_half_ns": 250016.8981573551,
+      "y_difference_v": -5.034909039668063
+    },
+    {
+      "operation": 14,
+      "row": 15,
+      "col": 0,
+      "sae_half_ns": 268016.8985341263,
+      "y_difference_v": -5.034928435090951
+    },
+    {
+      "operation": 15,
+      "row": 15,
+      "col": 31,
+      "sae_half_ns": 286016.8982383537,
+      "y_difference_v": 5.033511893902588
+    }
+  ],
+  "points": 53715,
+  "operations": 16,
+  "name": "nominal",
+  "voltage_v": 5,
+  "temperature_c": 27,
+  "period_ns": 1000,
+  "extra_wire_loads": {
+    "BL": "70f",
+    "WL": "200f",
+    "Y": "180f"
+  },
+  "output_load": "10p",
+  "edge_ns": 5,
+  "vth_shift_v": {
+    "NMOS": 0,
+    "PMOS": 0
+  },
+  "elapsed_seconds": 459.62,
+  "input_sha256": "50b569e6895c4db0915a0767bdb25b6c736fc5b894d41e4b010778489c4aaf38",
+  "electrical_sha256": "c0ea044047e054e797e764efd3763013c14493eef54012ee51513127001a3dbc",
+  "reused_waveform": false
+}

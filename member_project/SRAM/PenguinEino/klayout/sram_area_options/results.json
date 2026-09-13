@@ -1,0 +1,402 @@
+{
+  "configuration": "16 rows x 64 columns, N=11, K=5, 19 clocks per operation",
+  "scope": "Candidate search only; no production RTL/schematic edits, new SPICE runs, or physical layout.",
+  "area_scope": "55 um abutted-row area; excludes routing/analog additions. Existing 12 BUF_X4 budget retained.",
+  "baseline_controller_um2": 289190.0,
+  "baseline_ff_um2": 159720.0,
+  "baseline_mux_um2": 65340.0,
+  "baseline_other_controller_um2": 64130.0,
+  "compact_control": {
+    "before_bom": {
+      "AND4_X1": 12,
+      "OR2": 3,
+      "AND2_X1": 20,
+      "DFFR": 33,
+      "XOR2": 4,
+      "AND3_X1": 1,
+      "OR3": 2,
+      "OR4": 1,
+      "INV_X1": 1,
+      "MUX2": 24
+    },
+    "after_bom": {
+      "AND2_X1": 11,
+      "AND3_X1": 2,
+      "AND4_X1": 2,
+      "NOR3": 1,
+      "OR2": 2,
+      "XOR2": 4,
+      "NOR2": 2,
+      "NAND2": 7,
+      "NAND3": 1,
+      "INV_X1": 1,
+      "DFFR": 33,
+      "MUX2": 24
+    },
+    "before_um2": 289190.0,
+    "after_um2": 266200.0,
+    "saved_um2": 22990.0
+  },
+  "control_equivalence": {
+    "cases": 128,
+    "signal_comparisons": 1536,
+    "scope": "All 32 count codes x W x WE; exact next-count bits and FF/MUX controls. Zero delay."
+  },
+  "control_network": [
+    {
+      "kind": "AND2_X1",
+      "inputs": [
+        "C0",
+        "C1"
+      ],
+      "output": "n0"
+    },
+    {
+      "kind": "AND3_X1",
+      "inputs": [
+        "C0",
+        "C1",
+        "C2"
+      ],
+      "output": "n1"
+    },
+    {
+      "kind": "AND4_X1",
+      "inputs": [
+        "C0",
+        "C1",
+        "C2",
+        "C3"
+      ],
+      "output": "n2"
+    },
+    {
+      "kind": "NOR3",
+      "inputs": [
+        "C3",
+        "C2",
+        "C1"
+      ],
+      "output": "n3"
+    },
+    {
+      "kind": "OR2",
+      "inputs": [
+        "C4B",
+        "n3"
+      ],
+      "output": "n4"
+    },
+    {
+      "kind": "XOR2",
+      "inputs": [
+        "C1",
+        "C0"
+      ],
+      "output": "n5"
+    },
+    {
+      "kind": "XOR2",
+      "inputs": [
+        "C2",
+        "n0"
+      ],
+      "output": "n6"
+    },
+    {
+      "kind": "XOR2",
+      "inputs": [
+        "C3",
+        "n1"
+      ],
+      "output": "n7"
+    },
+    {
+      "kind": "XOR2",
+      "inputs": [
+        "C4",
+        "n2"
+      ],
+      "output": "n8"
+    },
+    {
+      "kind": "AND2_X1",
+      "inputs": [
+        "C0B",
+        "n4"
+      ],
+      "output": "n9"
+    },
+    {
+      "kind": "AND2_X1",
+      "inputs": [
+        "n5",
+        "n4"
+      ],
+      "output": "n10"
+    },
+    {
+      "kind": "AND2_X1",
+      "inputs": [
+        "n6",
+        "n4"
+      ],
+      "output": "n11"
+    },
+    {
+      "kind": "AND2_X1",
+      "inputs": [
+        "n7",
+        "n4"
+      ],
+      "output": "n12"
+    },
+    {
+      "kind": "AND2_X1",
+      "inputs": [
+        "n8",
+        "n4"
+      ],
+      "output": "n13"
+    },
+    {
+      "kind": "OR2",
+      "inputs": [
+        "C2",
+        "n0"
+      ],
+      "output": "n14"
+    },
+    {
+      "kind": "AND2_X1",
+      "inputs": [
+        "C3",
+        "n14"
+      ],
+      "output": "n15"
+    },
+    {
+      "kind": "NOR2",
+      "inputs": [
+        "C4",
+        "n15"
+      ],
+      "output": "n16"
+    },
+    {
+      "kind": "NOR2",
+      "inputs": [
+        "C4",
+        "C3B"
+      ],
+      "output": "n17"
+    },
+    {
+      "kind": "AND2_X1",
+      "inputs": [
+        "n17",
+        "C2"
+      ],
+      "output": "n18"
+    },
+    {
+      "kind": "AND2_X1",
+      "inputs": [
+        "C4",
+        "n3"
+      ],
+      "output": "n19"
+    },
+    {
+      "kind": "AND4_X1",
+      "inputs": [
+        "n17",
+        "C2B",
+        "C1",
+        "C0"
+      ],
+      "output": "n20"
+    },
+    {
+      "kind": "AND2_X1",
+      "inputs": [
+        "n18",
+        "C1"
+      ],
+      "output": "n21"
+    },
+    {
+      "kind": "NAND2",
+      "inputs": [
+        "C0B",
+        "C1B"
+      ],
+      "output": "n22"
+    },
+    {
+      "kind": "NAND2",
+      "inputs": [
+        "n18",
+        "n22"
+      ],
+      "output": "n23"
+    },
+    {
+      "kind": "NAND2",
+      "inputs": [
+        "n19",
+        "C0B"
+      ],
+      "output": "n24"
+    },
+    {
+      "kind": "NAND2",
+      "inputs": [
+        "n23",
+        "n24"
+      ],
+      "output": "n25"
+    },
+    {
+      "kind": "AND2_X1",
+      "inputs": [
+        "n25",
+        "W"
+      ],
+      "output": "n26"
+    },
+    {
+      "kind": "NAND2",
+      "inputs": [
+        "C0",
+        "C1"
+      ],
+      "output": "n27"
+    },
+    {
+      "kind": "NAND3",
+      "inputs": [
+        "n18",
+        "n27",
+        "WB"
+      ],
+      "output": "n28"
+    },
+    {
+      "kind": "INV_X1",
+      "inputs": [
+        "WE"
+      ],
+      "output": "n29"
+    },
+    {
+      "kind": "NAND2",
+      "inputs": [
+        "n20",
+        "n29"
+      ],
+      "output": "n30"
+    },
+    {
+      "kind": "NAND2",
+      "inputs": [
+        "n30",
+        "n28"
+      ],
+      "output": "n31"
+    },
+    {
+      "kind": "AND3_X1",
+      "inputs": [
+        "n19",
+        "C0",
+        "WB"
+      ],
+      "output": "n32"
+    }
+  ],
+  "control_outputs": {
+    "next0": "n9",
+    "next1": "n10",
+    "next2": "n11",
+    "next3": "n12",
+    "next4": "n13",
+    "rx": "n16",
+    "e0": "n20",
+    "pc_d": "n20",
+    "wl_d": "n21",
+    "write_d": "n26",
+    "track_d": "n31",
+    "capture": "n32"
+  },
+  "negative_row_decoder": {
+    "before_bom": {
+      "AND2_X1": 8,
+      "AND3_X1": 16
+    },
+    "after_bom": {
+      "NAND2": 8,
+      "NOR3": 16
+    },
+    "before_um2": 33880.0,
+    "after_um2": 26620.0,
+    "saved_um2": 7260.0
+  },
+  "negative_column_decoder": {
+    "before_bom": {
+      "AND2_X1": 64,
+      "AND3_X1": 16
+    },
+    "after_bom": {
+      "NAND3": 16,
+      "NOR2": 64
+    },
+    "before_um2": 101640.0,
+    "after_um2": 77440.0,
+    "saved_um2": 24200.0
+  },
+  "decoder_checks": {
+    "row_cases": 32,
+    "column_cases": 64
+  },
+  "hierarchical_column_mux": {
+    "before_bom": {
+      "AND2_X1": 64,
+      "AND3_X1": 16
+    },
+    "after_bom": {
+      "AND3_X1": 16
+    },
+    "before_um2": 101640.0,
+    "after_um2": 24200.0,
+    "saved_um2": 77440.0,
+    "first_stage_nmos": 128,
+    "second_stage_nmos": 16,
+    "added_nmos": 16,
+    "optional_intermediate_precharge_pmos": 16,
+    "low_select_gate_fanout_before": 2,
+    "low_select_gate_fanout_after": 16,
+    "switch_path_checks": 64,
+    "scope": "Gross digital saving only. Added analog area, larger drivers, intermediate-line PC/RC and write margin NOT evaluated."
+  },
+  "previously_discussed_register_sharing_saved_um2": 83187.5,
+  "register_sharing_plus_both_negative_decoders_plus_compact_control": {
+    "saved_um2": 137637.5,
+    "array_plus_digital_um2": 1030704.56,
+    "residual_area_um2": 49295.44,
+    "scope": "Arithmetic candidate combination, not implemented together; residual must cover analog, routing and any upsizing."
+  },
+  "caveats": [
+    "Negative row NOR3 has a stacked PMOS pullup; 128 access-gate WL load may need upsizing.",
+    "Negative decode alternatives and hierarchical column mux are mutually exclusive at the column final stage.",
+    "Counter decode optimization preserves logic, not propagation delays or setup/hold margins.",
+    "Further FF/MUX custom-cell estimates cannot be inferred from transistor counts alone."
+  ],
+  "source_sha256": {
+    "klayout/sram_area_options/analyze.py": "7150fcfc0b551bfada3a8cab699e20e48446945408f5413d86516ec033218fe8",
+    "klayout/sram_macro_study/estimate_capacity.py": "8565f81c1c15e276dac47fcb98a16ac02309751152c8cb5562f0d62768408552",
+    "klayout/sram_macro_study/macro_model.py": "72b4cbae86dda665d50b0345121a1ad713814edb4a05eb4c8c6a6321302c93ff",
+    "build/sram_macro_study/serial/sram_tb_serial.spice": "7c94ae2f0091cf8e573c829253d22022e8355a4a5c35cbb7306f4a242e74b499",
+    "/home/ishi-kai/pdk/TR-1um/libs.tech/klayout/libraries/TR-1um_STDCELL.gds": "f43dc2d2cf83e4b6ddb7c54be616386fdbce067b600bbdaa52c259349eafbd51"
+  }
+}

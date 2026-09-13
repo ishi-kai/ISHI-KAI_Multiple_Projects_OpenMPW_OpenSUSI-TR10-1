@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "change": "Hide redundant lab_pin text on named port stubs; preserve all pin and wire connectivity.",
+  "symbols_changed": {
+    "sram512.sch": 7,
+    "sram512_array.sch": 2,
+    "sram512_col_decoder.sch": 12,
+    "sram512_column.sch": 4,
+    "sram512_control.sch": 13,
+    "sram512_controller.sch": 32,
+    "sram512_frame.sch": 6,
+    "sram512_input_clamp.sch": 3,
+    "sram512_macro.sch": 7,
+    "sram512_phase.sch": 4,
+    "sram512_row_decoder.sch": 7
+  },
+  "netlist_sha256": {
+    "sram512_macro.sch": "b98bda1c11937b25c5b8aeb27b69f38dbf00f2aa9f84fb1b69e96ada2a6f6b4e",
+    "sram512_tb.sch": "79c1a4a93c8f85050502a7e930b892f1fb12eedcc20defcedf8091ebe46ebcbe"
+  }
+}

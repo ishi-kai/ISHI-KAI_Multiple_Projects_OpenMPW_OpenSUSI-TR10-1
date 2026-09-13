@@ -1,0 +1,82 @@
+{
+  "passed": true,
+  "test": "analog_pd102_low_cold",
+  "base_report_sha256": "3253f074e15e6abd24159299b2b2a608fac584c119f2613b91757ba740f5698f",
+  "reviewed_commit": "7dae978",
+  "simulation_code_unchanged": true,
+  "functional_checks": {
+    "passed": true,
+    "checks": 2910,
+    "failure_count": 0,
+    "failures": [],
+    "read_observations": [
+      {
+        "operation": 4,
+        "row": 0,
+        "col": 0,
+        "sae_half_ns": 88016.39725754202,
+        "y_difference_v": -4.520608466820456
+      },
+      {
+        "operation": 5,
+        "row": 0,
+        "col": 31,
+        "sae_half_ns": 106016.39735620865,
+        "y_difference_v": 4.519742987878294
+      },
+      {
+        "operation": 6,
+        "row": 15,
+        "col": 0,
+        "sae_half_ns": 124016.39760643127,
+        "y_difference_v": 4.51975369873808
+      },
+      {
+        "operation": 7,
+        "row": 15,
+        "col": 31,
+        "sae_half_ns": 142016.39761235376,
+        "y_difference_v": -4.520628954560645
+      },
+      {
+        "operation": 12,
+        "row": 0,
+        "col": 0,
+        "sae_half_ns": 232016.39724870463,
+        "y_difference_v": 4.519735895544034
+      },
+      {
+        "operation": 13,
+        "row": 0,
+        "col": 31,
+        "sae_half_ns": 250016.39724052322,
+        "y_difference_v": -4.5206125404619995
+      },
+      {
+        "operation": 14,
+        "row": 15,
+        "col": 0,
+        "sae_half_ns": 268016.2815337096,
+        "y_difference_v": -4.52034890335128
+      },
+      {
+        "operation": 15,
+        "row": 15,
+        "col": 31,
+        "sae_half_ns": 286016.3972318881,
+        "y_difference_v": 4.519739338195054
+      }
+    ],
+    "points": 53619,
+    "operations": 16,
+    "sdo_hold_checks": 9,
+    "sdo_read_settling_ns": 800.0,
+    "required_time_range_ns": [
+      0,
+      290000
+    ]
+  },
+  "raw_sha256": "268a7254ee2ceab55f58e5c3a18bcc3c774c625f0385600d3729638ab0116b2c",
+  "deck_sha256": "81a3f935b9710e76bd1391fe9413714d92e34b6104096a523092bd0914da72ab",
+  "scope": "Existing transient, newly checked time coverage and continuous SDO retention; unchanged voltage/current/geometry checks remain bound to the original report."
+}

@@ -1,0 +1,1076 @@
+{
+  "passed": false,
+  "checks": 54499,
+  "failure_count": 199,
+  "failures": [],
+  "read_observations": [
+    {
+      "operation": 4,
+      "row": 0,
+      "col": 0,
+      "sae_half_ns": 88033.31757000569,
+      "y_difference_v": -5.003425179397604
+    },
+    {
+      "operation": 5,
+      "row": 0,
+      "col": 31,
+      "sae_half_ns": 106033.31070595604,
+      "y_difference_v": 5.00366102531996
+    },
+    {
+      "operation": 6,
+      "row": 15,
+      "col": 0,
+      "sae_half_ns": 124033.30837770746,
+      "y_difference_v": 5.002855701664184
+    },
+    {
+      "operation": 7,
+      "row": 15,
+      "col": 31,
+      "sae_half_ns": 142033.26905290328,
+      "y_difference_v": -5.0037611719203925
+    },
+    {
+      "operation": 12,
+      "row": 0,
+      "col": 0,
+      "sae_half_ns": 232033.31358405124,
+      "y_difference_v": 5.0027194889927475
+    },
+    {
+      "operation": 13,
+      "row": 0,
+      "col": 31,
+      "sae_half_ns": 250033.31600866924,
+      "y_difference_v": -5.004265808954927
+    },
+    {
+      "operation": 14,
+      "row": 15,
+      "col": 0,
+      "sae_half_ns": 268033.30724681384,
+      "y_difference_v": -5.003396746603842
+    },
+    {
+      "operation": 15,
+      "row": 15,
+      "col": 31,
+      "sae_half_ns": 286033.30662372307,
+      "y_difference_v": 5.003776538541083
+    }
+  ],
+  "points": 64936,
+  "operations": 16,
+  "voltage_limits": {
+    "passed": false,
+    "checks": 29262,
+    "failure_count": 194,
+    "failures": [
+      {
+        "device": 3266,
+        "model": "PMOS",
+        "cell": "MUX2",
+        "instance": 12,
+        "pair": "GD",
+        "peak_abs_v": 5.9264178362717574,
+        "time_ns": 280760.12695049716,
+        "position_um": [
+          1550.6,
+          126.25
+        ]
+      },
+      {
+        "device": 3268,
+        "model": "PMOS",
+        "cell": "MUX2",
+        "instance": 12,
+        "pair": "GS",
+        "peak_abs_v": 5.90674250103521,
+        "time_ns": 185760.82741635136,
+        "position_um": [
+          1518.6,
+          126.25
+        ]
+      },
+      {
+        "device": 3271,
+        "model": "NMOS",
+        "cell": "MUX2",
+        "instance": 12,
+        "pair": "GB",
+        "peak_abs_v": 5.9262186418451215,
+        "time_ns": 280760.12695049716,
+        "position_um": [
+          1526.6,
+          86.55
+        ]
+      },
+      {
+        "device": 3274,
+        "model": "NMOS",
+        "cell": "MUX2",
+        "instance": 12,
+        "pair": "GS",
+        "peak_abs_v": 5.90674250103521,
+        "time_ns": 185760.82741635136,
+        "position_um": [
+          1518.6,
+          86.55
+        ]
+      },
+      {
+        "device": 3274,
+        "model": "NMOS",
+        "cell": "MUX2",
+        "instance": 12,
+        "pair": "GD",
+        "peak_abs_v": 5.926218497832531,
+        "time_ns": 280760.12695049716,
+        "position_um": [
+          1518.6,
+          86.55
+        ]
+      },
+      {
+        "device": 3274,
+        "model": "NMOS",
+        "cell": "MUX2",
+        "instance": 12,
+        "pair": "GB",
+        "peak_abs_v": 5.926218497832531,
+        "time_ns": 280760.12695049716,
+        "position_um": [
+          1518.6,
+          86.55
+        ]
+      },
+      {
+        "device": 3288,
+        "model": "PMOS",
+        "cell": "DFFR",
+        "instance": 14,
+        "pair": "GS",
+        "peak_abs_v": 6.339589745803695,
+        "time_ns": 219521.19429940538,
+        "position_um": [
+          1448.2,
+          50.300000000000004
+        ]
+      },
+      {
+        "device": 3288,
+        "model": "PMOS",
+        "cell": "DFFR",
+        "instance": 14,
+        "pair": "GD",
+        "peak_abs_v": 6.334582985756355,
+        "time_ns": 115521.58719666474,
+        "position_um": [
+          1448.2,
+          50.300000000000004
+        ]
+      },
+      {
+        "device": 3288,
+        "model": "PMOS",
+        "cell": "DFFR",
+        "instance": 14,
+        "pair": "GB",
+        "peak_abs_v": 6.545049253319799,
+        "time_ns": 44023.93914223378,
+        "position_um": [
+          1448.2,
+          50.300000000000004
+        ]
+      },
+      {
+        "device": 3297,
+        "model": "PMOS",
+        "cell": "DFFR",
+        "instance": 14,
+        "pair": "GB",
+        "peak_abs_v": 6.545036118557008,
+        "time_ns": 44023.93914223378,
+        "position_um": [
+          1423.4,
+          50.300000000000004
+        ]
+      },
+      {
+        "device": 3305,
+        "model": "NMOS",
+        "cell": "DFFR",
+        "instance": 14,
+        "pair": "GS",
+        "peak_abs_v": 6.334582985756355,
+        "time_ns": 115521.58719666474,
+        "position_um": [
+          1448.2,
+          12.3
+        ]
+      },
+      {
+        "device": 3318,
+        "model": "PMOS",
+        "cell": "MUX2",
+        "instance": 15,
+        "pair": "GD",
+        "peak_abs_v": 5.940303219696716,
+        "time_ns": 74032.22307540027,
+        "position_um": [
+          1506.6,
+          52.0
+        ]
+      },
+      {
+        "device": 3318,
+        "model": "PMOS",
+        "cell": "MUX2",
+        "instance": 15,
+        "pair": "GB",
+        "peak_abs_v": 5.782415494824218,
+        "time_ns": 19.294504886507124,
+        "position_um": [
+          1506.6,
+          52.0
+        ]
+      },
+      {
+        "device": 3320,
+        "model": "PMOS",
+        "cell": "MUX2",
+        "instance": 15,
+        "pair": "GS",
+        "peak_abs_v": 5.922004203823724,
+        "time_ns": 146032.26253746453,
+        "position_um": [
+          1474.6,
+          52.0
+        ]
+      },
+      {
+        "device": 3320,
+        "model": "PMOS",
+        "cell": "MUX2",
+        "instance": 15,
+        "pair": "GD",
+        "peak_abs_v": 5.781181345404625,
+        "time_ns": 19.294504886507124,
+        "position_um": [
+          1474.6,
+          52.0
+        ]
+      },
+      {
+        "device": 3320,
+        "model": "PMOS",
+        "cell": "MUX2",
+        "instance": 15,
+        "pair": "GB",
+        "peak_abs_v": 5.781181345404625,
+        "time_ns": 19.294504886507124,
+        "position_um": [
+          1474.6,
+          52.0
+        ]
+      },
+      {
+        "device": 3323,
+        "model": "NMOS",
+        "cell": "MUX2",
+        "instance": 15,
+        "pair": "GB",
+        "peak_abs_v": 5.939661414931393,
+        "time_ns": 74032.22307540027,
+        "position_um": [
+          1482.6,
+          12.3
+        ]
+      },
+      {
+        "device": 3326,
+        "model": "NMOS",
+        "cell": "MUX2",
+        "instance": 15,
+        "pair": "GS",
+        "peak_abs_v": 5.922004203823724,
+        "time_ns": 146032.26253746453,
+        "position_um": [
+          1474.6,
+          12.3
+        ]
+      },
+      {
+        "device": 3326,
+        "model": "NMOS",
+        "cell": "MUX2",
+        "instance": 15,
+        "pair": "GD",
+        "peak_abs_v": 5.939661311391863,
+        "time_ns": 74032.22307540027,
+        "position_um": [
+          1474.6,
+          12.3
+        ]
+      },
+      {
+        "device": 3326,
+        "model": "NMOS",
+        "cell": "MUX2",
+        "instance": 15,
+        "pair": "GB",
+        "peak_abs_v": 5.939661311391863,
+        "time_ns": 74032.22307540027,
+        "position_um": [
+          1474.6,
+          12.3
+        ]
+      },
+      {
+        "device": 3330,
+        "model": "PMOS",
+        "cell": "MUX2",
+        "instance": 16,
+        "pair": "GD",
+        "peak_abs_v": 5.878975147281334,
+        "time_ns": 44035.88361578572,
+        "position_um": [
+          1303.1,
+          126.25
+        ]
+      },
+      {
+        "device": 3330,
+        "model": "PMOS",
+        "cell": "MUX2",
+        "instance": 16,
+        "pair": "GB",
+        "peak_abs_v": 5.959593625469681,
+        "time_ns": 20.501585394036987,
+        "position_um": [
+          1303.1,
+          126.25
+        ]
+      },
+      {
+        "device": 3332,
+        "model": "PMOS",
+        "cell": "MUX2",
+        "instance": 16,
+        "pair": "GS",
+        "peak_abs_v": 5.935677573153037,
+        "time_ns": 20.975465758577286,
+        "position_um": [
+          1271.1,
+          126.25
+        ]
+      },
+      {
+        "device": 3332,
+        "model": "PMOS",
+        "cell": "MUX2",
+        "instance": 16,
+        "pair": "GD",
+        "peak_abs_v": 5.958708352405063,
+        "time_ns": 20.501585394036987,
+        "position_um": [
+          1271.1,
+          126.25
+        ]
+      },
+      {
+        "device": 3332,
+        "model": "PMOS",
+        "cell": "MUX2",
+        "instance": 16,
+        "pair": "GB",
+        "peak_abs_v": 5.958708352405063,
+        "time_ns": 20.501585394036987,
+        "position_um": [
+          1271.1,
+          126.25
+        ]
+      },
+      {
+        "device": 3335,
+        "model": "NMOS",
+        "cell": "MUX2",
+        "instance": 16,
+        "pair": "GB",
+        "peak_abs_v": 5.878730585918214,
+        "time_ns": 44035.88361578572,
+        "position_um": [
+          1279.1,
+          86.55
+        ]
+      },
+      {
+        "device": 3338,
+        "model": "NMOS",
+        "cell": "MUX2",
+        "instance": 16,
+        "pair": "GS",
+        "peak_abs_v": 5.935677573153037,
+        "time_ns": 20.975465758577286,
+        "position_um": [
+          1271.1,
+          86.55
+        ]
+      },
+      {
+        "device": 3338,
+        "model": "NMOS",
+        "cell": "MUX2",
+        "instance": 16,
+        "pair": "GD",
+        "peak_abs_v": 5.87873043776504,
+        "time_ns": 44035.88361578572,
+        "position_um": [
+          1271.1,
+          86.55
+        ]
+      },
+      {
+        "device": 3338,
+        "model": "NMOS",
+        "cell": "MUX2",
+        "instance": 16,
+        "pair": "GB",
+        "peak_abs_v": 5.87873043776504,
+        "time_ns": 44035.88361578572,
+        "position_um": [
+          1271.1,
+          86.55
+        ]
+      },
+      {
+        "device": 3475,
+        "model": "PMOS",
+        "cell": "OR2",
+        "instance": 31,
+        "pair": "GB",
+        "peak_abs_v": 6.061524365429172,
+        "time_ns": 17041.109376094115,
+        "position_um": [
+          1474.6,
+          572.8
+        ]
+      },
+      {
+        "device": 3481,
+        "model": "PMOS",
+        "cell": "OR2",
+        "instance": 32,
+        "pair": "GB",
+        "peak_abs_v": 6.095843669430857,
+        "time_ns": 123044.69396087778,
+        "position_um": [
+          1100.6,
+          495.8
+        ]
+      },
+      {
+        "device": 3487,
+        "model": "PMOS",
+        "cell": "OR2",
+        "instance": 33,
+        "pair": "GB",
+        "peak_abs_v": 6.045188244661389,
+        "time_ns": 9033.211059488487,
+        "position_um": [
+          1436.1,
+          421.55
+        ]
+      },
+      {
+        "device": 3678,
+        "model": "PMOS",
+        "cell": "DFFR",
+        "instance": 58,
+        "pair": "GS",
+        "peak_abs_v": 6.353826243721728,
+        "time_ns": 210523.2895253953,
+        "position_um": [
+          1107.2,
+          347.3
+        ]
+      },
+      {
+        "device": 3678,
+        "model": "PMOS",
+        "cell": "DFFR",
+        "instance": 58,
+        "pair": "GD",
+        "peak_abs_v": 6.349184707443495,
+        "time_ns": 138523.38297995782,
+        "position_um": [
+          1107.2,
+          347.3
+        ]
+      },
+      {
+        "device": 3678,
+        "model": "PMOS",
+        "cell": "DFFR",
+        "instance": 58,
+        "pair": "GB",
+        "peak_abs_v": 6.560986278680022,
+        "time_ns": 283026.2663535562,
+        "position_um": [
+          1107.2,
+          347.3
+        ]
+      },
+      {
+        "device": 3687,
+        "model": "PMOS",
+        "cell": "DFFR",
+        "instance": 58,
+        "pair": "GB",
+        "peak_abs_v": 6.561010659647298,
+        "time_ns": 283026.2663535562,
+        "position_um": [
+          1082.4,
+          347.3
+        ]
+      },
+      {
+        "device": 3695,
+        "model": "NMOS",
+        "cell": "DFFR",
+        "instance": 58,
+        "pair": "GS",
+        "peak_abs_v": 6.349184707443495,
+        "time_ns": 138523.38297995782,
+        "position_um": [
+          1107.2,
+          309.3
+        ]
+      },
+      {
+        "device": 3718,
+        "model": "PMOS",
+        "cell": "DFFR",
+        "instance": 60,
+        "pair": "GS",
+        "peak_abs_v": 6.358211518707206,
+        "time_ns": 105523.37828178608,
+        "position_um": [
+          1107.2,
+          273.05
+        ]
+      },
+      {
+        "device": 3718,
+        "model": "PMOS",
+        "cell": "DFFR",
+        "instance": 60,
+        "pair": "GD",
+        "peak_abs_v": 6.3543403908503535,
+        "time_ns": 105523.37828178608,
+        "position_um": [
+          1107.2,
+          273.05
+        ]
+      },
+      {
+        "device": 3718,
+        "model": "PMOS",
+        "cell": "DFFR",
+        "instance": 60,
+        "pair": "GB",
+        "peak_abs_v": 6.571970970717578,
+        "time_ns": 124026.4264592291,
+        "position_um": [
+          1107.2,
+          273.05
+        ]
+      }
+    ],
+    "maximum_by_pair": {
+      "DS": {
+        "device": 3595,
+        "model": "NMOS",
+        "cell": "AND3_X1",
+        "instance": 48,
+        "pair": "DS",
+        "peak_abs_v": 5.554111555390954,
+        "time_ns": 40034.06295928826,
+        "position_um": [
+          919.8,
+          200.0
+        ]
+      },
+      "GS": {
+        "device": 4164,
+        "model": "PMOS",
+        "cell": "DFFR",
+        "instance": 74,
+        "pair": "GS",
+        "peak_abs_v": 6.365205828749294,
+        "time_ns": 142524.2802058667,
+        "position_um": [
+          1074.2,
+          572.8
+        ]
+      },
+      "SB": {
+        "device": 418,
+        "model": "NMOS",
+        "cell": "sram512",
+        "instance": 1,
+        "pair": "SB",
+        "peak_abs_v": 5.268323139785581,
+        "time_ns": 69073.24092474901,
+        "position_um": [
+          831.0,
+          591.6
+        ]
+      },
+      "DB": {
+        "device": 417,
+        "model": "NMOS",
+        "cell": "sram512",
+        "instance": 1,
+        "pair": "DB",
+        "peak_abs_v": 5.268323139785581,
+        "time_ns": 69073.24092474901,
+        "position_um": [
+          835.0,
+          591.6
+        ]
+      },
+      "GD": {
+        "device": 4164,
+        "model": "PMOS",
+        "cell": "DFFR",
+        "instance": 74,
+        "pair": "GD",
+        "peak_abs_v": 6.360443027822056,
+        "time_ns": 52524.791177598694,
+        "position_um": [
+          1074.2,
+          572.8
+        ]
+      },
+      "GB": {
+        "device": 4173,
+        "model": "PMOS",
+        "cell": "DFFR",
+        "instance": 74,
+        "pair": "GB",
+        "peak_abs_v": 6.576892680235952,
+        "time_ns": 217027.76716624998,
+        "position_um": [
+          1049.4,
+          572.8
+        ]
+      }
+    },
+    "limit_abs_v": 5.75,
+    "source": "Unmodified dev OS00 reference manual rev1.1, table I-2-3 (recommended MOS operating voltages).",
+    "scope": "Absolute terminal-pair amplitudes. This does not replace current, ESD, or statistical-corner qualification."
+  },
+  "power_supply_observations": {
+    "load_nodes": 3257,
+    "minimum_vdd": 4.307314464033718,
+    "maximum_vdd": 5.000855570634667,
+    "minimum_vss": -0.00039575798351743476,
+    "maximum_vss": 0.7539041496384983,
+    "worst_vdd_nodes": [
+      {
+        "supply": "VDD",
+        "node": "power_vdd_load_856",
+        "min_v": 4.307314464033718,
+        "max_v": 5.0003212632385505
+      },
+      {
+        "supply": "VDD",
+        "node": "power_vdd_load_600",
+        "min_v": 4.307314708710151,
+        "max_v": 5.000321263232948
+      },
+      {
+        "supply": "VDD",
+        "node": "power_vdd_load_601",
+        "min_v": 4.307316899153166,
+        "max_v": 5.000321263248405
+      },
+      {
+        "supply": "VDD",
+        "node": "power_vdd_load_857",
+        "min_v": 4.307317004520079,
+        "max_v": 5.0003212632512195
+      },
+      {
+        "supply": "VDD",
+        "node": "power_vdd_load_980",
+        "min_v": 4.307364735692715,
+        "max_v": 5.000321394777433
+      }
+    ],
+    "worst_vss_nodes": [
+      {
+        "supply": "VSS",
+        "node": "power_vss_load_740",
+        "min_v": -0.00039575798351743476,
+        "max_v": 0.7539041496384983
+      },
+      {
+        "supply": "VSS",
+        "node": "power_vss_load_706",
+        "min_v": -0.000395369000275328,
+        "max_v": 0.7539003018628615
+      },
+      {
+        "supply": "VSS",
+        "node": "power_vss_load_739",
+        "min_v": -0.00039571565662825957,
+        "max_v": 0.753900142635069
+      },
+      {
+        "supply": "VSS",
+        "node": "power_vss_load_705",
+        "min_v": -0.000395330280463014,
+        "max_v": 0.7538962852166216
+      },
+      {
+        "supply": "VSS",
+        "node": "power_vss_load_640",
+        "min_v": -0.00039510768014943814,
+        "max_v": 0.7538550229856091
+      }
+    ]
+  },
+  "power_resistance_model": {
+    "sheet_ohm": 0.1,
+    "via_ohm": 1.0,
+    "scope": "Width-aware supply resistance sensitivity on the actual metal topology.\n\nMetal polygons are sampled on a stated grid, reduced to their medial paths,\nand assigned R = sheet_R * path_length / local_width. Local width uses the\ninside distance transform minus one sampling interval. Series-only nodes are\neliminated exactly; branches, loops, every actual via, and load taps remain.\nThis is an explicit numerical sensitivity model, not a foundry PEX deck.\nIt improves on the earlier whole-polygon perimeter proxy without replacing\nthat failed experiment or changing any circuit/DRC/LVS acceptance criterion.\n",
+    "source_gds_sha256": "bbae5a2e0a63d1d0304937d7a5edef00291f0db6eafc00ce3a7700bdafa9ab02",
+    "grid_um": 0.25,
+    "detailed_parameters_sha256": "5d503f8fd108e513e863503bc0bbaaef2ba8eda15ccbc7d2542998892cc300ca"
+  },
+  "via_currents": {
+    "passed": false,
+    "checks": 2880,
+    "physical_vias": 1440,
+    "failure_count": 5,
+    "failures": [
+      {
+        "supply": "VDD",
+        "position_um": [
+          918.5,
+          118.25
+        ],
+        "peak_a": 0.020288993844486274,
+        "mean_absolute_a": 8.976737759387044e-06,
+        "rms_a": 0.00013327884268387238,
+        "passed": false
+      },
+      {
+        "supply": "VDD",
+        "position_um": [
+          861.4,
+          112.7
+        ],
+        "peak_a": 0.010894636463326286,
+        "mean_absolute_a": 4.3025608139803264e-06,
+        "rms_a": 7.01062432796053e-05,
+        "passed": false
+      },
+      {
+        "supply": "VSS",
+        "position_um": [
+          880.0,
+          140.25
+        ],
+        "peak_a": 0.020895240145723255,
+        "mean_absolute_a": 8.96671910329777e-06,
+        "rms_a": 0.00013406469291533504,
+        "passed": false
+      },
+      {
+        "supply": "VSS",
+        "position_um": [
+          962.5,
+          594.0
+        ],
+        "peak_a": 0.012177893127312855,
+        "mean_absolute_a": 7.179799762945335e-06,
+        "rms_a": 8.13716572708746e-05,
+        "passed": false
+      },
+      {
+        "supply": "VSS",
+        "position_um": [
+          913.0,
+          143.9
+        ],
+        "peak_a": 0.020895240145779703,
+        "mean_absolute_a": 8.96671910332201e-06,
+        "rms_a": 0.0001340646929156979,
+        "passed": false
+      }
+    ],
+    "maximum_peak_a": 0.020895240145779703,
+    "maximum_rms_a": 0.0001340646929156979,
+    "worst_peak_vias": [
+      {
+        "supply": "VSS",
+        "position_um": [
+          913.0,
+          143.9
+        ],
+        "peak_a": 0.020895240145779703,
+        "mean_absolute_a": 8.96671910332201e-06,
+        "rms_a": 0.0001340646929156979,
+        "passed": false
+      },
+      {
+        "supply": "VSS",
+        "position_um": [
+          880.0,
+          140.25
+        ],
+        "peak_a": 0.020895240145723255,
+        "mean_absolute_a": 8.96671910329777e-06,
+        "rms_a": 0.00013406469291533504,
+        "passed": false
+      },
+      {
+        "supply": "VDD",
+        "position_um": [
+          918.5,
+          118.25
+        ],
+        "peak_a": 0.020288993844486274,
+        "mean_absolute_a": 8.976737759387044e-06,
+        "rms_a": 0.00013327884268387238,
+        "passed": false
+      },
+      {
+        "supply": "VSS",
+        "position_um": [
+          962.5,
+          594.0
+        ],
+        "peak_a": 0.012177893127312855,
+        "mean_absolute_a": 7.179799762945335e-06,
+        "rms_a": 8.13716572708746e-05,
+        "passed": false
+      },
+      {
+        "supply": "VDD",
+        "position_um": [
+          861.4,
+          112.7
+        ],
+        "peak_a": 0.010894636463326286,
+        "mean_absolute_a": 4.3025608139803264e-06,
+        "rms_a": 7.01062432796053e-05,
+        "passed": false
+      },
+      {
+        "supply": "VSS",
+        "position_um": [
+          948.75,
+          112.75
+        ],
+        "peak_a": 0.00762112738983601,
+        "mean_absolute_a": 6.042108137933946e-06,
+        "rms_a": 5.3145710063318216e-05,
+        "passed": true
+      },
+      {
+        "supply": "VDD",
+        "position_um": [
+          855.8,
+          108.6
+        ],
+        "peak_a": 0.00591449391385479,
+        "mean_absolute_a": 2.3347840300240625e-06,
+        "rms_a": 3.807764799328453e-05,
+        "passed": true
+      },
+      {
+        "supply": "VSS",
+        "position_um": [
+          1650.0,
+          82.5
+        ],
+        "peak_a": 0.004920686122731754,
+        "mean_absolute_a": 6.8977780565562544e-06,
+        "rms_a": 4.395258327685798e-05,
+        "passed": true
+      },
+      {
+        "supply": "VSS",
+        "position_um": [
+          1650.0,
+          154.0
+        ],
+        "peak_a": 0.004920686122731754,
+        "mean_absolute_a": 6.897778056556253e-06,
+        "rms_a": 4.395258327685799e-05,
+        "passed": true
+      },
+      {
+        "supply": "VSS",
+        "position_um": [
+          995.5,
+          528.0
+        ],
+        "peak_a": 0.004404378821201252,
+        "mean_absolute_a": 1.3402257552468705e-05,
+        "rms_a": 6.67698438634962e-05,
+        "passed": true
+      }
+    ],
+    "limits_a": {
+      "instantaneous": 0.0078,
+      "continuous": 0.00078,
+      "rms_screen": 0.00078
+    },
+    "reference": "OpenSUSI OS00 reference manual rev1.1, table I-3-3",
+    "scope": "Compare individual TC currents with the published current limits.\n\n    The 0.78 mA continuous and 7.8 mA instantaneous limits are from OS00\n    rev1.1, table I-3-3. RMS is also checked against the continuous limit as\n    a conservative heating screen. This is conditional on the explicit\n    uncalibrated sheet/via-R model, not an electromigration signoff deck.\n    "
+  },
+  "rc_checks": {
+    "passed": true,
+    "checks": 19456,
+    "failure_count": 0,
+    "failures": [],
+    "clock_branches": 21,
+    "maximum_clock_rising_skew_ns": 4.4441755482548615,
+    "minimum_clock_high_ns": 499.05396190768806,
+    "minimum_clock_low_ns": 500.47452494602476,
+    "scope": "All four BL/WL/common-line RC sections, control gate loads, and every physical clock branch."
+  },
+  "name": "final_rc_power_nominal_retry",
+  "physical_extraction": {
+    "gds_sha256": "bbae5a2e0a63d1d0304937d7a5edef00291f0db6eafc00ce3a7700bdafa9ab02",
+    "lvsdb_sha256": "ad6002d464a8119e7b0abe1c74478af4ced53859d103a0db9082284f5160a18b",
+    "mos_groups": 4877,
+    "physical_fingers": 4953,
+    "model_counts": {
+      "PMOS": 1927,
+      "NMOS": 2950,
+      "DP": 4,
+      "DN": 4
+    },
+    "source": "/home/ishi-kai/sram/build/sram512/layout/final16x32"
+  },
+  "period_ns": 1000,
+  "voltage_v": 5,
+  "temperature_c": 27,
+  "elapsed_seconds": 34.49,
+  "deck_sha256": "731e6c033920373669af9ea0413220ac78b6cf8f3ea0dafd01298c28dd492d9b",
+  "reused_waveform": true,
+  "model_notices": [
+    {
+      "model": "DN",
+      "unsupported_parameters": [
+        "imax",
+        "imelt"
+      ],
+      "consequence": "Diode current/melting limit flags are not implemented by ngspice."
+    },
+    {
+      "model": "DP",
+      "unsupported_parameters": [
+        "imax",
+        "imelt"
+      ],
+      "consequence": "Diode current/melting limit flags are not implemented by ngspice."
+    },
+    {
+      "kind": "simulation_memory_estimate",
+      "message": "Warning: memory required (3.8309 GB), made of\n       8865 nodes and approximately 58.0000e3 time steps,\n       is more than the DRAM memory available (1.3991 GB)!\n       Swapping data to SSD may slow down the simulation.",
+      "consequence": "Estimated waveform storage exceeds currently free RAM; runtime may increase."
+    }
+  ],
+  "solver": "klu",
+  "maximum_timestep_ns": 20,
+  "interconnect": {
+    "kind": "geometry-based RC sensitivity; uncalibrated coefficients",
+    "scale": 1.0,
+    "coefficients": {
+      "M1": {
+        "width_um": 1.8,
+        "sheet_ohm": 1.0,
+        "area_ff_um2": 0.05,
+        "edge_ff_um": 0.02
+      },
+      "M2": {
+        "width_um": 3.4,
+        "sheet_ohm": 1.0,
+        "area_ff_um2": 0.03,
+        "edge_ff_um": 0.02
+      },
+      "GC_field": {
+        "width_um": 1.0,
+        "sheet_ohm": 120.0,
+        "area_ff_um2": 0.05,
+        "edge_ff_um": 0.02
+      }
+    },
+    "segments": 4,
+    "assumptions": [
+      "Series square count sums all conductor branches conservatively.",
+      "Field GC excludes active overlap; intrinsic MOS gate capacitance is not added twice.",
+      "GC sheet R=120 ohm/square is an uncalibrated sensitivity assumption; it is not a qualified GC wiring coefficient.",
+      "CO contact resistance is not separately calibrated or modeled.",
+      "Capacitance is represented to ground; scale sweep also stresses coupling load.",
+      "Power-rail resistance is not included in this signal-RC model."
+    ],
+    "geometry_nets": 1960,
+    "detailed_parameters_sha256": "52b439343136d4bfbf59ef927dbd895e7028b080fd117705d93749181e7866c5",
+    "detailed_parameters_file": "/home/ishi-kai/sram/build/sram512/analog/final_rc_power_nominal_retry/wire_rc.json",
+    "clock": {
+      "branches": 21,
+      "series_sum_ohm": 86137.71265271904,
+      "cap_ff": 580.9735249999999
+    },
+    "wire_groups": {
+      "bitline": {
+        "nets": 64,
+        "resistance_ohm_range": [
+          297.88888888888886,
+          297.88888888888886
+        ],
+        "capacitance_ff_range": [
+          69.522,
+          69.522
+        ]
+      },
+      "wordline": {
+        "nets": 16,
+        "resistance_ohm_range": [
+          115311.97931991969,
+          115324.39108462556
+        ],
+        "capacitance_ff_range": [
+          219.81459999999998,
+          225.807
+        ]
+      },
+      "common": {
+        "nets": 2,
+        "resistance_ohm_range": [
+          920.7349310094409,
+          1332.1632171387073
+        ],
+        "capacitance_ff_range": [
+          325.1126,
+          483.80269999999996
+        ]
+      }
+    }
+  },
+  "supply_current_a": {
+    "max": 0.04170178614048911,
+    "time_mean": 0.00017642096417700275,
+    "rms": 0.0008947087465211082
+  }
+}

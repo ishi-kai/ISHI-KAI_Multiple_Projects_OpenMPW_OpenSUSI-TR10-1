@@ -1,0 +1,210 @@
+[
+  {
+    "top": "compact_1x1",
+    "gds_sha256": "5614e5c7ced7ca5036b61b7ef1b2ab00967b0ad6b76a45d13e8d1d7930eddb18",
+    "drc": {
+      "pass": true,
+      "items": 0,
+      "categories": {}
+    },
+    "lvs": {
+      "pass": true,
+      "circuit_pairs": [
+        "Match"
+      ],
+      "errors": []
+    }
+  },
+  {
+    "top": "compact_2x2",
+    "gds_sha256": "5614e5c7ced7ca5036b61b7ef1b2ab00967b0ad6b76a45d13e8d1d7930eddb18",
+    "drc": {
+      "pass": true,
+      "items": 0,
+      "categories": {}
+    },
+    "lvs": {
+      "pass": true,
+      "circuit_pairs": [
+        "Match"
+      ],
+      "errors": []
+    }
+  },
+  {
+    "top": "compact_4x4",
+    "gds_sha256": "5614e5c7ced7ca5036b61b7ef1b2ab00967b0ad6b76a45d13e8d1d7930eddb18",
+    "drc": {
+      "pass": true,
+      "items": 0,
+      "categories": {}
+    },
+    "lvs": {
+      "pass": true,
+      "circuit_pairs": [
+        "Match"
+      ],
+      "errors": []
+    }
+  },
+  {
+    "top": "compact_4x17",
+    "gds_sha256": "5614e5c7ced7ca5036b61b7ef1b2ab00967b0ad6b76a45d13e8d1d7930eddb18",
+    "drc": {
+      "pass": true,
+      "items": 0,
+      "categories": {}
+    },
+    "lvs": {
+      "pass": true,
+      "circuit_pairs": [
+        "Match"
+      ],
+      "errors": []
+    }
+  },
+  {
+    "top": "compact_8x8",
+    "gds_sha256": "5614e5c7ced7ca5036b61b7ef1b2ab00967b0ad6b76a45d13e8d1d7930eddb18",
+    "drc": {
+      "pass": true,
+      "items": 0,
+      "categories": {}
+    },
+    "lvs": {
+      "pass": true,
+      "circuit_pairs": [
+        "Match"
+      ],
+      "errors": []
+    }
+  },
+  {
+    "top": "compact_16x16",
+    "gds_sha256": "5614e5c7ced7ca5036b61b7ef1b2ab00967b0ad6b76a45d13e8d1d7930eddb18",
+    "drc": {
+      "pass": true,
+      "items": 0,
+      "categories": {}
+    },
+    "lvs": {
+      "pass": true,
+      "circuit_pairs": [
+        "Match"
+      ],
+      "errors": []
+    }
+  },
+  {
+    "top": "compact_16x32",
+    "gds_sha256": "5614e5c7ced7ca5036b61b7ef1b2ab00967b0ad6b76a45d13e8d1d7930eddb18",
+    "drc": {
+      "pass": true,
+      "items": 0,
+      "categories": {}
+    },
+    "lvs": {
+      "pass": true,
+      "circuit_pairs": [
+        "Match"
+      ],
+      "errors": []
+    }
+  },
+  {
+    "top": "compact_16x64",
+    "gds_sha256": "5614e5c7ced7ca5036b61b7ef1b2ab00967b0ad6b76a45d13e8d1d7930eddb18",
+    "drc": {
+      "pass": true,
+      "items": 0,
+      "categories": {}
+    },
+    "lvs": {
+      "pass": true,
+      "circuit_pairs": [
+        "Match"
+      ],
+      "errors": []
+    }
+  },
+  {
+    "top": "compact_20x76",
+    "gds_sha256": "5614e5c7ced7ca5036b61b7ef1b2ab00967b0ad6b76a45d13e8d1d7930eddb18",
+    "drc": {
+      "pass": true,
+      "items": 0,
+      "categories": {}
+    },
+    "lvs": {
+      "pass": true,
+      "circuit_pairs": [
+        "Match"
+      ],
+      "errors": []
+    }
+  },
+  {
+    "top": "compact_strap8_4x17",
+    "gds_sha256": "5614e5c7ced7ca5036b61b7ef1b2ab00967b0ad6b76a45d13e8d1d7930eddb18",
+    "drc": {
+      "pass": true,
+      "items": 0,
+      "categories": {}
+    },
+    "lvs": {
+      "pass": true,
+      "circuit_pairs": [
+        "Match"
+      ],
+      "errors": []
+    }
+  },
+  {
+    "top": "compact_strap8_16x16",
+    "gds_sha256": "5614e5c7ced7ca5036b61b7ef1b2ab00967b0ad6b76a45d13e8d1d7930eddb18",
+    "drc": {
+      "pass": true,
+      "items": 0,
+      "categories": {}
+    },
+    "lvs": {
+      "pass": true,
+      "circuit_pairs": [
+        "Match"
+      ],
+      "errors": []
+    }
+  },
+  {
+    "top": "compact_strap8_16x32",
+    "gds_sha256": "5614e5c7ced7ca5036b61b7ef1b2ab00967b0ad6b76a45d13e8d1d7930eddb18",
+    "drc": {
+      "pass": true,
+      "items": 0,
+      "categories": {}
+    },
+    "lvs": {
+      "pass": true,
+      "circuit_pairs": [
+        "Match"
+      ],
+      "errors": []
+    }
+  },
+  {
+    "top": "compact_probe_2x2",
+    "gds_sha256": "5614e5c7ced7ca5036b61b7ef1b2ab00967b0ad6b76a45d13e8d1d7930eddb18",
+    "drc": {
+      "pass": true,
+      "items": 0,
+      "categories": {}
+    },
+    "lvs": {
+      "pass": true,
+      "circuit_pairs": [
+        "Match"
+      ],
+      "errors": []
+    }
+  }
+]

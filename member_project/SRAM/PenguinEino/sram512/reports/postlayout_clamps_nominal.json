@@ -1,0 +1,110 @@
+{
+  "passed": true,
+  "checks": 3669,
+  "failure_count": 0,
+  "failures": [],
+  "read_observations": [
+    {
+      "operation": 4,
+      "row": 0,
+      "col": 0,
+      "sae_half_ns": 88016.07500759953,
+      "y_difference_v": -5.028505164251617
+    },
+    {
+      "operation": 5,
+      "row": 0,
+      "col": 31,
+      "sae_half_ns": 106015.99268946511,
+      "y_difference_v": 5.027092391738218
+    },
+    {
+      "operation": 6,
+      "row": 15,
+      "col": 0,
+      "sae_half_ns": 124015.97045248757,
+      "y_difference_v": 5.025652406978168
+    },
+    {
+      "operation": 7,
+      "row": 15,
+      "col": 31,
+      "sae_half_ns": 142016.0693889702,
+      "y_difference_v": -5.02800813958246
+    },
+    {
+      "operation": 12,
+      "row": 0,
+      "col": 0,
+      "sae_half_ns": 232015.9857293551,
+      "y_difference_v": 5.026710305096528
+    },
+    {
+      "operation": 13,
+      "row": 0,
+      "col": 31,
+      "sae_half_ns": 250016.05178920177,
+      "y_difference_v": -5.027872024613936
+    },
+    {
+      "operation": 14,
+      "row": 15,
+      "col": 0,
+      "sae_half_ns": 268016.0510887129,
+      "y_difference_v": -5.02784268277736
+    },
+    {
+      "operation": 15,
+      "row": 15,
+      "col": 31,
+      "sae_half_ns": 286015.97565514647,
+      "y_difference_v": 5.026014079636297
+    }
+  ],
+  "points": 53421,
+  "operations": 16,
+  "name": "postlayout_clamps_nominal",
+  "physical_extraction": {
+    "gds_sha256": "ed805adb64e4d5fe7ab323934d04ffab32dd944637720a5f622d8122dbfc9c92",
+    "lvsdb_sha256": "2232fa9f1e6e16b03a73a8f2d94ef8312235cc9086d56a18ce70a676ff4b691b",
+    "mos_groups": 5005,
+    "physical_fingers": 5081,
+    "model_counts": {
+      "PMOS": 1991,
+      "NMOS": 3014,
+      "DP": 4,
+      "DN": 4
+    },
+    "source": "/home/ishi-kai/sram/build/sram512/extracted_sources/ed805adb64e4d5fe7ab323934d04ffab32dd944637720a5f622d8122dbfc9c92"
+  },
+  "period_ns": 1000,
+  "voltage_v": 5,
+  "temperature_c": 27,
+  "elapsed_seconds": 0.24,
+  "deck_sha256": "7408c56a4632171762eedd84da45fabe928b0b30d158bf8178780d5bcaa0207c",
+  "reused_waveform": true,
+  "model_notices": [
+    {
+      "model": "DN",
+      "unsupported_parameters": [
+        "imax",
+        "imelt"
+      ],
+      "consequence": "Diode current/melting limit flags are not implemented by ngspice."
+    },
+    {
+      "model": "DP",
+      "unsupported_parameters": [
+        "imax",
+        "imelt"
+      ],
+      "consequence": "Diode current/melting limit flags are not implemented by ngspice."
+    }
+  ],
+  "interconnect": "Extra lumped C only; wire resistance and distributed RC not yet included",
+  "supply_current_a": {
+    "max": 0.014852332925032791,
+    "time_mean": 0.00011984807246323308,
+    "rms": 0.0008680961893480937
+  }
+}

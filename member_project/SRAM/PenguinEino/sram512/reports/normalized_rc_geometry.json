@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "nets": 1960,
+  "source_sha256": "093a8c3e0e54d8ca96608de06674892a5740746b873c456f097afa06bd63a5d0",
+  "normalized_sha256": "bbae5a2e0a63d1d0304937d7a5edef00291f0db6eafc00ce3a7700bdafa9ab02",
+  "scope": "Every net and layer area/perimeter, R and C identical after moving only the top wrapper."
+}

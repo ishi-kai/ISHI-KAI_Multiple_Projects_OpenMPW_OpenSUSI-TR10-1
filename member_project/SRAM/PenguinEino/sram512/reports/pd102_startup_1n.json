@@ -1,0 +1,365 @@
+{
+  "passed": true,
+  "checks": 32729,
+  "failure_count": 0,
+  "physical_extraction": {
+    "gds_sha256": "dee111388a5c4d3131b68772507706706d894248988ab761bf9c4070e9194e61",
+    "lvsdb_sha256": "f1beaee7f6835a3f44d2289d6006250e44fb7001ab74c59a3823f90f1be168b5",
+    "mos_groups": 4877,
+    "physical_fingers": 4953,
+    "model_counts": {
+      "PMOS": 1927,
+      "NMOS": 2950,
+      "DP": 4,
+      "DN": 4
+    },
+    "source": "/home/ishi-kai/sram/build/sram512/layout/final16x32_pd10p2"
+  },
+  "deck_sha256": "e199c24034ca9e0cb5a38102779017e58e3d6efc97c648586e87495c7df6f5fb",
+  "model_notices": [
+    {
+      "model": "DN",
+      "unsupported_parameters": [
+        "imax",
+        "imelt"
+      ],
+      "consequence": "Diode current/melting limit flags are not implemented by ngspice."
+    },
+    {
+      "model": "DP",
+      "unsupported_parameters": [
+        "imax",
+        "imelt"
+      ],
+      "consequence": "Diode current/melting limit flags are not implemented by ngspice."
+    }
+  ],
+  "functional_checks": {
+    "passed": true,
+    "checks": 587,
+    "failure_count": 0,
+    "failures": [],
+    "check_interval_ns": [
+      1500.0,
+      2000
+    ],
+    "resolved_cells": 512,
+    "initial_content_specification": "Unspecified; either complementary rail state is accepted.",
+    "supply_current_a": {
+      "maximum": 0.004086812254900067,
+      "final": 6.37077998608888e-08
+    },
+    "waveform_points": 2011
+  },
+  "voltage_limits": {
+    "passed": true,
+    "checks": 29262,
+    "failure_count": 0,
+    "failures": [],
+    "maximum_by_pair": {
+      "DS": {
+        "device": 4143,
+        "model": "NMOS",
+        "cell": "DFFR",
+        "instance": 73,
+        "pair": "DS",
+        "peak_abs_v": 5.2365911311119655,
+        "time_ns": 1005.5000000000006,
+        "position_um": [
+          1609.8,
+          457.8
+        ]
+      },
+      "GS": {
+        "device": 4810,
+        "model": "NMOS",
+        "cell": "AND2_X1",
+        "instance": 147,
+        "pair": "GS",
+        "peak_abs_v": 5.000032122287753,
+        "time_ns": 1150.5000000000114,
+        "position_um": [
+          70.9,
+          64.7
+        ]
+      },
+      "SB": {
+        "device": 3834,
+        "model": "NMOS",
+        "cell": "DFFR",
+        "instance": 64,
+        "pair": "SB",
+        "peak_abs_v": 5.000022526201851,
+        "time_ns": 1044.5000000000034,
+        "position_um": [
+          1302.2,
+          160.8
+        ]
+      },
+      "DB": {
+        "device": 4500,
+        "model": "NMOS",
+        "cell": "AND2_X1",
+        "instance": 96,
+        "pair": "DB",
+        "peak_abs_v": 5.000044546805661,
+        "time_ns": 1085.5000000000066,
+        "position_um": [
+          1350.6,
+          12.3
+        ]
+      },
+      "GD": {
+        "device": 4497,
+        "model": "PMOS",
+        "cell": "AND2_X1",
+        "instance": 96,
+        "pair": "GD",
+        "peak_abs_v": 5.000044407411767,
+        "time_ns": 1086.5000000000066,
+        "position_um": [
+          1350.6,
+          50.300000000000004
+        ]
+      },
+      "GB": {
+        "device": 4792,
+        "model": "NMOS",
+        "cell": "AND2_X1",
+        "instance": 144,
+        "pair": "GB",
+        "peak_abs_v": 5.000658285633138,
+        "time_ns": 1087.5000000000068,
+        "position_um": [
+          158.9,
+          64.7
+        ]
+      }
+    },
+    "limit_abs_v": 5.75,
+    "source": "Unmodified dev OS00 reference manual rev1.1, table I-2-3 (recommended MOS operating voltages).",
+    "scope": "Absolute terminal-pair amplitudes. This does not replace current, ESD, or statistical-corner qualification."
+  },
+  "via_currents": {
+    "passed": true,
+    "checks": 2880,
+    "physical_vias": 1440,
+    "failure_count": 0,
+    "failures": [],
+    "maximum_peak_a": 0.00246512311685182,
+    "maximum_rms_a": 0.00016142351750105107,
+    "worst_peak_vias": [
+      {
+        "supply": "VDD",
+        "position_um": [
+          918.5,
+          118.25
+        ],
+        "peak_a": 0.00246512311685182,
+        "mean_absolute_a": 6.529823707059933e-05,
+        "rms_a": 0.00016142351750105107,
+        "passed": true
+      },
+      {
+        "supply": "VSS",
+        "position_um": [
+          913.0,
+          143.9
+        ],
+        "peak_a": 0.0024365722345540512,
+        "mean_absolute_a": 5.2400718837807455e-05,
+        "rms_a": 0.00015136747518928757,
+        "passed": true
+      },
+      {
+        "supply": "VSS",
+        "position_um": [
+          880.0,
+          140.25
+        ],
+        "peak_a": 0.002436572234547474,
+        "mean_absolute_a": 5.240071883766607e-05,
+        "rms_a": 0.0001513674751888791,
+        "passed": true
+      },
+      {
+        "supply": "VSS",
+        "position_um": [
+          962.5,
+          594.0
+        ],
+        "peak_a": 0.0014671943766199646,
+        "mean_absolute_a": 3.6519966510512906e-05,
+        "rms_a": 9.515320089692181e-05,
+        "passed": true
+      },
+      {
+        "supply": "VDD",
+        "position_um": [
+          861.4,
+          112.7
+        ],
+        "peak_a": 0.0013140930983308531,
+        "mean_absolute_a": 3.450269478484687e-05,
+        "rms_a": 8.591165444162707e-05,
+        "passed": true
+      },
+      {
+        "supply": "VSS",
+        "position_um": [
+          948.75,
+          112.75
+        ],
+        "peak_a": 0.0008789450695392476,
+        "mean_absolute_a": 1.9072496003054245e-05,
+        "rms_a": 5.4774659658257544e-05,
+        "passed": true
+      },
+      {
+        "supply": "VDD",
+        "position_um": [
+          855.8,
+          108.6
+        ],
+        "peak_a": 0.0007144259615959507,
+        "mean_absolute_a": 1.905990226119419e-05,
+        "rms_a": 4.697631144831535e-05,
+        "passed": true
+      },
+      {
+        "supply": "VSS",
+        "position_um": [
+          1650.0,
+          82.5
+        ],
+        "peak_a": 0.0005909548101418349,
+        "mean_absolute_a": 1.3476797506096156e-05,
+        "rms_a": 3.740059276036501e-05,
+        "passed": true
+      },
+      {
+        "supply": "VSS",
+        "position_um": [
+          1650.0,
+          154.0
+        ],
+        "peak_a": 0.0005909548101418332,
+        "mean_absolute_a": 1.3476797506096017e-05,
+        "rms_a": 3.740059276036476e-05,
+        "passed": true
+      },
+      {
+        "supply": "VDD",
+        "position_um": [
+          984.5,
+          9.9
+        ],
+        "peak_a": 0.0005107372846594757,
+        "mean_absolute_a": 1.4380764786222478e-05,
+        "rms_a": 3.4105994263536465e-05,
+        "passed": true
+      }
+    ],
+    "limits_a": {
+      "instantaneous": 0.0078,
+      "continuous": 0.00078,
+      "rms_screen": 0.00078
+    },
+    "reference": "OpenSUSI OS00 reference manual rev1.1, table I-3-3",
+    "scope": "Compare individual TC currents with the published current limits.\n\n    The 0.78 mA continuous and 7.8 mA instantaneous limits are from OS00\n    rev1.1, table I-3-3. RMS is also checked against the continuous limit as\n    a conservative heating screen. This is conditional on the explicit\n    uncalibrated sheet/via-R model, not an electromigration signoff deck.\n    "
+  },
+  "maximum_timestep_ns": 1.0,
+  "supply_ramp_ns": 1000,
+  "stop_ns": 2000,
+  "voltage_v": 5,
+  "temperature_c": 27,
+  "solver": "sparse",
+  "integration_method": "gear2",
+  "simulator_threads": 1,
+  "interconnect": {
+    "kind": "geometry-based RC sensitivity; uncalibrated coefficients",
+    "scale": 1,
+    "coefficients": {
+      "M1": {
+        "width_um": 1.8,
+        "sheet_ohm": 1.0,
+        "area_ff_um2": 0.05,
+        "edge_ff_um": 0.02
+      },
+      "M2": {
+        "width_um": 3.4,
+        "sheet_ohm": 1.0,
+        "area_ff_um2": 0.03,
+        "edge_ff_um": 0.02
+      },
+      "GC_field": {
+        "width_um": 1.0,
+        "sheet_ohm": 120.0,
+        "area_ff_um2": 0.05,
+        "edge_ff_um": 0.02
+      }
+    },
+    "segments": 4,
+    "assumptions": [
+      "BL/WL/common lines retain the series-sum stress model; other gate branches use real shortest resistive paths as two-terminal resistance bounds.",
+      "Field GC excludes active overlap; intrinsic MOS gate capacitance is not added twice.",
+      "GC sheet R=120 ohm/square is an uncalibrated sensitivity assumption; it is not a qualified GC wiring coefficient.",
+      "CO contact resistance is not separately calibrated or modeled.",
+      "Capacitance is represented to ground; scale sweep also stresses coupling load.",
+      "Power-rail resistance is not included in this signal-RC model."
+    ],
+    "geometry_nets": 1960,
+    "detailed_parameters_sha256": "6371cc1866434b7f6c30aba567ccc92d4ab6730e5da35367a5f5850d60501db3",
+    "detailed_parameters_file": "/home/ishi-kai/sram/build/sram512/analog/pd102_startup_1n/wire_rc.json",
+    "clock": {
+      "branches": 21,
+      "series_sum_ohm": 86137.71265271904,
+      "cap_ff": 580.9735249999999
+    },
+    "wire_groups": {
+      "bitline": {
+        "nets": 64,
+        "resistance_ohm_range": [
+          299.41049382716045,
+          299.41049382716045
+        ],
+        "capacitance_ff_range": [
+          69.8425,
+          69.8425
+        ]
+      },
+      "wordline": {
+        "nets": 16,
+        "resistance_ohm_range": [
+          115311.97931991969,
+          115324.39108462556
+        ],
+        "capacitance_ff_range": [
+          219.81459999999998,
+          225.807
+        ]
+      },
+      "common": {
+        "nets": 2,
+        "resistance_ohm_range": [
+          974.2858569353668,
+          1388.799019607843
+        ],
+        "capacitance_ff_range": [
+          336.20185,
+          494.9537
+        ]
+      }
+    }
+  },
+  "power_model_sha256": "f83eea0fc4b3809ec8799757184fe428acc2d53472fb665f2f6e8a584358914d",
+  "power_model": {
+    "sheet_ohm": 0.1,
+    "via_ohm": 1.0,
+    "grid_um": 0.25,
+    "scope": "Width-aware supply resistance sensitivity on the actual metal topology.\n\nMetal polygons are sampled on a stated grid, reduced to their medial paths,\nand assigned R = sheet_R * path_length / local_width. Local width uses the\ninside distance transform minus one sampling interval. Series-only nodes are\neliminated exactly; branches, loops, every actual via, and load taps remain.\nThis is an explicit numerical sensitivity model, not a foundry PEX deck.\nIt improves on the earlier whole-polygon perimeter proxy without replacing\nthat failed experiment or changing any circuit/DRC/LVS acceptance criterion.\n"
+  },
+  "elapsed_seconds": 191.06,
+  "reused_waveform": false,
+  "scope": "Full extracted 16x32 circuit, signal RC x1, actual gate paths and width-aware supply mesh. RESET follows the 1 us supply ramp and stays asserted; no clocks or memory operations. No initial conditions are imposed."
+}

@@ -1,0 +1,52 @@
+* Created by KLayout
+*** My special header ***
+
+* cell opamp_cat_nekonekone
+* pin ib
+* pin out
+* pin vdd
+* pin vinn
+* pin vinp
+* pin vss
+.SUBCKT opamp_cat_nekonekone ib out vdd vinn vinp vss
+* device instance $1 r0 *1 -174,-246.5 PMOS
+XM$1 vdd vdd \$285 vdd PMOS L=5u W=100u AS=182.5p AD=150p PS=139.6u PD=112u
+* device instance $2 r0 *1 -166,-246.5 PMOS
+XM$2 \$285 vinn \$183 vdd PMOS L=5u W=300u AS=450p AD=450p PS=336u PD=336u
+* device instance $4 r0 *1 -150,-246.5 PMOS
+XM$4 \$285 vinp \$2 vdd PMOS L=5u W=300u AS=450p AD=450p PS=336u PD=336u
+* device instance $29 r0 *1 50,-246.5 PMOS
+XM$29 vdd ib out vdd PMOS L=5u W=800u AS=1200p AD=1200p PS=896u PD=896u
+* device instance $43 r0 *1 162,-246.5 PMOS
+XM$43 vdd vdd vdd vdd PMOS L=5u W=100u AS=182.5p AD=215p PS=139.6u PD=167.2u
+* device instance $45 r0 *1 -166,-206.5 PMOS
+XM$45 vdd ib \$285 vdd PMOS L=5u W=400u AS=600p AD=600p PS=448u PD=448u
+* device instance $49 r0 *1 -134,-206.5 PMOS
+XM$49 vdd vdd \$53 vdd PMOS L=5u W=50u AS=75p AD=75p PS=56u PD=56u
+* device instance $50 r0 *1 -126,-206.5 PMOS
+XM$50 \$53 ib vdd vdd PMOS L=5u W=50u AS=75p AD=75p PS=56u PD=56u
+* device instance $55 r0 *1 -86,-206.5 PMOS
+XM$55 vdd ib ib vdd PMOS L=5u W=25u AS=37.5p AD=37.5p PS=28u PD=28u
+* device instance $56 r0 *1 -78,-206.5 PMOS
+XM$56 ib vdd vdd vdd PMOS L=5u W=25u AS=37.5p AD=37.5p PS=28u PD=28u
+* device instance $87 r0 *1 -174,-354 NMOS
+XM$87 vss vss vss vss NMOS L=5u W=600u AS=965p AD=965p PS=727.2u PD=727.2u
+* device instance $100 r0 *1 -70,-354 NMOS
+XM$100 vss \$18 \$18 vss NMOS L=5u W=50u AS=75p AD=75p PS=56u PD=56u
+* device instance $101 r0 *1 -62,-354 NMOS
+XM$101 \$18 \$53 \$53 vss NMOS L=5u W=50u AS=75p AD=75p PS=56u PD=56u
+* device instance $105 r0 *1 -30,-354 NMOS
+XM$105 vss vss \$2 vss NMOS L=5u W=50u AS=75p AD=75p PS=56u PD=56u
+* device instance $106 r0 *1 -22,-354 NMOS
+XM$106 \$2 \$53 \$128 vss NMOS L=5u W=100u AS=150p AD=150p PS=112u PD=112u
+* device instance $111 r0 *1 18,-354 NMOS
+XM$111 vss vss out vss NMOS L=5u W=50u AS=75p AD=75p PS=56u PD=56u
+* device instance $112 r0 *1 26,-354 NMOS
+XM$112 out \$2 vss vss NMOS L=5u W=850u AS=1275p AD=1275p PS=952u PD=952u
+* device instance $135 r0 *1 -134,-314 NMOS
+XM$135 vss \$183 \$183 vss NMOS L=5u W=200u AS=300p AD=300p PS=224u PD=224u
+* device instance $137 r0 *1 -118,-314 NMOS
+XM$137 vss \$183 \$2 vss NMOS L=5u W=200u AS=300p AD=300p PS=224u PD=224u
+* device instance $173 r90 *1 247.4,-324.6 F_CSIO
+XC$173 \$128 out vss F_CSIO C=4.9536e-12 A=8256p P=364u X=86 Y=96 m=4
+.ENDS opamp_cat_nekonekone

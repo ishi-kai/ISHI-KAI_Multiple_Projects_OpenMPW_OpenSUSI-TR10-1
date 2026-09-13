@@ -1,0 +1,158 @@
+{
+  "passed": true,
+  "checks": 5551,
+  "failure_count": 0,
+  "failures": [],
+  "read_observations": [
+    {
+      "operation": 1,
+      "row": 0,
+      "col": 0,
+      "sae_half_ns": 170091.96707790633,
+      "y_difference_v": -4.503870888635056
+    },
+    {
+      "operation": 3,
+      "row": 0,
+      "col": 0,
+      "sae_half_ns": 350092.37455192424,
+      "y_difference_v": 4.503954000206266
+    }
+  ],
+  "points": 21155,
+  "operations": 4,
+  "rc_checks": {
+    "passed": true,
+    "checks": 4864,
+    "failure_count": 0,
+    "failures": [],
+    "clock_branches": 21,
+    "maximum_clock_rising_skew_ns": 18.852986955767847,
+    "minimum_clock_high_ns": 2497.0998360560043,
+    "minimum_clock_low_ns": 2502.6341430854227,
+    "scope": "All four BL/WL/common-line RC sections, control gate loads, and every physical clock branch."
+  },
+  "name": "pd102_rc3_addr0_5us",
+  "physical_extraction": {
+    "gds_sha256": "dee111388a5c4d3131b68772507706706d894248988ab761bf9c4070e9194e61",
+    "lvsdb_sha256": "f1beaee7f6835a3f44d2289d6006250e44fb7001ab74c59a3823f90f1be168b5",
+    "mos_groups": 4877,
+    "physical_fingers": 4953,
+    "model_counts": {
+      "PMOS": 1927,
+      "NMOS": 2950,
+      "DP": 4,
+      "DN": 4
+    },
+    "source": "/home/ishi-kai/sram/build/sram512/layout/final16x32_pd10p2"
+  },
+  "period_ns": 5000.0,
+  "voltage_v": 4.5,
+  "temperature_c": 85.0,
+  "elapsed_seconds": 236.79,
+  "deck_sha256": "1d04092d9731450e62c43425b862cd5f41fd4bc517a1504adcc8da6ab8fe7963",
+  "reused_waveform": false,
+  "model_notices": [
+    {
+      "model": "DN",
+      "unsupported_parameters": [
+        "imax",
+        "imelt"
+      ],
+      "consequence": "Diode current/melting limit flags are not implemented by ngspice."
+    },
+    {
+      "model": "DP",
+      "unsupported_parameters": [
+        "imax",
+        "imelt"
+      ],
+      "consequence": "Diode current/melting limit flags are not implemented by ngspice."
+    }
+  ],
+  "solver": "klu",
+  "maximum_timestep_ns": 100.0,
+  "physical_gate_paths": false,
+  "startup_ramp_ns": 0,
+  "interconnect": {
+    "kind": "geometry-based RC sensitivity; uncalibrated coefficients",
+    "scale": 3.0,
+    "coefficients": {
+      "M1": {
+        "width_um": 1.8,
+        "sheet_ohm": 1.0,
+        "area_ff_um2": 0.05,
+        "edge_ff_um": 0.02
+      },
+      "M2": {
+        "width_um": 3.4,
+        "sheet_ohm": 1.0,
+        "area_ff_um2": 0.03,
+        "edge_ff_um": 0.02
+      },
+      "GC_field": {
+        "width_um": 1.0,
+        "sheet_ohm": 120.0,
+        "area_ff_um2": 0.05,
+        "edge_ff_um": 0.02
+      }
+    },
+    "segments": 4,
+    "assumptions": [
+      "Series square count sums all conductor branches conservatively.",
+      "Field GC excludes active overlap; intrinsic MOS gate capacitance is not added twice.",
+      "GC sheet R=120 ohm/square is an uncalibrated sensitivity assumption; it is not a qualified GC wiring coefficient.",
+      "CO contact resistance is not separately calibrated or modeled.",
+      "Capacitance is represented to ground; scale sweep also stresses coupling load.",
+      "Power-rail resistance is not included in this signal-RC model."
+    ],
+    "geometry_nets": 1960,
+    "detailed_parameters_sha256": "4a6a38a894c73fff4527b090c220f19df1398a83a55db80e3fcb3802bf5ac0dc",
+    "detailed_parameters_file": "/home/ishi-kai/sram/build/sram512/analog/pd102_rc3_addr0_5us/wire_rc.json",
+    "clock": {
+      "branches": 21,
+      "series_sum_ohm": 258413.1379581571,
+      "cap_ff": 1742.9205749999996
+    },
+    "wire_groups": {
+      "bitline": {
+        "nets": 64,
+        "resistance_ohm_range": [
+          898.2314814814813,
+          898.2314814814813
+        ],
+        "capacitance_ff_range": [
+          209.5275,
+          209.5275
+        ]
+      },
+      "wordline": {
+        "nets": 16,
+        "resistance_ohm_range": [
+          345935.93795975903,
+          345973.1732538767
+        ],
+        "capacitance_ff_range": [
+          659.4438,
+          677.4209999999999
+        ]
+      },
+      "common": {
+        "nets": 2,
+        "resistance_ohm_range": [
+          2922.8575708061007,
+          4166.39705882353
+        ],
+        "capacitance_ff_range": [
+          1008.60555,
+          1484.8611
+        ]
+      }
+    }
+  },
+  "supply_current_a": {
+    "max": 0.006332535725513726,
+    "time_mean": 5.4406804678310543e-05,
+    "rms": 0.0003557467118980806
+  }
+}

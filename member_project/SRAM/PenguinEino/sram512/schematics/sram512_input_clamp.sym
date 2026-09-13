@@ -1,0 +1,17 @@
+v {xschem version=3.4.8RC file_version=1.3}
+K {type=subcircuit
+format="@name @pinlist @symname"
+template="name=x1"
+}
+P 4 5 -80 -100 80 -100 80 100 -80 100 -80 -100 {}
+T {sram512_input_clamp} -60 -20 0 0 0.3 0.3 {}
+T {@name} 0 -130 0 0 0.2 0.2 {}
+B 5 -102.5 -2.5 -97.5 2.5 {name=IN dir=inout}
+L 4 -100 0 -80 0 {}
+T {IN} -70 -5 0 0 0.2 0.2 {}
+B 5 -2.5 -122.5 2.5 -117.5 {name=VDD dir=inout}
+L 4 0 -120 0 -100 {}
+T {VDD} 8 -92 0 0 0.2 0.2 {}
+B 5 -2.5 117.5 2.5 122.5 {name=VSS dir=inout}
+L 4 0 120 0 100 {}
+T {VSS} 8 95 0 0 0.2 0.2 {}

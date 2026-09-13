@@ -1,0 +1,167 @@
+{
+  "envelope_um": [
+    600,
+    1800
+  ],
+  "scope": "One rectangular array, both orientations, rows and columns 1..100, 16-column tap period; includes GDS taps and power straps, excludes peripheral circuits/pads.",
+  "designs": {
+    "baseline": {
+      "pitch_um": [
+        21.2,
+        34.0
+      ],
+      "cell_area_um2": 720.8,
+      "array_1024_um": [
+        1461.6,
+        547.4
+      ],
+      "array_1024_area_um2": 800079.84,
+      "best_by_orientation": [
+        {
+          "rows": 52,
+          "cols": 25,
+          "bits": 1300,
+          "width_um": 582.4,
+          "height_um": 1771.4,
+          "rotated": false
+        },
+        {
+          "rows": 17,
+          "cols": 78,
+          "bits": 1326,
+          "width_um": 1784.6,
+          "height_um": 588.0,
+          "rotated": true
+        }
+      ],
+      "best": {
+        "rows": 17,
+        "cols": 78,
+        "bits": 1326,
+        "width_um": 1784.6,
+        "height_um": 588.0,
+        "rotated": true
+      }
+    },
+    "baseline_shared": {
+      "pitch_um": [
+        21.2,
+        34.0
+      ],
+      "cell_area_um2": 720.8,
+      "array_1024_um": [
+        1426.2,
+        547.4
+      ],
+      "array_1024_area_um2": 780701.88,
+      "best_by_orientation": [
+        {
+          "rows": 52,
+          "cols": 26,
+          "bits": 1352,
+          "width_um": 591.8,
+          "height_um": 1771.4,
+          "rotated": false
+        },
+        {
+          "rows": 17,
+          "cols": 80,
+          "bits": 1360,
+          "width_um": 1779.8,
+          "height_um": 588.0,
+          "rotated": true
+        }
+      ],
+      "best": {
+        "rows": 17,
+        "cols": 80,
+        "bits": 1360,
+        "width_um": 1779.8,
+        "height_um": 588.0,
+        "rotated": true
+      }
+    },
+    "euler": {
+      "pitch_um": [
+        23.2,
+        29.6
+      ],
+      "cell_area_um2": 686.72,
+      "array_1024_um": [
+        1646.6,
+        473.6
+      ],
+      "array_1024_area_um2": 779829.76,
+      "best_by_orientation": [
+        {
+          "rows": 60,
+          "cols": 22,
+          "bits": 1320,
+          "width_um": 593.0,
+          "height_um": 1776.0,
+          "rotated": false
+        },
+        {
+          "rows": 20,
+          "cols": 68,
+          "bits": 1360,
+          "width_um": 1779.0,
+          "height_um": 592.0,
+          "rotated": true
+        }
+      ],
+      "best": {
+        "rows": 20,
+        "cols": 68,
+        "bits": 1360,
+        "width_um": 1779.0,
+        "height_um": 592.0,
+        "rotated": true
+      }
+    },
+    "euler_shared": {
+      "pitch_um": [
+        23.2,
+        29.6
+      ],
+      "cell_area_um2": 686.72,
+      "array_1024_um": [
+        1591.4,
+        473.6
+      ],
+      "array_1024_area_um2": 753687.04,
+      "best_by_orientation": [
+        {
+          "rows": 60,
+          "cols": 23,
+          "bits": 1380,
+          "width_um": 597.8,
+          "height_um": 1776.0,
+          "rotated": false
+        },
+        {
+          "rows": 20,
+          "cols": 72,
+          "bits": 1440,
+          "width_um": 1798.2,
+          "height_um": 592.0,
+          "rotated": true
+        }
+      ],
+      "best": {
+        "rows": 20,
+        "cols": 72,
+        "bits": 1440,
+        "width_um": 1798.2,
+        "height_um": 592.0,
+        "rotated": true
+      }
+    }
+  },
+  "improvement": {
+    "cell_area_reduction_percent": 4.728079911209759,
+    "cell_density_increase_percent": 4.962721342031684,
+    "array_1024_area_reduction_percent": 5.798521307573501,
+    "capacity_increase_percent": 8.597285067873294
+  }
+}

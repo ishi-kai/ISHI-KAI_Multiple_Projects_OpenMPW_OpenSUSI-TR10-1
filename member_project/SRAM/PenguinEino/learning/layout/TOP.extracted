@@ -1,0 +1,25 @@
+* Created by KLayout
+*** My special header ***
+
+* cell TOP
+* pin BL
+* pin BL
+* pin GND
+* pin GND
+* pin VSS
+* pin WL
+* pin WL
+.SUBCKT TOP BL BL$1 GND GND$1 VSS WL WL$1
+* device instance $1 r270 *1 3.1,2.5 PMOS
+XM$1 \$10 \$9 \$I13 \$8 PMOS L=1u W=3.4u AS=9.52p AD=9.52p PS=12.4u PD=12.4u
+* device instance $2 r90 *1 8.8,8.5 PMOS
+XM$2 \$9 \$10 \$I14 \$8 PMOS L=1u W=3.4u AS=9.52p AD=9.52p PS=12.4u PD=12.4u
+* device instance $3 r270 *1 -17.3,6.5 NMOS
+XM$3 BL WL \$10 VSS NMOS L=1u W=3.4u AS=9.52p AD=5.1p PS=12.4u PD=6.4u
+* device instance $4 r270 *1 -17.3,2.5 NMOS
+XM$4 \$10 \$9 GND$1 VSS NMOS L=1u W=3.4u AS=5.1p AD=9.52p PS=6.4u PD=12.4u
+* device instance $5 r270 *1 29.2,8.5 NMOS
+XM$5 GND \$10 \$9 VSS NMOS L=1u W=3.4u AS=9.52p AD=5.1p PS=12.4u PD=6.4u
+* device instance $6 r270 *1 29.2,4.5 NMOS
+XM$6 \$9 WL$1 BL$1 VSS NMOS L=1u W=3.4u AS=5.1p AD=9.52p PS=6.4u PD=12.4u
+.ENDS TOP

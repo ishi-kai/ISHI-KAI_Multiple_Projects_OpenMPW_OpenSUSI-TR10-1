@@ -1,0 +1,20 @@
+{
+  "schema": 1,
+  "upstream": "https://github.com/OpenSUSI/TR-1um.git",
+  "default_profile": "dev",
+  "profiles": {
+    "original": {
+      "path": ".pdk/original/TR-1um",
+      "source": "/home/ishi-kai/pdk/TR-1um",
+      "revision": "c5bcc378c1c3d041fef6cc15e70d173bb80dcedb",
+      "revision_note": "Installed source was v1.2609.0; the file tree digest defines the actual baseline.",
+      "tree_sha256": "5d57a9a0ace0031359724a88807e0296c7e68bcb47ea386667aa7b3e9de84d8a"
+    },
+    "dev": {
+      "path": ".pdk/dev/TR-1um",
+      "branch": "dev",
+      "revision": "6afbd918951f2ea0dcd11c5a46986b4c20f9e6f9",
+      "tree_sha256": "39d402dcc9ac40ed6c217a140369e116fd512b138503152b2cf3f1c0c6ec9e03"
+    }
+  }
+}

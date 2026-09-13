@@ -1,0 +1,29 @@
+{
+  "passed": true,
+  "source_gds_sha256": "dee111388a5c4d3131b68772507706706d894248988ab761bf9c4070e9194e61",
+  "runs": [
+    {
+      "name": "pd102_startup_5n",
+      "deck_sha256": "505c8436c61ed9e0b058beabd2b400bd35fcac9ef4037fe2cbffd21bc6e73bcf",
+      "maximum_timestep_ns": 5,
+      "checks": 32729
+    },
+    {
+      "name": "pd102_startup_1n",
+      "deck_sha256": "e199c24034ca9e0cb5a38102779017e58e3d6efc97c648586e87495c7df6f5fb",
+      "maximum_timestep_ns": 1.0,
+      "checks": 32729
+    }
+  ],
+  "maximum_mos_terminal_voltage_v": [
+    5.233033438000327,
+    5.2365911311119655
+  ],
+  "maximum_via_instantaneous_current_a": [
+    0.0024197056036241904,
+    0.00246512311685182
+  ],
+  "voltage_peak_difference_v": 0.003557693111638116,
+  "via_peak_difference_a": 4.541751322762952e-05,
+  "scope": "Both complete startup runs independently pass the same functional, voltage and current limits. Only maximum time step differs; peak differences are reported, not used to relax any acceptance limit."
+}

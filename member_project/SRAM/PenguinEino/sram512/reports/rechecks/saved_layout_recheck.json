@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "test": "saved_layout_recheck",
+  "base_report_sha256": "25462db4ce62dfd2c06237280b8321d83444081a7b8cab73de4cfaedef367d12",
+  "reviewed_commit": "7dae978",
+  "simulation_code_unchanged": true,
+  "scope": "Dependency reassessment: no access waveform checker is used by this geometry/startup/comparison test. All original executed functions and inputs are unchanged."
+}

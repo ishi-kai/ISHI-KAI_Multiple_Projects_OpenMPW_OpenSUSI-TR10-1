@@ -1,0 +1,33 @@
+{
+  "pitch_um": [
+    52.6,
+    21.2
+  ],
+  "core_area_um2": 1115.12,
+  "arrays": {
+    "t4_dualwl_1x1": {
+      "bits": 1,
+      "width_um": 62.300000000000004,
+      "height_um": 54.5,
+      "area_um2": 3395.3500000000004
+    },
+    "t4_dualwl_2x2": {
+      "bits": 4,
+      "width_um": 114.9,
+      "height_um": 75.7,
+      "area_um2": 8697.93
+    },
+    "t4_dualwl_4x4": {
+      "bits": 16,
+      "width_um": 220.1,
+      "height_um": 118.10000000000001,
+      "area_um2": 25993.81
+    },
+    "t4_dualwl_16x16": {
+      "bits": 256,
+      "width_um": 851.3000000000001,
+      "height_um": 372.5,
+      "area_um2": 317109.25
+    }
+  }
+}

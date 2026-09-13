@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "source_gds_sha256": "56810ad742a73036fb9db5207c75a2fcd63d344833c17da5f6270f1dc128bca1",
+  "source_case_report_sha256": "a9561c8f447933fed62e8b36226df402276e5cf5ea333d3c4681205c23834f46",
+  "matched_fields": [
+    "passed",
+    "checks",
+    "failure_count",
+    "voltage_limits",
+    "via_currents",
+    "signal_mesh_checks",
+    "all_cell_retention",
+    "rc_checks",
+    "supply_current_a",
+    "deck_sha256"
+  ],
+  "scope": "Isolated output folder only; original complete waveform is read unchanged. Default-case electrical deck is byte-identical, and all circuit checks match exactly after adding the explicit reset scenario interface.",
+  "implementation_sha256": "4639da9775c5b4b50f71c40e65bb3d4375e3e3fb449b5917f53b839d2edd2b8c"
+}

@@ -1,0 +1,19 @@
+{
+  "runs": [
+    {
+      "name": "pd102_signal_mesh4_prefix",
+      "source_gds_sha256": "dee111388a5c4d3131b68772507706706d894248988ab761bf9c4070e9194e61",
+      "passed": false,
+      "window_wl_peak_v": 0.6368489448223463,
+      "window_max_vgb_v": 6.1043125855802325
+    },
+    {
+      "name": "signalfix_mesh4_prefix",
+      "source_gds_sha256": "f32c213db5efaa09449b3c8db709c2b547bae09c6fe011f1eb284dda8342eff2",
+      "passed": true,
+      "window_wl_peak_v": 0.3995649959333024,
+      "window_max_vgb_v": 5.724146741311978
+    }
+  ],
+  "image_sha256": "30aaac21517de8d017963dd6d15c0599f13f3b5886f535c7e74b6bb7d72188ba"
+}

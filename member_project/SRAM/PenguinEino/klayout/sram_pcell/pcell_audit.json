@@ -1,0 +1,175 @@
+{
+  "passed": true,
+  "gds_sha256": "f944f38ff126069695ffe2fc5a6664aeb931f32faacf0c93b4a2b414cf431b51",
+  "dbu_um": 0.049999999999999996,
+  "stored_geometry_checked_before_library_registration": true,
+  "library": "TR-1um",
+  "core_mos_instances": {
+    "fet_n": 4,
+    "fet_p": 2
+  },
+  "parent_active_area_um2": 0,
+  "gate_area_xor_um2": 0,
+  "variants": [
+    {
+      "cell": "fet_n",
+      "library": "TR-1um",
+      "declaration": "fet_n",
+      "parameters": {
+        "cont_between_gates": true,
+        "l": 1.0,
+        "n": 1,
+        "type": "NFET",
+        "w": 3.4,
+        "y0": "c"
+      },
+      "geometry_xor_um2": {
+        "(8, 1)": 0.0,
+        "(11, 0)": 0.0,
+        "(3, 1)": 0.0,
+        "(49, 0)": 0.0,
+        "(13, 0)": 0.0,
+        "(19, 0)": 0.0,
+        "(20, 0)": 0.0,
+        "(140, 0)": 0.0,
+        "(48, 0)": 0.0,
+        "(3, 2)": 0.0
+      }
+    },
+    {
+      "cell": "fet_p",
+      "library": "TR-1um",
+      "declaration": "fet_p",
+      "parameters": {
+        "cont_between_gates": true,
+        "l": 1.0,
+        "n": 1,
+        "type": "PFET",
+        "w": 3.4,
+        "y0": "c"
+      },
+      "geometry_xor_um2": {
+        "(8, 1)": 0.0,
+        "(11, 0)": 0.0,
+        "(3, 1)": 0.0,
+        "(49, 0)": 0.0,
+        "(13, 0)": 0.0,
+        "(19, 0)": 0.0,
+        "(20, 0)": 0.0,
+        "(140, 0)": 0.0,
+        "(48, 0)": 0.0,
+        "(3, 2)": 0.0
+      }
+    },
+    {
+      "cell": "via_1",
+      "library": "TR-1um",
+      "declaration": "via_1",
+      "parameters": {
+        "x": 3.4,
+        "x0": "c",
+        "y": 3.4,
+        "y0": "c"
+      },
+      "geometry_xor_um2": {
+        "(8, 1)": 0.0,
+        "(11, 0)": 0.0,
+        "(3, 1)": 0.0,
+        "(49, 0)": 0.0,
+        "(13, 0)": 0.0,
+        "(19, 0)": 0.0,
+        "(20, 0)": 0.0,
+        "(140, 0)": 0.0,
+        "(48, 0)": 0.0,
+        "(3, 2)": 0.0
+      }
+    },
+    {
+      "cell": "cont_g",
+      "library": "TR-1um",
+      "declaration": "cont_g",
+      "parameters": {
+        "x": 2.6,
+        "x0": "c",
+        "y": 2.6,
+        "y0": "c"
+      },
+      "geometry_xor_um2": {
+        "(8, 1)": 0.0,
+        "(11, 0)": 0.0,
+        "(3, 1)": 0.0,
+        "(49, 0)": 0.0,
+        "(13, 0)": 0.0,
+        "(19, 0)": 0.0,
+        "(20, 0)": 0.0,
+        "(140, 0)": 0.0,
+        "(48, 0)": 0.0,
+        "(3, 2)": 0.0
+      }
+    },
+    {
+      "cell": "cont_n",
+      "library": "TR-1um",
+      "declaration": "cont_n",
+      "parameters": {
+        "hole": false,
+        "x": 2.6,
+        "x0": "c",
+        "y": 2.6,
+        "y0": "c"
+      },
+      "geometry_xor_um2": {
+        "(8, 1)": 0.0,
+        "(11, 0)": 0.0,
+        "(3, 1)": 0.0,
+        "(49, 0)": 0.0,
+        "(13, 0)": 0.0,
+        "(19, 0)": 0.0,
+        "(20, 0)": 0.0,
+        "(140, 0)": 0.0,
+        "(48, 0)": 0.0,
+        "(3, 2)": 0.0
+      }
+    },
+    {
+      "cell": "cont_p",
+      "library": "TR-1um",
+      "declaration": "cont_p",
+      "parameters": {
+        "hole": false,
+        "x": 2.6,
+        "x0": "c",
+        "y": 2.6,
+        "y0": "c"
+      },
+      "geometry_xor_um2": {
+        "(8, 1)": 0.0,
+        "(11, 0)": 0.0,
+        "(3, 1)": 0.0,
+        "(49, 0)": 0.0,
+        "(13, 0)": 0.0,
+        "(19, 0)": 0.0,
+        "(20, 0)": 0.0,
+        "(140, 0)": 0.0,
+        "(48, 0)": 0.0,
+        "(3, 2)": 0.0
+      }
+    }
+  ],
+  "round_trip_parameters_match": true,
+  "extracted_mos_count": 6,
+  "extracted_sha256": "01f68d71e8e2bc382ee59717d90135885f18a00df1f87c669f854688e86b2908",
+  "pdk_source_sha256": {
+    "/home/ishi-kai/pdk/TR-1um/libs.tech/klayout/tech/python/.gitkeep": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "/home/ishi-kai/pdk/TR-1um/libs.tech/klayout/tech/python/cells/__init__.py": "d8784e93941e9964282cbf049c11764af32ca684510eaa2f9e6e5b44d3282719",
+    "/home/ishi-kai/pdk/TR-1um/libs.tech/klayout/tech/python/cells/capacitor.py": "bedb019afe56876ccd3551b6c1188e88f05173825b527fe70bbed07662fe24ff",
+    "/home/ishi-kai/pdk/TR-1um/libs.tech/klayout/tech/python/cells/cont.py": "562fd67fc7584a9e8b2d2d004c6fd683d4da4c192d48369abedc21a3b09df6b6",
+    "/home/ishi-kai/pdk/TR-1um/libs.tech/klayout/tech/python/cells/diode.py": "e037d2c99a1ae43ff04ee455ab6fd97a8ba655daf0695247bcbcc22125b41ea5",
+    "/home/ishi-kai/pdk/TR-1um/libs.tech/klayout/tech/python/cells/fet.py": "b337521437b00de0c1b29037e0e0735ee9fbaece1a175a29e5c0473b48ec7323",
+    "/home/ishi-kai/pdk/TR-1um/libs.tech/klayout/tech/python/cells/layers_def.py": "25e6a72cf929620d41a89f1e5c2a2819941ce70c76dd7f86c0e335d6aa9d93a4",
+    "/home/ishi-kai/pdk/TR-1um/libs.tech/klayout/tech/python/cells/resistor.py": "ab7be658a5d05d0cd2c44f2aec24591a191848fe7bc91072ca150cb51770494f",
+    "/home/ishi-kai/pdk/TR-1um/libs.tech/klayout/tech/python/cells/rules_def.py": "10b9b114853ea0cdd5572a67026e5555ed09c2452dc47bdbf12411937cb21537",
+    "/home/ishi-kai/pdk/TR-1um/libs.tech/klayout/tech/python/cells/util.py": "f00041f08412398f7f673faaf0fd75d6c50ea7424197f5674375182c32f9e3db",
+    "/home/ishi-kai/pdk/TR-1um/libs.tech/klayout/tech/python/cells/via.py": "98db2a38e96273f13bd1d211a46a57b3fb36f7d04a79272ce0a782400d781f34"
+  }
+}
