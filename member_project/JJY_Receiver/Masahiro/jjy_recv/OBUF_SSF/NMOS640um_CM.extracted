@@ -1,0 +1,13 @@
+* Created by KLayout
+*** My special header ***
+
+* cell NMOS640um_CM
+* pin VSS
+.SUBCKT NMOS640um_CM VSS
+* device instance $1 r0 *1 9.4,78 NMOS
+XM$1 VSS VSS VSS VSS NMOS L=2u W=60u AS=116p AD=142p PS=103.2u PD=128.4u
+* device instance $2 r0 *1 14.4,78 NMOS
+XM$2 VSS \$6 \$10 VSS NMOS L=2u W=640u AS=960p AD=960p PS=832u PD=832u
+* device instance $19 r0 *1 9.4,57.2 NMOS
+XM$19 \$6 \$6 VSS VSS NMOS L=2u W=20u AS=56p AD=30p PS=51.2u PD=26u
+.ENDS NMOS640um_CM

@@ -1,0 +1,8 @@
+** sch_path: /home/ishi-kai/Projects/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/member_project/JJY_Receiver/Masahiro/jjy_recv/OBUF_SSF/PMOSCM.sch
+.subckt PMOSCM VDD
+*.PININFO VDD:I
+MM4 net1 net2 VDD VDD PMOS w=10u l=2u m=16
+MM9 net2 net2 VDD VDD PMOS w=10u l=2u m=2
+MM10 net3 net2 VDD VDD PMOS w=10u l=2u m=2
+MM1 VDD VDD VDD VDD PMOS w=10u l=2u m=4
+.ends

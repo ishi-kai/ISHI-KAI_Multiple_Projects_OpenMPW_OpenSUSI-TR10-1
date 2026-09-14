@@ -1,0 +1,95 @@
+* Created by KLayout
+*** My special header ***
+
+* cell SSF
+* pin VSS
+.SUBCKT SSF VSS
+* device instance $1 r0 *1 -73.1,2.7 NMOS
+XM$1 \$I43 \$I54 \$I44 VSS NMOS L=2u W=20u AS=56p AD=30p PS=45.6u PD=23u
+* device instance $2 r0 *1 -68.1,2.7 NMOS
+XM$2 \$I44 \$I55 \$I45 VSS NMOS L=2u W=20u AS=30p AD=30p PS=23u PD=23u
+* device instance $3 r0 *1 -63.1,2.7 NMOS
+XM$3 \$I45 \$I56 \$I46 VSS NMOS L=2u W=20u AS=30p AD=30p PS=23u PD=23u
+* device instance $4 r0 *1 -58.1,2.7 NMOS
+XM$4 \$I46 \$I57 \$I47 VSS NMOS L=2u W=20u AS=30p AD=30p PS=23u PD=23u
+* device instance $5 r0 *1 -53.1,2.7 NMOS
+XM$5 \$I47 \$I58 \$I48 VSS NMOS L=2u W=20u AS=30p AD=30p PS=23u PD=23u
+* device instance $6 r0 *1 -48.1,2.7 NMOS
+XM$6 \$I48 \$I59 \$I49 VSS NMOS L=2u W=20u AS=30p AD=30p PS=23u PD=23u
+* device instance $7 r0 *1 -43.1,2.7 NMOS
+XM$7 \$I49 \$I60 \$I50 VSS NMOS L=2u W=20u AS=30p AD=30p PS=23u PD=23u
+* device instance $8 r0 *1 -38.1,2.7 NMOS
+XM$8 \$I50 \$I61 \$I51 VSS NMOS L=2u W=20u AS=30p AD=30p PS=23u PD=23u
+* device instance $9 r0 *1 -33.1,2.7 NMOS
+XM$9 \$I51 \$I62 \$I52 VSS NMOS L=2u W=20u AS=30p AD=30p PS=23u PD=23u
+* device instance $10 r0 *1 -28.1,2.7 NMOS
+XM$10 \$I52 \$I63 \$I53 VSS NMOS L=2u W=20u AS=30p AD=56p PS=23u PD=45.6u
+* device instance $11 r0 *1 -85.7,2.7 NMOS
+XM$11 \$I64 \$I66 \$I65 VSS NMOS L=2u W=20u AS=56p AD=56p PS=45.6u PD=45.6u
+* device instance $12 r0 *1 -8.6,2.7 NMOS
+XM$12 \$I67 \$I69 \$I68 VSS NMOS L=2u W=20u AS=56p AD=56p PS=45.6u PD=45.6u
+* device instance $13 r0 *1 9.5,1.8 NMOS
+XM$13 \$I70 \$I87 \$I71 VSS NMOS L=2u W=20u AS=56p AD=30p PS=45.6u PD=23u
+* device instance $14 r0 *1 14.5,1.8 NMOS
+XM$14 \$I71 \$I88 \$I72 VSS NMOS L=2u W=20u AS=30p AD=30p PS=23u PD=23u
+* device instance $15 r0 *1 19.5,1.8 NMOS
+XM$15 \$I72 \$I89 \$I73 VSS NMOS L=2u W=20u AS=30p AD=30p PS=23u PD=23u
+* device instance $16 r0 *1 24.5,1.8 NMOS
+XM$16 \$I73 \$I90 \$I74 VSS NMOS L=2u W=20u AS=30p AD=30p PS=23u PD=23u
+* device instance $17 r0 *1 29.5,1.8 NMOS
+XM$17 \$I74 \$I91 \$I75 VSS NMOS L=2u W=20u AS=30p AD=30p PS=23u PD=23u
+* device instance $18 r0 *1 34.5,1.8 NMOS
+XM$18 \$I75 \$I92 \$I76 VSS NMOS L=2u W=20u AS=30p AD=30p PS=23u PD=23u
+* device instance $19 r0 *1 39.5,1.8 NMOS
+XM$19 \$I76 \$I93 \$I77 VSS NMOS L=2u W=20u AS=30p AD=30p PS=23u PD=23u
+* device instance $20 r0 *1 44.5,1.8 NMOS
+XM$20 \$I77 \$I94 \$I78 VSS NMOS L=2u W=20u AS=30p AD=30p PS=23u PD=23u
+* device instance $21 r0 *1 49.5,1.8 NMOS
+XM$21 \$I78 \$I95 \$I79 VSS NMOS L=2u W=20u AS=30p AD=30p PS=23u PD=23u
+* device instance $22 r0 *1 54.5,1.8 NMOS
+XM$22 \$I79 \$I96 \$I80 VSS NMOS L=2u W=20u AS=30p AD=30p PS=23u PD=23u
+* device instance $23 r0 *1 59.5,1.8 NMOS
+XM$23 \$I80 \$I97 \$I81 VSS NMOS L=2u W=20u AS=30p AD=30p PS=23u PD=23u
+* device instance $24 r0 *1 64.5,1.8 NMOS
+XM$24 \$I81 \$I98 \$I82 VSS NMOS L=2u W=20u AS=30p AD=30p PS=23u PD=23u
+* device instance $25 r0 *1 69.5,1.8 NMOS
+XM$25 \$I82 \$I99 \$I83 VSS NMOS L=2u W=20u AS=30p AD=30p PS=23u PD=23u
+* device instance $26 r0 *1 74.5,1.8 NMOS
+XM$26 \$I83 \$I100 \$I84 VSS NMOS L=2u W=20u AS=30p AD=30p PS=23u PD=23u
+* device instance $27 r0 *1 79.5,1.8 NMOS
+XM$27 \$I84 \$I101 \$I85 VSS NMOS L=2u W=20u AS=30p AD=30p PS=23u PD=23u
+* device instance $28 r0 *1 84.5,1.8 NMOS
+XM$28 \$I85 \$I102 \$I86 VSS NMOS L=2u W=20u AS=30p AD=56p PS=23u PD=45.6u
+* device instance $29 r0 *1 9.5,34.6 NMOS
+XM$29 \$I103 \$I120 \$I104 VSS NMOS L=2u W=20u AS=56p AD=30p PS=45.6u PD=23u
+* device instance $30 r0 *1 14.5,34.6 NMOS
+XM$30 \$I104 \$I121 \$I105 VSS NMOS L=2u W=20u AS=30p AD=30p PS=23u PD=23u
+* device instance $31 r0 *1 19.5,34.6 NMOS
+XM$31 \$I105 \$I122 \$I106 VSS NMOS L=2u W=20u AS=30p AD=30p PS=23u PD=23u
+* device instance $32 r0 *1 24.5,34.6 NMOS
+XM$32 \$I106 \$I123 \$I107 VSS NMOS L=2u W=20u AS=30p AD=30p PS=23u PD=23u
+* device instance $33 r0 *1 29.5,34.6 NMOS
+XM$33 \$I107 \$I124 \$I108 VSS NMOS L=2u W=20u AS=30p AD=30p PS=23u PD=23u
+* device instance $34 r0 *1 34.5,34.6 NMOS
+XM$34 \$I108 \$I125 \$I109 VSS NMOS L=2u W=20u AS=30p AD=30p PS=23u PD=23u
+* device instance $35 r0 *1 39.5,34.6 NMOS
+XM$35 \$I109 \$I126 \$I110 VSS NMOS L=2u W=20u AS=30p AD=30p PS=23u PD=23u
+* device instance $36 r0 *1 44.5,34.6 NMOS
+XM$36 \$I110 \$I127 \$I111 VSS NMOS L=2u W=20u AS=30p AD=30p PS=23u PD=23u
+* device instance $37 r0 *1 49.5,34.6 NMOS
+XM$37 \$I111 \$I128 \$I112 VSS NMOS L=2u W=20u AS=30p AD=30p PS=23u PD=23u
+* device instance $38 r0 *1 54.5,34.6 NMOS
+XM$38 \$I112 \$I129 \$I113 VSS NMOS L=2u W=20u AS=30p AD=30p PS=23u PD=23u
+* device instance $39 r0 *1 59.5,34.6 NMOS
+XM$39 \$I113 \$I130 \$I114 VSS NMOS L=2u W=20u AS=30p AD=30p PS=23u PD=23u
+* device instance $40 r0 *1 64.5,34.6 NMOS
+XM$40 \$I114 \$I131 \$I115 VSS NMOS L=2u W=20u AS=30p AD=30p PS=23u PD=23u
+* device instance $41 r0 *1 69.5,34.6 NMOS
+XM$41 \$I115 \$I132 \$I116 VSS NMOS L=2u W=20u AS=30p AD=30p PS=23u PD=23u
+* device instance $42 r0 *1 74.5,34.6 NMOS
+XM$42 \$I116 \$I133 \$I117 VSS NMOS L=2u W=20u AS=30p AD=30p PS=23u PD=23u
+* device instance $43 r0 *1 79.5,34.6 NMOS
+XM$43 \$I117 \$I134 \$I118 VSS NMOS L=2u W=20u AS=30p AD=30p PS=23u PD=23u
+* device instance $44 r0 *1 84.5,34.6 NMOS
+XM$44 \$I118 \$I135 \$I119 VSS NMOS L=2u W=20u AS=30p AD=56p PS=23u PD=45.6u
+.ENDS SSF
