@@ -1,0 +1,386 @@
+{
+  "passed": true,
+  "source_gds_sha256": "f32c213db5efaa09449b3c8db709c2b547bae09c6fe011f1eb284dda8342eff2",
+  "checks": 13406,
+  "failure_count": 0,
+  "failures": [],
+  "waveform_sha256": "80bc1a4d5ff9015a570ca3fdbecdb4fc130df1c9551279cd4902848c0a291a8e",
+  "power_model_sha256": "da0467f7c13dc2838b5936ab91d2778068442589d6bf88b398753abbde4bf865",
+  "transfer_model_sha256": "69081071860b0757ee233644f039fa1743872d00486ed68d8835736d71c7a1d8",
+  "source_case_report_sha256": "0a89cac04ad7756c80c972c31a1a0d3bf83a469a666dd0281dd4fa022ca8c08e",
+  "source_case": "signalfix_mesh4_prefix",
+  "interval_ns": [
+    0.0,
+    100999.99999999999
+  ],
+  "worst_paths": [
+    {
+      "supply": "VDD",
+      "a": "power_vdd_mesh_189",
+      "b": "power_vdd_mesh_220",
+      "layer": 1,
+      "density_gain_a_per_v_um": 0.040206697244469874,
+      "width_um": 2.25,
+      "position_um": [
+        1521.5,
+        283.125
+      ],
+      "peak_a_per_um": 0.0009443373176909478,
+      "mean_absolute_a_per_um": 2.8530655239708038e-06,
+      "rms_a_per_um": 3.3546819018875534e-05,
+      "screen_limit_a_per_um": 0.00025,
+      "rms_fraction_of_limit": 0.13418727607550213,
+      "passed": true
+    },
+    {
+      "supply": "VSS",
+      "a": "power_vss_load_1095",
+      "b": "power_vss_mesh_3381",
+      "layer": 1,
+      "density_gain_a_per_v_um": 0.7725671258391394,
+      "width_um": 2.25,
+      "position_um": [
+        1520.0,
+        228.125
+      ],
+      "peak_a_per_um": 0.0009686380264739484,
+      "mean_absolute_a_per_um": 2.5160125356169872e-06,
+      "rms_a_per_um": 3.2469879597764e-05,
+      "screen_limit_a_per_um": 0.00025,
+      "rms_fraction_of_limit": 0.129879518391056,
+      "passed": true
+    },
+    {
+      "supply": "VSS",
+      "a": "power_vss_mesh_3343",
+      "b": "power_vss_load_1095",
+      "layer": 1,
+      "density_gain_a_per_v_um": 0.03877447625972587,
+      "width_um": 2.25,
+      "position_um": [
+        1537.0,
+        228.125
+      ],
+      "peak_a_per_um": 0.0009686379870600574,
+      "mean_absolute_a_per_um": 2.515977239694137e-06,
+      "rms_a_per_um": 3.2469877207652596e-05,
+      "screen_limit_a_per_um": 0.00025,
+      "rms_fraction_of_limit": 0.1298795088306104,
+      "passed": true
+    },
+    {
+      "supply": "VDD",
+      "a": "power_vdd_mesh_2",
+      "b": "power_vdd_mesh_3",
+      "layer": 1,
+      "density_gain_a_per_v_um": 0.20175952023263985,
+      "width_um": 1.75,
+      "position_um": [
+        921.25,
+        118.125
+      ],
+      "peak_a_per_um": 0.002859443341512767,
+      "mean_absolute_a_per_um": 1.7472174967827805e-06,
+      "rms_a_per_um": 2.9615651026341072e-05,
+      "screen_limit_a_per_um": 0.00025,
+      "rms_fraction_of_limit": 0.11846260410536429,
+      "passed": true
+    },
+    {
+      "supply": "VDD",
+      "a": "power_vdd_mesh_19",
+      "b": "power_vdd_mesh_70",
+      "layer": 1,
+      "density_gain_a_per_v_um": 1.238804032726427,
+      "width_um": 2.25,
+      "position_um": [
+        967.875,
+        199.25
+      ],
+      "peak_a_per_um": 0.00277968508833985,
+      "mean_absolute_a_per_um": 1.9348070019840037e-06,
+      "rms_a_per_um": 2.9409055034603335e-05,
+      "screen_limit_a_per_um": 0.00025,
+      "rms_fraction_of_limit": 0.11763622013841334,
+      "passed": true
+    },
+    {
+      "supply": "VDD",
+      "a": "power_vdd_mesh_17",
+      "b": "power_vdd_mesh_19",
+      "layer": 1,
+      "density_gain_a_per_v_um": 1.2899011578936666,
+      "width_um": 2.25,
+      "position_um": [
+        967.875,
+        191.5
+      ],
+      "peak_a_per_um": 0.0027797375075874825,
+      "mean_absolute_a_per_um": 1.902533597794866e-06,
+      "rms_a_per_um": 2.939625596205181e-05,
+      "screen_limit_a_per_um": 0.00025,
+      "rms_fraction_of_limit": 0.11758502384820724,
+      "passed": true
+    },
+    {
+      "supply": "VDD",
+      "a": "power_vdd_mesh_14",
+      "b": "power_vdd_mesh_16",
+      "layer": 1,
+      "density_gain_a_per_v_um": 0.7458743442350877,
+      "width_um": 2.25,
+      "position_um": [
+        967.875,
+        183.25
+      ],
+      "peak_a_per_um": 0.0027803778820351508,
+      "mean_absolute_a_per_um": 1.879578725959558e-06,
+      "rms_a_per_um": 2.938651901866661e-05,
+      "screen_limit_a_per_um": 0.00025,
+      "rms_fraction_of_limit": 0.11754607607466644,
+      "passed": true
+    },
+    {
+      "supply": "VSS",
+      "a": "power_vss_mesh_3252",
+      "b": "power_vss_mesh_3253",
+      "layer": 1,
+      "density_gain_a_per_v_um": 0.591967322625496,
+      "width_um": 2.25,
+      "position_um": [
+        1522.75,
+        153.875
+      ],
+      "peak_a_per_um": 0.0009148807176345196,
+      "mean_absolute_a_per_um": 1.976809482608183e-06,
+      "rms_a_per_um": 2.687038907576862e-05,
+      "screen_limit_a_per_um": 0.00025,
+      "rms_fraction_of_limit": 0.10748155630307449,
+      "passed": true
+    },
+    {
+      "supply": "VSS",
+      "a": "power_vss_mesh_3253",
+      "b": "power_vss_mesh_3262",
+      "layer": 1,
+      "density_gain_a_per_v_um": 1.0479415392175673,
+      "width_um": 2.25,
+      "position_um": [
+        1539.0,
+        153.875
+      ],
+      "peak_a_per_um": 0.0009093528981657761,
+      "mean_absolute_a_per_um": 1.6402308512508223e-06,
+      "rms_a_per_um": 2.682934491810548e-05,
+      "screen_limit_a_per_um": 0.00025,
+      "rms_fraction_of_limit": 0.10731737967242191,
+      "passed": true
+    },
+    {
+      "supply": "VSS",
+      "a": "power_vss_mesh_3254",
+      "b": "power_vss_mesh_3262",
+      "layer": 1,
+      "density_gain_a_per_v_um": 0.7031802444531112,
+      "width_um": 2.25,
+      "position_um": [
+        1553.0,
+        153.875
+      ],
+      "peak_a_per_um": 0.0009055846893383792,
+      "mean_absolute_a_per_um": 1.5043594044723946e-06,
+      "rms_a_per_um": 2.68269291573149e-05,
+      "screen_limit_a_per_um": 0.00025,
+      "rms_fraction_of_limit": 0.1073077166292596,
+      "passed": true
+    },
+    {
+      "supply": "VSS",
+      "a": "power_vss_mesh_3255",
+      "b": "power_vss_mesh_3256",
+      "layer": 1,
+      "density_gain_a_per_v_um": 1.2500000000000062,
+      "width_um": 2.25,
+      "position_um": [
+        1571.5,
+        153.875
+      ],
+      "peak_a_per_um": 0.0009079408772743249,
+      "mean_absolute_a_per_um": 1.5010323181857522e-06,
+      "rms_a_per_um": 2.679759526691929e-05,
+      "screen_limit_a_per_um": 0.00025,
+      "rms_fraction_of_limit": 0.10719038106767716,
+      "passed": true
+    },
+    {
+      "supply": "VSS",
+      "a": "power_vss_mesh_3254",
+      "b": "power_vss_mesh_3255",
+      "layer": 1,
+      "density_gain_a_per_v_um": 1.2500000000000062,
+      "width_um": 2.25,
+      "position_um": [
+        1563.5,
+        153.875
+      ],
+      "peak_a_per_um": 0.0009077800012630797,
+      "mean_absolute_a_per_um": 1.484956176564728e-06,
+      "rms_a_per_um": 2.6794282374155462e-05,
+      "screen_limit_a_per_um": 0.00025,
+      "rms_fraction_of_limit": 0.10717712949662185,
+      "passed": true
+    },
+    {
+      "supply": "VSS",
+      "a": "power_vss_mesh_3256",
+      "b": "power_vss_mesh_3257",
+      "layer": 1,
+      "density_gain_a_per_v_um": 0.14197646789317434,
+      "width_um": 2.25,
+      "position_um": [
+        1579.25,
+        153.875
+      ],
+      "peak_a_per_um": 0.000906017336149185,
+      "mean_absolute_a_per_um": 1.5251139603797137e-06,
+      "rms_a_per_um": 2.675807033435366e-05,
+      "screen_limit_a_per_um": 0.00025,
+      "rms_fraction_of_limit": 0.10703228133741464,
+      "passed": true
+    },
+    {
+      "supply": "VDD",
+      "a": "power_vdd_load_1095",
+      "b": "power_vdd_mesh_188",
+      "layer": 1,
+      "density_gain_a_per_v_um": 1.227717369652427,
+      "width_um": 2.75,
+      "position_um": [
+        1502.625,
+        273.5
+      ],
+      "peak_a_per_um": 0.001134123255232501,
+      "mean_absolute_a_per_um": 2.8463891769803937e-06,
+      "rms_a_per_um": 2.6304668920355475e-05,
+      "screen_limit_a_per_um": 0.00025,
+      "rms_fraction_of_limit": 0.1052186756814219,
+      "passed": true
+    },
+    {
+      "supply": "VDD",
+      "a": "power_vdd_mesh_545",
+      "b": "power_vdd_mesh_546",
+      "layer": 1,
+      "density_gain_a_per_v_um": 0.07506159805864678,
+      "width_um": 2.25,
+      "position_um": [
+        1635.75,
+        505.875
+      ],
+      "peak_a_per_um": 0.0007700652487885911,
+      "mean_absolute_a_per_um": 2.3243490227450808e-06,
+      "rms_a_per_um": 2.5892775418402196e-05,
+      "screen_limit_a_per_um": 0.00025,
+      "rms_fraction_of_limit": 0.10357110167360878,
+      "passed": true
+    },
+    {
+      "supply": "VDD",
+      "a": "power_vdd_mesh_543",
+      "b": "power_vdd_mesh_544",
+      "layer": 1,
+      "density_gain_a_per_v_um": 0.8038547660482512,
+      "width_um": 2.25,
+      "position_um": [
+        1615.0,
+        505.875
+      ],
+      "peak_a_per_um": 0.000772610144089888,
+      "mean_absolute_a_per_um": 2.777886564894815e-06,
+      "rms_a_per_um": 2.531646811091145e-05,
+      "screen_limit_a_per_um": 0.00025,
+      "rms_fraction_of_limit": 0.1012658724436458,
+      "passed": true
+    },
+    {
+      "supply": "VDD",
+      "a": "power_vdd_mesh_544",
+      "b": "power_vdd_mesh_545",
+      "layer": 1,
+      "density_gain_a_per_v_um": 0.637346269286752,
+      "width_um": 2.25,
+      "position_um": [
+        1619.5,
+        505.875
+      ],
+      "peak_a_per_um": 0.0007708269761972713,
+      "mean_absolute_a_per_um": 2.2392854616664595e-06,
+      "rms_a_per_um": 2.530521875981353e-05,
+      "screen_limit_a_per_um": 0.00025,
+      "rms_fraction_of_limit": 0.10122087503925412,
+      "passed": true
+    },
+    {
+      "supply": "VDD",
+      "a": "power_vdd_mesh_542",
+      "b": "power_vdd_mesh_543",
+      "layer": 1,
+      "density_gain_a_per_v_um": 0.8587668911460342,
+      "width_um": 2.25,
+      "position_um": [
+        1595.25,
+        505.875
+      ],
+      "peak_a_per_um": 0.0007998162436978918,
+      "mean_absolute_a_per_um": 2.7804022402577235e-06,
+      "rms_a_per_um": 2.517898959800135e-05,
+      "screen_limit_a_per_um": 0.00025,
+      "rms_fraction_of_limit": 0.10071595839200541,
+      "passed": true
+    },
+    {
+      "supply": "VDD",
+      "a": "power_vdd_mesh_541",
+      "b": "power_vdd_mesh_542",
+      "layer": 1,
+      "density_gain_a_per_v_um": 0.6099568044982043,
+      "width_um": 2.25,
+      "position_um": [
+        1578.0,
+        505.875
+      ],
+      "peak_a_per_um": 0.0008803811383616861,
+      "mean_absolute_a_per_um": 3.1328880975609938e-06,
+      "rms_a_per_um": 2.5159327448930002e-05,
+      "screen_limit_a_per_um": 0.00025,
+      "rms_fraction_of_limit": 0.10063730979572001,
+      "passed": true
+    },
+    {
+      "supply": "VSS",
+      "a": "power_vss_mesh_241",
+      "b": "power_vss_mesh_295",
+      "layer": 1,
+      "density_gain_a_per_v_um": 0.06434939611102664,
+      "width_um": 2.25,
+      "position_um": [
+        1788.0,
+        450.875
+      ],
+      "peak_a_per_um": 0.000806409940425839,
+      "mean_absolute_a_per_um": 2.227589217321889e-06,
+      "rms_a_per_um": 2.4911426111246063e-05,
+      "screen_limit_a_per_um": 0.00025,
+      "rms_fraction_of_limit": 0.09964570444498425,
+      "passed": true
+    }
+  ],
+  "published_limits": {
+    "m1_field_a_per_2um": 0.0009,
+    "m1_step_a_per_2um": 0.0005,
+    "m2_field_a_per_3um": 0.0037
+  },
+  "method": "Exact resistive-node reconstruction and series/parallel current transfer on the existing supply model. Local sampled width is conservative; all M1 uses the smaller step-current rating.",
+  "reference": "Unmodified OS00 reference manual rev1.1, tables I-3-1 and I-3-3.",
+  "scope": "Reconstruct supply-wire currents without changing the simulated circuit.\n\nThe published wire limits are treated as steady-current limits. Mean absolute\nand RMS density are screened; peak density is reported separately because the\npublic manual specifies an instantaneous limit for TC, but not for M1/M2.\nThis is a geometry-based current/heating screen, not foundry EM qualification.\n"
+}

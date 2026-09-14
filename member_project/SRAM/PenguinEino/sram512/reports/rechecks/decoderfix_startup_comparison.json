@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "test": "decoderfix_startup_comparison",
+  "base_report_sha256": "89b8f724ed3e1b3659aabb14afb6a738fe3ce57095e25d9f57a8984dfe64b848",
+  "reviewed_commit": "7dae978",
+  "simulation_code_unchanged": true,
+  "scope": "Dependency reassessment: no access waveform checker is used by this geometry/startup/comparison test. All original executed functions and inputs are unchanged."
+}

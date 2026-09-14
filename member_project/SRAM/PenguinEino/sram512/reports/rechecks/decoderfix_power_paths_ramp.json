@@ -1,0 +1,82 @@
+{
+  "passed": true,
+  "test": "decoderfix_power_paths_ramp",
+  "base_report_sha256": "cb76b765c7ee1342231e74e556111f3157c3030b84d416f9f095ad91ee590e51",
+  "reviewed_commit": "7dae978",
+  "simulation_code_unchanged": true,
+  "functional_checks": {
+    "passed": true,
+    "checks": 2910,
+    "failure_count": 0,
+    "failures": [],
+    "read_observations": [
+      {
+        "operation": 4,
+        "row": 0,
+        "col": 0,
+        "sae_half_ns": 441025.66721606406,
+        "y_difference_v": -5.00509153126398
+      },
+      {
+        "operation": 5,
+        "row": 0,
+        "col": 31,
+        "sae_half_ns": 531025.7315498265,
+        "y_difference_v": 5.005098781848746
+      },
+      {
+        "operation": 6,
+        "row": 15,
+        "col": 0,
+        "sae_half_ns": 621025.7315730539,
+        "y_difference_v": 5.004350019540569
+      },
+      {
+        "operation": 7,
+        "row": 15,
+        "col": 31,
+        "sae_half_ns": 711025.8156454006,
+        "y_difference_v": -5.008900426522249
+      },
+      {
+        "operation": 12,
+        "row": 0,
+        "col": 0,
+        "sae_half_ns": 1161025.663640658,
+        "y_difference_v": 5.002743979843729
+      },
+      {
+        "operation": 13,
+        "row": 0,
+        "col": 31,
+        "sae_half_ns": 1251025.7307777535,
+        "y_difference_v": -5.0071790360481465
+      },
+      {
+        "operation": 14,
+        "row": 15,
+        "col": 0,
+        "sae_half_ns": 1341025.7329466536,
+        "y_difference_v": -5.006519578394331
+      },
+      {
+        "operation": 15,
+        "row": 15,
+        "col": 31,
+        "sae_half_ns": 1431025.7281302032,
+        "y_difference_v": 5.005283762012347
+      }
+    ],
+    "points": 116038,
+    "operations": 16,
+    "sdo_hold_checks": 9,
+    "sdo_read_settling_ns": 4000.0,
+    "required_time_range_ns": [
+      0,
+      1451000.0
+    ]
+  },
+  "raw_sha256": "fd601ce72ffc34579d049df8b9326ae3847fdfc64901c4be5c2d7240df77a0cb",
+  "deck_sha256": "a4bae913de4154b8c5040327ba783a12b2558945c0db27ee31be1aa8e0ab3f1d",
+  "scope": "Existing transient, newly checked time coverage and continuous SDO retention; unchanged voltage/current/geometry checks remain bound to the original report."
+}

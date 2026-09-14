@@ -1,0 +1,1700 @@
+{
+  "review_date": "2026-09-13",
+  "created_utc": "2026-09-13T03:41:35.136717+00:00",
+  "starting_commit": "49e23f6",
+  "reviewed_current_commit": "7a44ee065e23145ee5d84749f0509656484413c6",
+  "source_gds_sha256": "56810ad742a73036fb9db5207c75a2fcd63d344833c17da5f6270f1dc128bca1",
+  "submission_gds_sha256": "7cf6744ff1a17bc7a6560639bbdaeea98041bc4eb0629763154e4c86e44be5a2",
+  "mask_sha256": "cbd3e51a3f9ff9c6f90b93c4c3ca134acf3cb28adb3b495ca357f47e6b280ba4",
+  "pdk": {
+    "revision": "6afbd918951f2ea0dcd11c5a46986b4c20f9e6f9",
+    "tree_sha256": "39d402dcc9ac40ed6c217a140369e116fd512b138503152b2cf3f1c0c6ec9e03",
+    "unmodified": true
+  },
+  "electrical_snapshot_matches_stored_summary": true,
+  "stored_report_hashes_match": true,
+  "reviewed_files_sha256": {
+    "klayout/sram_pcell/build.py": "5394337bde7072d74d5755d992398bb07208dea54dd81fd7080be0e8411e868a",
+    "pdk/profiles.lock.json": "17c5680342878e312528302a5a8050fb7c05ab175e29d304618ba1eed5317811",
+    "sram512/rtl/sram512_digital_gates.v": "80c1c69bc64193eebd374682e08ccede4d2a0e9f2c1d9c2ba6adcd294322c63d",
+    "sram512/rtl/sram_serial_controller.v": "0ffcbe75ee14add1c278654d6f8e401861fbcb094339d0dc53fe086b914b1e1f",
+    "sram512/schematics/sense_amp_7t.sch": "fd8c65d937b248ae6d1eceec6d3c078b719e57398c8ab1ee282b200bbc7293b1",
+    "sram512/schematics/sense_amp_7t.sym": "2baf283213c54b648d6eedbcbdce39248d61013e2fdc348ccb6be615ddbf8555",
+    "sram512/schematics/sram512.sch": "20ea4a2e70a68adcb3452832df4d674e672619c591ad045b8adb5881612f73da",
+    "sram512/schematics/sram512.sym": "ce6c8b742ddf175fd55302b563c4f370f5c5cf3eddaab4c87becb7b834bfe734",
+    "sram512/schematics/sram512_array.sch": "bf8e760f7cc182bc5947a1f7836e53fb1dcb559442df729c5e1c532c6f268369",
+    "sram512/schematics/sram512_array.sym": "25c7a84249adeeccf2161aa407590aa5aba4212bbe767c8e32d3c31d841942a5",
+    "sram512/schematics/sram512_bitcell.sch": "bc92f49c3383fbe5681e3fc3c38c69b0e8b17f1002c7a914364dca1efb2d01ec",
+    "sram512/schematics/sram512_bitcell.sym": "f3c31ae7fda8dbc656038a160aed9e8f4e1d3fec2837a8e0fc639875ceffe020",
+    "sram512/schematics/sram512_col_decoder.sch": "4e58f38e1d06f9a99233a855deb81e5c6fa226ddb4a07b4691ce7176300cb0a9",
+    "sram512/schematics/sram512_col_decoder.sym": "d1ebd371fbaacc4f83e9389648703c22ff217e64f0f7fafab1a8c27108fcd4d9",
+    "sram512/schematics/sram512_column.sch": "26c65390e5593030fdf734ef21fdda2a38f2d37731eff4305a224e9f39e56098",
+    "sram512/schematics/sram512_column.sym": "8cf87634b28ca56331d689387ad9af676b999e29fa870d8c9cb6cf604a4f62b1",
+    "sram512/schematics/sram512_control.sch": "182dde6ef69ba9112690bbfe4c518d21b38e47fb38b84cbecd5bb5af1c45ab3c",
+    "sram512/schematics/sram512_control.sym": "c69644f8b87a3608c025bf3c8bf287d403daa58abf9050e462a0c9190480e084",
+    "sram512/schematics/sram512_controller.sch": "8a24a5aa7b67bd46e283be1656e206e76031999b10b551cacca5125407911276",
+    "sram512/schematics/sram512_controller.sym": "36675ada4ee265f0fd26871d3826da3fc9ce66e9b0d7a1cf2f94aa9bc455f1cd",
+    "sram512/schematics/sram512_frame.sch": "a138f41d92de490331abb2e94a6d7c3813055b54dcd1927c35ca2c89e918a1a7",
+    "sram512/schematics/sram512_frame.sym": "f969c503cd1c66ad399e6a078ae740ed709c932c8d403e882df01a680a153416",
+    "sram512/schematics/sram512_input_clamp.sch": "95d73e7e74f8e2230df0fe1ea03f19b193627461e28e3fb99b6cbd30229d6047",
+    "sram512/schematics/sram512_input_clamp.sym": "3560f412aa459da561265ef1dfe68854af4b811512c0a7f70d25e6b8af523455",
+    "sram512/schematics/sram512_macro.sch": "34041691e47cfe0587573552a97e687c3ae9369a1de322cf3d8c3c14846b60dc",
+    "sram512/schematics/sram512_macro.sym": "7be35ec3192048210ac23fdf2696b726f044d02445630939abcc5990106bf7a6",
+    "sram512/schematics/sram512_phase.sch": "a5d1a5e52f55bbe1583bbdc2b5d6ad288c2b399ef51bdaf4553fd0addcf29fc9",
+    "sram512/schematics/sram512_phase.sym": "68b64dddf81fa75cb6b1ba7fea015b55a66b13e0b55b87aaf7bf9827ba835f5c",
+    "sram512/schematics/sram512_row_decoder.sch": "ea9ab1ddf99f08eb9454d90628adc218983b00d116ace67aca0e90de8b3f7b45",
+    "sram512/schematics/sram512_row_decoder.sym": "e2dd661c41fb5c3cc6ce47a3fd9bdc5fc33dc67c217421d63d8d4caa5e83fba7",
+    "sram512/schematics/sram512_tb.sch": "a7b6e3467ba2c0187673e5aef49a2d81454c5a53f0881df3601d510b4cef9b88",
+    "sram512/tb/tb_sram512.sv": "ddd9d0c4c344f3b5999fb37a097218333e697d20f2afe6b3a8e09d7b353d11eb",
+    "sram512/tools/analog.py": "23ba3fe63b7cfc3ac0d88e1ad8e1423bd06bb977386135b98ed1bb19ba0874b9",
+    "sram512/tools/postlayout.py": "4639da9775c5b4b50f71c40e65bb3d4375e3e3fb449b5917f53b839d2edd2b8c",
+    "sram512/tools/validation_summary.py": "d886de2bccc9e39b63915f456678d686b721e72cb181206c113e99179847ea11",
+    "sram512/tools/package.py": "56b86b1aa9166aeedccef6dacd9e4af67fb1d93dd4c0219015bcbf735753fdbb",
+    "sram512/tools/build_submission.py": "341ac0bdb44c2c6a83b26ada857846235a26b5c3326e69d397fe2b1a7337cd5c",
+    "sram512/tools/wire_rc.py": "87718ddc075bbdffc7881307690680e277f02b8777bab25621054704cf270b0b",
+    "sram512/tools/electrical_limits.py": "d310d217f2cda7e552f12278519a534e611e0d63a2c0ed7b622b9ab6f58fe336",
+    "sram512/tools/all_cell_retention.py": "cc7b2d7ad64f09afcbb0c5dc7717b7a4c3565849d90c2fe0dca09fa02662664c",
+    "sram512/tools/reset_address_test.py": "74cbffd70b9313ab6baeda6e1c3eb631c267b94eaa1950bf335e240755bfeefe",
+    "sram512/tools/operational_tests.py": "2ea4f8abeb70bd990937da7555031b3b311eba862217072830104e7ab53b6390",
+    "sram512/tools/startup_tests.py": "0c5585c62bf7f00a0a54de92c33b6b2be1fab7ade5411309d841d27b878b9899",
+    "sram512/tools/power_mesh.py": "ddcf1dde6ecd680f0b71fef2970396e4dc10beb47dc141fb43dff29964cecc6e",
+    "sram512/tools/power_wire_audit.py": "d85a6df5ff7281c697e27555e464f668d160d06ac92725866afd8c2782deb0c0",
+    "sram512/tools/verify_saved_layout.py": "6668b6c391ff65fffa48961f775bd7ef4c4e5bab174e3f0bffcf797fad37b23c",
+    "sram512/tools/manufacturing.py": "7f77aa8faede3fce6a916dcd946f0d60a06131996736180b5b5ea6eb30386a2c",
+    "sram512/tools/submission_lvs.py": "5681d7aabd0eef417eeab5de98438eea12b07ddce771dfc361e596eaf1d3d346",
+    "sram512/tools/submission_runner.py": "38dc7ba00656532c1d86943839660fb765402547fdbd64d77bf17b5b27bda0e7",
+    "sram512/tools/verify_digital.py": "8c2bbdd9def468d8793d173b6d2e4c27fd62833914b848496da2ba401cf22cee",
+    "sram512/tools/gate_paths.py": "92ff66ff339478d86b2d356022d760c845030c77dbf4beeeee4808770326a655",
+    "sram512/tools/signal_mesh.py": "e2b854b8c622af2a7e24b74c099a2e7a51fded5f370b6a7b88327932f66ee5a6"
+  },
+  "stored_evidence_index": [
+    {
+      "test": "saved_layout_recheck",
+      "report": "sram512/reports/saved_layout_recheck.json",
+      "sha256": "25462db4ce62dfd2c06237280b8321d83444081a7b8cab73de4cfaedef367d12",
+      "stored_state": "PASS",
+      "operations": null,
+      "checks": null,
+      "voltage_v": null,
+      "temperature_c": null,
+      "signal_mesh": null,
+      "period_ns": null,
+      "maximum_timestep_ns": null
+    },
+    {
+      "test": "pcell_preservation",
+      "report": "sram512/reports/pcell_preservation.json",
+      "sha256": "e82276f15efdfb7364b16a760c8aa05dc1961e0671398e8288e1f1eda9d29d7d",
+      "stored_state": "PASS",
+      "operations": null,
+      "checks": null,
+      "voltage_v": null,
+      "temperature_c": null,
+      "signal_mesh": null,
+      "period_ns": null,
+      "maximum_timestep_ns": null
+    },
+    {
+      "test": "digital",
+      "report": "sram512/reports/digital.json",
+      "sha256": "91f2d2c30ee18d2163295382b21221261200dc40736ef8471d8f4727c68673e2",
+      "stored_state": "PASS",
+      "operations": null,
+      "checks": null,
+      "voltage_v": null,
+      "temperature_c": null,
+      "signal_mesh": null,
+      "period_ns": null,
+      "maximum_timestep_ns": null
+    },
+    {
+      "test": "decoderfix_decode_coverage",
+      "report": "sram512/reports/decoderfix_decode_coverage.json",
+      "sha256": "0c6fe1ae9509de9acda479186ca72bc1eb9df8f9327b749c0eced97fc9b1464f",
+      "stored_state": "PASS",
+      "operations": 136,
+      "checks": 38901,
+      "voltage_v": 5,
+      "temperature_c": 27,
+      "signal_mesh": false,
+      "period_ns": 1000,
+      "maximum_timestep_ns": 20
+    },
+    {
+      "test": "decoderfix_startup_5n",
+      "report": "sram512/reports/decoderfix_startup_5n.json",
+      "sha256": "89cf6feaa228bc4a6c0d0ac2d797b0a7c449be7db346099a379e90ac5ed3f5fb",
+      "stored_state": "PASS",
+      "operations": null,
+      "checks": 33753,
+      "voltage_v": 5,
+      "temperature_c": 27,
+      "signal_mesh": true,
+      "period_ns": null,
+      "maximum_timestep_ns": 5.0
+    },
+    {
+      "test": "decoderfix_startup_1n",
+      "report": "sram512/reports/decoderfix_startup_1n.json",
+      "sha256": "859338b85819912d8068c93d13360eca8628db6b0c6689a8f0404bd29d546c7a",
+      "stored_state": "PASS",
+      "operations": null,
+      "checks": 33753,
+      "voltage_v": 5,
+      "temperature_c": 27,
+      "signal_mesh": true,
+      "period_ns": null,
+      "maximum_timestep_ns": 1.0
+    },
+    {
+      "test": "decoderfix_startup_comparison",
+      "report": "sram512/reports/decoderfix_startup_comparison.json",
+      "sha256": "89b8f724ed3e1b3659aabb14afb6a738fe3ce57095e25d9f57a8984dfe64b848",
+      "stored_state": "PASS",
+      "operations": null,
+      "checks": null,
+      "voltage_v": null,
+      "temperature_c": null,
+      "signal_mesh": null,
+      "period_ns": null,
+      "maximum_timestep_ns": null
+    },
+    {
+      "test": "decoderfix_mesh4_prefix",
+      "report": "sram512/reports/decoderfix_mesh4_prefix.json",
+      "sha256": "a9561c8f447933fed62e8b36226df402276e5cf5ea333d3c4681205c23834f46",
+      "stored_state": "PASS",
+      "operations": 1,
+      "checks": 38138,
+      "voltage_v": 5,
+      "temperature_c": 27,
+      "signal_mesh": true,
+      "period_ns": 5000.0,
+      "maximum_timestep_ns": 20.0
+    },
+    {
+      "test": "decoderfix_mesh8_prefix",
+      "report": "sram512/reports/decoderfix_mesh8_prefix.json",
+      "sha256": "4017c7069d7f19e5b33ed25816d87e8f6626b2be801dd53e805d149e0e106b37",
+      "stored_state": "PASS",
+      "operations": 1,
+      "checks": 38138,
+      "voltage_v": 5,
+      "temperature_c": 27,
+      "signal_mesh": true,
+      "period_ns": 5000.0,
+      "maximum_timestep_ns": 20.0
+    },
+    {
+      "test": "decoderfix_signal_resolution",
+      "report": "sram512/reports/decoderfix_signal_resolution.json",
+      "sha256": "c4b158171b2ba03673fa7f1ed370838c32d6add26d5d48ea3ab394452d91909c",
+      "stored_state": "PASS",
+      "operations": null,
+      "checks": null,
+      "voltage_v": null,
+      "temperature_c": null,
+      "signal_mesh": null,
+      "period_ns": null,
+      "maximum_timestep_ns": null
+    },
+    {
+      "test": "decoderfix_power_paths_ramp",
+      "report": "sram512/reports/decoderfix_power_paths_ramp.json",
+      "sha256": "cb76b765c7ee1342231e74e556111f3157c3030b84d416f9f095ad91ee590e51",
+      "stored_state": "PASS",
+      "operations": 16,
+      "checks": 120547,
+      "voltage_v": 5,
+      "temperature_c": 27,
+      "signal_mesh": true,
+      "period_ns": 5000.0,
+      "maximum_timestep_ns": 20.0
+    },
+    {
+      "test": "decoderfix_pg_rc3_lowhot",
+      "report": "sram512/reports/decoderfix_pg_rc3_lowhot.json",
+      "sha256": "531d2c34c72563ade3851b7667d3bbf87b704286093e98d5dca0875693c2c374",
+      "stored_state": "PASS",
+      "operations": 16,
+      "checks": 120547,
+      "voltage_v": 4.5,
+      "temperature_c": 85.0,
+      "signal_mesh": true,
+      "period_ns": 5000.0,
+      "maximum_timestep_ns": 20.0
+    },
+    {
+      "test": "decoderfix_power_paths_ramp_power_wires",
+      "report": "sram512/reports/decoderfix_power_paths_ramp_power_wires.json",
+      "sha256": "2be643be56e121a4da55f003ea8d483481697b59303eec1c3648a2e08920b26d",
+      "stored_state": "PASS",
+      "operations": null,
+      "checks": 13406,
+      "voltage_v": null,
+      "temperature_c": null,
+      "signal_mesh": null,
+      "period_ns": null,
+      "maximum_timestep_ns": null
+    },
+    {
+      "test": "decoderfix_pg_rc3_lowhot_power_wires",
+      "report": "sram512/reports/decoderfix_pg_rc3_lowhot_power_wires.json",
+      "sha256": "a10d1ca9a42c7536a24d33e4541aaf7e5d81ce24b711271f2b145bc5e915859c",
+      "stored_state": "PASS",
+      "operations": null,
+      "checks": 13406,
+      "voltage_v": null,
+      "temperature_c": null,
+      "signal_mesh": null,
+      "period_ns": null,
+      "maximum_timestep_ns": null
+    },
+    {
+      "test": "decoderfix_operational_hot",
+      "report": "sram512/reports/decoderfix_operational_hot.json",
+      "sha256": "85b0bfb53607b4fa5aca1a9f0ffea1c58acc7174ea8e55f3eb26a3307488c9a4",
+      "stored_state": "PASS",
+      "operations": 28,
+      "checks": 5429,
+      "voltage_v": 5,
+      "temperature_c": 85,
+      "signal_mesh": null,
+      "period_ns": null,
+      "maximum_timestep_ns": null
+    },
+    {
+      "test": "decoderfix_reset_write0",
+      "report": "sram512/reports/decoderfix_reset_write0.json",
+      "sha256": "25dfc17943d029b4b3db92075bb409eab005f2290c69844bf629bfc0978900f7",
+      "stored_state": "PASS",
+      "operations": 4,
+      "checks": 56201,
+      "voltage_v": 5,
+      "temperature_c": 27,
+      "signal_mesh": true,
+      "period_ns": 5000,
+      "maximum_timestep_ns": 20
+    },
+    {
+      "test": "decoderfix_reset_write1",
+      "report": "sram512/reports/decoderfix_reset_write1.json",
+      "sha256": "da1eee14b4d37d1a6157578d93fcc95bcd2ab81aa3d5bdd204f2358d9342b06d",
+      "stored_state": "PASS",
+      "operations": 4,
+      "checks": 56201,
+      "voltage_v": 5,
+      "temperature_c": 27,
+      "signal_mesh": true,
+      "period_ns": 5000,
+      "maximum_timestep_ns": 20
+    },
+    {
+      "test": "analog_pd102_nominal",
+      "report": "sram512/reports/analog_pd102_nominal.json",
+      "sha256": "168da6995f5409e8428b254f81cdece4032d43cf67be7ea77a797b5964cb8c5d",
+      "stored_state": "PASS",
+      "operations": 16,
+      "checks": 2901,
+      "voltage_v": 5,
+      "temperature_c": 27,
+      "signal_mesh": null,
+      "period_ns": 1000,
+      "maximum_timestep_ns": null
+    },
+    {
+      "test": "analog_pd102_low_cold",
+      "report": "sram512/reports/analog_pd102_low_cold.json",
+      "sha256": "3253f074e15e6abd24159299b2b2a608fac584c119f2613b91757ba740f5698f",
+      "stored_state": "PASS",
+      "operations": 16,
+      "checks": 2901,
+      "voltage_v": 4.5,
+      "temperature_c": -20,
+      "signal_mesh": null,
+      "period_ns": 1000,
+      "maximum_timestep_ns": null
+    },
+    {
+      "test": "analog_pd102_low_hot",
+      "report": "sram512/reports/analog_pd102_low_hot.json",
+      "sha256": "657a93acc40517afa6526859646cc938ff772b088b282341fbe662f4272f4e56",
+      "stored_state": "PASS",
+      "operations": 16,
+      "checks": 2901,
+      "voltage_v": 4.5,
+      "temperature_c": 85,
+      "signal_mesh": null,
+      "period_ns": 1000,
+      "maximum_timestep_ns": null
+    },
+    {
+      "test": "analog_pd102_high_cold",
+      "report": "sram512/reports/analog_pd102_high_cold.json",
+      "sha256": "14791d1a35fb70bd8b14f4203fc90fc9b3778af3ea75e56e6a3a0d125b9da055",
+      "stored_state": "PASS",
+      "operations": 16,
+      "checks": 2901,
+      "voltage_v": 5.5,
+      "temperature_c": -20,
+      "signal_mesh": null,
+      "period_ns": 1000,
+      "maximum_timestep_ns": null
+    },
+    {
+      "test": "analog_pd102_high_hot",
+      "report": "sram512/reports/analog_pd102_high_hot.json",
+      "sha256": "67211c525020243a1894ad892bc7e81d6a42b240f87257697bad61b2ad489259",
+      "stored_state": "PASS",
+      "operations": 16,
+      "checks": 2901,
+      "voltage_v": 5.5,
+      "temperature_c": 85,
+      "signal_mesh": null,
+      "period_ns": 1000,
+      "maximum_timestep_ns": null
+    },
+    {
+      "test": "analog_pd102_wire_3x",
+      "report": "sram512/reports/analog_pd102_wire_3x.json",
+      "sha256": "b93bbc009f0c79120700f1005dca509dd2acea7a92b20a042cdf060717664da4",
+      "stored_state": "PASS",
+      "operations": 16,
+      "checks": 2901,
+      "voltage_v": 5,
+      "temperature_c": 27,
+      "signal_mesh": null,
+      "period_ns": 1000,
+      "maximum_timestep_ns": null
+    },
+    {
+      "test": "analog_pd102_wire_1p_hot",
+      "report": "sram512/reports/analog_pd102_wire_1p_hot.json",
+      "sha256": "8f590162918a1505a427f71698633a29bbd9a6811308d000673c4b4325c15e33",
+      "stored_state": "PASS",
+      "operations": 16,
+      "checks": 2901,
+      "voltage_v": 4.5,
+      "temperature_c": 85,
+      "signal_mesh": null,
+      "period_ns": 1000,
+      "maximum_timestep_ns": null
+    },
+    {
+      "test": "analog_pd102_vth_slow_n_fast_p",
+      "report": "sram512/reports/analog_pd102_vth_slow_n_fast_p.json",
+      "sha256": "7b5d70821dab8425304979b6c33dcb83d4b54b37b0aa33e474d6a7c168f7c145",
+      "stored_state": "PASS",
+      "operations": 16,
+      "checks": 2901,
+      "voltage_v": 5,
+      "temperature_c": 85,
+      "signal_mesh": null,
+      "period_ns": 1000,
+      "maximum_timestep_ns": null
+    },
+    {
+      "test": "analog_pd102_vth_fast_n_slow_p",
+      "report": "sram512/reports/analog_pd102_vth_fast_n_slow_p.json",
+      "sha256": "70716a67a49b1c9c095b76314de9ff1efe7235ac152eec8c0aa8e4ad3b3e360c",
+      "stored_state": "PASS",
+      "operations": 16,
+      "checks": 2901,
+      "voltage_v": 5,
+      "temperature_c": 85,
+      "signal_mesh": null,
+      "period_ns": 1000,
+      "maximum_timestep_ns": null
+    }
+  ],
+  "negative_probes": {
+    "stale_evidence": {
+      "changed_source": "sram512/schematics/sram512_bitcell.sch",
+      "change": "First MOS W: 3.4u -> 6.8u",
+      "original_sha256": "bc92f49c3383fbe5681e3fc3c38c69b0e8b17f1002c7a914364dca1efb2d01ec",
+      "changed_sha256": "e907ed892f293308d58fd15be78fcb449b68d211e6a43735ab6893117f66052c",
+      "summary_all_pass": true,
+      "summary_pass_count": 26,
+      "summary_stamps_changed_source": true,
+      "full_archive_exit_code": 0,
+      "full_archives": [
+        {
+          "path": "build/sram512/review_20260913/probes/mutated_archive_source_3q_nwj1z/build/sram512/submission/sram512_core_56810ad742a7_f6dff02.zip",
+          "sha256": "fbd841b2563483ddb1676fea93b4524dd5953a460ea4e68cfc19a4f560917fe7",
+          "status": "CORE_VERIFIED",
+          "changed_schematic_in_archive": true
+        }
+      ],
+      "flat_export_exit_code": 1,
+      "flat_export_source_guard_triggered": true
+    },
+    "waveform_checker": {
+      "source_waveform": "build/sram512/analog/pd102_nominal/sram512_tb.raw",
+      "source_sha256": "1294ff9ac057c877ddef3259ce03e07138bcbcd2cbe8028624c442d52ca9347a",
+      "baseline_passed": true,
+      "checks": 2901,
+      "sdo_glitch": {
+        "interval_ns": [
+          2500,
+          2700
+        ],
+        "samples": 53,
+        "injected_v": 5,
+        "expected_v": 0,
+        "accepted_as_pass": true
+      },
+      "truncated_trace": {
+        "actual_end_ns": 288981.3800699098,
+        "required_last_check_ns": 289800.0,
+        "accepted_as_pass": true
+      }
+    },
+    "scope": "Intentional defects are confined to scratch copies or arrays; live sources and raw files are read-only."
+  },
+  "independent_physical_waveforms": [
+    {
+      "name": "decoderfix_pg_rc3_lowhot",
+      "source_report_sha256": "531d2c34c72563ade3851b7667d3bbf87b704286093e98d5dca0875693c2c374",
+      "deck_sha256": "396d082c49fec1d11be2ae0f4d55f9246370cb75c4fdf3a22189861e155f5eb1",
+      "waveform_sha256": "72fe95dd5881d5323e289715417ca86702b6be109b8cc8a0ec38d36b63ad3c41",
+      "source_gds_sha256": "56810ad742a73036fb9db5207c75a2fcd63d344833c17da5f6270f1dc128bca1",
+      "finite_samples": true,
+      "points": 116403,
+      "variables": 9851,
+      "interval_ns": [
+        0.0,
+        1451000.0
+      ],
+      "expected_stop_ns": 1451000.0,
+      "minimum_step_ns": 0.05,
+      "mos_groups": 4877,
+      "maximum_by_pair": {
+        "DS": {
+          "device": "xm3571",
+          "model": "nmos",
+          "nets": [
+            "physical_45_4",
+            "rc_xrow_r0_2_g45",
+            "physical_45_2",
+            "power_vss_load_1232"
+          ],
+          "peak_abs_v": 4.894516127538344,
+          "time_ns": 201067.5396961385,
+          "reported_peak_abs_v": 4.894516127538344,
+          "over_5p75_groups": 0
+        },
+        "GS": {
+          "device": "xm4232",
+          "model": "pmos",
+          "nets": [
+            "physical_76_10",
+            "rc_xctrl_rsti_g76",
+            "physical_76_23",
+            "power_vdd_load_1323"
+          ],
+          "peak_abs_v": 5.100712706163147,
+          "time_ns": 1073531.4464569404,
+          "reported_peak_abs_v": 5.100712706163147,
+          "over_5p75_groups": 0
+        },
+        "SB": {
+          "device": "xm4280",
+          "model": "nmos",
+          "nets": [
+            "physical_77_16",
+            "physical_77_4",
+            "physical_77_9",
+            "power_vss_load_1497"
+          ],
+          "peak_abs_v": 4.737525633457072,
+          "time_ns": 451025.66003605473,
+          "reported_peak_abs_v": 4.737525633457072,
+          "over_5p75_groups": 0
+        },
+        "DB": {
+          "device": "xm4279",
+          "model": "nmos",
+          "nets": [
+            "physical_77_9",
+            "physical_77_3",
+            "physical_77_15",
+            "power_vss_load_1496"
+          ],
+          "peak_abs_v": 4.73699504903446,
+          "time_ns": 451025.66003605473,
+          "reported_peak_abs_v": 4.73699504903446,
+          "over_5p75_groups": 0
+        },
+        "GD": {
+          "device": "xm3780",
+          "model": "pmos",
+          "nets": [
+            "physical_61_10",
+            "rc_xctrl_rsti_g61",
+            "physical_61_23",
+            "power_vdd_load_1242"
+          ],
+          "peak_abs_v": 5.093238106711106,
+          "time_ns": 353531.71778619045,
+          "reported_peak_abs_v": 5.093238106711106,
+          "over_5p75_groups": 0
+        },
+        "GB": {
+          "device": "xm3475",
+          "model": "pmos",
+          "nets": [
+            "physical_31_5",
+            "sig_xctrl_xphase_c4b_n2529",
+            "physical_31_4",
+            "power_vdd_load_1172"
+          ],
+          "peak_abs_v": 5.172605066806725,
+          "time_ns": 1256068.5387621974,
+          "reported_peak_abs_v": 5.172605066806725,
+          "over_5p75_groups": 0
+        }
+      },
+      "diode_maximum_reverse_v": {
+        "dphysical3215": 4.500056567017075,
+        "dphysical3216": 4.5000378375547685,
+        "dphysical3259": 4.500049709933077,
+        "dphysical3260": 4.499999831413476,
+        "dphysical3261": 4.5000750074509295,
+        "dphysical3262": 4.500043745574681,
+        "dphysical3501": 4.5000956114627195,
+        "dphysical3502": 4.500046060768637
+      },
+      "initial_ones_observed": 512,
+      "selected_addresses": [
+        0,
+        31,
+        480,
+        511
+      ],
+      "scope": "Independent full binary-sample scan using terminal connections parsed from the saved electrical deck; no new transient simulation."
+    },
+    {
+      "name": "decoderfix_power_paths_ramp",
+      "source_report_sha256": "cb76b765c7ee1342231e74e556111f3157c3030b84d416f9f095ad91ee590e51",
+      "deck_sha256": "a4bae913de4154b8c5040327ba783a12b2558945c0db27ee31be1aa8e0ab3f1d",
+      "waveform_sha256": "fd601ce72ffc34579d049df8b9326ae3847fdfc64901c4be5c2d7240df77a0cb",
+      "source_gds_sha256": "56810ad742a73036fb9db5207c75a2fcd63d344833c17da5f6270f1dc128bca1",
+      "finite_samples": true,
+      "points": 116038,
+      "variables": 9851,
+      "interval_ns": [
+        0.0,
+        1451000.0
+      ],
+      "expected_stop_ns": 1451000.0,
+      "minimum_step_ns": 0.030005918539785514,
+      "mos_groups": 4877,
+      "maximum_by_pair": {
+        "DS": {
+          "device": "xm3571",
+          "model": "nmos",
+          "nets": [
+            "physical_45_4",
+            "rc_xrow_r0_2_g45",
+            "physical_45_2",
+            "power_vss_load_1232"
+          ],
+          "peak_abs_v": 5.5571065367608945,
+          "time_ns": 201028.68151804185,
+          "reported_peak_abs_v": 5.5571065367608945,
+          "over_5p75_groups": 0
+        },
+        "GS": {
+          "device": "xm4378",
+          "model": "pmos",
+          "nets": [
+            "power_vdd_load_1351",
+            "rc_xctrl_rx_g81",
+            "physical_81_1",
+            "power_vdd_load_1351"
+          ],
+          "peak_abs_v": 5.633829922328348,
+          "time_ns": 1131024.9828853284,
+          "reported_peak_abs_v": 5.633829922328348,
+          "over_5p75_groups": 0
+        },
+        "SB": {
+          "device": "xm4280",
+          "model": "nmos",
+          "nets": [
+            "physical_77_16",
+            "physical_77_4",
+            "physical_77_9",
+            "power_vss_load_1497"
+          ],
+          "peak_abs_v": 5.312070700649248,
+          "time_ns": 481011.6484262518,
+          "reported_peak_abs_v": 5.312070700649248,
+          "over_5p75_groups": 0
+        },
+        "DB": {
+          "device": "xm4279",
+          "model": "nmos",
+          "nets": [
+            "physical_77_9",
+            "physical_77_3",
+            "physical_77_15",
+            "power_vss_load_1496"
+          ],
+          "peak_abs_v": 5.311317354338299,
+          "time_ns": 481011.6484262518,
+          "reported_peak_abs_v": 5.311317354338299,
+          "over_5p75_groups": 0
+        },
+        "GD": {
+          "device": "xm4376",
+          "model": "pmos",
+          "nets": [
+            "physical_81_6",
+            "rc_xctrl_rx_g81",
+            "physical_81_4",
+            "power_vdd_load_1353"
+          ],
+          "peak_abs_v": 5.6756789924560715,
+          "time_ns": 1131024.4461089424,
+          "reported_peak_abs_v": 5.6756789924560715,
+          "over_5p75_groups": 0
+        },
+        "GB": {
+          "device": "xm4774",
+          "model": "nmos",
+          "nets": [
+            "physical_141_3",
+            "rc_xcol_decode_cl3_g141",
+            "physical_141_5",
+            "power_vss_load_1693"
+          ],
+          "peak_abs_v": 5.745088606213071,
+          "time_ns": 571027.0532973718,
+          "reported_peak_abs_v": 5.745088606213071,
+          "over_5p75_groups": 0
+        }
+      },
+      "diode_maximum_reverse_v": {
+        "dphysical3215": 5.000146803722745,
+        "dphysical3216": 5.000071369958571,
+        "dphysical3259": 5.00010755868823,
+        "dphysical3260": 5.000003512036024,
+        "dphysical3261": 5.000575993281918,
+        "dphysical3262": 5.000061381630759,
+        "dphysical3501": 5.000205966532773,
+        "dphysical3502": 5.0000987687673115
+      },
+      "initial_ones_observed": 512,
+      "selected_addresses": [
+        0,
+        31,
+        480,
+        511
+      ],
+      "scope": "Independent full binary-sample scan using terminal connections parsed from the saved electrical deck; no new transient simulation."
+    },
+    {
+      "name": "decoderfix_reset_write0",
+      "source_report_sha256": "25dfc17943d029b4b3db92075bb409eab005f2290c69844bf629bfc0978900f7",
+      "deck_sha256": "19e09db3bd393922add4f2d7cf7bad4734519be7d2db8260197819be0e4a3f3b",
+      "waveform_sha256": "9f8531f8588638963fd11de6ed5c79cee1e4d96db7aeb855aeecfee830d86c6f",
+      "source_gds_sha256": "56810ad742a73036fb9db5207c75a2fcd63d344833c17da5f6270f1dc128bca1",
+      "finite_samples": true,
+      "points": 35051,
+      "variables": 9851,
+      "interval_ns": [
+        0.0,
+        454749.99999999994
+      ],
+      "expected_stop_ns": 454750.0,
+      "minimum_step_ns": 0.030049291668225037,
+      "mos_groups": 4877,
+      "maximum_by_pair": {
+        "DS": {
+          "device": "xm3555",
+          "model": "nmos",
+          "nets": [
+            "physical_43_4",
+            "rc_xrow_r0_1_g43",
+            "physical_43_2",
+            "power_vss_load_1227"
+          ],
+          "peak_abs_v": 5.539553711361407,
+          "time_ns": 291029.17236950155,
+          "reported_peak_abs_v": 5.539553711361407,
+          "over_5p75_groups": 0
+        },
+        "GS": {
+          "device": "xm4232",
+          "model": "pmos",
+          "nets": [
+            "physical_76_10",
+            "rc_xctrl_rsti_g76",
+            "physical_76_23",
+            "power_vdd_load_1323"
+          ],
+          "peak_abs_v": 5.632537533542448,
+          "time_ns": 353515.96859187743,
+          "reported_peak_abs_v": 5.632537533542448,
+          "over_5p75_groups": 0
+        },
+        "SB": {
+          "device": "xm4280",
+          "model": "nmos",
+          "nets": [
+            "physical_77_16",
+            "physical_77_4",
+            "physical_77_9",
+            "power_vss_load_1497"
+          ],
+          "peak_abs_v": 5.311485041831266,
+          "time_ns": 121011.69051124106,
+          "reported_peak_abs_v": 5.311485041831266,
+          "over_5p75_groups": 0
+        },
+        "DB": {
+          "device": "xm4279",
+          "model": "nmos",
+          "nets": [
+            "physical_77_9",
+            "physical_77_3",
+            "physical_77_15",
+            "power_vss_load_1496"
+          ],
+          "peak_abs_v": 5.3106942176687575,
+          "time_ns": 121011.69051124106,
+          "reported_peak_abs_v": 5.3106942176687575,
+          "over_5p75_groups": 0
+        },
+        "GD": {
+          "device": "xm4412",
+          "model": "pmos",
+          "nets": [
+            "physical_84_6",
+            "rc_xctrl_rx_g84",
+            "physical_84_4",
+            "power_vdd_load_1368"
+          ],
+          "peak_abs_v": 5.668806258999989,
+          "time_ns": 416022.93322726246,
+          "reported_peak_abs_v": 5.668806258999989,
+          "over_5p75_groups": 0
+        },
+        "GB": {
+          "device": "xm4774",
+          "model": "nmos",
+          "nets": [
+            "physical_141_3",
+            "rc_xcol_decode_cl3_g141",
+            "physical_141_5",
+            "power_vss_load_1693"
+          ],
+          "peak_abs_v": 5.745065951499082,
+          "time_ns": 211026.64577827722,
+          "reported_peak_abs_v": 5.745065951499082,
+          "over_5p75_groups": 0
+        }
+      },
+      "diode_maximum_reverse_v": {
+        "dphysical3215": 5.000498637454446,
+        "dphysical3216": 5.000031213562265,
+        "dphysical3259": 5.0001073447890985,
+        "dphysical3260": 5.000003512036024,
+        "dphysical3261": 5.000575781480223,
+        "dphysical3262": 5.0000613499781466,
+        "dphysical3501": 5.000013776524943,
+        "dphysical3502": 5.00009846090124
+      },
+      "initial_ones_observed": 512,
+      "selected_addresses": [
+        0,
+        31,
+        480,
+        511
+      ],
+      "scope": "Independent full binary-sample scan using terminal connections parsed from the saved electrical deck; no new transient simulation."
+    },
+    {
+      "name": "decoderfix_reset_write1",
+      "source_report_sha256": "da1eee14b4d37d1a6157578d93fcc95bcd2ab81aa3d5bdd204f2358d9342b06d",
+      "deck_sha256": "f817f1f81be104acb9ea839093f85bd640cfe46b41d91d7c812a1f57b024b0d2",
+      "waveform_sha256": "6aca9b026c3b08b2ed835d8cf1ab9f5f28bfb5ca4bc02431f4f2378905b37dd3",
+      "source_gds_sha256": "56810ad742a73036fb9db5207c75a2fcd63d344833c17da5f6270f1dc128bca1",
+      "finite_samples": true,
+      "points": 34821,
+      "variables": 9851,
+      "interval_ns": [
+        0.0,
+        452250.0
+      ],
+      "expected_stop_ns": 452250.0,
+      "minimum_step_ns": 0.029956110563032073,
+      "mos_groups": 4877,
+      "maximum_by_pair": {
+        "DS": {
+          "device": "xm3571",
+          "model": "nmos",
+          "nets": [
+            "physical_45_4",
+            "rc_xrow_r0_2_g45",
+            "physical_45_2",
+            "power_vss_load_1232"
+          ],
+          "peak_abs_v": 5.5571012163610245,
+          "time_ns": 201028.68103878057,
+          "reported_peak_abs_v": 5.5571012163610245,
+          "over_5p75_groups": 0
+        },
+        "GS": {
+          "device": "xm4232",
+          "model": "pmos",
+          "nets": [
+            "physical_76_10",
+            "rc_xctrl_rsti_g76",
+            "physical_76_23",
+            "power_vdd_load_1323"
+          ],
+          "peak_abs_v": 5.632431297581185,
+          "time_ns": 173515.96877051122,
+          "reported_peak_abs_v": 5.632431297581185,
+          "over_5p75_groups": 0
+        },
+        "SB": {
+          "device": "xm4280",
+          "model": "nmos",
+          "nets": [
+            "physical_77_16",
+            "physical_77_4",
+            "physical_77_9",
+            "power_vss_load_1497"
+          ],
+          "peak_abs_v": 5.311822612408416,
+          "time_ns": 121011.64843645769,
+          "reported_peak_abs_v": 5.311822612408416,
+          "over_5p75_groups": 0
+        },
+        "DB": {
+          "device": "xm4279",
+          "model": "nmos",
+          "nets": [
+            "physical_77_9",
+            "physical_77_3",
+            "physical_77_15",
+            "power_vss_load_1496"
+          ],
+          "peak_abs_v": 5.311062933996429,
+          "time_ns": 121011.64843645769,
+          "reported_peak_abs_v": 5.311062933996429,
+          "over_5p75_groups": 0
+        },
+        "GD": {
+          "device": "xm4412",
+          "model": "pmos",
+          "nets": [
+            "physical_84_6",
+            "rc_xctrl_rx_g84",
+            "physical_84_4",
+            "power_vdd_load_1368"
+          ],
+          "peak_abs_v": 5.671384175017552,
+          "time_ns": 211022.93398526567,
+          "reported_peak_abs_v": 5.671384175017552,
+          "over_5p75_groups": 0
+        },
+        "GB": {
+          "device": "xm4774",
+          "model": "nmos",
+          "nets": [
+            "physical_141_3",
+            "rc_xcol_decode_cl3_g141",
+            "physical_141_5",
+            "power_vss_load_1693"
+          ],
+          "peak_abs_v": 5.747467703421417,
+          "time_ns": 391026.68349821406,
+          "reported_peak_abs_v": 5.747467703421417,
+          "over_5p75_groups": 0
+        }
+      },
+      "diode_maximum_reverse_v": {
+        "dphysical3215": 5.0001423921242125,
+        "dphysical3216": 5.000031874949073,
+        "dphysical3259": 5.000107413881529,
+        "dphysical3260": 5.000046814715376,
+        "dphysical3261": 5.000576094848792,
+        "dphysical3262": 5.0000613443754816,
+        "dphysical3501": 5.000013776524943,
+        "dphysical3502": 5.000098411108327
+      },
+      "initial_ones_observed": 512,
+      "selected_addresses": [
+        0,
+        31,
+        480,
+        511
+      ],
+      "scope": "Independent full binary-sample scan using terminal connections parsed from the saved electrical deck; no new transient simulation."
+    }
+  ],
+  "fresh_checks": {
+    "saved_layout_recheck": {
+      "top": "sram512_macro",
+      "gds_sha256": "56810ad742a73036fb9db5207c75a2fcd63d344833c17da5f6270f1dc128bca1",
+      "reference_sha256": "ea2832315394c3fb8823a4203630e713112620a24d2cca2cee2014245b458c3d",
+      "pdk": {
+        "revision": "6afbd918951f2ea0dcd11c5a46986b4c20f9e6f9",
+        "tree_sha256": "39d402dcc9ac40ed6c217a140369e116fd512b138503152b2cf3f1c0c6ec9e03",
+        "unmodified": true
+      },
+      "drc": {
+        "passed": true,
+        "items": 0,
+        "categories": {}
+      },
+      "lvs": {
+        "passed": true,
+        "circuit_pairs": [
+          "Match",
+          "Match",
+          "Match",
+          "Match",
+          "Match",
+          "Match",
+          "Match",
+          "Match",
+          "Match",
+          "Match",
+          "Match",
+          "Match",
+          "Match",
+          "Match"
+        ],
+        "errors": []
+      },
+      "geometry": {
+        "passed": true,
+        "source": {
+          "gds_sha256": "56810ad742a73036fb9db5207c75a2fcd63d344833c17da5f6270f1dc128bca1",
+          "lvsdb_sha256": "8f5f3717611e9bfc57d3676cd9c030a6af8ae41c0a853c588e7a669f2b695c26",
+          "mos_groups": 4877,
+          "physical_fingers": 4953,
+          "model_counts": {
+            "PMOS": 1927,
+            "NMOS": 2950,
+            "DP": 4,
+            "DN": 4
+          },
+          "source": "/home/ishi-kai/sram/build/sram512/review_20260913/probes/fresh/layout/rechecked16x32"
+        },
+        "physical_rows": 16,
+        "physical_columns": 32,
+        "cells": 512,
+        "mos_per_cell": 6,
+        "cell_mos_width_um": 3.4,
+        "cell_mos_length_um": 1,
+        "cell_pitch_um": [
+          22,
+          29.6
+        ],
+        "column_mux_devices": 64,
+        "column_mux_width_um": 5.1,
+        "column_mux_length_um": 1,
+        "write_pulldown_devices": 2,
+        "write_pulldown_widths_um": [
+          10.2
+        ],
+        "row_direction": "horizontal",
+        "column_direction": "vertical",
+        "logical_columns_increase_left_to_right": true,
+        "dimensions_um": [
+          1776.7,
+          600.0
+        ],
+        "bbox_um": [
+          0.0,
+          0.0,
+          1776.7,
+          600.0
+        ],
+        "pins": {
+          "VDD": {
+            "layer": "M2",
+            "x_um": 1747.7,
+            "y_um": 597.3000000000001
+          },
+          "VSS": {
+            "layer": "M2",
+            "x_um": 1769.7,
+            "y_um": 597.3000000000001
+          },
+          "SDO": {
+            "layer": "M2",
+            "x_um": 1684.7,
+            "y_um": 1.7
+          },
+          "CLK": {
+            "layer": "M2",
+            "x_um": 1101.7,
+            "y_um": 1.7
+          },
+          "RESET": {
+            "layer": "M2",
+            "x_um": 1244.7,
+            "y_um": 1.7
+          },
+          "SDI": {
+            "layer": "M2",
+            "x_um": 1393.2,
+            "y_um": 1.7
+          },
+          "WE": {
+            "layer": "M2",
+            "x_um": 1530.7,
+            "y_um": 1.7
+          }
+        },
+        "origin_required": true,
+        "scope": "Device centroids and electrical cell identities from strict LVS; actual top-level metal pin locations."
+      },
+      "manufacturing": {
+        "passed": true,
+        "items": 0,
+        "categories": {},
+        "dimensions_passed": true,
+        "drawing_bbox_um": [
+          0.0,
+          0.0,
+          1776.7,
+          600.0
+        ],
+        "mask_bbox_um": [
+          0.0,
+          0.0,
+          1776.7,
+          600.0
+        ],
+        "mask_dimensions_um": [
+          1776.7,
+          600.0
+        ],
+        "all_output_layers_bbox_um": [
+          0.0,
+          -6.6000000000000005,
+          1776.7,
+          605.0
+        ],
+        "fabrication_layers": [
+          36,
+          141,
+          25,
+          26,
+          33,
+          148,
+          143,
+          144,
+          145,
+          146,
+          147,
+          3,
+          35,
+          7,
+          12,
+          9,
+          28,
+          8,
+          11,
+          13,
+          19,
+          20,
+          14,
+          121,
+          122,
+          80
+        ],
+        "dimension_scope": "Physical masks listed in unmodified run_mdp.drc; all derived recognition layers remain present and fully checked.",
+        "drawing_sha256": "56810ad742a73036fb9db5207c75a2fcd63d344833c17da5f6270f1dc128bca1",
+        "mask_sha256": "a72585ae9a304e9c850add697228aacb982f2287bfc976cab0d77db23f318784",
+        "pdk": {
+          "revision": "6afbd918951f2ea0dcd11c5a46986b4c20f9e6f9",
+          "tree_sha256": "39d402dcc9ac40ed6c217a140369e116fd512b138503152b2cf3f1c0c6ec9e03",
+          "unmodified": true
+        },
+        "source": "/home/ishi-kai/sram/build/sram512/review_20260913/probes/fresh/extracted_sources/56810ad742a73036fb9db5207c75a2fcd63d344833c17da5f6270f1dc128bca1",
+        "waiver_regions": 0,
+        "scope": "Official MDP and complete IP62 mask DRC of the core; package/pad integration is separate."
+      },
+      "saved_mask_comparison": {
+        "passed": true,
+        "saved_mask_sha256": "cbd3e51a3f9ff9c6f90b93c4c3ca134acf3cb28adb3b495ca357f47e6b280ba4",
+        "regenerated_mask_sha256": "a72585ae9a304e9c850add697228aacb982f2287bfc976cab0d77db23f318784",
+        "layers": [
+          {
+            "layer": [
+              3,
+              0
+            ],
+            "passed": true,
+            "difference_area_um2": 0.0
+          },
+          {
+            "layer": [
+              7,
+              0
+            ],
+            "passed": true,
+            "difference_area_um2": 0.0
+          },
+          {
+            "layer": [
+              8,
+              0
+            ],
+            "passed": true,
+            "difference_area_um2": 0.0
+          },
+          {
+            "layer": [
+              9,
+              0
+            ],
+            "passed": true,
+            "difference_area_um2": 0.0
+          },
+          {
+            "layer": [
+              11,
+              0
+            ],
+            "passed": true,
+            "difference_area_um2": 0.0
+          },
+          {
+            "layer": [
+              13,
+              0
+            ],
+            "passed": true,
+            "difference_area_um2": 0.0
+          },
+          {
+            "layer": [
+              19,
+              0
+            ],
+            "passed": true,
+            "difference_area_um2": 0.0
+          },
+          {
+            "layer": [
+              20,
+              0
+            ],
+            "passed": true,
+            "difference_area_um2": 0.0
+          },
+          {
+            "layer": [
+              25,
+              0
+            ],
+            "passed": true,
+            "difference_area_um2": 0.0
+          },
+          {
+            "layer": [
+              26,
+              0
+            ],
+            "passed": true,
+            "difference_area_um2": 0.0
+          },
+          {
+            "layer": [
+              28,
+              0
+            ],
+            "passed": true,
+            "difference_area_um2": 0.0
+          },
+          {
+            "layer": [
+              33,
+              0
+            ],
+            "passed": true,
+            "difference_area_um2": 0.0
+          },
+          {
+            "layer": [
+              35,
+              0
+            ],
+            "passed": true,
+            "difference_area_um2": 0.0
+          },
+          {
+            "layer": [
+              36,
+              0
+            ],
+            "passed": true,
+            "difference_area_um2": 0.0
+          },
+          {
+            "layer": [
+              48,
+              1
+            ],
+            "passed": true,
+            "difference_area_um2": 0.0
+          },
+          {
+            "layer": [
+              49,
+              0
+            ],
+            "passed": true,
+            "difference_area_um2": 0.0
+          },
+          {
+            "layer": [
+              140,
+              0
+            ],
+            "passed": true,
+            "difference_area_um2": 0.0
+          },
+          {
+            "layer": [
+              146,
+              0
+            ],
+            "passed": true,
+            "difference_area_um2": 0.0
+          },
+          {
+            "layer": [
+              147,
+              0
+            ],
+            "passed": true,
+            "difference_area_um2": 0.0
+          },
+          {
+            "layer": [
+              150,
+              0
+            ],
+            "passed": true,
+            "difference_area_um2": 0.0
+          },
+          {
+            "layer": [
+              151,
+              0
+            ],
+            "passed": true,
+            "difference_area_um2": 0.0
+          },
+          {
+            "layer": [
+              157,
+              0
+            ],
+            "passed": true,
+            "difference_area_um2": 0.0
+          },
+          {
+            "layer": [
+              158,
+              0
+            ],
+            "passed": true,
+            "difference_area_um2": 0.0
+          },
+          {
+            "layer": [
+              167,
+              0
+            ],
+            "passed": true,
+            "difference_area_um2": 0.0
+          },
+          {
+            "layer": [
+              168,
+              0
+            ],
+            "passed": true,
+            "difference_area_um2": 0.0
+          },
+          {
+            "layer": [
+              177,
+              0
+            ],
+            "passed": true,
+            "difference_area_um2": 0.0
+          },
+          {
+            "layer": [
+              178,
+              0
+            ],
+            "passed": true,
+            "difference_area_um2": 0.0
+          }
+        ],
+        "scope": "All polygon layers of the delivered mask equal the newly generated, fully DRC-checked mask. GDS timestamps and non-mask text are not polygons."
+      },
+      "passed": true,
+      "scope": "Saved layout independently checked against the current editable Xschem hierarchy and unmodified dev decks."
+    },
+    "pcell_preservation": {
+      "passed": true,
+      "source_gds_sha256": "56810ad742a73036fb9db5207c75a2fcd63d344833c17da5f6270f1dc128bca1",
+      "source_generator": "klayout/sram_pcell/build.py",
+      "generator_sha256": "5394337bde7072d74d5755d992398bb07208dea54dd81fd7080be0e8411e868a",
+      "family": "six_single",
+      "layers": [
+        {
+          "layer": [
+            3,
+            1
+          ],
+          "difference_area_um2": 0.0,
+          "passed": true
+        },
+        {
+          "layer": [
+            3,
+            2
+          ],
+          "difference_area_um2": 0.0,
+          "passed": true
+        },
+        {
+          "layer": [
+            8,
+            1
+          ],
+          "difference_area_um2": 0.0,
+          "passed": true
+        },
+        {
+          "layer": [
+            11,
+            0
+          ],
+          "difference_area_um2": 0.0,
+          "passed": true
+        },
+        {
+          "layer": [
+            13,
+            0
+          ],
+          "difference_area_um2": 0.0,
+          "passed": true
+        },
+        {
+          "layer": [
+            19,
+            0
+          ],
+          "difference_area_um2": 0.0,
+          "passed": true
+        },
+        {
+          "layer": [
+            20,
+            0
+          ],
+          "difference_area_um2": 0.0,
+          "passed": true
+        },
+        {
+          "layer": [
+            140,
+            0
+          ],
+          "difference_area_um2": 0.0,
+          "passed": true
+        }
+      ],
+      "pdk": {
+        "revision": "6afbd918951f2ea0dcd11c5a46986b4c20f9e6f9",
+        "tree_sha256": "39d402dcc9ac40ed6c217a140369e116fd512b138503152b2cf3f1c0c6ec9e03",
+        "unmodified": true
+      },
+      "scope": "Layer-by-layer geometry XOR of the submitted shared bit-cell master and a fresh call to the user PCell generator with the dev PDK. The separate geometry audit counts all 512 physical cells."
+    },
+    "digital": {
+      "connectivity": [
+        {
+          "block": "sram512_phase",
+          "parts": 38,
+          "checked_pin_connections": 221,
+          "passed": true
+        },
+        {
+          "block": "sram512_frame",
+          "parts": 20,
+          "checked_pin_connections": 130,
+          "passed": true
+        },
+        {
+          "block": "sram512_control",
+          "parts": 17,
+          "checked_pin_connections": 101,
+          "passed": true
+        },
+        {
+          "block": "sram512_row_decoder",
+          "parts": 28,
+          "checked_pin_connections": 152,
+          "passed": true
+        },
+        {
+          "block": "sram512_col_decoder",
+          "parts": 44,
+          "checked_pin_connections": 228,
+          "passed": true
+        },
+        {
+          "block": "sram512_array",
+          "cells": 512,
+          "checked_pin_connections": 2560,
+          "passed": true
+        }
+      ],
+      "gate_network": {
+        "flipflops": 21,
+        "standard_cells": 154,
+        "gate_bom": {
+          "inv_x1": 5,
+          "and2_x1": 66,
+          "and3_x1": 25,
+          "buf_x4": 5,
+          "and4_x1": 10,
+          "or2": 4,
+          "dffr": 21,
+          "xor2": 4,
+          "mux2": 12,
+          "or4": 1,
+          "or3": 1
+        },
+        "verilog_sha256": "80c1c69bc64193eebd374682e08ccede4d2a0e9f2c1d9c2ba6adcd294322c63d"
+      },
+      "schematic_netlist_sha256": "e6f04b86adac0f13c4a6ec733ecbca921d1b1df094edd0891358b18041ec4721",
+      "rtl_sha256": "0ffcbe75ee14add1c278654d6f8e401861fbcb094339d0dc53fe086b914b1e1f",
+      "passed": true,
+      "simulation": "PASS: 9270 operations, 4644 reads, 4626 writes, 167013 clocks, 334063 gate/RTL/decode checks; 512 addresses; March C-; 18 reset phases\n/home/ishi-kai/sram/build/sram512/review_20260913/probes/fresh/digital_source/sram512/tb/tb_sram512.sv:118: $finish called at 10021003000 (1ps)"
+    },
+    "submission_lvs": {
+      "passed": true,
+      "checked_utc": "2026-09-13T03:40:37.823104+00:00",
+      "scope": "Isolated flat export; standard Xschem LVS settings and unmodified current-view GUI LVS macro with default reference lookup.",
+      "work": "build/sram512/review_20260913/probes/fresh/submission_lvs/default_flow_30lpzadg",
+      "gds_sha256": "7cf6744ff1a17bc7a6560639bbdaeea98041bc4eb0629763154e4c86e44be5a2",
+      "schematic_sha256": "20ea4a2e70a68adcb3452832df4d674e672619c591ad045b8adb5881612f73da",
+      "reference_sha256": "40d124ac4e1a1b4dce40a47763e475f07b46ca360c42e68dee32321a0b74d099",
+      "pdk_revision": "6afbd918951f2ea0dcd11c5a46986b4c20f9e6f9",
+      "erc": true,
+      "lvs": {
+        "passed": true,
+        "top": "sram512",
+        "circuit_pairs": [
+          "Match",
+          "Match",
+          "Match",
+          "Match",
+          "Match",
+          "Match",
+          "Match",
+          "Match",
+          "Match",
+          "Match",
+          "Match",
+          "Match",
+          "Match"
+        ],
+        "errors": [],
+        "strict_ports": true,
+        "reference": "simulation/sram512.spice",
+        "reference_override": false
+      },
+      "drc": {
+        "passed": true,
+        "items": 0
+      },
+      "files": {
+        "sense_amp_7t.sch": "fd8c65d937b248ae6d1eceec6d3c078b719e57398c8ab1ee282b200bbc7293b1",
+        "sense_amp_7t.sym": "2baf283213c54b648d6eedbcbdce39248d61013e2fdc348ccb6be615ddbf8555",
+        "sram512.gds": "7cf6744ff1a17bc7a6560639bbdaeea98041bc4eb0629763154e4c86e44be5a2",
+        "sram512.sch": "20ea4a2e70a68adcb3452832df4d674e672619c591ad045b8adb5881612f73da",
+        "sram512.sym": "ce6c8b742ddf175fd55302b563c4f370f5c5cf3eddaab4c87becb7b834bfe734",
+        "sram512_array.sch": "bf8e760f7cc182bc5947a1f7836e53fb1dcb559442df729c5e1c532c6f268369",
+        "sram512_array.sym": "25c7a84249adeeccf2161aa407590aa5aba4212bbe767c8e32d3c31d841942a5",
+        "sram512_bitcell.sch": "bc92f49c3383fbe5681e3fc3c38c69b0e8b17f1002c7a914364dca1efb2d01ec",
+        "sram512_bitcell.sym": "f3c31ae7fda8dbc656038a160aed9e8f4e1d3fec2837a8e0fc639875ceffe020",
+        "sram512_col_decoder.sch": "4e58f38e1d06f9a99233a855deb81e5c6fa226ddb4a07b4691ce7176300cb0a9",
+        "sram512_col_decoder.sym": "d1ebd371fbaacc4f83e9389648703c22ff217e64f0f7fafab1a8c27108fcd4d9",
+        "sram512_column.sch": "26c65390e5593030fdf734ef21fdda2a38f2d37731eff4305a224e9f39e56098",
+        "sram512_column.sym": "8cf87634b28ca56331d689387ad9af676b999e29fa870d8c9cb6cf604a4f62b1",
+        "sram512_control.sch": "182dde6ef69ba9112690bbfe4c518d21b38e47fb38b84cbecd5bb5af1c45ab3c",
+        "sram512_control.sym": "c69644f8b87a3608c025bf3c8bf287d403daa58abf9050e462a0c9190480e084",
+        "sram512_controller.sch": "8a24a5aa7b67bd46e283be1656e206e76031999b10b551cacca5125407911276",
+        "sram512_controller.sym": "36675ada4ee265f0fd26871d3826da3fc9ce66e9b0d7a1cf2f94aa9bc455f1cd",
+        "sram512_frame.sch": "a138f41d92de490331abb2e94a6d7c3813055b54dcd1927c35ca2c89e918a1a7",
+        "sram512_frame.sym": "f969c503cd1c66ad399e6a078ae740ed709c932c8d403e882df01a680a153416",
+        "sram512_input_clamp.sch": "95d73e7e74f8e2230df0fe1ea03f19b193627461e28e3fb99b6cbd30229d6047",
+        "sram512_input_clamp.sym": "3560f412aa459da561265ef1dfe68854af4b811512c0a7f70d25e6b8af523455",
+        "sram512_phase.sch": "a5d1a5e52f55bbe1583bbdc2b5d6ad288c2b399ef51bdaf4553fd0addcf29fc9",
+        "sram512_phase.sym": "68b64dddf81fa75cb6b1ba7fea015b55a66b13e0b55b87aaf7bf9827ba835f5c",
+        "sram512_row_decoder.sch": "ea9ab1ddf99f08eb9454d90628adc218983b00d116ace67aca0e90de8b3f7b45",
+        "sram512_row_decoder.sym": "e2dd661c41fb5c3cc6ce47a3fd9bdc5fc33dc67c217421d63d8d4caa5e83fba7",
+        "sram512_tb.sch": "a7b6e3467ba2c0187673e5aef49a2d81454c5a53f0881df3601d510b4cef9b88"
+      }
+    },
+    "submission_tb": {
+      "passed": true,
+      "checks": 2901,
+      "failure_count": 0,
+      "failures": [],
+      "read_observations": [
+        {
+          "operation": 4,
+          "row": 0,
+          "col": 0,
+          "sae_half_ns": 88016.8992146133,
+          "y_difference_v": -5.028615465598287
+        },
+        {
+          "operation": 5,
+          "row": 0,
+          "col": 31,
+          "sae_half_ns": 106016.90671314165,
+          "y_difference_v": 5.027759030909024
+        },
+        {
+          "operation": 6,
+          "row": 15,
+          "col": 0,
+          "sae_half_ns": 124016.89846876975,
+          "y_difference_v": 5.027466301115254
+        },
+        {
+          "operation": 7,
+          "row": 15,
+          "col": 31,
+          "sae_half_ns": 142016.89774254803,
+          "y_difference_v": -5.028553357721532
+        },
+        {
+          "operation": 12,
+          "row": 0,
+          "col": 0,
+          "sae_half_ns": 232016.90650261534,
+          "y_difference_v": 5.027747279171129
+        },
+        {
+          "operation": 13,
+          "row": 0,
+          "col": 31,
+          "sae_half_ns": 250016.89843856025,
+          "y_difference_v": -5.028585985866798
+        },
+        {
+          "operation": 14,
+          "row": 15,
+          "col": 0,
+          "sae_half_ns": 268016.8985106031,
+          "y_difference_v": -5.028581907619152
+        },
+        {
+          "operation": 15,
+          "row": 15,
+          "col": 31,
+          "sae_half_ns": 286016.89824557153,
+          "y_difference_v": 5.027460183687405
+        }
+      ],
+      "points": 53813,
+      "operations": 16,
+      "scope": "Fresh submitted MOS TB and current Python checks; lumped loads.",
+      "deck_sha256": "13673231aecc394b569777c55c78f2b7574a2adf2bcece0ec844fa04e0d17924"
+    },
+    "tb_core_equivalence": {
+      "passed": true,
+      "top_instances": 47,
+      "child_subcircuits": 22,
+      "scope": "All MOS/subcircuit/diode connections and parameters; intentional top VSS-to-ground mapping; ideal TB sources and loads excluded."
+    }
+  },
+  "scope": "Fresh geometry/LVS/digital/submitted nominal MOS tests, complete voltage-sample rescans of four archived physical runs, evidence/code/model review and isolated negative probes. The nine-corner matrix and multi-hour physical transients were not rerun.",
+  "manufacturing_verdict": "Geometry checks pass for the pinned PDK; electrical robustness and production yield are not qualified.",
+  "review_runner": {
+    "path": "reviews/sram512_review_checks.py",
+    "sha256": "191a17e55a8330e2c5e1aecc7683788a05ce725b852996785d0727a79913696f",
+    "modes_executed": [
+      "--fresh",
+      "default negative probes",
+      "--waveforms"
+    ]
+  },
+  "completed_utc": "2026-09-13T03:49:18.864618+00:00",
+  "findings": [
+    {
+      "id": "F1",
+      "priority": "P1",
+      "classification": "confirmed_verifier_defect",
+      "title": "Stale evidence certifies changed schematic in full archive"
+    },
+    {
+      "id": "F2",
+      "priority": "P1",
+      "classification": "manufacturing_readiness_gap",
+      "title": "2.5323 mV voltage margin without worst-interval convergence and operating-range qualification"
+    },
+    {
+      "id": "F3",
+      "priority": "P2",
+      "classification": "manufacturing_readiness_gap",
+      "title": "Detailed RC selects four cells; remaining 508 observed only in initial one state"
+    },
+    {
+      "id": "F4",
+      "priority": "P2",
+      "classification": "confirmed_verifier_defect",
+      "title": "Out-of-range waveform measurements pass"
+    },
+    {
+      "id": "F5",
+      "priority": "P2",
+      "classification": "confirmed_verifier_defect",
+      "title": "SDO hold violation outside sampled windows passes"
+    }
+  ],
+  "pdk_documents": [
+    {
+      "file": ".pdk/dev/TR-1um/openIP62/IP62/Technology/doc/OS00_リファレンスマニュアル_rev1.1.pdf",
+      "sha256": "e54fddbab0c7e9405516e5cc09db601280c349f1b8e9f01c0e5d45d2ee7720a3",
+      "pages_consulted": [
+        5,
+        8,
+        10,
+        17,
+        37
+      ]
+    },
+    {
+      "file": ".pdk/dev/TR-1um/openIP62/IP62/Technology/doc/OS02_回路simガイドライン_rev1.pdf",
+      "sha256": "76fffc2f14f80aae6590b9fefb7f4b94dbdbeb374bf7077fa50f029d6c161063",
+      "pages_consulted": [
+        15
+      ]
+    }
+  ]
+}

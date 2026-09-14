@@ -1,0 +1,48 @@
+# TR-1um extraction/comparison, with one SRAM cell-boundary assumption.
+# Both Vss rails and the NMOS substrate are tied together in sram_array.
+# See README.md for the independent, unmodified-PDK array check.
+
+# Run mode (same interface as the PDK-provided TR-1um LVS macro).
+raise("SRAM LVS requires deep mode for cell-scoped must-connect checks") if $run_mode == "flat"
+deep
+
+# Input and top cell (same interface as the PDK macro).
+if $input
+  if $top_cell
+    source($input, $top_cell)
+  else
+    source($input)
+  end
+end
+
+NET_ONLY = $netlist_only ? true : false
+IGNORE_TOP_PORTS_MISMATCH = $ignore_top_ports_mismatch ? true : false
+
+if $report
+  report_lvs($report)
+else
+  report_lvs
+end
+
+# Reuse the installed PDK extraction and comparison rules unchanged.
+# %include /home/ishi-kai/pdk/TR-1um/libs.tech/klayout/tech/drc/00_Layers.drc
+# %include /home/ishi-kai/pdk/TR-1um/libs.tech/klayout/tech/drc/02_Device.drc
+# %include /home/ishi-kai/pdk/TR-1um/libs.tech/klayout/tech/lvs/01_Extract.lvs
+# %include /home/ishi-kai/pdk/TR-1um/libs.tech/klayout/tech/lvs/03_Combiner.lvs
+# %include /home/ishi-kai/pdk/TR-1um/libs.tech/klayout/tech/lvs/02_Extract.lvs
+# %include /home/ishi-kai/pdk/TR-1um/libs.tech/klayout/tech/lvs/04_Custom.lvs
+
+# Must-connect applies only inside sram. A parent must physically complete it.
+# WL and Vdd are already physically connected and need no extraction overrides.
+connect_explicit("sram", ["VSS", "Vss"])
+
+# Match the schematic spelling after KLayout joins the substrate/rail names.
+# Do not rename or join any unrelated net.
+sram_circuit = netlist.circuit_by_name("sram")
+raise("Extracted circuit 'sram' was not found") unless sram_circuit
+["VSS,Vss", "Vss,VSS"].each do |name|
+  joined = sram_circuit.net_by_name(name)
+  joined.name = "Vss" if joined
+end
+
+# %include /home/ishi-kai/pdk/TR-1um/libs.tech/klayout/tech/lvs/05_Compare.lvs

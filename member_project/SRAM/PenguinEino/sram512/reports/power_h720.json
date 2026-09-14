@@ -1,0 +1,307 @@
+{
+  "top": "sram512_macro",
+  "gds_sha256": "d20128c3e0615fca4f4c2c15ffa0da1d9b355917be2c5f09aea828d6ef4a2b9f",
+  "reference_sha256": "4f6c68710d1c5565ce389628e1475cd106974293acba9ece2f5427f4ecb48503",
+  "pdk": {
+    "profile": "dev",
+    "pdk_directory": "/home/ishi-kai/sram/.pdk/dev/TR-1um",
+    "locked_revision": "6afbd918951f2ea0dcd11c5a46986b4c20f9e6f9",
+    "rule_sha256": {
+      "libs.tech/klayout/tech/drc/00_Layers.drc": "6e029f7adeb58062bd8f5a1983d8c71188d23b5d5c5a2c404501026df8174e86",
+      "libs.tech/klayout/tech/drc/01_Basics.drc": "13eaf0551f4f692fd528605876c340b092e42e0077c54bc6b4958cfa2a389741",
+      "libs.tech/klayout/tech/drc/02_Device.drc": "8fd18abf946c594dddde7c05d44c1321056ff04bde46f6bd727600b1e42fa009",
+      "libs.tech/klayout/tech/drc/03_Electrical.drc": "497d9cd3ddbccbba68f73553618b455fecffe849b4be37f10d750030b7bde085",
+      "libs.tech/klayout/tech/drc/IP62/00_Layers.drc": "32f0957029368e89a032626b3a2fb8b09930c36cc9581b62c0ad132c9d393b07",
+      "libs.tech/klayout/tech/drc/IP62/01_Basics.drc": "eac124d2e77929ca2b675cd6c8b6e36065a5cecf699f2ca59a532647fdea7314",
+      "libs.tech/klayout/tech/drc/IP62/02_Device.drc": "df84a871f7b9c6f1c9809deae2d8d716377596c8a400d1690949a731eeb82010",
+      "libs.tech/klayout/tech/drc/IP62/03_Check.drc": "6487168daa36b1d9765b42e461fd4d271495aeef919a41b2c937745071af7b46",
+      "libs.tech/klayout/tech/drc/IP62/04_Check.drc": "5a2107118f3a92377b57a220c865f75e59e589675956c70e7b35ec890e8c9d2a",
+      "libs.tech/klayout/tech/drc/IP62/05_Check.drc": "1a81ef8b0ce88d435963a2f05cc253dfa786df3841de4e505a7867517aeb3911",
+      "libs.tech/klayout/tech/drc/IP62/06_Check.drc": "ede6baa828403ff2b6bae03953f4d833af22819488fc13f451ad24d179083a88",
+      "libs.tech/klayout/tech/drc/IP62/07_Check.drc": "4ad62763f3ae5c9233fc8a9fd55a5ec999450362070956fcf0348060ce03d758",
+      "libs.tech/klayout/tech/drc/IP62/08_Check.drc": "a4dbf53e06b7993d1e54138da767990f90197a8960fcb86c8c7b63bfa9cf602d",
+      "libs.tech/klayout/tech/drc/IP62/09_Check.drc": "e5602d8aa07ab997a023b5d4da91437ce066f56abf71a1eca4556e1a8110eb72",
+      "libs.tech/klayout/tech/drc/drc.lydrc": "1e610ee59a2022e5e3da275fdf99b6717678403035ddc14f27f7ff94d02b31b8",
+      "libs.tech/klayout/tech/drc/drc_IP62.lydrc": "e5b40a257ce8e7e88e488d8b73086af15e984dc46399ec600818788317b1c1da",
+      "libs.tech/klayout/tech/drc/run.drc": "d478b2da33df0c3f75858cbaa6c6e7ea98cac5cd4840ca1440a9f1b4edeeeb55",
+      "libs.tech/klayout/tech/drc/run_IP62.drc": "0b2de0131fc642ba54389f74d27f5d07d1b9cb5e58381044ed4ef95f16113a0b",
+      "libs.tech/klayout/tech/drc/run_mdp.drc": "ecb027e52c4e94c4ed76b2654f400801e64ab4f9c6f59ecceecad2c1e08ad41e",
+      "libs.tech/klayout/tech/drc/run_tile.drc": "5966f762d81e7408f245957ec1b0813caa346a5cb902fbd9e5fd9ba22dccd135",
+      "libs.tech/klayout/tech/lvs/01_Extract.lvs": "2206d70e86e72b0397a25811c5680715cd63d37ae42fd30e8185e7fdec0e21a6",
+      "libs.tech/klayout/tech/lvs/02_Extract.lvs": "91d26f9d2150cedea78ef2591971bf5159b8c6c7bae0f89d9117837dbb716762",
+      "libs.tech/klayout/tech/lvs/03_Combiner.lvs": "38f081645ca9396735b685ea0acbfb36796b14df252b7c292c371dd911be6388",
+      "libs.tech/klayout/tech/lvs/04_Custom.lvs": "02d483380903cadc17ef30d512a928ece94a68dc9eb221cfd738e286703490ba",
+      "libs.tech/klayout/tech/lvs/05_Compare.lvs": "ba20494aa1483f3f42f9d7668d704c1773ac0b7953482d47476875b25d40c18d",
+      "libs.tech/klayout/tech/lvs/IP62/01_Extract.lvs": "3584c4f1477f9b63b0f6b219a4e7a39db61070ef9e8614ac2a7033b38ea7a1f3",
+      "libs.tech/klayout/tech/lvs/IP62/02_Extract.lvs": "07ef72a2ee9be769a53a83bffc6a75dbf9e85b622d229c416fe12ff57bf0d8ac",
+      "libs.tech/klayout/tech/lvs/IP62/03_Extract.lvs": "05f0ef3f480f8523c2c1f8f109673ad576df5fdf2cdae207726d9182a2be937d",
+      "libs.tech/klayout/tech/lvs/IP62/04_Compare.lvs": "e95cc8df79f34e7faf2d0a0d2e943f966f72e4ccb065fff0278d25bf61893a39",
+      "libs.tech/klayout/tech/lvs/IP62/run.lvs": "df3087c9b616daad0ac0681423436d6e02df19270648220fbaee15db10a56ef0",
+      "libs.tech/klayout/tech/lvs/lvs.lylvs": "1fdbec8c7f76a2f2c93584cefb8b250535f40ab41ffe5f426d14be1248eae70a",
+      "libs.tech/klayout/tech/lvs/run.lvs": "b9c776230ab5afe9ddd2dccee5996c49acae5db0fc6ba5cd375dd6be1d36a6f0"
+    }
+  },
+  "drc": {
+    "passed": true,
+    "items": 0,
+    "categories": {}
+  },
+  "lvs": {
+    "passed": true,
+    "circuit_pairs": [
+      "Match",
+      "Match",
+      "Match",
+      "Match",
+      "Match",
+      "Match",
+      "Match",
+      "Match",
+      "Match",
+      "Match",
+      "Match",
+      "Match",
+      "Match",
+      "Match"
+    ],
+    "errors": []
+  },
+  "source_gds_sha256": "ed805adb64e4d5fe7ab323934d04ffab32dd944637720a5f622d8122dbfc9c92",
+  "parallel_vias": [
+    {
+      "net": "VDD",
+      "origin_um": [
+        1793.0,
+        170.5
+      ],
+      "downstream_metal_components": 531,
+      "old_cuts": 1,
+      "new_cuts": 4,
+      "added_vias_um": [
+        [
+          1793.0,
+          167.5
+        ],
+        [
+          1793.0,
+          164.5
+        ],
+        [
+          1793.0,
+          161.5
+        ]
+      ]
+    },
+    {
+      "net": "VDD",
+      "origin_um": [
+        1160.5,
+        154.0
+      ],
+      "downstream_metal_components": 518,
+      "old_cuts": 1,
+      "new_cuts": 3,
+      "added_vias_um": [
+        [
+          1160.5,
+          157.0
+        ],
+        [
+          1160.5,
+          160.0
+        ]
+      ]
+    },
+    {
+      "net": "VDD",
+      "origin_um": [
+        1160.5,
+        225.5
+      ],
+      "downstream_metal_components": 517,
+      "old_cuts": 1,
+      "new_cuts": 4,
+      "added_vias_um": [
+        [
+          1163.5,
+          225.5
+        ],
+        [
+          1166.5,
+          225.5
+        ],
+        [
+          1166.5,
+          228.5
+        ]
+      ]
+    },
+    {
+      "net": "VDD",
+      "origin_um": [
+        448.0,
+        225.5
+      ],
+      "downstream_metal_components": 190,
+      "old_cuts": 1,
+      "new_cuts": 2,
+      "added_vias_um": [
+        [
+          454.0,
+          225.5
+        ]
+      ]
+    },
+    {
+      "net": "VDD",
+      "origin_um": [
+        5.5,
+        236.5
+      ],
+      "downstream_metal_components": 44,
+      "old_cuts": 1,
+      "new_cuts": 2,
+      "added_vias_um": [
+        [
+          5.5,
+          233.5
+        ]
+      ]
+    },
+    {
+      "net": "VDD",
+      "origin_um": [
+        5.5,
+        66.0
+      ],
+      "downstream_metal_components": 43,
+      "old_cuts": 1,
+      "new_cuts": 2,
+      "added_vias_um": [
+        [
+          5.5,
+          63.0
+        ]
+      ]
+    },
+    {
+      "net": "VSS",
+      "origin_um": [
+        1793.0,
+        11.0
+      ],
+      "downstream_metal_components": 799,
+      "old_cuts": 1,
+      "new_cuts": 4,
+      "added_vias_um": [
+        [
+          1790.0,
+          11.0
+        ],
+        [
+          1793.0,
+          8.0
+        ],
+        [
+          1793.0,
+          14.0
+        ]
+      ]
+    },
+    {
+      "net": "VSS",
+      "origin_um": [
+        158.25,
+        15.5
+      ],
+      "downstream_metal_components": 757,
+      "old_cuts": 1,
+      "new_cuts": 3,
+      "added_vias_um": [
+        [
+          157.25,
+          12.5
+        ],
+        [
+          157.25,
+          9.55
+        ]
+      ]
+    },
+    {
+      "net": "VSS",
+      "origin_um": [
+        184.5,
+        170.5
+      ],
+      "downstream_metal_components": 756,
+      "old_cuts": 1,
+      "new_cuts": 2,
+      "added_vias_um": [
+        [
+          178.5,
+          170.5
+        ]
+      ]
+    }
+  ],
+  "unresolved": [
+    {
+      "net": "VDD",
+      "origin_um": [
+        1160.5,
+        154.0
+      ],
+      "downstream_metal_components": 518,
+      "old_cuts": 1,
+      "new_cuts": 3,
+      "added_vias_um": [
+        [
+          1160.5,
+          157.0
+        ],
+        [
+          1160.5,
+          160.0
+        ]
+      ]
+    },
+    {
+      "net": "VSS",
+      "origin_um": [
+        158.25,
+        15.5
+      ],
+      "downstream_metal_components": 757,
+      "old_cuts": 1,
+      "new_cuts": 3,
+      "added_vias_um": [
+        [
+          157.25,
+          12.5
+        ],
+        [
+          157.25,
+          9.55
+        ]
+      ]
+    },
+    {
+      "net": "VSS",
+      "origin_um": [
+        184.5,
+        170.5
+      ],
+      "downstream_metal_components": 756,
+      "old_cuts": 1,
+      "new_cuts": 2,
+      "added_vias_um": [
+        [
+          178.5,
+          170.5
+        ]
+      ]
+    }
+  ],
+  "scope": "Physical via redundancy only. Wire current capacity and supply IR drop require separate analysis."
+}

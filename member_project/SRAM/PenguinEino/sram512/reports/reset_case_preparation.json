@@ -1,0 +1,25 @@
+{
+  "passed": true,
+  "source_gds_sha256": "56810ad742a73036fb9db5207c75a2fcd63d344833c17da5f6270f1dc128bca1",
+  "cases": [
+    {
+      "name": "decoderfix_power_paths_ramp",
+      "electrical_elements": 41130,
+      "circuit_sha256": "2400599f1d1fc62f61f973f53d549655dc3e40c31f419bbda9b0923ad3313028",
+      "deck_sha256": "a4bae913de4154b8c5040327ba783a12b2558945c0db27ee31be1aa8e0ab3f1d"
+    },
+    {
+      "name": "decoderfix_reset_write0",
+      "electrical_elements": 41130,
+      "circuit_sha256": "2400599f1d1fc62f61f973f53d549655dc3e40c31f419bbda9b0923ad3313028",
+      "deck_sha256": "19e09db3bd393922add4f2d7cf7bad4734519be7d2db8260197819be0e4a3f3b"
+    },
+    {
+      "name": "decoderfix_reset_write1",
+      "electrical_elements": 41130,
+      "circuit_sha256": "2400599f1d1fc62f61f973f53d549655dc3e40c31f419bbda9b0923ad3313028",
+      "deck_sha256": "f817f1f81be104acb9ea839093f85bd640cfe46b41d91d7c812a1f57b024b0d2"
+    }
+  ],
+  "scope": "The actual generated decks use identical extracted devices, signal RC, power mesh and output load. Only external stimulus sequences and the final simulation time differ. No initial state is forced."
+}

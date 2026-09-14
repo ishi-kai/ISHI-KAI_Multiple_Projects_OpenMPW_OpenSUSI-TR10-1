@@ -1,0 +1,46 @@
+* Created by KLayout
+*** My special header ***
+
+* cell opamp_july_fifth
+* pin D
+* pin D
+* pin D,G
+* pin D,Vb,ib
+* pin D,out
+* pin S
+* pin S
+* pin S,Vdd
+* pin Vinn,vinn
+* pin Vinp
+.SUBCKT opamp_july_fifth D D$1 D|G D|Vb|ib D|out S S$1 S|Vdd Vinn|vinn Vinp
+* device instance $1 m135 *1 -108,-11.6 PMOS
+XM$1 D|Vb|ib D|Vb|ib S|Vdd S|Vdd PMOS L=4u W=30u AS=58p AD=58p PS=51.6u PD=51.6u
+* device instance $4 r270 *1 -54.2,-11.6 PMOS
+XM$4 D|G D|Vb|ib S|Vdd S|Vdd PMOS L=4u W=30u AS=58p AD=58p PS=51.6u PD=51.6u
+* device instance $7 r270 *1 41.8,-10 PMOS
+XM$7 S|Vdd D|Vb|ib \$116 S|Vdd PMOS L=4u W=160u AS=281.6p AD=281.6p PS=209.6u
++ PD=209.6u
+* device instance $12 r0 *1 160.8,-21.5 PMOS
+XM$12 S|Vdd D|Vb|ib D|out S|Vdd PMOS L=4u W=400u AS=652p AD=652p PS=472.6u
++ PD=472.6u
+* device instance $22 r0 *1 227.2,-81.5 PMOS
+XM$22 \$116 Vinp S \$116 PMOS L=4u W=360u AS=1008p AD=1008p PS=854.4u PD=854.4u
+* device instance $46 r0 *1 162.2,-81.5 PMOS
+XM$46 \$116 Vinn|vinn D \$116 PMOS L=4u W=360u AS=1008p AD=1008p PS=854.4u
++ PD=854.4u
+* device instance $70 r270 *1 -101.2,-108.1 NMOS
+XM$70 \$60 \$60 S$1 S$1 NMOS L=4u W=10u AS=28p AD=28p PS=25.6u PD=25.6u
+* device instance $71 r270 *1 -101.2,-89.5 NMOS
+XM$71 D|G D|G \$60 S$1 NMOS L=4u W=10u AS=28p AD=28p PS=25.6u PD=25.6u
+* device instance $72 r270 *1 -51.5,-152.7 NMOS
+XM$72 D D S$1 S$1 NMOS L=4u W=40u AS=112p AD=112p PS=85.6u PD=85.6u
+* device instance $73 r270 *1 8.3,-152.7 NMOS
+XM$73 S D S$1 S$1 NMOS L=4u W=40u AS=112p AD=112p PS=85.6u PD=85.6u
+* device instance $74 r0 *1 104.6,-13.4 NMOS
+XM$74 D$1 D|G S S$1 NMOS L=4u W=40u AS=70.4p AD=70.4p PS=65.6u PD=65.6u
+* device instance $79 r0 *1 251.6,-21.4 NMOS
+XM$79 S$1 S D|out S$1 NMOS L=4u W=200u AS=352p AD=352p PS=257.6u PD=257.6u
+* device instance $84 r180 *1 378.7,-93 F_CSIO
+XC$84 D$1 D|out S$1 F_CSIO C=8.64e-12 A=14400p P=480u X=119.999998651
++ Y=120.000001349 m=1
+.ENDS opamp_july_fifth

@@ -1,0 +1,35 @@
+** sch_path: /home/ishi-kai/openmpw-transistor-level-examples/OpenSUSI-TR10/opamp3/opamp1/opamp_ysd.sch
+.subckt opamp_ysd vinp vinn out vdd vss ib
+*.PININFO vinp:I vinn:I out:O vdd:B vss:B ib:B
+X1 vinp vinn net2 vdd vss ib diff
+X2 net2 ib out vdd vss cs
+MM9 net1 ib vdd vdd PMOS w=48u l=2u m=1
+MM12 net3 net1 net2 vss NMOS w=40u l=2u m=1
+MM1 ib ib vdd vdd PMOS w=48u l=2u m=1
+MM10 net1 net1 net4 vss NMOS w=22u l=2u m=1
+MM11 net4 net4 vss vss NMOS w=22u l=2u m=1
+XXC1 net3 out vss F_CSIO x=120u y=120u A=14.4n P=480u m=1
+.ends
+
+* expanding   symbol:  diff.sym # of pins=6
+** sym_path: /home/ishi-kai/openmpw-transistor-level-examples/OpenSUSI-TR10/opamp3/opamp1/diff.sym
+** sch_path: /home/ishi-kai/openmpw-transistor-level-examples/OpenSUSI-TR10/opamp3/opamp1/diff.sch
+.subckt diff vinp vinn out vdd vss vb
+*.PININFO vinn:I vinp:I vb:I out:O vdd:B vss:B
+MM5 net2 vb vdd vdd PMOS w=200u l=2u m=1
+MM1 net1 vinn net2 net2 PMOS w=100u l=2u m=1
+MM2 out vinp net2 net2 PMOS w=100u l=2u m=1
+MM3 net1 net1 vss vss NMOS w=50u l=2u m=1
+MM4 out net1 vss vss NMOS w=50u l=2u m=1
+.ends
+
+
+* expanding   symbol:  cs.sym # of pins=5
+** sym_path: /home/ishi-kai/openmpw-transistor-level-examples/OpenSUSI-TR10/opamp3/opamp1/cs.sym
+** sch_path: /home/ishi-kai/openmpw-transistor-level-examples/OpenSUSI-TR10/opamp3/opamp1/cs.sch
+.subckt cs vin vb out vdd vss
+*.PININFO vb:I vin:I out:O vss:B vdd:B
+MM6 out vb vdd vdd PMOS w=480u l=2u m=1
+MM7 out vin vss vss NMOS w=220u l=2u m=1
+.ends
+

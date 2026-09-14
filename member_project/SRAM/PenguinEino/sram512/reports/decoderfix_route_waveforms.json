@@ -1,0 +1,111 @@
+{
+  "release_evidence": false,
+  "source_gds_sha256": "56810ad742a73036fb9db5207c75a2fcd63d344833c17da5f6270f1dc128bca1",
+  "source_runs": [
+    {
+      "case": "signalfix_power_paths_ramp",
+      "source_gds_sha256": "f32c213db5efaa09449b3c8db709c2b547bae09c6fe011f1eb284dda8342eff2",
+      "deck_sha256": "576201e99c6fa2b52c7a1f40bbfc697346846b5b652599b676ffefd24eb60178",
+      "points_at_snapshot": 67020,
+      "simulated_ns_at_snapshot": 841009.2752175577
+    },
+    {
+      "case": "decoderfix_power_paths_ramp",
+      "source_gds_sha256": "56810ad742a73036fb9db5207c75a2fcd63d344833c17da5f6270f1dc128bca1",
+      "deck_sha256": "a4bae913de4154b8c5040327ba783a12b2558945c0db27ee31be1aa8e0ab3f1d",
+      "points_at_snapshot": 31281,
+      "simulated_ns_at_snapshot": 396406.74357720854
+    }
+  ],
+  "observed_windows": [
+    {
+      "net": "CA2B",
+      "cell": "AND3_X1",
+      "position_um": [
+        1067.6,
+        86.55
+      ],
+      "before": {
+        "device": 3635,
+        "peak_abs_v": 5.794996390675763,
+        "time_ns": 231024.97430139565,
+        "window_ns": [
+          230900,
+          231400
+        ],
+        "window_sample_sha256": "4092e79f0bcaa752d6e8f42ab1fe2ef014d694e12ee1dc2299232a1d7f212e2c"
+      },
+      "after": {
+        "device": 3635,
+        "peak_abs_v": 5.595973909474003,
+        "time_ns": 231024.49615465937,
+        "window_ns": [
+          230900,
+          231400
+        ],
+        "window_sample_sha256": "26ae326d327646f7ff5f9fddc28f0838fb157b27bd2f9172e75be7f75a51015f"
+      }
+    },
+    {
+      "net": "RA0",
+      "cell": "AND2_X1",
+      "position_um": [
+        1238.1,
+        12.3
+      ],
+      "before": {
+        "device": 4498,
+        "peak_abs_v": 5.795027822894037,
+        "time_ns": 311028.014065683,
+        "window_ns": [
+          310900,
+          311400
+        ],
+        "window_sample_sha256": "5e820d9b752a6a8b704a426e1f7f6d15fc6fbb54ffb76f1f8a0a1f605dd2d2ed"
+      },
+      "after": {
+        "device": 4498,
+        "peak_abs_v": 5.6001604037113735,
+        "time_ns": 311027.47244223295,
+        "window_ns": [
+          310900,
+          311400
+        ],
+        "window_sample_sha256": "497a8e1c3caec0533e13880660756828492b6f26d8aa353acf67db26274c0567"
+      }
+    },
+    {
+      "net": "CL0",
+      "cell": "AND2_X1",
+      "position_um": [
+        510.9,
+        64.7
+      ],
+      "before": {
+        "device": 4714,
+        "peak_abs_v": 5.81678050139716,
+        "time_ns": 391033.8082781671,
+        "window_ns": [
+          390900,
+          391400
+        ],
+        "window_sample_sha256": "82e05edef6e982ffbad67060fb122c9bc18080fdbc0f517789854267392f839c"
+      },
+      "after": {
+        "device": 4714,
+        "peak_abs_v": 5.589009582250442,
+        "time_ns": 391033.23249239824,
+        "window_ns": [
+          390900,
+          391400
+        ],
+        "window_sample_sha256": "2fb87247473d40e0475a024ab3cbcc7477c57b5246fb6401af576b0eca8f1429"
+      }
+    }
+  ],
+  "previous_inputs_exceeded_limit": true,
+  "corrected_windows_within_limit": true,
+  "image_sha256": "d774231ab48aa5edeeea4b64e4beb9e8b54824f94ee062a278b3346a1000a1d7",
+  "limit_abs_v": 5.75,
+  "scope": "Plot the three observed decoder voltage excursions and their physical fixes.\n\nThis compares complete time windows read from immutable portions of the raw\nfiles. A running file may supply a window, but never full release evidence.\nThe original raw headers and simulation files are not changed.\n"
+}

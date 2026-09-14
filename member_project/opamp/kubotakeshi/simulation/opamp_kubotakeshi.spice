@@ -1,0 +1,35 @@
+** sch_path: /mnt/c/Data/OneDrive/MyDocuments/Community/ISHIKAI/shuttle/OpenSUSI-TR10/2026/opamp/opamp_kubotakeshi/opamp_kubotakeshi.sch
+.subckt opamp_kubotakeshi vinp vinn out vdd vss ib
+*.PININFO vinp:I vinn:I out:O vdd:B vss:B ib:B
+x1 vinp vinn net2 vdd vss ib diff
+x2 net2 ib out vdd vss cs
+MM9 net1 ib vdd vdd PMOS w=10u l=1u m=3
+MM12 net3 net1 net2 vss NMOS w=10u l=1u m=2
+MM1 ib ib vdd vdd PMOS w=10u l=1u m=3
+MM10 net1 net1 net4 vss NMOS w=10u l=1u
+MM11 net4 net4 vss vss NMOS w=10u l=1u
+XXC1 net3 out vss F_CSIO x=120u y=120u A=14.4n P=480u
+.ends
+
+* expanding   symbol:  diff.sym # of pins=6
+** sym_path: /mnt/c/Data/OneDrive/MyDocuments/Community/ISHIKAI/shuttle/OpenSUSI-TR10/2026/opamp/opamp_kubotakeshi/diff.sym
+** sch_path: /mnt/c/Data/OneDrive/MyDocuments/Community/ISHIKAI/shuttle/OpenSUSI-TR10/2026/opamp/opamp_kubotakeshi/diff.sch
+.subckt diff vinp vinn out vdd vss vb
+*.PININFO vinn:I vinp:I vb:I out:O vdd:B vss:B
+MM5 net2 vb vdd vdd PMOS w=10u l=1u m=18
+MM1 net1 vinn net2 net2 PMOS w=10u l=1u m=36
+MM2 out vinp net2 net2 PMOS w=10u l=1u m=36
+MM3 net1 net1 vss vss NMOS w=10u l=1u m=3
+MM4 out net1 vss vss NMOS w=10u l=1u m=3
+.ends
+
+
+* expanding   symbol:  cs.sym # of pins=5
+** sym_path: /mnt/c/Data/OneDrive/MyDocuments/Community/ISHIKAI/shuttle/OpenSUSI-TR10/2026/opamp/opamp_kubotakeshi/cs.sym
+** sch_path: /mnt/c/Data/OneDrive/MyDocuments/Community/ISHIKAI/shuttle/OpenSUSI-TR10/2026/opamp/opamp_kubotakeshi/cs.sch
+.subckt cs vin vb out vdd vss
+*.PININFO vb:I vin:I out:O vss:B vdd:B
+MM6 out vb vdd vdd PMOS w=10u l=1u m=27
+MM7 out vin vss vss NMOS w=10u l=1u m=9
+.ends
+

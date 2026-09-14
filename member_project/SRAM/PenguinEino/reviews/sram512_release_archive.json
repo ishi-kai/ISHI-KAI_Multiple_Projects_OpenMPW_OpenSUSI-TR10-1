@@ -1,0 +1,30 @@
+{
+  "passed": true,
+  "verified_utc": "2026-09-12T16:54:36.211822+00:00",
+  "archive": "build/sram512/submission/sram512_core_56810ad742a7.zip",
+  "archive_sha256": "48bbced1b6fef3119604d860ff7b605e544e7146093060eb1a1ceb5263aa2aa2",
+  "archive_bytes": 3317097,
+  "archive_status": "CORE_VERIFIED",
+  "source_commit": "cb3e4801b348006e912e560a7ccf73c0df800129",
+  "files_including_manifest": 286,
+  "required_tests": 26,
+  "all_required_pass": true,
+  "manifest_hashes_pass": true,
+  "source_gds_sha256": "56810ad742a73036fb9db5207c75a2fcd63d344833c17da5f6270f1dc128bca1",
+  "source_mask_sha256": "cbd3e51a3f9ff9c6f90b93c4c3ca134acf3cb28adb3b495ca357f47e6b280ba4",
+  "pdk_revision": "6afbd918951f2ea0dcd11c5a46986b4c20f9e6f9",
+  "source_snapshot_matches_independently_checked_archive": true,
+  "source_files_compared": 32,
+  "source_files_unchanged_after_checks": true,
+  "erc_from_actual_final_archive": {
+    "sram512_macro": {
+      "passed": true,
+      "log_sha256": "f453a99fe348d3ba044a77d3f8f33daa502879e2fb72d8f0a8bcc51a9ef4e45d"
+    },
+    "sram512_tb": {
+      "passed": true,
+      "log_sha256": "505b746c0ff9bfdd742599abe059b658755bd0ab78a5ae3468cf9e904af073ce"
+    }
+  },
+  "scope": "Actual final ZIP was extracted and every manifest hash and required report checked. All 32 circuit/RTL/PCell source files and the GDS equal the separately unpacked and fully DRC/LVS/digitally checked archive recorded in decoderfix_package_portability.json. Fresh ERC/netlisting was run from this final archive; physical and long analog tests were not redundantly rerun or substituted."
+}

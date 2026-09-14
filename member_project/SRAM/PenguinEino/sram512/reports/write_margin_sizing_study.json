@@ -1,0 +1,112 @@
+{
+  "source": {
+    "gds_sha256": "bbae5a2e0a63d1d0304937d7a5edef00291f0db6eafc00ce3a7700bdafa9ab02",
+    "lvsdb_sha256": "ad6002d464a8119e7b0abe1c74478af4ced53859d103a0db9082284f5160a18b",
+    "mos_groups": 4877,
+    "physical_fingers": 4953,
+    "model_counts": {
+      "PMOS": 1927,
+      "NMOS": 2950,
+      "DP": 4,
+      "DN": 4
+    },
+    "source": "/home/ishi-kai/sram/build/sram512/layout/final16x32"
+  },
+  "conditions": {
+    "vdd_v": 4.5,
+    "temperature_c": 85
+  },
+  "scope": "Diagnostic isolated write-path sizing study; not a macro signoff result.\n\nThe bitcell and nominal devices come from the strict extracted layout.\nAlternative peripheral widths are design proposals, with scaled junctions.\nWorst common-line and local BL resistances use the existing RC3 sensitivity\nassumptions. An ideal selected WL is held high to distinguish static write\nstrength from sequencer/wordline delay. Neither the PDK nor GDS is modified.\n",
+  "results": [
+    {
+      "mux_width_um": 3.4,
+      "pulldown_width_um": 3.4,
+      "data": 0,
+      "passed": true,
+      "q_end": 1.47705e-07,
+      "qb_end": 4.49998,
+      "deck_sha256": "b31bcb603e7e71e03b6e3030c7cdb3f048b9d838257620a5059771ab38531171"
+    },
+    {
+      "mux_width_um": 3.4,
+      "pulldown_width_um": 3.4,
+      "data": 1,
+      "passed": true,
+      "q_end": 4.49994,
+      "qb_end": 1.46609e-07,
+      "deck_sha256": "87de0d2c5d483c4eb2b8bf4e41fecfec62655791ebbfc83359194da44267781b"
+    },
+    {
+      "mux_width_um": 6.8,
+      "pulldown_width_um": 3.4,
+      "data": 0,
+      "passed": true,
+      "q_end": 1.51943e-07,
+      "qb_end": 4.49999,
+      "deck_sha256": "8b24b198f43ef8e0c77af8982ccea285daf54369ab7f3cd4065f3e294b6181ab"
+    },
+    {
+      "mux_width_um": 6.8,
+      "pulldown_width_um": 3.4,
+      "data": 1,
+      "passed": true,
+      "q_end": 4.49997,
+      "qb_end": 1.49416e-07,
+      "deck_sha256": "f163d493948419150f3bab803ac15e2aadb10e5a1e2f485ac92cb2de31d7450d"
+    },
+    {
+      "mux_width_um": 6.8,
+      "pulldown_width_um": 6.8,
+      "data": 0,
+      "passed": true,
+      "q_end": 1.03047e-07,
+      "qb_end": 4.5,
+      "deck_sha256": "1f33fffcb5cb0ce1e444bdd5c729eff7da6cc333f3d6a6c669593b1c08723a40"
+    },
+    {
+      "mux_width_um": 6.8,
+      "pulldown_width_um": 6.8,
+      "data": 1,
+      "passed": true,
+      "q_end": 4.49999,
+      "qb_end": 1.04411e-07,
+      "deck_sha256": "0527c7cd683f81687d23caa804a0a09942eb08c2c6db97f1e12e85754c888f05"
+    },
+    {
+      "mux_width_um": 10.2,
+      "pulldown_width_um": 6.8,
+      "data": 0,
+      "passed": true,
+      "q_end": 1.02476e-07,
+      "qb_end": 4.5,
+      "deck_sha256": "58dadc48748f32842626c0ce2a8a57fbf1413e30266aebe32ce608880fd067c4"
+    },
+    {
+      "mux_width_um": 10.2,
+      "pulldown_width_um": 6.8,
+      "data": 1,
+      "passed": true,
+      "q_end": 4.5,
+      "qb_end": 1.03931e-07,
+      "deck_sha256": "363e86e995b980e6e0a0215a72d4061e49759c089af55353144b20619e0efecf"
+    },
+    {
+      "mux_width_um": 10.2,
+      "pulldown_width_um": 10.2,
+      "data": 0,
+      "passed": true,
+      "q_end": 8.77225e-08,
+      "qb_end": 4.5,
+      "deck_sha256": "2ec183274177cacda8a4a73ba7f16206be0205b9cb8b1d6fe0b50c8f7e57d90b"
+    },
+    {
+      "mux_width_um": 10.2,
+      "pulldown_width_um": 10.2,
+      "data": 1,
+      "passed": true,
+      "q_end": 4.5,
+      "qb_end": 9.07623e-08,
+      "deck_sha256": "0f7645aeaa948b3060b29503a776cb56a31d3a092362e3e3499cc790bde96db2"
+    }
+  ]
+}

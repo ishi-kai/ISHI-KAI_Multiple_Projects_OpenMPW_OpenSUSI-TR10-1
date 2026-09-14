@@ -1,0 +1,550 @@
+{
+  "passed": true,
+  "checks": 38901,
+  "failure_count": 0,
+  "failures": [],
+  "read_observations": [
+    {
+      "operation": 34,
+      "row": 0,
+      "col": 0,
+      "sae_half_ns": 628016.051140852,
+      "y_difference_v": -5.022821262269183
+    },
+    {
+      "operation": 35,
+      "row": 0,
+      "col": 16,
+      "sae_half_ns": 646015.9085016892,
+      "y_difference_v": -5.021265478809541
+    },
+    {
+      "operation": 36,
+      "row": 0,
+      "col": 31,
+      "sae_half_ns": 664015.9901023058,
+      "y_difference_v": 5.022104248358686
+    },
+    {
+      "operation": 37,
+      "row": 1,
+      "col": 1,
+      "sae_half_ns": 682016.0514141723,
+      "y_difference_v": -5.022816072770333
+    },
+    {
+      "operation": 38,
+      "row": 1,
+      "col": 17,
+      "sae_half_ns": 700016.0505506347,
+      "y_difference_v": -5.022785953062617
+    },
+    {
+      "operation": 39,
+      "row": 2,
+      "col": 2,
+      "sae_half_ns": 718016.0511173928,
+      "y_difference_v": -5.022819499690632
+    },
+    {
+      "operation": 40,
+      "row": 2,
+      "col": 18,
+      "sae_half_ns": 736016.0503876392,
+      "y_difference_v": -5.0227759983957405
+    },
+    {
+      "operation": 41,
+      "row": 3,
+      "col": 3,
+      "sae_half_ns": 754016.0513343292,
+      "y_difference_v": -5.0228380113079485
+    },
+    {
+      "operation": 42,
+      "row": 3,
+      "col": 19,
+      "sae_half_ns": 772016.0510878519,
+      "y_difference_v": -5.022822401380189
+    },
+    {
+      "operation": 43,
+      "row": 4,
+      "col": 4,
+      "sae_half_ns": 790016.1114804493,
+      "y_difference_v": -5.026201453219521
+    },
+    {
+      "operation": 44,
+      "row": 4,
+      "col": 20,
+      "sae_half_ns": 808016.0573703414,
+      "y_difference_v": -5.0229274608178
+    },
+    {
+      "operation": 45,
+      "row": 5,
+      "col": 5,
+      "sae_half_ns": 826016.0510979323,
+      "y_difference_v": -5.022823351878049
+    },
+    {
+      "operation": 46,
+      "row": 5,
+      "col": 21,
+      "sae_half_ns": 844016.0573799886,
+      "y_difference_v": -5.0229216104385825
+    },
+    {
+      "operation": 47,
+      "row": 6,
+      "col": 6,
+      "sae_half_ns": 862016.051304841,
+      "y_difference_v": -5.022834421258589
+    },
+    {
+      "operation": 48,
+      "row": 6,
+      "col": 22,
+      "sae_half_ns": 880016.0509329173,
+      "y_difference_v": -5.022810759787344
+    },
+    {
+      "operation": 49,
+      "row": 7,
+      "col": 7,
+      "sae_half_ns": 898016.1117124521,
+      "y_difference_v": -5.0262088664732625
+    },
+    {
+      "operation": 50,
+      "row": 7,
+      "col": 23,
+      "sae_half_ns": 916016.2196240566,
+      "y_difference_v": -5.0351138572995335
+    },
+    {
+      "operation": 51,
+      "row": 8,
+      "col": 8,
+      "sae_half_ns": 934016.0511891849,
+      "y_difference_v": -5.022824989633689
+    },
+    {
+      "operation": 52,
+      "row": 8,
+      "col": 24,
+      "sae_half_ns": 952016.0568459884,
+      "y_difference_v": -5.022929529500127
+    },
+    {
+      "operation": 53,
+      "row": 9,
+      "col": 9,
+      "sae_half_ns": 970016.0724431939,
+      "y_difference_v": -5.0233063386875445
+    },
+    {
+      "operation": 54,
+      "row": 9,
+      "col": 25,
+      "sae_half_ns": 988016.0507994335,
+      "y_difference_v": -5.022804473022963
+    },
+    {
+      "operation": 55,
+      "row": 10,
+      "col": 10,
+      "sae_half_ns": 1006016.051128728,
+      "y_difference_v": -5.0228247645371376
+    },
+    {
+      "operation": 56,
+      "row": 10,
+      "col": 26,
+      "sae_half_ns": 1024016.0504191456,
+      "y_difference_v": -5.022781183188687
+    },
+    {
+      "operation": 57,
+      "row": 11,
+      "col": 11,
+      "sae_half_ns": 1042016.0505874134,
+      "y_difference_v": -5.0227887054891385
+    },
+    {
+      "operation": 58,
+      "row": 11,
+      "col": 27,
+      "sae_half_ns": 1060016.1122115094,
+      "y_difference_v": -5.026223105965443
+    },
+    {
+      "operation": 59,
+      "row": 12,
+      "col": 12,
+      "sae_half_ns": 1078016.0502977015,
+      "y_difference_v": -5.022774788803257
+    },
+    {
+      "operation": 60,
+      "row": 12,
+      "col": 28,
+      "sae_half_ns": 1096016.2194832338,
+      "y_difference_v": -5.035111892035883
+    },
+    {
+      "operation": 61,
+      "row": 13,
+      "col": 13,
+      "sae_half_ns": 1114016.110970694,
+      "y_difference_v": -5.026202908552138
+    },
+    {
+      "operation": 62,
+      "row": 13,
+      "col": 29,
+      "sae_half_ns": 1132016.111895031,
+      "y_difference_v": -5.026211621217636
+    },
+    {
+      "operation": 63,
+      "row": 14,
+      "col": 14,
+      "sae_half_ns": 1150016.05873306,
+      "y_difference_v": -5.022944905905853
+    },
+    {
+      "operation": 64,
+      "row": 14,
+      "col": 30,
+      "sae_half_ns": 1168016.0510631243,
+      "y_difference_v": -5.022822148350672
+    },
+    {
+      "operation": 65,
+      "row": 15,
+      "col": 0,
+      "sae_half_ns": 1186016.1118903225,
+      "y_difference_v": 5.02519920985613
+    },
+    {
+      "operation": 66,
+      "row": 15,
+      "col": 15,
+      "sae_half_ns": 1204016.0513097108,
+      "y_difference_v": -5.022812427701356
+    },
+    {
+      "operation": 67,
+      "row": 15,
+      "col": 31,
+      "sae_half_ns": 1222016.0565234588,
+      "y_difference_v": -5.022873998849774
+    },
+    {
+      "operation": 102,
+      "row": 0,
+      "col": 0,
+      "sae_half_ns": 1852015.9910861703,
+      "y_difference_v": 5.022168451330839
+    },
+    {
+      "operation": 103,
+      "row": 0,
+      "col": 16,
+      "sae_half_ns": 1870015.9666770932,
+      "y_difference_v": 5.020885431548825
+    },
+    {
+      "operation": 104,
+      "row": 0,
+      "col": 31,
+      "sae_half_ns": 1888016.1924772193,
+      "y_difference_v": -5.034297131123719
+    },
+    {
+      "operation": 105,
+      "row": 1,
+      "col": 1,
+      "sae_half_ns": 1906015.9819083784,
+      "y_difference_v": 5.0217286730356125
+    },
+    {
+      "operation": 106,
+      "row": 1,
+      "col": 17,
+      "sae_half_ns": 1924015.973921195,
+      "y_difference_v": 5.021214388092341
+    },
+    {
+      "operation": 107,
+      "row": 2,
+      "col": 2,
+      "sae_half_ns": 1942016.1097561177,
+      "y_difference_v": 5.025202142625419
+    },
+    {
+      "operation": 108,
+      "row": 2,
+      "col": 18,
+      "sae_half_ns": 1960015.9660013525,
+      "y_difference_v": 5.0206923986077525
+    },
+    {
+      "operation": 109,
+      "row": 3,
+      "col": 3,
+      "sae_half_ns": 1978015.9641280605,
+      "y_difference_v": 5.020568506990262
+    },
+    {
+      "operation": 110,
+      "row": 3,
+      "col": 19,
+      "sae_half_ns": 1996016.1118657612,
+      "y_difference_v": 5.025204155689411
+    },
+    {
+      "operation": 111,
+      "row": 4,
+      "col": 4,
+      "sae_half_ns": 2014015.961732259,
+      "y_difference_v": 5.020403806864624
+    },
+    {
+      "operation": 112,
+      "row": 4,
+      "col": 20,
+      "sae_half_ns": 2032016.2729063695,
+      "y_difference_v": 5.033907686239833
+    },
+    {
+      "operation": 113,
+      "row": 5,
+      "col": 5,
+      "sae_half_ns": 2050016.1112423239,
+      "y_difference_v": 5.0252050006426
+    },
+    {
+      "operation": 114,
+      "row": 5,
+      "col": 21,
+      "sae_half_ns": 2068016.0774261607,
+      "y_difference_v": 5.022410660645051
+    },
+    {
+      "operation": 115,
+      "row": 6,
+      "col": 6,
+      "sae_half_ns": 2086016.1118205627,
+      "y_difference_v": 5.025206271072928
+    },
+    {
+      "operation": 116,
+      "row": 6,
+      "col": 22,
+      "sae_half_ns": 2104016.2732442175,
+      "y_difference_v": 5.0339097792253265
+    },
+    {
+      "operation": 117,
+      "row": 7,
+      "col": 7,
+      "sae_half_ns": 2122016.0770843197,
+      "y_difference_v": 5.022387760713699
+    },
+    {
+      "operation": 118,
+      "row": 7,
+      "col": 23,
+      "sae_half_ns": 2140015.9616214246,
+      "y_difference_v": 5.020369715745169
+    },
+    {
+      "operation": 119,
+      "row": 8,
+      "col": 8,
+      "sae_half_ns": 2158016.1099265004,
+      "y_difference_v": 5.025220997249865
+    },
+    {
+      "operation": 120,
+      "row": 8,
+      "col": 24,
+      "sae_half_ns": 2176015.964140988,
+      "y_difference_v": 5.020495536148527
+    },
+    {
+      "operation": 121,
+      "row": 9,
+      "col": 9,
+      "sae_half_ns": 2194016.0769716864,
+      "y_difference_v": 5.022378681213398
+    },
+    {
+      "operation": 122,
+      "row": 9,
+      "col": 25,
+      "sae_half_ns": 2212016.076902265,
+      "y_difference_v": 5.022374561931764
+    },
+    {
+      "operation": 123,
+      "row": 10,
+      "col": 10,
+      "sae_half_ns": 2230016.111869277,
+      "y_difference_v": 5.025205435340501
+    },
+    {
+      "operation": 124,
+      "row": 10,
+      "col": 26,
+      "sae_half_ns": 2248015.964883797,
+      "y_difference_v": 5.020533717895181
+    },
+    {
+      "operation": 125,
+      "row": 11,
+      "col": 11,
+      "sae_half_ns": 2266015.9647985357,
+      "y_difference_v": 5.02053106677583
+    },
+    {
+      "operation": 126,
+      "row": 11,
+      "col": 27,
+      "sae_half_ns": 2284015.9647342423,
+      "y_difference_v": 5.02052861037919
+    },
+    {
+      "operation": 127,
+      "row": 12,
+      "col": 12,
+      "sae_half_ns": 2302015.9660698622,
+      "y_difference_v": 5.020594105124225
+    },
+    {
+      "operation": 128,
+      "row": 12,
+      "col": 28,
+      "sae_half_ns": 2320015.965927299,
+      "y_difference_v": 5.020587573400224
+    },
+    {
+      "operation": 129,
+      "row": 13,
+      "col": 13,
+      "sae_half_ns": 2338016.0767864143,
+      "y_difference_v": 5.022366824160831
+    },
+    {
+      "operation": 130,
+      "row": 13,
+      "col": 29,
+      "sae_half_ns": 2356016.111554696,
+      "y_difference_v": 5.025213277062684
+    },
+    {
+      "operation": 131,
+      "row": 14,
+      "col": 14,
+      "sae_half_ns": 2374016.076769038,
+      "y_difference_v": 5.022366824304173
+    },
+    {
+      "operation": 132,
+      "row": 14,
+      "col": 30,
+      "sae_half_ns": 2392015.9658813123,
+      "y_difference_v": 5.020588005061263
+    },
+    {
+      "operation": 133,
+      "row": 15,
+      "col": 0,
+      "sae_half_ns": 2410016.1097550304,
+      "y_difference_v": -5.026229161519343
+    },
+    {
+      "operation": 134,
+      "row": 15,
+      "col": 15,
+      "sae_half_ns": 2428016.1096457406,
+      "y_difference_v": 5.025196601917406
+    },
+    {
+      "operation": 135,
+      "row": 15,
+      "col": 31,
+      "sae_half_ns": 2446016.0697783143,
+      "y_difference_v": 5.022211259462523
+    }
+  ],
+  "points": 471407,
+  "operations": 136,
+  "name": "decoderfix_decode_coverage",
+  "physical_extraction": {
+    "gds_sha256": "56810ad742a73036fb9db5207c75a2fcd63d344833c17da5f6270f1dc128bca1",
+    "lvsdb_sha256": "8f5f3717611e9bfc57d3676cd9c030a6af8ae41c0a853c588e7a669f2b695c26",
+    "mos_groups": 4877,
+    "physical_fingers": 4953,
+    "model_counts": {
+      "PMOS": 1927,
+      "NMOS": 2950,
+      "DP": 4,
+      "DN": 4
+    },
+    "source": "/home/ishi-kai/sram/build/sram512/layout/decoder_gcwide16x32_rev3"
+  },
+  "period_ns": 1000,
+  "voltage_v": 5,
+  "temperature_c": 27,
+  "elapsed_seconds": 3704.03,
+  "deck_sha256": "b811c0aaf3fa22d89a434112253657cc293b3575bbdfa7245d6a6d5bfccb734f",
+  "reused_waveform": false,
+  "model_notices": [
+    {
+      "model": "DN",
+      "unsupported_parameters": [
+        "imax",
+        "imelt"
+      ],
+      "consequence": "Diode current/melting limit flags are not implemented by ngspice."
+    },
+    {
+      "model": "DP",
+      "unsupported_parameters": [
+        "imax",
+        "imelt"
+      ],
+      "consequence": "Diode current/melting limit flags are not implemented by ngspice."
+    },
+    {
+      "kind": "simulation_memory_estimate",
+      "message": "Warning: memory required (807.5 MB), made of\n       216 nodes and approximately 490.000e3 time steps,\n       is more than the DRAM memory available (469.04 MB)!\n       Swapping data to SSD may slow down the simulation.",
+      "consequence": "Estimated waveform storage exceeds currently free RAM; runtime may increase."
+    }
+  ],
+  "solver": "klu",
+  "simulator_threads": 1,
+  "waveform_storage": "streamed binary file",
+  "local_init_sha256": "2ef8c1ce0b4d65b62053c99e75b2bad1d1158582c6ca6cfc19b1e255c84ecfbc",
+  "numerical_reltol": null,
+  "numerical_pivrel": null,
+  "integration_method": null,
+  "maximum_timestep_ns": 20,
+  "signal_mesh": false,
+  "signal_sections": null,
+  "access_limit": null,
+  "physical_gate_paths": false,
+  "startup_ramp_ns": 0,
+  "initial_reset_high": false,
+  "startup_scope": "DC supply; RESET rises after the initial operating point.",
+  "interconnect": "Extra lumped C only; wire resistance and distributed RC not yet included",
+  "supply_current_a": {
+    "max": 0.01445560001296344,
+    "time_mean": 0.0001331518250073588,
+    "rms": 0.0009132396203807556
+  }
+}

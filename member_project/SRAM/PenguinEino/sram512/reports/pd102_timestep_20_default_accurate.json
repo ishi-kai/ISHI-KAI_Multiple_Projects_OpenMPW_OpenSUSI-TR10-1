@@ -1,0 +1,134 @@
+{
+  "passed": false,
+  "source_gds_sha256": "dee111388a5c4d3131b68772507706706d894248988ab761bf9c4070e9194e61",
+  "compared_maximum_steps_ns": [
+    20.0,
+    20.0
+  ],
+  "physical_mos": 4953,
+  "compared_reltol": [
+    0.001,
+    0.0001
+  ],
+  "voltage_checks": [
+    {
+      "operation": 0,
+      "net": "xarray.xr0c0.q",
+      "voltages_v": [
+        9.079638843322051e-09,
+        8.564983039219476e-09
+      ],
+      "difference_v": 5.146558041025754e-10
+    },
+    {
+      "operation": 0,
+      "net": "xarray.xr0c0.qb",
+      "voltages_v": [
+        4.499999363020183,
+        4.4999993630199855
+      ],
+      "difference_v": 1.971756091734278e-13
+    },
+    {
+      "operation": 0,
+      "net": "sdo",
+      "voltages_v": [
+        3.222689500709025e-07,
+        3.2226895008241794e-07
+      ],
+      "difference_v": 1.1515412917922213e-17
+    },
+    {
+      "operation": 1,
+      "net": "xarray.xr0c0.q",
+      "voltages_v": [
+        7.099395023872334e-08,
+        7.103160069991845e-08
+      ],
+      "difference_v": 3.7650461195110705e-11
+    },
+    {
+      "operation": 1,
+      "net": "xarray.xr0c0.qb",
+      "voltages_v": [
+        4.499999363018404,
+        4.4999993630182
+      ],
+      "difference_v": 2.0339285811132868e-13
+    },
+    {
+      "operation": 1,
+      "net": "sdo",
+      "voltages_v": [
+        3.222689500746382e-07,
+        3.222689500753791e-07
+      ],
+      "difference_v": 7.408891310514958e-19
+    },
+    {
+      "operation": 2,
+      "net": "xarray.xr0c0.q",
+      "voltages_v": [
+        4.499999363019249,
+        4.499999363019074
+      ],
+      "difference_v": 1.7497114868092467e-13
+    },
+    {
+      "operation": 2,
+      "net": "xarray.xr0c0.qb",
+      "voltages_v": [
+        2.3393256814627848e-08,
+        2.2632372444860354e-08
+      ],
+      "difference_v": 7.608843697674938e-10
+    },
+    {
+      "operation": 2,
+      "net": "sdo",
+      "voltages_v": [
+        3.2226895007456943e-07,
+        3.2226895007251834e-07
+      ],
+      "difference_v": 2.0510902817762883e-18
+    },
+    {
+      "operation": 3,
+      "net": "xarray.xr0c0.q",
+      "voltages_v": [
+        4.499999363017839,
+        4.49999936301764
+      ],
+      "difference_v": 1.9895196601282805e-13
+    },
+    {
+      "operation": 3,
+      "net": "xarray.xr0c0.qb",
+      "voltages_v": [
+        7.845857814633716e-08,
+        7.847835830990152e-08
+      ],
+      "difference_v": 1.978016356435724e-11
+    },
+    {
+      "operation": 3,
+      "net": "sdo",
+      "voltages_v": [
+        4.499999875034022,
+        4.499999875034022
+      ],
+      "difference_v": 0.0
+    }
+  ],
+  "write_threshold_crossings": [
+    {
+      "operation": 2,
+      "times_ns": [
+        255783.23456280658,
+        255790.7500440553
+      ],
+      "difference_ns": 7.515481248730794
+    }
+  ],
+  "scope": "Identical full 512-bit circuit and stimuli, RCx3 at 4.5 V / 85 C. Both independent functional/RC test runs also pass."
+}

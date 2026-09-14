@@ -1,0 +1,18 @@
+{
+  "source_gds_sha256": "56810ad742a73036fb9db5207c75a2fcd63d344833c17da5f6270f1dc128bca1",
+  "consistent_device_records": true,
+  "physical_extraction": {
+    "gds_sha256": "56810ad742a73036fb9db5207c75a2fcd63d344833c17da5f6270f1dc128bca1",
+    "lvsdb_sha256": "8f5f3717611e9bfc57d3676cd9c030a6af8ae41c0a853c588e7a669f2b695c26",
+    "mos_groups": 4877,
+    "physical_fingers": 4953,
+    "model_counts": {
+      "PMOS": 1927,
+      "NMOS": 2950,
+      "DP": 4,
+      "DN": 4
+    },
+    "source": "/home/ishi-kai/sram/build/sram512/layout/decoder_gcwide16x32_rev3"
+  },
+  "physical_devices_sha256": "4173119a0297dab1ef3f0cba19b297b43fbe0e61dccb245875e0defa6204be29"
+}

@@ -1,0 +1,107 @@
+{
+  "passed": true,
+  "gds_sha256": "cec9923ed79b6763055f835322d862eb11fa331347c1ee43fcddf30684be4419",
+  "paths": 433,
+  "maximum_relative_change": 0.16593298823935754,
+  "worst_paths": [
+    {
+      "net": "xctrl.cki",
+      "branch": "66",
+      "grid025_ohm": 2285.6455739974786,
+      "grid0125_ohm": 1906.3815738480153,
+      "relative_change": 0.16593298823935754
+    },
+    {
+      "net": "xctrl.cki",
+      "branch": "68",
+      "grid025_ohm": 2313.2273074688205,
+      "grid0125_ohm": 1933.1374302178892,
+      "relative_change": 0.1643115123289951
+    },
+    {
+      "net": "xctrl.cki",
+      "branch": "67",
+      "grid025_ohm": 2347.7489878182037,
+      "grid0125_ohm": 1969.0337185320375,
+      "relative_change": 0.16130994891328299
+    },
+    {
+      "net": "xctrl.cki",
+      "branch": "75",
+      "grid025_ohm": 2344.7017207785652,
+      "grid0125_ohm": 1967.0608040146092,
+      "relative_change": 0.16106138935171643
+    },
+    {
+      "net": "xctrl.cki",
+      "branch": "79",
+      "grid025_ohm": 2365.740509436833,
+      "grid0125_ohm": 1986.9845419207952,
+      "relative_change": 0.16010038548403638
+    },
+    {
+      "net": "xctrl.cki",
+      "branch": "78",
+      "grid025_ohm": 2368.892890389215,
+      "grid0125_ohm": 1990.522375856143,
+      "relative_change": 0.15972461906916557
+    },
+    {
+      "net": "xctrl.cki",
+      "branch": "70",
+      "grid025_ohm": 2388.260689571043,
+      "grid0125_ohm": 2009.7561915162023,
+      "relative_change": 0.15848541983196318
+    },
+    {
+      "net": "xctrl.cki",
+      "branch": "73",
+      "grid025_ohm": 2392.339187070481,
+      "grid0125_ohm": 2013.6750528645691,
+      "relative_change": 0.1582819594530831
+    },
+    {
+      "net": "xctrl.cki",
+      "branch": "14",
+      "grid025_ohm": 2393.7877495517137,
+      "grid0125_ohm": 2016.536715742106,
+      "relative_change": 0.1575958578116442
+    },
+    {
+      "net": "xctrl.cki",
+      "branch": "64",
+      "grid025_ohm": 2420.9206437603184,
+      "grid0125_ohm": 2043.904338673019,
+      "relative_change": 0.1557326160438267
+    },
+    {
+      "net": "xctrl.cki",
+      "branch": "76",
+      "grid025_ohm": 2429.3417903595055,
+      "grid0125_ohm": 2055.265846134267,
+      "relative_change": 0.15398242672550444
+    },
+    {
+      "net": "xctrl.cki",
+      "branch": "63",
+      "grid025_ohm": 2441.767670471259,
+      "grid0125_ohm": 2065.845943090506,
+      "relative_change": 0.15395474840904932
+    }
+  ],
+  "critical": {
+    "xctrl.rsti": {
+      "grid025": 11989.195029232314,
+      "grid0125": 10465.878816657223
+    },
+    "xctrl.cki": {
+      "grid025": 2642.688394034554,
+      "grid0125": 2270.1024079654208
+    },
+    "preb": {
+      "grid025": 2165.8402134378994,
+      "grid0125": 1903.6872434199488
+    }
+  },
+  "scope": "Grid-refinement sensitivity of the physical-path upper-bound resistance. Capacitance coefficients and the lumped branch representation remain uncalibrated."
+}

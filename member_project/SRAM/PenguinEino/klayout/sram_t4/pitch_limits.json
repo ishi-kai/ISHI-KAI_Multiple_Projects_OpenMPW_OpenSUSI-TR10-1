@@ -1,0 +1,82 @@
+[
+  {
+    "case": "reference_0p05_grid",
+    "x_um": 52.6,
+    "mirror_y_um": 21.4,
+    "pair_y_um": 32.6,
+    "drc": {
+      "pass": true,
+      "items": 0,
+      "categories": {}
+    },
+    "lvs": {
+      "pass": true,
+      "circuit_pairs": [
+        "Match"
+      ],
+      "errors": []
+    }
+  },
+  {
+    "case": "column_minus_0p1",
+    "x_um": 52.5,
+    "mirror_y_um": 21.4,
+    "pair_y_um": 32.6,
+    "drc": {
+      "pass": false,
+      "items": 30,
+      "categories": {
+        "GC.S1:GC Smin <  1.2": 24,
+        "M1.S1:M1 Smin <  1.4": 6
+      }
+    },
+    "lvs": {
+      "pass": true,
+      "circuit_pairs": [
+        "Match"
+      ],
+      "errors": []
+    }
+  },
+  {
+    "case": "mirror_translation_minus_0p1",
+    "x_um": 52.6,
+    "mirror_y_um": 21.3,
+    "pair_y_um": 32.6,
+    "drc": {
+      "pass": false,
+      "items": 8,
+      "categories": {
+        "M2.S1:M2 Smin <  2.0": 8
+      }
+    },
+    "lvs": {
+      "pass": true,
+      "circuit_pairs": [
+        "Match"
+      ],
+      "errors": []
+    }
+  },
+  {
+    "case": "row_pair_minus_0p1",
+    "x_um": 52.6,
+    "mirror_y_um": 21.4,
+    "pair_y_um": 32.5,
+    "drc": {
+      "pass": false,
+      "items": 5,
+      "categories": {
+        "M1.S1:M1 Smin <  1.4": 1,
+        "M2.S1:M2 Smin <  2.0": 4
+      }
+    },
+    "lvs": {
+      "pass": true,
+      "circuit_pairs": [
+        "Match"
+      ],
+      "errors": []
+    }
+  }
+]

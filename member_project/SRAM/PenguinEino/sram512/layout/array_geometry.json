@@ -1,0 +1,25 @@
+{
+  "rows": 16,
+  "columns": 32,
+  "row_direction": "horizontal",
+  "column_direction": "vertical",
+  "half_array_origins_um": [
+    [
+      55,
+      123.7
+    ],
+    [
+      495,
+      123.7
+    ]
+  ],
+  "cell_pitch_um": [
+    22,
+    29.6
+  ],
+  "rotation_degrees": 0,
+  "continuous_wordlines": 16,
+  "drivers_per_row": 1,
+  "bank_horizontal_reflection": true,
+  "logical_columns_increase_left_to_right": true
+}

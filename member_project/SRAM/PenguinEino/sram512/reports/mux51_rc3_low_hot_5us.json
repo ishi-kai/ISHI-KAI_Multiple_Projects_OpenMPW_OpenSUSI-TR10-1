@@ -1,0 +1,479 @@
+{
+  "passed": false,
+  "checks": 22357,
+  "failure_count": 35,
+  "failures": [
+    {
+      "net": "xarray.xr0c0.Q",
+      "expected": 1,
+      "start_ns": 819000.0,
+      "end_ns": null,
+      "min_v": 7.41154232991804e-08,
+      "max_v": 7.41154232991804e-08
+    },
+    {
+      "net": "xarray.xr0c0.QB",
+      "expected": 0,
+      "start_ns": 819000.0,
+      "end_ns": null,
+      "min_v": 4.499998850723212,
+      "max_v": 4.499998850723212
+    },
+    {
+      "net": "xarray.xr0c0.Q",
+      "expected": 1,
+      "start_ns": 819500.0,
+      "end_ns": 869500.0,
+      "min_v": -2.3424960899458372e-05,
+      "max_v": 2.1301154153517884e-05
+    },
+    {
+      "net": "xarray.xr0c0.Q",
+      "expected": 1,
+      "start_ns": 870000.0,
+      "end_ns": 909000.0,
+      "min_v": -0.000554312364068908,
+      "max_v": 0.0891311906627214
+    },
+    {
+      "net": "xarray.xr0c0.QB",
+      "expected": 0,
+      "start_ns": 819500.0,
+      "end_ns": 869500.0,
+      "min_v": 4.499974657011902,
+      "max_v": 4.500022197795055
+    },
+    {
+      "net": "xarray.xr0c0.QB",
+      "expected": 0,
+      "start_ns": 870000.0,
+      "end_ns": 909000.0,
+      "min_v": 4.499282188776389,
+      "max_v": 4.5004500099119875
+    },
+    {
+      "net": "xarray.xr0c0.Q",
+      "expected": 1,
+      "start_ns": 909500.0,
+      "end_ns": 959500.0,
+      "min_v": -2.9468657497437287e-06,
+      "max_v": 3.3389333619100284e-05
+    },
+    {
+      "net": "xarray.xr0c0.Q",
+      "expected": 1,
+      "start_ns": 960000.0,
+      "end_ns": 999000.0,
+      "min_v": -3.1197344607780116e-05,
+      "max_v": 2.189611867766003e-05
+    },
+    {
+      "net": "xarray.xr0c0.QB",
+      "expected": 0,
+      "start_ns": 909500.0,
+      "end_ns": 959500.0,
+      "min_v": 4.4999958621188965,
+      "max_v": 4.500032093267999
+    },
+    {
+      "net": "xarray.xr0c0.QB",
+      "expected": 0,
+      "start_ns": 960000.0,
+      "end_ns": 999000.0,
+      "min_v": 4.499954840222249,
+      "max_v": 4.500027614021883
+    },
+    {
+      "net": "xarray.xr0c0.Q",
+      "expected": 1,
+      "start_ns": 999500.0,
+      "end_ns": 1049500.0,
+      "min_v": -2.567892654073033e-05,
+      "max_v": 1.0532988193490915e-05
+    },
+    {
+      "net": "xarray.xr0c0.Q",
+      "expected": 1,
+      "start_ns": 1050000.0,
+      "end_ns": 1089000.0,
+      "min_v": -3.189825543455998e-05,
+      "max_v": 2.1273898255765015e-05
+    },
+    {
+      "net": "xarray.xr0c0.QB",
+      "expected": 0,
+      "start_ns": 999500.0,
+      "end_ns": 1049500.0,
+      "min_v": 4.499975423971186,
+      "max_v": 4.5000093007475135
+    },
+    {
+      "net": "xarray.xr0c0.QB",
+      "expected": 0,
+      "start_ns": 1050000.0,
+      "end_ns": 1089000.0,
+      "min_v": 4.499953829021959,
+      "max_v": 4.500030168461981
+    },
+    {
+      "net": "xarray.xr0c0.Q",
+      "expected": 1,
+      "start_ns": 1089500.0,
+      "end_ns": 1139500.0,
+      "min_v": -2.5153780118434737e-05,
+      "max_v": 6.759400844077209e-06
+    },
+    {
+      "net": "xarray.xr0c0.Q",
+      "expected": 1,
+      "start_ns": 1140000.0,
+      "end_ns": 1179000.0,
+      "min_v": -0.0005294368252423419,
+      "max_v": 0.258126410044153
+    },
+    {
+      "net": "xarray.xr0c0.QB",
+      "expected": 0,
+      "start_ns": 1089500.0,
+      "end_ns": 1139500.0,
+      "min_v": 4.499977154157398,
+      "max_v": 4.500004378611725
+    },
+    {
+      "net": "xarray.xr0c0.QB",
+      "expected": 0,
+      "start_ns": 1140000.0,
+      "end_ns": 1179000.0,
+      "min_v": 4.499123864539248,
+      "max_v": 4.50064423781097
+    },
+    {
+      "net": "SOUT",
+      "expected": 1,
+      "start_ns": 1164000.0,
+      "end_ns": 1174000.0,
+      "min_v": -0.0005743192065061208,
+      "max_v": 0.0006004810378246981
+    },
+    {
+      "net": "SOUTB",
+      "expected": 0,
+      "start_ns": 1164000.0,
+      "end_ns": 1174000.0,
+      "min_v": 4.499978049031815,
+      "max_v": 4.500023068091099
+    },
+    {
+      "net": "xarray.xr0c0.Q",
+      "expected": 1,
+      "start_ns": 1179000.0,
+      "end_ns": null,
+      "min_v": 7.204998454769227e-08,
+      "max_v": 7.204998454769227e-08
+    },
+    {
+      "net": "xarray.xr0c0.QB",
+      "expected": 0,
+      "start_ns": 1179000.0,
+      "end_ns": null,
+      "min_v": 4.499999363018367,
+      "max_v": 4.499999363018367
+    },
+    {
+      "net": "SDO",
+      "expected": 1,
+      "start_ns": 1174000.0,
+      "end_ns": 1179000.0,
+      "min_v": 3.219319347637394e-07,
+      "max_v": 3.2262685535773e-07
+    },
+    {
+      "net": "xarray.xr0c0.Q",
+      "expected": 1,
+      "start_ns": 1179500.0,
+      "end_ns": 1229500.0,
+      "min_v": -4.599383314200085e-06,
+      "max_v": 2.5967599305954984e-05
+    },
+    {
+      "net": "xarray.xr0c0.Q",
+      "expected": 1,
+      "start_ns": 1230000.0,
+      "end_ns": 1269000.0,
+      "min_v": -0.0005513544169276758,
+      "max_v": 0.0885223044667233
+    },
+    {
+      "net": "xarray.xr0c0.QB",
+      "expected": 0,
+      "start_ns": 1179500.0,
+      "end_ns": 1229500.0,
+      "min_v": 4.49999483083857,
+      "max_v": 4.500024029040105
+    },
+    {
+      "net": "xarray.xr0c0.QB",
+      "expected": 0,
+      "start_ns": 1230000.0,
+      "end_ns": 1269000.0,
+      "min_v": 4.499095780933765,
+      "max_v": 4.50040071539263
+    },
+    {
+      "net": "xarray.xr0c0.Q",
+      "expected": 1,
+      "start_ns": 1269500.0,
+      "end_ns": 1319500.0,
+      "min_v": -2.5271199766030624e-06,
+      "max_v": 2.6280363070566822e-05
+    },
+    {
+      "net": "xarray.xr0c0.Q",
+      "expected": 1,
+      "start_ns": 1320000.0,
+      "end_ns": 1359000.0,
+      "min_v": -3.03670080303766e-05,
+      "max_v": 2.2166707519661508e-05
+    },
+    {
+      "net": "xarray.xr0c0.QB",
+      "expected": 0,
+      "start_ns": 1269500.0,
+      "end_ns": 1319500.0,
+      "min_v": 4.499996077339619,
+      "max_v": 4.500024893215212
+    },
+    {
+      "net": "xarray.xr0c0.QB",
+      "expected": 0,
+      "start_ns": 1320000.0,
+      "end_ns": 1359000.0,
+      "min_v": 4.4999554536644135,
+      "max_v": 4.500026432711741
+    },
+    {
+      "net": "xarray.xr0c0.Q",
+      "expected": 1,
+      "start_ns": 1359500.0,
+      "end_ns": 1409500.0,
+      "min_v": -2.5666938326201194e-05,
+      "max_v": 1.0795062785499994e-05
+    },
+    {
+      "net": "xarray.xr0c0.Q",
+      "expected": 1,
+      "start_ns": 1410000.0,
+      "end_ns": 1449000.0,
+      "min_v": -3.072716041936013e-05,
+      "max_v": 2.2611360586874037e-05
+    },
+    {
+      "net": "xarray.xr0c0.QB",
+      "expected": 0,
+      "start_ns": 1359500.0,
+      "end_ns": 1409500.0,
+      "min_v": 4.499975623082785,
+      "max_v": 4.500009360995982
+    },
+    {
+      "net": "xarray.xr0c0.QB",
+      "expected": 0,
+      "start_ns": 1410000.0,
+      "end_ns": 1449000.0,
+      "min_v": 4.49995508047629,
+      "max_v": 4.500029635086048
+    }
+  ],
+  "read_observations": [
+    {
+      "operation": 4,
+      "row": 0,
+      "col": 0,
+      "sae_half_ns": 440091.98050027457,
+      "y_difference_v": -4.503948373460745
+    },
+    {
+      "operation": 5,
+      "row": 0,
+      "col": 31,
+      "sae_half_ns": 530092.154629932,
+      "y_difference_v": 4.50378181689207
+    },
+    {
+      "operation": 6,
+      "row": 15,
+      "col": 0,
+      "sae_half_ns": 620092.1962530442,
+      "y_difference_v": 4.503568165462707
+    },
+    {
+      "operation": 7,
+      "row": 15,
+      "col": 31,
+      "sae_half_ns": 710092.3309796139,
+      "y_difference_v": -4.505157440488343
+    },
+    {
+      "operation": 12,
+      "row": 0,
+      "col": 0,
+      "sae_half_ns": 1160091.9851488746,
+      "y_difference_v": -4.503964375502344
+    },
+    {
+      "operation": 13,
+      "row": 0,
+      "col": 31,
+      "sae_half_ns": 1250092.1543381615,
+      "y_difference_v": -4.504746565962485
+    },
+    {
+      "operation": 14,
+      "row": 15,
+      "col": 0,
+      "sae_half_ns": 1340092.1839285817,
+      "y_difference_v": -4.50447107963421
+    },
+    {
+      "operation": 15,
+      "row": 15,
+      "col": 31,
+      "sae_half_ns": 1430092.029228771,
+      "y_difference_v": 4.503446895549371
+    }
+  ],
+  "points": 86207,
+  "operations": 16,
+  "rc_checks": {
+    "passed": true,
+    "checks": 19456,
+    "failure_count": 0,
+    "failures": [],
+    "clock_branches": 21,
+    "maximum_clock_rising_skew_ns": 18.852986955749657,
+    "minimum_clock_high_ns": 2497.098170670448,
+    "minimum_clock_low_ns": 2502.634143052157,
+    "scope": "All four BL/WL/common-line RC sections, control gate loads, and every physical clock branch."
+  },
+  "name": "mux51_rc3_low_hot_5us",
+  "physical_extraction": {
+    "gds_sha256": "cec9923ed79b6763055f835322d862eb11fa331347c1ee43fcddf30684be4419",
+    "lvsdb_sha256": "1252bcc4e61caf948e959f2404a5788772594055910cc7af60c36a0e3659f80b",
+    "mos_groups": 4877,
+    "physical_fingers": 4953,
+    "model_counts": {
+      "PMOS": 1927,
+      "NMOS": 2950,
+      "DP": 4,
+      "DN": 4
+    },
+    "source": "/home/ishi-kai/sram/build/sram512/layout/final16x32_mux5p1"
+  },
+  "period_ns": 5000.0,
+  "voltage_v": 4.5,
+  "temperature_c": 85.0,
+  "elapsed_seconds": 968.33,
+  "deck_sha256": "01066f0975a0c4d317117ba7e6a63aef7f9e53b0590f73aa5e2592ba59893e2f",
+  "reused_waveform": false,
+  "model_notices": [
+    {
+      "model": "DN",
+      "unsupported_parameters": [
+        "imax",
+        "imelt"
+      ],
+      "consequence": "Diode current/melting limit flags are not implemented by ngspice."
+    },
+    {
+      "model": "DP",
+      "unsupported_parameters": [
+        "imax",
+        "imelt"
+      ],
+      "consequence": "Diode current/melting limit flags are not implemented by ngspice."
+    }
+  ],
+  "solver": "klu",
+  "maximum_timestep_ns": 100.0,
+  "interconnect": {
+    "kind": "geometry-based RC sensitivity; uncalibrated coefficients",
+    "scale": 3.0,
+    "coefficients": {
+      "M1": {
+        "width_um": 1.8,
+        "sheet_ohm": 1.0,
+        "area_ff_um2": 0.05,
+        "edge_ff_um": 0.02
+      },
+      "M2": {
+        "width_um": 3.4,
+        "sheet_ohm": 1.0,
+        "area_ff_um2": 0.03,
+        "edge_ff_um": 0.02
+      },
+      "GC_field": {
+        "width_um": 1.0,
+        "sheet_ohm": 120.0,
+        "area_ff_um2": 0.05,
+        "edge_ff_um": 0.02
+      }
+    },
+    "segments": 4,
+    "assumptions": [
+      "Series square count sums all conductor branches conservatively.",
+      "Field GC excludes active overlap; intrinsic MOS gate capacitance is not added twice.",
+      "GC sheet R=120 ohm/square is an uncalibrated sensitivity assumption; it is not a qualified GC wiring coefficient.",
+      "CO contact resistance is not separately calibrated or modeled.",
+      "Capacitance is represented to ground; scale sweep also stresses coupling load.",
+      "Power-rail resistance is not included in this signal-RC model."
+    ],
+    "geometry_nets": 1960,
+    "detailed_parameters_sha256": "43d96e2cd612d8753a29e2046a8f301def03cd569ec17cfafd322fb959df3973",
+    "detailed_parameters_file": "/home/ishi-kai/sram/build/sram512/analog/mux51_rc3_low_hot_5us/wire_rc.json",
+    "clock": {
+      "branches": 21,
+      "series_sum_ohm": 258413.1379581571,
+      "cap_ff": 1742.9205749999996
+    },
+    "wire_groups": {
+      "bitline": {
+        "nets": 64,
+        "resistance_ohm_range": [
+          898.2314814814813,
+          898.2314814814813
+        ],
+        "capacitance_ff_range": [
+          209.5275,
+          209.5275
+        ]
+      },
+      "wordline": {
+        "nets": 16,
+        "resistance_ohm_range": [
+          345935.93795975903,
+          345973.1732538767
+        ],
+        "capacitance_ff_range": [
+          659.4438,
+          677.4209999999999
+        ]
+      },
+      "common": {
+        "nets": 2,
+        "resistance_ohm_range": [
+          2907.024237472767,
+          4150.563725490196
+        ],
+        "capacitance_ff_range": [
+          1005.68055,
+          1481.9361
+        ]
+      }
+    }
+  },
+  "supply_current_a": {
+    "max": 0.00584683231689634,
+    "time_mean": 5.833841222589569e-05,
+    "rms": 0.00036044156019817894
+  }
+}

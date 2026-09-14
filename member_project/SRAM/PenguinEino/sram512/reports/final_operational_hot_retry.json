@@ -1,0 +1,153 @@
+{
+  "passed": true,
+  "checks": 5429,
+  "failure_count": 0,
+  "failures": [],
+  "read_observations": [
+    {
+      "operation": 4,
+      "row": 0,
+      "col": 0,
+      "sae_half_ns": 1113018.2287556166,
+      "y_difference_v": -5.030106031666078
+    },
+    {
+      "operation": 5,
+      "row": 0,
+      "col": 31,
+      "sae_half_ns": 1131018.2236483083,
+      "y_difference_v": 5.02855281205368
+    },
+    {
+      "operation": 6,
+      "row": 15,
+      "col": 0,
+      "sae_half_ns": 1149018.218833131,
+      "y_difference_v": 5.0282879059663035
+    },
+    {
+      "operation": 7,
+      "row": 15,
+      "col": 31,
+      "sae_half_ns": 1167018.213242514,
+      "y_difference_v": -5.02922432795596
+    },
+    {
+      "operation": 9,
+      "row": 0,
+      "col": 0,
+      "sae_half_ns": 1206218.228761144,
+      "y_difference_v": -5.030106413908648
+    },
+    {
+      "operation": 11,
+      "row": 0,
+      "col": 0,
+      "sae_half_ns": 1254418.228764135,
+      "y_difference_v": -5.030106603185671
+    },
+    {
+      "operation": 13,
+      "row": 0,
+      "col": 0,
+      "sae_half_ns": 1304618.2287643037,
+      "y_difference_v": -5.030106611793496
+    },
+    {
+      "operation": 15,
+      "row": 0,
+      "col": 0,
+      "sae_half_ns": 1355818.2287643454,
+      "y_difference_v": -5.030106610786815
+    },
+    {
+      "operation": 17,
+      "row": 0,
+      "col": 0,
+      "sae_half_ns": 1408018.2287644066,
+      "y_difference_v": -5.030106604445243
+    },
+    {
+      "operation": 19,
+      "row": 0,
+      "col": 0,
+      "sae_half_ns": 1461218.2287644094,
+      "y_difference_v": -5.0301066070349805
+    },
+    {
+      "operation": 21,
+      "row": 0,
+      "col": 0,
+      "sae_half_ns": 1515418.2287643868,
+      "y_difference_v": -5.030106612643664
+    },
+    {
+      "operation": 23,
+      "row": 0,
+      "col": 0,
+      "sae_half_ns": 1570618.228764283,
+      "y_difference_v": -5.030106633902995
+    },
+    {
+      "operation": 25,
+      "row": 0,
+      "col": 0,
+      "sae_half_ns": 1623818.2287642427,
+      "y_difference_v": -5.030106641582709
+    },
+    {
+      "operation": 27,
+      "row": 0,
+      "col": 0,
+      "sae_half_ns": 1679018.2287642558,
+      "y_difference_v": -5.030106639673468
+    }
+  ],
+  "points": 100160,
+  "operations": 28,
+  "operational_checks": {
+    "passed": true,
+    "checks": 352,
+    "failure_count": 0,
+    "failures": [],
+    "asynchronous_interruptions": 10,
+    "stopped_clock_retention_ns": 1000000
+  },
+  "source": {
+    "gds_sha256": "bbae5a2e0a63d1d0304937d7a5edef00291f0db6eafc00ce3a7700bdafa9ab02",
+    "lvsdb_sha256": "ad6002d464a8119e7b0abe1c74478af4ced53859d103a0db9082284f5160a18b",
+    "mos_groups": 4877,
+    "physical_fingers": 4953,
+    "model_counts": {
+      "PMOS": 1927,
+      "NMOS": 2950,
+      "DP": 4,
+      "DN": 4
+    },
+    "source": "build/sram512/layout/final16x32"
+  },
+  "voltage_v": 5,
+  "temperature_c": 85,
+  "deck_sha256": "4133b5aaff88f682aa3282aa076f3872f5fd23195d8bf0e2cfed8a20f0279b94",
+  "model_notices": [
+    {
+      "model": "DN",
+      "unsupported_parameters": [
+        "imax",
+        "imelt"
+      ],
+      "consequence": "Diode current/melting limit flags are not implemented by ngspice."
+    },
+    {
+      "model": "DP",
+      "unsupported_parameters": [
+        "imax",
+        "imelt"
+      ],
+      "consequence": "Diode current/melting limit flags are not implemented by ngspice."
+    }
+  ],
+  "supply_ramp_ns": 20000,
+  "elapsed_seconds": 792.69,
+  "solver": "klu"
+}

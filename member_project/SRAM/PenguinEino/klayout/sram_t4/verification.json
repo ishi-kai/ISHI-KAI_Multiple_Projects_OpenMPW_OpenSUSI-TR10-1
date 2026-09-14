@@ -1,0 +1,210 @@
+[
+  {
+    "top": "t4_dualwl_1x1",
+    "gds_sha256": "9f1d26066520eb3018a200aecf7915bbeb62460ce300a600ac9afb7af820b38a",
+    "drc": {
+      "pass": true,
+      "items": 0,
+      "categories": {}
+    },
+    "lvs": {
+      "pass": true,
+      "circuit_pairs": [
+        "Match"
+      ],
+      "errors": []
+    }
+  },
+  {
+    "top": "t4_dualwl_2x2",
+    "gds_sha256": "9f1d26066520eb3018a200aecf7915bbeb62460ce300a600ac9afb7af820b38a",
+    "drc": {
+      "pass": true,
+      "items": 0,
+      "categories": {}
+    },
+    "lvs": {
+      "pass": true,
+      "circuit_pairs": [
+        "Match"
+      ],
+      "errors": []
+    }
+  },
+  {
+    "top": "t4_dualwl_4x4",
+    "gds_sha256": "9f1d26066520eb3018a200aecf7915bbeb62460ce300a600ac9afb7af820b38a",
+    "drc": {
+      "pass": true,
+      "items": 0,
+      "categories": {}
+    },
+    "lvs": {
+      "pass": true,
+      "circuit_pairs": [
+        "Match"
+      ],
+      "errors": []
+    }
+  },
+  {
+    "top": "t4_dualwl_16x16",
+    "gds_sha256": "9f1d26066520eb3018a200aecf7915bbeb62460ce300a600ac9afb7af820b38a",
+    "drc": {
+      "pass": true,
+      "items": 0,
+      "categories": {}
+    },
+    "lvs": {
+      "pass": true,
+      "circuit_pairs": [
+        "Match"
+      ],
+      "errors": []
+    }
+  },
+  {
+    "top": "t4_singlewl_1x1",
+    "gds_sha256": "31faf3ed204226fb8401b4d1b640e096c833f2ec28171aef79eae351f7d7a09a",
+    "drc": {
+      "pass": true,
+      "items": 0,
+      "categories": {}
+    },
+    "lvs": {
+      "pass": true,
+      "circuit_pairs": [
+        "Match"
+      ],
+      "errors": []
+    }
+  },
+  {
+    "top": "t4_singlewl_2x2",
+    "gds_sha256": "31faf3ed204226fb8401b4d1b640e096c833f2ec28171aef79eae351f7d7a09a",
+    "drc": {
+      "pass": true,
+      "items": 0,
+      "categories": {}
+    },
+    "lvs": {
+      "pass": true,
+      "circuit_pairs": [
+        "Match"
+      ],
+      "errors": []
+    }
+  },
+  {
+    "top": "t4_singlewl_4x4",
+    "gds_sha256": "31faf3ed204226fb8401b4d1b640e096c833f2ec28171aef79eae351f7d7a09a",
+    "drc": {
+      "pass": true,
+      "items": 0,
+      "categories": {}
+    },
+    "lvs": {
+      "pass": true,
+      "circuit_pairs": [
+        "Match"
+      ],
+      "errors": []
+    }
+  },
+  {
+    "top": "t4_singlewl_16x16",
+    "gds_sha256": "31faf3ed204226fb8401b4d1b640e096c833f2ec28171aef79eae351f7d7a09a",
+    "drc": {
+      "pass": true,
+      "items": 0,
+      "categories": {}
+    },
+    "lvs": {
+      "pass": true,
+      "circuit_pairs": [
+        "Match"
+      ],
+      "errors": []
+    }
+  },
+  {
+    "top": "t4_singlewl_16x32",
+    "gds_sha256": "31faf3ed204226fb8401b4d1b640e096c833f2ec28171aef79eae351f7d7a09a",
+    "drc": {
+      "pass": true,
+      "items": 0,
+      "categories": {}
+    },
+    "lvs": {
+      "pass": true,
+      "circuit_pairs": [
+        "Match"
+      ],
+      "errors": []
+    }
+  },
+  {
+    "top": "t4_singlewl_32x8",
+    "gds_sha256": "31faf3ed204226fb8401b4d1b640e096c833f2ec28171aef79eae351f7d7a09a",
+    "drc": {
+      "pass": true,
+      "items": 0,
+      "categories": {}
+    },
+    "lvs": {
+      "pass": true,
+      "circuit_pairs": [
+        "Match"
+      ],
+      "errors": []
+    }
+  },
+  {
+    "top": "t4_singlewl_32x32",
+    "gds_sha256": "31faf3ed204226fb8401b4d1b640e096c833f2ec28171aef79eae351f7d7a09a",
+    "drc": {
+      "pass": true,
+      "items": 0,
+      "categories": {}
+    },
+    "lvs": {
+      "pass": true,
+      "circuit_pairs": [
+        "Match"
+      ],
+      "errors": []
+    }
+  },
+  {
+    "top": "t4_dualwl_probe_2x2",
+    "gds_sha256": "9f1d26066520eb3018a200aecf7915bbeb62460ce300a600ac9afb7af820b38a",
+    "drc": {
+      "pass": true,
+      "items": 0,
+      "categories": {}
+    },
+    "lvs": {
+      "pass": true,
+      "circuit_pairs": [
+        "Match"
+      ],
+      "errors": []
+    }
+  },
+  {
+    "top": "t4_singlewl_probe_2x2",
+    "gds_sha256": "31faf3ed204226fb8401b4d1b640e096c833f2ec28171aef79eae351f7d7a09a",
+    "drc": {
+      "pass": true,
+      "items": 0,
+      "categories": {}
+    },
+    "lvs": {
+      "pass": true,
+      "circuit_pairs": [
+        "Match"
+      ],
+      "errors": []
+    }
+  }
+]

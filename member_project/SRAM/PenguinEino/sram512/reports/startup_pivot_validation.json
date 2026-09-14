@@ -1,0 +1,67 @@
+{
+  "passed": true,
+  "source_gds_sha256": "dee111388a5c4d3131b68772507706706d894248988ab761bf9c4070e9194e61",
+  "waveform_comparison_tolerance_v": 0.02,
+  "scope": "Identical complete startup network and stimuli; only matrix solver and numerical pivot selection differ. Both runs independently pass all original functional, voltage and current limits.",
+  "runs": [
+    {
+      "name": "pd102_startup_5n",
+      "deck_sha256": "505c8436c61ed9e0b058beabd2b400bd35fcac9ef4037fe2cbffd21bc6e73bcf",
+      "elapsed_seconds": 47.22,
+      "checks": 32729,
+      "peak_voltage_v": 5.233033438000327,
+      "peak_via_a": 0.0024197056036241904
+    },
+    {
+      "name": "pd102_startup_klu_pivot",
+      "deck_sha256": "7524978d2dfe22c7c787f52700555696d3031cc403635a400ba5516fc743d653",
+      "elapsed_seconds": 17.3,
+      "checks": 32729,
+      "peak_voltage_v": 5.233033438003995,
+      "peak_via_a": 0.0024197056125443137
+    }
+  ],
+  "nodes_compared": 8863,
+  "maximum_differences": [
+    {
+      "node": "v(xarray.xr0c31.qb)",
+      "maximum_interpolated_difference_v": 1.2541655214359793e-08
+    },
+    {
+      "node": "v(xarray.xr0c30.qb)",
+      "maximum_interpolated_difference_v": 1.2384495984285593e-08
+    },
+    {
+      "node": "v(xarray.xr1c31.qb)",
+      "maximum_interpolated_difference_v": 1.224946516442671e-08
+    },
+    {
+      "node": "v(xarray.xr0c29.qb)",
+      "maximum_interpolated_difference_v": 1.2233276669437743e-08
+    },
+    {
+      "node": "v(xarray.xr1c30.qb)",
+      "maximum_interpolated_difference_v": 1.210892242031747e-08
+    },
+    {
+      "node": "v(xarray.xr0c28.qb)",
+      "maximum_interpolated_difference_v": 1.2080212885567931e-08
+    },
+    {
+      "node": "v(xarray.xr1c29.qb)",
+      "maximum_interpolated_difference_v": 1.197544857722832e-08
+    },
+    {
+      "node": "v(xarray.xr0c27.qb)",
+      "maximum_interpolated_difference_v": 1.1934577492933585e-08
+    },
+    {
+      "node": "v(xarray.xr1c28.qb)",
+      "maximum_interpolated_difference_v": 1.1841976232940254e-08
+    },
+    {
+      "node": "v(xarray.xr0c26.qb)",
+      "maximum_interpolated_difference_v": 1.1793684917549285e-08
+    }
+  ]
+}

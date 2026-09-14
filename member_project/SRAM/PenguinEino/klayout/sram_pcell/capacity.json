@@ -1,0 +1,1617 @@
+{
+  "gds_sha256": "f944f38ff126069695ffe2fc5a6664aeb931f32faacf0c93b4a2b414cf431b51",
+  "array_only_best": {
+    "rows": 20,
+    "columns": 76,
+    "bits": 1520,
+    "width_um": 1799.8,
+    "height_um": 592.0
+  },
+  "array_search": "1..100 rows and columns, both orientations; 16-column tap interval.",
+  "peripheral_scope": "Single array, binary address sizes; block budget, peripherals not laid out; pads/ESD excluded.",
+  "assumptions": [
+    "Same serial architecture and standard-cell dimensions as previous compact study.",
+    "Row-final region: 137.6 um for two alternating-row lanes and pitch conversion.",
+    "Column region depth: 120 or 150 um; common analog region: 120 x 60 um.",
+    "Logic row filling targets: 65%, 75%, 85%; not total die utilization."
+  ],
+  "best": [
+    {
+      "variant": "pcell",
+      "rows": 16,
+      "columns": 16,
+      "bits": 256,
+      "utilization": 0.65,
+      "column_strip_um": 150,
+      "array_width_um": 395.0,
+      "array_height_um": 473.6,
+      "array_area_um2": 187072.0,
+      "digital_abut_area_um2": 343035.0,
+      "global_logic_rows": 15,
+      "global_logic_height_um": 837.6,
+      "global_bom": {
+        "AND2_X1": 36,
+        "DFFR": 29,
+        "XOR2": 4,
+        "AND3_X1": 1,
+        "AND4_X1": 10,
+        "OR2": 3,
+        "OR4": 1,
+        "INV_X1": 4,
+        "OR3": 1,
+        "MUX2": 20,
+        "NAND2": 2,
+        "BUF_X4": 12
+      },
+      "row_final_bom": {
+        "AND3_X1": 16
+      },
+      "column_final_bom": {
+        "AND2_X1": 16
+      },
+      "controller": {
+        "row_bits": 4,
+        "col_bits": 4,
+        "receive_bits": 9,
+        "counter_bits": 5,
+        "flipflops": 29,
+        "clocks_per_operation": 17
+      },
+      "floorplan": {
+        "rotation_deg": 0,
+        "width_um": 592.6,
+        "height_um": 1561.2,
+        "fits": true
+      }
+    },
+    {
+      "variant": "pcell",
+      "rows": 16,
+      "columns": 32,
+      "bits": 512,
+      "utilization": 0.75,
+      "column_strip_um": 120,
+      "array_width_um": 768.2,
+      "array_height_um": 473.6,
+      "array_area_um2": 363819.52,
+      "digital_abut_area_um2": 387805.0,
+      "global_logic_rows": 14,
+      "global_logic_height_um": 777.6,
+      "global_bom": {
+        "AND4_X1": 11,
+        "AND2_X1": 32,
+        "OR2": 4,
+        "DFFR": 31,
+        "XOR2": 4,
+        "AND3_X1": 9,
+        "OR4": 1,
+        "INV_X1": 4,
+        "OR3": 1,
+        "MUX2": 22,
+        "NAND2": 2,
+        "BUF_X4": 12
+      },
+      "row_final_bom": {
+        "AND3_X1": 16
+      },
+      "column_final_bom": {
+        "AND2_X1": 32
+      },
+      "controller": {
+        "row_bits": 4,
+        "col_bits": 5,
+        "receive_bits": 10,
+        "counter_bits": 5,
+        "flipflops": 31,
+        "clocks_per_operation": 18
+      },
+      "floorplan": {
+        "rotation_deg": 90,
+        "width_um": 593.6,
+        "height_um": 1783.4,
+        "fits": true
+      }
+    },
+    {
+      "variant": "pcell",
+      "rows": 16,
+      "columns": 32,
+      "bits": 512,
+      "utilization": 0.85,
+      "column_strip_um": 120,
+      "array_width_um": 768.2,
+      "array_height_um": 473.6,
+      "array_area_um2": 363819.52,
+      "digital_abut_area_um2": 387805.0,
+      "global_logic_rows": 13,
+      "global_logic_height_um": 727.6,
+      "global_bom": {
+        "AND4_X1": 11,
+        "AND2_X1": 32,
+        "OR2": 4,
+        "DFFR": 31,
+        "XOR2": 4,
+        "AND3_X1": 9,
+        "OR4": 1,
+        "INV_X1": 4,
+        "OR3": 1,
+        "MUX2": 22,
+        "NAND2": 2,
+        "BUF_X4": 12
+      },
+      "row_final_bom": {
+        "AND3_X1": 16
+      },
+      "column_final_bom": {
+        "AND2_X1": 32
+      },
+      "controller": {
+        "row_bits": 4,
+        "col_bits": 5,
+        "receive_bits": 10,
+        "counter_bits": 5,
+        "flipflops": 31,
+        "clocks_per_operation": 18
+      },
+      "floorplan": {
+        "rotation_deg": 90,
+        "width_um": 593.6,
+        "height_um": 1733.4,
+        "fits": true
+      }
+    }
+  ],
+  "cases": [
+    {
+      "variant": "pcell",
+      "rows": 4,
+      "columns": 4,
+      "bits": 16,
+      "utilization": 0.65,
+      "column_strip_um": 150,
+      "array_width_um": 131.0,
+      "array_height_um": 118.4,
+      "array_area_um2": 15510.4,
+      "digital_abut_area_um2": 223245.0,
+      "global_logic_rows": 11,
+      "global_logic_height_um": 617.6,
+      "floorplan": {
+        "rotation_deg": 0,
+        "width_um": 592.6,
+        "height_um": 986.0,
+        "fits": true
+      }
+    },
+    {
+      "variant": "pcell",
+      "rows": 4,
+      "columns": 8,
+      "bits": 32,
+      "utilization": 0.65,
+      "column_strip_um": 150,
+      "array_width_um": 219.0,
+      "array_height_um": 118.4,
+      "array_area_um2": 25929.6,
+      "digital_abut_area_um2": 254705.0,
+      "global_logic_rows": 12,
+      "global_logic_height_um": 667.6,
+      "floorplan": {
+        "rotation_deg": 0,
+        "width_um": 592.6,
+        "height_um": 1036.0,
+        "fits": true
+      }
+    },
+    {
+      "variant": "pcell",
+      "rows": 4,
+      "columns": 16,
+      "bits": 64,
+      "utilization": 0.65,
+      "column_strip_um": 150,
+      "array_width_um": 395.0,
+      "array_height_um": 118.4,
+      "array_area_um2": 46768.0,
+      "digital_abut_area_um2": 274065.0,
+      "global_logic_rows": 13,
+      "global_logic_height_um": 727.6,
+      "floorplan": {
+        "rotation_deg": 0,
+        "width_um": 592.6,
+        "height_um": 1096.0,
+        "fits": true
+      }
+    },
+    {
+      "variant": "pcell",
+      "rows": 4,
+      "columns": 32,
+      "bits": 128,
+      "utilization": 0.65,
+      "column_strip_um": 150,
+      "array_width_um": 768.2,
+      "array_height_um": 118.4,
+      "array_area_um2": 90954.88,
+      "digital_abut_area_um2": 311877.5,
+      "global_logic_rows": 14,
+      "global_logic_height_um": 777.6,
+      "floorplan": {
+        "rotation_deg": 90,
+        "width_um": 592.6,
+        "height_um": 1783.4,
+        "fits": true
+      }
+    },
+    {
+      "variant": "pcell",
+      "rows": 4,
+      "columns": 64,
+      "bits": 256,
+      "utilization": 0.65,
+      "column_strip_um": 150,
+      "array_width_um": 1514.6,
+      "array_height_um": 118.4,
+      "array_area_um2": 179328.64,
+      "digital_abut_area_um2": 391435.0,
+      "global_logic_rows": 16,
+      "global_logic_height_um": 887.6,
+      "floorplan": {
+        "rotation_deg": 90,
+        "width_um": 592.6,
+        "height_um": 2639.8,
+        "fits": false
+      }
+    },
+    {
+      "variant": "pcell",
+      "rows": 8,
+      "columns": 4,
+      "bits": 32,
+      "utilization": 0.65,
+      "column_strip_um": 150,
+      "array_width_um": 131.0,
+      "array_height_um": 236.8,
+      "array_area_um2": 31020.8,
+      "digital_abut_area_um2": 252285.0,
+      "global_logic_rows": 12,
+      "global_logic_height_um": 667.6,
+      "floorplan": {
+        "rotation_deg": 0,
+        "width_um": 592.6,
+        "height_um": 1154.4,
+        "fits": true
+      }
+    },
+    {
+      "variant": "pcell",
+      "rows": 8,
+      "columns": 8,
+      "bits": 64,
+      "utilization": 0.65,
+      "column_strip_um": 150,
+      "array_width_um": 219.0,
+      "array_height_um": 236.8,
+      "array_area_um2": 51859.2,
+      "digital_abut_area_um2": 283745.0,
+      "global_logic_rows": 13,
+      "global_logic_height_um": 727.6,
+      "floorplan": {
+        "rotation_deg": 0,
+        "width_um": 592.6,
+        "height_um": 1214.4,
+        "fits": true
+      }
+    },
+    {
+      "variant": "pcell",
+      "rows": 8,
+      "columns": 16,
+      "bits": 128,
+      "utilization": 0.65,
+      "column_strip_um": 150,
+      "array_width_um": 395.0,
+      "array_height_um": 236.8,
+      "array_area_um2": 93536.0,
+      "digital_abut_area_um2": 297357.5,
+      "global_logic_rows": 14,
+      "global_logic_height_um": 777.6,
+      "floorplan": {
+        "rotation_deg": 0,
+        "width_um": 592.6,
+        "height_um": 1264.4,
+        "fits": true
+      }
+    },
+    {
+      "variant": "pcell",
+      "rows": 8,
+      "columns": 32,
+      "bits": 256,
+      "utilization": 0.65,
+      "column_strip_um": 150,
+      "array_width_um": 768.2,
+      "array_height_um": 236.8,
+      "array_area_um2": 181909.76,
+      "digital_abut_area_um2": 357555.0,
+      "global_logic_rows": 16,
+      "global_logic_height_um": 887.6,
+      "floorplan": {
+        "rotation_deg": 90,
+        "width_um": 592.6,
+        "height_um": 1893.4,
+        "fits": false
+      }
+    },
+    {
+      "variant": "pcell",
+      "rows": 8,
+      "columns": 64,
+      "bits": 512,
+      "utilization": 0.65,
+      "column_strip_um": 150,
+      "array_width_um": 1514.6,
+      "array_height_um": 236.8,
+      "array_area_um2": 358657.28,
+      "digital_abut_area_um2": 421685.0,
+      "global_logic_rows": 17,
+      "global_logic_height_um": 947.6,
+      "floorplan": {
+        "rotation_deg": 90,
+        "width_um": 592.6,
+        "height_um": 2699.8,
+        "fits": false
+      }
+    },
+    {
+      "variant": "pcell",
+      "rows": 16,
+      "columns": 4,
+      "bits": 64,
+      "utilization": 0.65,
+      "column_strip_um": 150,
+      "array_width_um": 131.0,
+      "array_height_um": 473.6,
+      "array_area_um2": 62041.6,
+      "digital_abut_area_um2": 281325.0,
+      "global_logic_rows": 13,
+      "global_logic_height_um": 727.6,
+      "floorplan": {
+        "rotation_deg": 0,
+        "width_um": 592.6,
+        "height_um": 1451.2,
+        "fits": true
+      }
+    },
+    {
+      "variant": "pcell",
+      "rows": 16,
+      "columns": 8,
+      "bits": 128,
+      "utilization": 0.65,
+      "column_strip_um": 150,
+      "array_width_um": 219.0,
+      "array_height_um": 473.6,
+      "array_area_um2": 103718.4,
+      "digital_abut_area_um2": 307037.5,
+      "global_logic_rows": 14,
+      "global_logic_height_um": 777.6,
+      "floorplan": {
+        "rotation_deg": 0,
+        "width_um": 592.6,
+        "height_um": 1501.2,
+        "fits": true
+      }
+    },
+    {
+      "variant": "pcell",
+      "rows": 16,
+      "columns": 16,
+      "bits": 256,
+      "utilization": 0.65,
+      "column_strip_um": 150,
+      "array_width_um": 395.0,
+      "array_height_um": 473.6,
+      "array_area_um2": 187072.0,
+      "digital_abut_area_um2": 343035.0,
+      "global_logic_rows": 15,
+      "global_logic_height_um": 837.6,
+      "floorplan": {
+        "rotation_deg": 0,
+        "width_um": 592.6,
+        "height_um": 1561.2,
+        "fits": true
+      }
+    },
+    {
+      "variant": "pcell",
+      "rows": 16,
+      "columns": 32,
+      "bits": 512,
+      "utilization": 0.65,
+      "column_strip_um": 150,
+      "array_width_um": 768.2,
+      "array_height_um": 473.6,
+      "array_area_um2": 363819.52,
+      "digital_abut_area_um2": 387805.0,
+      "global_logic_rows": 16,
+      "global_logic_height_um": 887.6,
+      "floorplan": {
+        "rotation_deg": 90,
+        "width_um": 623.6,
+        "height_um": 1893.4,
+        "fits": false
+      }
+    },
+    {
+      "variant": "pcell",
+      "rows": 16,
+      "columns": 64,
+      "bits": 1024,
+      "utilization": 0.65,
+      "column_strip_um": 150,
+      "array_width_um": 1514.6,
+      "array_height_um": 473.6,
+      "array_area_um2": 717314.56,
+      "digital_abut_area_um2": 451027.5,
+      "global_logic_rows": 18,
+      "global_logic_height_um": 997.6,
+      "floorplan": {
+        "rotation_deg": 90,
+        "width_um": 623.6,
+        "height_um": 2749.8,
+        "fits": false
+      }
+    },
+    {
+      "variant": "pcell",
+      "rows": 32,
+      "columns": 4,
+      "bits": 128,
+      "utilization": 0.65,
+      "column_strip_um": 150,
+      "array_width_um": 131.0,
+      "array_height_um": 947.2,
+      "array_area_um2": 124083.2,
+      "digital_abut_area_um2": 323977.5,
+      "global_logic_rows": 14,
+      "global_logic_height_um": 777.6,
+      "floorplan": {
+        "rotation_deg": 0,
+        "width_um": 592.6,
+        "height_um": 1974.8,
+        "fits": false
+      }
+    },
+    {
+      "variant": "pcell",
+      "rows": 32,
+      "columns": 8,
+      "bits": 256,
+      "utilization": 0.65,
+      "column_strip_um": 150,
+      "array_width_um": 219.0,
+      "array_height_um": 947.2,
+      "array_area_um2": 207436.8,
+      "digital_abut_area_um2": 372075.0,
+      "global_logic_rows": 16,
+      "global_logic_height_um": 887.6,
+      "floorplan": {
+        "rotation_deg": 0,
+        "width_um": 592.6,
+        "height_um": 2084.8,
+        "fits": false
+      }
+    },
+    {
+      "variant": "pcell",
+      "rows": 32,
+      "columns": 16,
+      "bits": 512,
+      "utilization": 0.65,
+      "column_strip_um": 150,
+      "array_width_um": 395.0,
+      "array_height_um": 947.2,
+      "array_area_um2": 374144.0,
+      "digital_abut_area_um2": 392645.0,
+      "global_logic_rows": 16,
+      "global_logic_height_um": 887.6,
+      "floorplan": {
+        "rotation_deg": 0,
+        "width_um": 592.6,
+        "height_um": 2084.8,
+        "fits": false
+      }
+    },
+    {
+      "variant": "pcell",
+      "rows": 32,
+      "columns": 32,
+      "bits": 1024,
+      "utilization": 0.65,
+      "column_strip_um": 150,
+      "array_width_um": 768.2,
+      "array_height_um": 947.2,
+      "array_area_um2": 727639.04,
+      "digital_abut_area_um2": 436507.5,
+      "global_logic_rows": 18,
+      "global_logic_height_um": 997.6,
+      "floorplan": {
+        "rotation_deg": 0,
+        "width_um": 905.8,
+        "height_um": 2194.8,
+        "fits": false
+      }
+    },
+    {
+      "variant": "pcell",
+      "rows": 32,
+      "columns": 64,
+      "bits": 2048,
+      "utilization": 0.65,
+      "column_strip_um": 150,
+      "array_width_um": 1514.6,
+      "array_height_um": 947.2,
+      "array_area_um2": 1434629.12,
+      "digital_abut_area_um2": 497310.0,
+      "global_logic_rows": 19,
+      "global_logic_height_um": 1057.6,
+      "floorplan": {
+        "rotation_deg": 90,
+        "width_um": 1097.2,
+        "height_um": 2809.8,
+        "fits": false
+      }
+    },
+    {
+      "variant": "pcell",
+      "rows": 64,
+      "columns": 4,
+      "bits": 256,
+      "utilization": 0.65,
+      "column_strip_um": 150,
+      "array_width_um": 131.0,
+      "array_height_um": 1894.4,
+      "array_area_um2": 248166.4,
+      "digital_abut_area_um2": 413215.0,
+      "global_logic_rows": 16,
+      "global_logic_height_um": 887.6,
+      "floorplan": {
+        "rotation_deg": 0,
+        "width_um": 592.6,
+        "height_um": 3032.0,
+        "fits": false
+      }
+    },
+    {
+      "variant": "pcell",
+      "rows": 64,
+      "columns": 8,
+      "bits": 512,
+      "utilization": 0.65,
+      "column_strip_um": 150,
+      "array_width_um": 219.0,
+      "array_height_um": 1894.4,
+      "array_area_um2": 414873.6,
+      "digital_abut_area_um2": 445885.0,
+      "global_logic_rows": 17,
+      "global_logic_height_um": 947.6,
+      "floorplan": {
+        "rotation_deg": 0,
+        "width_um": 592.6,
+        "height_um": 3092.0,
+        "fits": false
+      }
+    },
+    {
+      "variant": "pcell",
+      "rows": 64,
+      "columns": 16,
+      "bits": 1024,
+      "utilization": 0.65,
+      "column_strip_um": 150,
+      "array_width_um": 395.0,
+      "array_height_um": 1894.4,
+      "array_area_um2": 748288.0,
+      "digital_abut_area_um2": 465547.5,
+      "global_logic_rows": 18,
+      "global_logic_height_um": 997.6,
+      "floorplan": {
+        "rotation_deg": 0,
+        "width_um": 592.6,
+        "height_um": 3142.0,
+        "fits": false
+      }
+    },
+    {
+      "variant": "pcell",
+      "rows": 64,
+      "columns": 32,
+      "bits": 2048,
+      "utilization": 0.65,
+      "column_strip_um": 150,
+      "array_width_um": 768.2,
+      "array_height_um": 1894.4,
+      "array_area_um2": 1455278.08,
+      "digital_abut_area_um2": 506990.0,
+      "global_logic_rows": 19,
+      "global_logic_height_um": 1057.6,
+      "floorplan": {
+        "rotation_deg": 0,
+        "width_um": 905.8,
+        "height_um": 3202.0,
+        "fits": false
+      }
+    },
+    {
+      "variant": "pcell",
+      "rows": 4,
+      "columns": 4,
+      "bits": 16,
+      "utilization": 0.75,
+      "column_strip_um": 120,
+      "array_width_um": 131.0,
+      "array_height_um": 118.4,
+      "array_area_um2": 15510.4,
+      "digital_abut_area_um2": 223245.0,
+      "global_logic_rows": 9,
+      "global_logic_height_um": 507.6,
+      "floorplan": {
+        "rotation_deg": 0,
+        "width_um": 592.6,
+        "height_um": 846.0,
+        "fits": true
+      }
+    },
+    {
+      "variant": "pcell",
+      "rows": 4,
+      "columns": 8,
+      "bits": 32,
+      "utilization": 0.75,
+      "column_strip_um": 120,
+      "array_width_um": 219.0,
+      "array_height_um": 118.4,
+      "array_area_um2": 25929.6,
+      "digital_abut_area_um2": 254705.0,
+      "global_logic_rows": 10,
+      "global_logic_height_um": 557.6,
+      "floorplan": {
+        "rotation_deg": 0,
+        "width_um": 592.6,
+        "height_um": 896.0,
+        "fits": true
+      }
+    },
+    {
+      "variant": "pcell",
+      "rows": 4,
+      "columns": 16,
+      "bits": 64,
+      "utilization": 0.75,
+      "column_strip_um": 120,
+      "array_width_um": 395.0,
+      "array_height_um": 118.4,
+      "array_area_um2": 46768.0,
+      "digital_abut_area_um2": 274065.0,
+      "global_logic_rows": 11,
+      "global_logic_height_um": 617.6,
+      "floorplan": {
+        "rotation_deg": 0,
+        "width_um": 592.6,
+        "height_um": 956.0,
+        "fits": true
+      }
+    },
+    {
+      "variant": "pcell",
+      "rows": 4,
+      "columns": 32,
+      "bits": 128,
+      "utilization": 0.75,
+      "column_strip_um": 120,
+      "array_width_um": 768.2,
+      "array_height_um": 118.4,
+      "array_area_um2": 90954.88,
+      "digital_abut_area_um2": 311877.5,
+      "global_logic_rows": 12,
+      "global_logic_height_um": 667.6,
+      "floorplan": {
+        "rotation_deg": 90,
+        "width_um": 592.6,
+        "height_um": 1673.4,
+        "fits": true
+      }
+    },
+    {
+      "variant": "pcell",
+      "rows": 4,
+      "columns": 64,
+      "bits": 256,
+      "utilization": 0.75,
+      "column_strip_um": 120,
+      "array_width_um": 1514.6,
+      "array_height_um": 118.4,
+      "array_area_um2": 179328.64,
+      "digital_abut_area_um2": 391435.0,
+      "global_logic_rows": 13,
+      "global_logic_height_um": 727.6,
+      "floorplan": {
+        "rotation_deg": 90,
+        "width_um": 592.6,
+        "height_um": 2479.8,
+        "fits": false
+      }
+    },
+    {
+      "variant": "pcell",
+      "rows": 8,
+      "columns": 4,
+      "bits": 32,
+      "utilization": 0.75,
+      "column_strip_um": 120,
+      "array_width_um": 131.0,
+      "array_height_um": 236.8,
+      "array_area_um2": 31020.8,
+      "digital_abut_area_um2": 252285.0,
+      "global_logic_rows": 10,
+      "global_logic_height_um": 557.6,
+      "floorplan": {
+        "rotation_deg": 0,
+        "width_um": 592.6,
+        "height_um": 1014.4,
+        "fits": true
+      }
+    },
+    {
+      "variant": "pcell",
+      "rows": 8,
+      "columns": 8,
+      "bits": 64,
+      "utilization": 0.75,
+      "column_strip_um": 120,
+      "array_width_um": 219.0,
+      "array_height_um": 236.8,
+      "array_area_um2": 51859.2,
+      "digital_abut_area_um2": 283745.0,
+      "global_logic_rows": 11,
+      "global_logic_height_um": 617.6,
+      "floorplan": {
+        "rotation_deg": 0,
+        "width_um": 592.6,
+        "height_um": 1074.4,
+        "fits": true
+      }
+    },
+    {
+      "variant": "pcell",
+      "rows": 8,
+      "columns": 16,
+      "bits": 128,
+      "utilization": 0.75,
+      "column_strip_um": 120,
+      "array_width_um": 395.0,
+      "array_height_um": 236.8,
+      "array_area_um2": 93536.0,
+      "digital_abut_area_um2": 297357.5,
+      "global_logic_rows": 12,
+      "global_logic_height_um": 667.6,
+      "floorplan": {
+        "rotation_deg": 0,
+        "width_um": 592.6,
+        "height_um": 1124.4,
+        "fits": true
+      }
+    },
+    {
+      "variant": "pcell",
+      "rows": 8,
+      "columns": 32,
+      "bits": 256,
+      "utilization": 0.75,
+      "column_strip_um": 120,
+      "array_width_um": 768.2,
+      "array_height_um": 236.8,
+      "array_area_um2": 181909.76,
+      "digital_abut_area_um2": 357555.0,
+      "global_logic_rows": 13,
+      "global_logic_height_um": 727.6,
+      "floorplan": {
+        "rotation_deg": 90,
+        "width_um": 592.6,
+        "height_um": 1733.4,
+        "fits": true
+      }
+    },
+    {
+      "variant": "pcell",
+      "rows": 8,
+      "columns": 64,
+      "bits": 512,
+      "utilization": 0.75,
+      "column_strip_um": 120,
+      "array_width_um": 1514.6,
+      "array_height_um": 236.8,
+      "array_area_um2": 358657.28,
+      "digital_abut_area_um2": 421685.0,
+      "global_logic_rows": 15,
+      "global_logic_height_um": 837.6,
+      "floorplan": {
+        "rotation_deg": 90,
+        "width_um": 592.6,
+        "height_um": 2589.8,
+        "fits": false
+      }
+    },
+    {
+      "variant": "pcell",
+      "rows": 16,
+      "columns": 4,
+      "bits": 64,
+      "utilization": 0.75,
+      "column_strip_um": 120,
+      "array_width_um": 131.0,
+      "array_height_um": 473.6,
+      "array_area_um2": 62041.6,
+      "digital_abut_area_um2": 281325.0,
+      "global_logic_rows": 11,
+      "global_logic_height_um": 617.6,
+      "floorplan": {
+        "rotation_deg": 0,
+        "width_um": 592.6,
+        "height_um": 1311.2,
+        "fits": true
+      }
+    },
+    {
+      "variant": "pcell",
+      "rows": 16,
+      "columns": 8,
+      "bits": 128,
+      "utilization": 0.75,
+      "column_strip_um": 120,
+      "array_width_um": 219.0,
+      "array_height_um": 473.6,
+      "array_area_um2": 103718.4,
+      "digital_abut_area_um2": 307037.5,
+      "global_logic_rows": 12,
+      "global_logic_height_um": 667.6,
+      "floorplan": {
+        "rotation_deg": 0,
+        "width_um": 592.6,
+        "height_um": 1361.2,
+        "fits": true
+      }
+    },
+    {
+      "variant": "pcell",
+      "rows": 16,
+      "columns": 16,
+      "bits": 256,
+      "utilization": 0.75,
+      "column_strip_um": 120,
+      "array_width_um": 395.0,
+      "array_height_um": 473.6,
+      "array_area_um2": 187072.0,
+      "digital_abut_area_um2": 343035.0,
+      "global_logic_rows": 13,
+      "global_logic_height_um": 727.6,
+      "floorplan": {
+        "rotation_deg": 0,
+        "width_um": 592.6,
+        "height_um": 1421.2,
+        "fits": true
+      }
+    },
+    {
+      "variant": "pcell",
+      "rows": 16,
+      "columns": 32,
+      "bits": 512,
+      "utilization": 0.75,
+      "column_strip_um": 120,
+      "array_width_um": 768.2,
+      "array_height_um": 473.6,
+      "array_area_um2": 363819.52,
+      "digital_abut_area_um2": 387805.0,
+      "global_logic_rows": 14,
+      "global_logic_height_um": 777.6,
+      "floorplan": {
+        "rotation_deg": 90,
+        "width_um": 593.6,
+        "height_um": 1783.4,
+        "fits": true
+      }
+    },
+    {
+      "variant": "pcell",
+      "rows": 16,
+      "columns": 64,
+      "bits": 1024,
+      "utilization": 0.75,
+      "column_strip_um": 120,
+      "array_width_um": 1514.6,
+      "array_height_um": 473.6,
+      "array_area_um2": 717314.56,
+      "digital_abut_area_um2": 451027.5,
+      "global_logic_rows": 15,
+      "global_logic_height_um": 837.6,
+      "floorplan": {
+        "rotation_deg": 90,
+        "width_um": 593.6,
+        "height_um": 2589.8,
+        "fits": false
+      }
+    },
+    {
+      "variant": "pcell",
+      "rows": 32,
+      "columns": 4,
+      "bits": 128,
+      "utilization": 0.75,
+      "column_strip_um": 120,
+      "array_width_um": 131.0,
+      "array_height_um": 947.2,
+      "array_area_um2": 124083.2,
+      "digital_abut_area_um2": 323977.5,
+      "global_logic_rows": 12,
+      "global_logic_height_um": 667.6,
+      "floorplan": {
+        "rotation_deg": 0,
+        "width_um": 592.6,
+        "height_um": 1834.8,
+        "fits": false
+      }
+    },
+    {
+      "variant": "pcell",
+      "rows": 32,
+      "columns": 8,
+      "bits": 256,
+      "utilization": 0.75,
+      "column_strip_um": 120,
+      "array_width_um": 219.0,
+      "array_height_um": 947.2,
+      "array_area_um2": 207436.8,
+      "digital_abut_area_um2": 372075.0,
+      "global_logic_rows": 13,
+      "global_logic_height_um": 727.6,
+      "floorplan": {
+        "rotation_deg": 0,
+        "width_um": 592.6,
+        "height_um": 1894.8,
+        "fits": false
+      }
+    },
+    {
+      "variant": "pcell",
+      "rows": 32,
+      "columns": 16,
+      "bits": 512,
+      "utilization": 0.75,
+      "column_strip_um": 120,
+      "array_width_um": 395.0,
+      "array_height_um": 947.2,
+      "array_area_um2": 374144.0,
+      "digital_abut_area_um2": 392645.0,
+      "global_logic_rows": 14,
+      "global_logic_height_um": 777.6,
+      "floorplan": {
+        "rotation_deg": 0,
+        "width_um": 592.6,
+        "height_um": 1944.8,
+        "fits": false
+      }
+    },
+    {
+      "variant": "pcell",
+      "rows": 32,
+      "columns": 32,
+      "bits": 1024,
+      "utilization": 0.75,
+      "column_strip_um": 120,
+      "array_width_um": 768.2,
+      "array_height_um": 947.2,
+      "array_area_um2": 727639.04,
+      "digital_abut_area_um2": 436507.5,
+      "global_logic_rows": 15,
+      "global_logic_height_um": 837.6,
+      "floorplan": {
+        "rotation_deg": 0,
+        "width_um": 905.8,
+        "height_um": 2004.8,
+        "fits": false
+      }
+    },
+    {
+      "variant": "pcell",
+      "rows": 32,
+      "columns": 64,
+      "bits": 2048,
+      "utilization": 0.75,
+      "column_strip_um": 120,
+      "array_width_um": 1514.6,
+      "array_height_um": 947.2,
+      "array_area_um2": 1434629.12,
+      "digital_abut_area_um2": 497310.0,
+      "global_logic_rows": 16,
+      "global_logic_height_um": 887.6,
+      "floorplan": {
+        "rotation_deg": 90,
+        "width_um": 1067.2,
+        "height_um": 2639.8,
+        "fits": false
+      }
+    },
+    {
+      "variant": "pcell",
+      "rows": 64,
+      "columns": 4,
+      "bits": 256,
+      "utilization": 0.75,
+      "column_strip_um": 120,
+      "array_width_um": 131.0,
+      "array_height_um": 1894.4,
+      "array_area_um2": 248166.4,
+      "digital_abut_area_um2": 413215.0,
+      "global_logic_rows": 13,
+      "global_logic_height_um": 727.6,
+      "floorplan": {
+        "rotation_deg": 0,
+        "width_um": 592.6,
+        "height_um": 2842.0,
+        "fits": false
+      }
+    },
+    {
+      "variant": "pcell",
+      "rows": 64,
+      "columns": 8,
+      "bits": 512,
+      "utilization": 0.75,
+      "column_strip_um": 120,
+      "array_width_um": 219.0,
+      "array_height_um": 1894.4,
+      "array_area_um2": 414873.6,
+      "digital_abut_area_um2": 445885.0,
+      "global_logic_rows": 15,
+      "global_logic_height_um": 837.6,
+      "floorplan": {
+        "rotation_deg": 0,
+        "width_um": 592.6,
+        "height_um": 2952.0,
+        "fits": false
+      }
+    },
+    {
+      "variant": "pcell",
+      "rows": 64,
+      "columns": 16,
+      "bits": 1024,
+      "utilization": 0.75,
+      "column_strip_um": 120,
+      "array_width_um": 395.0,
+      "array_height_um": 1894.4,
+      "array_area_um2": 748288.0,
+      "digital_abut_area_um2": 465547.5,
+      "global_logic_rows": 15,
+      "global_logic_height_um": 837.6,
+      "floorplan": {
+        "rotation_deg": 0,
+        "width_um": 592.6,
+        "height_um": 2952.0,
+        "fits": false
+      }
+    },
+    {
+      "variant": "pcell",
+      "rows": 64,
+      "columns": 32,
+      "bits": 2048,
+      "utilization": 0.75,
+      "column_strip_um": 120,
+      "array_width_um": 768.2,
+      "array_height_um": 1894.4,
+      "array_area_um2": 1455278.08,
+      "digital_abut_area_um2": 506990.0,
+      "global_logic_rows": 16,
+      "global_logic_height_um": 887.6,
+      "floorplan": {
+        "rotation_deg": 0,
+        "width_um": 905.8,
+        "height_um": 3002.0,
+        "fits": false
+      }
+    },
+    {
+      "variant": "pcell",
+      "rows": 4,
+      "columns": 4,
+      "bits": 16,
+      "utilization": 0.85,
+      "column_strip_um": 120,
+      "array_width_um": 131.0,
+      "array_height_um": 118.4,
+      "array_area_um2": 15510.4,
+      "digital_abut_area_um2": 223245.0,
+      "global_logic_rows": 8,
+      "global_logic_height_um": 447.6,
+      "floorplan": {
+        "rotation_deg": 0,
+        "width_um": 592.6,
+        "height_um": 786.0,
+        "fits": true
+      }
+    },
+    {
+      "variant": "pcell",
+      "rows": 4,
+      "columns": 8,
+      "bits": 32,
+      "utilization": 0.85,
+      "column_strip_um": 120,
+      "array_width_um": 219.0,
+      "array_height_um": 118.4,
+      "array_area_um2": 25929.6,
+      "digital_abut_area_um2": 254705.0,
+      "global_logic_rows": 9,
+      "global_logic_height_um": 507.6,
+      "floorplan": {
+        "rotation_deg": 0,
+        "width_um": 592.6,
+        "height_um": 846.0,
+        "fits": true
+      }
+    },
+    {
+      "variant": "pcell",
+      "rows": 4,
+      "columns": 16,
+      "bits": 64,
+      "utilization": 0.85,
+      "column_strip_um": 120,
+      "array_width_um": 395.0,
+      "array_height_um": 118.4,
+      "array_area_um2": 46768.0,
+      "digital_abut_area_um2": 274065.0,
+      "global_logic_rows": 10,
+      "global_logic_height_um": 557.6,
+      "floorplan": {
+        "rotation_deg": 0,
+        "width_um": 592.6,
+        "height_um": 896.0,
+        "fits": true
+      }
+    },
+    {
+      "variant": "pcell",
+      "rows": 4,
+      "columns": 32,
+      "bits": 128,
+      "utilization": 0.85,
+      "column_strip_um": 120,
+      "array_width_um": 768.2,
+      "array_height_um": 118.4,
+      "array_area_um2": 90954.88,
+      "digital_abut_area_um2": 311877.5,
+      "global_logic_rows": 11,
+      "global_logic_height_um": 617.6,
+      "floorplan": {
+        "rotation_deg": 90,
+        "width_um": 592.6,
+        "height_um": 1623.4,
+        "fits": true
+      }
+    },
+    {
+      "variant": "pcell",
+      "rows": 4,
+      "columns": 64,
+      "bits": 256,
+      "utilization": 0.85,
+      "column_strip_um": 120,
+      "array_width_um": 1514.6,
+      "array_height_um": 118.4,
+      "array_area_um2": 179328.64,
+      "digital_abut_area_um2": 391435.0,
+      "global_logic_rows": 12,
+      "global_logic_height_um": 667.6,
+      "floorplan": {
+        "rotation_deg": 90,
+        "width_um": 592.6,
+        "height_um": 2419.8,
+        "fits": false
+      }
+    },
+    {
+      "variant": "pcell",
+      "rows": 8,
+      "columns": 4,
+      "bits": 32,
+      "utilization": 0.85,
+      "column_strip_um": 120,
+      "array_width_um": 131.0,
+      "array_height_um": 236.8,
+      "array_area_um2": 31020.8,
+      "digital_abut_area_um2": 252285.0,
+      "global_logic_rows": 9,
+      "global_logic_height_um": 507.6,
+      "floorplan": {
+        "rotation_deg": 0,
+        "width_um": 592.6,
+        "height_um": 964.4,
+        "fits": true
+      }
+    },
+    {
+      "variant": "pcell",
+      "rows": 8,
+      "columns": 8,
+      "bits": 64,
+      "utilization": 0.85,
+      "column_strip_um": 120,
+      "array_width_um": 219.0,
+      "array_height_um": 236.8,
+      "array_area_um2": 51859.2,
+      "digital_abut_area_um2": 283745.0,
+      "global_logic_rows": 10,
+      "global_logic_height_um": 557.6,
+      "floorplan": {
+        "rotation_deg": 0,
+        "width_um": 592.6,
+        "height_um": 1014.4,
+        "fits": true
+      }
+    },
+    {
+      "variant": "pcell",
+      "rows": 8,
+      "columns": 16,
+      "bits": 128,
+      "utilization": 0.85,
+      "column_strip_um": 120,
+      "array_width_um": 395.0,
+      "array_height_um": 236.8,
+      "array_area_um2": 93536.0,
+      "digital_abut_area_um2": 297357.5,
+      "global_logic_rows": 11,
+      "global_logic_height_um": 617.6,
+      "floorplan": {
+        "rotation_deg": 0,
+        "width_um": 592.6,
+        "height_um": 1074.4,
+        "fits": true
+      }
+    },
+    {
+      "variant": "pcell",
+      "rows": 8,
+      "columns": 32,
+      "bits": 256,
+      "utilization": 0.85,
+      "column_strip_um": 120,
+      "array_width_um": 768.2,
+      "array_height_um": 236.8,
+      "array_area_um2": 181909.76,
+      "digital_abut_area_um2": 357555.0,
+      "global_logic_rows": 12,
+      "global_logic_height_um": 667.6,
+      "floorplan": {
+        "rotation_deg": 90,
+        "width_um": 592.6,
+        "height_um": 1673.4,
+        "fits": true
+      }
+    },
+    {
+      "variant": "pcell",
+      "rows": 8,
+      "columns": 64,
+      "bits": 512,
+      "utilization": 0.85,
+      "column_strip_um": 120,
+      "array_width_um": 1514.6,
+      "array_height_um": 236.8,
+      "array_area_um2": 358657.28,
+      "digital_abut_area_um2": 421685.0,
+      "global_logic_rows": 13,
+      "global_logic_height_um": 727.6,
+      "floorplan": {
+        "rotation_deg": 90,
+        "width_um": 592.6,
+        "height_um": 2479.8,
+        "fits": false
+      }
+    },
+    {
+      "variant": "pcell",
+      "rows": 16,
+      "columns": 4,
+      "bits": 64,
+      "utilization": 0.85,
+      "column_strip_um": 120,
+      "array_width_um": 131.0,
+      "array_height_um": 473.6,
+      "array_area_um2": 62041.6,
+      "digital_abut_area_um2": 281325.0,
+      "global_logic_rows": 10,
+      "global_logic_height_um": 557.6,
+      "floorplan": {
+        "rotation_deg": 0,
+        "width_um": 592.6,
+        "height_um": 1251.2,
+        "fits": true
+      }
+    },
+    {
+      "variant": "pcell",
+      "rows": 16,
+      "columns": 8,
+      "bits": 128,
+      "utilization": 0.85,
+      "column_strip_um": 120,
+      "array_width_um": 219.0,
+      "array_height_um": 473.6,
+      "array_area_um2": 103718.4,
+      "digital_abut_area_um2": 307037.5,
+      "global_logic_rows": 11,
+      "global_logic_height_um": 617.6,
+      "floorplan": {
+        "rotation_deg": 0,
+        "width_um": 592.6,
+        "height_um": 1311.2,
+        "fits": true
+      }
+    },
+    {
+      "variant": "pcell",
+      "rows": 16,
+      "columns": 16,
+      "bits": 256,
+      "utilization": 0.85,
+      "column_strip_um": 120,
+      "array_width_um": 395.0,
+      "array_height_um": 473.6,
+      "array_area_um2": 187072.0,
+      "digital_abut_area_um2": 343035.0,
+      "global_logic_rows": 12,
+      "global_logic_height_um": 667.6,
+      "floorplan": {
+        "rotation_deg": 0,
+        "width_um": 592.6,
+        "height_um": 1361.2,
+        "fits": true
+      }
+    },
+    {
+      "variant": "pcell",
+      "rows": 16,
+      "columns": 32,
+      "bits": 512,
+      "utilization": 0.85,
+      "column_strip_um": 120,
+      "array_width_um": 768.2,
+      "array_height_um": 473.6,
+      "array_area_um2": 363819.52,
+      "digital_abut_area_um2": 387805.0,
+      "global_logic_rows": 13,
+      "global_logic_height_um": 727.6,
+      "floorplan": {
+        "rotation_deg": 90,
+        "width_um": 593.6,
+        "height_um": 1733.4,
+        "fits": true
+      }
+    },
+    {
+      "variant": "pcell",
+      "rows": 16,
+      "columns": 64,
+      "bits": 1024,
+      "utilization": 0.85,
+      "column_strip_um": 120,
+      "array_width_um": 1514.6,
+      "array_height_um": 473.6,
+      "array_area_um2": 717314.56,
+      "digital_abut_area_um2": 451027.5,
+      "global_logic_rows": 14,
+      "global_logic_height_um": 777.6,
+      "floorplan": {
+        "rotation_deg": 90,
+        "width_um": 593.6,
+        "height_um": 2529.8,
+        "fits": false
+      }
+    },
+    {
+      "variant": "pcell",
+      "rows": 32,
+      "columns": 4,
+      "bits": 128,
+      "utilization": 0.85,
+      "column_strip_um": 120,
+      "array_width_um": 131.0,
+      "array_height_um": 947.2,
+      "array_area_um2": 124083.2,
+      "digital_abut_area_um2": 323977.5,
+      "global_logic_rows": 11,
+      "global_logic_height_um": 617.6,
+      "floorplan": {
+        "rotation_deg": 0,
+        "width_um": 592.6,
+        "height_um": 1784.8,
+        "fits": true
+      }
+    },
+    {
+      "variant": "pcell",
+      "rows": 32,
+      "columns": 8,
+      "bits": 256,
+      "utilization": 0.85,
+      "column_strip_um": 120,
+      "array_width_um": 219.0,
+      "array_height_um": 947.2,
+      "array_area_um2": 207436.8,
+      "digital_abut_area_um2": 372075.0,
+      "global_logic_rows": 12,
+      "global_logic_height_um": 667.6,
+      "floorplan": {
+        "rotation_deg": 0,
+        "width_um": 592.6,
+        "height_um": 1834.8,
+        "fits": false
+      }
+    },
+    {
+      "variant": "pcell",
+      "rows": 32,
+      "columns": 16,
+      "bits": 512,
+      "utilization": 0.85,
+      "column_strip_um": 120,
+      "array_width_um": 395.0,
+      "array_height_um": 947.2,
+      "array_area_um2": 374144.0,
+      "digital_abut_area_um2": 392645.0,
+      "global_logic_rows": 13,
+      "global_logic_height_um": 727.6,
+      "floorplan": {
+        "rotation_deg": 0,
+        "width_um": 592.6,
+        "height_um": 1894.8,
+        "fits": false
+      }
+    },
+    {
+      "variant": "pcell",
+      "rows": 32,
+      "columns": 32,
+      "bits": 1024,
+      "utilization": 0.85,
+      "column_strip_um": 120,
+      "array_width_um": 768.2,
+      "array_height_um": 947.2,
+      "array_area_um2": 727639.04,
+      "digital_abut_area_um2": 436507.5,
+      "global_logic_rows": 14,
+      "global_logic_height_um": 777.6,
+      "floorplan": {
+        "rotation_deg": 0,
+        "width_um": 905.8,
+        "height_um": 1944.8,
+        "fits": false
+      }
+    },
+    {
+      "variant": "pcell",
+      "rows": 32,
+      "columns": 64,
+      "bits": 2048,
+      "utilization": 0.85,
+      "column_strip_um": 120,
+      "array_width_um": 1514.6,
+      "array_height_um": 947.2,
+      "array_area_um2": 1434629.12,
+      "digital_abut_area_um2": 497310.0,
+      "global_logic_rows": 14,
+      "global_logic_height_um": 777.6,
+      "floorplan": {
+        "rotation_deg": 90,
+        "width_um": 1067.2,
+        "height_um": 2529.8,
+        "fits": false
+      }
+    },
+    {
+      "variant": "pcell",
+      "rows": 64,
+      "columns": 4,
+      "bits": 256,
+      "utilization": 0.85,
+      "column_strip_um": 120,
+      "array_width_um": 131.0,
+      "array_height_um": 1894.4,
+      "array_area_um2": 248166.4,
+      "digital_abut_area_um2": 413215.0,
+      "global_logic_rows": 12,
+      "global_logic_height_um": 667.6,
+      "floorplan": {
+        "rotation_deg": 0,
+        "width_um": 592.6,
+        "height_um": 2782.0,
+        "fits": false
+      }
+    },
+    {
+      "variant": "pcell",
+      "rows": 64,
+      "columns": 8,
+      "bits": 512,
+      "utilization": 0.85,
+      "column_strip_um": 120,
+      "array_width_um": 219.0,
+      "array_height_um": 1894.4,
+      "array_area_um2": 414873.6,
+      "digital_abut_area_um2": 445885.0,
+      "global_logic_rows": 13,
+      "global_logic_height_um": 727.6,
+      "floorplan": {
+        "rotation_deg": 0,
+        "width_um": 592.6,
+        "height_um": 2842.0,
+        "fits": false
+      }
+    },
+    {
+      "variant": "pcell",
+      "rows": 64,
+      "columns": 16,
+      "bits": 1024,
+      "utilization": 0.85,
+      "column_strip_um": 120,
+      "array_width_um": 395.0,
+      "array_height_um": 1894.4,
+      "array_area_um2": 748288.0,
+      "digital_abut_area_um2": 465547.5,
+      "global_logic_rows": 14,
+      "global_logic_height_um": 777.6,
+      "floorplan": {
+        "rotation_deg": 0,
+        "width_um": 592.6,
+        "height_um": 2892.0,
+        "fits": false
+      }
+    },
+    {
+      "variant": "pcell",
+      "rows": 64,
+      "columns": 32,
+      "bits": 2048,
+      "utilization": 0.85,
+      "column_strip_um": 120,
+      "array_width_um": 768.2,
+      "array_height_um": 1894.4,
+      "array_area_um2": 1455278.08,
+      "digital_abut_area_um2": 506990.0,
+      "global_logic_rows": 14,
+      "global_logic_height_um": 777.6,
+      "floorplan": {
+        "rotation_deg": 0,
+        "width_um": 905.8,
+        "height_um": 2892.0,
+        "fits": false
+      }
+    }
+  ],
+  "input_sha256": {
+    "/home/ishi-kai/sram/klayout/sram_pcell/compare_capacity.py": "a4edc16f43a9685129337d90bd48cbcf00c1388a3cbfcd987c9873af1154719f",
+    "/home/ishi-kai/sram/klayout/sram_pcell/dimensions.json": "435c5cb4986cc55a9a37b216df173fb87c70ffe15b0bb0671f4c8b79c4da8c45",
+    "/home/ishi-kai/sram/klayout/sram_compact/compare_capacity.py": "9106b8bdc9492dc606c9a89526d3deb65260f78659c3efbef626e37d65e22212",
+    "/home/ishi-kai/sram/klayout/sram_macro_study/estimate_capacity.py": "8565f81c1c15e276dac47fcb98a16ac02309751152c8cb5562f0d62768408552",
+    "/home/ishi-kai/sram/klayout/sram_macro_study/macro_model.py": "0484abd1efbf0315042a8a8c60a61ceaeb8c6fcb46ef84ff7e5476510c448373",
+    "/home/ishi-kai/sram/build/sram_pcell/serial/netlist/sram_tb_serial.spice": "7c94ae2f0091cf8e573c829253d22022e8355a4a5c35cbb7306f4a242e74b499",
+    "/home/ishi-kai/sram/sram_serial_controller.sch": "cbf78d1fd61e52b7b572fd124aa5651f6f6e5dd05dcc24d21def1226804216bb",
+    "/home/ishi-kai/sram/write_control.sch": "b563c1af404eecdf5ea480e001e504ac130419d9a14068a51ed3a76dfe0adf7b",
+    "/home/ishi-kai/pdk/TR-1um/libs.tech/klayout/libraries/TR-1um_STDCELL.gds": "f43dc2d2cf83e4b6ddb7c54be616386fdbce067b600bbdaa52c259349eafbd51"
+  }
+}

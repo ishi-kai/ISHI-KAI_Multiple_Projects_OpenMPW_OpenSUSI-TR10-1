@@ -1,0 +1,1707 @@
+{
+  "passed": false,
+  "checks": 38138,
+  "failure_count": 587,
+  "failures": [],
+  "read_observations": [],
+  "points": 7718,
+  "operations": 1,
+  "voltage_limits": {
+    "passed": false,
+    "checks": 29262,
+    "failure_count": 1,
+    "failures": [
+      {
+        "device": 3475,
+        "model": "PMOS",
+        "cell": "OR2",
+        "instance": 31,
+        "pair": "GB",
+        "peak_abs_v": 6.1043125855802325,
+        "time_ns": 86030.67790628831,
+        "position_um": [
+          1474.6,
+          572.8
+        ]
+      }
+    ],
+    "maximum_by_pair": {
+      "DS": {
+        "device": 3683,
+        "model": "PMOS",
+        "cell": "DFFR",
+        "instance": 58,
+        "pair": "DS",
+        "peak_abs_v": 5.524611745731446,
+        "time_ns": 81041.03322402468,
+        "position_um": [
+          1289.5,
+          273.05
+        ]
+      },
+      "GS": {
+        "device": 4164,
+        "model": "PMOS",
+        "cell": "DFFR",
+        "instance": 74,
+        "pair": "GS",
+        "peak_abs_v": 5.630494534077877,
+        "time_ns": 83516.25045393613,
+        "position_um": [
+          1074.2,
+          572.8
+        ]
+      },
+      "SB": {
+        "device": 4144,
+        "model": "NMOS",
+        "cell": "DFFR",
+        "instance": 73,
+        "pair": "SB",
+        "peak_abs_v": 5.310721518454992,
+        "time_ns": 26011.72658540714,
+        "position_um": [
+          1613.8,
+          457.8
+        ]
+      },
+      "DB": {
+        "device": 4143,
+        "model": "NMOS",
+        "cell": "DFFR",
+        "instance": 73,
+        "pair": "DB",
+        "peak_abs_v": 5.30992734966374,
+        "time_ns": 26011.72658540714,
+        "position_um": [
+          1609.8,
+          457.8
+        ]
+      },
+      "GD": {
+        "device": 3274,
+        "model": "NMOS",
+        "cell": "MUX2",
+        "instance": 12,
+        "pair": "GD",
+        "peak_abs_v": 5.6320288645578,
+        "time_ns": 99758.48205992537,
+        "position_um": [
+          1518.6,
+          86.55
+        ]
+      },
+      "GB": {
+        "device": 3475,
+        "model": "PMOS",
+        "cell": "OR2",
+        "instance": 31,
+        "pair": "GB",
+        "peak_abs_v": 6.1043125855802325,
+        "time_ns": 86030.67790628831,
+        "position_um": [
+          1474.6,
+          572.8
+        ]
+      }
+    },
+    "limit_abs_v": 5.75,
+    "source": "Unmodified dev OS00 reference manual rev1.1, table I-2-3 (recommended MOS operating voltages).",
+    "scope": "Absolute terminal-pair amplitudes. This does not replace current, ESD, or statistical-corner qualification."
+  },
+  "all_cell_retention": {
+    "passed": true,
+    "checks": 1536,
+    "failure_count": 0,
+    "failures": [],
+    "cells": 512,
+    "operations": 1,
+    "initial_sample_ns": 10000.0,
+    "initial_ones_observed": 512,
+    "scope": "Observe unspecified initial data after RESET settles, then check Q and QB of every cell after every operation. Only a written target may change. Read-disturb transients inside the WL pulse are not rail-tested by this checker."
+  },
+  "power_supply_observations": {
+    "load_nodes": 3257,
+    "minimum_vdd": -1.4660343407198025e-25,
+    "maximum_vdd": 5.001896620812279,
+    "minimum_vss": -0.00107745769880306,
+    "maximum_vss": 0.12235291780094983,
+    "worst_vdd_nodes": [
+      {
+        "supply": "VDD",
+        "node": "power_vdd_load_1176",
+        "min_v": -1.4660343407198025e-25,
+        "max_v": 5.000213249118302
+      },
+      {
+        "supply": "VDD",
+        "node": "power_vdd_load_1175",
+        "min_v": -1.4630784140572678e-25,
+        "max_v": 5.000214147550005
+      },
+      {
+        "supply": "VDD",
+        "node": "power_vdd_load_1398",
+        "min_v": -1.4582720217935565e-25,
+        "max_v": 5.00020900658796
+      },
+      {
+        "supply": "VDD",
+        "node": "power_vdd_load_1379",
+        "min_v": -1.454505467873983e-25,
+        "max_v": 5.000216904489119
+      },
+      {
+        "supply": "VDD",
+        "node": "power_vdd_load_1399",
+        "min_v": -1.4543757944915217e-25,
+        "max_v": 5.000206850545788
+      }
+    ],
+    "worst_vss_nodes": [
+      {
+        "supply": "VSS",
+        "node": "power_vss_load_732",
+        "min_v": -9.027116838225926e-05,
+        "max_v": 0.12235291780094983
+      },
+      {
+        "supply": "VSS",
+        "node": "power_vss_load_731",
+        "min_v": -9.027091848191614e-05,
+        "max_v": 0.12235289333580442
+      },
+      {
+        "supply": "VSS",
+        "node": "power_vss_load_712",
+        "min_v": -9.026973470129823e-05,
+        "max_v": 0.12235118245011714
+      },
+      {
+        "supply": "VSS",
+        "node": "power_vss_load_711",
+        "min_v": -9.026948473812902e-05,
+        "max_v": 0.12235115887221663
+      },
+      {
+        "supply": "VSS",
+        "node": "power_vss_load_654",
+        "min_v": -9.026674379105837e-05,
+        "max_v": 0.1223479014037148
+      }
+    ]
+  },
+  "power_resistance_model": {
+    "sheet_ohm": 0.1,
+    "via_ohm": 1.0,
+    "scope": "Width-aware supply resistance sensitivity on the actual metal topology.\n\nMetal polygons are sampled on a stated grid, reduced to their medial paths,\nand assigned R = sheet_R * path_length / local_width. Local width uses the\ninside distance transform minus one sampling interval. Series-only nodes are\neliminated exactly; branches, loops, every actual via, and load taps remain.\nThis is an explicit numerical sensitivity model, not a foundry PEX deck.\nIt improves on the earlier whole-polygon perimeter proxy without replacing\nthat failed experiment or changing any circuit/DRC/LVS acceptance criterion.\n",
+    "source_gds_sha256": "dee111388a5c4d3131b68772507706706d894248988ab761bf9c4070e9194e61",
+    "grid_um": 0.25,
+    "detailed_parameters_sha256": "f83eea0fc4b3809ec8799757184fe428acc2d53472fb665f2f6e8a584358914d"
+  },
+  "via_currents": {
+    "passed": true,
+    "checks": 2880,
+    "physical_vias": 1440,
+    "failure_count": 0,
+    "failures": [],
+    "maximum_peak_a": 0.0049857450072920105,
+    "maximum_rms_a": 5.153981130080754e-05,
+    "worst_peak_vias": [
+      {
+        "supply": "VDD",
+        "position_um": [
+          918.5,
+          118.25
+        ],
+        "peak_a": 0.0049857450072920105,
+        "mean_absolute_a": 3.075901533366074e-06,
+        "rms_a": 5.153981130080754e-05,
+        "passed": true
+      },
+      {
+        "supply": "VSS",
+        "position_um": [
+          913.0,
+          143.9
+        ],
+        "peak_a": 0.0032599935769748708,
+        "mean_absolute_a": 2.8164926014462985e-06,
+        "rms_a": 4.020729552841765e-05,
+        "passed": true
+      },
+      {
+        "supply": "VSS",
+        "position_um": [
+          880.0,
+          140.25
+        ],
+        "peak_a": 0.0032599935769660727,
+        "mean_absolute_a": 2.8164926014386968e-06,
+        "rms_a": 4.020729552830913e-05,
+        "passed": true
+      },
+      {
+        "supply": "VDD",
+        "position_um": [
+          40.6,
+          112.7
+        ],
+        "peak_a": 0.0021680043120107556,
+        "mean_absolute_a": 4.2539486677710487e-07,
+        "rms_a": 1.877701010840959e-05,
+        "passed": true
+      },
+      {
+        "supply": "VSS",
+        "position_um": [
+          962.5,
+          594.0
+        ],
+        "peak_a": 0.002153030631974127,
+        "mean_absolute_a": 2.261171789800807e-06,
+        "rms_a": 2.709343117716558e-05,
+        "passed": true
+      },
+      {
+        "supply": "VDD",
+        "position_um": [
+          861.4,
+          112.7
+        ],
+        "peak_a": 0.001481373664637466,
+        "mean_absolute_a": 1.4890852215494226e-06,
+        "rms_a": 1.9721277997399738e-05,
+        "passed": true
+      },
+      {
+        "supply": "VSS",
+        "position_um": [
+          948.75,
+          112.75
+        ],
+        "peak_a": 0.0013723692418221517,
+        "mean_absolute_a": 1.2346361347002574e-06,
+        "rms_a": 1.6812281842891935e-05,
+        "passed": true
+      },
+      {
+        "supply": "VDD",
+        "position_um": [
+          480.6,
+          112.7
+        ],
+        "peak_a": 0.0010952349671402,
+        "mean_absolute_a": 5.316662545405084e-07,
+        "rms_a": 1.0524525218338604e-05,
+        "passed": true
+      },
+      {
+        "supply": "VDD",
+        "position_um": [
+          421.4,
+          112.7
+        ],
+        "peak_a": 0.0010177271722974794,
+        "mean_absolute_a": 1.9285217636791918e-07,
+        "rms_a": 8.823965096168307e-06,
+        "passed": true
+      },
+      {
+        "supply": "VSS",
+        "position_um": [
+          866.8,
+          132.4
+        ],
+        "peak_a": 0.0010150856190393408,
+        "mean_absolute_a": 5.79679353598196e-07,
+        "rms_a": 1.180339046484827e-05,
+        "passed": true
+      }
+    ],
+    "limits_a": {
+      "instantaneous": 0.0078,
+      "continuous": 0.00078,
+      "rms_screen": 0.00078
+    },
+    "reference": "OpenSUSI OS00 reference manual rev1.1, table I-3-3",
+    "scope": "Compare individual TC currents with the published current limits.\n\n    The 0.78 mA continuous and 7.8 mA instantaneous limits are from OS00\n    rev1.1, table I-3-3. RMS is also checked against the continuous limit as\n    a conservative heating screen. This is conditional on the explicit\n    uncalibrated sheet/via-R model, not an electromigration signoff deck.\n    "
+  },
+  "rc_checks": {
+    "passed": false,
+    "checks": 1216,
+    "failure_count": 32,
+    "failures": [
+      {
+        "net": "rc_wl0_1",
+        "expected": 0,
+        "start_ns": 12500.0,
+        "end_ns": 75500.0,
+        "min_v": -0.048637785236458383,
+        "max_v": 0.6297166743839558
+      },
+      {
+        "net": "rc_wl0_3",
+        "expected": 0,
+        "start_ns": 12500.0,
+        "end_ns": 75500.0,
+        "min_v": -9.046367944322787e-05,
+        "max_v": 0.6368489448223463
+      },
+      {
+        "net": "rc_wl1_1",
+        "expected": 0,
+        "start_ns": 12500.0,
+        "end_ns": 75500.0,
+        "min_v": -0.048123167281630956,
+        "max_v": 0.6252857737648398
+      },
+      {
+        "net": "rc_wl1_3",
+        "expected": 0,
+        "start_ns": 12500.0,
+        "end_ns": 75500.0,
+        "min_v": -9.079675311578975e-05,
+        "max_v": 0.6321685776043005
+      },
+      {
+        "net": "rc_wl2_1",
+        "expected": 0,
+        "start_ns": 12500.0,
+        "end_ns": 75500.0,
+        "min_v": -0.04869626815860386,
+        "max_v": 0.6291864499566123
+      },
+      {
+        "net": "rc_wl2_3",
+        "expected": 0,
+        "start_ns": 12500.0,
+        "end_ns": 75500.0,
+        "min_v": -9.097131945537222e-05,
+        "max_v": 0.636147441795315
+      },
+      {
+        "net": "rc_wl3_1",
+        "expected": 0,
+        "start_ns": 12500.0,
+        "end_ns": 75500.0,
+        "min_v": -0.04814985586356281,
+        "max_v": 0.624272908238237
+      },
+      {
+        "net": "rc_wl3_3",
+        "expected": 0,
+        "start_ns": 12500.0,
+        "end_ns": 75500.0,
+        "min_v": -9.152421275935495e-05,
+        "max_v": 0.6309141203872225
+      },
+      {
+        "net": "rc_wl4_1",
+        "expected": 0,
+        "start_ns": 12500.0,
+        "end_ns": 75500.0,
+        "min_v": -0.048684875843197854,
+        "max_v": 0.627873808769246
+      },
+      {
+        "net": "rc_wl4_3",
+        "expected": 0,
+        "start_ns": 12500.0,
+        "end_ns": 75500.0,
+        "min_v": -9.161063604014439e-05,
+        "max_v": 0.6347325926066713
+      },
+      {
+        "net": "rc_wl5_1",
+        "expected": 0,
+        "start_ns": 12500.0,
+        "end_ns": 75500.0,
+        "min_v": -0.04813435732896206,
+        "max_v": 0.6230453280492162
+      },
+      {
+        "net": "rc_wl5_3",
+        "expected": 0,
+        "start_ns": 12500.0,
+        "end_ns": 75500.0,
+        "min_v": -9.21937325162434e-05,
+        "max_v": 0.6295676987756048
+      },
+      {
+        "net": "rc_wl6_1",
+        "expected": 0,
+        "start_ns": 12500.0,
+        "end_ns": 75500.0,
+        "min_v": -0.048698890411336446,
+        "max_v": 0.6266057045365505
+      },
+      {
+        "net": "rc_wl6_3",
+        "expected": 0,
+        "start_ns": 12500.0,
+        "end_ns": 75500.0,
+        "min_v": -9.237751072450274e-05,
+        "max_v": 0.6331668755763281
+      },
+      {
+        "net": "rc_wl7_1",
+        "expected": 0,
+        "start_ns": 12500.0,
+        "end_ns": 75500.0,
+        "min_v": -0.048144565749072714,
+        "max_v": 0.6217087101177527
+      },
+      {
+        "net": "rc_wl7_3",
+        "expected": 0,
+        "start_ns": 12500.0,
+        "end_ns": 75500.0,
+        "min_v": -9.291488932886093e-05,
+        "max_v": 0.6281183168868019
+      },
+      {
+        "net": "rc_wl8_1",
+        "expected": 0,
+        "start_ns": 12500.0,
+        "end_ns": 75500.0,
+        "min_v": -0.04868753248855893,
+        "max_v": 0.6253811214016208
+      },
+      {
+        "net": "rc_wl8_3",
+        "expected": 0,
+        "start_ns": 12500.0,
+        "end_ns": 75500.0,
+        "min_v": -9.296589959587032e-05,
+        "max_v": 0.6317835387339531
+      },
+      {
+        "net": "rc_wl9_1",
+        "expected": 0,
+        "start_ns": 12500.0,
+        "end_ns": 75500.0,
+        "min_v": -0.04812013101491269,
+        "max_v": 0.6201294345182123
+      },
+      {
+        "net": "rc_wl9_3",
+        "expected": 0,
+        "start_ns": 12500.0,
+        "end_ns": 75500.0,
+        "min_v": -9.329323401271622e-05,
+        "max_v": 0.6264310175913252
+      },
+      {
+        "net": "rc_wl10_1",
+        "expected": 0,
+        "start_ns": 12500.0,
+        "end_ns": 75500.0,
+        "min_v": -0.048684167479557505,
+        "max_v": 0.6239501315752339
+      },
+      {
+        "net": "rc_wl10_3",
+        "expected": 0,
+        "start_ns": 12500.0,
+        "end_ns": 75500.0,
+        "min_v": -9.33505504385382e-05,
+        "max_v": 0.6302370379630571
+      },
+      {
+        "net": "rc_wl11_1",
+        "expected": 0,
+        "start_ns": 12500.0,
+        "end_ns": 75500.0,
+        "min_v": -0.04811171817406772,
+        "max_v": 0.6185671824180269
+      },
+      {
+        "net": "rc_wl11_3",
+        "expected": 0,
+        "start_ns": 12500.0,
+        "end_ns": 75500.0,
+        "min_v": -9.358842981295282e-05,
+        "max_v": 0.6247575668503547
+      },
+      {
+        "net": "rc_wl12_1",
+        "expected": 0,
+        "start_ns": 12500.0,
+        "end_ns": 75500.0,
+        "min_v": -0.04865468267049358,
+        "max_v": 0.622290977684644
+      },
+      {
+        "net": "rc_wl12_3",
+        "expected": 0,
+        "start_ns": 12500.0,
+        "end_ns": 75500.0,
+        "min_v": -9.357745965329701e-05,
+        "max_v": 0.6284669430008346
+      },
+      {
+        "net": "rc_wl13_1",
+        "expected": 0,
+        "start_ns": 12500.0,
+        "end_ns": 75500.0,
+        "min_v": -0.0480815229603947,
+        "max_v": 0.6169945070468336
+      },
+      {
+        "net": "rc_wl13_3",
+        "expected": 0,
+        "start_ns": 12500.0,
+        "end_ns": 75500.0,
+        "min_v": -9.375212217640451e-05,
+        "max_v": 0.6230868058853601
+      },
+      {
+        "net": "rc_wl14_1",
+        "expected": 0,
+        "start_ns": 12500.0,
+        "end_ns": 75500.0,
+        "min_v": -0.04862895628345472,
+        "max_v": 0.620584583732672
+      },
+      {
+        "net": "rc_wl14_3",
+        "expected": 0,
+        "start_ns": 12500.0,
+        "end_ns": 75500.0,
+        "min_v": -9.374793973590858e-05,
+        "max_v": 0.6266629081470105
+      },
+      {
+        "net": "rc_wl15_1",
+        "expected": 0,
+        "start_ns": 12500.0,
+        "end_ns": 75500.0,
+        "min_v": -0.04804941166245848,
+        "max_v": 0.6152078218513818
+      },
+      {
+        "net": "rc_wl15_3",
+        "expected": 0,
+        "start_ns": 12500.0,
+        "end_ns": 75500.0,
+        "min_v": -9.383503302975281e-05,
+        "max_v": 0.6212070633335064
+      }
+    ],
+    "clock_branches": 21,
+    "maximum_clock_rising_skew_ns": 0.04131161879922729,
+    "minimum_clock_high_ns": 2499.915059691666,
+    "minimum_clock_low_ns": 2499.975707390273,
+    "scope": "All four BL/WL/common-line RC sections, control gate loads, and every physical clock branch."
+  },
+  "signal_mesh_checks": {
+    "passed": false,
+    "checks": 3072,
+    "failure_count": 554,
+    "failures": [
+      {
+        "net": "wl0",
+        "gate": "rc_wl0_1",
+        "expected": 0,
+        "start_ns": 12500.0,
+        "end_ns": 75500.0,
+        "min_v": -0.048637785236458383,
+        "max_v": 0.6297166743839558
+      },
+      {
+        "net": "wl0",
+        "gate": "rc_wl0_3",
+        "expected": 0,
+        "start_ns": 12500.0,
+        "end_ns": 75500.0,
+        "min_v": -9.046367944322787e-05,
+        "max_v": 0.6368489448223463
+      },
+      {
+        "net": "wl0",
+        "gate": "sig_wl0_n2012",
+        "expected": 0,
+        "start_ns": 12500.0,
+        "end_ns": 75500.0,
+        "min_v": -0.05006241806345247,
+        "max_v": 0.6289388297287072
+      },
+      {
+        "net": "wl0",
+        "gate": "sig_wl0_n2013",
+        "expected": 0,
+        "start_ns": 12500.0,
+        "end_ns": 75500.0,
+        "min_v": -0.04605899211033776,
+        "max_v": 0.628058318938242
+      },
+      {
+        "net": "wl0",
+        "gate": "sig_wl0_n2014",
+        "expected": 0,
+        "start_ns": 12500.0,
+        "end_ns": 75500.0,
+        "min_v": -0.041832970342021734,
+        "max_v": 0.6255360187319288
+      },
+      {
+        "net": "wl0",
+        "gate": "sig_wl0_n2015",
+        "expected": 0,
+        "start_ns": 12500.0,
+        "end_ns": 75500.0,
+        "min_v": -0.03971999450195236,
+        "max_v": 0.6233463887181424
+      },
+      {
+        "net": "wl0",
+        "gate": "sig_wl0_n2016",
+        "expected": 0,
+        "start_ns": 12500.0,
+        "end_ns": 75500.0,
+        "min_v": -0.036300716876115906,
+        "max_v": 0.6188559186276127
+      },
+      {
+        "net": "wl0",
+        "gate": "sig_wl0_n2017",
+        "expected": 0,
+        "start_ns": 12500.0,
+        "end_ns": 75500.0,
+        "min_v": -0.0345198061322312,
+        "max_v": 0.6154717947392766
+      },
+      {
+        "net": "wl0",
+        "gate": "sig_wl0_n2018",
+        "expected": 0,
+        "start_ns": 12500.0,
+        "end_ns": 75500.0,
+        "min_v": -0.031726248754727175,
+        "max_v": 0.6088057434978983
+      },
+      {
+        "net": "wl0",
+        "gate": "sig_wl0_n2019",
+        "expected": 0,
+        "start_ns": 12500.0,
+        "end_ns": 75500.0,
+        "min_v": -0.03021706978994431,
+        "max_v": 0.6041713200871595
+      },
+      {
+        "net": "wl0",
+        "gate": "sig_wl0_n2020",
+        "expected": 0,
+        "start_ns": 12500.0,
+        "end_ns": 75500.0,
+        "min_v": -0.02780688115091949,
+        "max_v": 0.5952813741581194
+      },
+      {
+        "net": "wl0",
+        "gate": "sig_wl0_n2021",
+        "expected": 0,
+        "start_ns": 12500.0,
+        "end_ns": 75500.0,
+        "min_v": -0.026536663833219783,
+        "max_v": 0.589367785530788
+      },
+      {
+        "net": "wl0",
+        "gate": "sig_wl0_n2022",
+        "expected": 0,
+        "start_ns": 12500.0,
+        "end_ns": 75500.0,
+        "min_v": -0.024321519991088482,
+        "max_v": 0.5781973293788256
+      },
+      {
+        "net": "wl0",
+        "gate": "sig_wl0_n2023",
+        "expected": 0,
+        "start_ns": 12500.0,
+        "end_ns": 75500.0,
+        "min_v": -0.02322396998630064,
+        "max_v": 0.5709710787370824
+      },
+      {
+        "net": "wl0",
+        "gate": "sig_wl0_n2024",
+        "expected": 0,
+        "start_ns": 12500.0,
+        "end_ns": 75500.0,
+        "min_v": -0.021330762218796012,
+        "max_v": 0.5574563166441352
+      },
+      {
+        "net": "wl0",
+        "gate": "sig_wl0_n2025",
+        "expected": 0,
+        "start_ns": 12500.0,
+        "end_ns": 75500.0,
+        "min_v": -0.020250477509254364,
+        "max_v": 0.5488800364974686
+      },
+      {
+        "net": "wl0",
+        "gate": "sig_wl0_n2026",
+        "expected": 0,
+        "start_ns": 12500.0,
+        "end_ns": 75500.0,
+        "min_v": -0.018437952955541015,
+        "max_v": 0.5329515749340429
+      },
+      {
+        "net": "wl0",
+        "gate": "sig_wl0_n2027",
+        "expected": 0,
+        "start_ns": 12500.0,
+        "end_ns": 75500.0,
+        "min_v": -0.01747153946719092,
+        "max_v": 0.5229849622758858
+      },
+      {
+        "net": "wl0",
+        "gate": "sig_wl0_n2028",
+        "expected": 0,
+        "start_ns": 12500.0,
+        "end_ns": 75500.0,
+        "min_v": -0.015784655862422396,
+        "max_v": 0.5048626050977262
+      },
+      {
+        "net": "wl0",
+        "gate": "sig_wl0_n4375",
+        "expected": 0,
+        "start_ns": 12500.0,
+        "end_ns": 75500.0,
+        "min_v": -9.089336176033821e-05,
+        "max_v": 0.6359440648137219
+      },
+      {
+        "net": "wl0",
+        "gate": "sig_wl0_n4376",
+        "expected": 0,
+        "start_ns": 12500.0,
+        "end_ns": 75500.0,
+        "min_v": -9.064876260181975e-05,
+        "max_v": 0.6346585646254482
+      },
+      {
+        "net": "wl0",
+        "gate": "sig_wl0_n4377",
+        "expected": 0,
+        "start_ns": 12500.0,
+        "end_ns": 75500.0,
+        "min_v": -9.099827612378508e-05,
+        "max_v": 0.6316083612567384
+      },
+      {
+        "net": "wl0",
+        "gate": "sig_wl0_n4378",
+        "expected": 0,
+        "start_ns": 12500.0,
+        "end_ns": 75500.0,
+        "min_v": -9.070878380586625e-05,
+        "max_v": 0.6290940463522953
+      },
+      {
+        "net": "wl0",
+        "gate": "sig_wl0_n4379",
+        "expected": 0,
+        "start_ns": 12500.0,
+        "end_ns": 75500.0,
+        "min_v": -9.099118423342569e-05,
+        "max_v": 0.6239194644229411
+      },
+      {
+        "net": "wl0",
+        "gate": "sig_wl0_n4380",
+        "expected": 0,
+        "start_ns": 12500.0,
+        "end_ns": 75500.0,
+        "min_v": -9.066322733419872e-05,
+        "max_v": 0.6202663808826216
+      },
+      {
+        "net": "wl0",
+        "gate": "sig_wl0_n4381",
+        "expected": 0,
+        "start_ns": 12500.0,
+        "end_ns": 75500.0,
+        "min_v": -9.088630861306625e-05,
+        "max_v": 0.6131216783862681
+      },
+      {
+        "net": "wl0",
+        "gate": "sig_wl0_n4382",
+        "expected": 0,
+        "start_ns": 12500.0,
+        "end_ns": 75500.0,
+        "min_v": -9.052354040434353e-05,
+        "max_v": 0.6082387978384992
+      },
+      {
+        "net": "wl0",
+        "gate": "sig_wl0_n4383",
+        "expected": 0,
+        "start_ns": 12500.0,
+        "end_ns": 75500.0,
+        "min_v": -9.069160390850407e-05,
+        "max_v": 0.5989036695049322
+      },
+      {
+        "net": "wl0",
+        "gate": "sig_wl0_n4384",
+        "expected": 0,
+        "start_ns": 12500.0,
+        "end_ns": 75500.0,
+        "min_v": -9.02959434276704e-05,
+        "max_v": 0.5927607307302692
+      },
+      {
+        "net": "wl0",
+        "gate": "sig_wl0_n4385",
+        "expected": 0,
+        "start_ns": 12500.0,
+        "end_ns": 75500.0,
+        "min_v": -9.041042783482129e-05,
+        "max_v": 0.581174813700949
+      },
+      {
+        "net": "wl0",
+        "gate": "sig_wl0_n4386",
+        "expected": 0,
+        "start_ns": 12500.0,
+        "end_ns": 75500.0,
+        "min_v": -8.998216248838372e-05,
+        "max_v": 0.5737359289653239
+      },
+      {
+        "net": "wl0",
+        "gate": "sig_wl0_n4387",
+        "expected": 0,
+        "start_ns": 12500.0,
+        "end_ns": 75500.0,
+        "min_v": -9.004203387004388e-05,
+        "max_v": 0.5598303807469128
+      },
+      {
+        "net": "wl0",
+        "gate": "sig_wl0_n4388",
+        "expected": 0,
+        "start_ns": 12500.0,
+        "end_ns": 75500.0,
+        "min_v": -8.958015228197993e-05,
+        "max_v": 0.5510551354366351
+      },
+      {
+        "net": "wl0",
+        "gate": "sig_wl0_n4389",
+        "expected": 0,
+        "start_ns": 12500.0,
+        "end_ns": 75500.0,
+        "min_v": -8.958232577149155e-05,
+        "max_v": 0.5347547157086502
+      },
+      {
+        "net": "wl0",
+        "gate": "sig_wl0_n4390",
+        "expected": 0,
+        "start_ns": 12500.0,
+        "end_ns": 75500.0,
+        "min_v": -8.908467141760127e-05,
+        "max_v": 0.5245993710477911
+      },
+      {
+        "net": "wl0",
+        "gate": "sig_wl0_n4391",
+        "expected": 0,
+        "start_ns": 12500.0,
+        "end_ns": 75500.0,
+        "min_v": -8.902420919882316e-05,
+        "max_v": 0.5059948286126481
+      },
+      {
+        "net": "wl1",
+        "gate": "rc_wl1_1",
+        "expected": 0,
+        "start_ns": 12500.0,
+        "end_ns": 75500.0,
+        "min_v": -0.048123167281630956,
+        "max_v": 0.6252857737648398
+      },
+      {
+        "net": "wl1",
+        "gate": "rc_wl1_3",
+        "expected": 0,
+        "start_ns": 12500.0,
+        "end_ns": 75500.0,
+        "min_v": -9.079675311578975e-05,
+        "max_v": 0.6321685776043005
+      },
+      {
+        "net": "wl1",
+        "gate": "sig_wl1_n2715",
+        "expected": 0,
+        "start_ns": 12500.0,
+        "end_ns": 75500.0,
+        "min_v": -9.121978774336038e-05,
+        "max_v": 0.6312523836334518
+      },
+      {
+        "net": "wl1",
+        "gate": "sig_wl1_n2716",
+        "expected": 0,
+        "start_ns": 12500.0,
+        "end_ns": 75500.0,
+        "min_v": -9.099189851401808e-05,
+        "max_v": 0.6299866642634863
+      }
+    ],
+    "scope": "Every physical WL gate tap before, during and after each access, using unchanged 90/10% rail windows."
+  },
+  "name": "pd102_signal_mesh4_prefix",
+  "physical_extraction": {
+    "gds_sha256": "dee111388a5c4d3131b68772507706706d894248988ab761bf9c4070e9194e61",
+    "lvsdb_sha256": "f1beaee7f6835a3f44d2289d6006250e44fb7001ab74c59a3823f90f1be168b5",
+    "mos_groups": 4877,
+    "physical_fingers": 4953,
+    "model_counts": {
+      "PMOS": 1927,
+      "NMOS": 2950,
+      "DP": 4,
+      "DN": 4
+    },
+    "source": "/home/ishi-kai/sram/build/sram512/layout/final16x32_pd10p2"
+  },
+  "period_ns": 5000.0,
+  "voltage_v": 5,
+  "temperature_c": 27,
+  "elapsed_seconds": 432.54,
+  "deck_sha256": "d21e980bf7fbd8943bad4e7379823a95395abdb24d90f59d9dd588933a328e96",
+  "reused_waveform": false,
+  "model_notices": [
+    {
+      "model": "DN",
+      "unsupported_parameters": [
+        "imax",
+        "imelt"
+      ],
+      "consequence": "Diode current/melting limit flags are not implemented by ngspice."
+    },
+    {
+      "model": "DP",
+      "unsupported_parameters": [
+        "imax",
+        "imelt"
+      ],
+      "consequence": "Diode current/melting limit flags are not implemented by ngspice."
+    }
+  ],
+  "solver": "sparse",
+  "simulator_threads": 1,
+  "waveform_storage": "streamed binary file",
+  "local_init_sha256": "2ef8c1ce0b4d65b62053c99e75b2bad1d1158582c6ca6cfc19b1e255c84ecfbc",
+  "numerical_reltol": null,
+  "numerical_pivrel": null,
+  "integration_method": null,
+  "maximum_timestep_ns": 20.0,
+  "signal_mesh": true,
+  "signal_sections": 4,
+  "access_limit": 1,
+  "physical_gate_paths": true,
+  "startup_ramp_ns": 1000.0,
+  "initial_reset_high": false,
+  "startup_scope": "Supply ramps from zero with RESET tracking it.",
+  "interconnect": {
+    "kind": "geometry-based RC sensitivity; uncalibrated coefficients",
+    "scale": 1.0,
+    "coefficients": {
+      "M1": {
+        "width_um": 1.8,
+        "sheet_ohm": 1.0,
+        "area_ff_um2": 0.05,
+        "edge_ff_um": 0.02
+      },
+      "M2": {
+        "width_um": 3.4,
+        "sheet_ohm": 1.0,
+        "area_ff_um2": 0.03,
+        "edge_ff_um": 0.02
+      },
+      "GC_field": {
+        "width_um": 1.0,
+        "sheet_ohm": 120.0,
+        "area_ff_um2": 0.05,
+        "edge_ff_um": 0.02
+      }
+    },
+    "segments": 4,
+    "assumptions": [
+      "WL and C4B retain actual conductor branches and loops; remaining BL/common lines keep the earlier ladder stress model and other gate branches the documented branch approximation.",
+      "Field GC excludes active overlap; intrinsic MOS gate capacitance is not added twice.",
+      "GC sheet R=120 ohm/square is an uncalibrated sensitivity assumption; it is not a qualified GC wiring coefficient.",
+      "CO contact resistance is not separately calibrated or modeled.",
+      "Capacitance is represented to ground; scale sweep also stresses coupling load.",
+      "Power-rail resistance is not included in this signal-RC model."
+    ],
+    "geometry_nets": 1960,
+    "detailed_parameters_sha256": "ab1e6d12e88ae405b2d33dd517a5eabe05fc09e334c434ddea7e33f5b149f89f",
+    "detailed_parameters_file": "/home/ishi-kai/sram/build/sram512/analog/pd102_signal_mesh4_prefix/wire_rc.json",
+    "clock": {
+      "branches": 21,
+      "series_sum_ohm": 86137.71265271904,
+      "cap_ff": 580.9735249999999
+    },
+    "wire_groups": {
+      "bitline": {
+        "nets": 64,
+        "resistance_ohm_range": [
+          299.41049382716045,
+          299.41049382716045
+        ],
+        "capacitance_ff_range": [
+          69.8425,
+          69.8425
+        ]
+      },
+      "wordline": {
+        "nets": 16,
+        "resistance_ohm_range": [
+          55989.34620516405,
+          57306.27263179429
+        ],
+        "capacitance_ff_range": [
+          219.81459999999998,
+          225.80700000000002
+        ]
+      },
+      "common": {
+        "nets": 2,
+        "resistance_ohm_range": [
+          974.2858569353668,
+          1388.799019607843
+        ],
+        "capacitance_ff_range": [
+          336.20185,
+          494.9537
+        ]
+      }
+    },
+    "signal_topology": {
+      "model": {
+        "version": 1,
+        "grid_um": 0.25,
+        "sections": 4,
+        "coefficients": {
+          "M1": {
+            "width_um": 1.8,
+            "sheet_ohm": 1.0,
+            "area_ff_um2": 0.05,
+            "edge_ff_um": 0.02
+          },
+          "M2": {
+            "width_um": 3.4,
+            "sheet_ohm": 1.0,
+            "area_ff_um2": 0.03,
+            "edge_ff_um": 0.02
+          },
+          "GC_field": {
+            "width_um": 1.0,
+            "sheet_ohm": 120.0,
+            "area_ff_um2": 0.05,
+            "edge_ff_um": 0.02
+          }
+        },
+        "contact_ohm": 1.0,
+        "via_ohm": 1.0,
+        "nets": [
+          "wl0",
+          "wl1",
+          "wl10",
+          "wl11",
+          "wl12",
+          "wl13",
+          "wl14",
+          "wl15",
+          "wl2",
+          "wl3",
+          "wl4",
+          "wl5",
+          "wl6",
+          "wl7",
+          "wl8",
+          "wl9",
+          "xctrl.xphase.c4b"
+        ]
+      },
+      "scope": "Distributed signal RC on the extracted conductor topology.\n\nGC/CO/M1/V1/M2 branches and loops are retained. MOS terminals are separate\nphysical taps. Degree-two wire chains become RC pi sections with exactly the\nsame resistance, total capacitance and first capacitance moment along R.\nThis is geometry-based sensitivity analysis, not qualified foundry PEX.\n",
+      "nets": {
+        "wl0": {
+          "sampled_nodes": 8524,
+          "reduced_nodes": 820,
+          "cap_ff": 219.81459999999998,
+          "maximum_path_ohm": 57305.58622133286,
+          "observation_columns": [
+            0,
+            15,
+            16,
+            31
+          ],
+          "dc_validation": {
+            "relative_error": 9.436238341538999e-13,
+            "sink_nodes": [
+              "rc_wl0_1",
+              "rc_wl0_2",
+              "rc_wl0_3",
+              "rc_wl0_4"
+            ],
+            "original_ohm": [
+              57305.586221333084,
+              4505.586221333085,
+              57149.5638449233,
+              4349.563844923305
+            ],
+            "reduced_ohm": [
+              57305.58622127901,
+              4505.586221332147,
+              57149.56384487199,
+              4349.563844922659
+            ]
+          }
+        },
+        "wl1": {
+          "sampled_nodes": 8657,
+          "reduced_nodes": 815,
+          "cap_ff": 224.884,
+          "maximum_path_ohm": 55989.34620516405,
+          "observation_columns": [
+            0,
+            15,
+            16,
+            31
+          ],
+          "dc_validation": {
+            "relative_error": 5.4325074384526384e-14,
+            "sink_nodes": [
+              "rc_wl1_1",
+              "rc_wl1_2",
+              "rc_wl1_3",
+              "rc_wl1_4"
+            ],
+            "original_ohm": [
+              55989.34620516419,
+              4369.586601621802,
+              55832.94599610439,
+              4213.186392561975
+            ],
+            "reduced_ohm": [
+              55989.34620516152,
+              4369.586601621565,
+              55832.94599610196,
+              4213.18639256199
+            ]
+          }
+        },
+        "wl10": {
+          "sampled_nodes": 8537,
+          "reduced_nodes": 820,
+          "cap_ff": 220.52459999999996,
+          "maximum_path_ohm": 57306.27263179429,
+          "observation_columns": [
+            0,
+            15,
+            16,
+            31
+          ],
+          "dc_validation": {
+            "relative_error": 9.265990655070234e-13,
+            "sink_nodes": [
+              "rc_wl10_1",
+              "rc_wl10_2",
+              "rc_wl10_3",
+              "rc_wl10_4"
+            ],
+            "original_ohm": [
+              57306.27263179358,
+              4506.272631793581,
+              57150.00209759456,
+              4350.002097594567
+            ],
+            "reduced_ohm": [
+              57306.27263174048,
+              4506.27263179364,
+              57150.00209754328,
+              4350.002097593989
+            ]
+          }
+        },
+        "wl11": {
+          "sampled_nodes": 8677,
+          "reduced_nodes": 815,
+          "cap_ff": 225.59400000000002,
+          "maximum_path_ohm": 55990.594615900794,
+          "observation_columns": [
+            0,
+            15,
+            16,
+            31
+          ],
+          "dc_validation": {
+            "relative_error": 8.412779409124542e-13,
+            "sink_nodes": [
+              "rc_wl11_1",
+              "rc_wl11_2",
+              "rc_wl11_3",
+              "rc_wl11_4"
+            ],
+            "original_ohm": [
+              55990.594615904374,
+              4370.835012361981,
+              55833.56481408733,
+              4213.805210544948
+            ],
+            "reduced_ohm": [
+              55990.59461589823,
+              4370.835012358304,
+              55833.56481408472,
+              4213.805210544757
+            ]
+          }
+        },
+        "wl12": {
+          "sampled_nodes": 8558,
+          "reduced_nodes": 814,
+          "cap_ff": 221.4476,
+          "maximum_path_ohm": 57303.091401382415,
+          "observation_columns": [
+            0,
+            15,
+            16,
+            31
+          ],
+          "dc_validation": {
+            "relative_error": 9.1890514047513e-13,
+            "sink_nodes": [
+              "rc_wl12_1",
+              "rc_wl12_2",
+              "rc_wl12_3",
+              "rc_wl12_4"
+            ],
+            "original_ohm": [
+              57303.09140138126,
+              4503.091401381254,
+              57145.86324337572,
+              4345.86324337574
+            ],
+            "reduced_ohm": [
+              57303.0914013286,
+              4503.09140138173,
+              57145.863243324515,
+              4345.863243375152
+            ]
+          }
+        },
+        "wl13": {
+          "sampled_nodes": 8633,
+          "reduced_nodes": 813,
+          "cap_ff": 223.9894,
+          "maximum_path_ohm": 56005.37637069778,
+          "observation_columns": [
+            0,
+            15,
+            16,
+            31
+          ],
+          "dc_validation": {
+            "relative_error": 4.844426077654367e-13,
+            "sink_nodes": [
+              "rc_wl13_1",
+              "rc_wl13_2",
+              "rc_wl13_3",
+              "rc_wl13_4"
+            ],
+            "original_ohm": [
+              56005.37637069978,
+              4385.616767157411,
+              55848.40690014976,
+              4228.6472966073525
+            ],
+            "reduced_ohm": [
+              56005.37637069521,
+              4385.616767155287,
+              55848.40690014717,
+              4228.647296607265
+            ]
+          }
+        },
+        "wl14": {
+          "sampled_nodes": 8557,
+          "reduced_nodes": 813,
+          "cap_ff": 221.3766,
+          "maximum_path_ohm": 57298.83457228014,
+          "observation_columns": [
+            0,
+            15,
+            16,
+            31
+          ],
+          "dc_validation": {
+            "relative_error": 9.044973859015071e-13,
+            "sink_nodes": [
+              "rc_wl14_1",
+              "rc_wl14_2",
+              "rc_wl14_3",
+              "rc_wl14_4"
+            ],
+            "original_ohm": [
+              57298.83457227821,
+              4498.8345722782105,
+              57142.12505756722,
+              4342.125057567225
+            ],
+            "reduced_ohm": [
+              57298.834572226384,
+              4498.834572279454,
+              57142.125057515994,
+              4342.125057566651
+            ]
+          }
+        },
+        "wl15": {
+          "sampled_nodes": 8620,
+          "reduced_nodes": 814,
+          "cap_ff": 223.43560000000002,
+          "maximum_path_ohm": 56004.78509203789,
+          "observation_columns": [
+            0,
+            15,
+            16,
+            31
+          ],
+          "dc_validation": {
+            "relative_error": 3.4865489327073687e-13,
+            "sink_nodes": [
+              "rc_wl15_1",
+              "rc_wl15_2",
+              "rc_wl15_3",
+              "rc_wl15_4"
+            ],
+            "original_ohm": [
+              56004.785092036254,
+              4385.025488493874,
+              55848.34393938655,
+              4228.58433584413
+            ],
+            "reduced_ohm": [
+              56004.78509203532,
+              4385.025488495403,
+              55848.34393938415,
+              4228.584335844182
+            ]
+          }
+        },
+        "wl2": {
+          "sampled_nodes": 8538,
+          "reduced_nodes": 814,
+          "cap_ff": 220.73759999999996,
+          "maximum_path_ohm": 57301.84821567129,
+          "observation_columns": [
+            0,
+            15,
+            16,
+            31
+          ],
+          "dc_validation": {
+            "relative_error": 8.948326257872313e-13,
+            "sink_nodes": [
+              "rc_wl2_1",
+              "rc_wl2_2",
+              "rc_wl2_3",
+              "rc_wl2_4"
+            ],
+            "original_ohm": [
+              57301.848215668215,
+              4501.848215668214,
+              57145.245534040056,
+              4345.245534040061
+            ],
+            "reduced_ohm": [
+              57301.84821561751,
+              4501.8482156706095,
+              57145.24553398892,
+              4345.245534039577
+            ]
+          }
+        },
+        "wl3": {
+          "sampled_nodes": 8682,
+          "reduced_nodes": 811,
+          "cap_ff": 225.80700000000002,
+          "maximum_path_ohm": 56007.167235997156,
+          "observation_columns": [
+            0,
+            15,
+            16,
+            31
+          ],
+          "dc_validation": {
+            "relative_error": 2.234657389158304e-13,
+            "sink_nodes": [
+              "rc_wl3_1",
+              "rc_wl3_2",
+              "rc_wl3_3",
+              "rc_wl3_4"
+            ],
+            "original_ohm": [
+              56007.1672359961,
+              4387.4076324536845,
+              55849.97113623456,
+              4230.211532692172
+            ],
+            "reduced_ohm": [
+              56007.16723599462,
+              4387.407632454665,
+              55849.97113623214,
+              4230.211532692149
+            ]
+          }
+        },
+        "wl4": {
+          "sampled_nodes": 8567,
+          "reduced_nodes": 811,
+          "cap_ff": 221.66060000000002,
+          "maximum_path_ohm": 57300.99929879528,
+          "observation_columns": [
+            0,
+            15,
+            16,
+            31
+          ],
+          "dc_validation": {
+            "relative_error": 9.43572393023406e-13,
+            "sink_nodes": [
+              "rc_wl4_1",
+              "rc_wl4_2",
+              "rc_wl4_3",
+              "rc_wl4_4"
+            ],
+            "original_ohm": [
+              57300.99929879556,
+              4500.999298795586,
+              57143.659609289156,
+              4343.659609289161
+            ],
+            "reduced_ohm": [
+              57300.999298741495,
+              4500.999298794595,
+              57143.65960923785,
+              4343.659609288552
+            ]
+          }
+        },
+        "wl5": {
+          "sampled_nodes": 8632,
+          "reduced_nodes": 814,
+          "cap_ff": 223.86159999999998,
+          "maximum_path_ohm": 56005.316361838675,
+          "observation_columns": [
+            0,
+            15,
+            16,
+            31
+          ],
+          "dc_validation": {
+            "relative_error": 2.677328614587817e-13,
+            "sink_nodes": [
+              "rc_wl5_1",
+              "rc_wl5_2",
+              "rc_wl5_3",
+              "rc_wl5_4"
+            ],
+            "original_ohm": [
+              56005.31636183977,
+              4385.556758297358,
+              55848.31991089004,
+              4228.560307347679
+            ],
+            "reduced_ohm": [
+              56005.31636183616,
+              4385.556758296184,
+              55848.31991088769,
+              4228.560307347705
+            ]
+          }
+        },
+        "wl6": {
+          "sampled_nodes": 8554,
+          "reduced_nodes": 813,
+          "cap_ff": 221.16360000000003,
+          "maximum_path_ohm": 57253.55316694818,
+          "observation_columns": [
+            0,
+            15,
+            16,
+            31
+          ],
+          "dc_validation": {
+            "relative_error": 8.977550592238567e-13,
+            "sink_nodes": [
+              "rc_wl6_1",
+              "rc_wl6_2",
+              "rc_wl6_3",
+              "rc_wl6_4"
+            ],
+            "original_ohm": [
+              57253.55316694586,
+              4453.5531669458505,
+              57097.000863729685,
+              4297.000863729709
+            ],
+            "reduced_ohm": [
+              57253.55316689639,
+              4453.553166947498,
+              57097.000863678426,
+              4297.000863729123
+            ]
+          }
+        },
+        "wl7": {
+          "sampled_nodes": 8614,
+          "reduced_nodes": 814,
+          "cap_ff": 223.3078,
+          "maximum_path_ohm": 56001.54932476553,
+          "observation_columns": [
+            0,
+            15,
+            16,
+            31
+          ],
+          "dc_validation": {
+            "relative_error": 3.167401913840955e-13,
+            "sink_nodes": [
+              "rc_wl7_1",
+              "rc_wl7_2",
+              "rc_wl7_3",
+              "rc_wl7_4"
+            ],
+            "original_ohm": [
+              56001.549324766835,
+              4381.78972122443,
+              55845.591368730675,
+              4225.831765188304
+            ],
+            "reduced_ohm": [
+              56001.54932476302,
+              4381.789721223042,
+              55845.59136872822,
+              4225.831765188281
+            ]
+          }
+        },
+        "wl8": {
+          "sampled_nodes": 8542,
+          "reduced_nodes": 813,
+          "cap_ff": 220.60979999999998,
+          "maximum_path_ohm": 57305.24955971778,
+          "observation_columns": [
+            0,
+            15,
+            16,
+            31
+          ],
+          "dc_validation": {
+            "relative_error": 9.34233713952708e-13,
+            "sink_nodes": [
+              "rc_wl8_1",
+              "rc_wl8_2",
+              "rc_wl8_3",
+              "rc_wl8_4"
+            ],
+            "original_ohm": [
+              57305.249559717486,
+              4505.249559717481,
+              57149.291603682956,
+              4349.291603682952
+            ],
+            "reduced_ohm": [
+              57305.24955966395,
+              4505.249559717092,
+              57149.291603631726,
+              4349.291603682388
+            ]
+          }
+        },
+        "wl9": {
+          "sampled_nodes": 8651,
+          "reduced_nodes": 811,
+          "cap_ff": 224.67100000000005,
+          "maximum_path_ohm": 55993.63249850602,
+          "observation_columns": [
+            0,
+            15,
+            16,
+            31
+          ],
+          "dc_validation": {
+            "relative_error": 1.0646429342834679e-13,
+            "sink_nodes": [
+              "rc_wl9_1",
+              "rc_wl9_2",
+              "rc_wl9_3",
+              "rc_wl9_4"
+            ],
+            "original_ohm": [
+              55993.63249850641,
+              4373.8728949639935,
+              55837.370639953006,
+              4217.611036410601
+            ],
+            "reduced_ohm": [
+              55993.632498500854,
+              4373.872894963528,
+              55837.37063994823,
+              4217.611036410523
+            ]
+          }
+        },
+        "xctrl.xphase.c4b": {
+          "sampled_nodes": 6187,
+          "reduced_nodes": 378,
+          "cap_ff": 198.09009999999998,
+          "maximum_path_ohm": 23399.7752309951,
+          "observation_columns": null,
+          "dc_validation": {
+            "relative_error": 1.0590040540192925e-09,
+            "sink_nodes": [
+              "sig_xctrl_xphase_c4b_n2184",
+              "sig_xctrl_xphase_c4b_n1302",
+              "sig_xctrl_xphase_c4b_n1111",
+              "sig_xctrl_xphase_c4b_n920"
+            ],
+            "original_ohm": [
+              23355.737967370624,
+              23368.554418572712,
+              23378.01209189921,
+              23399.775206519964
+            ],
+            "reduced_ohm": [
+              23355.737992104445,
+              23368.55444331594,
+              23378.012116637517,
+              23399.775231287284
+            ]
+          }
+        }
+      }
+    }
+  },
+  "supply_current_a": {
+    "max": 0.01094381185301601,
+    "time_mean": 2.7947756902683276e-05,
+    "rms": 0.0003655541421220109
+  }
+}

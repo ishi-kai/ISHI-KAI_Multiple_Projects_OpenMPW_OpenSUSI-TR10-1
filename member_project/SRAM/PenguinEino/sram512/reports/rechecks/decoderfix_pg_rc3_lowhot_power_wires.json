@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "test": "decoderfix_pg_rc3_lowhot_power_wires",
+  "base_report_sha256": "a10d1ca9a42c7536a24d33e4541aaf7e5d81ce24b711271f2b145bc5e915859c",
+  "reviewed_commit": "7dae978",
+  "simulation_code_unchanged": true,
+  "scope": "Dependency reassessment: no access waveform checker is used by this geometry/startup/comparison test. All original executed functions and inputs are unchanged."
+}

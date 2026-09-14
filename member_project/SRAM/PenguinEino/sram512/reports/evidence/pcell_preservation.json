@@ -1,0 +1,69 @@
+{
+  "format_version": 1,
+  "test": "pcell_preservation",
+  "report_sha256": "e82276f15efdfb7364b16a760c8aa05dc1961e0671398e8288e1f1eda9d29d7d",
+  "inputs": {
+    "design": {
+      "klayout/dense_sram/build.py": "e909ebc1b8ebf883ccc97ee548e9324cea3fea8c2e3e3b219d66a1b44f4d2948",
+      "klayout/sram_pcell/build.py": "5394337bde7072d74d5755d992398bb07208dea54dd81fd7080be0e8411e868a",
+      "pdk/profiles.lock.json": "17c5680342878e312528302a5a8050fb7c05ab175e29d304618ba1eed5317811",
+      "sram512/analog_scenario.json": "becf6b8a6ca3acf8183319c5ef73934f0a638484e056d304418dec4417adc199",
+      "sram512/design.json": "eb8c4f2b990d3df073950335687cd5a919acdcaf74084dae652bad3d8772db35",
+      "sram512/layout/sram512.gds": "56810ad742a73036fb9db5207c75a2fcd63d344833c17da5f6270f1dc128bca1",
+      "sram512/layout/sram512_mask.gds": "cbd3e51a3f9ff9c6f90b93c4c3ca134acf3cb28adb3b495ca357f47e6b280ba4",
+      "sram512/rtl/sram512_digital_gates.v": "80c1c69bc64193eebd374682e08ccede4d2a0e9f2c1d9c2ba6adcd294322c63d",
+      "sram512/rtl/sram_serial_controller.v": "0ffcbe75ee14add1c278654d6f8e401861fbcb094339d0dc53fe086b914b1e1f",
+      "sram512/schematics/sense_amp_7t.sch": "fd8c65d937b248ae6d1eceec6d3c078b719e57398c8ab1ee282b200bbc7293b1",
+      "sram512/schematics/sense_amp_7t.sym": "2baf283213c54b648d6eedbcbdce39248d61013e2fdc348ccb6be615ddbf8555",
+      "sram512/schematics/sram512.sch": "20ea4a2e70a68adcb3452832df4d674e672619c591ad045b8adb5881612f73da",
+      "sram512/schematics/sram512.sym": "ce6c8b742ddf175fd55302b563c4f370f5c5cf3eddaab4c87becb7b834bfe734",
+      "sram512/schematics/sram512_array.sch": "bf8e760f7cc182bc5947a1f7836e53fb1dcb559442df729c5e1c532c6f268369",
+      "sram512/schematics/sram512_array.sym": "25c7a84249adeeccf2161aa407590aa5aba4212bbe767c8e32d3c31d841942a5",
+      "sram512/schematics/sram512_bitcell.sch": "bc92f49c3383fbe5681e3fc3c38c69b0e8b17f1002c7a914364dca1efb2d01ec",
+      "sram512/schematics/sram512_bitcell.sym": "f3c31ae7fda8dbc656038a160aed9e8f4e1d3fec2837a8e0fc639875ceffe020",
+      "sram512/schematics/sram512_col_decoder.sch": "4e58f38e1d06f9a99233a855deb81e5c6fa226ddb4a07b4691ce7176300cb0a9",
+      "sram512/schematics/sram512_col_decoder.sym": "d1ebd371fbaacc4f83e9389648703c22ff217e64f0f7fafab1a8c27108fcd4d9",
+      "sram512/schematics/sram512_column.sch": "26c65390e5593030fdf734ef21fdda2a38f2d37731eff4305a224e9f39e56098",
+      "sram512/schematics/sram512_column.sym": "8cf87634b28ca56331d689387ad9af676b999e29fa870d8c9cb6cf604a4f62b1",
+      "sram512/schematics/sram512_control.sch": "182dde6ef69ba9112690bbfe4c518d21b38e47fb38b84cbecd5bb5af1c45ab3c",
+      "sram512/schematics/sram512_control.sym": "c69644f8b87a3608c025bf3c8bf287d403daa58abf9050e462a0c9190480e084",
+      "sram512/schematics/sram512_controller.sch": "8a24a5aa7b67bd46e283be1656e206e76031999b10b551cacca5125407911276",
+      "sram512/schematics/sram512_controller.sym": "36675ada4ee265f0fd26871d3826da3fc9ce66e9b0d7a1cf2f94aa9bc455f1cd",
+      "sram512/schematics/sram512_frame.sch": "a138f41d92de490331abb2e94a6d7c3813055b54dcd1927c35ca2c89e918a1a7",
+      "sram512/schematics/sram512_frame.sym": "f969c503cd1c66ad399e6a078ae740ed709c932c8d403e882df01a680a153416",
+      "sram512/schematics/sram512_input_clamp.sch": "95d73e7e74f8e2230df0fe1ea03f19b193627461e28e3fb99b6cbd30229d6047",
+      "sram512/schematics/sram512_input_clamp.sym": "3560f412aa459da561265ef1dfe68854af4b811512c0a7f70d25e6b8af523455",
+      "sram512/schematics/sram512_macro.sch": "34041691e47cfe0587573552a97e687c3ae9369a1de322cf3d8c3c14846b60dc",
+      "sram512/schematics/sram512_macro.sym": "7be35ec3192048210ac23fdf2696b726f044d02445630939abcc5990106bf7a6",
+      "sram512/schematics/sram512_phase.sch": "a5d1a5e52f55bbe1583bbdc2b5d6ad288c2b399ef51bdaf4553fd0addcf29fc9",
+      "sram512/schematics/sram512_phase.sym": "68b64dddf81fa75cb6b1ba7fea015b55a66b13e0b55b87aaf7bf9827ba835f5c",
+      "sram512/schematics/sram512_row_decoder.sch": "ea9ab1ddf99f08eb9454d90628adc218983b00d116ace67aca0e90de8b3f7b45",
+      "sram512/schematics/sram512_row_decoder.sym": "e2dd661c41fb5c3cc6ce47a3fd9bdc5fc33dc67c217421d63d8d4caa5e83fba7",
+      "sram512/schematics/sram512_tb.sch": "a7b6e3467ba2c0187673e5aef49a2d81454c5a53f0881df3601d510b4cef9b88",
+      "sram512/schematics/write_control.sch": "b563c1af404eecdf5ea480e001e504ac130419d9a14068a51ed3a76dfe0adf7b",
+      "sram512/schematics/write_control.sym": "2cb45361e51ea6dbd1cad2263de680223ac23ff43fd1c1f4de2721f96a7857a8",
+      "sram512/tb/tb_sram512.sv": "ddd9d0c4c344f3b5999fb37a097218333e697d20f2afe6b3a8e09d7b353d11eb"
+    },
+    "test_code": {
+      "scripts/pdk_profiles.py": "82b4212c4e0a0cbc508c7aa9ac048879512f74d2ccf58961011d1717fd4fbcb5",
+      "scripts/verify_rtl.py": "5e95b36896143687ac292b439a2cbd33e1e7708058687ed2ec78524ba5441571",
+      "sram512/tools/common.py": "e3f89297de0ce87a04a7a8df29df2862dee73de98ec2ee9caa4b3e10318d0c3c",
+      "sram512/tools/design.py": "513e513a3e31742d7840395fc37e9ccd2c7777aa04362455f5844b80c24cbde0",
+      "sram512/tools/layout_analog.py": "5f2a6fdb673df56fadb72d1c3438861d17703a77f97efbac3c4265156ca3a4b4",
+      "sram512/tools/pcell_preservation.py": "eb727a161df342442a432ef0246781a7ef217559d4419f61679af309dd5614bf",
+      "sram512/tools/verify_digital.py": "8c2bbdd9def468d8793d173b6d2e4c27fd62833914b848496da2ba401cf22cee"
+    },
+    "pdk": {
+      "revision": "6afbd918951f2ea0dcd11c5a46986b4c20f9e6f9",
+      "tree_sha256": "39d402dcc9ac40ed6c217a140369e116fd512b138503152b2cf3f1c0c6ec9e03"
+    }
+  },
+  "origin": {
+    "kind": "independent_review_of_archived_evidence",
+    "review": "reviews/sram512_review_2026-09-13_results.json",
+    "review_sha256": "068de84e0308f5750fbcc06ad28ca0c927e9b562c221100765f6bcec961f7d28",
+    "reviewed_commit": "7dae978",
+    "scope": "Existing evidence was independently audited against this snapshot. Original runs predate input receipts; these are explicitly migrated review records, not new transient runs."
+  },
+  "artifacts": {}
+}

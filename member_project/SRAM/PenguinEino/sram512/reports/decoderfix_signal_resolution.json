@@ -1,0 +1,73 @@
+{
+  "passed": true,
+  "numerical_peak_agreement": true,
+  "voltage_peak_tolerance_v": 0.001,
+  "source_gds_sha256": "56810ad742a73036fb9db5207c75a2fcd63d344833c17da5f6270f1dc128bca1",
+  "reports": [
+    {
+      "name": "decoderfix_mesh4_prefix",
+      "sha256": "a9561c8f447933fed62e8b36226df402276e5cf5ea333d3c4681205c23834f46"
+    },
+    {
+      "name": "decoderfix_mesh8_prefix",
+      "sha256": "4017c7069d7f19e5b33ed25816d87e8f6626b2be801dd53e805d149e0e106b37"
+    }
+  ],
+  "sections": [
+    4,
+    8
+  ],
+  "circuit_passed": [
+    true,
+    true
+  ],
+  "failure_counts": [
+    0,
+    0
+  ],
+  "maximum_mos_voltage_comparison": {
+    "DS": {
+      "peaks_v": [
+        5.524543366180161,
+        5.524542040853016
+      ],
+      "difference_v": 1.325327144918731e-06
+    },
+    "GS": {
+      "peaks_v": [
+        5.630494010406559,
+        5.630494010985392
+      ],
+      "difference_v": 5.788329815459292e-10
+    },
+    "SB": {
+      "peaks_v": [
+        5.3107287308908475,
+        5.310728732854338
+      ],
+      "difference_v": 1.9634907033605487e-09
+    },
+    "DB": {
+      "peaks_v": [
+        5.309934843382697,
+        5.309934845454382
+      ],
+      "difference_v": 2.071685045734739e-09
+    },
+    "GD": {
+      "peaks_v": [
+        5.6320290868173215,
+        5.632029086842227
+      ],
+      "difference_v": 2.4905411066811212e-11
+    },
+    "GB": {
+      "peaks_v": [
+        5.7241377527127355,
+        5.724137825011655
+      ],
+      "difference_v": 7.229891973992153e-08
+    }
+  },
+  "scope": "RC spatial-resolution comparison of two complete first-access diagnostics. Numerical agreement does not imply circuit correctness, and cannot replace the full access sequence."
+}

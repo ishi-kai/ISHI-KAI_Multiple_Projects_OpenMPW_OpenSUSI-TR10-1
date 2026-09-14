@@ -1,0 +1,222 @@
+{
+  "source_gds_sha256": "dee111388a5c4d3131b68772507706706d894248988ab761bf9c4070e9194e61",
+  "deck_sha256": "ee393baaca07416e37a57a363879a7c57bf65cf84afc2f0be436a011faf68dab",
+  "voltage_limits": {
+    "passed": true,
+    "checks": 29262,
+    "failure_count": 0,
+    "failures": [],
+    "maximum_by_pair": {
+      "DS": {
+        "device": 4153,
+        "model": "NMOS",
+        "cell": "DFFR",
+        "instance": 73,
+        "pair": "DS",
+        "peak_abs_v": 5.233033438000389,
+        "time_ns": 1005.8226308261825,
+        "position_um": [
+          1589.0,
+          457.8
+        ]
+      },
+      "GS": {
+        "device": 3380,
+        "model": "NMOS",
+        "cell": "AND4_X1",
+        "instance": 21,
+        "pair": "GS",
+        "peak_abs_v": 5.000312494185442,
+        "time_ns": 1013.3047166563096,
+        "position_um": [
+          1441.6,
+          534.8
+        ]
+      },
+      "SB": {
+        "device": 4655,
+        "model": "NMOS",
+        "cell": "OR4",
+        "instance": 121,
+        "pair": "SB",
+        "peak_abs_v": 5.000170481634679,
+        "time_ns": 1013.3047166563096,
+        "position_um": [
+          1228.1,
+          457.8
+        ]
+      },
+      "DB": {
+        "device": 4463,
+        "model": "NMOS",
+        "cell": "MUX2",
+        "instance": 88,
+        "pair": "DB",
+        "peak_abs_v": 5.000251899823493,
+        "time_ns": 1008.7737469845522,
+        "position_um": [
+          1393.4,
+          86.55
+        ]
+      },
+      "GD": {
+        "device": 3375,
+        "model": "PMOS",
+        "cell": "AND4_X1",
+        "instance": 21,
+        "pair": "GD",
+        "peak_abs_v": 5.000312494185442,
+        "time_ns": 1013.3047166563096,
+        "position_um": [
+          1441.6,
+          572.8
+        ]
+      },
+      "GB": {
+        "device": 4792,
+        "model": "NMOS",
+        "cell": "AND2_X1",
+        "instance": 144,
+        "pair": "GB",
+        "peak_abs_v": 5.000690580647204,
+        "time_ns": 1083.304716656309,
+        "position_um": [
+          158.9,
+          64.7
+        ]
+      }
+    },
+    "limit_abs_v": 5.75,
+    "source": "Unmodified dev OS00 reference manual rev1.1, table I-2-3 (recommended MOS operating voltages).",
+    "scope": "Absolute terminal-pair amplitudes. This does not replace current, ESD, or statistical-corner qualification."
+  },
+  "via_currents": {
+    "passed": true,
+    "checks": 2880,
+    "physical_vias": 1440,
+    "failure_count": 0,
+    "failures": [],
+    "maximum_peak_a": 0.0024197056036130756,
+    "maximum_rms_a": 0.00016182707738890062,
+    "worst_peak_vias": [
+      {
+        "supply": "VSS",
+        "position_um": [
+          913.0,
+          143.9
+        ],
+        "peak_a": 0.0024197056036130756,
+        "mean_absolute_a": 5.181872207502756e-05,
+        "rms_a": 0.0001521684999992349,
+        "passed": true
+      },
+      {
+        "supply": "VSS",
+        "position_um": [
+          880.0,
+          140.25
+        ],
+        "peak_a": 0.002419705603606542,
+        "mean_absolute_a": 5.181872207488776e-05,
+        "rms_a": 0.00015216849999882438,
+        "passed": true
+      },
+      {
+        "supply": "VDD",
+        "position_um": [
+          918.5,
+          118.25
+        ],
+        "peak_a": 0.0023543717054617134,
+        "mean_absolute_a": 6.468181089227642e-05,
+        "rms_a": 0.00016182707738890062,
+        "passed": true
+      },
+      {
+        "supply": "VSS",
+        "position_um": [
+          962.5,
+          594.0
+        ],
+        "peak_a": 0.0014381466317880968,
+        "mean_absolute_a": 3.615184180499342e-05,
+        "rms_a": 9.553362813640931e-05,
+        "passed": true
+      },
+      {
+        "supply": "VDD",
+        "position_um": [
+          861.4,
+          112.7
+        ],
+        "peak_a": 0.0012613675348160562,
+        "mean_absolute_a": 3.417432923330074e-05,
+        "rms_a": 8.613029621161034e-05,
+        "passed": true
+      },
+      {
+        "supply": "VSS",
+        "position_um": [
+          948.75,
+          112.75
+        ],
+        "peak_a": 0.0008722594345711797,
+        "mean_absolute_a": 1.8863001091580872e-05,
+        "rms_a": 5.505591349347903e-05,
+        "passed": true
+      },
+      {
+        "supply": "VDD",
+        "position_um": [
+          855.8,
+          108.6
+        ],
+        "peak_a": 0.0006846684017391373,
+        "mean_absolute_a": 1.888097435516579e-05,
+        "rms_a": 4.708917802333857e-05,
+        "passed": true
+      },
+      {
+        "supply": "VSS",
+        "position_um": [
+          1650.0,
+          82.5
+        ],
+        "peak_a": 0.0005792400762574821,
+        "mean_absolute_a": 1.3328605025908753e-05,
+        "rms_a": 3.7572682047281634e-05,
+        "passed": true
+      },
+      {
+        "supply": "VSS",
+        "position_um": [
+          1650.0,
+          154.0
+        ],
+        "peak_a": 0.0005792400762574787,
+        "mean_absolute_a": 1.332860502590862e-05,
+        "rms_a": 3.757268204728138e-05,
+        "passed": true
+      },
+      {
+        "supply": "VDD",
+        "position_um": [
+          984.5,
+          9.9
+        ],
+        "peak_a": 0.0004856163791884985,
+        "mean_absolute_a": 1.4253531870663084e-05,
+        "rms_a": 3.418232110392258e-05,
+        "passed": true
+      }
+    ],
+    "limits_a": {
+      "instantaneous": 0.0078,
+      "continuous": 0.00078,
+      "rms_screen": 0.00078
+    },
+    "reference": "OpenSUSI OS00 reference manual rev1.1, table I-3-3",
+    "scope": "Compare individual TC currents with the published current limits.\n\n    The 0.78 mA continuous and 7.8 mA instantaneous limits are from OS00\n    rev1.1, table I-3-3. RMS is also checked against the continuous limit as\n    a conservative heating screen. This is conditional on the explicit\n    uncalibrated sheet/via-R model, not an electromigration signoff deck.\n    "
+  },
+  "scope": "Initial 2 us with VDD rising over 1 us and RESET tracking VDD. Functional reset and waveform resolution checks are still being assembled; this file records measurements only."
+}

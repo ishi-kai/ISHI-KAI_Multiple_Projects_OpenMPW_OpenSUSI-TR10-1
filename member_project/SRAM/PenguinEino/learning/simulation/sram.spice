@@ -1,0 +1,10 @@
+** sch_path: /home/ishi-kai/sram/sram.sch
+.subckt sram Vdd BLB BL WL Q QB Vss
+*.PININFO Vdd:B BLB:B BL:B WL:I Q:O QB:O Vss:B
+MXM1 Q QB Vss Vss NMOS w=3.4u l=1u
+MXM2 Q QB Vdd Vdd PMOS w=3.4u l=1u
+MXM3 QB Q Vss Vss NMOS w=3.4u l=1u
+MXM4 QB Q Vdd Vdd PMOS w=3.4u l=1u
+MXM7 Q WL BL Vss NMOS w=3.4u l=1u
+MXM6 QB WL BLB Vss NMOS w=3.4u l=1u
+.ends

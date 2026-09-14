@@ -1,0 +1,78 @@
+[
+  {
+    "variant": "t4_dualwl",
+    "temperature_c": 27,
+    "vdd_v": 5,
+    "clock_ns": 100,
+    "cbl": "10f",
+    "cy": "100f",
+    "passed": true,
+    "checks": {
+      "operations": 19,
+      "rtl_checks": 3408,
+      "analog_checks": 745,
+      "total_checks": 4153,
+      "stop_ns": 21680
+    },
+    "failure": null,
+    "input_sha256": "e6cae0c661cda0a3759f54ee59946aac8520fbc84a370dad35ccd0f91e229035",
+    "log": "build/sram_t4/serial/t4_dualwl_27_10f_100f/simulation.log"
+  },
+  {
+    "variant": "t4_singlewl",
+    "temperature_c": 27,
+    "vdd_v": 5,
+    "clock_ns": 100,
+    "cbl": "10f",
+    "cy": "100f",
+    "passed": true,
+    "checks": {
+      "operations": 19,
+      "rtl_checks": 3408,
+      "analog_checks": 745,
+      "total_checks": 4153,
+      "stop_ns": 21680
+    },
+    "failure": null,
+    "input_sha256": "a7c51dc06ef91f1d0c58d12fecc82c28afe1b0f2b989c90f09c6bf3f56f382df",
+    "log": "build/sram_t4/serial/t4_singlewl_27_10f_100f/simulation.log"
+  },
+  {
+    "variant": "t4_singlewl",
+    "temperature_c": 85,
+    "vdd_v": 5,
+    "clock_ns": 100,
+    "cbl": "10f",
+    "cy": "100f",
+    "passed": true,
+    "checks": {
+      "operations": 19,
+      "rtl_checks": 3408,
+      "analog_checks": 745,
+      "total_checks": 4153,
+      "stop_ns": 21680
+    },
+    "failure": null,
+    "input_sha256": "c91c8b134eb993cb856d936bd8b029c6ec053146b37e37924919c27fe01a057c",
+    "log": "build/sram_t4/serial/t4_singlewl_85_10f_100f/simulation.log"
+  },
+  {
+    "variant": "t4_singlewl",
+    "temperature_c": 27,
+    "vdd_v": 5,
+    "clock_ns": 100,
+    "cbl": "1p",
+    "cy": "1p",
+    "passed": true,
+    "checks": {
+      "operations": 19,
+      "rtl_checks": 3408,
+      "analog_checks": 745,
+      "total_checks": 4153,
+      "stop_ns": 21680
+    },
+    "failure": null,
+    "input_sha256": "45f50a254048b2e2555c9e10c4411d2ae0fdc9a5a56a4e8f9467e52e2a7552b4",
+    "log": "build/sram_t4/serial/t4_singlewl_27_1p_1p/simulation.log"
+  }
+]

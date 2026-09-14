@@ -1,0 +1,189 @@
+{
+  "state": "IN_PROGRESS",
+  "release_evidence": false,
+  "sampled_utc": "2026-09-12T13:01:01.515811+00:00",
+  "case": "signalfix_power_paths_ramp",
+  "completed_operations": 6,
+  "planned_operations": 16,
+  "simulated_ns": 562651.5443888606,
+  "planned_stop_ns": 1451000.0,
+  "deck_sha256": "576201e99c6fa2b52c7a1f40bbfc697346846b5b652599b676ffefd24eb60178",
+  "observed_failure_count": 3,
+  "checks": {
+    "functional": {
+      "passed": true,
+      "checks": 1067,
+      "failure_count": 0,
+      "failures": [],
+      "read_observations": [
+        {
+          "operation": 4,
+          "row": 0,
+          "col": 0,
+          "sae_half_ns": 441025.66722646245,
+          "y_difference_v": -5.005092335703457
+        },
+        {
+          "operation": 5,
+          "row": 0,
+          "col": 31,
+          "sae_half_ns": 531025.7315741441,
+          "y_difference_v": 5.00510099003775
+        }
+      ],
+      "points": 44661,
+      "operations": 6
+    },
+    "voltage_limits": {
+      "passed": false,
+      "checks": 29262,
+      "failure_count": 3,
+      "failures": [
+        {
+          "device": 3635,
+          "model": "NMOS",
+          "cell": "AND3_X1",
+          "instance": 53,
+          "pair": "GB",
+          "peak_abs_v": 5.794996390675763,
+          "time_ns": 231024.97430139565,
+          "position_um": [
+            1067.6,
+            86.55
+          ]
+        },
+        {
+          "device": 4498,
+          "model": "NMOS",
+          "cell": "AND2_X1",
+          "instance": 96,
+          "pair": "GB",
+          "peak_abs_v": 5.795027822894037,
+          "time_ns": 311028.014065683,
+          "position_um": [
+            1238.1,
+            12.3
+          ]
+        },
+        {
+          "device": 4714,
+          "model": "NMOS",
+          "cell": "AND2_X1",
+          "instance": 131,
+          "pair": "GB",
+          "peak_abs_v": 5.81678050139716,
+          "time_ns": 391033.8082781671,
+          "position_um": [
+            510.9,
+            64.7
+          ]
+        }
+      ],
+      "maximum_by_pair": {
+        "DS": {
+          "device": 3571,
+          "model": "NMOS",
+          "cell": "AND3_X1",
+          "instance": 45,
+          "pair": "DS",
+          "peak_abs_v": 5.557107926353676,
+          "time_ns": 201028.68152018922,
+          "position_um": [
+            919.8,
+            200.0
+          ]
+        },
+        "GS": {
+          "device": 4232,
+          "model": "PMOS",
+          "cell": "DFFR",
+          "instance": 76,
+          "pair": "GS",
+          "peak_abs_v": 5.632435442572873,
+          "time_ns": 173515.96879069402,
+          "position_um": [
+            1074.2,
+            572.8
+          ]
+        },
+        "SB": {
+          "device": 4280,
+          "model": "NMOS",
+          "cell": "DFFR",
+          "instance": 77,
+          "pair": "SB",
+          "peak_abs_v": 5.312068289341017,
+          "time_ns": 481011.64840609726,
+          "position_um": [
+            1613.8,
+            457.8
+          ]
+        },
+        "DB": {
+          "device": 4279,
+          "model": "NMOS",
+          "cell": "DFFR",
+          "instance": 77,
+          "pair": "DB",
+          "peak_abs_v": 5.311314931180067,
+          "time_ns": 481011.64840609726,
+          "position_um": [
+            1609.8,
+            457.8
+          ]
+        },
+        "GD": {
+          "device": 4412,
+          "model": "PMOS",
+          "cell": "MUX2",
+          "instance": 84,
+          "pair": "GD",
+          "peak_abs_v": 5.671379082189522,
+          "time_ns": 211022.9392546834,
+          "position_um": [
+            1556.1,
+            52.0
+          ]
+        },
+        "GB": {
+          "device": 4714,
+          "model": "NMOS",
+          "cell": "AND2_X1",
+          "instance": 131,
+          "pair": "GB",
+          "peak_abs_v": 5.81678050139716,
+          "time_ns": 391033.8082781671,
+          "position_um": [
+            510.9,
+            64.7
+          ]
+        }
+      },
+      "limit_abs_v": 5.75,
+      "source": "Unmodified dev OS00 reference manual rev1.1, table I-2-3 (recommended MOS operating voltages).",
+      "scope": "Absolute terminal-pair amplitudes. This does not replace current, ESD, or statistical-corner qualification."
+    },
+    "all_cell_retention": {
+      "passed": true,
+      "checks": 6656,
+      "failure_count": 0,
+      "failures": [],
+      "cells": 512,
+      "operations": 6,
+      "initial_sample_ns": 10000.0,
+      "initial_ones_observed": 512,
+      "scope": "Observe unspecified initial data after RESET settles, then check Q and QB of every cell after every operation. Only a written target may change. Read-disturb transients inside the WL pulse are not rail-tested by this checker."
+    },
+    "signal_mesh": {
+      "passed": true,
+      "checks": 18432,
+      "failure_count": 0,
+      "failures": [],
+      "scope": "Every physical WL gate tap before, during and after each access, using unchanged 90/10% rail windows."
+    }
+  },
+  "scope": "Read a running binary waveform without modifying it or issuing final PASS.\n\nOnly complete rows present at the initial file-size snapshot are read. Only\nfully completed operations are assessed. The release checkers still require\nthe complete raw header, successful simulator exit and the entire sequence.\n A negative observation can block release; this interrupted/provisional report never establishes full-run PASS.",
+  "source_gds_sha256": "f32c213db5efaa09449b3c8db709c2b547bae09c6fe011f1eb284dda8342eff2",
+  "failure_count": 3,
+  "passed": false
+}

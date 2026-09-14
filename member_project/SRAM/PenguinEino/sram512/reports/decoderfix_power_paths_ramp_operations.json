@@ -1,0 +1,68 @@
+{
+  "passed": true,
+  "source_gds_sha256": "56810ad742a73036fb9db5207c75a2fcd63d344833c17da5f6270f1dc128bca1",
+  "source_case": "decoderfix_power_paths_ramp",
+  "source_report_sha256": "cb76b765c7ee1342231e74e556111f3157c3030b84d416f9f095ad91ee590e51",
+  "source_deck_sha256": "a4bae913de4154b8c5040327ba783a12b2558945c0db27ee31be1aa8e0ab3f1d",
+  "image_sha256": "93ebb50cfa110be193bf8bde20779e38e258413cfafef1694fef66166ba281e4",
+  "operations": 16,
+  "read_samples": [
+    {
+      "row": 0,
+      "col": 0,
+      "expected": 0,
+      "time_ns": 455000.0,
+      "sdo_v": 1.4374678447700746e-07
+    },
+    {
+      "row": 0,
+      "col": 31,
+      "expected": 1,
+      "time_ns": 545000.0,
+      "sdo_v": 4.999999875301768
+    },
+    {
+      "row": 15,
+      "col": 0,
+      "expected": 1,
+      "time_ns": 635000.0,
+      "sdo_v": 4.999999879316954
+    },
+    {
+      "row": 15,
+      "col": 31,
+      "expected": 0,
+      "time_ns": 725000.0,
+      "sdo_v": 1.5407695312066818e-07
+    },
+    {
+      "row": 0,
+      "col": 0,
+      "expected": 1,
+      "time_ns": 1175000.0,
+      "sdo_v": 4.999999874621523
+    },
+    {
+      "row": 0,
+      "col": 31,
+      "expected": 0,
+      "time_ns": 1265000.0,
+      "sdo_v": 1.540035911328105e-07
+    },
+    {
+      "row": 15,
+      "col": 0,
+      "expected": 0,
+      "time_ns": 1355000.0,
+      "sdo_v": 1.450351605424053e-07
+    },
+    {
+      "row": 15,
+      "col": 31,
+      "expected": 1,
+      "time_ns": 1445000.0,
+      "sdo_v": 4.999999872633512
+    }
+  ],
+  "scope": "Presentation of an already complete and passing extracted test; it does not replace the source report."
+}

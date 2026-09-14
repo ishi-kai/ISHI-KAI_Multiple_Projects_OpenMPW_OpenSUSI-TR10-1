@@ -1,0 +1,25 @@
+* Created by KLayout
+*** My special header ***
+
+* cell sram
+* pin BL
+* pin BLB
+* pin Q
+* pin QB
+* pin Vdd
+* pin Vss
+* pin WL
+.SUBCKT sram BL BLB Q QB Vdd Vss WL
+* device instance $1 r90 *1 8.8,-232.7 PMOS
+XM$1 QB Q Vdd Vdd PMOS L=1u W=3.4u AS=9.52p AD=9.52p PS=12.4u PD=12.4u
+* device instance $2 r270 *1 3.1,-238.7 PMOS
+XM$2 Q QB Vdd Vdd PMOS L=1u W=3.4u AS=9.52p AD=9.52p PS=12.4u PD=12.4u
+* device instance $3 r270 *1 29.2,-232.7 NMOS
+XM$3 Vss Q QB Vss NMOS L=1u W=3.4u AS=9.52p AD=5.1p PS=12.4u PD=6.4u
+* device instance $4 r270 *1 29.2,-236.7 NMOS
+XM$4 QB WL BLB Vss NMOS L=1u W=3.4u AS=5.1p AD=9.52p PS=6.4u PD=12.4u
+* device instance $5 r270 *1 -17.3,-234.7 NMOS
+XM$5 BL WL Q Vss NMOS L=1u W=3.4u AS=9.52p AD=5.1p PS=12.4u PD=6.4u
+* device instance $6 r270 *1 -17.3,-238.7 NMOS
+XM$6 Q QB Vss Vss NMOS L=1u W=3.4u AS=5.1p AD=9.52p PS=6.4u PD=12.4u
+.ENDS sram

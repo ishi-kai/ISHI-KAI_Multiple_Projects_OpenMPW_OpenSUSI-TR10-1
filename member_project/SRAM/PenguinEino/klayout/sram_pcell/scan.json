@@ -1,0 +1,207 @@
+[
+  {
+    "name": "wide_split",
+    "family": "split",
+    "pitch_um": [
+      23.2,
+      29.6
+    ],
+    "area_per_bit_um2": 686.72,
+    "shared_contact_separation_um": 2.0,
+    "top": "pcell_4x4",
+    "gds_sha256": "d6c9ee252eeffe8d96637c0b601838274ca9d53da530bc59dde2240873290a00",
+    "drc": {
+      "passed": true,
+      "items": 0,
+      "categories": {}
+    },
+    "lvs": {
+      "passed": true,
+      "circuit_pairs": [
+        "Match"
+      ],
+      "errors": []
+    }
+  },
+  {
+    "name": "split",
+    "family": "split",
+    "pitch_um": [
+      22.0,
+      29.6
+    ],
+    "area_per_bit_um2": 651.2,
+    "shared_contact_separation_um": 2.0,
+    "top": "pcell_4x4",
+    "gds_sha256": "4fa348e8e27ebce7ddfb83a5f3ea2a7050368f2a093ad0d580df6b4fbcec317c",
+    "drc": {
+      "passed": true,
+      "items": 0,
+      "categories": {}
+    },
+    "lvs": {
+      "passed": true,
+      "circuit_pairs": [
+        "Match"
+      ],
+      "errors": []
+    }
+  },
+  {
+    "name": "six_single",
+    "family": "six_single",
+    "pitch_um": [
+      22.0,
+      29.6
+    ],
+    "area_per_bit_um2": 651.2,
+    "shared_contact_separation_um": 2.0,
+    "top": "pcell_4x4",
+    "gds_sha256": "14119e32fb1c05c6cc1448ef1207fd04e542425a3e26477e891e0109bcaa1054",
+    "drc": {
+      "passed": true,
+      "items": 0,
+      "categories": {}
+    },
+    "lvs": {
+      "passed": true,
+      "circuit_pairs": [
+        "Match"
+      ],
+      "errors": []
+    }
+  },
+  {
+    "name": "column_21p9",
+    "family": "six_single",
+    "pitch_um": [
+      21.9,
+      29.6
+    ],
+    "area_per_bit_um2": 648.24,
+    "shared_contact_separation_um": 2.0,
+    "top": "pcell_4x4",
+    "gds_sha256": "990806f59b32326a13a2d1c8da093c516a36136d78929cc52e207b55f2bfb5ff",
+    "drc": {
+      "passed": false,
+      "items": 15,
+      "categories": {
+        "AN.S1:AN Smin <  1.4": 12,
+        "M1.S1:M1 Smin <  1.4": 3
+      }
+    },
+    "lvs": {
+      "passed": true,
+      "circuit_pairs": [
+        "Match"
+      ],
+      "errors": []
+    }
+  },
+  {
+    "name": "row_29p5",
+    "family": "six_single",
+    "pitch_um": [
+      22.0,
+      29.5
+    ],
+    "area_per_bit_um2": 649.0,
+    "shared_contact_separation_um": 2.0,
+    "top": "pcell_4x4",
+    "gds_sha256": "706fb0d291452ac3829f50771b046bba495d00bbae933304632874151a8a1cfc",
+    "drc": {
+      "passed": false,
+      "items": 16,
+      "categories": {
+        "GC.S1:GC Smin <  1.2": 16
+      }
+    },
+    "lvs": {
+      "passed": true,
+      "circuit_pairs": [
+        "Match"
+      ],
+      "errors": []
+    }
+  },
+  {
+    "name": "contact_1p9",
+    "family": "six_single",
+    "pitch_um": [
+      21.9,
+      29.6
+    ],
+    "area_per_bit_um2": 648.24,
+    "shared_contact_separation_um": 1.9,
+    "top": "pcell_4x4",
+    "gds_sha256": "36ed340ee416026f63b35d0fadb6e4629dad804f3265735e255d61d47ee5428d",
+    "drc": {
+      "passed": false,
+      "items": 64,
+      "categories": {
+        "CO.S1:CO Smin <  1.0": 32,
+        "M1.S1:M1 Smin <  1.4": 16,
+        "V1.GC:V1-GC Smin <  1.2": 16
+      }
+    },
+    "lvs": {
+      "passed": true,
+      "circuit_pairs": [
+        "Match"
+      ],
+      "errors": []
+    }
+  },
+  {
+    "name": "row_28p5",
+    "family": "six_single",
+    "pitch_um": [
+      22.0,
+      28.5
+    ],
+    "area_per_bit_um2": 627.0,
+    "shared_contact_separation_um": 2.0,
+    "top": "pcell_4x4",
+    "gds_sha256": "e503d408e9de7c7d9ff15ed591bfca1cc59ed6efec37a194ab4657a31b467107",
+    "drc": {
+      "passed": true,
+      "items": 0,
+      "categories": {}
+    },
+    "lvs": {
+      "passed": false,
+      "circuit_pairs": [
+        "NoMatch"
+      ],
+      "errors": []
+    }
+  },
+  {
+    "name": "single_strip",
+    "family": "single_strip",
+    "pitch_um": [
+      22.0,
+      29.6
+    ],
+    "area_per_bit_um2": 651.2,
+    "shared_contact_separation_um": 0.0,
+    "top": "pcell_4x4",
+    "gds_sha256": "86c4c658bfd083c9e39569637da74b08f300b9af42cbb20499ff29584a311f68",
+    "drc": {
+      "passed": false,
+      "items": 208,
+      "categories": {
+        "M1.S1:M1 Smin <  1.4": 112,
+        "V1.GC:V1-GC Smin <  1.2": 80,
+        "V1.GC:V1 overlap GC": 16
+      }
+    },
+    "lvs": {
+      "passed": false,
+      "circuit_pairs": [
+        "NoMatch"
+      ],
+      "errors": []
+    }
+  }
+]

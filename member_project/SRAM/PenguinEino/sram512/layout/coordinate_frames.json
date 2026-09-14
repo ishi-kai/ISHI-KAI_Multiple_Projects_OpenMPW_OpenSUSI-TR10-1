@@ -1,0 +1,8 @@
+{
+  "core_to_submission_offset_um": [
+    -20.3,
+    1.7
+  ],
+  "placement_and_array_geometry_frame": "sram512 internal cell",
+  "ports_frame": "sram512_macro submission top"
+}

@@ -1,0 +1,90 @@
+* Created by KLayout
+*** My special header ***
+
+* cell opamp_r2r_diff
+* pin BPI
+* pin INM_N
+* pin INM_P
+* pin INP
+* pin INP_N
+* pin INP_P
+* pin VDD
+* pin bni
+* pin bno
+* pin bpo
+* pin inM
+* pin vss
+.SUBCKT opamp_r2r_diff BPI INM_N INM_P INP INP_N INP_P VDD bni bno bpo inM vss
+* cell instance $1 r0 *1 0,-80
+X$1 \$6 bno vss vss NFET_STD
+* cell instance $2 m90 *1 77,-80
+X$2 \$3 bno vss vss NFET_STD
+* cell instance $3 m90 *1 77,-40
+X$3 \$3 bni \$5 vss NFET_STD
+* cell instance $4 r0 *1 0,-40
+X$4 \$6 bni \$5 vss NFET_STD
+* cell instance $5 m90 *1 77,0
+X$5 \$5 inM INP_N vss NFET_STD
+* cell instance $6 r0 *1 0,0
+X$6 \$5 INP INM_N vss NFET_STD
+* device instance $1 r180 *1 73.8,80.2 PMOS
+XM$1 INM_P inM \$28 VDD PMOS L=4u W=12u AS=33.6p AD=18p PS=29.6u PD=15u
+* device instance $2 r180 *1 66.8,80.2 PMOS
+XM$2 \$28 inM INM_P VDD PMOS L=4u W=12u AS=18p AD=18p PS=15u PD=15u
+* device instance $3 r180 *1 59.8,80.2 PMOS
+XM$3 INM_P inM \$28 VDD PMOS L=4u W=12u AS=18p AD=18p PS=15u PD=15u
+* device instance $4 r180 *1 52.8,80.2 PMOS
+XM$4 \$28 inM INM_P VDD PMOS L=4u W=12u AS=18p AD=33.6p PS=15u PD=29.6u
+* device instance $5 r180 *1 10.4,80.2 PMOS
+XM$5 INP_P INP \$28 VDD PMOS L=4u W=12u AS=33.6p AD=18p PS=29.6u PD=15u
+* device instance $6 r180 *1 3.4,80.2 PMOS
+XM$6 \$28 INP INP_P VDD PMOS L=4u W=12u AS=18p AD=18p PS=15u PD=15u
+* device instance $7 r180 *1 -3.6,80.2 PMOS
+XM$7 INP_P INP \$28 VDD PMOS L=4u W=12u AS=18p AD=18p PS=15u PD=15u
+* device instance $8 r180 *1 -10.6,80.2 PMOS
+XM$8 \$28 INP INP_P VDD PMOS L=4u W=12u AS=18p AD=33.6p PS=15u PD=29.6u
+* device instance $9 r180 *1 10.4,160.2 PMOS
+XM$9 VDD bpo \$48 VDD PMOS L=4u W=12u AS=33.6p AD=18p PS=29.6u PD=15u
+* device instance $10 r180 *1 3.4,160.2 PMOS
+XM$10 \$48 bpo VDD VDD PMOS L=4u W=12u AS=18p AD=18p PS=15u PD=15u
+* device instance $11 r180 *1 -3.6,160.2 PMOS
+XM$11 VDD bpo \$48 VDD PMOS L=4u W=12u AS=18p AD=18p PS=15u PD=15u
+* device instance $12 r180 *1 -10.6,160.2 PMOS
+XM$12 \$48 bpo VDD VDD PMOS L=4u W=12u AS=18p AD=33.6p PS=15u PD=29.6u
+* device instance $13 r180 *1 73.8,160.2 PMOS
+XM$13 VDD bpo \$49 VDD PMOS L=4u W=12u AS=33.6p AD=18p PS=29.6u PD=15u
+* device instance $14 r180 *1 66.8,160.2 PMOS
+XM$14 \$49 bpo VDD VDD PMOS L=4u W=12u AS=18p AD=18p PS=15u PD=15u
+* device instance $15 r180 *1 59.8,160.2 PMOS
+XM$15 VDD bpo \$49 VDD PMOS L=4u W=12u AS=18p AD=18p PS=15u PD=15u
+* device instance $16 r180 *1 52.8,160.2 PMOS
+XM$16 \$49 bpo VDD VDD PMOS L=4u W=12u AS=18p AD=33.6p PS=15u PD=29.6u
+* device instance $17 r180 *1 10.4,120.2 PMOS
+XM$17 \$28 BPI \$48 VDD PMOS L=4u W=12u AS=33.6p AD=18p PS=29.6u PD=15u
+* device instance $18 r180 *1 3.4,120.2 PMOS
+XM$18 \$48 BPI \$28 VDD PMOS L=4u W=12u AS=18p AD=18p PS=15u PD=15u
+* device instance $19 r180 *1 -3.6,120.2 PMOS
+XM$19 \$28 BPI \$48 VDD PMOS L=4u W=12u AS=18p AD=18p PS=15u PD=15u
+* device instance $20 r180 *1 -10.6,120.2 PMOS
+XM$20 \$48 BPI \$28 VDD PMOS L=4u W=12u AS=18p AD=33.6p PS=15u PD=29.6u
+* device instance $21 r180 *1 73.8,120.2 PMOS
+XM$21 \$28 BPI \$49 VDD PMOS L=4u W=12u AS=33.6p AD=18p PS=29.6u PD=15u
+* device instance $22 r180 *1 66.8,120.2 PMOS
+XM$22 \$49 BPI \$28 VDD PMOS L=4u W=12u AS=18p AD=18p PS=15u PD=15u
+* device instance $23 r180 *1 59.8,120.2 PMOS
+XM$23 \$28 BPI \$49 VDD PMOS L=4u W=12u AS=18p AD=18p PS=15u PD=15u
+* device instance $24 r180 *1 52.8,120.2 PMOS
+XM$24 \$49 BPI \$28 VDD PMOS L=4u W=12u AS=18p AD=33.6p PS=15u PD=29.6u
+.ENDS opamp_r2r_diff
+
+* cell NFET_STD
+* pin 
+* pin 
+* pin 
+* pin VSS
+.SUBCKT NFET_STD \$1 \$2 \$4 VSS
+* device instance $1 r0 *1 4.9,16 NMOS
+XM$1 \$1 \$2 \$4 VSS NMOS L=4u W=12u AS=33.6p AD=18p PS=29.6u PD=15u
+* device instance $2 r0 *1 11.9,16 NMOS
+XM$2 \$4 \$2 \$1 VSS NMOS L=4u W=12u AS=18p AD=33.6p PS=15u PD=29.6u
+.ENDS NFET_STD

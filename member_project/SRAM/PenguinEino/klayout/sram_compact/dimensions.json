@@ -1,0 +1,117 @@
+{
+  "pitch_um": [
+    22.0,
+    29.6
+  ],
+  "area_per_bit_um2": 651.2,
+  "arrays": {
+    "compact_1x1": {
+      "bits": 1,
+      "rows": 1,
+      "columns": 1,
+      "strap_interval": 16,
+      "width_um": 65.0,
+      "height_um": 41.8,
+      "area_um2": 2717.0
+    },
+    "compact_2x2": {
+      "bits": 4,
+      "rows": 2,
+      "columns": 2,
+      "strap_interval": 16,
+      "width_um": 87.0,
+      "height_um": 59.2,
+      "area_um2": 5150.4
+    },
+    "compact_4x4": {
+      "bits": 16,
+      "rows": 4,
+      "columns": 4,
+      "strap_interval": 16,
+      "width_um": 131.0,
+      "height_um": 118.4,
+      "area_um2": 15510.4
+    },
+    "compact_4x17": {
+      "bits": 68,
+      "rows": 4,
+      "columns": 17,
+      "strap_interval": 16,
+      "width_um": 438.2,
+      "height_um": 118.4,
+      "area_um2": 51882.88
+    },
+    "compact_8x8": {
+      "bits": 64,
+      "rows": 8,
+      "columns": 8,
+      "strap_interval": 16,
+      "width_um": 219.0,
+      "height_um": 236.8,
+      "area_um2": 51859.2
+    },
+    "compact_16x16": {
+      "bits": 256,
+      "rows": 16,
+      "columns": 16,
+      "strap_interval": 16,
+      "width_um": 395.0,
+      "height_um": 473.6,
+      "area_um2": 187072.0
+    },
+    "compact_16x32": {
+      "bits": 512,
+      "rows": 16,
+      "columns": 32,
+      "strap_interval": 16,
+      "width_um": 768.2,
+      "height_um": 473.6,
+      "area_um2": 363819.52
+    },
+    "compact_16x64": {
+      "bits": 1024,
+      "rows": 16,
+      "columns": 64,
+      "strap_interval": 16,
+      "width_um": 1514.6,
+      "height_um": 473.6,
+      "area_um2": 717314.56
+    },
+    "compact_20x76": {
+      "bits": 1520,
+      "rows": 20,
+      "columns": 76,
+      "strap_interval": 16,
+      "width_um": 1799.8,
+      "height_um": 592.0,
+      "area_um2": 1065481.6
+    },
+    "compact_strap8_4x17": {
+      "bits": 68,
+      "rows": 4,
+      "columns": 17,
+      "strap_interval": 8,
+      "width_um": 459.4,
+      "height_um": 118.4,
+      "area_um2": 54392.96
+    },
+    "compact_strap8_16x16": {
+      "bits": 256,
+      "rows": 16,
+      "columns": 16,
+      "strap_interval": 8,
+      "width_um": 416.2,
+      "height_um": 473.6,
+      "area_um2": 197112.32
+    },
+    "compact_strap8_16x32": {
+      "bits": 512,
+      "rows": 16,
+      "columns": 32,
+      "strap_interval": 8,
+      "width_um": 810.6,
+      "height_um": 473.6,
+      "area_um2": 383900.16
+    }
+  }
+}

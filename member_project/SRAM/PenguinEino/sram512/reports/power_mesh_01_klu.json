@@ -1,0 +1,190 @@
+{
+  "passed": true,
+  "checks": 3669,
+  "failure_count": 0,
+  "failures": [],
+  "read_observations": [
+    {
+      "operation": 4,
+      "row": 0,
+      "col": 0,
+      "sae_half_ns": 88016.75271244242,
+      "y_difference_v": -4.92747840508253
+    },
+    {
+      "operation": 5,
+      "row": 0,
+      "col": 31,
+      "sae_half_ns": 106016.76375078963,
+      "y_difference_v": 4.9270790443569075
+    },
+    {
+      "operation": 6,
+      "row": 15,
+      "col": 0,
+      "sae_half_ns": 124016.74515949575,
+      "y_difference_v": 4.936930643010757
+    },
+    {
+      "operation": 7,
+      "row": 15,
+      "col": 31,
+      "sae_half_ns": 142016.7398502838,
+      "y_difference_v": -4.930529317792025
+    },
+    {
+      "operation": 12,
+      "row": 0,
+      "col": 0,
+      "sae_half_ns": 232016.77900358263,
+      "y_difference_v": 4.932062483201406
+    },
+    {
+      "operation": 13,
+      "row": 0,
+      "col": 31,
+      "sae_half_ns": 250016.7735853976,
+      "y_difference_v": -4.9211877402900335
+    },
+    {
+      "operation": 14,
+      "row": 15,
+      "col": 0,
+      "sae_half_ns": 268016.6986764848,
+      "y_difference_v": -4.93429295107994
+    },
+    {
+      "operation": 15,
+      "row": 15,
+      "col": 31,
+      "sae_half_ns": 286016.60485093977,
+      "y_difference_v": 4.9275564358456805
+    }
+  ],
+  "points": 56308,
+  "operations": 16,
+  "power_supply_observations": {
+    "load_nodes": 3311,
+    "minimum_vdd": 4.309337616717643,
+    "maximum_vdd": 5.043077571666757,
+    "minimum_vss": -0.0025322386954224232,
+    "maximum_vss": 1.0560479819725819,
+    "worst_vdd_nodes": [
+      {
+        "supply": "VDD",
+        "node": "power_vdd_load_77",
+        "min_v": 4.309337616717643,
+        "max_v": 5.028032306991716
+      },
+      {
+        "supply": "VDD",
+        "node": "power_vdd_load_369",
+        "min_v": 4.309337766402499,
+        "max_v": 5.028032305583615
+      },
+      {
+        "supply": "VDD",
+        "node": "power_vdd_load_275",
+        "min_v": 4.309338893780174,
+        "max_v": 5.028032110613232
+      },
+      {
+        "supply": "VDD",
+        "node": "power_vdd_load_427",
+        "min_v": 4.309339017525061,
+        "max_v": 5.0280321091413605
+      },
+      {
+        "supply": "VDD",
+        "node": "power_vdd_load_368",
+        "min_v": 4.309340227435962,
+        "max_v": 5.0280322888578945
+      }
+    ],
+    "worst_vss_nodes": [
+      {
+        "supply": "VSS",
+        "node": "power_vss_load_801",
+        "min_v": -0.001953200923466874,
+        "max_v": 1.0560479819725819
+      },
+      {
+        "supply": "VSS",
+        "node": "power_vss_load_800",
+        "min_v": -0.0019532010222685593,
+        "max_v": 1.0560453368111806
+      },
+      {
+        "supply": "VSS",
+        "node": "power_vss_load_849",
+        "min_v": -0.001952950760297996,
+        "max_v": 1.0560308798298998
+      },
+      {
+        "supply": "VSS",
+        "node": "power_vss_load_848",
+        "min_v": -0.0019529508592123625,
+        "max_v": 1.0560282334700122
+      },
+      {
+        "supply": "VSS",
+        "node": "power_vss_load_799",
+        "min_v": -0.001953448717092345,
+        "max_v": 1.056018621419538
+      }
+    ]
+  },
+  "power_resistance_model": {
+    "sheet_ohm": 0.1,
+    "via_ohm": 1.0,
+    "scope": "Width-aware supply resistance sensitivity on the actual metal topology.\n\nMetal polygons are sampled on a stated grid, reduced to their medial paths,\nand assigned R = sheet_R * path_length / local_width. Local width uses the\ninside distance transform minus one sampling interval. Series-only nodes are\neliminated exactly; branches, loops, every actual via, and load taps remain.\nThis is an explicit numerical sensitivity model, not a foundry PEX deck.\nIt improves on the earlier whole-polygon perimeter proxy without replacing\nthat failed experiment or changing any circuit/DRC/LVS acceptance criterion.\n",
+    "source_gds_sha256": "edc28e137131a870bd7d0a99b587b472b969a861329af68d25aaf9493da63b20",
+    "grid_um": 0.25,
+    "detailed_parameters_sha256": "f3be395b6dee9643dc9c739119d06647eff6b6b0b8430874af8023cf43f586d1"
+  },
+  "name": "power_mesh_01_klu",
+  "physical_extraction": {
+    "gds_sha256": "edc28e137131a870bd7d0a99b587b472b969a861329af68d25aaf9493da63b20",
+    "lvsdb_sha256": "6b505f220cd705c90f47b075168a9f7c34df2bebfbdfaaa13dd338e3d372ba3f",
+    "mos_groups": 5005,
+    "physical_fingers": 5081,
+    "model_counts": {
+      "PMOS": 1991,
+      "NMOS": 3014,
+      "DP": 4,
+      "DN": 4
+    },
+    "source": "/home/ishi-kai/sram/build/sram512/layout/power_bypass_h720"
+  },
+  "period_ns": 1000,
+  "voltage_v": 5,
+  "temperature_c": 27,
+  "elapsed_seconds": 651.89,
+  "deck_sha256": "1bcb06954d725e9f7a630141446ef8cca4ccc1d8e14af3cc1d9e481b4a0b823a",
+  "reused_waveform": false,
+  "model_notices": [
+    {
+      "model": "DN",
+      "unsupported_parameters": [
+        "imax",
+        "imelt"
+      ],
+      "consequence": "Diode current/melting limit flags are not implemented by ngspice."
+    },
+    {
+      "model": "DP",
+      "unsupported_parameters": [
+        "imax",
+        "imelt"
+      ],
+      "consequence": "Diode current/melting limit flags are not implemented by ngspice."
+    }
+  ],
+  "solver": "klu",
+  "interconnect": "Extra lumped C only; wire resistance and distributed RC not yet included",
+  "supply_current_a": {
+    "max": 0.02216251225043866,
+    "time_mean": 0.00011764957683106707,
+    "rms": 0.0006039102012313025
+  }
+}

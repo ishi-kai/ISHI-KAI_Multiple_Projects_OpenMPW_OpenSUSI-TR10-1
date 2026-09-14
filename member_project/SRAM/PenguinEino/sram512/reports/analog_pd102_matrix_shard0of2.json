@@ -1,0 +1,522 @@
+[
+  {
+    "passed": true,
+    "checks": 2901,
+    "failure_count": 0,
+    "failures": [],
+    "read_observations": [
+      {
+        "operation": 4,
+        "row": 0,
+        "col": 0,
+        "sae_half_ns": 88016.89921463522,
+        "y_difference_v": -5.028616189536445
+      },
+      {
+        "operation": 5,
+        "row": 0,
+        "col": 31,
+        "sae_half_ns": 106016.90671284661,
+        "y_difference_v": 5.027758349013915
+      },
+      {
+        "operation": 6,
+        "row": 15,
+        "col": 0,
+        "sae_half_ns": 124016.89846834354,
+        "y_difference_v": 5.027464485216138
+      },
+      {
+        "operation": 7,
+        "row": 15,
+        "col": 31,
+        "sae_half_ns": 142016.89774264625,
+        "y_difference_v": -5.0285551120501175
+      },
+      {
+        "operation": 12,
+        "row": 0,
+        "col": 0,
+        "sae_half_ns": 232016.90637454623,
+        "y_difference_v": 5.027741479510832
+      },
+      {
+        "operation": 13,
+        "row": 0,
+        "col": 31,
+        "sae_half_ns": 250016.8984385166,
+        "y_difference_v": -5.028586655977016
+      },
+      {
+        "operation": 14,
+        "row": 15,
+        "col": 0,
+        "sae_half_ns": 268016.89851055737,
+        "y_difference_v": -5.028583702729721
+      },
+      {
+        "operation": 15,
+        "row": 15,
+        "col": 31,
+        "sae_half_ns": 286016.89824525494,
+        "y_difference_v": 5.027458422166352
+      }
+    ],
+    "points": 53792,
+    "operations": 16,
+    "name": "pd102_nominal",
+    "voltage_v": 5,
+    "temperature_c": 27,
+    "period_ns": 1000,
+    "extra_wire_loads": {
+      "BL": "70f",
+      "WL": "400f",
+      "Y": "180f"
+    },
+    "output_load": "10p",
+    "edge_ns": 5,
+    "vth_shift_v": {
+      "NMOS": 0,
+      "PMOS": 0
+    },
+    "elapsed_seconds": 0.41,
+    "input_sha256": "a2213f2daa2acaaeb362ef56000f50097c6af51d6716505595d6a352c7e21a28",
+    "electrical_sha256": "4c12d08f0d9aa01d2f72e4ccec507a706cfeefb74a3e225a86ca1b15fcdf1547",
+    "reused_waveform": true,
+    "model_notices": [
+      {
+        "model": "DN",
+        "unsupported_parameters": [
+          "imax",
+          "imelt"
+        ],
+        "consequence": "Diode current/melting limit flags are not implemented by ngspice."
+      },
+      {
+        "model": "DP",
+        "unsupported_parameters": [
+          "imax",
+          "imelt"
+        ],
+        "consequence": "Diode current/melting limit flags are not implemented by ngspice."
+      }
+    ],
+    "simulator_threads": null
+  },
+  {
+    "passed": true,
+    "checks": 2901,
+    "failure_count": 0,
+    "failures": [],
+    "read_observations": [
+      {
+        "operation": 4,
+        "row": 0,
+        "col": 0,
+        "sae_half_ns": 88021.14265264168,
+        "y_difference_v": -4.526621571260537
+      },
+      {
+        "operation": 5,
+        "row": 0,
+        "col": 31,
+        "sae_half_ns": 106021.14261838465,
+        "y_difference_v": 4.525534576022291
+      },
+      {
+        "operation": 6,
+        "row": 15,
+        "col": 0,
+        "sae_half_ns": 124021.14256276646,
+        "y_difference_v": 4.5255496268645015
+      },
+      {
+        "operation": 7,
+        "row": 15,
+        "col": 31,
+        "sae_half_ns": 142021.14253624168,
+        "y_difference_v": -4.526607496674058
+      },
+      {
+        "operation": 12,
+        "row": 0,
+        "col": 0,
+        "sae_half_ns": 232021.14263825095,
+        "y_difference_v": 4.525534459853428
+      },
+      {
+        "operation": 13,
+        "row": 0,
+        "col": 31,
+        "sae_half_ns": 250021.14258242922,
+        "y_difference_v": -4.526622561106945
+      },
+      {
+        "operation": 14,
+        "row": 15,
+        "col": 0,
+        "sae_half_ns": 268021.1426227557,
+        "y_difference_v": -4.5266069264456865
+      },
+      {
+        "operation": 15,
+        "row": 15,
+        "col": 31,
+        "sae_half_ns": 286021.1425320774,
+        "y_difference_v": 4.525549424560009
+      }
+    ],
+    "points": 52808,
+    "operations": 16,
+    "name": "pd102_low_hot",
+    "voltage_v": 4.5,
+    "temperature_c": 85,
+    "period_ns": 1000,
+    "extra_wire_loads": {
+      "BL": "70f",
+      "WL": "400f",
+      "Y": "180f"
+    },
+    "output_load": "10p",
+    "edge_ns": 5,
+    "vth_shift_v": {
+      "NMOS": 0,
+      "PMOS": 0
+    },
+    "elapsed_seconds": 708.78,
+    "input_sha256": "f3633bdfaef5977321ad69a8929a44c5c26c4a8a8b7248eac6e825bcb511752b",
+    "electrical_sha256": "cd59624863d696e88eca998b47bbe04dc7a4c3f6be3afd6dbf8143d6c265b8f4",
+    "reused_waveform": false,
+    "model_notices": [
+      {
+        "model": "DN",
+        "unsupported_parameters": [
+          "imax",
+          "imelt"
+        ],
+        "consequence": "Diode current/melting limit flags are not implemented by ngspice."
+      },
+      {
+        "model": "DP",
+        "unsupported_parameters": [
+          "imax",
+          "imelt"
+        ],
+        "consequence": "Diode current/melting limit flags are not implemented by ngspice."
+      }
+    ],
+    "simulator_threads": 1
+  },
+  {
+    "passed": true,
+    "checks": 2901,
+    "failure_count": 0,
+    "failures": [],
+    "read_observations": [
+      {
+        "operation": 4,
+        "row": 0,
+        "col": 0,
+        "sae_half_ns": 88017.84502955293,
+        "y_difference_v": -5.531779262796956
+      },
+      {
+        "operation": 5,
+        "row": 0,
+        "col": 31,
+        "sae_half_ns": 106017.84704769512,
+        "y_difference_v": 5.5305731700761855
+      },
+      {
+        "operation": 6,
+        "row": 15,
+        "col": 0,
+        "sae_half_ns": 124017.84805011719,
+        "y_difference_v": 5.530582189564918
+      },
+      {
+        "operation": 7,
+        "row": 15,
+        "col": 31,
+        "sae_half_ns": 142017.84808420952,
+        "y_difference_v": -5.53176087846002
+      },
+      {
+        "operation": 12,
+        "row": 0,
+        "col": 0,
+        "sae_half_ns": 232017.8448886301,
+        "y_difference_v": 5.530598344219622
+      },
+      {
+        "operation": 13,
+        "row": 0,
+        "col": 31,
+        "sae_half_ns": 250017.84623529445,
+        "y_difference_v": -5.531770959604456
+      },
+      {
+        "operation": 14,
+        "row": 15,
+        "col": 0,
+        "sae_half_ns": 268017.8459941026,
+        "y_difference_v": -5.531771862082096
+      },
+      {
+        "operation": 15,
+        "row": 15,
+        "col": 31,
+        "sae_half_ns": 286017.8459573805,
+        "y_difference_v": 5.530585471662925
+      }
+    ],
+    "points": 53768,
+    "operations": 16,
+    "name": "pd102_high_hot",
+    "voltage_v": 5.5,
+    "temperature_c": 85,
+    "period_ns": 1000,
+    "extra_wire_loads": {
+      "BL": "70f",
+      "WL": "400f",
+      "Y": "180f"
+    },
+    "output_load": "10p",
+    "edge_ns": 5,
+    "vth_shift_v": {
+      "NMOS": 0,
+      "PMOS": 0
+    },
+    "elapsed_seconds": 537.44,
+    "input_sha256": "16f5ef31ff4ed04debbfa1b9d4860a9519e0cab3ed415e68c0178c6dc35f37e2",
+    "electrical_sha256": "51f513b408e2b69ab598f5931203a3e7eb54c5692644f102ba3cbde1aa47d82d",
+    "reused_waveform": false,
+    "model_notices": [
+      {
+        "model": "DN",
+        "unsupported_parameters": [
+          "imax",
+          "imelt"
+        ],
+        "consequence": "Diode current/melting limit flags are not implemented by ngspice."
+      },
+      {
+        "model": "DP",
+        "unsupported_parameters": [
+          "imax",
+          "imelt"
+        ],
+        "consequence": "Diode current/melting limit flags are not implemented by ngspice."
+      }
+    ],
+    "simulator_threads": 1
+  },
+  {
+    "passed": true,
+    "checks": 2901,
+    "failure_count": 0,
+    "failures": [],
+    "read_observations": [
+      {
+        "operation": 4,
+        "row": 0,
+        "col": 0,
+        "sae_half_ns": 88030.7950100927,
+        "y_difference_v": -4.511773038864783
+      },
+      {
+        "operation": 5,
+        "row": 0,
+        "col": 31,
+        "sae_half_ns": 106030.75986494675,
+        "y_difference_v": 4.51070317182708
+      },
+      {
+        "operation": 6,
+        "row": 15,
+        "col": 0,
+        "sae_half_ns": 124030.93896863522,
+        "y_difference_v": 4.511230686779886
+      },
+      {
+        "operation": 7,
+        "row": 15,
+        "col": 31,
+        "sae_half_ns": 142030.89804598,
+        "y_difference_v": -4.511619493958823
+      },
+      {
+        "operation": 12,
+        "row": 0,
+        "col": 0,
+        "sae_half_ns": 232030.84880980456,
+        "y_difference_v": 4.510992881701954
+      },
+      {
+        "operation": 13,
+        "row": 0,
+        "col": 31,
+        "sae_half_ns": 250030.94936146194,
+        "y_difference_v": -4.511142892939803
+      },
+      {
+        "operation": 14,
+        "row": 15,
+        "col": 0,
+        "sae_half_ns": 268030.74962965277,
+        "y_difference_v": -4.511472190637136
+      },
+      {
+        "operation": 15,
+        "row": 15,
+        "col": 31,
+        "sae_half_ns": 286030.80605195987,
+        "y_difference_v": 4.511603705854781
+      }
+    ],
+    "points": 49374,
+    "operations": 16,
+    "name": "pd102_wire_1p_hot",
+    "voltage_v": 4.5,
+    "temperature_c": 85,
+    "period_ns": 1000,
+    "extra_wire_loads": {
+      "BL": "1p",
+      "WL": "2p",
+      "Y": "1p"
+    },
+    "output_load": "10p",
+    "edge_ns": 20,
+    "vth_shift_v": {
+      "NMOS": 0,
+      "PMOS": 0
+    },
+    "elapsed_seconds": 729.94,
+    "input_sha256": "50eec6ccbe814f68486472c21407546259825e97bd5a07fd17d1c49f78358425",
+    "electrical_sha256": "6bf560470d831c00dbc669ba7cc3635de75635b4ad15acdd7dc03d4f2dfdaa63",
+    "reused_waveform": false,
+    "model_notices": [
+      {
+        "model": "DN",
+        "unsupported_parameters": [
+          "imax",
+          "imelt"
+        ],
+        "consequence": "Diode current/melting limit flags are not implemented by ngspice."
+      },
+      {
+        "model": "DP",
+        "unsupported_parameters": [
+          "imax",
+          "imelt"
+        ],
+        "consequence": "Diode current/melting limit flags are not implemented by ngspice."
+      }
+    ],
+    "simulator_threads": 1
+  },
+  {
+    "passed": true,
+    "checks": 2901,
+    "failure_count": 0,
+    "failures": [],
+    "read_observations": [
+      {
+        "operation": 4,
+        "row": 0,
+        "col": 0,
+        "sae_half_ns": 88019.25054885217,
+        "y_difference_v": -5.029375666967321
+      },
+      {
+        "operation": 5,
+        "row": 0,
+        "col": 31,
+        "sae_half_ns": 106019.26992049413,
+        "y_difference_v": 5.029412950825612
+      },
+      {
+        "operation": 6,
+        "row": 15,
+        "col": 0,
+        "sae_half_ns": 124019.2513677586,
+        "y_difference_v": 5.028552737006508
+      },
+      {
+        "operation": 7,
+        "row": 15,
+        "col": 31,
+        "sae_half_ns": 142019.2675458742,
+        "y_difference_v": -5.030226505821369
+      },
+      {
+        "operation": 12,
+        "row": 0,
+        "col": 0,
+        "sae_half_ns": 232019.2912355061,
+        "y_difference_v": 5.028286960433404
+      },
+      {
+        "operation": 13,
+        "row": 0,
+        "col": 31,
+        "sae_half_ns": 250019.27018874852,
+        "y_difference_v": -5.030301297774821
+      },
+      {
+        "operation": 14,
+        "row": 15,
+        "col": 0,
+        "sae_half_ns": 268019.2505755369,
+        "y_difference_v": -5.0293567271886905
+      },
+      {
+        "operation": 15,
+        "row": 15,
+        "col": 31,
+        "sae_half_ns": 286019.28970355773,
+        "y_difference_v": 5.028264331888763
+      }
+    ],
+    "points": 53475,
+    "operations": 16,
+    "name": "pd102_vth_fast_n_slow_p",
+    "voltage_v": 5,
+    "temperature_c": 85,
+    "period_ns": 1000,
+    "extra_wire_loads": {
+      "BL": "70f",
+      "WL": "400f",
+      "Y": "180f"
+    },
+    "output_load": "10p",
+    "edge_ns": 5,
+    "vth_shift_v": {
+      "NMOS": -0.1,
+      "PMOS": -0.1
+    },
+    "elapsed_seconds": 863.64,
+    "input_sha256": "136d7a843c74bf70e661718adfcfd639933fe72c5cbde03fc3553e8c29e29e58",
+    "electrical_sha256": "b73e0484a63a3901f3eeca4d5723fcc28fc267de910e9f7bcb327e4dfd6c2897",
+    "reused_waveform": false,
+    "model_notices": [
+      {
+        "model": "DN",
+        "unsupported_parameters": [
+          "imax",
+          "imelt"
+        ],
+        "consequence": "Diode current/melting limit flags are not implemented by ngspice."
+      },
+      {
+        "model": "DP",
+        "unsupported_parameters": [
+          "imax",
+          "imelt"
+        ],
+        "consequence": "Diode current/melting limit flags are not implemented by ngspice."
+      }
+    ],
+    "simulator_threads": 1
+  }
+]

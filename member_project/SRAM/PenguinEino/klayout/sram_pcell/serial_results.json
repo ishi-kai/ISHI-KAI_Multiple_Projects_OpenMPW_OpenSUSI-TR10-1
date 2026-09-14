@@ -1,0 +1,59 @@
+[
+  {
+    "variant": "pcell",
+    "temperature_c": 27,
+    "vdd_v": 5,
+    "clock_ns": 100,
+    "cbl": "10f",
+    "cy": "100f",
+    "passed": true,
+    "checks": {
+      "operations": 19,
+      "rtl_checks": 3408,
+      "analog_checks": 745,
+      "total_checks": 4153,
+      "stop_ns": 21680
+    },
+    "failure": null,
+    "input_sha256": "3b65a0cf059af681d54ee6bd0348d7d32688b06ccd490a7112b6226425400c0c",
+    "log": "build/sram_pcell/serial/pcell_27_10f_100f/simulation.log"
+  },
+  {
+    "variant": "pcell",
+    "temperature_c": 85,
+    "vdd_v": 5,
+    "clock_ns": 100,
+    "cbl": "10f",
+    "cy": "100f",
+    "passed": true,
+    "checks": {
+      "operations": 19,
+      "rtl_checks": 3408,
+      "analog_checks": 745,
+      "total_checks": 4153,
+      "stop_ns": 21680
+    },
+    "failure": null,
+    "input_sha256": "ac1048ef3a456d731d706c60d934f980e9c349daf63f2077f55f72c782ed4f5d",
+    "log": "build/sram_pcell/serial/pcell_85_10f_100f/simulation.log"
+  },
+  {
+    "variant": "pcell",
+    "temperature_c": 27,
+    "vdd_v": 5,
+    "clock_ns": 100,
+    "cbl": "1p",
+    "cy": "1p",
+    "passed": true,
+    "checks": {
+      "operations": 19,
+      "rtl_checks": 3408,
+      "analog_checks": 745,
+      "total_checks": 4153,
+      "stop_ns": 21680
+    },
+    "failure": null,
+    "input_sha256": "ac630b94aab128c185c278d64a50096abda17d93c5e621fa14df18fad6b13105",
+    "log": "build/sram_pcell/serial/pcell_27_1p_1p/simulation.log"
+  }
+]

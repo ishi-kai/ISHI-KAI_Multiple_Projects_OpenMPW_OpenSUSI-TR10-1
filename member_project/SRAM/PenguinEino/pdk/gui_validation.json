@@ -1,0 +1,44 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "profile": "dev",
+      "pdk_directory": "/home/ishi-kai/sram/.pdk/dev/TR-1um",
+      "rule_source": "/home/ishi-kai/sram/.pdk/dev/TR-1um/libs.tech/klayout/tech/python/cells/rules_def.py",
+      "runset": "/home/ishi-kai/sram/.pdk/dev/TR-1um/libs.tech/klayout/tech/drc/run.drc",
+      "pcell_source": "/home/ishi-kai/sram/.pdk/dev/TR-1um/libs.tech/klayout/tech/python/cells/__init__.py",
+      "top": "compact_4x4",
+      "gui_drc_items": 160,
+      "categories": {
+        "CO.GG:CO(M)-GC Sfix !=  1.0 or off-center/missing CO(M)": 160
+      },
+      "passed": true
+    },
+    {
+      "profile": "dev",
+      "pdk_directory": "/home/ishi-kai/sram/.pdk/dev/TR-1um",
+      "rule_source": "/home/ishi-kai/sram/.pdk/dev/TR-1um/libs.tech/klayout/tech/python/cells/rules_def.py",
+      "runset": "/home/ishi-kai/sram/.pdk/dev/TR-1um/libs.tech/klayout/tech/drc/run.drc",
+      "pcell_source": "/home/ishi-kai/sram/.pdk/dev/TR-1um/libs.tech/klayout/tech/python/cells/__init__.py",
+      "gui_drc_items": 0,
+      "passed": true
+    },
+    {
+      "profile": "original",
+      "pdk_directory": "/home/ishi-kai/sram/.pdk/original/TR-1um",
+      "rule_source": "/home/ishi-kai/sram/.pdk/original/TR-1um/libs.tech/klayout/tech/python/cells/rules_def.py",
+      "runset": "/home/ishi-kai/sram/.pdk/original/TR-1um/libs.tech/klayout/tech/drc/run.drc",
+      "pcell_source": "/home/ishi-kai/sram/.pdk/original/TR-1um/libs.tech/klayout/tech/python/cells/__init__.py",
+      "gui_drc_items": 0,
+      "passed": true
+    }
+  ],
+  "lvs_smoke": {
+    "pdk_directory": "/home/ishi-kai/sram/.pdk/dev/TR-1um",
+    "passed": true,
+    "circuit_pairs": [
+      "Match"
+    ],
+    "errors": []
+  }
+}

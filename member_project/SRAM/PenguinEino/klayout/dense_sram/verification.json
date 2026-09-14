@@ -1,0 +1,101 @@
+{
+  "verified_at_utc": "2026-09-11T09:31:35.662761+00:00",
+  "gds_sha256": "f48a3ebb26256cba78199467918278ddd724fc8a8ca68ec3e0a551a49bf01823",
+  "pdk_directory": "/home/ishi-kai/pdk/TR-1um",
+  "array_1k_rotated_um": [
+    547.4,
+    1461.6
+  ],
+  "array_1k_fits_600x1800": true,
+  "checks": [
+    {
+      "top": "sram_dense_1x1",
+      "kind": "drc",
+      "pass": true,
+      "items": 0,
+      "categories": {}
+    },
+    {
+      "top": "sram_dense_1x1",
+      "kind": "lvs",
+      "pass": true,
+      "circuit_pairs": [
+        "Match"
+      ],
+      "errors": []
+    },
+    {
+      "top": "sram_dense_2x2",
+      "kind": "drc",
+      "pass": true,
+      "items": 0,
+      "categories": {}
+    },
+    {
+      "top": "sram_dense_2x2",
+      "kind": "lvs",
+      "pass": true,
+      "circuit_pairs": [
+        "Match"
+      ],
+      "errors": []
+    },
+    {
+      "top": "sram_dense_4x4",
+      "kind": "drc",
+      "pass": true,
+      "items": 0,
+      "categories": {}
+    },
+    {
+      "top": "sram_dense_4x4",
+      "kind": "lvs",
+      "pass": true,
+      "circuit_pairs": [
+        "Match"
+      ],
+      "errors": []
+    },
+    {
+      "top": "sram_dense_8x8",
+      "kind": "drc",
+      "pass": true,
+      "items": 0,
+      "categories": {}
+    },
+    {
+      "top": "sram_dense_8x8",
+      "kind": "lvs",
+      "pass": true,
+      "circuit_pairs": [
+        "Match"
+      ],
+      "errors": []
+    },
+    {
+      "top": "sram_dense_16x64",
+      "kind": "drc",
+      "pass": true,
+      "items": 0,
+      "categories": {}
+    },
+    {
+      "top": "sram_dense_16x64",
+      "kind": "lvs",
+      "pass": true,
+      "circuit_pairs": [
+        "Match"
+      ],
+      "errors": []
+    }
+  ],
+  "fault_controls": {
+    "cut_feedback": "rejected by LVS",
+    "short_bitlines": "rejected by LVS"
+  },
+  "spice": {
+    "result": "PASS",
+    "conditions": "5 V, 27 C, CBL=10 fF, CY=100 fF",
+    "scope": "Extracted 6T topology, W/L and AS/AD/PS/PD; interconnect RC not extracted."
+  }
+}

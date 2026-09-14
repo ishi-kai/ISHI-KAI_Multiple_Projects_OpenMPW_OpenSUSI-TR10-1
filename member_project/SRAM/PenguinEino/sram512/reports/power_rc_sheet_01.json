@@ -1,0 +1,509 @@
+{
+  "passed": false,
+  "checks": 3669,
+  "failure_count": 101,
+  "failures": [
+    {
+      "net": "CA0",
+      "expected": 0,
+      "start_ns": 11900.0,
+      "end_ns": 19800.0,
+      "min_v": -0.016931130856816835,
+      "max_v": 0.5358107782812295
+    },
+    {
+      "net": "CA1",
+      "expected": 0,
+      "start_ns": 11900.0,
+      "end_ns": 19800.0,
+      "min_v": -0.013648719216751835,
+      "max_v": 0.5767414763130237
+    },
+    {
+      "net": "CA2",
+      "expected": 0,
+      "start_ns": 11900.0,
+      "end_ns": 19800.0,
+      "min_v": -0.015411212363842677,
+      "max_v": 0.5446807849175814
+    },
+    {
+      "net": "CA3",
+      "expected": 0,
+      "start_ns": 11900.0,
+      "end_ns": 19800.0,
+      "min_v": -0.015371007755282032,
+      "max_v": 0.5439942452570087
+    },
+    {
+      "net": "PD_Y",
+      "expected": 0,
+      "start_ns": 2300.0,
+      "end_ns": 13900.0,
+      "min_v": -0.014349973294386725,
+      "max_v": 0.5219616349528631
+    },
+    {
+      "net": "PD_YB",
+      "expected": 0,
+      "start_ns": 2300.0,
+      "end_ns": 13900.0,
+      "min_v": -0.014347681173638396,
+      "max_v": 0.5219125885833503
+    },
+    {
+      "net": "CA1",
+      "expected": 1,
+      "start_ns": 29900.0,
+      "end_ns": 37800.0,
+      "min_v": 4.368209074849803,
+      "max_v": 5.123493274916688
+    },
+    {
+      "net": "CA4",
+      "expected": 1,
+      "start_ns": 29900.0,
+      "end_ns": 37800.0,
+      "min_v": 4.492102559894449,
+      "max_v": 5.10757351067814
+    },
+    {
+      "net": "RA2",
+      "expected": 1,
+      "start_ns": 47900.0,
+      "end_ns": 55800.0,
+      "min_v": 4.051067975522747,
+      "max_v": 5.128537446652051
+    },
+    {
+      "net": "RA3",
+      "expected": 1,
+      "start_ns": 47900.0,
+      "end_ns": 55800.0,
+      "min_v": 4.049601318678386,
+      "max_v": 5.129342010034876
+    },
+    {
+      "net": "CA1",
+      "expected": 0,
+      "start_ns": 47900.0,
+      "end_ns": 55800.0,
+      "min_v": -0.013697753198010181,
+      "max_v": 0.528581285336251
+    },
+    {
+      "net": "CA2",
+      "expected": 0,
+      "start_ns": 47900.0,
+      "end_ns": 55800.0,
+      "min_v": -0.015505563055743408,
+      "max_v": 0.5023547898978882
+    },
+    {
+      "net": "CA3",
+      "expected": 0,
+      "start_ns": 47900.0,
+      "end_ns": 55800.0,
+      "min_v": -0.015468957841634637,
+      "max_v": 0.5016222966338226
+    },
+    {
+      "net": "RA2",
+      "expected": 1,
+      "start_ns": 65900.0,
+      "end_ns": 73800.0,
+      "min_v": 4.052540100668528,
+      "max_v": 5.12900075903045
+    },
+    {
+      "net": "RA3",
+      "expected": 1,
+      "start_ns": 65900.0,
+      "end_ns": 73800.0,
+      "min_v": 4.051431656658346,
+      "max_v": 5.129800856123368
+    },
+    {
+      "net": "CA1",
+      "expected": 1,
+      "start_ns": 65900.0,
+      "end_ns": 73800.0,
+      "min_v": 4.368025305057555,
+      "max_v": 5.122637699699535
+    },
+    {
+      "net": "CA4",
+      "expected": 1,
+      "start_ns": 65900.0,
+      "end_ns": 73800.0,
+      "min_v": 4.494280500380679,
+      "max_v": 5.106600148402407
+    },
+    {
+      "net": "CA0",
+      "expected": 0,
+      "start_ns": 83900.0,
+      "end_ns": 91800.0,
+      "min_v": -0.016336118165721947,
+      "max_v": 0.5433672844034722
+    },
+    {
+      "net": "CA1",
+      "expected": 0,
+      "start_ns": 83900.0,
+      "end_ns": 91800.0,
+      "min_v": -0.013437966806269706,
+      "max_v": 0.5788352700320809
+    },
+    {
+      "net": "CA2",
+      "expected": 0,
+      "start_ns": 83900.0,
+      "end_ns": 91800.0,
+      "min_v": -0.01586789167832983,
+      "max_v": 0.5505354606687973
+    },
+    {
+      "net": "CA3",
+      "expected": 0,
+      "start_ns": 83900.0,
+      "end_ns": 91800.0,
+      "min_v": -0.015838283157208564,
+      "max_v": 0.5499070314612269
+    },
+    {
+      "net": "PD_Y",
+      "expected": 0,
+      "start_ns": 74300.0,
+      "end_ns": 85900.0,
+      "min_v": -0.004304485159648275,
+      "max_v": 0.5291595608953438
+    },
+    {
+      "net": "PD_YB",
+      "expected": 0,
+      "start_ns": 74300.0,
+      "end_ns": 85900.0,
+      "min_v": -0.00430480103790417,
+      "max_v": 0.5291588625705839
+    },
+    {
+      "net": "CA0",
+      "expected": 1,
+      "start_ns": 101900.0,
+      "end_ns": 109800.0,
+      "min_v": 4.482308160302905,
+      "max_v": 5.1413415786388
+    },
+    {
+      "net": "CA1",
+      "expected": 1,
+      "start_ns": 101900.0,
+      "end_ns": 109800.0,
+      "min_v": 4.101435757361135,
+      "max_v": 5.124524689553276
+    },
+    {
+      "net": "CA2",
+      "expected": 1,
+      "start_ns": 101900.0,
+      "end_ns": 109800.0,
+      "min_v": 4.2896502599601884,
+      "max_v": 5.120440815291441
+    },
+    {
+      "net": "CA3",
+      "expected": 1,
+      "start_ns": 101900.0,
+      "end_ns": 109800.0,
+      "min_v": 4.289782269041632,
+      "max_v": 5.1193842276229695
+    },
+    {
+      "net": "CA4",
+      "expected": 1,
+      "start_ns": 101900.0,
+      "end_ns": 109800.0,
+      "min_v": 4.428726754711283,
+      "max_v": 5.108606888121652
+    },
+    {
+      "net": "PREB",
+      "expected": 1,
+      "start_ns": 103300.0,
+      "end_ns": 109800.0,
+      "min_v": 4.115560415459702,
+      "max_v": 5.11296711560096
+    },
+    {
+      "net": "PD_Y",
+      "expected": 0,
+      "start_ns": 92300.0,
+      "end_ns": 103900.0,
+      "min_v": -0.004365373335843054,
+      "max_v": 0.5141785933994536
+    },
+    {
+      "net": "PD_YB",
+      "expected": 0,
+      "start_ns": 92300.0,
+      "end_ns": 103900.0,
+      "min_v": -0.004365719922773663,
+      "max_v": 0.5141229066579703
+    },
+    {
+      "net": "RA2",
+      "expected": 1,
+      "start_ns": 119900.0,
+      "end_ns": 127800.0,
+      "min_v": 4.056295062254182,
+      "max_v": 5.1275342230487695
+    },
+    {
+      "net": "RA3",
+      "expected": 1,
+      "start_ns": 119900.0,
+      "end_ns": 127800.0,
+      "min_v": 4.054870657510377,
+      "max_v": 5.128283213449526
+    },
+    {
+      "net": "CA0",
+      "expected": 0,
+      "start_ns": 119900.0,
+      "end_ns": 127800.0,
+      "min_v": -0.016313567424595395,
+      "max_v": 0.5542659906443973
+    },
+    {
+      "net": "CA1",
+      "expected": 0,
+      "start_ns": 119900.0,
+      "end_ns": 127800.0,
+      "min_v": -0.014260171560042171,
+      "max_v": 0.6062698531861135
+    },
+    {
+      "net": "CA2",
+      "expected": 0,
+      "start_ns": 119900.0,
+      "end_ns": 127800.0,
+      "min_v": -0.015510619766620621,
+      "max_v": 0.5593701061454568
+    },
+    {
+      "net": "CA3",
+      "expected": 0,
+      "start_ns": 119900.0,
+      "end_ns": 127800.0,
+      "min_v": -0.015499101826880532,
+      "max_v": 0.5591288594821919
+    },
+    {
+      "net": "COL1",
+      "expected": 0,
+      "start_ns": 120300.0,
+      "end_ns": 127800.0,
+      "min_v": -0.01193001290191275,
+      "max_v": 0.5041341729038475
+    },
+    {
+      "net": "COL2",
+      "expected": 0,
+      "start_ns": 120300.0,
+      "end_ns": 127800.0,
+      "min_v": -0.011929859293577169,
+      "max_v": 0.5041436080818338
+    },
+    {
+      "net": "COL3",
+      "expected": 0,
+      "start_ns": 120300.0,
+      "end_ns": 127800.0,
+      "min_v": -0.01192988910267339,
+      "max_v": 0.5041436259136873
+    }
+  ],
+  "read_observations": [
+    {
+      "operation": 4,
+      "row": 0,
+      "col": 0,
+      "sae_half_ns": 88017.76852744266,
+      "y_difference_v": -4.855717328902785
+    },
+    {
+      "operation": 5,
+      "row": 0,
+      "col": 31,
+      "sae_half_ns": 106017.67042785972,
+      "y_difference_v": 4.842730157985716
+    },
+    {
+      "operation": 6,
+      "row": 15,
+      "col": 0,
+      "sae_half_ns": 124017.72008838494,
+      "y_difference_v": 4.858841711661419
+    },
+    {
+      "operation": 7,
+      "row": 15,
+      "col": 31,
+      "sae_half_ns": 142017.7687668269,
+      "y_difference_v": -4.833318416122576
+    },
+    {
+      "operation": 12,
+      "row": 0,
+      "col": 0,
+      "sae_half_ns": 232017.63890668325,
+      "y_difference_v": 4.870120480857212
+    },
+    {
+      "operation": 13,
+      "row": 0,
+      "col": 31,
+      "sae_half_ns": 250017.78412680273,
+      "y_difference_v": -4.81224892076931
+    },
+    {
+      "operation": 14,
+      "row": 15,
+      "col": 0,
+      "sae_half_ns": 268017.50976657553,
+      "y_difference_v": -4.846059143290449
+    },
+    {
+      "operation": 15,
+      "row": 15,
+      "col": 31,
+      "sae_half_ns": 286017.66488080623,
+      "y_difference_v": 4.8610488438319885
+    }
+  ],
+  "points": 54277,
+  "operations": 16,
+  "power_supply_observations": {
+    "load_nodes": 823,
+    "minimum_vdd": 4.03756413919247,
+    "maximum_vdd": 5.1407798391899115,
+    "minimum_vss": -0.05305566609706869,
+    "maximum_vss": 1.041262527178826,
+    "worst_vdd_nodes": [
+      {
+        "supply": "VDD",
+        "node": "power_vdd_load_0",
+        "min_v": 4.03756413919247,
+        "max_v": 5.136233203992367
+      },
+      {
+        "supply": "VDD",
+        "node": "power_vdd_load_29",
+        "min_v": 4.096182247649431,
+        "max_v": 5.122553818228641
+      },
+      {
+        "supply": "VDD",
+        "node": "power_vdd_load_123",
+        "min_v": 4.192177875317529,
+        "max_v": 5.092003274492312
+      },
+      {
+        "supply": "VDD",
+        "node": "power_vdd_load_282",
+        "min_v": 4.192178526077894,
+        "max_v": 5.092003336885431
+      },
+      {
+        "supply": "VDD",
+        "node": "power_vdd_load_129",
+        "min_v": 4.192197023051729,
+        "max_v": 5.09200320924099
+      }
+    ],
+    "worst_vss_nodes": [
+      {
+        "supply": "VSS",
+        "node": "power_vss_load_50",
+        "min_v": -0.047378249383130094,
+        "max_v": 1.041262527178826
+      },
+      {
+        "supply": "VSS",
+        "node": "power_vss_load_80",
+        "min_v": -0.04737825033422856,
+        "max_v": 1.0412311370055787
+      },
+      {
+        "supply": "VSS",
+        "node": "power_vss_load_10",
+        "min_v": -0.04737825036490715,
+        "max_v": 1.041231129591864
+      },
+      {
+        "supply": "VSS",
+        "node": "power_vss_load_97",
+        "min_v": -0.047378250382289974,
+        "max_v": 1.0412311295917813
+      },
+      {
+        "supply": "VSS",
+        "node": "power_vss_load_42",
+        "min_v": -0.04737825036360521,
+        "max_v": 1.0412311295911763
+      }
+    ]
+  },
+  "power_resistance_model": {
+    "sheet_ohm": 0.1,
+    "via_ohm": 1.0,
+    "scope": "Conservative supply-network resistance sensitivity from actual metal.\n\nNo foundry metal-resistance/RC corner is available in the public dev deck.\nSheet and via resistances are explicit experiment parameters. Each connected\nmetal polygon is represented by a star. Half its perimeter divided by the DRC\nminimum width is used as a conservative route-square proxy. Actual widened\nrails therefore receive no resistance credit. This is not a calibrated field\nsolver extraction or a mathematically certified bound. Current sharing\nbetween individual parallel cuts is not resolved by this lumped model.\n",
+    "source_gds_sha256": "edc28e137131a870bd7d0a99b587b472b969a861329af68d25aaf9493da63b20",
+    "detailed_parameters_sha256": "1d74ec7a3fb7a922c3905abfd2f2a054ae8009873f13f1c846c938bb7885a084"
+  },
+  "name": "power_rc_sheet_01",
+  "physical_extraction": {
+    "gds_sha256": "edc28e137131a870bd7d0a99b587b472b969a861329af68d25aaf9493da63b20",
+    "lvsdb_sha256": "6b505f220cd705c90f47b075168a9f7c34df2bebfbdfaaa13dd338e3d372ba3f",
+    "mos_groups": 5005,
+    "physical_fingers": 5081,
+    "model_counts": {
+      "PMOS": 1991,
+      "NMOS": 3014,
+      "DP": 4,
+      "DN": 4
+    },
+    "source": "/home/ishi-kai/sram/build/sram512/extracted_sources/edc28e137131a870bd7d0a99b587b472b969a861329af68d25aaf9493da63b20"
+  },
+  "period_ns": 1000,
+  "voltage_v": 5,
+  "temperature_c": 27,
+  "elapsed_seconds": 857.15,
+  "deck_sha256": "8c9309c445c6ffcea6b454faf61f751051dcb7b9d550d44237d047b0d678c3c8",
+  "reused_waveform": false,
+  "model_notices": [
+    {
+      "model": "DN",
+      "unsupported_parameters": [
+        "imax",
+        "imelt"
+      ],
+      "consequence": "Diode current/melting limit flags are not implemented by ngspice."
+    },
+    {
+      "model": "DP",
+      "unsupported_parameters": [
+        "imax",
+        "imelt"
+      ],
+      "consequence": "Diode current/melting limit flags are not implemented by ngspice."
+    }
+  ],
+  "interconnect": "Extra lumped C only; wire resistance and distributed RC not yet included",
+  "supply_current_a": {
+    "max": 0.004375555645360438,
+    "time_mean": 0.00011315038094630601,
+    "rms": 0.0003459313053553758
+  }
+}

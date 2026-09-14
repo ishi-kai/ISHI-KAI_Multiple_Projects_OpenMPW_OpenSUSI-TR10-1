@@ -1,0 +1,25 @@
+{
+  "passed": true,
+  "test": "decoderfix_mesh4_prefix",
+  "base_report_sha256": "a9561c8f447933fed62e8b36226df402276e5cf5ea333d3c4681205c23834f46",
+  "reviewed_commit": "7dae978",
+  "simulation_code_unchanged": true,
+  "functional_checks": {
+    "passed": true,
+    "checks": 173,
+    "failure_count": 0,
+    "failures": [],
+    "read_observations": [],
+    "points": 7713,
+    "operations": 1,
+    "sdo_hold_checks": 1,
+    "sdo_read_settling_ns": 4000.0,
+    "required_time_range_ns": [
+      0,
+      101000.0
+    ]
+  },
+  "raw_sha256": "ff2225caa3377479e2859efe21378521416385240efb6cdb2aa67a0f7c0ac3a1",
+  "deck_sha256": "dc6730a5187b29d5d68cb09a8812699b95b01e754d238eaddc1ae9d25aa19acf",
+  "scope": "Existing transient, newly checked time coverage and continuous SDO retention; unchanged voltage/current/geometry checks remain bound to the original report."
+}

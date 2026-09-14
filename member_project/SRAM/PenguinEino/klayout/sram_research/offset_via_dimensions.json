@@ -1,0 +1,32 @@
+{
+  "pitch_x_um": 21.2,
+  "pitch_y_um": 31.6,
+  "area_per_bit_um2": 669.92,
+  "footprints": {
+    "sram_dense_1x1": {
+      "width_um": 47.4,
+      "height_um": 43.8,
+      "bits": 1
+    },
+    "sram_dense_2x2": {
+      "width_um": 68.6,
+      "height_um": 71.0,
+      "bits": 4
+    },
+    "sram_dense_4x4": {
+      "width_um": 111.0,
+      "height_um": 134.2,
+      "bits": 16
+    },
+    "sram_dense_8x8": {
+      "width_um": 195.8,
+      "height_um": 260.6,
+      "bits": 64
+    },
+    "sram_dense_16x64": {
+      "width_um": 1461.6,
+      "height_um": 513.4,
+      "bits": 1024
+    }
+  }
+}

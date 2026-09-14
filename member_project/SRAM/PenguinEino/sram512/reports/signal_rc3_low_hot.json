@@ -1,0 +1,187 @@
+{
+  "passed": true,
+  "checks": 26197,
+  "failure_count": 0,
+  "failures": [],
+  "read_observations": [
+    {
+      "operation": 4,
+      "row": 0,
+      "col": 0,
+      "sae_half_ns": 88025.86848844666,
+      "y_difference_v": -4.511120483287792
+    },
+    {
+      "operation": 5,
+      "row": 0,
+      "col": 31,
+      "sae_half_ns": 106025.86835071615,
+      "y_difference_v": 4.509869565256721
+    },
+    {
+      "operation": 6,
+      "row": 15,
+      "col": 0,
+      "sae_half_ns": 124025.88686530902,
+      "y_difference_v": 4.509893642884874
+    },
+    {
+      "operation": 7,
+      "row": 15,
+      "col": 31,
+      "sae_half_ns": 142025.58693730165,
+      "y_difference_v": -4.507619518270793
+    },
+    {
+      "operation": 12,
+      "row": 0,
+      "col": 0,
+      "sae_half_ns": 232025.86888774612,
+      "y_difference_v": 4.509739983529528
+    },
+    {
+      "operation": 13,
+      "row": 0,
+      "col": 31,
+      "sae_half_ns": 250025.86936044612,
+      "y_difference_v": -4.511317989813988
+    },
+    {
+      "operation": 14,
+      "row": 15,
+      "col": 0,
+      "sae_half_ns": 268025.866837759,
+      "y_difference_v": -4.51108797721563
+    },
+    {
+      "operation": 15,
+      "row": 15,
+      "col": 31,
+      "sae_half_ns": 286025.58470183914,
+      "y_difference_v": 4.506799329645673
+    }
+  ],
+  "points": 59684,
+  "operations": 16,
+  "rc_checks": {
+    "passed": true,
+    "checks": 22528,
+    "failure_count": 0,
+    "failures": [],
+    "clock_branches": 21,
+    "maximum_clock_rising_skew_ns": 1.0344709468190558,
+    "minimum_clock_high_ns": 500.91908094530663,
+    "minimum_clock_low_ns": 498.9862788519531,
+    "scope": "All four BL/WL/common-line RC sections, control gate loads, and every physical clock branch."
+  },
+  "name": "signal_rc3_low_hot",
+  "physical_extraction": {
+    "gds_sha256": "ed805adb64e4d5fe7ab323934d04ffab32dd944637720a5f622d8122dbfc9c92",
+    "lvsdb_sha256": "2232fa9f1e6e16b03a73a8f2d94ef8312235cc9086d56a18ce70a676ff4b691b",
+    "mos_groups": 5005,
+    "physical_fingers": 5081,
+    "model_counts": {
+      "PMOS": 1991,
+      "NMOS": 3014,
+      "DP": 4,
+      "DN": 4
+    },
+    "source": "/home/ishi-kai/sram/build/sram512/extracted_sources/ed805adb64e4d5fe7ab323934d04ffab32dd944637720a5f622d8122dbfc9c92"
+  },
+  "period_ns": 1000,
+  "voltage_v": 4.5,
+  "temperature_c": 85.0,
+  "elapsed_seconds": 1.73,
+  "deck_sha256": "d8fad8cdf15ff8f0f1f09f57730ed0ea7eb6b1c8746218bee6c265c617f650fc",
+  "reused_waveform": true,
+  "model_notices": [
+    {
+      "model": "DN",
+      "unsupported_parameters": [
+        "imax",
+        "imelt"
+      ],
+      "consequence": "Diode current/melting limit flags are not implemented by ngspice."
+    },
+    {
+      "model": "DP",
+      "unsupported_parameters": [
+        "imax",
+        "imelt"
+      ],
+      "consequence": "Diode current/melting limit flags are not implemented by ngspice."
+    }
+  ],
+  "interconnect": {
+    "kind": "geometry-based RC sensitivity; uncalibrated coefficients",
+    "scale": 3.0,
+    "coefficients": {
+      "M1": {
+        "width_um": 1.8,
+        "sheet_ohm": 1.0,
+        "area_ff_um2": 0.05,
+        "edge_ff_um": 0.02
+      },
+      "M2": {
+        "width_um": 3.4,
+        "sheet_ohm": 1.0,
+        "area_ff_um2": 0.03,
+        "edge_ff_um": 0.02
+      }
+    },
+    "segments": 4,
+    "assumptions": [
+      "Series square count sums all metal branches conservatively.",
+      "Capacitance is represented to ground; scale sweep also stresses coupling load.",
+      "Power-rail resistance is not included in this signal-RC model."
+    ],
+    "geometry_nets": 2024,
+    "detailed_parameters_sha256": "1b6ff3107595eaa5638a46183a2b02e26563fb0cbadecd16823eb7225216b90c",
+    "detailed_parameters_file": "/home/ishi-kai/sram/build/sram512/analog/signal_rc3_low_hot/wire_rc.json",
+    "clock": {
+      "branches": 21,
+      "series_sum_ohm": 7176.136982570806,
+      "cap_ff": 2131.4704500000003
+    },
+    "wire_groups": {
+      "bitline": {
+        "nets": 64,
+        "resistance_ohm_range": [
+          919.4444444444443,
+          919.4444444444443
+        ],
+        "capacitance_ff_range": [
+          214.27800000000002,
+          214.27800000000002
+        ]
+      },
+      "wordline": {
+        "nets": 32,
+        "resistance_ohm_range": [
+          554.8783480712547,
+          678.0531846725619
+        ],
+        "capacitance_ff_range": [
+          233.91689999999997,
+          277.3968
+        ]
+      },
+      "common": {
+        "nets": 2,
+        "resistance_ohm_range": [
+          2997.322440087146,
+          2997.4379084967322
+        ],
+        "capacitance_ff_range": [
+          961.6007999999999,
+          964.2491999999999
+        ]
+      }
+    }
+  },
+  "supply_current_a": {
+    "max": 0.008652717809331464,
+    "time_mean": 0.0001560553380867281,
+    "rms": 0.0007954446271906496
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "passed": true,
+  "source_gds_sha256": "f32c213db5efaa09449b3c8db709c2b547bae09c6fe011f1eb284dda8342eff2",
+  "runs": [
+    {
+      "name": "signalfix_startup_5n",
+      "deck_sha256": "2ef8dfd25fb5a3b777d69c6abb939b3c8b7326413eb37d0339d09d3db4698b97",
+      "maximum_timestep_ns": 5,
+      "checks": 33753
+    },
+    {
+      "name": "signalfix_startup_1n",
+      "deck_sha256": "08b656923fbe3c5c4ec8482400f585d7bed3dd8ff07baaf5d265044a868ef0c3",
+      "maximum_timestep_ns": 1.0,
+      "checks": 33753
+    }
+  ],
+  "maximum_mos_terminal_voltage_v": [
+    5.233035294416106,
+    5.23659352657481
+  ],
+  "maximum_via_instantaneous_current_a": [
+    0.0023390914035812393,
+    0.0024656422525565712
+  ],
+  "voltage_peak_difference_v": 0.003558232158703767,
+  "via_peak_difference_a": 0.0001265508489753319,
+  "scope": "Both complete startup runs independently pass the same functional, voltage and current limits. Only maximum time step differs; peak differences are reported, not used to relax any acceptance limit."
+}

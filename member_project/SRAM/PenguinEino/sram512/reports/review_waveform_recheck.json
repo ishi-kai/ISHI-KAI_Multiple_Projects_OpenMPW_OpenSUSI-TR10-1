@@ -1,0 +1,227 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "test": "saved_layout_recheck",
+      "passed": true
+    },
+    {
+      "test": "pcell_preservation",
+      "passed": true
+    },
+    {
+      "test": "digital",
+      "passed": true
+    },
+    {
+      "test": "decoderfix_decode_coverage",
+      "passed": true
+    },
+    {
+      "test": "decoderfix_startup_5n",
+      "passed": true
+    },
+    {
+      "test": "decoderfix_startup_1n",
+      "passed": true
+    },
+    {
+      "test": "decoderfix_startup_comparison",
+      "passed": true
+    },
+    {
+      "test": "decoderfix_mesh4_prefix",
+      "passed": true
+    },
+    {
+      "test": "decoderfix_mesh8_prefix",
+      "passed": true
+    },
+    {
+      "test": "decoderfix_signal_resolution",
+      "passed": true
+    },
+    {
+      "test": "decoderfix_power_paths_ramp",
+      "passed": true
+    },
+    {
+      "test": "decoderfix_pg_rc3_lowhot",
+      "passed": true
+    },
+    {
+      "test": "decoderfix_power_paths_ramp_power_wires",
+      "passed": true
+    },
+    {
+      "test": "decoderfix_pg_rc3_lowhot_power_wires",
+      "passed": true
+    },
+    {
+      "test": "decoderfix_operational_hot",
+      "passed": true
+    },
+    {
+      "test": "decoderfix_reset_write0",
+      "passed": true
+    },
+    {
+      "test": "decoderfix_reset_write1",
+      "passed": true
+    },
+    {
+      "test": "analog_pd102_nominal",
+      "passed": true
+    },
+    {
+      "test": "analog_pd102_low_cold",
+      "passed": true
+    },
+    {
+      "test": "analog_pd102_low_hot",
+      "passed": true
+    },
+    {
+      "test": "analog_pd102_high_cold",
+      "passed": true
+    },
+    {
+      "test": "analog_pd102_high_hot",
+      "passed": true
+    },
+    {
+      "test": "analog_pd102_wire_3x",
+      "passed": true
+    },
+    {
+      "test": "analog_pd102_wire_1p_hot",
+      "passed": true
+    },
+    {
+      "test": "analog_pd102_vth_slow_n_fast_p",
+      "passed": true
+    },
+    {
+      "test": "analog_pd102_vth_fast_n_slow_p",
+      "passed": true
+    }
+  ],
+  "reassessed": [
+    {
+      "test": "saved_layout_recheck",
+      "passed": true,
+      "report": "sram512/reports/rechecks/saved_layout_recheck.json"
+    },
+    {
+      "test": "decoderfix_decode_coverage",
+      "passed": true,
+      "report": "sram512/reports/rechecks/decoderfix_decode_coverage.json"
+    },
+    {
+      "test": "decoderfix_startup_5n",
+      "passed": true,
+      "report": "sram512/reports/rechecks/decoderfix_startup_5n.json"
+    },
+    {
+      "test": "decoderfix_startup_1n",
+      "passed": true,
+      "report": "sram512/reports/rechecks/decoderfix_startup_1n.json"
+    },
+    {
+      "test": "decoderfix_startup_comparison",
+      "passed": true,
+      "report": "sram512/reports/rechecks/decoderfix_startup_comparison.json"
+    },
+    {
+      "test": "decoderfix_mesh4_prefix",
+      "passed": true,
+      "report": "sram512/reports/rechecks/decoderfix_mesh4_prefix.json"
+    },
+    {
+      "test": "decoderfix_mesh8_prefix",
+      "passed": true,
+      "report": "sram512/reports/rechecks/decoderfix_mesh8_prefix.json"
+    },
+    {
+      "test": "decoderfix_power_paths_ramp",
+      "passed": true,
+      "report": "sram512/reports/rechecks/decoderfix_power_paths_ramp.json"
+    },
+    {
+      "test": "decoderfix_pg_rc3_lowhot",
+      "passed": true,
+      "report": "sram512/reports/rechecks/decoderfix_pg_rc3_lowhot.json"
+    },
+    {
+      "test": "decoderfix_power_paths_ramp_power_wires",
+      "passed": true,
+      "report": "sram512/reports/rechecks/decoderfix_power_paths_ramp_power_wires.json"
+    },
+    {
+      "test": "decoderfix_pg_rc3_lowhot_power_wires",
+      "passed": true,
+      "report": "sram512/reports/rechecks/decoderfix_pg_rc3_lowhot_power_wires.json"
+    },
+    {
+      "test": "decoderfix_operational_hot",
+      "passed": true,
+      "report": "sram512/reports/rechecks/decoderfix_operational_hot.json"
+    },
+    {
+      "test": "decoderfix_reset_write0",
+      "passed": true,
+      "report": "sram512/reports/rechecks/decoderfix_reset_write0.json"
+    },
+    {
+      "test": "decoderfix_reset_write1",
+      "passed": true,
+      "report": "sram512/reports/rechecks/decoderfix_reset_write1.json"
+    },
+    {
+      "test": "analog_pd102_nominal",
+      "passed": true,
+      "report": "sram512/reports/rechecks/analog_pd102_nominal.json"
+    },
+    {
+      "test": "analog_pd102_low_cold",
+      "passed": true,
+      "report": "sram512/reports/rechecks/analog_pd102_low_cold.json"
+    },
+    {
+      "test": "analog_pd102_low_hot",
+      "passed": true,
+      "report": "sram512/reports/rechecks/analog_pd102_low_hot.json"
+    },
+    {
+      "test": "analog_pd102_high_cold",
+      "passed": true,
+      "report": "sram512/reports/rechecks/analog_pd102_high_cold.json"
+    },
+    {
+      "test": "analog_pd102_high_hot",
+      "passed": true,
+      "report": "sram512/reports/rechecks/analog_pd102_high_hot.json"
+    },
+    {
+      "test": "analog_pd102_wire_3x",
+      "passed": true,
+      "report": "sram512/reports/rechecks/analog_pd102_wire_3x.json"
+    },
+    {
+      "test": "analog_pd102_wire_1p_hot",
+      "passed": true,
+      "report": "sram512/reports/rechecks/analog_pd102_wire_1p_hot.json"
+    },
+    {
+      "test": "analog_pd102_vth_slow_n_fast_p",
+      "passed": true,
+      "report": "sram512/reports/rechecks/analog_pd102_vth_slow_n_fast_p.json"
+    },
+    {
+      "test": "analog_pd102_vth_fast_n_slow_p",
+      "passed": true,
+      "report": "sram512/reports/rechecks/analog_pd102_vth_fast_n_slow_p.json"
+    }
+  ],
+  "source_gds_sha256": "56810ad742a73036fb9db5207c75a2fcd63d344833c17da5f6270f1dc128bca1"
+}

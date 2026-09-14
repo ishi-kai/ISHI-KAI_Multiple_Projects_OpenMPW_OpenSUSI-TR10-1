@@ -1,0 +1,200 @@
+{
+  "passed": true,
+  "checks": 33699,
+  "failure_count": 0,
+  "failures": [],
+  "read_observations": [
+    {
+      "operation": 4,
+      "row": 0,
+      "col": 0,
+      "sae_half_ns": 88016.07382145501,
+      "y_difference_v": -5.028404065956023
+    },
+    {
+      "operation": 5,
+      "row": 0,
+      "col": 31,
+      "sae_half_ns": 106015.98503284514,
+      "y_difference_v": 5.026637660829349
+    },
+    {
+      "operation": 6,
+      "row": 15,
+      "col": 0,
+      "sae_half_ns": 124015.97045236829,
+      "y_difference_v": 5.025651139297745
+    },
+    {
+      "operation": 7,
+      "row": 15,
+      "col": 31,
+      "sae_half_ns": 142016.06938951946,
+      "y_difference_v": -5.028009463835916
+    },
+    {
+      "operation": 12,
+      "row": 0,
+      "col": 0,
+      "sae_half_ns": 232015.98572854398,
+      "y_difference_v": 5.0267099780846625
+    },
+    {
+      "operation": 13,
+      "row": 0,
+      "col": 31,
+      "sae_half_ns": 250016.05178973085,
+      "y_difference_v": -5.027872344286158
+    },
+    {
+      "operation": 14,
+      "row": 15,
+      "col": 0,
+      "sae_half_ns": 268016.0510893678,
+      "y_difference_v": -5.02784400132813
+    },
+    {
+      "operation": 15,
+      "row": 15,
+      "col": 31,
+      "sae_half_ns": 286015.9756557893,
+      "y_difference_v": 5.026012839850215
+    }
+  ],
+  "points": 53443,
+  "operations": 16,
+  "voltage_limits": {
+    "passed": true,
+    "checks": 30030,
+    "failure_count": 0,
+    "failures": [],
+    "maximum_by_pair": {
+      "DS": {
+        "device": 3641,
+        "model": "PMOS",
+        "cell": "DFFR",
+        "instance": 21,
+        "pair": "DS",
+        "peak_abs_v": 5.589841908867623,
+        "time_ns": 247033.39350495185,
+        "position_um": [
+          1685.5,
+          578.3
+        ]
+      },
+      "GS": {
+        "device": 3924,
+        "model": "NMOS",
+        "cell": "DFFR",
+        "instance": 29,
+        "pair": "GS",
+        "peak_abs_v": 5.375622754590791,
+        "time_ns": 91008.7273543014,
+        "position_um": [
+          1680.7,
+          435.8
+        ]
+      },
+      "SB": {
+        "device": 3922,
+        "model": "NMOS",
+        "cell": "DFFR",
+        "instance": 29,
+        "pair": "SB",
+        "peak_abs_v": 5.375622754590791,
+        "time_ns": 91008.7273543014,
+        "position_um": [
+          1674.3,
+          435.8
+        ]
+      },
+      "DB": {
+        "device": 3921,
+        "model": "NMOS",
+        "cell": "DFFR",
+        "instance": 29,
+        "pair": "DB",
+        "peak_abs_v": 5.375622754590791,
+        "time_ns": 91008.7273543014,
+        "position_um": [
+          1670.3,
+          435.8
+        ]
+      },
+      "GD": {
+        "device": 3924,
+        "model": "NMOS",
+        "cell": "DFFR",
+        "instance": 29,
+        "pair": "GD",
+        "peak_abs_v": 5.371109451280134,
+        "time_ns": 91008.7273543014,
+        "position_um": [
+          1680.7,
+          435.8
+        ]
+      },
+      "GB": {
+        "device": 3924,
+        "model": "NMOS",
+        "cell": "DFFR",
+        "instance": 29,
+        "pair": "GB",
+        "peak_abs_v": 5.375622754590791,
+        "time_ns": 91008.7273543014,
+        "position_um": [
+          1680.7,
+          435.8
+        ]
+      }
+    },
+    "limit_abs_v": 5.75,
+    "source": "Unmodified dev OS00 reference manual rev1.1, table I-2-3 (recommended MOS operating voltages).",
+    "scope": "Absolute terminal-pair amplitudes. This does not replace current, ESD, or statistical-corner qualification."
+  },
+  "name": "voltage_envelope_nominal",
+  "physical_extraction": {
+    "gds_sha256": "edc28e137131a870bd7d0a99b587b472b969a861329af68d25aaf9493da63b20",
+    "lvsdb_sha256": "6b505f220cd705c90f47b075168a9f7c34df2bebfbdfaaa13dd338e3d372ba3f",
+    "mos_groups": 5005,
+    "physical_fingers": 5081,
+    "model_counts": {
+      "PMOS": 1991,
+      "NMOS": 3014,
+      "DP": 4,
+      "DN": 4
+    },
+    "source": "/home/ishi-kai/sram/build/sram512/layout/power_bypass_h720"
+  },
+  "period_ns": 1000,
+  "voltage_v": 5,
+  "temperature_c": 27,
+  "elapsed_seconds": 399.16,
+  "deck_sha256": "0030c0db112b60f3c59b4882e166225ff4e0b02aa11d43271f6061b0e4cd2c7a",
+  "reused_waveform": false,
+  "model_notices": [
+    {
+      "model": "DN",
+      "unsupported_parameters": [
+        "imax",
+        "imelt"
+      ],
+      "consequence": "Diode current/melting limit flags are not implemented by ngspice."
+    },
+    {
+      "model": "DP",
+      "unsupported_parameters": [
+        "imax",
+        "imelt"
+      ],
+      "consequence": "Diode current/melting limit flags are not implemented by ngspice."
+    }
+  ],
+  "solver": "klu",
+  "interconnect": "Extra lumped C only; wire resistance and distributed RC not yet included",
+  "supply_current_a": {
+    "max": 0.09562532919315116,
+    "time_mean": 0.00012402539584055553,
+    "rms": 0.0010558431389373097
+  }
+}

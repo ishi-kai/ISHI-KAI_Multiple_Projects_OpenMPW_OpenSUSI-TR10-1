@@ -1,0 +1,29 @@
+{
+  "passed": true,
+  "source_gds_sha256": "56810ad742a73036fb9db5207c75a2fcd63d344833c17da5f6270f1dc128bca1",
+  "runs": [
+    {
+      "name": "decoderfix_startup_5n",
+      "deck_sha256": "baed04dba2ab2e8ea60c44c4037f46638e651296fd699e53514ff862b3173bf7",
+      "maximum_timestep_ns": 5.0,
+      "checks": 33753
+    },
+    {
+      "name": "decoderfix_startup_1n",
+      "deck_sha256": "47ffef7305ceeded4110c5ff4517bc9bb1ad4bbcc7ec741698dd250a8c79af0a",
+      "maximum_timestep_ns": 1.0,
+      "checks": 33753
+    }
+  ],
+  "maximum_mos_terminal_voltage_v": [
+    5.233036641537722,
+    5.236594464989589
+  ],
+  "maximum_via_instantaneous_current_a": [
+    0.0024382697447294663,
+    0.00246551081944851
+  ],
+  "voltage_peak_difference_v": 0.0035578234518673924,
+  "via_peak_difference_a": 2.7241074719043783e-05,
+  "scope": "Both complete startup runs independently pass the same functional, voltage and current limits. Only maximum time step differs; peak differences are reported, not used to relax any acceptance limit."
+}

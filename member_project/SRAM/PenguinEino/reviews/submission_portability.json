@@ -1,0 +1,250 @@
+{
+  "passed": true,
+  "format": "flat-sch-sym-gds-md-png-svg",
+  "checked_utc": "2026-09-13T03:05:43.802374+00:00",
+  "independent_copy": "/home/ishi-kai/sram/build/sram512/submission_lvs/default_flow_hm3p8d_b",
+  "source_repository_needed_for_schematics": false,
+  "pdk_installation_needed": true,
+  "pdk_revision": "6afbd918951f2ea0dcd11c5a46986b4c20f9e6f9",
+  "files": 30,
+  "subdirectories": 0,
+  "erc": {
+    "sram512": true,
+    "sram512_tb": true
+  },
+  "electrical_files_unchanged": true,
+  "netlist_comparison": {
+    "passed": true,
+    "canonical_lines": 1492,
+    "canonical_sha256": "0392cb9524793bb78fc9323a32e2fd23f31ffc7301c345edd30d705ef00f4da2",
+    "ignored": "Comments, blank/formatting whitespace, interactive plot/quit commands and model include directory. All included model bytes were separately compared.",
+    "reference_deck": "build/sram512/organization/submission_portability/test.spice",
+    "reference_deck_sha256": "ca1fa4c1f393b63315e4400712dfafd7c19962edf5dd5271df04754d5ec94b45",
+    "new_deck": "build/sram512/submission_lvs/simulation_erc/sram512_tb.spice",
+    "new_deck_sha256": "82025f5a6879639f4d1df6e82291e1bde8af831f2fd98c3b6362c0bfe29feff9"
+  },
+  "prior_simulation": {
+    "passed": true,
+    "operations": 16,
+    "result": "PASS: 16 accesses; stored cell and SDO checks",
+    "data_rows": 53813,
+    "log": "build/sram512/organization/submission_portability/simulation.log",
+    "log_sha256": "6754ff361d8bc816f7081bd51b1f9679132fd323a52a57e1f905568fd34a7c9e",
+    "unsupported_pdk_fields": [
+      "DN/DP: IMAX",
+      "DN/DP: IMELT"
+    ]
+  },
+  "scope": "Unchanged electrical SCH/SYM files and MOS simulation netlist. An isolated export was freshly netlisted with standard Xschem LVS settings, then checked by the original dev GUI macro using its default current-view source and simulation/sram512.spice lookup. Exported GDS preserves every polygon and text coordinate after integrating one wrapper. Fresh DRC 0 and strict LVS match; earlier transistor simulation remains applicable by netlist/model identity.",
+  "final_archive": {
+    "path": "build/sram512/submission/sram512_submission_7cf6744ff1a1.zip",
+    "sha256": "4dd763f388a9df293f92000c00751533e87e0824352e9779ecd80b7c9f746857",
+    "bytes": 2290009
+  },
+  "layout_export": {
+    "passed": true,
+    "source_gds_sha256": "56810ad742a73036fb9db5207c75a2fcd63d344833c17da5f6270f1dc128bca1",
+    "submitted_gds_sha256": "7cf6744ff1a17bc7a6560639bbdaeea98041bc4eb0629763154e4c86e44be5a2",
+    "source_top": "sram512_macro",
+    "submitted_top": "sram512",
+    "change": "Integrate only the outer coordinate/port wrapper; preserve all physical geometry and text.",
+    "bbox_um": "(0,0;1776.7,600)",
+    "layers": [
+      {
+        "layer": [
+          13,
+          0
+        ],
+        "polygons_equal": true,
+        "texts_equal": true,
+        "text_count": 0
+      },
+      {
+        "layer": [
+          11,
+          0
+        ],
+        "polygons_equal": true,
+        "texts_equal": true,
+        "text_count": 0
+      },
+      {
+        "layer": [
+          8,
+          1
+        ],
+        "polygons_equal": true,
+        "texts_equal": true,
+        "text_count": 0
+      },
+      {
+        "layer": [
+          3,
+          2
+        ],
+        "polygons_equal": true,
+        "texts_equal": true,
+        "text_count": 0
+      },
+      {
+        "layer": [
+          19,
+          0
+        ],
+        "polygons_equal": true,
+        "texts_equal": true,
+        "text_count": 0
+      },
+      {
+        "layer": [
+          20,
+          0
+        ],
+        "polygons_equal": true,
+        "texts_equal": true,
+        "text_count": 0
+      },
+      {
+        "layer": [
+          3,
+          1
+        ],
+        "polygons_equal": true,
+        "texts_equal": true,
+        "text_count": 0
+      },
+      {
+        "layer": [
+          140,
+          0
+        ],
+        "polygons_equal": true,
+        "texts_equal": true,
+        "text_count": 0
+      },
+      {
+        "layer": [
+          235,
+          0
+        ],
+        "polygons_equal": true,
+        "texts_equal": true,
+        "text_count": 0
+      },
+      {
+        "layer": [
+          48,
+          0
+        ],
+        "polygons_equal": true,
+        "texts_equal": true,
+        "text_count": 1248
+      },
+      {
+        "layer": [
+          48,
+          1
+        ],
+        "polygons_equal": true,
+        "texts_equal": true,
+        "text_count": 0
+      },
+      {
+        "layer": [
+          49,
+          0
+        ],
+        "polygons_equal": true,
+        "texts_equal": true,
+        "text_count": 305
+      }
+    ]
+  },
+  "gui_lvs": {
+    "passed": true,
+    "top": "sram512",
+    "circuit_pairs": [
+      "Match",
+      "Match",
+      "Match",
+      "Match",
+      "Match",
+      "Match",
+      "Match",
+      "Match",
+      "Match",
+      "Match",
+      "Match",
+      "Match",
+      "Match"
+    ],
+    "errors": [],
+    "strict_ports": true,
+    "reference": "simulation/sram512.spice",
+    "reference_override": false
+  },
+  "drawing_drc": {
+    "passed": true,
+    "items": 0
+  },
+  "documentation_update": {
+    "checked_utc": "2026-09-13T03:40:30.073791+00:00",
+    "markdown_files": [
+      "README.md",
+      "SPEC.md"
+    ],
+    "links_resolve": true,
+    "port_coordinates_unchanged": true,
+    "sch_sym_gds_unchanged": true,
+    "previous_manifest_commit": "0854c30a681967d704255aab1104798f8ef698a0",
+    "images": [
+      "sram512_layout.png",
+      "sram512_schematic.svg"
+    ],
+    "image_sources_match": true,
+    "images_visually_reviewed": true,
+    "area_figures_recomputed": true,
+    "scope": "README previews and appeal, specification terminology, and exporter updated. All 26 SCH/SYM/GDS files are byte-identical to the preceding export; existing physical and simulation evidence remains applicable. Flat ZIP, all file hashes, document links and image decoders checked."
+  },
+  "readme_wording_update": {
+    "checked_utc": "2026-09-13T05:40:54.135523+00:00",
+    "source_commit": "a61700d88cd3ac21b1f0e585564bf796b40828bb",
+    "changed_files": [
+      "README.md"
+    ],
+    "change": "Revised contribution draft: mention PenguinEino, assign peripheral circuit design to PenguinEino, and remove dialogue wording. Prepared for user review before push.",
+    "other_37_files_unchanged": true,
+    "archive_hashes_checked": true
+  },
+  "documentation_refresh": {
+    "checked_utc": "2026-09-13T05:23:37.310798+00:00",
+    "source_commit": "75fa00608117ba05375c24e21dcc33e722997428",
+    "changed_submission_files": [
+      "README.md",
+      "SPEC.md",
+      "cell_branches.png",
+      "cell_compact.png",
+      "cell_hand.png",
+      "cell_one_wl.png",
+      "cell_pcell.png",
+      "cell_shared.png",
+      "cell_two_wl.png"
+    ],
+    "published_files": 38,
+    "electrical_files_unchanged": true,
+    "archive_hashes_checked": true,
+    "document_links_resolve": true,
+    "initial_hand_layout_image_visually_reviewed": true,
+    "original_hand_gds_matches_commit": "37c2088",
+    "layout_densities_verified_from_gds_placement": 7,
+    "comparison_view_um": [
+      160,
+      120
+    ],
+    "hierarchy_diagram_count": 1,
+    "hierarchy_edges_preserved": 13,
+    "hierarchy_diagram_rendered_and_visually_reviewed": true,
+    "simulation_rerun": false,
+    "scope": "Initial hand-drawn 2x2 layout added with measured 57.5 x 28 um pitch and 621 bit/mm2 density. All seven layout images use the same scale. One Mermaid hierarchy groups the controller subtree to avoid arrows crossing other nodes. All 26 electrical files are unchanged; prior circuit verification remains applicable."
+  }
+}

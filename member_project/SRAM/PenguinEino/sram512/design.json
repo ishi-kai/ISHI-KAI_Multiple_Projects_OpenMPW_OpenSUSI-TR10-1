@@ -1,0 +1,2753 @@
+{
+  "rows": 16,
+  "columns": 32,
+  "receive_bits": 10,
+  "clocks_per_operation": 18,
+  "blocks": [
+    {
+      "name": "sram512_phase",
+      "ports": [
+        "CLK",
+        "RESET",
+        "RX",
+        "E0",
+        "E1",
+        "E2",
+        "E3",
+        "E4",
+        "E5",
+        "E6",
+        "E7",
+        "VDD",
+        "VSS"
+      ],
+      "parts": [
+        {
+          "kind": "AND4_X1",
+          "name": "count_low_zero",
+          "nets": {
+            "VDD": "VDD",
+            "GND": "VSS",
+            "Y": "LOW_ZERO",
+            "A": "C0B",
+            "B": "C1B",
+            "C": "C2B",
+            "D": "C3B"
+          },
+          "xy": [
+            0,
+            1650
+          ]
+        },
+        {
+          "kind": "OR2",
+          "name": "count_run",
+          "nets": {
+            "VDD": "VDD",
+            "GND": "VSS",
+            "Y": "COUNT_RUN",
+            "A": "C4B",
+            "B": "LOW_ZERO"
+          },
+          "xy": [
+            450,
+            1650
+          ]
+        },
+        {
+          "kind": "AND2_X1",
+          "name": "next0",
+          "nets": {
+            "VDD": "VDD",
+            "GND": "VSS",
+            "Y": "NEXT0",
+            "A": "C0B",
+            "B": "COUNT_RUN"
+          },
+          "xy": [
+            480,
+            0
+          ]
+        },
+        {
+          "kind": "DFFR",
+          "name": "counter0",
+          "nets": {
+            "VDD": "VDD",
+            "GND": "VSS",
+            "D": "NEXT0",
+            "Q": "C0",
+            "QB": "C0B",
+            "CK": "CLK",
+            "RST": "RESET"
+          },
+          "xy": [
+            850,
+            30
+          ]
+        },
+        {
+          "kind": "XOR2",
+          "name": "toggle1",
+          "nets": {
+            "VDD": "VDD",
+            "GND": "VSS",
+            "A": "C1",
+            "B": "C0",
+            "Y": "TOGGLE1"
+          },
+          "xy": [
+            160,
+            300
+          ]
+        },
+        {
+          "kind": "AND2_X1",
+          "name": "next1",
+          "nets": {
+            "VDD": "VDD",
+            "GND": "VSS",
+            "Y": "NEXT1",
+            "A": "TOGGLE1",
+            "B": "COUNT_RUN"
+          },
+          "xy": [
+            480,
+            300
+          ]
+        },
+        {
+          "kind": "DFFR",
+          "name": "counter1",
+          "nets": {
+            "VDD": "VDD",
+            "GND": "VSS",
+            "D": "NEXT1",
+            "Q": "C1",
+            "QB": "C1B",
+            "CK": "CLK",
+            "RST": "RESET"
+          },
+          "xy": [
+            850,
+            330
+          ]
+        },
+        {
+          "kind": "AND2_X1",
+          "name": "carry2",
+          "nets": {
+            "VDD": "VDD",
+            "GND": "VSS",
+            "Y": "CARRY2",
+            "A": "C0",
+            "B": "C1"
+          },
+          "xy": [
+            -160,
+            720
+          ]
+        },
+        {
+          "kind": "XOR2",
+          "name": "toggle2",
+          "nets": {
+            "VDD": "VDD",
+            "GND": "VSS",
+            "A": "C2",
+            "B": "CARRY2",
+            "Y": "TOGGLE2"
+          },
+          "xy": [
+            160,
+            600
+          ]
+        },
+        {
+          "kind": "AND2_X1",
+          "name": "next2",
+          "nets": {
+            "VDD": "VDD",
+            "GND": "VSS",
+            "Y": "NEXT2",
+            "A": "TOGGLE2",
+            "B": "COUNT_RUN"
+          },
+          "xy": [
+            480,
+            600
+          ]
+        },
+        {
+          "kind": "DFFR",
+          "name": "counter2",
+          "nets": {
+            "VDD": "VDD",
+            "GND": "VSS",
+            "D": "NEXT2",
+            "Q": "C2",
+            "QB": "C2B",
+            "CK": "CLK",
+            "RST": "RESET"
+          },
+          "xy": [
+            850,
+            630
+          ]
+        },
+        {
+          "kind": "AND3_X1",
+          "name": "carry3",
+          "nets": {
+            "VDD": "VDD",
+            "GND": "VSS",
+            "Y": "CARRY3",
+            "A": "C0",
+            "B": "C1",
+            "C": "C2"
+          },
+          "xy": [
+            -160,
+            1020
+          ]
+        },
+        {
+          "kind": "XOR2",
+          "name": "toggle3",
+          "nets": {
+            "VDD": "VDD",
+            "GND": "VSS",
+            "A": "C3",
+            "B": "CARRY3",
+            "Y": "TOGGLE3"
+          },
+          "xy": [
+            160,
+            900
+          ]
+        },
+        {
+          "kind": "AND2_X1",
+          "name": "next3",
+          "nets": {
+            "VDD": "VDD",
+            "GND": "VSS",
+            "Y": "NEXT3",
+            "A": "TOGGLE3",
+            "B": "COUNT_RUN"
+          },
+          "xy": [
+            480,
+            900
+          ]
+        },
+        {
+          "kind": "DFFR",
+          "name": "counter3",
+          "nets": {
+            "VDD": "VDD",
+            "GND": "VSS",
+            "D": "NEXT3",
+            "Q": "C3",
+            "QB": "C3B",
+            "CK": "CLK",
+            "RST": "RESET"
+          },
+          "xy": [
+            850,
+            930
+          ]
+        },
+        {
+          "kind": "AND4_X1",
+          "name": "carry4",
+          "nets": {
+            "VDD": "VDD",
+            "GND": "VSS",
+            "Y": "CARRY4",
+            "A": "C0",
+            "B": "C1",
+            "C": "C2",
+            "D": "C3"
+          },
+          "xy": [
+            -160,
+            1320
+          ]
+        },
+        {
+          "kind": "XOR2",
+          "name": "toggle4",
+          "nets": {
+            "VDD": "VDD",
+            "GND": "VSS",
+            "A": "C4",
+            "B": "CARRY4",
+            "Y": "TOGGLE4"
+          },
+          "xy": [
+            160,
+            1200
+          ]
+        },
+        {
+          "kind": "AND2_X1",
+          "name": "next4",
+          "nets": {
+            "VDD": "VDD",
+            "GND": "VSS",
+            "Y": "NEXT4",
+            "A": "TOGGLE4",
+            "B": "COUNT_RUN"
+          },
+          "xy": [
+            480,
+            1200
+          ]
+        },
+        {
+          "kind": "DFFR",
+          "name": "counter4",
+          "nets": {
+            "VDD": "VDD",
+            "GND": "VSS",
+            "D": "NEXT4",
+            "Q": "C4",
+            "QB": "C4B",
+            "CK": "CLK",
+            "RST": "RESET"
+          },
+          "xy": [
+            850,
+            1230
+          ]
+        },
+        {
+          "kind": "AND4_X1",
+          "name": "phase0_low",
+          "nets": {
+            "VDD": "VDD",
+            "GND": "VSS",
+            "Y": "E0_LOW",
+            "A": "C0B",
+            "B": "C1",
+            "C": "C2B",
+            "D": "C3"
+          },
+          "xy": [
+            2140,
+            0
+          ]
+        },
+        {
+          "kind": "AND2_X1",
+          "name": "phase0",
+          "nets": {
+            "VDD": "VDD",
+            "GND": "VSS",
+            "Y": "E0",
+            "A": "E0_LOW",
+            "B": "C4B"
+          },
+          "xy": [
+            2470,
+            0
+          ]
+        },
+        {
+          "kind": "AND4_X1",
+          "name": "phase1_low",
+          "nets": {
+            "VDD": "VDD",
+            "GND": "VSS",
+            "Y": "E1_LOW",
+            "A": "C0",
+            "B": "C1",
+            "C": "C2B",
+            "D": "C3"
+          },
+          "xy": [
+            2140,
+            240
+          ]
+        },
+        {
+          "kind": "AND2_X1",
+          "name": "phase1",
+          "nets": {
+            "VDD": "VDD",
+            "GND": "VSS",
+            "Y": "E1",
+            "A": "E1_LOW",
+            "B": "C4B"
+          },
+          "xy": [
+            2470,
+            240
+          ]
+        },
+        {
+          "kind": "AND4_X1",
+          "name": "phase2_low",
+          "nets": {
+            "VDD": "VDD",
+            "GND": "VSS",
+            "Y": "E2_LOW",
+            "A": "C0B",
+            "B": "C1B",
+            "C": "C2",
+            "D": "C3"
+          },
+          "xy": [
+            2140,
+            480
+          ]
+        },
+        {
+          "kind": "AND2_X1",
+          "name": "phase2",
+          "nets": {
+            "VDD": "VDD",
+            "GND": "VSS",
+            "Y": "E2",
+            "A": "E2_LOW",
+            "B": "C4B"
+          },
+          "xy": [
+            2470,
+            480
+          ]
+        },
+        {
+          "kind": "AND4_X1",
+          "name": "phase3_low",
+          "nets": {
+            "VDD": "VDD",
+            "GND": "VSS",
+            "Y": "E3_LOW",
+            "A": "C0",
+            "B": "C1B",
+            "C": "C2",
+            "D": "C3"
+          },
+          "xy": [
+            2140,
+            720
+          ]
+        },
+        {
+          "kind": "AND2_X1",
+          "name": "phase3",
+          "nets": {
+            "VDD": "VDD",
+            "GND": "VSS",
+            "Y": "E3",
+            "A": "E3_LOW",
+            "B": "C4B"
+          },
+          "xy": [
+            2470,
+            720
+          ]
+        },
+        {
+          "kind": "AND4_X1",
+          "name": "phase4_low",
+          "nets": {
+            "VDD": "VDD",
+            "GND": "VSS",
+            "Y": "E4_LOW",
+            "A": "C0B",
+            "B": "C1",
+            "C": "C2",
+            "D": "C3"
+          },
+          "xy": [
+            2140,
+            960
+          ]
+        },
+        {
+          "kind": "AND2_X1",
+          "name": "phase4",
+          "nets": {
+            "VDD": "VDD",
+            "GND": "VSS",
+            "Y": "E4",
+            "A": "E4_LOW",
+            "B": "C4B"
+          },
+          "xy": [
+            2470,
+            960
+          ]
+        },
+        {
+          "kind": "AND4_X1",
+          "name": "phase5_low",
+          "nets": {
+            "VDD": "VDD",
+            "GND": "VSS",
+            "Y": "E5_LOW",
+            "A": "C0",
+            "B": "C1",
+            "C": "C2",
+            "D": "C3"
+          },
+          "xy": [
+            2140,
+            1200
+          ]
+        },
+        {
+          "kind": "AND2_X1",
+          "name": "phase5",
+          "nets": {
+            "VDD": "VDD",
+            "GND": "VSS",
+            "Y": "E5",
+            "A": "E5_LOW",
+            "B": "C4B"
+          },
+          "xy": [
+            2470,
+            1200
+          ]
+        },
+        {
+          "kind": "AND4_X1",
+          "name": "phase6_low",
+          "nets": {
+            "VDD": "VDD",
+            "GND": "VSS",
+            "Y": "E6_LOW",
+            "A": "C0B",
+            "B": "C1B",
+            "C": "C2B",
+            "D": "C3B"
+          },
+          "xy": [
+            2140,
+            1440
+          ]
+        },
+        {
+          "kind": "AND2_X1",
+          "name": "phase6",
+          "nets": {
+            "VDD": "VDD",
+            "GND": "VSS",
+            "Y": "E6",
+            "A": "E6_LOW",
+            "B": "C4"
+          },
+          "xy": [
+            2470,
+            1440
+          ]
+        },
+        {
+          "kind": "AND4_X1",
+          "name": "phase7_low",
+          "nets": {
+            "VDD": "VDD",
+            "GND": "VSS",
+            "Y": "E7_LOW",
+            "A": "C0",
+            "B": "C1B",
+            "C": "C2B",
+            "D": "C3B"
+          },
+          "xy": [
+            2140,
+            1680
+          ]
+        },
+        {
+          "kind": "AND2_X1",
+          "name": "phase7",
+          "nets": {
+            "VDD": "VDD",
+            "GND": "VSS",
+            "Y": "E7",
+            "A": "E7_LOW",
+            "B": "C4"
+          },
+          "xy": [
+            2470,
+            1680
+          ]
+        },
+        {
+          "kind": "AND2_X1",
+          "name": "rx_low",
+          "nets": {
+            "VDD": "VDD",
+            "GND": "VSS",
+            "Y": "RX_LOW",
+            "A": "C2B",
+            "B": "C1B"
+          },
+          "xy": [
+            1560,
+            2160
+          ]
+        },
+        {
+          "kind": "OR2",
+          "name": "rx_upper",
+          "nets": {
+            "VDD": "VDD",
+            "GND": "VSS",
+            "Y": "RX_UPPER",
+            "A": "C3B",
+            "B": "RX_LOW"
+          },
+          "xy": [
+            1890,
+            2160
+          ]
+        },
+        {
+          "kind": "AND2_X1",
+          "name": "rx",
+          "nets": {
+            "VDD": "VDD",
+            "GND": "VSS",
+            "Y": "RX",
+            "A": "C4B",
+            "B": "RX_UPPER"
+          },
+          "xy": [
+            2230,
+            2160
+          ]
+        }
+      ]
+    },
+    {
+      "name": "sram512_frame",
+      "ports": [
+        "CLK",
+        "RESET",
+        "RX",
+        "SDI",
+        "DIN",
+        "DINB",
+        "CA0",
+        "CA0B",
+        "CA1",
+        "CA1B",
+        "CA2",
+        "CA2B",
+        "CA3",
+        "CA3B",
+        "CA4",
+        "CA4B",
+        "RA0",
+        "RA0B",
+        "RA1",
+        "RA1B",
+        "RA2",
+        "RA2B",
+        "RA3",
+        "RA3B",
+        "VDD",
+        "VSS"
+      ],
+      "parts": [
+        {
+          "kind": "MUX2",
+          "name": "frame_DIN_hold",
+          "nets": {
+            "VDD": "VDD",
+            "GND": "VSS",
+            "A": "DIN",
+            "B": "SDI",
+            "S": "RX",
+            "Y": "DIN_D"
+          },
+          "xy": [
+            0,
+            0
+          ]
+        },
+        {
+          "kind": "DFFR",
+          "name": "frame_DIN",
+          "nets": {
+            "VDD": "VDD",
+            "GND": "VSS",
+            "D": "DIN_D",
+            "Q": "DIN",
+            "QB": "DINB",
+            "CK": "CLK",
+            "RST": "RESET"
+          },
+          "xy": [
+            300,
+            30
+          ]
+        },
+        {
+          "kind": "MUX2",
+          "name": "frame_CA0_hold",
+          "nets": {
+            "VDD": "VDD",
+            "GND": "VSS",
+            "A": "CA0",
+            "B": "DIN",
+            "S": "RX",
+            "Y": "CA0_D"
+          },
+          "xy": [
+            760,
+            0
+          ]
+        },
+        {
+          "kind": "DFFR",
+          "name": "frame_CA0",
+          "nets": {
+            "VDD": "VDD",
+            "GND": "VSS",
+            "D": "CA0_D",
+            "Q": "CA0",
+            "QB": "CA0B",
+            "CK": "CLK",
+            "RST": "RESET"
+          },
+          "xy": [
+            1060,
+            30
+          ]
+        },
+        {
+          "kind": "MUX2",
+          "name": "frame_CA1_hold",
+          "nets": {
+            "VDD": "VDD",
+            "GND": "VSS",
+            "A": "CA1",
+            "B": "CA0",
+            "S": "RX",
+            "Y": "CA1_D"
+          },
+          "xy": [
+            1520,
+            0
+          ]
+        },
+        {
+          "kind": "DFFR",
+          "name": "frame_CA1",
+          "nets": {
+            "VDD": "VDD",
+            "GND": "VSS",
+            "D": "CA1_D",
+            "Q": "CA1",
+            "QB": "CA1B",
+            "CK": "CLK",
+            "RST": "RESET"
+          },
+          "xy": [
+            1820,
+            30
+          ]
+        },
+        {
+          "kind": "MUX2",
+          "name": "frame_CA2_hold",
+          "nets": {
+            "VDD": "VDD",
+            "GND": "VSS",
+            "A": "CA2",
+            "B": "CA1",
+            "S": "RX",
+            "Y": "CA2_D"
+          },
+          "xy": [
+            2280,
+            0
+          ]
+        },
+        {
+          "kind": "DFFR",
+          "name": "frame_CA2",
+          "nets": {
+            "VDD": "VDD",
+            "GND": "VSS",
+            "D": "CA2_D",
+            "Q": "CA2",
+            "QB": "CA2B",
+            "CK": "CLK",
+            "RST": "RESET"
+          },
+          "xy": [
+            2580,
+            30
+          ]
+        },
+        {
+          "kind": "MUX2",
+          "name": "frame_CA3_hold",
+          "nets": {
+            "VDD": "VDD",
+            "GND": "VSS",
+            "A": "CA3",
+            "B": "CA2",
+            "S": "RX",
+            "Y": "CA3_D"
+          },
+          "xy": [
+            3040,
+            0
+          ]
+        },
+        {
+          "kind": "DFFR",
+          "name": "frame_CA3",
+          "nets": {
+            "VDD": "VDD",
+            "GND": "VSS",
+            "D": "CA3_D",
+            "Q": "CA3",
+            "QB": "CA3B",
+            "CK": "CLK",
+            "RST": "RESET"
+          },
+          "xy": [
+            3340,
+            30
+          ]
+        },
+        {
+          "kind": "MUX2",
+          "name": "frame_CA4_hold",
+          "nets": {
+            "VDD": "VDD",
+            "GND": "VSS",
+            "A": "CA4",
+            "B": "CA3",
+            "S": "RX",
+            "Y": "CA4_D"
+          },
+          "xy": [
+            0,
+            780
+          ]
+        },
+        {
+          "kind": "DFFR",
+          "name": "frame_CA4",
+          "nets": {
+            "VDD": "VDD",
+            "GND": "VSS",
+            "D": "CA4_D",
+            "Q": "CA4",
+            "QB": "CA4B",
+            "CK": "CLK",
+            "RST": "RESET"
+          },
+          "xy": [
+            300,
+            810
+          ]
+        },
+        {
+          "kind": "MUX2",
+          "name": "frame_RA0_hold",
+          "nets": {
+            "VDD": "VDD",
+            "GND": "VSS",
+            "A": "RA0",
+            "B": "CA4",
+            "S": "RX",
+            "Y": "RA0_D"
+          },
+          "xy": [
+            760,
+            780
+          ]
+        },
+        {
+          "kind": "DFFR",
+          "name": "frame_RA0",
+          "nets": {
+            "VDD": "VDD",
+            "GND": "VSS",
+            "D": "RA0_D",
+            "Q": "RA0",
+            "QB": "RA0B",
+            "CK": "CLK",
+            "RST": "RESET"
+          },
+          "xy": [
+            1060,
+            810
+          ]
+        },
+        {
+          "kind": "MUX2",
+          "name": "frame_RA1_hold",
+          "nets": {
+            "VDD": "VDD",
+            "GND": "VSS",
+            "A": "RA1",
+            "B": "RA0",
+            "S": "RX",
+            "Y": "RA1_D"
+          },
+          "xy": [
+            1520,
+            780
+          ]
+        },
+        {
+          "kind": "DFFR",
+          "name": "frame_RA1",
+          "nets": {
+            "VDD": "VDD",
+            "GND": "VSS",
+            "D": "RA1_D",
+            "Q": "RA1",
+            "QB": "RA1B",
+            "CK": "CLK",
+            "RST": "RESET"
+          },
+          "xy": [
+            1820,
+            810
+          ]
+        },
+        {
+          "kind": "MUX2",
+          "name": "frame_RA2_hold",
+          "nets": {
+            "VDD": "VDD",
+            "GND": "VSS",
+            "A": "RA2",
+            "B": "RA1",
+            "S": "RX",
+            "Y": "RA2_D"
+          },
+          "xy": [
+            2280,
+            780
+          ]
+        },
+        {
+          "kind": "DFFR",
+          "name": "frame_RA2",
+          "nets": {
+            "VDD": "VDD",
+            "GND": "VSS",
+            "D": "RA2_D",
+            "Q": "RA2",
+            "QB": "RA2B",
+            "CK": "CLK",
+            "RST": "RESET"
+          },
+          "xy": [
+            2580,
+            810
+          ]
+        },
+        {
+          "kind": "MUX2",
+          "name": "frame_RA3_hold",
+          "nets": {
+            "VDD": "VDD",
+            "GND": "VSS",
+            "A": "RA3",
+            "B": "RA2",
+            "S": "RX",
+            "Y": "RA3_D"
+          },
+          "xy": [
+            3040,
+            780
+          ]
+        },
+        {
+          "kind": "DFFR",
+          "name": "frame_RA3",
+          "nets": {
+            "VDD": "VDD",
+            "GND": "VSS",
+            "D": "RA3_D",
+            "Q": "RA3",
+            "QB": "RA3B",
+            "CK": "CLK",
+            "RST": "RESET"
+          },
+          "xy": [
+            3340,
+            810
+          ]
+        }
+      ]
+    },
+    {
+      "name": "sram512_control",
+      "ports": [
+        "CLK",
+        "RESET",
+        "WE",
+        "SOUT",
+        "E0",
+        "E1",
+        "E2",
+        "E3",
+        "E4",
+        "E5",
+        "E6",
+        "PREB",
+        "WL_EN",
+        "WRITE_EN",
+        "SAE",
+        "READ_DATA",
+        "VDD",
+        "VSS"
+      ],
+      "parts": [
+        {
+          "kind": "DFFR",
+          "name": "pc",
+          "nets": {
+            "VDD": "VDD",
+            "GND": "VSS",
+            "D": "E0",
+            "Q": "PC_ON",
+            "QB": "PREB",
+            "CK": "CLK",
+            "RST": "RESET"
+          },
+          "xy": [
+            1800,
+            30
+          ]
+        },
+        {
+          "kind": "OR2",
+          "name": "wl_window",
+          "nets": {
+            "VDD": "VDD",
+            "GND": "VSS",
+            "Y": "WL_D",
+            "A": "E3",
+            "B": "E4"
+          },
+          "xy": [
+            850,
+            310
+          ]
+        },
+        {
+          "kind": "DFFR",
+          "name": "wl",
+          "nets": {
+            "VDD": "VDD",
+            "GND": "VSS",
+            "D": "WL_D",
+            "Q": "WL_EN",
+            "QB": "WL_ENB",
+            "CK": "CLK",
+            "RST": "RESET"
+          },
+          "xy": [
+            1800,
+            340
+          ]
+        },
+        {
+          "kind": "OR4",
+          "name": "write_window",
+          "nets": {
+            "VDD": "VDD",
+            "GND": "VSS",
+            "Y": "WRITE_WINDOW",
+            "A": "E2",
+            "B": "E3",
+            "C": "E4",
+            "D": "E5"
+          },
+          "xy": [
+            300,
+            610
+          ]
+        },
+        {
+          "kind": "AND2_X1",
+          "name": "write_data",
+          "nets": {
+            "VDD": "VDD",
+            "GND": "VSS",
+            "Y": "WRITE_D",
+            "A": "WRITE_WINDOW",
+            "B": "W"
+          },
+          "xy": [
+            850,
+            610
+          ]
+        },
+        {
+          "kind": "DFFR",
+          "name": "write",
+          "nets": {
+            "VDD": "VDD",
+            "GND": "VSS",
+            "D": "WRITE_D",
+            "Q": "WRITE_EN",
+            "QB": "WRITE_ENB",
+            "CK": "CLK",
+            "RST": "RESET"
+          },
+          "xy": [
+            1800,
+            640
+          ]
+        },
+        {
+          "kind": "INV_X1",
+          "name": "we_b",
+          "nets": {
+            "VDD": "VDD",
+            "GND": "VSS",
+            "A": "WE",
+            "Y": "WE_B"
+          },
+          "xy": [
+            -100,
+            910
+          ]
+        },
+        {
+          "kind": "AND2_X1",
+          "name": "track_first",
+          "nets": {
+            "VDD": "VDD",
+            "GND": "VSS",
+            "Y": "TRACK_FIRST",
+            "A": "WE_B",
+            "B": "E0"
+          },
+          "xy": [
+            300,
+            930
+          ]
+        },
+        {
+          "kind": "OR3",
+          "name": "track_later_window",
+          "nets": {
+            "VDD": "VDD",
+            "GND": "VSS",
+            "Y": "TRACK_WINDOW",
+            "A": "E1",
+            "B": "E2",
+            "C": "E3"
+          },
+          "xy": [
+            -100,
+            1230
+          ]
+        },
+        {
+          "kind": "AND2_X1",
+          "name": "track_later",
+          "nets": {
+            "VDD": "VDD",
+            "GND": "VSS",
+            "Y": "TRACK_LATER",
+            "A": "TRACK_WINDOW",
+            "B": "WB"
+          },
+          "xy": [
+            300,
+            1250
+          ]
+        },
+        {
+          "kind": "OR2",
+          "name": "track_data",
+          "nets": {
+            "VDD": "VDD",
+            "GND": "VSS",
+            "Y": "TRACK_D",
+            "A": "TRACK_FIRST",
+            "B": "TRACK_LATER"
+          },
+          "xy": [
+            850,
+            1090
+          ]
+        },
+        {
+          "kind": "DFFR",
+          "name": "track",
+          "nets": {
+            "VDD": "VDD",
+            "GND": "VSS",
+            "D": "TRACK_D",
+            "Q": "TRACK",
+            "QB": "SAE",
+            "CK": "CLK",
+            "RST": "RESET"
+          },
+          "xy": [
+            1800,
+            1120
+          ]
+        },
+        {
+          "kind": "MUX2",
+          "name": "mode_hold",
+          "nets": {
+            "VDD": "VDD",
+            "GND": "VSS",
+            "A": "W",
+            "B": "WE",
+            "S": "E0",
+            "Y": "W_D"
+          },
+          "xy": [
+            600,
+            1580
+          ]
+        },
+        {
+          "kind": "DFFR",
+          "name": "mode",
+          "nets": {
+            "VDD": "VDD",
+            "GND": "VSS",
+            "D": "W_D",
+            "Q": "W",
+            "QB": "WB",
+            "CK": "CLK",
+            "RST": "RESET"
+          },
+          "xy": [
+            900,
+            1610
+          ]
+        },
+        {
+          "kind": "AND2_X1",
+          "name": "read_capture",
+          "nets": {
+            "VDD": "VDD",
+            "GND": "VSS",
+            "Y": "READ_CAPTURE",
+            "A": "E6",
+            "B": "WB"
+          },
+          "xy": [
+            300,
+            1910
+          ]
+        },
+        {
+          "kind": "MUX2",
+          "name": "result_hold",
+          "nets": {
+            "VDD": "VDD",
+            "GND": "VSS",
+            "A": "READ_DATA",
+            "B": "SOUT",
+            "S": "READ_CAPTURE",
+            "Y": "READ_DATA_D"
+          },
+          "xy": [
+            600,
+            2240
+          ]
+        },
+        {
+          "kind": "DFFR",
+          "name": "result",
+          "nets": {
+            "VDD": "VDD",
+            "GND": "VSS",
+            "D": "READ_DATA_D",
+            "Q": "READ_DATA",
+            "QB": "READ_DATAB",
+            "CK": "CLK",
+            "RST": "RESET"
+          },
+          "xy": [
+            900,
+            2270
+          ]
+        }
+      ]
+    },
+    {
+      "name": "sram512_row_decoder",
+      "ports": [
+        "RA0",
+        "RA1",
+        "RA2",
+        "RA3",
+        "WL_EN",
+        "WL0",
+        "WL_R0",
+        "WL1",
+        "WL_R1",
+        "WL2",
+        "WL_R2",
+        "WL3",
+        "WL_R3",
+        "WL4",
+        "WL_R4",
+        "WL5",
+        "WL_R5",
+        "WL6",
+        "WL_R6",
+        "WL7",
+        "WL_R7",
+        "WL8",
+        "WL_R8",
+        "WL9",
+        "WL_R9",
+        "WL10",
+        "WL_R10",
+        "WL11",
+        "WL_R11",
+        "WL12",
+        "WL_R12",
+        "WL13",
+        "WL_R13",
+        "WL14",
+        "WL_R14",
+        "WL15",
+        "WL_R15",
+        "VDD",
+        "VSS"
+      ],
+      "parts": [
+        {
+          "kind": "INV_X1",
+          "name": "address_b0",
+          "nets": {
+            "VDD": "VDD",
+            "GND": "VSS",
+            "A": "RA0",
+            "Y": "RA0B"
+          },
+          "xy": [
+            -150,
+            0
+          ]
+        },
+        {
+          "kind": "INV_X1",
+          "name": "address_b1",
+          "nets": {
+            "VDD": "VDD",
+            "GND": "VSS",
+            "A": "RA1",
+            "Y": "RA1B"
+          },
+          "xy": [
+            -150,
+            480
+          ]
+        },
+        {
+          "kind": "INV_X1",
+          "name": "address_b2",
+          "nets": {
+            "VDD": "VDD",
+            "GND": "VSS",
+            "A": "RA2",
+            "Y": "RA2B"
+          },
+          "xy": [
+            -150,
+            960
+          ]
+        },
+        {
+          "kind": "INV_X1",
+          "name": "address_b3",
+          "nets": {
+            "VDD": "VDD",
+            "GND": "VSS",
+            "A": "RA3",
+            "Y": "RA3B"
+          },
+          "xy": [
+            -150,
+            1440
+          ]
+        },
+        {
+          "kind": "AND2_X1",
+          "name": "pre0_0",
+          "nets": {
+            "VDD": "VDD",
+            "GND": "VSS",
+            "Y": "R0_0",
+            "A": "RA0B",
+            "B": "RA1B"
+          },
+          "xy": [
+            350,
+            0
+          ]
+        },
+        {
+          "kind": "AND2_X1",
+          "name": "pre0_1",
+          "nets": {
+            "VDD": "VDD",
+            "GND": "VSS",
+            "Y": "R0_1",
+            "A": "RA0",
+            "B": "RA1B"
+          },
+          "xy": [
+            350,
+            250
+          ]
+        },
+        {
+          "kind": "AND2_X1",
+          "name": "pre0_2",
+          "nets": {
+            "VDD": "VDD",
+            "GND": "VSS",
+            "Y": "R0_2",
+            "A": "RA0B",
+            "B": "RA1"
+          },
+          "xy": [
+            350,
+            500
+          ]
+        },
+        {
+          "kind": "AND2_X1",
+          "name": "pre0_3",
+          "nets": {
+            "VDD": "VDD",
+            "GND": "VSS",
+            "Y": "R0_3",
+            "A": "RA0",
+            "B": "RA1"
+          },
+          "xy": [
+            350,
+            750
+          ]
+        },
+        {
+          "kind": "AND2_X1",
+          "name": "pre1_0",
+          "nets": {
+            "VDD": "VDD",
+            "GND": "VSS",
+            "Y": "R1_0",
+            "A": "RA2B",
+            "B": "RA3B"
+          },
+          "xy": [
+            350,
+            1300
+          ]
+        },
+        {
+          "kind": "AND2_X1",
+          "name": "pre1_1",
+          "nets": {
+            "VDD": "VDD",
+            "GND": "VSS",
+            "Y": "R1_1",
+            "A": "RA2",
+            "B": "RA3B"
+          },
+          "xy": [
+            350,
+            1550
+          ]
+        },
+        {
+          "kind": "AND2_X1",
+          "name": "pre1_2",
+          "nets": {
+            "VDD": "VDD",
+            "GND": "VSS",
+            "Y": "R1_2",
+            "A": "RA2B",
+            "B": "RA3"
+          },
+          "xy": [
+            350,
+            1800
+          ]
+        },
+        {
+          "kind": "AND2_X1",
+          "name": "pre1_3",
+          "nets": {
+            "VDD": "VDD",
+            "GND": "VSS",
+            "Y": "R1_3",
+            "A": "RA2",
+            "B": "RA3"
+          },
+          "xy": [
+            350,
+            2050
+          ]
+        },
+        {
+          "kind": "AND3_X1",
+          "name": "driver0",
+          "nets": {
+            "VDD": "VDD",
+            "GND": "VSS",
+            "A": "R0_0",
+            "B": "R1_0",
+            "C": "WL_EN",
+            "Y": "WL0"
+          },
+          "xy": [
+            1400,
+            0
+          ]
+        },
+        {
+          "kind": "AND3_X1",
+          "name": "driver_right0",
+          "nets": {
+            "VDD": "VDD",
+            "GND": "VSS",
+            "A": "R0_0",
+            "B": "R1_0",
+            "C": "WL_EN",
+            "Y": "WL_R0"
+          },
+          "xy": [
+            1920,
+            100
+          ]
+        },
+        {
+          "kind": "AND3_X1",
+          "name": "driver1",
+          "nets": {
+            "VDD": "VDD",
+            "GND": "VSS",
+            "A": "R0_1",
+            "B": "R1_0",
+            "C": "WL_EN",
+            "Y": "WL1"
+          },
+          "xy": [
+            1400,
+            300
+          ]
+        },
+        {
+          "kind": "AND3_X1",
+          "name": "driver_right1",
+          "nets": {
+            "VDD": "VDD",
+            "GND": "VSS",
+            "A": "R0_1",
+            "B": "R1_0",
+            "C": "WL_EN",
+            "Y": "WL_R1"
+          },
+          "xy": [
+            1920,
+            400
+          ]
+        },
+        {
+          "kind": "AND3_X1",
+          "name": "driver2",
+          "nets": {
+            "VDD": "VDD",
+            "GND": "VSS",
+            "A": "R0_2",
+            "B": "R1_0",
+            "C": "WL_EN",
+            "Y": "WL2"
+          },
+          "xy": [
+            1400,
+            600
+          ]
+        },
+        {
+          "kind": "AND3_X1",
+          "name": "driver_right2",
+          "nets": {
+            "VDD": "VDD",
+            "GND": "VSS",
+            "A": "R0_2",
+            "B": "R1_0",
+            "C": "WL_EN",
+            "Y": "WL_R2"
+          },
+          "xy": [
+            1920,
+            700
+          ]
+        },
+        {
+          "kind": "AND3_X1",
+          "name": "driver3",
+          "nets": {
+            "VDD": "VDD",
+            "GND": "VSS",
+            "A": "R0_3",
+            "B": "R1_0",
+            "C": "WL_EN",
+            "Y": "WL3"
+          },
+          "xy": [
+            1400,
+            900
+          ]
+        },
+        {
+          "kind": "AND3_X1",
+          "name": "driver_right3",
+          "nets": {
+            "VDD": "VDD",
+            "GND": "VSS",
+            "A": "R0_3",
+            "B": "R1_0",
+            "C": "WL_EN",
+            "Y": "WL_R3"
+          },
+          "xy": [
+            1920,
+            1000
+          ]
+        },
+        {
+          "kind": "AND3_X1",
+          "name": "driver4",
+          "nets": {
+            "VDD": "VDD",
+            "GND": "VSS",
+            "A": "R0_0",
+            "B": "R1_1",
+            "C": "WL_EN",
+            "Y": "WL4"
+          },
+          "xy": [
+            1400,
+            1200
+          ]
+        },
+        {
+          "kind": "AND3_X1",
+          "name": "driver_right4",
+          "nets": {
+            "VDD": "VDD",
+            "GND": "VSS",
+            "A": "R0_0",
+            "B": "R1_1",
+            "C": "WL_EN",
+            "Y": "WL_R4"
+          },
+          "xy": [
+            1920,
+            1300
+          ]
+        },
+        {
+          "kind": "AND3_X1",
+          "name": "driver5",
+          "nets": {
+            "VDD": "VDD",
+            "GND": "VSS",
+            "A": "R0_1",
+            "B": "R1_1",
+            "C": "WL_EN",
+            "Y": "WL5"
+          },
+          "xy": [
+            1400,
+            1500
+          ]
+        },
+        {
+          "kind": "AND3_X1",
+          "name": "driver_right5",
+          "nets": {
+            "VDD": "VDD",
+            "GND": "VSS",
+            "A": "R0_1",
+            "B": "R1_1",
+            "C": "WL_EN",
+            "Y": "WL_R5"
+          },
+          "xy": [
+            1920,
+            1600
+          ]
+        },
+        {
+          "kind": "AND3_X1",
+          "name": "driver6",
+          "nets": {
+            "VDD": "VDD",
+            "GND": "VSS",
+            "A": "R0_2",
+            "B": "R1_1",
+            "C": "WL_EN",
+            "Y": "WL6"
+          },
+          "xy": [
+            1400,
+            1800
+          ]
+        },
+        {
+          "kind": "AND3_X1",
+          "name": "driver_right6",
+          "nets": {
+            "VDD": "VDD",
+            "GND": "VSS",
+            "A": "R0_2",
+            "B": "R1_1",
+            "C": "WL_EN",
+            "Y": "WL_R6"
+          },
+          "xy": [
+            1920,
+            1900
+          ]
+        },
+        {
+          "kind": "AND3_X1",
+          "name": "driver7",
+          "nets": {
+            "VDD": "VDD",
+            "GND": "VSS",
+            "A": "R0_3",
+            "B": "R1_1",
+            "C": "WL_EN",
+            "Y": "WL7"
+          },
+          "xy": [
+            1400,
+            2100
+          ]
+        },
+        {
+          "kind": "AND3_X1",
+          "name": "driver_right7",
+          "nets": {
+            "VDD": "VDD",
+            "GND": "VSS",
+            "A": "R0_3",
+            "B": "R1_1",
+            "C": "WL_EN",
+            "Y": "WL_R7"
+          },
+          "xy": [
+            1920,
+            2200
+          ]
+        },
+        {
+          "kind": "AND3_X1",
+          "name": "driver8",
+          "nets": {
+            "VDD": "VDD",
+            "GND": "VSS",
+            "A": "R0_0",
+            "B": "R1_2",
+            "C": "WL_EN",
+            "Y": "WL8"
+          },
+          "xy": [
+            2450,
+            0
+          ]
+        },
+        {
+          "kind": "AND3_X1",
+          "name": "driver_right8",
+          "nets": {
+            "VDD": "VDD",
+            "GND": "VSS",
+            "A": "R0_0",
+            "B": "R1_2",
+            "C": "WL_EN",
+            "Y": "WL_R8"
+          },
+          "xy": [
+            2970,
+            100
+          ]
+        },
+        {
+          "kind": "AND3_X1",
+          "name": "driver9",
+          "nets": {
+            "VDD": "VDD",
+            "GND": "VSS",
+            "A": "R0_1",
+            "B": "R1_2",
+            "C": "WL_EN",
+            "Y": "WL9"
+          },
+          "xy": [
+            2450,
+            300
+          ]
+        },
+        {
+          "kind": "AND3_X1",
+          "name": "driver_right9",
+          "nets": {
+            "VDD": "VDD",
+            "GND": "VSS",
+            "A": "R0_1",
+            "B": "R1_2",
+            "C": "WL_EN",
+            "Y": "WL_R9"
+          },
+          "xy": [
+            2970,
+            400
+          ]
+        },
+        {
+          "kind": "AND3_X1",
+          "name": "driver10",
+          "nets": {
+            "VDD": "VDD",
+            "GND": "VSS",
+            "A": "R0_2",
+            "B": "R1_2",
+            "C": "WL_EN",
+            "Y": "WL10"
+          },
+          "xy": [
+            2450,
+            600
+          ]
+        },
+        {
+          "kind": "AND3_X1",
+          "name": "driver_right10",
+          "nets": {
+            "VDD": "VDD",
+            "GND": "VSS",
+            "A": "R0_2",
+            "B": "R1_2",
+            "C": "WL_EN",
+            "Y": "WL_R10"
+          },
+          "xy": [
+            2970,
+            700
+          ]
+        },
+        {
+          "kind": "AND3_X1",
+          "name": "driver11",
+          "nets": {
+            "VDD": "VDD",
+            "GND": "VSS",
+            "A": "R0_3",
+            "B": "R1_2",
+            "C": "WL_EN",
+            "Y": "WL11"
+          },
+          "xy": [
+            2450,
+            900
+          ]
+        },
+        {
+          "kind": "AND3_X1",
+          "name": "driver_right11",
+          "nets": {
+            "VDD": "VDD",
+            "GND": "VSS",
+            "A": "R0_3",
+            "B": "R1_2",
+            "C": "WL_EN",
+            "Y": "WL_R11"
+          },
+          "xy": [
+            2970,
+            1000
+          ]
+        },
+        {
+          "kind": "AND3_X1",
+          "name": "driver12",
+          "nets": {
+            "VDD": "VDD",
+            "GND": "VSS",
+            "A": "R0_0",
+            "B": "R1_3",
+            "C": "WL_EN",
+            "Y": "WL12"
+          },
+          "xy": [
+            2450,
+            1200
+          ]
+        },
+        {
+          "kind": "AND3_X1",
+          "name": "driver_right12",
+          "nets": {
+            "VDD": "VDD",
+            "GND": "VSS",
+            "A": "R0_0",
+            "B": "R1_3",
+            "C": "WL_EN",
+            "Y": "WL_R12"
+          },
+          "xy": [
+            2970,
+            1300
+          ]
+        },
+        {
+          "kind": "AND3_X1",
+          "name": "driver13",
+          "nets": {
+            "VDD": "VDD",
+            "GND": "VSS",
+            "A": "R0_1",
+            "B": "R1_3",
+            "C": "WL_EN",
+            "Y": "WL13"
+          },
+          "xy": [
+            2450,
+            1500
+          ]
+        },
+        {
+          "kind": "AND3_X1",
+          "name": "driver_right13",
+          "nets": {
+            "VDD": "VDD",
+            "GND": "VSS",
+            "A": "R0_1",
+            "B": "R1_3",
+            "C": "WL_EN",
+            "Y": "WL_R13"
+          },
+          "xy": [
+            2970,
+            1600
+          ]
+        },
+        {
+          "kind": "AND3_X1",
+          "name": "driver14",
+          "nets": {
+            "VDD": "VDD",
+            "GND": "VSS",
+            "A": "R0_2",
+            "B": "R1_3",
+            "C": "WL_EN",
+            "Y": "WL14"
+          },
+          "xy": [
+            2450,
+            1800
+          ]
+        },
+        {
+          "kind": "AND3_X1",
+          "name": "driver_right14",
+          "nets": {
+            "VDD": "VDD",
+            "GND": "VSS",
+            "A": "R0_2",
+            "B": "R1_3",
+            "C": "WL_EN",
+            "Y": "WL_R14"
+          },
+          "xy": [
+            2970,
+            1900
+          ]
+        },
+        {
+          "kind": "AND3_X1",
+          "name": "driver15",
+          "nets": {
+            "VDD": "VDD",
+            "GND": "VSS",
+            "A": "R0_3",
+            "B": "R1_3",
+            "C": "WL_EN",
+            "Y": "WL15"
+          },
+          "xy": [
+            2450,
+            2100
+          ]
+        },
+        {
+          "kind": "AND3_X1",
+          "name": "driver_right15",
+          "nets": {
+            "VDD": "VDD",
+            "GND": "VSS",
+            "A": "R0_3",
+            "B": "R1_3",
+            "C": "WL_EN",
+            "Y": "WL_R15"
+          },
+          "xy": [
+            2970,
+            2200
+          ]
+        }
+      ]
+    },
+    {
+      "name": "sram512_col_decoder",
+      "ports": [
+        "CA0",
+        "CA0B",
+        "CA1",
+        "CA1B",
+        "CA2",
+        "CA2B",
+        "CA3",
+        "CA3B",
+        "CA4",
+        "CA4B",
+        "COL0",
+        "COL1",
+        "COL2",
+        "COL3",
+        "COL4",
+        "COL5",
+        "COL6",
+        "COL7",
+        "COL8",
+        "COL9",
+        "COL10",
+        "COL11",
+        "COL12",
+        "COL13",
+        "COL14",
+        "COL15",
+        "COL16",
+        "COL17",
+        "COL18",
+        "COL19",
+        "COL20",
+        "COL21",
+        "COL22",
+        "COL23",
+        "COL24",
+        "COL25",
+        "COL26",
+        "COL27",
+        "COL28",
+        "COL29",
+        "COL30",
+        "COL31",
+        "VDD",
+        "VSS"
+      ],
+      "parts": [
+        {
+          "kind": "AND2_X1",
+          "name": "low0",
+          "nets": {
+            "VDD": "VDD",
+            "GND": "VSS",
+            "Y": "CL0",
+            "A": "CA0B",
+            "B": "CA1B"
+          },
+          "xy": [
+            350,
+            0
+          ]
+        },
+        {
+          "kind": "AND2_X1",
+          "name": "low1",
+          "nets": {
+            "VDD": "VDD",
+            "GND": "VSS",
+            "Y": "CL1",
+            "A": "CA0",
+            "B": "CA1B"
+          },
+          "xy": [
+            350,
+            260
+          ]
+        },
+        {
+          "kind": "AND2_X1",
+          "name": "low2",
+          "nets": {
+            "VDD": "VDD",
+            "GND": "VSS",
+            "Y": "CL2",
+            "A": "CA0B",
+            "B": "CA1"
+          },
+          "xy": [
+            350,
+            520
+          ]
+        },
+        {
+          "kind": "AND2_X1",
+          "name": "low3",
+          "nets": {
+            "VDD": "VDD",
+            "GND": "VSS",
+            "Y": "CL3",
+            "A": "CA0",
+            "B": "CA1"
+          },
+          "xy": [
+            350,
+            780
+          ]
+        },
+        {
+          "kind": "AND3_X1",
+          "name": "high0",
+          "nets": {
+            "VDD": "VDD",
+            "GND": "VSS",
+            "Y": "CH0",
+            "A": "CA2B",
+            "B": "CA3B",
+            "C": "CA4B"
+          },
+          "xy": [
+            350,
+            1200
+          ]
+        },
+        {
+          "kind": "AND3_X1",
+          "name": "high1",
+          "nets": {
+            "VDD": "VDD",
+            "GND": "VSS",
+            "Y": "CH1",
+            "A": "CA2",
+            "B": "CA3B",
+            "C": "CA4B"
+          },
+          "xy": [
+            350,
+            1460
+          ]
+        },
+        {
+          "kind": "AND3_X1",
+          "name": "high2",
+          "nets": {
+            "VDD": "VDD",
+            "GND": "VSS",
+            "Y": "CH2",
+            "A": "CA2B",
+            "B": "CA3",
+            "C": "CA4B"
+          },
+          "xy": [
+            350,
+            1720
+          ]
+        },
+        {
+          "kind": "AND3_X1",
+          "name": "high3",
+          "nets": {
+            "VDD": "VDD",
+            "GND": "VSS",
+            "Y": "CH3",
+            "A": "CA2",
+            "B": "CA3",
+            "C": "CA4B"
+          },
+          "xy": [
+            350,
+            1980
+          ]
+        },
+        {
+          "kind": "AND3_X1",
+          "name": "high4",
+          "nets": {
+            "VDD": "VDD",
+            "GND": "VSS",
+            "Y": "CH4",
+            "A": "CA2B",
+            "B": "CA3B",
+            "C": "CA4"
+          },
+          "xy": [
+            350,
+            2240
+          ]
+        },
+        {
+          "kind": "AND3_X1",
+          "name": "high5",
+          "nets": {
+            "VDD": "VDD",
+            "GND": "VSS",
+            "Y": "CH5",
+            "A": "CA2",
+            "B": "CA3B",
+            "C": "CA4"
+          },
+          "xy": [
+            350,
+            2500
+          ]
+        },
+        {
+          "kind": "AND3_X1",
+          "name": "high6",
+          "nets": {
+            "VDD": "VDD",
+            "GND": "VSS",
+            "Y": "CH6",
+            "A": "CA2B",
+            "B": "CA3",
+            "C": "CA4"
+          },
+          "xy": [
+            350,
+            2760
+          ]
+        },
+        {
+          "kind": "AND3_X1",
+          "name": "high7",
+          "nets": {
+            "VDD": "VDD",
+            "GND": "VSS",
+            "Y": "CH7",
+            "A": "CA2",
+            "B": "CA3",
+            "C": "CA4"
+          },
+          "xy": [
+            350,
+            3020
+          ]
+        },
+        {
+          "kind": "AND2_X1",
+          "name": "select0",
+          "nets": {
+            "VDD": "VDD",
+            "GND": "VSS",
+            "Y": "COL0",
+            "A": "CL0",
+            "B": "CH0"
+          },
+          "xy": [
+            1450,
+            0
+          ]
+        },
+        {
+          "kind": "AND2_X1",
+          "name": "select1",
+          "nets": {
+            "VDD": "VDD",
+            "GND": "VSS",
+            "Y": "COL1",
+            "A": "CL1",
+            "B": "CH0"
+          },
+          "xy": [
+            1450,
+            380
+          ]
+        },
+        {
+          "kind": "AND2_X1",
+          "name": "select2",
+          "nets": {
+            "VDD": "VDD",
+            "GND": "VSS",
+            "Y": "COL2",
+            "A": "CL2",
+            "B": "CH0"
+          },
+          "xy": [
+            1450,
+            760
+          ]
+        },
+        {
+          "kind": "AND2_X1",
+          "name": "select3",
+          "nets": {
+            "VDD": "VDD",
+            "GND": "VSS",
+            "Y": "COL3",
+            "A": "CL3",
+            "B": "CH0"
+          },
+          "xy": [
+            1450,
+            1140
+          ]
+        },
+        {
+          "kind": "AND2_X1",
+          "name": "select4",
+          "nets": {
+            "VDD": "VDD",
+            "GND": "VSS",
+            "Y": "COL4",
+            "A": "CL0",
+            "B": "CH1"
+          },
+          "xy": [
+            1450,
+            1520
+          ]
+        },
+        {
+          "kind": "AND2_X1",
+          "name": "select5",
+          "nets": {
+            "VDD": "VDD",
+            "GND": "VSS",
+            "Y": "COL5",
+            "A": "CL1",
+            "B": "CH1"
+          },
+          "xy": [
+            1450,
+            1900
+          ]
+        },
+        {
+          "kind": "AND2_X1",
+          "name": "select6",
+          "nets": {
+            "VDD": "VDD",
+            "GND": "VSS",
+            "Y": "COL6",
+            "A": "CL2",
+            "B": "CH1"
+          },
+          "xy": [
+            1450,
+            2280
+          ]
+        },
+        {
+          "kind": "AND2_X1",
+          "name": "select7",
+          "nets": {
+            "VDD": "VDD",
+            "GND": "VSS",
+            "Y": "COL7",
+            "A": "CL3",
+            "B": "CH1"
+          },
+          "xy": [
+            1450,
+            2660
+          ]
+        },
+        {
+          "kind": "AND2_X1",
+          "name": "select8",
+          "nets": {
+            "VDD": "VDD",
+            "GND": "VSS",
+            "Y": "COL8",
+            "A": "CL0",
+            "B": "CH2"
+          },
+          "xy": [
+            2100,
+            0
+          ]
+        },
+        {
+          "kind": "AND2_X1",
+          "name": "select9",
+          "nets": {
+            "VDD": "VDD",
+            "GND": "VSS",
+            "Y": "COL9",
+            "A": "CL1",
+            "B": "CH2"
+          },
+          "xy": [
+            2100,
+            380
+          ]
+        },
+        {
+          "kind": "AND2_X1",
+          "name": "select10",
+          "nets": {
+            "VDD": "VDD",
+            "GND": "VSS",
+            "Y": "COL10",
+            "A": "CL2",
+            "B": "CH2"
+          },
+          "xy": [
+            2100,
+            760
+          ]
+        },
+        {
+          "kind": "AND2_X1",
+          "name": "select11",
+          "nets": {
+            "VDD": "VDD",
+            "GND": "VSS",
+            "Y": "COL11",
+            "A": "CL3",
+            "B": "CH2"
+          },
+          "xy": [
+            2100,
+            1140
+          ]
+        },
+        {
+          "kind": "AND2_X1",
+          "name": "select12",
+          "nets": {
+            "VDD": "VDD",
+            "GND": "VSS",
+            "Y": "COL12",
+            "A": "CL0",
+            "B": "CH3"
+          },
+          "xy": [
+            2100,
+            1520
+          ]
+        },
+        {
+          "kind": "AND2_X1",
+          "name": "select13",
+          "nets": {
+            "VDD": "VDD",
+            "GND": "VSS",
+            "Y": "COL13",
+            "A": "CL1",
+            "B": "CH3"
+          },
+          "xy": [
+            2100,
+            1900
+          ]
+        },
+        {
+          "kind": "AND2_X1",
+          "name": "select14",
+          "nets": {
+            "VDD": "VDD",
+            "GND": "VSS",
+            "Y": "COL14",
+            "A": "CL2",
+            "B": "CH3"
+          },
+          "xy": [
+            2100,
+            2280
+          ]
+        },
+        {
+          "kind": "AND2_X1",
+          "name": "select15",
+          "nets": {
+            "VDD": "VDD",
+            "GND": "VSS",
+            "Y": "COL15",
+            "A": "CL3",
+            "B": "CH3"
+          },
+          "xy": [
+            2100,
+            2660
+          ]
+        },
+        {
+          "kind": "AND2_X1",
+          "name": "select16",
+          "nets": {
+            "VDD": "VDD",
+            "GND": "VSS",
+            "Y": "COL16",
+            "A": "CL0",
+            "B": "CH4"
+          },
+          "xy": [
+            2750,
+            0
+          ]
+        },
+        {
+          "kind": "AND2_X1",
+          "name": "select17",
+          "nets": {
+            "VDD": "VDD",
+            "GND": "VSS",
+            "Y": "COL17",
+            "A": "CL1",
+            "B": "CH4"
+          },
+          "xy": [
+            2750,
+            380
+          ]
+        },
+        {
+          "kind": "AND2_X1",
+          "name": "select18",
+          "nets": {
+            "VDD": "VDD",
+            "GND": "VSS",
+            "Y": "COL18",
+            "A": "CL2",
+            "B": "CH4"
+          },
+          "xy": [
+            2750,
+            760
+          ]
+        },
+        {
+          "kind": "AND2_X1",
+          "name": "select19",
+          "nets": {
+            "VDD": "VDD",
+            "GND": "VSS",
+            "Y": "COL19",
+            "A": "CL3",
+            "B": "CH4"
+          },
+          "xy": [
+            2750,
+            1140
+          ]
+        },
+        {
+          "kind": "AND2_X1",
+          "name": "select20",
+          "nets": {
+            "VDD": "VDD",
+            "GND": "VSS",
+            "Y": "COL20",
+            "A": "CL0",
+            "B": "CH5"
+          },
+          "xy": [
+            2750,
+            1520
+          ]
+        },
+        {
+          "kind": "AND2_X1",
+          "name": "select21",
+          "nets": {
+            "VDD": "VDD",
+            "GND": "VSS",
+            "Y": "COL21",
+            "A": "CL1",
+            "B": "CH5"
+          },
+          "xy": [
+            2750,
+            1900
+          ]
+        },
+        {
+          "kind": "AND2_X1",
+          "name": "select22",
+          "nets": {
+            "VDD": "VDD",
+            "GND": "VSS",
+            "Y": "COL22",
+            "A": "CL2",
+            "B": "CH5"
+          },
+          "xy": [
+            2750,
+            2280
+          ]
+        },
+        {
+          "kind": "AND2_X1",
+          "name": "select23",
+          "nets": {
+            "VDD": "VDD",
+            "GND": "VSS",
+            "Y": "COL23",
+            "A": "CL3",
+            "B": "CH5"
+          },
+          "xy": [
+            2750,
+            2660
+          ]
+        },
+        {
+          "kind": "AND2_X1",
+          "name": "select24",
+          "nets": {
+            "VDD": "VDD",
+            "GND": "VSS",
+            "Y": "COL24",
+            "A": "CL0",
+            "B": "CH6"
+          },
+          "xy": [
+            3400,
+            0
+          ]
+        },
+        {
+          "kind": "AND2_X1",
+          "name": "select25",
+          "nets": {
+            "VDD": "VDD",
+            "GND": "VSS",
+            "Y": "COL25",
+            "A": "CL1",
+            "B": "CH6"
+          },
+          "xy": [
+            3400,
+            380
+          ]
+        },
+        {
+          "kind": "AND2_X1",
+          "name": "select26",
+          "nets": {
+            "VDD": "VDD",
+            "GND": "VSS",
+            "Y": "COL26",
+            "A": "CL2",
+            "B": "CH6"
+          },
+          "xy": [
+            3400,
+            760
+          ]
+        },
+        {
+          "kind": "AND2_X1",
+          "name": "select27",
+          "nets": {
+            "VDD": "VDD",
+            "GND": "VSS",
+            "Y": "COL27",
+            "A": "CL3",
+            "B": "CH6"
+          },
+          "xy": [
+            3400,
+            1140
+          ]
+        },
+        {
+          "kind": "AND2_X1",
+          "name": "select28",
+          "nets": {
+            "VDD": "VDD",
+            "GND": "VSS",
+            "Y": "COL28",
+            "A": "CL0",
+            "B": "CH7"
+          },
+          "xy": [
+            3400,
+            1520
+          ]
+        },
+        {
+          "kind": "AND2_X1",
+          "name": "select29",
+          "nets": {
+            "VDD": "VDD",
+            "GND": "VSS",
+            "Y": "COL29",
+            "A": "CL1",
+            "B": "CH7"
+          },
+          "xy": [
+            3400,
+            1900
+          ]
+        },
+        {
+          "kind": "AND2_X1",
+          "name": "select30",
+          "nets": {
+            "VDD": "VDD",
+            "GND": "VSS",
+            "Y": "COL30",
+            "A": "CL2",
+            "B": "CH7"
+          },
+          "xy": [
+            3400,
+            2280
+          ]
+        },
+        {
+          "kind": "AND2_X1",
+          "name": "select31",
+          "nets": {
+            "VDD": "VDD",
+            "GND": "VSS",
+            "Y": "COL31",
+            "A": "CL3",
+            "B": "CH7"
+          },
+          "xy": [
+            3400,
+            2660
+          ]
+        }
+      ]
+    }
+  ],
+  "bom": {
+    "AND4_X1": 10,
+    "OR2": 4,
+    "AND2_X1": 64,
+    "DFFR": 21,
+    "XOR2": 4,
+    "AND3_X1": 41,
+    "MUX2": 12,
+    "OR4": 1,
+    "INV_X1": 5,
+    "OR3": 1
+  }
+}

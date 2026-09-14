@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "checks": 32729,
+  "source_gds_sha256": "dee111388a5c4d3131b68772507706706d894248988ab761bf9c4070e9194e61",
+  "maximum_voltage_difference_v": 0.0,
+  "same_time_points": true,
+  "voltage_nodes": 8863,
+  "deck_sha256": "93e5ba6503f0f415e7ac17f7687f24dfd5b97484b99ad5223daa2ed3b6ff25d6",
+  "local_init_sha256": "2ef8c1ce0b4d65b62053c99e75b2bad1d1158582c6ca6cfc19b1e255c84ecfbc",
+  "reference_deck_sha256": "7524978d2dfe22c7c787f52700555696d3031cc403635a400ba5516fc743d653",
+  "scope": "Only output handling differs: .control tran + write versus .tran with ngspice -b -r and .save. Local .spiceinit sets the same single thread. Full original functional, terminal-voltage and via-current checks pass again."
+}

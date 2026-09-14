@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "test": "decoderfix_power_paths_ramp_power_wires",
+  "base_report_sha256": "2be643be56e121a4da55f003ea8d483481697b59303eec1c3648a2e08920b26d",
+  "reviewed_commit": "7dae978",
+  "simulation_code_unchanged": true,
+  "scope": "Dependency reassessment: no access waveform checker is used by this geometry/startup/comparison test. All original executed functions and inputs are unchanged."
+}

@@ -1,0 +1,30 @@
+{
+  "passed": true,
+  "views": [
+    {
+      "schematic": "sram512.sch",
+      "schematic_sha256": "20ea4a2e70a68adcb3452832df4d674e672619c591ad045b8adb5881612f73da",
+      "image": "sram512/diagrams/sram512.svg",
+      "image_sha256": "f39124d36561f2bae2ca0b33d321406bf2cf0dfebbc018558478047e9d10ea5b"
+    },
+    {
+      "schematic": "sram512_controller.sch",
+      "schematic_sha256": "8a24a5aa7b67bd46e283be1656e206e76031999b10b551cacca5125407911276",
+      "image": "sram512/diagrams/sram512_controller.svg",
+      "image_sha256": "8b4b6df2c17442e2aa0044537c7b0e35d994cb7e70139d48f9282c6304c2976b"
+    },
+    {
+      "schematic": "sram512_frame.sch",
+      "schematic_sha256": "a138f41d92de490331abb2e94a6d7c3813055b54dcd1927c35ca2c89e918a1a7",
+      "image": "sram512/diagrams/sram512_frame.svg",
+      "image_sha256": "3f20579953848ef4aa5e02cc375a244f419f1a9141c10d5ac33dc8b060ea8145"
+    },
+    {
+      "schematic": "sram512_phase.sch",
+      "schematic_sha256": "a5d1a5e52f55bbe1583bbdc2b5d6ad288c2b399ef51bdaf4553fd0addcf29fc9",
+      "image": "sram512/diagrams/sram512_phase.svg",
+      "image_sha256": "564fa24a0e9750d5230c5d639692234f5dec02f851a059b187538ba3237fcc31"
+    }
+  ],
+  "scope": "Direct Xschem SVG exports; the .sch files remain authoritative and editable."
+}

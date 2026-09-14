@@ -1,0 +1,76 @@
+#!/usr/bin/env python3
+"""Use ./scripts/pdk {setup,status,use,klayout,drc,exec}; no global PDK changes."""
+import argparse,json,os,shutil,subprocess,sys
+from pathlib import Path
+from pdk_profiles import (ROOT,STATE,locked,profile_name,pdk_path,tree_digest,
+                          environment,prepare_gui,provenance,klayout_binary,run_drc)
+
+def setup():
+    lock=locked();STATE.mkdir(exist_ok=True)
+    environment_backup=STATE/'original_environment_hashes.json'
+    if not environment_backup.exists():
+        from pdk_profiles import sha256
+        files=[Path.home()/p for p in ('.klayout/klayoutrc','.xschem/xschemrc','current_pdk','.bashrc')]
+        environment_backup.write_text(json.dumps({str(p):sha256(p) for p in files if p.is_file()},indent=2)+'\n')
+    old=ROOT/lock['profiles']['original']['path']
+    if not old.exists():
+        shutil.copytree(lock['profiles']['original']['source'],old,symlinks=False)
+    if tree_digest(old)!=lock['profiles']['original']['tree_sha256']:
+        raise RuntimeError('Original PDK differs from the saved baseline; existing files were kept.')
+    dev=ROOT/lock['profiles']['dev']['path'];revision=lock['profiles']['dev']['revision']
+    if not dev.exists():
+        dev.parent.mkdir(parents=True,exist_ok=True)
+        subprocess.run(['git','clone','--branch','dev','--single-branch',lock['upstream'],str(dev)],check=True)
+    current=subprocess.check_output(['git','-C',str(dev),'rev-parse','HEAD'],text=True).strip()
+    if current!=revision:
+        if subprocess.check_output(['git','-C',str(dev),'status','--porcelain'],text=True).strip():
+            raise RuntimeError('Dev checkout has local edits; kept unchanged.')
+        subprocess.run(['git','-C',str(dev),'checkout','--detach',revision],check=True)
+    if tree_digest(dev)!=lock['profiles']['dev']['tree_sha256']:
+        raise RuntimeError('Dev PDK differs from the pinned tree; existing files were kept.')
+    backup=STATE/'original-klayoutrc'
+    if not backup.exists():
+        source=Path.home()/'.klayout/klayoutrc'
+        if source.exists():shutil.copy2(source,backup)
+    for name in lock['profiles']:prepare_gui(name)
+    if not (STATE/'active').exists():(STATE/'active').write_text(lock['default_profile']+'\n')
+    print(f'Installed pinned profiles; active={profile_name()}')
+
+def main():
+    parser=argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--profile',choices=('dev','original'))
+    sub=parser.add_subparsers(dest='command',required=True)
+    sub.add_parser('setup');sub.add_parser('status')
+    use=sub.add_parser('use');use.add_argument('name',choices=('dev','original'))
+    drc=sub.add_parser('drc');drc.add_argument('layout',type=Path);drc.add_argument('--top',required=True)
+    drc.add_argument('--output',type=Path)
+    for name in ('klayout','exec'):
+        sub.add_parser(name).add_argument('arguments',nargs=argparse.REMAINDER)
+    args=parser.parse_args()
+    if args.command=='setup':setup();return
+    name=profile_name(args.profile)
+    if args.command=='use':
+        pdk_path(args.name);STATE.mkdir(exist_ok=True)
+        temp=STATE/'active.tmp';temp.write_text(args.name+'\n');temp.replace(STATE/'active')
+        print(f'Active project PDK: {args.name} ({pdk_path(args.name)})')
+    elif args.command=='status':
+        info=provenance(name)
+        print(json.dumps(dict(active_profile=name,pdk_directory=info['pdk_directory'],
+                              revision=info['locked_revision'],klayout_home=environment(name)['KLAYOUT_HOME'],
+                              drc_sha256=info['rule_sha256']['libs.tech/klayout/tech/drc/run.drc']),indent=2))
+    elif args.command=='drc':
+        record=run_drc(args.layout,args.top,name,args.output)
+        print(json.dumps({k:record[k] for k in ('profile','top','passed','items','categories','report')},indent=2))
+        raise SystemExit(0 if record['passed'] else 1)
+    else:
+        rest=args.arguments[1:] if args.arguments[:1]==['--'] else args.arguments
+        if args.command=='klayout':
+            config=prepare_gui(name)
+            command=[klayout_binary(),'-c',str(config),'-n','TR-1um',*rest]
+        else:
+            if not rest:parser.error('exec requires a command after --')
+            command=rest
+        print(f'PDK {name}: {pdk_path(name)}',file=sys.stderr,flush=True)
+        os.execvpe(command[0],command,environment(name))
+
+if __name__=='__main__':main()

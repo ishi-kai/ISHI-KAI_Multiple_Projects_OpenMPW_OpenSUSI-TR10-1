@@ -1,0 +1,51 @@
+{
+  "VDD": {
+    "layer": "M2",
+    "position_um": [
+      1747.7,
+      597.3
+    ]
+  },
+  "VSS": {
+    "layer": "M2",
+    "position_um": [
+      1769.7,
+      597.3
+    ]
+  },
+  "SDO": {
+    "layer": "M2",
+    "position_um": [
+      1684.7,
+      1.7
+    ]
+  },
+  "CLK": {
+    "layer": "M2",
+    "position_um": [
+      1101.7,
+      1.7
+    ]
+  },
+  "RESET": {
+    "layer": "M2",
+    "position_um": [
+      1244.7,
+      1.7
+    ]
+  },
+  "SDI": {
+    "layer": "M2",
+    "position_um": [
+      1393.2,
+      1.7
+    ]
+  },
+  "WE": {
+    "layer": "M2",
+    "position_um": [
+      1530.7,
+      1.7
+    ]
+  }
+}

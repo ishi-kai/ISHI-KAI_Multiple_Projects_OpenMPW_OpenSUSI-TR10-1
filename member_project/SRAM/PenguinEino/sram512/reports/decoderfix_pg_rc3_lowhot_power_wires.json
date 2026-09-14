@@ -1,0 +1,386 @@
+{
+  "passed": true,
+  "source_gds_sha256": "56810ad742a73036fb9db5207c75a2fcd63d344833c17da5f6270f1dc128bca1",
+  "checks": 13406,
+  "failure_count": 0,
+  "failures": [],
+  "waveform_sha256": "72fe95dd5881d5323e289715417ca86702b6be109b8cc8a0ec38d36b63ad3c41",
+  "power_model_sha256": "596d5c51dd43d5b2fb47fbef3b5134455d465e27391411d5cc0a6fcba78b00b0",
+  "transfer_model_sha256": "12878fed3e6b47697765342186fbc7552f5d6e1fa0208f7c5929ae90e9bf9760",
+  "source_case_report_sha256": "531d2c34c72563ade3851b7667d3bbf87b704286093e98d5dca0875693c2c374",
+  "source_case": "decoderfix_pg_rc3_lowhot",
+  "interval_ns": [
+    0.0,
+    1451000.0
+  ],
+  "worst_paths": [
+    {
+      "supply": "VDD",
+      "a": "power_vdd_mesh_189",
+      "b": "power_vdd_mesh_220",
+      "layer": 1,
+      "density_gain_a_per_v_um": 0.040206697244469874,
+      "width_um": 2.25,
+      "position_um": [
+        1521.5,
+        283.125
+      ],
+      "peak_a_per_um": 0.0006807535950328052,
+      "mean_absolute_a_per_um": 3.2796180759724204e-06,
+      "rms_a_per_um": 3.311286388765156e-05,
+      "screen_limit_a_per_um": 0.00025,
+      "rms_fraction_of_limit": 0.13245145555060625,
+      "passed": true
+    },
+    {
+      "supply": "VSS",
+      "a": "power_vss_mesh_3343",
+      "b": "power_vss_load_1095",
+      "layer": 1,
+      "density_gain_a_per_v_um": 0.03877447625972587,
+      "width_um": 2.25,
+      "position_um": [
+        1537.0,
+        228.125
+      ],
+      "peak_a_per_um": 0.0007092534231751277,
+      "mean_absolute_a_per_um": 3.1323781249074634e-06,
+      "rms_a_per_um": 3.1739773200857373e-05,
+      "screen_limit_a_per_um": 0.00025,
+      "rms_fraction_of_limit": 0.12695909280342949,
+      "passed": true
+    },
+    {
+      "supply": "VSS",
+      "a": "power_vss_load_1095",
+      "b": "power_vss_mesh_3381",
+      "layer": 1,
+      "density_gain_a_per_v_um": 0.7725671258391394,
+      "width_um": 2.25,
+      "position_um": [
+        1520.0,
+        228.125
+      ],
+      "peak_a_per_um": 0.0007092534934847949,
+      "mean_absolute_a_per_um": 3.132390990231563e-06,
+      "rms_a_per_um": 3.173977295167053e-05,
+      "screen_limit_a_per_um": 0.00025,
+      "rms_fraction_of_limit": 0.12695909180668213,
+      "passed": true
+    },
+    {
+      "supply": "VSS",
+      "a": "power_vss_mesh_3256",
+      "b": "power_vss_mesh_3257",
+      "layer": 1,
+      "density_gain_a_per_v_um": 0.14197646789317434,
+      "width_um": 2.25,
+      "position_um": [
+        1579.25,
+        153.875
+      ],
+      "peak_a_per_um": 0.0007424766756071169,
+      "mean_absolute_a_per_um": 1.9511085917543453e-06,
+      "rms_a_per_um": 2.5613740952451742e-05,
+      "screen_limit_a_per_um": 0.00025,
+      "rms_fraction_of_limit": 0.10245496380980697,
+      "passed": true
+    },
+    {
+      "supply": "VSS",
+      "a": "power_vss_mesh_3255",
+      "b": "power_vss_mesh_3256",
+      "layer": 1,
+      "density_gain_a_per_v_um": 1.2500000000000062,
+      "width_um": 2.25,
+      "position_um": [
+        1571.5,
+        153.875
+      ],
+      "peak_a_per_um": 0.0007427379954025612,
+      "mean_absolute_a_per_um": 1.948335134972503e-06,
+      "rms_a_per_um": 2.5567486317581055e-05,
+      "screen_limit_a_per_um": 0.00025,
+      "rms_fraction_of_limit": 0.10226994527032422,
+      "passed": true
+    },
+    {
+      "supply": "VSS",
+      "a": "power_vss_mesh_3254",
+      "b": "power_vss_mesh_3255",
+      "layer": 1,
+      "density_gain_a_per_v_um": 1.2500000000000062,
+      "width_um": 2.25,
+      "position_um": [
+        1563.5,
+        153.875
+      ],
+      "peak_a_per_um": 0.0007427854456387363,
+      "mean_absolute_a_per_um": 1.951241663168442e-06,
+      "rms_a_per_um": 2.556706581483187e-05,
+      "screen_limit_a_per_um": 0.00025,
+      "rms_fraction_of_limit": 0.10226826325932747,
+      "passed": true
+    },
+    {
+      "supply": "VSS",
+      "a": "power_vss_mesh_3254",
+      "b": "power_vss_mesh_3262",
+      "layer": 1,
+      "density_gain_a_per_v_um": 0.7031802444531112,
+      "width_um": 2.25,
+      "position_um": [
+        1553.0,
+        153.875
+      ],
+      "peak_a_per_um": 0.0007418986486548901,
+      "mean_absolute_a_per_um": 1.9476945284282858e-06,
+      "rms_a_per_um": 2.55305017626692e-05,
+      "screen_limit_a_per_um": 0.00025,
+      "rms_fraction_of_limit": 0.1021220070506768,
+      "passed": true
+    },
+    {
+      "supply": "VSS",
+      "a": "power_vss_mesh_3252",
+      "b": "power_vss_mesh_3253",
+      "layer": 1,
+      "density_gain_a_per_v_um": 0.591967322625496,
+      "width_um": 2.25,
+      "position_um": [
+        1522.75,
+        153.875
+      ],
+      "peak_a_per_um": 0.000743133888180404,
+      "mean_absolute_a_per_um": 2.0195341230036483e-06,
+      "rms_a_per_um": 2.5509924537827886e-05,
+      "screen_limit_a_per_um": 0.00025,
+      "rms_fraction_of_limit": 0.10203969815131154,
+      "passed": true
+    },
+    {
+      "supply": "VSS",
+      "a": "power_vss_mesh_3253",
+      "b": "power_vss_mesh_3262",
+      "layer": 1,
+      "density_gain_a_per_v_um": 1.0479415392175673,
+      "width_um": 2.25,
+      "position_um": [
+        1539.0,
+        153.875
+      ],
+      "peak_a_per_um": 0.0007408416799515677,
+      "mean_absolute_a_per_um": 1.932289869527294e-06,
+      "rms_a_per_um": 2.5505057931999618e-05,
+      "screen_limit_a_per_um": 0.00025,
+      "rms_fraction_of_limit": 0.10202023172799847,
+      "passed": true
+    },
+    {
+      "supply": "VDD",
+      "a": "power_vdd_load_1095",
+      "b": "power_vdd_mesh_188",
+      "layer": 1,
+      "density_gain_a_per_v_um": 1.227717369652427,
+      "width_um": 2.75,
+      "position_um": [
+        1502.625,
+        273.5
+      ],
+      "peak_a_per_um": 0.0007514262686809464,
+      "mean_absolute_a_per_um": 2.591915408024689e-06,
+      "rms_a_per_um": 2.5042476262347602e-05,
+      "screen_limit_a_per_um": 0.00025,
+      "rms_fraction_of_limit": 0.10016990504939041,
+      "passed": true
+    },
+    {
+      "supply": "VDD",
+      "a": "power_vdd_mesh_545",
+      "b": "power_vdd_mesh_546",
+      "layer": 1,
+      "density_gain_a_per_v_um": 0.07506159805864678,
+      "width_um": 2.25,
+      "position_um": [
+        1635.75,
+        505.875
+      ],
+      "peak_a_per_um": 0.0005970203058565921,
+      "mean_absolute_a_per_um": 2.615550541257871e-06,
+      "rms_a_per_um": 2.4290959110474167e-05,
+      "screen_limit_a_per_um": 0.00025,
+      "rms_fraction_of_limit": 0.09716383644189666,
+      "passed": true
+    },
+    {
+      "supply": "VDD",
+      "a": "power_vdd_mesh_543",
+      "b": "power_vdd_mesh_544",
+      "layer": 1,
+      "density_gain_a_per_v_um": 0.8038547660482512,
+      "width_um": 2.25,
+      "position_um": [
+        1615.0,
+        505.875
+      ],
+      "peak_a_per_um": 0.0005984191404749038,
+      "mean_absolute_a_per_um": 2.7399870316941178e-06,
+      "rms_a_per_um": 2.3738159746259337e-05,
+      "screen_limit_a_per_um": 0.00025,
+      "rms_fraction_of_limit": 0.09495263898503735,
+      "passed": true
+    },
+    {
+      "supply": "VDD",
+      "a": "power_vdd_mesh_544",
+      "b": "power_vdd_mesh_545",
+      "layer": 1,
+      "density_gain_a_per_v_um": 0.637346269286752,
+      "width_um": 2.25,
+      "position_um": [
+        1619.5,
+        505.875
+      ],
+      "peak_a_per_um": 0.000597618718043793,
+      "mean_absolute_a_per_um": 2.570939885664275e-06,
+      "rms_a_per_um": 2.37200152956014e-05,
+      "screen_limit_a_per_um": 0.00025,
+      "rms_fraction_of_limit": 0.0948800611824056,
+      "passed": true
+    },
+    {
+      "supply": "VDD",
+      "a": "power_vdd_mesh_542",
+      "b": "power_vdd_mesh_543",
+      "layer": 1,
+      "density_gain_a_per_v_um": 0.8587668911460342,
+      "width_um": 2.25,
+      "position_um": [
+        1595.25,
+        505.875
+      ],
+      "peak_a_per_um": 0.0006122293467180706,
+      "mean_absolute_a_per_um": 2.7142968438337677e-06,
+      "rms_a_per_um": 2.3660892355927284e-05,
+      "screen_limit_a_per_um": 0.00025,
+      "rms_fraction_of_limit": 0.09464356942370913,
+      "passed": true
+    },
+    {
+      "supply": "VDD",
+      "a": "power_vdd_mesh_541",
+      "b": "power_vdd_mesh_542",
+      "layer": 1,
+      "density_gain_a_per_v_um": 0.6099568044982043,
+      "width_um": 2.25,
+      "position_um": [
+        1578.0,
+        505.875
+      ],
+      "peak_a_per_um": 0.0006625131649925221,
+      "mean_absolute_a_per_um": 2.9386914088610586e-06,
+      "rms_a_per_um": 2.3655249947215848e-05,
+      "screen_limit_a_per_um": 0.00025,
+      "rms_fraction_of_limit": 0.09462099978886339,
+      "passed": true
+    },
+    {
+      "supply": "VSS",
+      "a": "power_vss_mesh_3251",
+      "b": "power_vss_mesh_3252",
+      "layer": 1,
+      "density_gain_a_per_v_um": 0.8235316360196774,
+      "width_um": 2.25,
+      "position_um": [
+        1511.0,
+        153.875
+      ],
+      "peak_a_per_um": 0.0006438999202658447,
+      "mean_absolute_a_per_um": 1.9040654491105385e-06,
+      "rms_a_per_um": 2.354676355547443e-05,
+      "screen_limit_a_per_um": 0.00025,
+      "rms_fraction_of_limit": 0.09418705422189771,
+      "passed": true
+    },
+    {
+      "supply": "VSS",
+      "a": "power_vss_mesh_241",
+      "b": "power_vss_mesh_295",
+      "layer": 1,
+      "density_gain_a_per_v_um": 0.06434939611102664,
+      "width_um": 2.25,
+      "position_um": [
+        1788.0,
+        450.875
+      ],
+      "peak_a_per_um": 0.00053589596280977,
+      "mean_absolute_a_per_um": 2.629273946334567e-06,
+      "rms_a_per_um": 2.3507552238488645e-05,
+      "screen_limit_a_per_um": 0.00025,
+      "rms_fraction_of_limit": 0.09403020895395459,
+      "passed": true
+    },
+    {
+      "supply": "VSS",
+      "a": "power_vss_mesh_293",
+      "b": "power_vss_mesh_294",
+      "layer": 1,
+      "density_gain_a_per_v_um": 1.2500000000000062,
+      "width_um": 2.25,
+      "position_um": [
+        1618.5,
+        450.875
+      ],
+      "peak_a_per_um": 0.000516376221230532,
+      "mean_absolute_a_per_um": 2.5928869069967023e-06,
+      "rms_a_per_um": 2.2966977028084203e-05,
+      "screen_limit_a_per_um": 0.00025,
+      "rms_fraction_of_limit": 0.0918679081123368,
+      "passed": true
+    },
+    {
+      "supply": "VSS",
+      "a": "power_vss_mesh_294",
+      "b": "power_vss_mesh_295",
+      "layer": 1,
+      "density_gain_a_per_v_um": 1.2500000000000062,
+      "width_um": 2.25,
+      "position_um": [
+        1626.5,
+        450.875
+      ],
+      "peak_a_per_um": 0.0005164252894832395,
+      "mean_absolute_a_per_um": 2.5846113573554127e-06,
+      "rms_a_per_um": 2.296660448300932e-05,
+      "screen_limit_a_per_um": 0.00025,
+      "rms_fraction_of_limit": 0.09186641793203727,
+      "passed": true
+    },
+    {
+      "supply": "VSS",
+      "a": "power_vss_mesh_293",
+      "b": "power_vss_mesh_301",
+      "layer": 1,
+      "density_gain_a_per_v_um": 0.7031802444531112,
+      "width_um": 2.25,
+      "position_um": [
+        1608.0,
+        450.875
+      ],
+      "peak_a_per_um": 0.0005318434730777421,
+      "mean_absolute_a_per_um": 2.6017714105643557e-06,
+      "rms_a_per_um": 2.2871291598278213e-05,
+      "screen_limit_a_per_um": 0.00025,
+      "rms_fraction_of_limit": 0.09148516639311285,
+      "passed": true
+    }
+  ],
+  "published_limits": {
+    "m1_field_a_per_2um": 0.0009,
+    "m1_step_a_per_2um": 0.0005,
+    "m2_field_a_per_3um": 0.0037
+  },
+  "method": "Exact resistive-node reconstruction and series/parallel current transfer on the existing supply model. Local sampled width is conservative; all M1 uses the smaller step-current rating.",
+  "reference": "Unmodified OS00 reference manual rev1.1, tables I-3-1 and I-3-3.",
+  "scope": "Reconstruct supply-wire currents without changing the simulated circuit.\n\nThe published wire limits are treated as steady-current limits. Mean absolute\nand RMS density are screened; peak density is reported separately because the\npublic manual specifies an instantaneous limit for TC, but not for M1/M2.\nThis is a geometry-based current/heating screen, not foundry EM qualification.\n"
+}

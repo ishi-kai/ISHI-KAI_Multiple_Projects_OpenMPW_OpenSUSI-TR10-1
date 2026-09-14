@@ -1,0 +1,35 @@
+** sch_path: /mnt/c/Data/OneDrive/MyDocuments/Community/ISHIKAI/shuttle/OpenSUSI-TR10/2026/opamp/july_fifth/opamp_july_fifth.sch
+.subckt opamp_july_fifth vinp vinn out vdd vss ib
+*.PININFO vinp:I vinn:I out:O vdd:B vss:B ib:B
+X1 vinp vinn net2 vdd vss ib diff
+X2 net2 ib out vdd vss cs
+MM9 net1 ib vdd vdd PMOS w=30u l=4u
+MM12 net3 net1 net2 vss NMOS w=40u l=4u
+MM1 ib ib vdd vdd PMOS w=30u l=4u
+MM10 net1 net1 net4 vss NMOS w=10u l=4u
+MM11 net4 net4 vss vss NMOS w=10u l=4u
+XXC1 net3 out vss F_CSIO x=120u y=120u A=14.4n P=480u
+.ends
+
+* expanding   symbol:  diff.sym # of pins=6
+** sym_path: /mnt/c/Data/OneDrive/MyDocuments/Community/ISHIKAI/shuttle/OpenSUSI-TR10/2026/opamp/july_fifth/diff.sym
+** sch_path: /mnt/c/Data/OneDrive/MyDocuments/Community/ISHIKAI/shuttle/OpenSUSI-TR10/2026/opamp/july_fifth/diff.sch
+.subckt diff vinp vinn out vdd vss vb
+*.PININFO vinn:I vinp:I vb:I out:O vdd:B vss:B
+MM5 net2 vb vdd vdd PMOS w=160u l=4u
+MM1 net1 vinn net2 net2 PMOS w=360u l=4u
+MM2 out vinp net2 net2 PMOS w=360u l=4u
+MM3 net1 net1 vss vss NMOS w=40u l=4u
+MM4 out net1 vss vss NMOS w=40u l=4u
+.ends
+
+
+* expanding   symbol:  cs.sym # of pins=5
+** sym_path: /mnt/c/Data/OneDrive/MyDocuments/Community/ISHIKAI/shuttle/OpenSUSI-TR10/2026/opamp/july_fifth/cs.sym
+** sch_path: /mnt/c/Data/OneDrive/MyDocuments/Community/ISHIKAI/shuttle/OpenSUSI-TR10/2026/opamp/july_fifth/cs.sch
+.subckt cs vin vb out vdd vss
+*.PININFO vb:I vin:I out:O vss:B vdd:B
+MM6 out vb vdd vdd PMOS w=400u l=4u
+MM7 out vin vss vss NMOS w=200u l=4u
+.ends
+

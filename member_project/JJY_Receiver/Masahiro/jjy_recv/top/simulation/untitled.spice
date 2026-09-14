@@ -1,0 +1,192 @@
+** sch_path: /home/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/member_project/JJY_Receiver/Masahiro/jjy_recv/top/untitled.sch
+.subckt untitled
+
+x1 net2 net1 net3 net4 net5 net6 net7 net8 net9 net10 net11 net12 net13 net14 net15 net16 OSS_FRAME
+x2 net17 net1 net18 net19 net20 net21 net22 net23 net24 net25 top
+.ends
+
+* expanding   symbol:  TR-1um_frame/OSS_FRAME.sym # of pins=16
+** sym_path: /home/ishi-kai/pdk/TR-1um/libs.tech/xschem/TR-1um_frame/OSS_FRAME.sym
+** sch_path: /home/ishi-kai/pdk/TR-1um/libs.tech/xschem/TR-1um_frame/OSS_FRAME.sch
+.subckt OSS_FRAME P1 VDD P2 P15 P14 P3 P4 P13 P5 P12 P6 P11 P10 P7 P9 VSS
+*.PININFO P1:B P2:B P3:B P4:B P5:B P6:B P7:B VSS:B VDD:B P15:B P14:B P13:B P12:B P11:B P10:B P9:B
+*  x1 -  OSS_ESD_5V_ANA  IS MISSING !!!!
+*  x2 -  OSS_ESD_5V_VDD  IS MISSING !!!!
+*  x3 -  OSS_ESD_5V_VSS  IS MISSING !!!!
+*  x4 -  OSS_ESD_5V_ANA  IS MISSING !!!!
+*  x5 -  OSS_ESD_5V_ANA  IS MISSING !!!!
+*  x6 -  OSS_ESD_5V_ANA  IS MISSING !!!!
+*  x7 -  OSS_ESD_5V_ANA  IS MISSING !!!!
+*  x8 -  OSS_ESD_5V_ANA  IS MISSING !!!!
+*  x9 -  OSS_ESD_5V_ANA  IS MISSING !!!!
+*  x10 -  OSS_ESD_5V_ANA  IS MISSING !!!!
+*  x11 -  OSS_ESD_5V_ANA  IS MISSING !!!!
+*  x12 -  OSS_ESD_5V_ANA  IS MISSING !!!!
+*  x13 -  OSS_ESD_5V_ANA  IS MISSING !!!!
+*  x14 -  OSS_ESD_5V_ANA  IS MISSING !!!!
+*  x15 -  OSS_ESD_5V_ANA  IS MISSING !!!!
+*  x16 -  OSS_ESD_5V_ANA  IS MISSING !!!!
+.ends
+
+
+* expanding   symbol:  top/top.sym # of pins=10
+** sym_path: /home/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/member_project/JJY_Receiver/Masahiro/jjy_recv/top/top.sym
+** sch_path: /home/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/member_project/JJY_Receiver/Masahiro/jjy_recv/top/top.sch
+.subckt top XTALP VDD VSS XTALN IBN40U VB VOUT VINN VINP VDDBUF
+*.PININFO IBN40U:I XTALN:B VINN:I XTALP:B VINP:I VB:I VDD:B VOUT:O VDDBUF:B VSS:B
+x2 VB ifn VDD ifp VSS VXON VXOP vop von IBN40U gilbert_cell
+x3 VB VDD vop von VSS VINN VINP IBN40U fully_diff_amp
+x1 VDDBUF VSS ifn VOUT IBN40UI OBUF_SSF
+x4 VDD IBN40U IBN40UI VSS bias40u
+x5 VDD VSS VXOP XTALN XTALP VXON XTALOSC
+.ends
+
+
+* expanding   symbol:  gilbert_cell/gilbert_cell.sym # of pins=10
+** sym_path: /home/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/member_project/JJY_Receiver/Masahiro/jjy_recv/gilbert_cell/gilbert_cell.sym
+** sch_path: /home/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/member_project/JJY_Receiver/Masahiro/jjy_recv/gilbert_cell/gilbert_cell.sch
+.subckt gilbert_cell vb ifn vdd ifp vss lop lon rfn rfp vt
+*.PININFO ifp:O ifn:O rfp:I vb:I vt:I rfn:I vdd:B vss:B lon:I lop:I
+MM1 ifp vb vdd vdd PMOS w=45u l=2u
+MM2 ifn vb vdd vdd PMOS w=45u l=2u
+MM3 net3 vt vss vss NMOS w=10u l=2u m=2
+MM7 net1 rfp net3 vss NMOS w=20u l=2u
+MM8 net2 rfn net3 vss NMOS w=20u l=2u
+MM5 ifn lop net1 vss NMOS w=20u l=2u
+MM6 ifp lon net1 vss NMOS w=20u l=2u
+MM9 ifn lon net2 vss NMOS w=20u l=2u
+MM10 ifp lop net2 vss NMOS w=20u l=2u
+.ends
+
+
+* expanding   symbol:  diff_amp/fully_diff_amp.sym # of pins=8
+** sym_path: /home/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/member_project/JJY_Receiver/Masahiro/jjy_recv/diff_amp/fully_diff_amp.sym
+** sch_path: /home/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/member_project/JJY_Receiver/Masahiro/jjy_recv/diff_amp/fully_diff_amp.sch
+.subckt fully_diff_amp vb vdd vop von vss vinn vinp vt
+*.PININFO vop:O von:O vinp:I vb:I vt:I vinn:I vdd:B vss:B
+MM1 vop vb vdd vdd PMOS w=45u l=2u
+MM2 von vb vdd vdd PMOS w=45u l=2u
+MM3 net1 vt vss vss NMOS w=10u l=2u m=2
+MM7 von vinp net1 vss NMOS w=20u l=2u
+MM8 vop vinn net1 vss NMOS w=20u l=2u
+MM6 net2 net2 vop vdd PMOS w=45u l=8u
+MM9 net2 net2 vinn vdd PMOS w=45u l=8u
+MM5 net3 net3 von vdd PMOS w=45u l=8u
+MM10 net3 net3 vinp vdd PMOS w=45u l=8u
+MM12 vinn vinn vss vss NMOS w=12.6u l=8u
+MM13 vinn vinn vdd vdd PMOS w=34.4u l=8u
+MM11 vinp vinp vss vss NMOS w=12.6u l=8u
+MM14 vinp vinp vdd vdd PMOS w=34.4u l=8u
+.ends
+
+
+* expanding   symbol:  OBUF_SSF/OBUF_SSF.sym # of pins=5
+** sym_path: /home/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/member_project/JJY_Receiver/Masahiro/jjy_recv/OBUF_SSF/OBUF_SSF.sym
+** sch_path: /home/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/member_project/JJY_Receiver/Masahiro/jjy_recv/OBUF_SSF/OBUF_SSF.sch
+.subckt OBUF_SSF VDD VSS VIN VOUT IBN40U
+*.PININFO VDD:I VSS:I VIN:I IBN40U:I VOUT:O
+MM1 hogehoge VIN VOUT VSS NMOS w=10u l=1u m=32
+MM3 VOUT net2 VSS VSS NMOS w=10u l=2u m=16
+MM6 IBN40U IBN40U VSS VSS NMOS w=10u l=2u m=2
+MM4 hogehoge net1 VDD VDD PMOS w=10u l=2u m=16
+MM5 VOUT hogehoge VDD VDD PMOS w=10u l=2u m=16
+MM8 net1 IBN40U VSS VSS NMOS w=10u l=2u m=16
+MM9 net1 net1 VDD VDD PMOS w=10u l=2u m=2
+MM10 net2 net1 VDD VDD PMOS w=10u l=2u m=2
+MM11 net2 net2 VSS VSS NMOS w=10u l=2u
+MM2 VOUT hogehoge VDD VDD PMOS w=10u l=2u m=16
+MM7 VOUT hogehoge VDD VDD PMOS w=10u l=2u m=16
+MM12 VOUT hogehoge VDD VDD PMOS w=10u l=2u m=16
+MM13 VOUT net2 VSS VSS NMOS w=10u l=2u m=16
+MM14 VOUT net2 VSS VSS NMOS w=10u l=2u m=16
+MM15 VOUT net2 VSS VSS NMOS w=10u l=2u m=16
+MM16 VDD VDD VDD VDD PMOS w=10u l=2u m=8
+MM24 net2 net2 VSS VSS NMOS w=10u l=2u
+MM20 VSS VSS VSS VSS NMOS w=10u l=2u m=6
+MM31 VDD VDD VDD VDD PMOS w=10u l=2u m=4
+MM32 VSS VSS VSS VSS NMOS w=10u l=2u m=6
+.ends
+
+
+* expanding   symbol:  bias_for_mix_amp/bias40u.sym # of pins=4
+** sym_path: /home/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/member_project/JJY_Receiver/Masahiro/jjy_recv/bias_for_mix_amp/bias40u.sym
+** sch_path: /home/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/member_project/JJY_Receiver/Masahiro/jjy_recv/bias_for_mix_amp/bias40u.sch
+.subckt bias40u vdd ib40u is40u vss
+*.PININFO vss:B ib40u:B vdd:B is40u:O
+MXM1 ib40u ib40u vss vss NMOS w=10u l=2u m=2
+MXM2 net1 ib40u vss vss NMOS w=10u l=2u m=2
+MXM3 net1 net1 vdd vdd PMOS w=45u l=2u
+MXM4 is40u net1 vdd vdd PMOS w=45u l=2u
+.ends
+
+
+* expanding   symbol:  XTALOSC/XTALOSC.sym # of pins=6
+** sym_path: /home/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/member_project/JJY_Receiver/Masahiro/jjy_recv/XTALOSC/XTALOSC.sym
+** sch_path: /home/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/member_project/JJY_Receiver/Masahiro/jjy_recv/XTALOSC/XTALOSC.sch
+.subckt XTALOSC VDD VSS VON XTALN XTALP VOP
+*.PININFO VSS:I VON:O VOP:O VDD:I XTALP:I XTALN:I
+x2 VDD XTALP VON0 VSS INV_X1
+x3 VDD VOP2 VON VSS INV_X4
+x4 VDD VON2 VOP VSS INV_X4
+x7 VDD XTALP VOP0 VSS BUF_X1
+x1 VDD VON0 VON1 VSS INV_X1
+x8 VDD VOP0 VOP1 VSS INV_X1
+x9 VDD VON1 VON2 VSS INV_X2
+x10 VDD VOP1 VOP2 VSS INV_X2
+x5 VDD VON VOP VSS INV_X1
+x6 VDD VOP VON VSS INV_X1
+x11 VDD XTALN XTALP VSS XTALOSC_INV
+.ends
+
+
+* expanding   symbol:  INV_X1.sym # of pins=4
+** sym_path: /home/ishi-kai/pdk/TR-1um/libs.tech/xschem/TR-1um_5_stdcell/INV_X1.sym
+** sch_path: /home/ishi-kai/pdk/TR-1um/libs.tech/xschem/TR-1um_5_stdcell/INV_X1.sch
+.subckt INV_X1 VDD A Y GND
+*.PININFO A:I Y:O GND:B VDD:B
+MM7 Y A VDD VDD PMOS w=10.2u l=1u
+MM2 Y A GND GND NMOS w=3.4u l=1u
+.ends
+
+
+* expanding   symbol:  INV_X4.sym # of pins=4
+** sym_path: /home/ishi-kai/pdk/TR-1um/libs.tech/xschem/TR-1um_5_stdcell/INV_X4.sym
+** sch_path: /home/ishi-kai/pdk/TR-1um/libs.tech/xschem/TR-1um_5_stdcell/INV_X4.sch
+.subckt INV_X4 VDD A Y GND
+*.PININFO A:I Y:O GND:B VDD:B
+MM7 Y A VDD VDD PMOS w=10.2u l=1u m=4
+MM1 Y A GND GND NMOS w=3.4u l=1u m=4
+.ends
+
+
+* expanding   symbol:  BUF_X1.sym # of pins=4
+** sym_path: /home/ishi-kai/pdk/TR-1um/libs.tech/xschem/TR-1um_5_stdcell/BUF_X1.sym
+** sch_path: /home/ishi-kai/pdk/TR-1um/libs.tech/xschem/TR-1um_5_stdcell/BUF_X1.sch
+.subckt BUF_X1 VDD A Y GND
+*.PININFO A:I Y:O VDD:B GND:B
+MM7 net1 A VDD VDD PMOS w=10.2u l=1u
+MM1 Y net1 VDD VDD PMOS w=10.2u l=1u
+MM3 net1 A GND GND NMOS w=3.4u l=1u
+MM2 Y net1 GND GND NMOS w=3.4u l=1u
+.ends
+
+
+* expanding   symbol:  INV_X2.sym # of pins=4
+** sym_path: /home/ishi-kai/pdk/TR-1um/libs.tech/xschem/TR-1um_5_stdcell/INV_X2.sym
+** sch_path: /home/ishi-kai/pdk/TR-1um/libs.tech/xschem/TR-1um_5_stdcell/INV_X2.sch
+.subckt INV_X2 VDD A Y GND
+*.PININFO A:I Y:O GND:B VDD:B
+MM7 Y A VDD VDD PMOS w=10.2u l=1u m=2
+MM2 Y A GND GND NMOS w=3.4u l=1u m=2
+.ends
+
+
+* expanding   symbol:  XTALOSC/XTALOSC_INV.sym # of pins=4
+** sym_path: /home/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/member_project/JJY_Receiver/Masahiro/jjy_recv/XTALOSC/XTALOSC_INV.sym
+** sch_path: /home/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/member_project/JJY_Receiver/Masahiro/jjy_recv/XTALOSC/XTALOSC_INV.sch
+.subckt XTALOSC_INV VDD VIN VOUT VSS
+*.PININFO VSS:I VDD:I VIN:I VOUT:O
+MM1 VOUT VIN VDD VDD PMOS w=12u l=10u
+MM2 VOUT VIN VSS VSS NMOS w=4u l=10u
+.ends
+

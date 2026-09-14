@@ -1,0 +1,129 @@
+{
+  "passed": true,
+  "checks": 3669,
+  "failure_count": 0,
+  "failures": [],
+  "read_observations": [
+    {
+      "operation": 4,
+      "row": 0,
+      "col": 0,
+      "sae_half_ns": 88016.05342334494,
+      "y_difference_v": -5.027813329214623
+    },
+    {
+      "operation": 5,
+      "row": 0,
+      "col": 31,
+      "sae_half_ns": 106015.9878871608,
+      "y_difference_v": 5.0268037189244135
+    },
+    {
+      "operation": 6,
+      "row": 15,
+      "col": 0,
+      "sae_half_ns": 124015.9683032005,
+      "y_difference_v": 5.025536786137564
+    },
+    {
+      "operation": 7,
+      "row": 15,
+      "col": 31,
+      "sae_half_ns": 142016.06908713566,
+      "y_difference_v": -5.027989099716254
+    },
+    {
+      "operation": 12,
+      "row": 0,
+      "col": 0,
+      "sae_half_ns": 232015.98223364525,
+      "y_difference_v": 5.026501380131055
+    },
+    {
+      "operation": 13,
+      "row": 0,
+      "col": 31,
+      "sae_half_ns": 250016.06982429992,
+      "y_difference_v": -5.028228447376956
+    },
+    {
+      "operation": 14,
+      "row": 15,
+      "col": 0,
+      "sae_half_ns": 268016.05023625534,
+      "y_difference_v": -5.02778679018702
+    },
+    {
+      "operation": 15,
+      "row": 15,
+      "col": 31,
+      "sae_half_ns": 286015.9728993069,
+      "y_difference_v": 5.025857787374782
+    }
+  ],
+  "points": 53425,
+  "operations": 16,
+  "source_deck_sha256": "7408c56a4632171762eedd84da45fabe928b0b30d158bf8178780d5bcaa0207c",
+  "deck_sha256": "6f646a3214ad113f8381fb7b3b506cf805c1187bb68c12b664a789662ac44140",
+  "model_notices": [
+    {
+      "model": "DN",
+      "unsupported_parameters": [
+        "imax",
+        "imelt"
+      ],
+      "consequence": "Diode current/melting limit flags are not implemented by ngspice."
+    },
+    {
+      "model": "DP",
+      "unsupported_parameters": [
+        "imax",
+        "imelt"
+      ],
+      "consequence": "Diode current/melting limit flags are not implemented by ngspice."
+    }
+  ],
+  "currents": {
+    "vvdd": {
+      "peak_abs_a": 0.014852339367471181,
+      "peak_ns": 228021.07219519635,
+      "time_mean_a": 0.00011984682849548403,
+      "rms_a": 0.0008680804397775862
+    },
+    "vvss": {
+      "peak_abs_a": 0.014859378695445964,
+      "peak_ns": 228021.07219519635,
+      "time_mean_a": 0.0001196750817469333,
+      "rms_a": 0.0008671612595793779
+    },
+    "vpc": {
+      "peak_abs_a": 0.013385752355542773,
+      "peak_ns": 192021.11356745654,
+      "time_mean_a": 2.5935805530306064e-06,
+      "rms_a": 0.00017677756344247722
+    },
+    "vup": {
+      "peak_abs_a": 0.009418553708475087,
+      "peak_ns": 10.054089297984715,
+      "time_mean_a": 7.638788369303959e-05,
+      "rms_a": 0.0005906818266384108
+    },
+    "vlo": {
+      "peak_abs_a": 0.0060990226365085515,
+      "peak_ns": 269019.67157873727,
+      "time_mean_a": 4.341790862241832e-05,
+      "rms_a": 0.00031571285479770576
+    },
+    "vbu": {
+      "peak_abs_a": 0.010341593232345807,
+      "peak_ns": 192021.11356745654,
+      "time_mean_a": -1.3071056852458945e-07,
+      "rms_a": 0.00020421507457514483
+    }
+  },
+  "elapsed_seconds": 331.23,
+  "hypothetical_precharge_width_um": null,
+  "upper_ground_peak_bound_a": 0.015563671373810737,
+  "ground_partition": "D/S returns below y=80 um are on the bottom M1 rail; all body/extra-wire-C current is included in the upper-path bound.",
+  "scope": "Supply-current measurements; proposed widths require new physical implementation and extraction."
+}

@@ -1,0 +1,11 @@
+* Created by KLayout
+*** My special header ***
+
+* cell ys4i_inv
+* pin VSS
+.SUBCKT ys4i_inv VSS
+* device instance $1 r0 *1 20,18 PMOS
+XM$1 \$6 \$2 \$1 \$4 PMOS L=1u W=3.4u AS=9.52p AD=9.52p PS=12.4u PD=12.4u
+* device instance $2 r0 *1 20,-4 NMOS
+XM$2 \$5 \$2 \$1 VSS NMOS L=1u W=3.4u AS=9.52p AD=9.52p PS=12.4u PD=12.4u
+.ENDS ys4i_inv

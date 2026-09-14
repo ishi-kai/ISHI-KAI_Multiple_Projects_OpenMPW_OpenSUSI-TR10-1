@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<klayout-macro>
+ <description>Width guide before starting a native Path</description>
+ <version>0.1.0</version>
+ <category>pymacros</category>
+ <prolog/>
+ <epilog/>
+ <doc/>
+ <autorun>true</autorun>
+ <autorun-early>false</autorun-early>
+ <priority>10</priority>
+ <shortcut/>
+ <show-in-menu>false</show-in-menu>
+ <group-name/>
+ <menu-path/>
+ <interpreter>python</interpreter>
+ <dsl-interpreter-name/>
+ <text>
+import os
+import sys
+
+here = os.path.dirname(os.path.realpath(__file__))
+python_dir = os.path.realpath(os.path.join(here, "..", "python"))
+if python_dir not in sys.path:
+    sys.path.insert(0, python_dir)
+
+from path_start_preview import install
+
+install()
+ </text>
+</klayout-macro>

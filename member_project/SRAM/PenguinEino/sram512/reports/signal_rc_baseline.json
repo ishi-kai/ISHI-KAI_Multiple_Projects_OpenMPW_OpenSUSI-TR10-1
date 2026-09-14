@@ -1,0 +1,167 @@
+{
+  "passed": true,
+  "checks": 26197,
+  "failure_count": 0,
+  "failures": [],
+  "read_observations": [
+    {
+      "operation": 4,
+      "row": 0,
+      "col": 0,
+      "sae_half_ns": 88017.63607516281,
+      "y_difference_v": -5.027407033823644
+    },
+    {
+      "operation": 5,
+      "row": 0,
+      "col": 31,
+      "sae_half_ns": 106017.55181589616,
+      "y_difference_v": 5.022316985657479
+    },
+    {
+      "operation": 6,
+      "row": 15,
+      "col": 0,
+      "sae_half_ns": 124017.63285848602,
+      "y_difference_v": 5.027091299627672
+    },
+    {
+      "operation": 7,
+      "row": 15,
+      "col": 31,
+      "sae_half_ns": 142017.5516440016,
+      "y_difference_v": -5.024906556243481
+    },
+    {
+      "operation": 12,
+      "row": 0,
+      "col": 0,
+      "sae_half_ns": 232017.52763324414,
+      "y_difference_v": 5.023575108292825
+    },
+    {
+      "operation": 13,
+      "row": 0,
+      "col": 31,
+      "sae_half_ns": 250017.58494640648,
+      "y_difference_v": -5.027070753281755
+    },
+    {
+      "operation": 14,
+      "row": 15,
+      "col": 0,
+      "sae_half_ns": 268017.63751644146,
+      "y_difference_v": -5.027409521856334
+    },
+    {
+      "operation": 15,
+      "row": 15,
+      "col": 31,
+      "sae_half_ns": 286017.623824767,
+      "y_difference_v": 5.027178465062433
+    }
+  ],
+  "points": 55647,
+  "operations": 16,
+  "rc_checks": {
+    "passed": true,
+    "checks": 22528,
+    "failure_count": 0,
+    "failures": [],
+    "clock_branches": 21,
+    "maximum_clock_rising_skew_ns": 0.21076778084534453,
+    "minimum_clock_high_ns": 500.1722185450053,
+    "minimum_clock_low_ns": 499.6497438480583,
+    "scope": "All four BL/WL/common-line RC sections, control gate loads, and every physical clock branch."
+  },
+  "name": "signal_rc_baseline",
+  "physical_extraction": {
+    "gds_sha256": "d14e24cfab61a7c702df08f00fcba44efac877f60e34a5def9606162912ffc9e",
+    "lvsdb_sha256": "60936758be11656c6bd250382751a9bd9a03df17a90827efe0bbbfc4ac17f39d",
+    "mos_groups": 5005,
+    "physical_fingers": 5081,
+    "model_counts": {
+      "PMOS": 1991,
+      "NMOS": 3014
+    },
+    "source": "/home/ishi-kai/sram/build/sram512/extracted_sources/d14e24cfab61a7c702df08f00fcba44efac877f60e34a5def9606162912ffc9e"
+  },
+  "period_ns": 1000,
+  "voltage_v": 5,
+  "temperature_c": 27,
+  "elapsed_seconds": 1.81,
+  "deck_sha256": "17883d52392ab881e1e99302b6182d7ef04279cc94c8a2e3ec5e416e7dd6c2b0",
+  "interconnect": {
+    "kind": "geometry-based RC sensitivity; uncalibrated coefficients",
+    "scale": 1.0,
+    "coefficients": {
+      "M1": {
+        "width_um": 1.8,
+        "sheet_ohm": 1.0,
+        "area_ff_um2": 0.05,
+        "edge_ff_um": 0.02
+      },
+      "M2": {
+        "width_um": 3.4,
+        "sheet_ohm": 1.0,
+        "area_ff_um2": 0.03,
+        "edge_ff_um": 0.02
+      }
+    },
+    "segments": 4,
+    "assumptions": [
+      "Series square count sums all metal branches conservatively.",
+      "Capacitance is represented to ground; scale sweep also stresses coupling load.",
+      "Power-rail resistance is not included in this signal-RC model."
+    ],
+    "geometry_nets": 2024,
+    "detailed_parameters_sha256": "d1cccd9030430a97449db4c75dad43c6795e09b1ae924bb80aaf5a65052d4df5",
+    "detailed_parameters_file": "/home/ishi-kai/sram/build/sram512/analog/signal_rc_baseline/wire_rc.json",
+    "clock": {
+      "branches": 21,
+      "series_sum_ohm": 2219.052559912854,
+      "cap_ff": 662.6459500000001
+    },
+    "wire_groups": {
+      "bitline": {
+        "nets": 64,
+        "resistance_ohm_range": [
+          306.48148148148147,
+          306.48148148148147
+        ],
+        "capacitance_ff_range": [
+          71.426,
+          71.426
+        ]
+      },
+      "wordline": {
+        "nets": 32,
+        "resistance_ohm_range": [
+          184.95944935708488,
+          266.99812038105006
+        ],
+        "capacitance_ff_range": [
+          77.97229999999999,
+          107.6896
+        ]
+      },
+      "common": {
+        "nets": 2,
+        "resistance_ohm_range": [
+          967.9379084967319,
+          979.3750907770516
+        ],
+        "capacitance_ff_range": [
+          309.0062,
+          309.779
+        ]
+      }
+    }
+  },
+  "supply_current_a": {
+    "max": 0.012563443527357337,
+    "time_mean": 0.00013697327586233824,
+    "rms": 0.000911701456757234
+  },
+  "reused_waveform": true
+}
