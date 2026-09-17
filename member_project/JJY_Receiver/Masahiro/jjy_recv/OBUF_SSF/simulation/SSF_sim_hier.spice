@@ -1,0 +1,75 @@
+** sch_path: /home/ishi-kai/Projects/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/member_project/JJY_Receiver/Masahiro/jjy_recv/OBUF_SSF/SSF_sim_hier.sch
+**.subckt SSF_sim_hier
+V1 VDD VSS 5
+VIN VIN net2 sin(0 0.1 2k)
+R1 net1 VSS 10
+V2 net2 VSS 2.5
+C1 VSPEAKER VOUT 10u
+x1 VDD VSS VIN VOUT IBN40u BUF_SSF
+V3 VSS 0 0
+I0 VDD IBN40u 40u
+V4 VSPEAKER net1 0
+**** begin user architecture code
+ .include /home/ishi-kai/pdk/TR-1um/libs.tech/spice/models/ip62_models
+
+
+.option savecurrent
+.control
+op
+show m
+save all
+*save @m.xm1.m1[gds]
+*save @m.xm3.m1[id]
+
+
+*dc VIN 0 5.0 0.01
+*plot VSPEAKER
+tran 0.01m 100m
+plot VSPEAKER
+plot i(V1)
+plot i(v4)
+*plot X1.CMPNC
+*plot X1.CMBIAS
+*plot VCM
+*plot @m.xm3.m1[id]
+.endc
+
+
+**** end user architecture code
+**.ends
+
+* expanding   symbol:  BUF_SSF.sym # of pins=5
+** sym_path: /home/ishi-kai/Projects/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/member_project/JJY_Receiver/Masahiro/jjy_recv/OBUF_SSF/BUF_SSF.sym
+** sch_path: /home/ishi-kai/Projects/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/member_project/JJY_Receiver/Masahiro/jjy_recv/OBUF_SSF/BUF_SSF.sch
+.subckt BUF_SSF VDD VSS VIN VOUT IBN40u
+*.opin VOUT
+*.ipin VDD
+*.ipin VSS
+*.ipin VIN
+*.ipin IBN40u
+XM1 hogehoge VIN VOUT VSS NMOS w=10u l=1u nrd=0 nrs=0 m=32
+XM3 VOUT net2 VSS VSS NMOS w=10u l=2u nrd=0 nrs=0 m=16
+XM6 IBN40u IBN40u VSS VSS NMOS w=10u l=2u nrd=0 nrs=0 m=2
+XM4 hogehoge net1 VDD VDD PMOS w=10u l=2u nrd=0 nrs=0 m=16
+XM5 VOUT hogehoge VDD VDD PMOS w=10u l=2u nrd=0 nrs=0 m=16
+XM8 net1 IBN40u VSS VSS NMOS w=10u l=2u nrd=0 nrs=0 m=20
+XM9 net1 net1 VDD VDD PMOS w=10u l=2u nrd=0 nrs=0 m=2
+XM10 net2 net1 VDD VDD PMOS w=10u l=2u nrd=0 nrs=0 m=2
+XM11 net2 net2 VSS VSS NMOS w=10u l=2u nrd=0 nrs=0 m=2
+XM2 VOUT hogehoge VDD VDD PMOS w=10u l=2u nrd=0 nrs=0 m=16
+XM7 VOUT hogehoge VDD VDD PMOS w=10u l=2u nrd=0 nrs=0 m=16
+XM12 VOUT hogehoge VDD VDD PMOS w=10u l=2u nrd=0 nrs=0 m=16
+XM13 VOUT net2 VSS VSS NMOS w=10u l=2u nrd=0 nrs=0 m=16
+XM14 VOUT net2 VSS VSS NMOS w=10u l=2u nrd=0 nrs=0 m=16
+XM15 VOUT net2 VSS VSS NMOS w=10u l=2u nrd=0 nrs=0 m=16
+XM16 VDD VDD VDD VDD PMOS w=10u l=2u nrd=0 nrs=0
+XM17 VDD VDD VDD VDD PMOS w=10u l=2u nrd=0 nrs=0
+XM18 VDD VDD VDD VDD PMOS w=10u l=2u nrd=0 nrs=0
+XM19 VDD VDD VDD VDD PMOS w=10u l=2u nrd=0 nrs=0
+XM20 VSS VSS VSS VSS PMOS w=10u l=2u nrd=0 nrs=0
+XM21 VSS VSS VSS VSS PMOS w=10u l=2u nrd=0 nrs=0
+XM22 VSS VSS VSS VSS PMOS w=10u l=2u nrd=0 nrs=0
+XM23 VSS VSS VSS VSS PMOS w=10u l=2u nrd=0 nrs=0
+.ends
+
+.end

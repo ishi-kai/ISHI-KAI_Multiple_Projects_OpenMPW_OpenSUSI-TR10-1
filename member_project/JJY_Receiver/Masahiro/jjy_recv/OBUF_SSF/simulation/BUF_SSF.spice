@@ -1,0 +1,24 @@
+** sch_path: /home/ishi-kai/Projects/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/member_project/JJY_Receiver/Masahiro/jjy_recv/OBUF_SSF/BUF_SSF.sch
+.subckt BUF_SSF VDD VSS VIN VOUT IBN40U
+*.PININFO VDD:I VSS:I VIN:I IBN40U:I VOUT:O
+MM1 hogehoge VIN VOUT VSS NMOS w=10u l=1u m=32
+MM3 VOUT net2 VSS VSS NMOS w=10u l=2u m=16
+MM6 IBN40U IBN40U VSS VSS NMOS w=10u l=2u m=2
+MM4 hogehoge net1 VDD VDD PMOS w=10u l=2u m=16
+MM5 VOUT hogehoge VDD VDD PMOS w=10u l=2u m=16
+MM8 net1 IBN40U VSS VSS NMOS w=10u l=2u m=16
+MM9 net1 net1 VDD VDD PMOS w=10u l=2u m=2
+MM10 net2 net1 VDD VDD PMOS w=10u l=2u m=2
+MM11 net2 net2 VSS VSS NMOS w=10u l=2u
+MM2 VOUT hogehoge VDD VDD PMOS w=10u l=2u m=16
+MM7 VOUT hogehoge VDD VDD PMOS w=10u l=2u m=16
+MM12 VOUT hogehoge VDD VDD PMOS w=10u l=2u m=16
+MM13 VOUT net2 VSS VSS NMOS w=10u l=2u m=16
+MM14 VOUT net2 VSS VSS NMOS w=10u l=2u m=16
+MM15 VOUT net2 VSS VSS NMOS w=10u l=2u m=16
+MM16 VDD VDD VDD VDD PMOS w=10u l=2u m=8
+MM24 net2 net2 VSS VSS NMOS w=10u l=2u
+MM20 VSS VSS VSS VSS NMOS w=10u l=2u m=6
+MM31 VDD VDD VDD VDD PMOS w=10u l=2u m=4
+MM32 VSS VSS VSS VSS NMOS w=10u l=2u m=6
+.ends

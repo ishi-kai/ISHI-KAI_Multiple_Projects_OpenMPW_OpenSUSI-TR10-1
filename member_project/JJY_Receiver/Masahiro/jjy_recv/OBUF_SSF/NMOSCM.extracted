@@ -1,0 +1,13 @@
+* Created by KLayout
+*** My special header ***
+
+* cell NMOSCM
+* pin VSS
+.SUBCKT NMOSCM VSS
+* device instance $1 m0 *1 74.4,20.6 NMOS
+XM$1 VSS VSS VSS VSS NMOS L=2u W=60u AS=116p AD=142p PS=103.2u PD=128.4u
+* device instance $2 m0 *1 79.4,20.6 NMOS
+XM$2 VSS \$1 \$11 VSS NMOS L=2u W=160u AS=240p AD=240p PS=208u PD=208u
+* device instance $7 m0 *1 74.4,41.4 NMOS
+XM$7 \$1 \$1 VSS VSS NMOS L=2u W=20u AS=56p AD=30p PS=51.2u PD=26u
+.ENDS NMOSCM

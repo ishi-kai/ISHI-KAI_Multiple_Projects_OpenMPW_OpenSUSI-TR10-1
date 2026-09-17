@@ -1,0 +1,10 @@
+* Created by KLayout
+*** My special header ***
+
+* cell PMOS640um
+.SUBCKT PMOS640um
+* device instance $1 m0 *1 14.4,20.6 PMOS
+XM$1 \$1 \$1 \$1 \$1 PMOS L=2u W=80u AS=172p AD=172p PS=154.4u PD=154.4u
+* device instance $2 m0 *1 19.4,20.6 PMOS
+XM$2 \$1 \$10 \$11 \$1 PMOS L=2u W=640u AS=960p AD=960p PS=832u PD=832u
+.ENDS PMOS640um

@@ -1,0 +1,33 @@
+* Created by KLayout
+*** My special header ***
+
+* cell BUF_SSF
+* pin IBN40U
+* pin VDD
+* pin VIN
+* pin VOUT
+* pin VSS
+.SUBCKT BUF_SSF IBN40U VDD VIN VOUT VSS
+* device instance $1 r0 *1 -24.4,79.7 NMOS
+XM$1 VOUT VIN \$13 VSS NMOS L=1u W=320u AS=493p AD=493p PS=428.6u PD=428.6u
+* device instance $33 m0 *1 14.4,-11.5 NMOS
+XM$33 VSS VSS VSS VSS NMOS L=2u W=120u AS=232p AD=284p PS=206.4u PD=256.8u
+* device instance $34 m0 *1 19.4,-11.5 NMOS
+XM$34 VSS \$4 VOUT VSS NMOS L=2u W=640u AS=960p AD=960p PS=832u PD=832u
+* device instance $51 m0 *1 14.4,9.3 NMOS
+XM$51 \$4 \$4 VSS VSS NMOS L=2u W=20u AS=56p AD=30p PS=51.2u PD=26u
+* device instance $106 m0 *1 -24.6,-11.5 NMOS
+XM$106 VSS IBN40U \$1 VSS NMOS L=2u W=160u AS=240p AD=240p PS=208u PD=208u
+* device instance $111 m0 *1 -29.6,9.3 NMOS
+XM$111 IBN40U IBN40U VSS VSS NMOS L=2u W=20u AS=56p AD=30p PS=51.2u PD=26u
+* device instance $129 m0 *1 14.4,141.9 PMOS
+XM$129 VDD VDD VDD VDD PMOS L=2u W=120u AS=232p AD=284p PS=206.4u PD=256.8u
+* device instance $130 m0 *1 19.4,141.9 PMOS
+XM$130 VDD \$13 VOUT VDD PMOS L=2u W=640u AS=960p AD=960p PS=832u PD=832u
+* device instance $201 r0 *1 -40,204.3 PMOS
+XM$201 \$4 \$1 VDD VDD PMOS L=2u W=20u AS=56p AD=30p PS=51.2u PD=26u
+* device instance $202 r0 *1 -35,204.3 PMOS
+XM$202 VDD \$1 \$13 VDD PMOS L=2u W=160u AS=240p AD=240p PS=208u PD=208u
+* device instance $207 r0 *1 -40,183.5 PMOS
+XM$207 \$1 \$1 VDD VDD PMOS L=2u W=20u AS=56p AD=30p PS=51.2u PD=26u
+.ENDS BUF_SSF

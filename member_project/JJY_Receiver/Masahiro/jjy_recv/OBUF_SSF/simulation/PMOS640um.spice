@@ -1,0 +1,16 @@
+** sch_path: /home/ishi-kai/Projects/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/member_project/JJY_Receiver/Masahiro/jjy_recv/OBUF_SSF/PMOS640um.sch
+.subckt PMOS640um
+
+MM5 net3 net2 net1 net1 PMOS w=10u l=2u m=16
+MM2 net3 net2 net1 net1 PMOS w=10u l=2u m=16
+MM7 net3 net2 net1 net1 PMOS w=10u l=2u m=16
+MM12 net3 net2 net1 net1 PMOS w=10u l=2u m=16
+MM16 net1 net1 net1 net1 PMOS w=10u l=2u
+MM17 net1 net1 net1 net1 PMOS w=10u l=2u
+MM18 net1 net1 net1 net1 PMOS w=10u l=2u
+MM19 net1 net1 net1 net1 PMOS w=10u l=2u
+MM27 net1 net1 net1 net1 PMOS w=10u l=2u
+MM28 net1 net1 net1 net1 PMOS w=10u l=2u
+MM29 net1 net1 net1 net1 PMOS w=10u l=2u
+MM30 net1 net1 net1 net1 PMOS w=10u l=2u
+.ends
