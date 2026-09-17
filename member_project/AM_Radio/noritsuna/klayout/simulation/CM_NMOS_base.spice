@@ -1,0 +1,8 @@
+** sch_path: /mnt/c/Data/OneDrive/MyDocuments/Community/ISHIKAI/shuttle/OpenSUSI-TR10/2026/Projects/AM_Radio/noritsuna/xschem/CM_NMOS_base.sch
+.subckt CM_NMOS_base VSS R_D_G R_U_G L_U_G L_D_G T_D
+*.PININFO VSS:B R_D_G:B R_U_G:B L_U_G:B L_D_G:B T_D:B
+MMM1 R_U_G R_U_G R_D_G VSS NMOS w=84u l=8u
+MMM2 R_D_G R_D_G VSS VSS NMOS w=84u l=8u
+MMM11 T_D L_U_G net1 VSS NMOS w=84u l=8u
+MMM12 net1 L_D_G VSS VSS NMOS w=84u l=8u
+.ends

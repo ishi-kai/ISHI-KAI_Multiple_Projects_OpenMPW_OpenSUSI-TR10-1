@@ -1,0 +1,20 @@
+* Created by KLayout
+*** My special header ***
+
+* cell CM_NMOS_base
+* pin L_D_G
+* pin L_U_G
+* pin R_D_G
+* pin R_U_G
+* pin T_D
+* pin VSS
+.SUBCKT CM_NMOS_base L_D_G L_U_G R_D_G R_U_G T_D VSS
+* device instance $1 r0 *1 -148.8,-76.4 NMOS
+XM$1 T_D L_U_G \$3 VSS NMOS L=8u W=84u AS=144.2p AD=144.2p PS=139.2u PD=139.2u
+* device instance $2 r0 *1 -137.8,-76.4 NMOS
+XM$2 \$3 L_D_G VSS VSS NMOS L=8u W=84u AS=126p AD=126p PS=120u PD=120u
+* device instance $3 r0 *1 -126.8,-76.4 NMOS
+XM$3 VSS R_D_G R_D_G VSS NMOS L=8u W=84u AS=126p AD=126p PS=120u PD=120u
+* device instance $4 r0 *1 -115.8,-76.4 NMOS
+XM$4 R_D_G R_U_G R_U_G VSS NMOS L=8u W=84u AS=126p AD=126p PS=120u PD=120u
+.ENDS CM_NMOS_base

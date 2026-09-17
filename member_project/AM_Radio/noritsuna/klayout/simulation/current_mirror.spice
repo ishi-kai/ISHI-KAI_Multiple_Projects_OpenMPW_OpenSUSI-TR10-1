@@ -1,0 +1,14 @@
+** sch_path: /mnt/c/Data/OneDrive/MyDocuments/Community/ISHIKAI/shuttle/OpenSUSI-TR10/2026/Projects/AM_Radio/noritsuna/xschem/current_mirror.sch
+.subckt current_mirror VDD VSS VB VB1 VB2
+*.PININFO VDD:B VSS:B VB:I VB1:O VB2:O
+MMM13 VB2 VB2 VB1 VSS NMOS w=84u l=8u
+MMM14 VB1 VB1 VSS VSS NMOS w=84u l=8u
+MMM23 VB VB VDD VDD PMOS w=240u l=8u
+MMM24 VB2 net2 net1 VDD PMOS w=240u l=8u
+MMM25 net1 VB VDD VDD PMOS w=240u l=8u
+MMM26 iB net2 VB VDD PMOS w=240u l=8u
+MMM5 iB net2 net3 VSS NMOS w=84u l=8u
+MMM6 net3 net3 VSS VSS NMOS w=84u l=8u
+MMDMYP1 iB VDD VDD VDD PMOS w=20u l=8u m=4
+MMDMYN7 iB VSS VSS VSS NMOS w=7u l=8u m=4
+.ends

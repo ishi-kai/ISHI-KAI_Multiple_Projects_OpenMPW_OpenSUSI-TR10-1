@@ -1,0 +1,9 @@
+** sch_path: /mnt/c/Data/OneDrive/MyDocuments/Community/ISHIKAI/shuttle/OpenSUSI-TR10/2026/Projects/AM_Radio/noritsuna/xschem/DIFF_NMOS_short_check.sch
+.subckt DIFF_NMOS_short_check VSS VB2 OUT1 VIN_N VIN_P MN_MDMY3 OUT2
+*.PININFO VSS:B VB2:B OUT1:O VIN_N:I VIN_P:I MN_MDMY3:B OUT2:O
+MMM4 OUT1 VB2 net2 VSS NMOS w=84u l=8u
+MMM19 MN_MDMY3 VB2 net1 VSS NMOS w=84u l=8u
+MMM20 net2 VIN_P_1 OUT2 VSS NMOS w=672u l=8u
+MMM21 net1 VIN_N_1 OUT2 VSS NMOS w=672u l=8u
+MMDMYN3 MN_MDMY3 VSS VSS VSS NMOS w=7u l=8u m=4
+.ends

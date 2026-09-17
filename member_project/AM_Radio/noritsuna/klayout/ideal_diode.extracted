@@ -1,0 +1,91 @@
+* Created by KLayout
+*** My special header ***
+
+* cell ideal_diode
+* pin VB1
+* pin VB2
+* pin VDD
+* pin VIN
+* pin VOUT
+* pin VREF
+* pin VSS
+.SUBCKT ideal_diode VB1 VB2 VDD VIN VOUT VREF VSS
+* device instance $1 r90 *1 -32.7,-61.4 F_CSIO
+XC$1 \$127 \$12 VSS F_CSIO C=5.4e-13 A=900p P=120u X=29.9999996628
++ Y=30.0000003372 m=1
+* device instance $2 r0 *1 -852,-372.7 DP
+D$2 \$12 VOUT DP A=51.84p P=57.6u
+* device instance $6 r0 *1 -851.8,-430.7 DP
+D$6 VREF \$12 DP A=51.84p P=57.6u
+* device instance $10 m45 *1 -911.7,-441.1 F_CSIO
+XC$10 \$12 VOUT VSS F_CSIO C=5.4e-13 A=900p P=120u X=29.9999996628
++ Y=30.0000003372 m=1
+* device instance $11 r0 *1 -930.7,-356.2 F_RR
+XR$11 VOUT VREF VDD F_RR R=19.25 L=77u W=4u A=308p P=162u m=1
+* device instance $12 r180 *1 329.9,-418.5 NMOS
+XM$12 VSS VSS \$83 VSS NMOS L=8u W=168u AS=361.2p AD=252p PS=269.2u PD=180u
+* device instance $13 r180 *1 318.9,-418.5 NMOS
+XM$13 \$83 \$105 \$127 VSS NMOS L=8u W=168u AS=252p AD=252p PS=180u PD=180u
+* device instance $16 r180 *1 285.9,-418.5 NMOS
+XM$16 VSS \$83 \$12 VSS NMOS L=8u W=1680u AS=2520p AD=2520p PS=1800u PD=1800u
+* device instance $36 r180 *1 65.9,-418.5 NMOS
+XM$36 VSS \$I665 \$I665 VSS NMOS L=8u W=168u AS=252p AD=252p PS=180u PD=180u
+* device instance $37 r180 *1 54.9,-418.5 NMOS
+XM$37 \$I665 \$105 \$105 VSS NMOS L=8u W=168u AS=252p AD=252p PS=180u PD=180u
+* device instance $40 r180 *1 21.9,-418.5 NMOS
+XM$40 VSS VB1 \$I666 VSS NMOS L=8u W=84u AS=126p AD=126p PS=90u PD=90u
+* device instance $41 r180 *1 10.9,-418.5 NMOS
+XM$41 \$I666 VIN \$I667 VSS NMOS L=8u W=672u AS=1008p AD=1008p PS=750u PD=750u
+* device instance $43 r180 *1 -11.1,-418.5 NMOS
+XM$43 \$I666 VOUT \$I668 VSS NMOS L=8u W=672u AS=1008p AD=1008p PS=750u PD=750u
+* device instance $48 r180 *1 -66.1,-418.5 NMOS
+XM$48 \$I668 VSS VSS VSS NMOS L=8u W=84u AS=126p AD=235.2p PS=90u PD=179.2u
+* device instance $49 r180 *1 -88.1,-401 NMOS
+XM$49 VSS VSS \$84 VSS NMOS L=8u W=28u AS=60.2p AD=60.2p PS=59.2u PD=59.2u
+* device instance $50 r180 *1 -99.1,-401 NMOS
+XM$50 \$84 VB2 \$I668 VSS NMOS L=8u W=84u AS=126p AD=126p PS=120u PD=120u
+* device instance $53 r180 *1 -132.1,-401 NMOS
+XM$53 \$I667 VB2 \$83 VSS NMOS L=8u W=84u AS=126p AD=126p PS=120u PD=120u
+* device instance $75 r180 *1 -385.1,-418.5 NMOS
+XM$75 VSS VSS \$I667 VSS NMOS L=8u W=84u AS=235.2p AD=126p PS=179.2u PD=90u
+* device instance $83 r180 *1 -473.1,-418.5 NMOS
+XM$83 \$I666 VSS VSS VSS NMOS L=8u W=84u AS=126p AD=235.2p PS=90u PD=179.2u
+* device instance $84 r180 *1 -495.1,-401 NMOS
+XM$84 VSS VSS \$61 VSS NMOS L=8u W=28u AS=60.2p AD=60.2p PS=59.2u PD=59.2u
+* device instance $85 r180 *1 -506.1,-401 NMOS
+XM$85 \$61 VB2 \$I669 VSS NMOS L=8u W=84u AS=126p AD=126p PS=120u PD=120u
+* device instance $86 r180 *1 -517.1,-401 NMOS
+XM$86 \$I669 VB1 VSS VSS NMOS L=8u W=84u AS=126p AD=126p PS=120u PD=120u
+* device instance $87 r180 *1 -528.1,-401 NMOS
+XM$87 VSS VB1 VB1 VSS NMOS L=8u W=84u AS=126p AD=126p PS=120u PD=120u
+* device instance $88 r180 *1 -539.1,-401 NMOS
+XM$88 VB1 VB2 VB2 VSS NMOS L=8u W=84u AS=126p AD=126p PS=120u PD=120u
+* device instance $208 r0 *1 -770.1,-238.7 PMOS
+XM$208 VDD VDD \$61 VDD PMOS L=8u W=80u AS=172p AD=172p PS=137.2u PD=137.2u
+* device instance $209 r0 *1 -759.1,-238.7 PMOS
+XM$209 \$61 \$61 \$80 VDD PMOS L=8u W=240u AS=360p AD=360p PS=276u PD=276u
+* device instance $210 r0 *1 -748.1,-238.7 PMOS
+XM$210 \$80 \$80 VDD VDD PMOS L=8u W=240u AS=360p AD=360p PS=276u PD=276u
+* device instance $211 r0 *1 -737.1,-238.7 PMOS
+XM$211 VDD \$80 \$I670 VDD PMOS L=8u W=240u AS=360p AD=360p PS=276u PD=276u
+* device instance $212 r0 *1 -726.1,-238.7 PMOS
+XM$212 \$I670 \$61 VB2 VDD PMOS L=8u W=240u AS=360p AD=360p PS=276u PD=276u
+* device instance $234 r0 *1 -363.1,-238.7 PMOS
+XM$234 VDD VDD \$84 VDD PMOS L=8u W=80u AS=172p AD=172p PS=137.2u PD=137.2u
+* device instance $235 r0 *1 -352.1,-238.7 PMOS
+XM$235 \$84 \$84 \$I672 VDD PMOS L=8u W=240u AS=360p AD=360p PS=276u PD=276u
+* device instance $236 r0 *1 -341.1,-238.7 PMOS
+XM$236 \$I672 \$I672 VDD VDD PMOS L=8u W=240u AS=360p AD=360p PS=276u PD=276u
+* device instance $237 r0 *1 -330.1,-238.7 PMOS
+XM$237 VDD \$I672 \$I671 VDD PMOS L=8u W=240u AS=360p AD=360p PS=276u PD=276u
+* device instance $238 r0 *1 -319.1,-238.7 PMOS
+XM$238 \$I671 \$84 \$83 VDD PMOS L=8u W=240u AS=360p AD=360p PS=276u PD=276u
+* device instance $260 r0 *1 21.9,-218.7 PMOS
+XM$260 VDD VDD VDD VDD PMOS L=8u W=240u AS=516p AD=516p PS=377.2u PD=377.2u
+* device instance $261 r0 *1 32.9,-218.7 PMOS
+XM$261 VDD \$80 \$121 VDD PMOS L=8u W=240u AS=360p AD=360p PS=252u PD=252u
+* device instance $262 r0 *1 43.9,-218.7 PMOS
+XM$262 \$121 \$61 \$105 VDD PMOS L=8u W=240u AS=360p AD=360p PS=252u PD=252u
+* device instance $265 r0 *1 76.9,-218.7 PMOS
+XM$265 VDD \$61 \$12 VDD PMOS L=8u W=2400u AS=3600p AD=3600p PS=2520u PD=2520u
+.ENDS ideal_diode

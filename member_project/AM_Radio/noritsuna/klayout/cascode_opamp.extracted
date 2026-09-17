@@ -1,0 +1,82 @@
+* Created by KLayout
+*** My special header ***
+
+* cell cascode_opamp
+* pin VB1
+* pin VB2
+* pin VDD
+* pin VIN_N
+* pin VIN_P
+* pin VOUT
+* pin VSS
+.SUBCKT cascode_opamp VB1 VB2 VDD VIN_N VIN_P VOUT VSS
+* device instance $1 r90 *1 -32.7,-61.4 F_CSIO
+XC$1 \$114 VOUT VSS F_CSIO C=5.4e-13 A=900p P=120u X=29.9999996628
++ Y=30.0000003372 m=1
+* device instance $2 r180 *1 329.9,-418.5 NMOS
+XM$2 VSS VSS \$73 VSS NMOS L=8u W=168u AS=361.2p AD=252p PS=269.2u PD=180u
+* device instance $3 r180 *1 318.9,-418.5 NMOS
+XM$3 \$73 \$89 \$114 VSS NMOS L=8u W=168u AS=252p AD=252p PS=180u PD=180u
+* device instance $6 r180 *1 285.9,-418.5 NMOS
+XM$6 VSS \$73 VOUT VSS NMOS L=8u W=1680u AS=2520p AD=2520p PS=1800u PD=1800u
+* device instance $26 r180 *1 65.9,-418.5 NMOS
+XM$26 VSS \$I609 \$I609 VSS NMOS L=8u W=168u AS=252p AD=252p PS=180u PD=180u
+* device instance $27 r180 *1 54.9,-418.5 NMOS
+XM$27 \$I609 \$89 \$89 VSS NMOS L=8u W=168u AS=252p AD=252p PS=180u PD=180u
+* device instance $30 r180 *1 21.9,-418.5 NMOS
+XM$30 VSS VB1 \$I612 VSS NMOS L=8u W=84u AS=126p AD=126p PS=90u PD=90u
+* device instance $31 r180 *1 10.9,-418.5 NMOS
+XM$31 \$I612 VIN_P \$I611 VSS NMOS L=8u W=672u AS=1008p AD=1008p PS=750u PD=750u
+* device instance $33 r180 *1 -11.1,-418.5 NMOS
+XM$33 \$I612 VIN_N \$I610 VSS NMOS L=8u W=672u AS=1008p AD=1008p PS=750u PD=750u
+* device instance $38 r180 *1 -66.1,-418.5 NMOS
+XM$38 \$I610 VSS VSS VSS NMOS L=8u W=84u AS=126p AD=235.2p PS=90u PD=179.2u
+* device instance $39 r180 *1 -88.1,-401 NMOS
+XM$39 VSS VSS \$69 VSS NMOS L=8u W=28u AS=60.2p AD=60.2p PS=59.2u PD=59.2u
+* device instance $40 r180 *1 -99.1,-401 NMOS
+XM$40 \$69 VB2 \$I610 VSS NMOS L=8u W=84u AS=126p AD=126p PS=120u PD=120u
+* device instance $43 r180 *1 -132.1,-401 NMOS
+XM$43 \$I611 VB2 \$73 VSS NMOS L=8u W=84u AS=126p AD=126p PS=120u PD=120u
+* device instance $65 r180 *1 -385.1,-418.5 NMOS
+XM$65 VSS VSS \$I611 VSS NMOS L=8u W=84u AS=235.2p AD=126p PS=179.2u PD=90u
+* device instance $73 r180 *1 -473.1,-418.5 NMOS
+XM$73 \$I612 VSS VSS VSS NMOS L=8u W=84u AS=126p AD=235.2p PS=90u PD=179.2u
+* device instance $74 r180 *1 -495.1,-401 NMOS
+XM$74 VSS VSS \$46 VSS NMOS L=8u W=28u AS=60.2p AD=60.2p PS=59.2u PD=59.2u
+* device instance $75 r180 *1 -506.1,-401 NMOS
+XM$75 \$46 VB2 \$I613 VSS NMOS L=8u W=84u AS=126p AD=126p PS=120u PD=120u
+* device instance $76 r180 *1 -517.1,-401 NMOS
+XM$76 \$I613 VB1 VSS VSS NMOS L=8u W=84u AS=126p AD=126p PS=120u PD=120u
+* device instance $77 r180 *1 -528.1,-401 NMOS
+XM$77 VSS VB1 VB1 VSS NMOS L=8u W=84u AS=126p AD=126p PS=120u PD=120u
+* device instance $78 r180 *1 -539.1,-401 NMOS
+XM$78 VB1 VB2 VB2 VSS NMOS L=8u W=84u AS=126p AD=126p PS=120u PD=120u
+* device instance $198 r0 *1 -770.1,-238.7 PMOS
+XM$198 VDD VDD \$46 VDD PMOS L=8u W=80u AS=172p AD=172p PS=137.2u PD=137.2u
+* device instance $199 r0 *1 -759.1,-238.7 PMOS
+XM$199 \$46 \$46 \$109 VDD PMOS L=8u W=240u AS=360p AD=360p PS=276u PD=276u
+* device instance $200 r0 *1 -748.1,-238.7 PMOS
+XM$200 \$109 \$109 VDD VDD PMOS L=8u W=240u AS=360p AD=360p PS=276u PD=276u
+* device instance $201 r0 *1 -737.1,-238.7 PMOS
+XM$201 VDD \$109 \$I614 VDD PMOS L=8u W=240u AS=360p AD=360p PS=276u PD=276u
+* device instance $202 r0 *1 -726.1,-238.7 PMOS
+XM$202 \$I614 \$46 VB2 VDD PMOS L=8u W=240u AS=360p AD=360p PS=276u PD=276u
+* device instance $224 r0 *1 -363.1,-238.7 PMOS
+XM$224 VDD VDD \$69 VDD PMOS L=8u W=80u AS=172p AD=172p PS=137.2u PD=137.2u
+* device instance $225 r0 *1 -352.1,-238.7 PMOS
+XM$225 \$69 \$69 \$I616 VDD PMOS L=8u W=240u AS=360p AD=360p PS=276u PD=276u
+* device instance $226 r0 *1 -341.1,-238.7 PMOS
+XM$226 \$I616 \$I616 VDD VDD PMOS L=8u W=240u AS=360p AD=360p PS=276u PD=276u
+* device instance $227 r0 *1 -330.1,-238.7 PMOS
+XM$227 VDD \$I616 \$I615 VDD PMOS L=8u W=240u AS=360p AD=360p PS=276u PD=276u
+* device instance $228 r0 *1 -319.1,-238.7 PMOS
+XM$228 \$I615 \$69 \$73 VDD PMOS L=8u W=240u AS=360p AD=360p PS=276u PD=276u
+* device instance $250 r0 *1 21.9,-218.7 PMOS
+XM$250 VDD VDD VDD VDD PMOS L=8u W=240u AS=516p AD=516p PS=377.2u PD=377.2u
+* device instance $251 r0 *1 32.9,-218.7 PMOS
+XM$251 VDD \$109 \$107 VDD PMOS L=8u W=240u AS=360p AD=360p PS=252u PD=252u
+* device instance $252 r0 *1 43.9,-218.7 PMOS
+XM$252 \$107 \$46 \$89 VDD PMOS L=8u W=240u AS=360p AD=360p PS=252u PD=252u
+* device instance $255 r0 *1 76.9,-218.7 PMOS
+XM$255 VDD \$46 VOUT VDD PMOS L=8u W=2400u AS=3600p AD=3600p PS=2520u PD=2520u
+.ENDS cascode_opamp

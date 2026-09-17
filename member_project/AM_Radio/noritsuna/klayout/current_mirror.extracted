@@ -1,0 +1,32 @@
+* Created by KLayout
+*** My special header ***
+
+* cell current_mirror
+* pin VB
+* pin VB1
+* pin VB2
+* pin VDD
+* pin VSS
+* pin iB
+.SUBCKT current_mirror VB VB1 VB2 VDD VSS iB
+* device instance $1 r0 *1 -770.1,-238.7 PMOS
+XM$1 VDD VDD iB VDD PMOS L=8u W=80u AS=172p AD=172p PS=137.2u PD=137.2u
+* device instance $2 r0 *1 -759.1,-238.7 PMOS
+XM$2 iB \$8 VB VDD PMOS L=8u W=240u AS=360p AD=360p PS=276u PD=276u
+* device instance $3 r0 *1 -748.1,-238.7 PMOS
+XM$3 VB VB VDD VDD PMOS L=8u W=240u AS=360p AD=360p PS=276u PD=276u
+* device instance $4 r0 *1 -737.1,-238.7 PMOS
+XM$4 VDD VB \$123 VDD PMOS L=8u W=240u AS=360p AD=360p PS=276u PD=276u
+* device instance $5 r0 *1 -726.1,-238.7 PMOS
+XM$5 \$123 \$8 VB2 VDD PMOS L=8u W=240u AS=360p AD=360p PS=276u PD=276u
+* device instance $53 r0 *1 -770.1,-556.8 NMOS
+XM$53 VSS VSS iB VSS NMOS L=8u W=28u AS=60.2p AD=60.2p PS=59.2u PD=59.2u
+* device instance $54 r0 *1 -759.1,-556.8 NMOS
+XM$54 iB \$8 \$9 VSS NMOS L=8u W=84u AS=126p AD=126p PS=120u PD=120u
+* device instance $55 r0 *1 -748.1,-556.8 NMOS
+XM$55 \$9 \$9 VSS VSS NMOS L=8u W=84u AS=126p AD=126p PS=120u PD=120u
+* device instance $56 r0 *1 -737.1,-556.8 NMOS
+XM$56 VSS VB1 VB1 VSS NMOS L=8u W=84u AS=126p AD=126p PS=120u PD=120u
+* device instance $57 r0 *1 -726.1,-556.8 NMOS
+XM$57 VB1 VB2 VB2 VSS NMOS L=8u W=84u AS=126p AD=126p PS=120u PD=120u
+.ENDS current_mirror

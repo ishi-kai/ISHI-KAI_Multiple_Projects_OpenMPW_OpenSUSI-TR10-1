@@ -1,0 +1,38 @@
+* Created by KLayout
+*** My special header ***
+
+* cell DIFF_NMOS
+* pin CCOUT
+* pin OUT1
+* pin VOUT
+* pin VSS
+.SUBCKT DIFF_NMOS CCOUT OUT1 VOUT VSS
+* device instance $1 r0 *1 -973.8,-214.7 NMOS
+XM$1 VSS VSS OUT1 VSS NMOS L=8u W=168u AS=361.2p AD=252p PS=269.2u PD=180u
+* device instance $2 r0 *1 -962.8,-214.7 NMOS
+XM$2 OUT1 \$5 CCOUT VSS NMOS L=8u W=168u AS=252p AD=252p PS=180u PD=180u
+* device instance $5 r0 *1 -929.8,-214.7 NMOS
+XM$5 VSS OUT1 VOUT VSS NMOS L=8u W=1680u AS=2520p AD=2520p PS=1800u PD=1800u
+* device instance $25 r0 *1 -709.8,-214.7 NMOS
+XM$25 VSS \$8 \$8 VSS NMOS L=8u W=168u AS=252p AD=252p PS=180u PD=180u
+* device instance $26 r0 *1 -698.8,-214.7 NMOS
+XM$26 \$8 \$5 \$5 VSS NMOS L=8u W=168u AS=252p AD=252p PS=180u PD=180u
+* device instance $29 r0 *1 -665.8,-214.7 NMOS
+XM$29 VSS \$71 \$2 VSS NMOS L=8u W=84u AS=126p AD=126p PS=90u PD=90u
+* device instance $30 r0 *1 -654.8,-214.7 NMOS
+XM$30 \$2 \$35 \$10 VSS NMOS L=8u W=672u AS=1008p AD=1008p PS=750u PD=750u
+* device instance $32 r0 *1 -632.8,-214.7 NMOS
+XM$32 \$2 \$21 \$9 VSS NMOS L=8u W=672u AS=1008p AD=1008p PS=750u PD=750u
+* device instance $37 r0 *1 -577.8,-214.7 NMOS
+XM$37 \$9 VSS VSS VSS NMOS L=8u W=84u AS=126p AD=235.2p PS=90u PD=179.2u
+* device instance $38 r0 *1 -555.8,-232.2 NMOS
+XM$38 VSS VSS \$190 VSS NMOS L=8u W=28u AS=60.2p AD=60.2p PS=59.2u PD=59.2u
+* device instance $39 r0 *1 -544.8,-232.2 NMOS
+XM$39 \$190 \$I1036 \$9 VSS NMOS L=8u W=84u AS=126p AD=126p PS=120u PD=120u
+* device instance $42 r0 *1 -511.8,-232.2 NMOS
+XM$42 \$10 \$I1036 OUT1 VSS NMOS L=8u W=84u AS=126p AD=126p PS=120u PD=120u
+* device instance $64 r0 *1 -258.8,-214.7 NMOS
+XM$64 VSS VSS \$10 VSS NMOS L=8u W=84u AS=235.2p AD=126p PS=179.2u PD=90u
+* device instance $72 r0 *1 -170.8,-214.7 NMOS
+XM$72 \$2 VSS VSS VSS NMOS L=8u W=84u AS=126p AD=235.2p PS=90u PD=179.2u
+.ENDS DIFF_NMOS

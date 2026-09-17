@@ -1,0 +1,13 @@
+** sch_path: /mnt/c/Data/OneDrive/MyDocuments/Community/ISHIKAI/shuttle/OpenSUSI-TR10/2026/Projects/AM_Radio/noritsuna/xschem/DIFF_PMOS.sch
+.subckt DIFF_PMOS VDD OUT1 D_D VB4 D_D_OUT VOUT iB
+*.PININFO VDD:B OUT1:O D_D:I VB4:I D_D_OUT:I VOUT:O iB:I
+MMM2 net2 net1 VDD VDD PMOS w=240u l=8u
+MMM16 net1 net1 VDD VDD PMOS w=240u l=8u
+MMM17 OUT1 D_D net2 VDD PMOS w=240u l=8u
+MMM18 D_D D_D net1 VDD PMOS w=240u l=8u
+MMM1 D_D_OUT iB net3 VDD PMOS w=240u l=8u
+MMM9 net3 VB4 VDD VDD PMOS w=240u l=8u
+MMM7 VOUT iB VDD VDD PMOS w=2400u l=8u
+MMDMYP2 D_D VDD VDD VDD PMOS w=20u l=8u m=4
+MMDMYP3 VDD VDD VDD VDD PMOS w=60u l=8u m=4
+.ends

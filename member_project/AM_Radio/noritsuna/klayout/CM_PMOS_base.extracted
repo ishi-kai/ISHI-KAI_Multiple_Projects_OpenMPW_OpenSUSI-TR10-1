@@ -1,0 +1,17 @@
+* Created by KLayout
+*** My special header ***
+
+* cell CM_PMOS_base
+* pin L_D
+* pin R_D
+* pin VDD
+.SUBCKT CM_PMOS_base L_D R_D VDD
+* device instance $1 r0 *1 -148.8,-238.7 PMOS
+XM$1 L_D \$3 \$2 VDD PMOS L=8u W=240u AS=412p AD=412p PS=321.2u PD=321.2u
+* device instance $2 r0 *1 -137.8,-238.7 PMOS
+XM$2 \$2 \$2 VDD VDD PMOS L=8u W=240u AS=360p AD=360p PS=276u PD=276u
+* device instance $3 r0 *1 -126.8,-238.7 PMOS
+XM$3 VDD \$2 \$10 VDD PMOS L=8u W=240u AS=360p AD=360p PS=276u PD=276u
+* device instance $4 r0 *1 -115.8,-238.7 PMOS
+XM$4 \$10 \$3 R_D VDD PMOS L=8u W=240u AS=360p AD=360p PS=276u PD=276u
+.ENDS CM_PMOS_base

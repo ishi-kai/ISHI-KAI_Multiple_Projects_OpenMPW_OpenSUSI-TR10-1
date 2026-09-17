@@ -1,0 +1,31 @@
+* Created by KLayout
+*** My special header ***
+
+* cell DIFF_PMOS
+* pin D_D
+* pin D_D_OUT
+* pin OUT1
+* pin VB4
+* pin VDD
+* pin VOUT
+* pin iB
+.SUBCKT DIFF_PMOS D_D D_D_OUT OUT1 VB4 VDD VOUT iB
+* device instance $1 r0 *1 -363.1,-238.7 PMOS
+XM$1 VDD VDD D_D VDD PMOS L=8u W=80u AS=172p AD=172p PS=137.2u PD=137.2u
+* device instance $2 r0 *1 -352.1,-238.7 PMOS
+XM$2 D_D D_D \$7 VDD PMOS L=8u W=240u AS=360p AD=360p PS=276u PD=276u
+* device instance $3 r0 *1 -341.1,-238.7 PMOS
+XM$3 \$7 \$7 VDD VDD PMOS L=8u W=240u AS=360p AD=360p PS=276u PD=276u
+* device instance $4 r0 *1 -330.1,-238.7 PMOS
+XM$4 VDD \$7 \$1 VDD PMOS L=8u W=240u AS=360p AD=360p PS=276u PD=276u
+* device instance $5 r0 *1 -319.1,-238.7 PMOS
+XM$5 \$1 D_D OUT1 VDD PMOS L=8u W=240u AS=360p AD=360p PS=276u PD=276u
+* device instance $27 r0 *1 21.9,-218.7 PMOS
+XM$27 VDD VDD VDD VDD PMOS L=8u W=240u AS=516p AD=516p PS=377.2u PD=377.2u
+* device instance $28 r0 *1 32.9,-218.7 PMOS
+XM$28 VDD VB4 \$2 VDD PMOS L=8u W=240u AS=360p AD=360p PS=252u PD=252u
+* device instance $29 r0 *1 43.9,-218.7 PMOS
+XM$29 \$2 iB D_D_OUT VDD PMOS L=8u W=240u AS=360p AD=360p PS=252u PD=252u
+* device instance $32 r0 *1 76.9,-218.7 PMOS
+XM$32 VDD iB VOUT VDD PMOS L=8u W=2400u AS=3600p AD=3600p PS=2520u PD=2520u
+.ENDS DIFF_PMOS

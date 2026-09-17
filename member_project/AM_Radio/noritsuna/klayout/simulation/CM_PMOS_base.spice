@@ -1,0 +1,8 @@
+** sch_path: /mnt/c/Data/OneDrive/MyDocuments/Community/ISHIKAI/shuttle/OpenSUSI-TR10/2026/Projects/AM_Radio/noritsuna/xschem/CM_PMOS_base.sch
+.subckt CM_PMOS_base VDD L_D R_D
+*.PININFO VDD:B L_D:B R_D:B
+MMM3 net2 net2 VDD VDD PMOS w=240u l=8u
+MMM4 R_D net3 net1 VDD PMOS w=240u l=8u
+MMM5 net1 net2 VDD VDD PMOS w=240u l=8u
+MMM6 L_D net3 net2 VDD PMOS w=240u l=8u
+.ends
