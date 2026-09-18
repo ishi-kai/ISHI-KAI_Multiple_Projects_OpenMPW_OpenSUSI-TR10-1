@@ -1,0 +1,6 @@
+** sch_path: /mnt/c/Data/OneDrive/MyDocuments/Community/ISHIKAI/shuttle/OpenSUSI-TR10/2026/inverter/hokuriku/makoto56/inverter_makoto56.sch
+.subckt inverter_makoto56 vin Vdd vout Vss
+*.PININFO vin:I Vdd:B vout:O Vss:B
+MXM1 vout vin Vdd Vdd PMOS w=8.2u l=1u
+MXM2 vout vin Vss Vss NMOS w=3.4u l=1u
+.ends

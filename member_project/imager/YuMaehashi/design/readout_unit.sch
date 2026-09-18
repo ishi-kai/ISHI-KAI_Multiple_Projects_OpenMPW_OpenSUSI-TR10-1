@@ -1,0 +1,455 @@
+v {xschem version=3.4.8RC file_version=1.2}
+G {}
+K {}
+V {}
+S {}
+E {}
+N 260 -1420 260 -1160 {lab=VL}
+N 200 -1340 200 -1310 {lab=VL}
+N 200 -1340 260 -1340 {lab=VL}
+N 200 -1280 220 -1280 {lab=VSS}
+N 220 -1280 220 -1220 {lab=VSS}
+N -100 -1220 560 -1220 {lab=VSS}
+N 200 -1250 200 -1220 {lab=VSS}
+N -100 -1280 160 -1280 {lab=VBIAS}
+N -40 -780 -20 -780 {lab=VSS}
+N -40 -800 10 -800 {lab=VSS}
+N 40 -780 120 -780 {lab=MEM_N}
+N 120 -240 560 -240 {lab=MEMOUT}
+N 400 -780 480 -780 {lab=MEM_S}
+N 540 -780 560 -780 {lab=VSS}
+N 510 -800 560 -800 {lab=VSS}
+N -40 -1220 -40 -780 {lab=VSS}
+N 560 -1220 560 -780 {lab=VSS}
+N 340 -960 340 -930 {lab=MEM_S}
+N 340 -960 460 -960 {lab=MEM_S}
+N 460 -960 460 -930 {lab=MEM_S}
+N 460 -870 460 -840 {lab=MEM_S}
+N 340 -840 460 -840 {lab=MEM_S}
+N 340 -870 340 -840 {lab=MEM_S}
+N 400 -1000 400 -960 {lab=MEM_S}
+N 440 -900 460 -900 {lab=VDD}
+N 500 -900 520 -900 {lab=P_WRTS}
+N 340 -900 360 -900 {lab=VSS}
+N 280 -900 300 -900 {lab=P_WRTS_B}
+N 340 -1120 340 -1090 {lab=VL}
+N 340 -1120 460 -1120 {lab=VL}
+N 460 -1120 460 -1090 {lab=VL}
+N 460 -1030 460 -1000 {lab=MEM_S}
+N 340 -1000 460 -1000 {lab=MEM_S}
+N 340 -1030 340 -1000 {lab=MEM_S}
+N 400 -1160 400 -1120 {lab=VL}
+N 440 -1060 460 -1060 {lab=VDD}
+N 500 -1060 520 -1060 {lab=P_WRTS_B}
+N 340 -1060 360 -1060 {lab=VSS}
+N 360 -1220 360 -340 {lab=VSS}
+N 280 -1060 300 -1060 {lab=P_WRTS}
+N 400 -960 400 -840 {lab=MEM_S}
+N -100 -1140 440 -1140 {lab=VDD}
+N 440 -1140 440 -340 {lab=VDD}
+N 60 -960 60 -930 {lab=MEM_N}
+N 60 -960 180 -960 {lab=MEM_N}
+N 180 -960 180 -930 {lab=MEM_N}
+N 180 -870 180 -840 {lab=MEM_N}
+N 60 -840 180 -840 {lab=MEM_N}
+N 60 -870 60 -840 {lab=MEM_N}
+N 120 -1000 120 -960 {lab=MEM_N}
+N 160 -900 180 -900 {lab=VDD}
+N 220 -900 240 -900 {lab=P_WRTN}
+N 60 -900 80 -900 {lab=VSS}
+N 0 -900 20 -900 {lab=P_WRTN_B}
+N 60 -1120 60 -1090 {lab=VL}
+N 60 -1120 180 -1120 {lab=VL}
+N 180 -1120 180 -1090 {lab=VL}
+N 180 -1030 180 -1000 {lab=MEM_N}
+N 60 -1000 180 -1000 {lab=MEM_N}
+N 60 -1030 60 -1000 {lab=MEM_N}
+N 120 -1160 120 -1120 {lab=VL}
+N 160 -1060 180 -1060 {lab=VDD}
+N 220 -1060 240 -1060 {lab=P_WRTN_B}
+N 60 -1060 80 -1060 {lab=VSS}
+N 80 -1220 80 -340 {lab=VSS}
+N 0 -1060 20 -1060 {lab=P_WRTN}
+N 120 -960 120 -840 {lab=MEM_N}
+N 160 -1140 160 -340 {lab=VDD}
+N 120 -1160 400 -1160 {lab=VL}
+N 440 -660 460 -660 {lab=VDD}
+N 500 -660 520 -660 {lab=P_RDS}
+N 340 -660 360 -660 {lab=VSS}
+N 280 -660 300 -660 {lab=P_RDS_B}
+N 160 -660 180 -660 {lab=VDD}
+N 220 -660 240 -660 {lab=P_RDN}
+N 60 -660 80 -660 {lab=VSS}
+N 0 -660 20 -660 {lab=P_RDN_B}
+N 60 -720 60 -690 {lab=MEM_N}
+N 60 -720 180 -720 {lab=MEM_N}
+N 180 -720 180 -690 {lab=MEM_N}
+N 340 -720 340 -690 {lab=MEM_S}
+N 340 -720 460 -720 {lab=MEM_S}
+N 460 -720 460 -690 {lab=MEM_S}
+N 340 -630 340 -600 {lab=MEM_S}
+N 340 -600 460 -600 {lab=MEM_S}
+N 460 -630 460 -600 {lab=MEM_S}
+N 60 -630 60 -600 {lab=MEM_N}
+N 60 -600 180 -600 {lab=MEM_N}
+N 180 -630 180 -600 {lab=MEM_N}
+N 440 -500 460 -500 {lab=VDD}
+N 500 -500 520 -500 {lab=P_RDS_B}
+N 340 -500 360 -500 {lab=VSS}
+N 280 -500 300 -500 {lab=P_RDS}
+N 160 -500 180 -500 {lab=VDD}
+N 220 -500 240 -500 {lab=P_RDN_B}
+N 60 -500 80 -500 {lab=VSS}
+N 0 -500 20 -500 {lab=P_RDN}
+N 60 -560 60 -530 {lab=MEM_N}
+N 60 -560 180 -560 {lab=MEM_N}
+N 180 -560 180 -530 {lab=MEM_N}
+N 340 -560 340 -530 {lab=MEM_S}
+N 340 -560 460 -560 {lab=MEM_S}
+N 460 -560 460 -530 {lab=MEM_S}
+N 340 -470 340 -440 {lab=MEMOUT}
+N 340 -440 460 -440 {lab=MEMOUT}
+N 460 -470 460 -440 {lab=MEMOUT}
+N 60 -470 60 -440 {lab=MEMOUT}
+N 60 -440 180 -440 {lab=MEMOUT}
+N 180 -470 180 -440 {lab=MEMOUT}
+N 120 -840 120 -720 {lab=MEM_N}
+N 400 -840 400 -720 {lab=MEM_S}
+N 120 -720 120 -600 {lab=MEM_N}
+N 400 -720 400 -600 {lab=MEM_S}
+N 120 -600 120 -560 {lab=MEM_N}
+N 400 -600 400 -560 {lab=MEM_S}
+N 440 -340 460 -340 {lab=VDD}
+N 500 -340 520 -340 {lab=P_RDS}
+N 340 -340 360 -340 {lab=VSS}
+N 280 -340 300 -340 {lab=P_RDS_B}
+N 160 -340 180 -340 {lab=VDD}
+N 220 -340 240 -340 {lab=P_RDN}
+N 60 -340 80 -340 {lab=VSS}
+N 0 -340 20 -340 {lab=P_RDN_B}
+N 60 -400 60 -370 {lab=MEMOUT}
+N 60 -400 180 -400 {lab=MEMOUT}
+N 180 -400 180 -370 {lab=MEMOUT}
+N 340 -400 340 -370 {lab=MEMOUT}
+N 340 -400 460 -400 {lab=MEMOUT}
+N 460 -400 460 -370 {lab=MEMOUT}
+N 340 -310 340 -280 {lab=MEMOUT}
+N 340 -280 460 -280 {lab=MEMOUT}
+N 460 -310 460 -280 {lab=MEMOUT}
+N 60 -310 60 -280 {lab=MEMOUT}
+N 60 -280 180 -280 {lab=MEMOUT}
+N 180 -310 180 -280 {lab=MEMOUT}
+N 120 -440 120 -400 {lab=MEMOUT}
+N 400 -440 400 -400 {lab=MEMOUT}
+N 120 -400 120 -280 {lab=MEMOUT}
+N 400 -400 400 -280 {lab=MEMOUT}
+N 120 -280 120 -240 {lab=MEMOUT}
+N 400 -280 400 -240 {lab=MEMOUT}
+C {devices/ipin.sym} 260 -1420 1 0 {name=p1 lab=VL}
+C {devices/iopin.sym} -100 -1220 2 0 {name=p3 lab=VSS}
+C {devices/ipin.sym} -100 -1280 0 0 {name=p4 lab=VBIAS}
+C {devices/opin.sym} 560 -240 0 0 {name=p5 lab=MEMOUT}
+C {TR-1umLIB/MN.sym} 160 -1280 0 0 {name=XM1
+model=NMOS
+w=10u
+l=4u
+m=2
+spiceprefix=X
+as=0
+ad=0
+ps=0
+pd=0
+nrd=0
+nrs=0}
+C {TR-1umLIB/CSIO.sym} 40 -780 1 0 {name=XC1
+model=F_CSIO
+spiceprefix=X
+x=59.5u
+y=28.5u
+c="expr_eng( 0.6e-3 * @x * @y )"
+a="expr_eng( @x * @y )"
+p="expr_eng( 2 * ( @x + @y ) )"
+m=14}
+C {devices/lab_wire.sym} 230 -500 1 1 {name=p8 sig_type=std_logic lab=P_RDN_B}
+C {devices/lab_wire.sym} 10 -500 3 0 {name=p9 sig_type=std_logic lab=P_RDN}
+C {devices/lab_wire.sym} 230 -660 1 1 {name=p16 sig_type=std_logic lab=P_RDN}
+C {devices/lab_wire.sym} 10 -660 3 0 {name=p17 sig_type=std_logic lab=P_RDN_B}
+C {devices/lab_wire.sym} 510 -500 1 1 {name=p24 sig_type=std_logic lab=P_RDS_B}
+C {devices/lab_wire.sym} 290 -500 3 0 {name=p25 sig_type=std_logic lab=P_RDS}
+C {devices/lab_wire.sym} 510 -660 1 1 {name=p32 sig_type=std_logic lab=P_RDS}
+C {devices/lab_wire.sym} 290 -660 3 0 {name=p33 sig_type=std_logic lab=P_RDS_B}
+C {TR-1umLIB/CSIO.sym} 480 -780 3 1 {name=XC2
+model=F_CSIO
+spiceprefix=X
+x=59.5u
+y=28.5u
+c="expr_eng( 0.6e-3 * @x * @y )"
+a="expr_eng( @x * @y )"
+p="expr_eng( 2 * ( @x + @y ) )"
+m=14}
+C {devices/ipin.sym} 160 -120 3 0 {name=p38 lab=P_RDN}
+C {devices/ipin.sym} 180 -120 3 0 {name=p39 lab=P_RDN_B}
+C {devices/ipin.sym} 220 -120 3 0 {name=p40 lab=P_WRTN}
+C {devices/ipin.sym} 240 -120 3 0 {name=p41 lab=P_WRTN_B}
+C {devices/ipin.sym} 340 -120 3 0 {name=p42 lab=P_RDS}
+C {devices/ipin.sym} 360 -120 3 0 {name=p43 lab=P_RDS_B}
+C {devices/ipin.sym} 400 -120 3 0 {name=p44 lab=P_WRTS}
+C {devices/ipin.sym} 420 -120 3 0 {name=p45 lab=P_WRTS_B}
+C {TR-1umLIB/MN.sym} 300 -900 0 0 {name=XM2
+model=NMOS
+w=3.4u
+l=1u
+m=1
+spiceprefix=X
+as=0
+ad=0
+ps=0
+pd=0
+nrd=0
+nrs=0}
+C {TR-1umLIB/MP.sym} 500 -900 2 0 {name=XM3
+model=PMOS
+w=3.4u
+l=1u
+m=1
+spiceprefix=X
+as=0
+ad=0
+ps=0
+pd=0
+nrd=0
+nrs=0}
+C {TR-1umLIB/MN.sym} 300 -1060 0 0 {name=XM4
+model=NMOS
+w=6.8u
+l=1u
+m=1
+spiceprefix=X
+as=0
+ad=0
+ps=0
+pd=0
+nrd=0
+nrs=0}
+C {TR-1umLIB/MP.sym} 500 -1060 2 0 {name=XM5
+model=PMOS
+w=6.8u
+l=1u
+m=1
+spiceprefix=X
+as=0
+ad=0
+ps=0
+pd=0
+nrd=0
+nrs=0}
+C {devices/lab_wire.sym} 510 -1060 1 1 {name=p46 sig_type=std_logic lab=P_WRTS_B}
+C {devices/lab_wire.sym} 290 -1060 3 0 {name=p49 sig_type=std_logic lab=P_WRTS}
+C {devices/lab_wire.sym} 290 -900 3 0 {name=p47 sig_type=std_logic lab=P_WRTS_B
+}
+C {devices/lab_wire.sym} 510 -900 1 1 {name=p48 sig_type=std_logic lab=P_WRTS}
+C {devices/iopin.sym} -100 -1140 0 1 {name=p50 lab=VDD}
+C {TR-1umLIB/MN.sym} 20 -900 0 0 {name=XM6
+model=NMOS
+w=3.4u
+l=1u
+m=1
+spiceprefix=X
+as=0
+ad=0
+ps=0
+pd=0
+nrd=0
+nrs=0}
+C {TR-1umLIB/MP.sym} 220 -900 2 0 {name=XM7
+model=PMOS
+w=3.4u
+l=1u
+m=1
+spiceprefix=X
+as=0
+ad=0
+ps=0
+pd=0
+nrd=0
+nrs=0}
+C {TR-1umLIB/MN.sym} 20 -1060 0 0 {name=XM8
+model=NMOS
+w=6.8u
+l=1u
+m=1
+spiceprefix=X
+as=0
+ad=0
+ps=0
+pd=0
+nrd=0
+nrs=0}
+C {TR-1umLIB/MP.sym} 220 -1060 2 0 {name=XM9
+model=PMOS
+w=6.8u
+l=1u
+m=1
+spiceprefix=X
+as=0
+ad=0
+ps=0
+pd=0
+nrd=0
+nrs=0}
+C {devices/lab_wire.sym} 230 -1060 1 1 {name=p51 sig_type=std_logic lab=P_WRTN_B}
+C {devices/lab_wire.sym} 10 -1060 3 0 {name=p52 sig_type=std_logic lab=P_WRTN}
+C {devices/lab_wire.sym} 10 -900 3 0 {name=p53 sig_type=std_logic lab=P_WRTN_B
+}
+C {devices/lab_wire.sym} 230 -900 1 1 {name=p54 sig_type=std_logic lab=P_WRTN}
+C {TR-1umLIB/MN.sym} 300 -660 0 0 {name=XM10
+model=NMOS
+w=3.4u
+l=1u
+m=1
+spiceprefix=X
+as=0
+ad=0
+ps=0
+pd=0
+nrd=0
+nrs=0}
+C {TR-1umLIB/MP.sym} 500 -660 2 0 {name=XM11
+model=PMOS
+w=3.4u
+l=1u
+m=1
+spiceprefix=X
+as=0
+ad=0
+ps=0
+pd=0
+nrd=0
+nrs=0}
+C {TR-1umLIB/MN.sym} 20 -660 0 0 {name=XM12
+model=NMOS
+w=3.4u
+l=1u
+m=1
+spiceprefix=X
+as=0
+ad=0
+ps=0
+pd=0
+nrd=0
+nrs=0}
+C {TR-1umLIB/MP.sym} 220 -660 2 0 {name=XM13
+model=PMOS
+w=3.4u
+l=1u
+m=1
+spiceprefix=X
+as=0
+ad=0
+ps=0
+pd=0
+nrd=0
+nrs=0}
+C {TR-1umLIB/MN.sym} 300 -500 0 0 {name=XM14
+model=NMOS
+w=6.8u
+l=1u
+m=1
+spiceprefix=X
+as=0
+ad=0
+ps=0
+pd=0
+nrd=0
+nrs=0}
+C {TR-1umLIB/MP.sym} 500 -500 2 0 {name=XM15
+model=PMOS
+w=6.8u
+l=1u
+m=1
+spiceprefix=X
+as=0
+ad=0
+ps=0
+pd=0
+nrd=0
+nrs=0}
+C {TR-1umLIB/MN.sym} 20 -500 0 0 {name=XM16
+model=NMOS
+w=6.8u
+l=1u
+m=1
+spiceprefix=X
+as=0
+ad=0
+ps=0
+pd=0
+nrd=0
+nrs=0}
+C {TR-1umLIB/MP.sym} 220 -500 2 0 {name=XM17
+model=PMOS
+w=6.8u
+l=1u
+m=1
+spiceprefix=X
+as=0
+ad=0
+ps=0
+pd=0
+nrd=0
+nrs=0}
+C {TR-1umLIB/MN.sym} 300 -340 0 0 {name=XM18
+model=NMOS
+w=3.4u
+l=1u
+m=1
+spiceprefix=X
+as=0
+ad=0
+ps=0
+pd=0
+nrd=0
+nrs=0}
+C {TR-1umLIB/MP.sym} 500 -340 2 0 {name=XM19
+model=PMOS
+w=3.4u
+l=1u
+m=1
+spiceprefix=X
+as=0
+ad=0
+ps=0
+pd=0
+nrd=0
+nrs=0}
+C {TR-1umLIB/MN.sym} 20 -340 0 0 {name=XM20
+model=NMOS
+w=3.4u
+l=1u
+m=1
+spiceprefix=X
+as=0
+ad=0
+ps=0
+pd=0
+nrd=0
+nrs=0}
+C {TR-1umLIB/MP.sym} 220 -340 2 0 {name=XM21
+model=PMOS
+w=3.4u
+l=1u
+m=1
+spiceprefix=X
+as=0
+ad=0
+ps=0
+pd=0
+nrd=0
+nrs=0}
+C {devices/lab_wire.sym} 230 -340 1 1 {name=p2 sig_type=std_logic lab=P_RDN}
+C {devices/lab_wire.sym} 10 -340 3 0 {name=p6 sig_type=std_logic lab=P_RDN_B}
+C {devices/lab_wire.sym} 510 -340 1 1 {name=p7 sig_type=std_logic lab=P_RDS}
+C {devices/lab_wire.sym} 290 -340 3 0 {name=p10 sig_type=std_logic lab=P_RDS_B}
+C {devices/lab_wire.sym} 120 -800 1 1 {name=p11 sig_type=std_logic lab=MEM_N}
+C {devices/lab_wire.sym} 400 -800 3 0 {name=p12 sig_type=std_logic lab=MEM_S
+}

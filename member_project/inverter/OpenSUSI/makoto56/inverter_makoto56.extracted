@@ -1,0 +1,14 @@
+* Created by KLayout
+*** My special header ***
+
+* cell inverter_makoto56
+* pin VSS
+* pin Vdd
+* pin vin
+* pin vout
+.SUBCKT inverter_makoto56 VSS Vdd vin vout
+* device instance $1 r0 *1 6.3,-1.1 PMOS
+XM$1 Vdd vin vout Vdd PMOS L=1u W=8.2u AS=22.96p AD=22.96p PS=22u PD=22u
+* device instance $2 r0 *1 6.3,-26.4 NMOS
+XM$2 VSS vin vout VSS NMOS L=1u W=3.4u AS=9.52p AD=9.52p PS=12.4u PD=12.4u
+.ENDS inverter_makoto56

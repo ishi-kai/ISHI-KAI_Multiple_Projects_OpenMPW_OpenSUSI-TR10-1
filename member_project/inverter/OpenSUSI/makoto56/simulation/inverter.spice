@@ -1,0 +1,6 @@
+** sch_path: /root/OpenEDA-PDK_SetupScript/samples/inverter/OpenSUSI-TR10/inverter.sch
+.subckt inverter vin Vdd vout Vss
+*.PININFO vin:I Vdd:B vout:O Vss:B
+MXM1 vout vin Vdd Vdd PMOS w=8.2u l=1u
+MXM2 vout vin Vss Vss NMOS w=3.4u l=1u
+.ends

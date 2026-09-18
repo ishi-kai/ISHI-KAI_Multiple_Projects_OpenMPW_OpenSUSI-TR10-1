@@ -1,0 +1,111 @@
+v {xschem version=3.4.8RC file_version=1.2}
+G {}
+K {}
+V {}
+S {}
+E {}
+N 140 -170 140 -110 {lab=#net1}
+N 140 -290 140 -230 {lab=OUT}
+N 140 -410 140 -350 {lab=#net2}
+N 140 -500 140 -470 {lab=#net3}
+N 140 -320 160 -320 {lab=#net3}
+N 160 -500 160 -320 {lab=#net3}
+N 140 -440 160 -440 {lab=#net3}
+N 140 -50 140 -20 {lab=VSS}
+N 140 -200 160 -200 {lab=VSS}
+N 160 -200 160 -20 {lab=VSS}
+N 140 -80 160 -80 {lab=VSS}
+N 140 -260 400 -260 {lab=OUT}
+N 100 -200 100 -80 {lab=IN}
+N 100 -440 100 -200 {lab=IN}
+N 60 -260 100 -260 {lab=IN}
+N 260 -320 260 -260 {lab=OUT}
+N 260 -260 260 -200 {lab=OUT}
+N 140 -380 300 -380 {lab=#net2}
+N 300 -380 300 -350 {lab=#net2}
+N 300 -320 320 -320 {lab=#net3}
+N 320 -500 320 -280 {lab=#net3}
+N 300 -290 320 -240 {lab=VSS}
+N 320 -240 320 -20 {lab=VSS}
+N 300 -230 320 -280 {lab=#net3}
+N 300 -200 320 -200 {lab=VSS}
+N 140 -140 300 -140 {lab=#net1}
+N 300 -170 300 -140 {lab=#net1}
+N 60 -500 320 -500 {lab=#net3}
+N 60 -20 320 -20 {lab=VSS}
+C {devices/opin.sym} 400 -260 0 0 {name=p4 lab=OUT}
+C {devices/ipin.sym} 60 -260 0 0 {name=p21 lab=IN}
+C {devices/iopin.sym} 60 -500 0 1 {name=p1 lab=VDD}
+C {devices/iopin.sym} 60 -20 0 1 {name=p2 lab=VSS}
+C {TR-1umLIB/MN.sym} 100 -80 0 0 {name=XMN1
+model=NMOS
+w=3.4u
+l=1u
+m=1
+spiceprefix=X
+as=0
+ad=0
+ps=0
+pd=0
+nrd=0
+nrs=0}
+C {TR-1umLIB/MN.sym} 100 -200 0 0 {name=XMN2
+model=NMOS
+w=3.4u
+l=1u
+m=1
+spiceprefix=X
+as=0
+ad=0
+ps=0
+pd=0
+nrd=0
+nrs=0}
+C {TR-1umLIB/MP.sym} 100 -320 0 0 {name=XMP2
+model=PMOS
+w=10.2u
+l=1u
+m=1
+spiceprefix=X
+as=0
+ad=0
+ps=0
+pd=0
+nrd=0
+nrs=0}
+C {TR-1umLIB/MP.sym} 100 -440 0 0 {name=XMP1
+model=PMOS
+w=10.2u
+l=1u
+m=1
+spiceprefix=X
+as=0
+ad=0
+ps=0
+pd=0
+nrd=0
+nrs=0}
+C {TR-1umLIB/MP.sym} 260 -320 0 0 {name=XMP3
+model=PMOS
+w=10.2u
+l=1u
+m=1
+spiceprefix=X
+as=0
+ad=0
+ps=0
+pd=0
+nrd=0
+nrs=0}
+C {TR-1umLIB/MN.sym} 260 -200 0 0 {name=XMN3
+model=NMOS
+w=3.4u
+l=1u
+m=1
+spiceprefix=X
+as=0
+ad=0
+ps=0
+pd=0
+nrd=0
+nrs=0}
