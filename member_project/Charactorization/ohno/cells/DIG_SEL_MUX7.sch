@@ -1,0 +1,220 @@
+v {xschem version=3.4.8RC file_version=1.3}
+G {}
+K {}
+V {}
+S {}
+F {}
+E {}
+T {DIG_SEL_MUX7 V2 — one-row / hand-wired / GDS-aware} 400 250 0 0 0.32 0.32 {}
+T {Physical intent: one standard-cell row; M1 local horizontal routing, top-level M2 breakout as needed.} 400 300 0 0 0.18 0.18 {}
+T {No remote lab-wire connectivity. All internal and power nets are explicit N wires.} 400 345 0 0 0.18 0.18 {}
+N 500 1940 1230 1940 {lab=VDD}
+N 1230 1940 1780 1940 {lab=VDD}
+N 1780 1940 2330 1940 {lab=VDD}
+N 2330 1940 2880 1940 {lab=VDD}
+N 2880 1940 3430 1940 {lab=VDD}
+N 3430 1940 3980 1940 {lab=VDD}
+N 3980 1940 4530 1940 {lab=VDD}
+N 4530 1940 5080 1940 {lab=VDD}
+N 5080 1940 5630 1940 {lab=VDD}
+N 5630 1940 6180 1940 {lab=VDD}
+N 6180 1940 6730 1940 {lab=VDD}
+N 6730 1940 7280 1940 {lab=VDD}
+N 7280 1940 7830 1940 {lab=VDD}
+N 7830 1940 8380 1940 {lab=VDD}
+N 8380 1940 8930 1940 {lab=VDD}
+N 8930 1940 9480 1940 {lab=VDD}
+N 9480 1940 10030 1940 {lab=VDD}
+N 10030 1940 10580 1940 {lab=VDD}
+N 10580 1940 11130 1940 {lab=VDD}
+N 11130 1940 11680 1940 {lab=VDD}
+N 500 2060 1230 2060 {lab=VSS}
+N 1230 2060 1780 2060 {lab=VSS}
+N 1780 2060 2330 2060 {lab=VSS}
+N 2330 2060 2880 2060 {lab=VSS}
+N 2880 2060 3430 2060 {lab=VSS}
+N 3430 2060 3980 2060 {lab=VSS}
+N 3980 2060 4530 2060 {lab=VSS}
+N 4530 2060 5080 2060 {lab=VSS}
+N 5080 2060 5630 2060 {lab=VSS}
+N 5630 2060 6180 2060 {lab=VSS}
+N 6180 2060 6730 2060 {lab=VSS}
+N 6730 2060 7280 2060 {lab=VSS}
+N 7280 2060 7830 2060 {lab=VSS}
+N 7830 2060 8380 2060 {lab=VSS}
+N 8380 2060 8930 2060 {lab=VSS}
+N 8930 2060 9480 2060 {lab=VSS}
+N 9480 2060 10030 2060 {lab=VSS}
+N 10030 2060 10580 2060 {lab=VSS}
+N 10580 2060 11130 2060 {lab=VSS}
+N 11130 2060 11680 2060 {lab=VSS}
+N 11680 1940 12230 1940 {lab=VDD}
+N 12230 1940 12230 1960 {lab=VDD}
+N 11680 2060 12230 2060 {lab=VSS}
+N 12230 2040 12230 2060 {lab=VSS}
+N 950 1980 1180 1980 {lab=HG0}
+N 2220 1980 2280 1980 {lab=HG13}
+N 2220 1960 2220 1980 {lab=HG13}
+N 3870 1980 3930 1980 {lab=HG13}
+N 3870 1960 3870 1980 {lab=HG13}
+N 4970 1980 5030 1980 {lab=HG13}
+N 4970 1960 4970 1980 {lab=HG13}
+N 7170 1980 7230 1980 {lab=HG13}
+N 7170 1960 7170 1980 {lab=HG13}
+N 8270 1980 8330 1980 {lab=HG13}
+N 8270 1960 8270 1980 {lab=HG13}
+N 9920 1980 9980 1980 {lab=HG13}
+N 9920 1960 9920 1980 {lab=HG13}
+N 2100 1960 2220 1960 {lab=HG13}
+N 2220 1960 3870 1960 {lab=HG13}
+N 3870 1960 4970 1960 {lab=HG13}
+N 4970 1960 7170 1960 {lab=HG13}
+N 7170 1960 8270 1960 {lab=HG13}
+N 8270 1960 9920 1960 {lab=HG13}
+N 1120 2020 1180 2020 {lab=L_N5}
+N 1120 2020 1120 2040 {lab=L_N5}
+N 2220 2020 2280 2020 {lab=L_N5}
+N 2220 2020 2220 2040 {lab=L_N5}
+N 950 2040 1120 2040 {lab=L_N5}
+N 1120 2040 2220 2040 {lab=L_N5}
+N 3710 2020 3930 2020 {lab=L_N4}
+N 4810 2020 5030 2020 {lab=L_N3}
+N 7010 2020 7230 2020 {lab=L_N2}
+N 8110 2020 8330 2020 {lab=L_N1}
+N 9760 2020 9980 2020 {lab=L_N0}
+N 1310 2000 1350 2000 {lab=#net1}
+N 1350 1980 1350 2000 {lab=#net1}
+N 1350 1980 1670 1980 {lab=#net1}
+N 1670 1980 1730 1980 {lab=#net1}
+N 1510 2020 1730 2020 {lab=DOUT_0X05}
+N 2410 2000 2450 2000 {lab=#net2}
+N 2450 1980 2450 2000 {lab=#net2}
+N 2450 1980 2770 1980 {lab=#net2}
+N 2770 1980 2830 1980 {lab=#net2}
+N 2610 2020 2830 2020 {lab=DOUT_0XD5}
+N 4060 2000 4100 2000 {lab=#net3}
+N 4100 1980 4100 2000 {lab=#net3}
+N 4100 1980 4420 1980 {lab=#net3}
+N 4420 1980 4480 1980 {lab=#net3}
+N 4260 2020 4480 2020 {lab=DOUT_0XD4}
+N 5160 2000 5200 2000 {lab=#net4}
+N 5200 1980 5200 2000 {lab=#net4}
+N 5200 1980 5520 1980 {lab=#net4}
+N 5520 1980 5580 1980 {lab=#net4}
+N 5360 2020 5580 2020 {lab=DOUT_0XD3}
+N 7360 2000 7400 2000 {lab=#net5}
+N 7400 1980 7400 2000 {lab=#net5}
+N 7400 1980 7720 1980 {lab=#net5}
+N 7720 1980 7780 1980 {lab=#net5}
+N 7560 2020 7780 2020 {lab=DOUT_0XD2}
+N 8460 2000 8500 2000 {lab=#net6}
+N 8500 1980 8500 2000 {lab=#net6}
+N 8500 1980 8820 1980 {lab=#net6}
+N 8820 1980 8880 1980 {lab=#net6}
+N 8660 2020 8880 2020 {lab=DOUT_0XD1}
+N 10110 2000 10150 2000 {lab=#net7}
+N 10150 1980 10150 2000 {lab=#net7}
+N 10150 1980 10470 1980 {lab=#net7}
+N 10470 1980 10530 1980 {lab=#net7}
+N 10310 2020 10530 2020 {lab=DOUT_0XD0}
+N 1860 2000 2340 2000 {lab=#net8}
+N 2340 2000 2340 2025 {lab=#net8}
+N 2340 2025 3440 2025 {lab=#net8}
+N 3440 1980 3440 2025 {lab=#net8}
+N 3380 1980 3440 1980 {lab=#net8}
+N 2960 2000 3000 2000 {lab=#net9}
+N 3000 2000 3000 2015 {lab=#net9}
+N 3000 2015 3300 2015 {lab=#net9}
+N 3300 2015 3300 2020 {lab=#net9}
+N 3300 2020 3380 2020 {lab=#net9}
+N 4610 2000 4650 2000 {lab=#net10}
+N 4650 2000 4650 2025 {lab=#net10}
+N 4650 2025 6190 2025 {lab=#net10}
+N 6190 1980 6190 2025 {lab=#net10}
+N 6130 1980 6190 1980 {lab=#net10}
+N 5710 2000 5750 2000 {lab=#net11}
+N 5750 2000 5750 2015 {lab=#net11}
+N 5750 2015 6050 2015 {lab=#net11}
+N 6050 2015 6050 2020 {lab=#net11}
+N 6050 2020 6130 2020 {lab=#net11}
+N 7910 2000 7950 2000 {lab=#net12}
+N 7950 2000 7950 2025 {lab=#net12}
+N 7950 2025 9490 2025 {lab=#net12}
+N 9490 1980 9490 2025 {lab=#net12}
+N 9430 1980 9490 1980 {lab=#net12}
+N 9010 2000 9050 2000 {lab=#net13}
+N 9050 2000 9050 2015 {lab=#net13}
+N 9050 2015 9350 2015 {lab=#net13}
+N 9350 2015 9350 2020 {lab=#net13}
+N 9350 2020 9430 2020 {lab=#net13}
+N 3510 2000 3550 2000 {lab=#net14}
+N 3550 2000 3550 2050 {lab=#net14}
+N 3550 2050 6740 2050 {lab=#net14}
+N 6740 1980 6740 2050 {lab=#net14}
+N 6680 1980 6740 1980 {lab=#net14}
+N 6260 2000 6300 2000 {lab=#net15}
+N 6300 2000 6300 2030 {lab=#net15}
+N 6300 2030 6600 2030 {lab=#net15}
+N 6600 2020 6600 2030 {lab=#net15}
+N 6600 2020 6680 2020 {lab=#net15}
+N 9560 2000 9600 2000 {lab=#net16}
+N 9600 2000 9600 2035 {lab=#net16}
+N 9600 2035 11140 2035 {lab=#net16}
+N 11140 1980 11140 2035 {lab=#net16}
+N 11080 1980 11140 1980 {lab=#net16}
+N 10660 2000 10700 2000 {lab=#net17}
+N 10700 2000 10700 2030 {lab=#net17}
+N 10700 2030 11000 2030 {lab=#net17}
+N 11000 2020 11000 2030 {lab=#net17}
+N 11000 2020 11080 2020 {lab=#net17}
+N 6810 2000 6850 2000 {lab=#net18}
+N 6850 2000 6850 2045 {lab=#net18}
+N 6850 2045 11690 2045 {lab=#net18}
+N 11690 1980 11690 2045 {lab=#net18}
+N 11630 1980 11690 1980 {lab=#net18}
+N 11210 2000 11250 2000 {lab=#net19}
+N 11250 1950 11250 2000 {lab=#net19}
+N 11250 1950 11550 1950 {lab=#net19}
+N 11550 1950 11550 2020 {lab=#net19}
+N 11550 2020 11630 2020 {lab=#net19}
+N 11760 2000 12180 2000 {lab=#net20}
+N 12300 2000 12600 2000 {lab=P14}
+C {TR-1um_5_stdcell/NOR2.sym} 1200 2000 0 0 {name=xSEL_05_NOR2}
+C {TR-1um_5_stdcell/AND2_X1.sym} 1750 2000 0 0 {name=xGATE_05_AND2}
+C {TR-1um_5_stdcell/NOR2.sym} 2300 2000 0 0 {name=xSEL_D5_NOR2}
+C {TR-1um_5_stdcell/AND2_X1.sym} 2850 2000 0 0 {name=xGATE_D5_AND2}
+C {TR-1um_5_stdcell/OR2.sym} 3400 2000 0 0 {name=xOR_T0}
+C {TR-1um_5_stdcell/NOR2.sym} 3950 2000 0 0 {name=xSEL_D4_NOR2}
+C {TR-1um_5_stdcell/AND2_X1.sym} 4500 2000 0 0 {name=xGATE_D4_AND2}
+C {TR-1um_5_stdcell/NOR2.sym} 5050 2000 0 0 {name=xSEL_D3_NOR2}
+C {TR-1um_5_stdcell/AND2_X1.sym} 5600 2000 0 0 {name=xGATE_D3_AND2}
+C {TR-1um_5_stdcell/OR2.sym} 6150 2000 0 0 {name=xOR_T1}
+C {TR-1um_5_stdcell/OR2.sym} 6700 2000 0 0 {name=xOR_T3}
+C {TR-1um_5_stdcell/NOR2.sym} 7250 2000 0 0 {name=xSEL_D2_NOR2}
+C {TR-1um_5_stdcell/AND2_X1.sym} 7800 2000 0 0 {name=xGATE_D2_AND2}
+C {TR-1um_5_stdcell/NOR2.sym} 8350 2000 0 0 {name=xSEL_D1_NOR2}
+C {TR-1um_5_stdcell/AND2_X1.sym} 8900 2000 0 0 {name=xGATE_D1_AND2}
+C {TR-1um_5_stdcell/OR2.sym} 9450 2000 0 0 {name=xOR_T2}
+C {TR-1um_5_stdcell/NOR2.sym} 10000 2000 0 0 {name=xSEL_D0_NOR2}
+C {TR-1um_5_stdcell/AND2_X1.sym} 10550 2000 0 0 {name=xGATE_D0_AND2}
+C {TR-1um_5_stdcell/OR2.sym} 11100 2000 0 0 {name=xOR_T4}
+C {TR-1um_5_stdcell/OR2.sym} 11650 2000 0 0 {name=xOR_T5}
+C {TR-1um_5_stdcell/BUF_X1.sym} 12200 2000 0 0 {name=xP14_BUF}
+C {devices/iopin.sym} 500 1940 0 0 {name=p1 lab=VDD}
+C {devices/iopin.sym} 500 2060 0 0 {name=p2 lab=VSS}
+C {devices/ipin.sym} 950 1980 0 0 {name=p3 lab=HG0}
+C {devices/ipin.sym} 950 2040 0 0 {name=p4 lab=L_N5}
+C {devices/ipin.sym} 2100 1960 0 0 {name=p5 lab=HG13}
+C {devices/ipin.sym} 3710 2020 0 0 {name=p6 lab=L_N4}
+C {devices/ipin.sym} 4810 2020 0 0 {name=p7 lab=L_N3}
+C {devices/ipin.sym} 7010 2020 0 0 {name=p8 lab=L_N2}
+C {devices/ipin.sym} 8110 2020 0 0 {name=p9 lab=L_N1}
+C {devices/ipin.sym} 9760 2020 0 0 {name=p10 lab=L_N0}
+C {devices/ipin.sym} 1510 2020 0 0 {name=p11 lab=DOUT_0X05}
+C {devices/ipin.sym} 2610 2020 0 0 {name=p12 lab=DOUT_0XD5}
+C {devices/ipin.sym} 4260 2020 0 0 {name=p13 lab=DOUT_0XD4}
+C {devices/ipin.sym} 5360 2020 0 0 {name=p14 lab=DOUT_0XD3}
+C {devices/ipin.sym} 7560 2020 0 0 {name=p15 lab=DOUT_0XD2}
+C {devices/ipin.sym} 8660 2020 0 0 {name=p16 lab=DOUT_0XD1}
+C {devices/ipin.sym} 10310 2020 0 0 {name=p17 lab=DOUT_0XD0}
+C {devices/opin.sym} 12600 2000 0 0 {name=p18 lab=P14}
