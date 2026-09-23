@@ -1,0 +1,8 @@
+** sch_path: /home/talkie/inverter/inverter.sch
+.subckt inverter A Q VSS VDD
+*.PININFO A:I Q:O VSS:B VDD:B
+MXM1 Q A VDD VDD PMOS w=8.2u l=1u
+MXM2 Q A VSS VSS NMOS w=3.4u l=1u
+MXM3 Q A VDD VDD PMOS w=8.2u l=1u
+MXM4 Q A VSS VSS NMOS w=3.4u l=1u
+.ends

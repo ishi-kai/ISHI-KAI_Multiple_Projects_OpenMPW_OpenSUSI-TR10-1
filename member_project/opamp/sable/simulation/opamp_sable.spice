@@ -1,0 +1,35 @@
+** sch_path: /mnt/c/Data/OneDrive/MyDocuments/Community/ISHIKAI/shuttle/OpenSUSI-TR10/2026/Projects/opamp/sable/opamp_sable.sch
+.subckt opamp_sable vinp vinn out vdd vss ib
+*.PININFO vinp:I vinn:I out:O vdd:B vss:B ib:B
+X1 vinp vinn net2 vdd vss ib mydiff
+X2 net2 ib out vdd vss mycs
+MM9 net1 ib vdd vdd PMOS w=60u l=1u
+MM12 net3 net1 net2 vss NMOS w=8u l=1u
+MM8 ib ib vdd vdd PMOS w=60u l=1u
+MM10 net1 net1 net4 vss NMOS w=20u l=1u
+MM11 net4 net4 vss vss NMOS w=20u l=1u
+XXC1 net3 out vss F_CSIO x=120u y=120u A=14.4n P=480u
+.ends
+
+* expanding   symbol:  mydiff.sym # of pins=6
+** sym_path: /mnt/c/Data/OneDrive/MyDocuments/Community/ISHIKAI/shuttle/OpenSUSI-TR10/2026/Projects/opamp/sable/mydiff.sym
+** sch_path: /mnt/c/Data/OneDrive/MyDocuments/Community/ISHIKAI/shuttle/OpenSUSI-TR10/2026/Projects/opamp/sable/mydiff.sch
+.subckt mydiff vinp vinn out vdd vss vb
+*.PININFO vinn:I vinp:I vb:I out:O vdd:B vss:B
+MM5 net2 vb vdd vdd PMOS w=60u l=1u
+MM1 net1 vinn net2 net2 PMOS w=30u l=1u
+MM2 out vinp net2 net2 PMOS w=30u l=1u
+MM3 net1 net1 vss vss NMOS w=10u l=1u
+MM4 out net1 vss vss NMOS w=10u l=1u
+.ends
+
+
+* expanding   symbol:  mycs.sym # of pins=5
+** sym_path: /mnt/c/Data/OneDrive/MyDocuments/Community/ISHIKAI/shuttle/OpenSUSI-TR10/2026/Projects/opamp/sable/mycs.sym
+** sch_path: /mnt/c/Data/OneDrive/MyDocuments/Community/ISHIKAI/shuttle/OpenSUSI-TR10/2026/Projects/opamp/sable/mycs.sch
+.subckt mycs vin vb out vdd vss
+*.PININFO vb:I vin:I out:O vss:B vdd:B
+MM6 out vb vdd vdd PMOS w=120u l=1u
+MM7 out vin vss vss NMOS w=40u l=1u
+.ends
+

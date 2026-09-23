@@ -1,0 +1,43 @@
+** sch_path: /home/ishi-kai/555B/forSUSI/555timer_bk/555MOS.sch
+.subckt 555MOS vdd th out vctrl trig vss rst dischg
+*.PININFO vctrl:I out:O trig:I th:I rst:I dischg:O vdd:B vss:B
+MM2 net2 vctrl net5 vss NMOS w=20u l=2u
+MM1 net1 th net5 vss NMOS w=20u l=2u
+MM3 net1 net1 vdd vdd PMOS w=20u l=2u
+MM4 net4 net1 vdd vdd PMOS w=20u l=2u
+MM5 net3 net2 vdd vdd PMOS w=20u l=2u
+MM6 net2 net2 vdd vdd PMOS w=20u l=2u
+MM7 net7 net11 net6 vdd PMOS w=80u l=2u
+XR2 vdd net6 vdd F_RR w=6e-06 l=13.2e-06
+MM8 net8 trig net7 vdd PMOS w=40u l=2u
+MM9 net9 net10 net7 vdd PMOS w=40u l=2u
+MM10 net8 net9 vss vss NMOS w=20u l=2u
+MM11 net9 net9 vss vss NMOS w=20u l=2u
+XR3 vdd vctrl vdd F_RR w=4e-06 l=42e-06
+XR4 vctrl net10 vdd F_RR w=4e-06 l=42e-06
+XR5 net10 vss vdd F_RR w=4e-06 l=42e-06
+MM12 net3 net3 vss vss NMOS w=20u l=2u
+MM13 net4 net3 vss vss NMOS w=20u l=2u
+MM14 net11 net11 vdd vdd PMOS w=40u l=2u
+MM15 net15 net11 vdd vdd PMOS w=40u l=2u
+MM16 net12 net4 net13 vss NMOS w=20u l=2u
+MM17 net12 net12 net14 vss NMOS w=20u l=2u
+XR6 net11 net12 vdd F_RR w=4e-06 l=24.6e-06
+MM18 net13 net8 vss vss NMOS w=20u l=2u
+MM19 net14 net13 vss vss NMOS w=20u l=2u
+MM20 net15 net14 vss vss NMOS w=20u l=2u
+MM21 net16 net15 net18 vss NMOS w=20u l=2u
+XR7 net15 net13 vdd F_RR w=4e-06 l=23.5e-06
+XR8 vdd net16 vdd F_RR w=4e-06 l=24.6e-06
+MM24 vdd net17 out vss NMOS w=40u l=2u
+MM25 out net18 vss vss NMOS w=40u l=2u
+MM22 vdd net16 net17 vss NMOS w=20u l=2u
+MM23 vss net16 out vdd PMOS w=40u l=2u
+XR9 net17 out vdd F_RR w=4e-06 l=24.6e-06
+XR10 net18 vss vdd F_RR w=4e-06 l=24.6e-06
+MM26 net18 rst net12 vdd PMOS w=40u l=2u
+MM27 dischg net18 vss vss NMOS w=40u l=2u
+MM28 net5 net19 vss vss NMOS w=40u l=2u
+XR1 vdd net19 vdd F_RR w=4e-06 l=42e-06
+MM29 net19 net19 vss vss NMOS w=40u l=2u
+.ends
