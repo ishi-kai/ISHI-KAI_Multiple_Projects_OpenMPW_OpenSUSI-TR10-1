@@ -1,0 +1,33 @@
+* Created by KLayout
+*** My special header ***
+
+* cell opamp_sable
+* pin VSS
+.SUBCKT opamp_sable VSS
+* device instance $1 r0 *1 144.3,90.9 PMOS
+XM$1 \$1 \$15 \$9 \$1 PMOS L=1u W=30u AS=58p AD=58p PS=51.6u PD=51.6u
+* device instance $4 r0 *1 117.7,90.9 PMOS
+XM$4 \$8 \$13 \$1 \$1 PMOS L=1u W=30u AS=58p AD=58p PS=51.6u PD=51.6u
+* device instance $7 r0 *1 164.3,128.9 PMOS
+XM$7 \$3 \$5 \$6 \$3 PMOS L=1u W=120u AS=193p AD=193p PS=168.6u PD=168.6u
+* device instance $19 r0 *1 125,128.9 PMOS
+XM$19 \$3 \$5 \$1 \$3 PMOS L=1u W=60u AS=103p AD=103p PS=90.6u PD=90.6u
+* device instance $25 r0 *1 85.7,128.9 PMOS
+XM$25 \$3 \$5 \$4 \$3 PMOS L=1u W=60u AS=103p AD=103p PS=90.6u PD=90.6u
+* device instance $31 r0 *1 51.1,128.9 PMOS
+XM$31 \$3 \$5 \$5 \$3 PMOS L=1u W=60u AS=103p AD=103p PS=90.6u PD=90.6u
+* device instance $37 r0 *1 180.3,54.8 NMOS
+XM$37 VSS \$9 \$6 VSS NMOS L=1u W=40u AS=73p AD=73p PS=64.6u PD=64.6u
+* device instance $41 r0 *1 144.3,55 NMOS
+XM$41 VSS \$8 \$9 VSS NMOS L=1u W=10u AS=28p AD=28p PS=25.6u PD=25.6u
+* device instance $42 r0 *1 125.7,55 NMOS
+XM$42 \$8 \$8 VSS VSS NMOS L=1u W=10u AS=28p AD=28p PS=25.6u PD=25.6u
+* device instance $43 r0 *1 201.7,82.3 NMOS
+XM$43 \$12 \$4 \$9 VSS NMOS L=1u W=8u AS=22.4p AD=22.4p PS=21.6u PD=21.6u
+* device instance $44 r0 *1 79.4,79.8 NMOS
+XM$44 \$10 \$4 \$4 VSS NMOS L=1u W=20u AS=43p AD=43p PS=38.6u PD=38.6u
+* device instance $46 r0 *1 79.4,54.8 NMOS
+XM$46 VSS \$10 \$10 VSS NMOS L=1u W=20u AS=43p AD=43p PS=38.6u PD=38.6u
+* device instance $48 r90 *1 302.4,100 F_CSIO
+XC$48 \$12 \$6 VSS F_CSIO C=8.6256e-12 A=14376p P=479.6u X=119.8 Y=120 m=1
+.ENDS opamp_sable

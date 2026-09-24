@@ -1,0 +1,6 @@
+** sch_path: /home/jijinbei/inverter/inverter.sch
+.subckt inverter A Q VSS VDD
+*.PININFO A:I Q:O VSS:B VDD:B
+MXM1 Q A VSS VSS NMOS w=54.4u l=1u
+MXM2 Q A VDD VDD PMOS w=163.2u l=1u
+.ends
