@@ -36,10 +36,10 @@ logy=1
 rawfile=$netlist_dir/tb_lpf_ac.raw
 sim_type=ac
 rainbow=1
-x2=7
+x2=7.0253793
 y1=-3
 y2=0
-x1=1}
+x1=1.0253798}
 A 4 1045 -1360 11.18033988749895 116.565051177078 360 {}
 A 4 1055 -1360 11.18033988749895 116.565051177078 360 {}
 T {Low pass filter - OTA - AC analysis} 520 -1565 0 0 0.8 0.8 {}
@@ -173,7 +173,7 @@ footprint=1206
 device=resistor
 m=1}
 C {devices/gnd.sym} 1320 -1120 0 0 {name=l18 lab=GND}
-C {devices/isource.sym} 1020 -790 0 0 {name=I3 value=50u}
+C {devices/isource.sym} 1020 -790 0 0 {name=I3 value=64u}
 C {devices/gnd.sym} 1180 -740 0 0 {name=l19 lab=GND}
 C {devices/res.sym} 1280 -790 0 0 {name=R3
 value=1Meg
