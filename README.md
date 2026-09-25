@@ -1,7 +1,8 @@
 # ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1
 ISHI会版OpenMPW OpenSUSI-TR10-1～2026年OpenSUSI-TR10（OpenSUSI-TR1umシャトル）の相乗り～
 
-今年は、いろいろなスポンサーがついて、全38枠のスポンサー枠がありましたので、それぞれ紹介していきます。
+今年は、いろいろなスポンサーがついて、全38枠のスポンサー枠がありましたので、それぞれ紹介していきます。  
+今年、どのようなハンズオンなどがあったかについては「[ISHI会版OpenMPW OpenSUSI-TR10-1投稿完了！！！～2026年OpenSUSI-TR10-1（OpenSUSI-TR10シャトル）](https://ishi-kai.org/openmpw/shuttle/opensusi-tr10/2026/09/25/shuttle_ISHI-Kai_OpenMPW-OpenSUSI-TR10-1_submitted.html)」をご覧ください。  
 
 - スポンサー一覧
     - [サンケン電気](https://ishi-kai.org/openmpw/shuttle/opensusi-tr10/2026/05/05/shuttle_ISHI-Kai_OpenMPW-OpenSUSI-TR10-1_start.html)
