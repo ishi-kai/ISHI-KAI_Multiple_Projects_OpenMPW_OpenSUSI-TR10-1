@@ -674,7 +674,7 @@ zawa氏には今年のイチケンさんの新しい回路の設計やレイア�
 
 
 
-# [OpenSUSI DESIGN CHIP 01](ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1_OpenSUSI01)
+# [OpenSUSI DESIGN CHIP 01](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1_OpenSUSI01)
 
 - ![フレーム](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1_OpenSUSI01/raw/main/images/all_frame.png)
 
@@ -689,7 +689,7 @@ zawa氏には今年のイチケンさんの新しい回路の設計やレイア�
 
 
 
-# [OpenSUSI DESIGN CHIP 02](ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1_OpenSUSI02)
+# [OpenSUSI DESIGN CHIP 02](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1_OpenSUSI02)
 
 - ![フレーム](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1_OpenSUSI02/raw/main/images/all_frame.png)
 
@@ -713,7 +713,7 @@ zawa氏には今年のイチケンさんの新しい回路の設計やレイア�
 
 
 
-# [OpenSUSI DESIGN CHIP 03](ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1_OpenSUSI03)
+# [OpenSUSI DESIGN CHIP 03](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1_OpenSUSI03)
 
 - ![フレーム](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1_OpenSUSI03/raw/main/images/all_frame.png)
 
@@ -728,7 +728,7 @@ OpenSUSI-MPWでどこまでレイアウトテクニックが使えるか？に�
 
 
 
-# [OpenSUSI DESIGN CHIP 04](ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1_OpenSUSI04)
+# [OpenSUSI DESIGN CHIP 04](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1_OpenSUSI04)
 
 - ![フレーム](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1_OpenSUSI04/raw/main/images/all_frame.png)
 
@@ -744,7 +744,7 @@ OpenSUSI-MPWでどこまでレイアウトテクニックが使えるか？に�
 
 
 
-# [OpenSUSI DESIGN CHIP 05](ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1_OpenSUSI05)
+# [OpenSUSI DESIGN CHIP 05](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1_OpenSUSI05)
 
 - ![フレーム](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1_OpenSUSI05/raw/main/images/all_frame.png)
 
