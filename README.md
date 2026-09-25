@@ -99,7 +99,7 @@ ISHI会版OpenMPW OpenSUSI-TR10-1～2026年OpenSUSI-TR10（OpenSUSI-TR1umシャ�
 - [ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1)
     - [インバータ回路：Luft256](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/tree/raw/main/member_project/inverter/ichiken/Luft256/)
     - [インバータ回路：shkoga](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/tree/raw/main/member_project/inverter/ichiken/shkoga/)
-    - [インバータ回路：TadasukeKuramochi](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/tree/raw/main/member_project/inverter/ichiken/TadasukeKuramochi/
+    - [インバータ回路：TadasukeKuramochi](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/tree/raw/main/member_project/inverter/ichiken/TadasukeKuramochi/)
 
 
 # [ICHIKEN&RISE-A DESIGN CHIP 03](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1_ichiken_03)
