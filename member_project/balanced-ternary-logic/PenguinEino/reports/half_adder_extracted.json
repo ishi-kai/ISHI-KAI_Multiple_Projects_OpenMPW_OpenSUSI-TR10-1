@@ -1,0 +1,334 @@
+{
+  "passed": true,
+  "scope": "Fresh LVS-extracted device network with MOS junction geometry and PDK intrinsic capacitances. No interconnect RC.",
+  "gds_sha256": "e577df2b6b70cf5cd9bace2c2a7144bb082406014a5c3020a7480bbf36a87e17",
+  "schematic_sha256": "2523ef16811218c7b62f45d1a17ee22349f92e07c0d40a8c2f43d3e6cd41333b",
+  "extracted_sha256": "455f3a8d17aadc73cf303b58d119a31e75ad738ffe91270b5f993de379f59cd4",
+  "model_sha256": {
+    "models_IP62_cap_v5p1.lib": "265c1e2b5228381633ec936f208101b64a0538905c41bdf53e760df10f347bed",
+    "models_IP62_diode_v2.lib": "37c19bd4f6d631a5862f2b6aeda62e5eb73ed15fe0de9932296a81a144f1550f",
+    "models_IP62_res_v5.lib": "0d6e2e4b7739fd68946c746830ed8896f4ec5ee98e984fdb5c8dd1116ad78311",
+    "models_IP62_mos_v2.lib": "251864d489d0e15a3081871763af29e1bbc8654ae55662bede40e0a7bbac1400",
+    "ip62_models": "219ca479adc7d6d960f83e18e0081da153a479f34615333d74c946869bc4c6ec"
+  },
+  "lvs": {
+    "passed": true,
+    "circuits": [
+      "Match",
+      "Match",
+      "Match"
+    ],
+    "errors": [],
+    "strict_ports": true
+  },
+  "temperature_C": 27,
+  "supplies_V": [
+    -5,
+    0,
+    5
+  ],
+  "tolerance_V": 0.5,
+  "results": [
+    {
+      "variant": "extracted",
+      "mode": "dc",
+      "points": [
+        {
+          "inputs": [
+            -5,
+            -5
+          ],
+          "sum_V": 4.99999964,
+          "carry_V": -4.99999968,
+          "output_error_V": 3.599999995884673e-07,
+          "internal_error_V": 6.73435569e-05
+        },
+        {
+          "inputs": [
+            -5,
+            0
+          ],
+          "sum_V": -4.99999968,
+          "carry_V": 5.04844371e-08,
+          "output_error_V": 3.1999999983156613e-07,
+          "internal_error_V": 1.0299999999574538e-06
+        },
+        {
+          "inputs": [
+            -5,
+            5
+          ],
+          "sum_V": -0.00257468633,
+          "carry_V": 5.04844387e-08,
+          "output_error_V": 0.00257468633,
+          "internal_error_V": 0.00257468633
+        },
+        {
+          "inputs": [
+            0,
+            -5
+          ],
+          "sum_V": -4.99999968,
+          "carry_V": -0.00249343792,
+          "output_error_V": 0.00249343792,
+          "internal_error_V": 0.00249343792
+        },
+        {
+          "inputs": [
+            0,
+            0
+          ],
+          "sum_V": -0.00227474419,
+          "carry_V": -0.00221945151,
+          "output_error_V": 0.00227474419,
+          "internal_error_V": 0.00248457496
+        },
+        {
+          "inputs": [
+            0,
+            5
+          ],
+          "sum_V": 4.99999897,
+          "carry_V": -0.00249343793,
+          "output_error_V": 0.00249343793,
+          "internal_error_V": 0.00249343793
+        },
+        {
+          "inputs": [
+            5,
+            -5
+          ],
+          "sum_V": -0.00257468633,
+          "carry_V": 5.04449565e-08,
+          "output_error_V": 0.00257468633,
+          "internal_error_V": 0.00257468633
+        },
+        {
+          "inputs": [
+            5,
+            0
+          ],
+          "sum_V": 4.99999897,
+          "carry_V": 5.0444336e-08,
+          "output_error_V": 1.0299999999574538e-06,
+          "internal_error_V": 1.0299999999574538e-06
+        },
+        {
+          "inputs": [
+            5,
+            5
+          ],
+          "sum_V": -4.99999968,
+          "carry_V": 4.99999897,
+          "output_error_V": 1.0299999999574538e-06,
+          "internal_error_V": 6.73435667e-05
+        }
+      ],
+      "output_error_V": 0.00257468633,
+      "internal_error_V": 0.00257468633,
+      "passed": true
+    },
+    {
+      "variant": "extracted",
+      "mode": "tran_10f",
+      "load_fF": 10,
+      "input_skew_ns": 0,
+      "count": 72,
+      "output_error_V": 0.002642105709,
+      "internal_error_V": 0.002642105709,
+      "unsettled": 0,
+      "max_settle_ns": 35.12635,
+      "passed": true
+    },
+    {
+      "variant": "extracted",
+      "mode": "tran_100f",
+      "load_fF": 100,
+      "input_skew_ns": 0,
+      "count": 72,
+      "output_error_V": 0.002633968089756,
+      "internal_error_V": 0.002633968089756,
+      "unsettled": 0,
+      "max_settle_ns": 35.72389999999996,
+      "passed": true
+    },
+    {
+      "variant": "extracted",
+      "mode": "skew_a",
+      "load_fF": 10,
+      "input_skew_ns": -2,
+      "count": 72,
+      "output_error_V": 0.002645055567576,
+      "internal_error_V": 0.002645055567576,
+      "unsettled": 0,
+      "max_settle_ns": 34.946770000000015,
+      "passed": true
+    },
+    {
+      "variant": "extracted",
+      "mode": "skew_b",
+      "load_fF": 10,
+      "input_skew_ns": 2,
+      "count": 72,
+      "output_error_V": 0.002643699209469,
+      "internal_error_V": 0.002643699209469,
+      "unsettled": 0,
+      "max_settle_ns": 33.09999999999991,
+      "passed": true
+    },
+    {
+      "variant": "schematic",
+      "mode": "dc",
+      "points": [
+        {
+          "inputs": [
+            -5,
+            -5
+          ],
+          "sum_V": 4.99999964,
+          "carry_V": -4.99999968,
+          "output_error_V": 3.599999995884673e-07,
+          "internal_error_V": 6.73435569e-05
+        },
+        {
+          "inputs": [
+            -5,
+            0
+          ],
+          "sum_V": -4.99999968,
+          "carry_V": 5.04844371e-08,
+          "output_error_V": 3.1999999983156613e-07,
+          "internal_error_V": 1.0299999999574538e-06
+        },
+        {
+          "inputs": [
+            -5,
+            5
+          ],
+          "sum_V": -0.00257468633,
+          "carry_V": 5.04844387e-08,
+          "output_error_V": 0.00257468633,
+          "internal_error_V": 0.00257468633
+        },
+        {
+          "inputs": [
+            0,
+            -5
+          ],
+          "sum_V": -4.99999968,
+          "carry_V": -0.00249343792,
+          "output_error_V": 0.00249343792,
+          "internal_error_V": 0.00249343792
+        },
+        {
+          "inputs": [
+            0,
+            0
+          ],
+          "sum_V": -0.00227474419,
+          "carry_V": -0.00221945151,
+          "output_error_V": 0.00227474419,
+          "internal_error_V": 0.00248457496
+        },
+        {
+          "inputs": [
+            0,
+            5
+          ],
+          "sum_V": 4.99999897,
+          "carry_V": -0.00249343793,
+          "output_error_V": 0.00249343793,
+          "internal_error_V": 0.00249343793
+        },
+        {
+          "inputs": [
+            5,
+            -5
+          ],
+          "sum_V": -0.00257468633,
+          "carry_V": 5.04449569e-08,
+          "output_error_V": 0.00257468633,
+          "internal_error_V": 0.00257468633
+        },
+        {
+          "inputs": [
+            5,
+            0
+          ],
+          "sum_V": 4.99999897,
+          "carry_V": 5.0444336e-08,
+          "output_error_V": 1.0299999999574538e-06,
+          "internal_error_V": 1.0299999999574538e-06
+        },
+        {
+          "inputs": [
+            5,
+            5
+          ],
+          "sum_V": -4.99999968,
+          "carry_V": 4.99999897,
+          "output_error_V": 1.0299999999574538e-06,
+          "internal_error_V": 6.73435667e-05
+        }
+      ],
+      "output_error_V": 0.00257468633,
+      "internal_error_V": 0.00257468633,
+      "passed": true
+    },
+    {
+      "variant": "schematic",
+      "mode": "tran_10f",
+      "load_fF": 10,
+      "input_skew_ns": 0,
+      "count": 72,
+      "output_error_V": 0.002639965615213,
+      "internal_error_V": 0.002639965615213,
+      "unsettled": 0,
+      "max_settle_ns": 35.22678000000042,
+      "passed": true
+    },
+    {
+      "variant": "schematic",
+      "mode": "tran_100f",
+      "load_fF": 100,
+      "input_skew_ns": 0,
+      "count": 72,
+      "output_error_V": 0.0026315926192590003,
+      "internal_error_V": 0.0026315926192590003,
+      "unsettled": 0,
+      "max_settle_ns": 35.82763000000023,
+      "passed": true
+    },
+    {
+      "variant": "schematic",
+      "mode": "skew_a",
+      "load_fF": 10,
+      "input_skew_ns": -2,
+      "count": 72,
+      "output_error_V": 0.0026428065088025003,
+      "internal_error_V": 0.0026428065088025003,
+      "unsettled": 0,
+      "max_settle_ns": 35.05130000000008,
+      "passed": true
+    },
+    {
+      "variant": "schematic",
+      "mode": "skew_b",
+      "load_fF": 10,
+      "input_skew_ns": 2,
+      "count": 72,
+      "output_error_V": 0.0026415666110460004,
+      "internal_error_V": 0.0026415666110460004,
+      "unsettled": 0,
+      "max_settle_ns": 33.29999999999973,
+      "passed": true
+    }
+  ],
+  "dc_method": "Nine independent DC solves seeded with settled transient node voltages; continuous VTC is not qualified.",
+  "source_sha256": {
+    "half_adder.sch": "2523ef16811218c7b62f45d1a17ee22349f92e07c0d40a8c2f43d3e6cd41333b",
+    "half_adder_tb.sch": "11e96feb1f15963949a28d16cdd8e4ed735ecb4b0fc32e79d17bcf9bbac036c3",
+    "nany.sch": "ccb2fe30da68a0ef2bbcda8836d70b65579f0c6be58fd024a511a6e90fdb64cc",
+    "inverter.sch": "290c8ce9aa810cf83f9b24eaa435c5b729892daff5f1e42d4e43dc7d7e89274d"
+  }
+}

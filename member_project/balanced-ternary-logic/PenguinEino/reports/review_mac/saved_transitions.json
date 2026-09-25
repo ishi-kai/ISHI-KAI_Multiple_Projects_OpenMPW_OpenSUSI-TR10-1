@@ -1,0 +1,58 @@
+{
+  "schematic/all_6480_10f": {
+    "samples": 6488,
+    "unique_transitions": 6480,
+    "all_once": true,
+    "max_errors_V": {
+      "sum": 0.0025872010182939964,
+      "cout": 0.0008987322100526318,
+      "and_out": 0.06370340787463846,
+      "or_out": 0.3584658256361295,
+      "product": 0.2083032784259158
+    },
+    "passed": true,
+    "provenance": "Re-evaluated existing raw waveforms, with current source/model/extraction hashes and independent oracle; not newly simulated."
+  },
+  "schematic/single_input_648_100f": {
+    "samples": 649,
+    "unique_transitions": 648,
+    "all_once": true,
+    "max_errors_V": {
+      "sum": 0.002577552942608698,
+      "cout": 0.0006920356389068376,
+      "and_out": 0.06370289600416729,
+      "or_out": 0.358462995504282,
+      "product": 0.2082888254616996
+    },
+    "passed": true,
+    "provenance": "Re-evaluated existing raw waveforms, with current source/model/extraction hashes and independent oracle; not newly simulated."
+  },
+  "extracted/all_6480_10f": {
+    "samples": 6488,
+    "unique_transitions": 6480,
+    "all_once": true,
+    "max_errors_V": {
+      "sum": 0.0025936305558811297,
+      "cout": 0.0010631094728154858,
+      "and_out": 0.06371981049973253,
+      "or_out": 0.3584657233134329,
+      "product": 0.20830685774103583
+    },
+    "passed": true,
+    "provenance": "Re-evaluated existing raw waveforms, with current source/model/extraction hashes and independent oracle; not newly simulated."
+  },
+  "extracted/single_input_648_100f": {
+    "samples": 649,
+    "unique_transitions": 648,
+    "all_once": true,
+    "max_errors_V": {
+      "sum": 0.0025761559008455645,
+      "cout": 0.0006858176760778544,
+      "and_out": 0.06370279327092199,
+      "or_out": 0.3584623651258571,
+      "product": 0.20828880140251949
+    },
+    "passed": true,
+    "provenance": "Re-evaluated existing raw waveforms, with current source/model/extraction hashes and independent oracle; not newly simulated."
+  }
+}

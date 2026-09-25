@@ -1,0 +1,26 @@
+{
+  "changes": [
+    {
+      "cell": "nany$1",
+      "old_x": 267.845,
+      "new_x": 270.0
+    },
+    {
+      "cell": "nany$2",
+      "old_x": 412.65500000000003,
+      "new_x": 414.0
+    }
+  ],
+  "dbu_um": 0.001,
+  "saved_snap_um": 0.05,
+  "drc": {
+    "passed": false,
+    "items": 19,
+    "categories": {
+      "GC.ANT:GC must electrically connect to Substrate (or text if not chip level)": 19
+    }
+  },
+  "gds_sha256": "dbf1f8bccbbb426f7725dee626662be550206a7d5932424af742ef7e669920a3",
+  "backup": "layout/backups/half_adder.before_grid_fix.741757483f872424.gds",
+  "config_backup": "layout/backups/klayoutrc.before_grid_fix.e950730f166be5ec.xml"
+}

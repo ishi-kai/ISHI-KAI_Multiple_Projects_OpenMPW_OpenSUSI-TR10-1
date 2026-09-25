@@ -1,0 +1,160 @@
+{
+  "passed": true,
+  "baseline_commit": "2919b60",
+  "baseline_gds_sha256": "e5aaab51a1722560c7929a5e841455afdde426caee79fbc41a3e42aec8c6452c",
+  "new_gds_sha256": "13a8c4415aac8f88be5a9fc05792727665c7352ef444de89f1c39f2e7bcbafd6",
+  "baseline_extracted_sha256": "501c92703ea991e3596949643a82ac317202e3919b216cd5cf24185d6c0254dd",
+  "new_extracted_sha256": "0325246bb323e7bd1955960a6b1b7260403e7b850755d85d7b078b06abb6464c",
+  "baseline_report_sha256": "baa97f15e1f34cb71a7c4317ca705ab46a461eb2bc59b44ca8843944925b0852",
+  "pin_labelled_parameter_exact_isomorphism": {
+    "mac": {
+      "passed": true,
+      "graph_nodes": 47,
+      "graph_edges": 54,
+      "ports": [
+        "VDD",
+        "VMID",
+        "VSS",
+        "a",
+        "and_out",
+        "b",
+        "cin",
+        "cout",
+        "or_out",
+        "sum",
+        "x"
+      ]
+    },
+    "full_adder": {
+      "passed": true,
+      "graph_nodes": 40,
+      "graph_edges": 48,
+      "ports": [
+        "cout",
+        "VMID",
+        "VDD",
+        "a",
+        "b",
+        "cin",
+        "sum",
+        "VSS"
+      ]
+    },
+    "mul": {
+      "passed": true,
+      "graph_nodes": 31,
+      "graph_edges": 38,
+      "ports": [
+        "t3",
+        "VDD",
+        "a",
+        "b",
+        "t1",
+        "p",
+        "VSS"
+      ]
+    },
+    "half_adder": {
+      "passed": true,
+      "graph_nodes": 57,
+      "graph_edges": 76,
+      "ports": [
+        "carry",
+        "VMID",
+        "VDD",
+        "sum",
+        "a",
+        "b",
+        "VSS"
+      ]
+    },
+    "mul_inv": {
+      "passed": true,
+      "graph_nodes": 24,
+      "graph_edges": 28,
+      "ports": [
+        "VDD",
+        "vin",
+        "vout",
+        "VSS"
+      ]
+    },
+    "mul_nor": {
+      "passed": true,
+      "graph_nodes": 36,
+      "graph_edges": 44,
+      "ports": [
+        "V+",
+        "a",
+        "b",
+        "vout",
+        "V\\x2d"
+      ]
+    },
+    "mul_nand": {
+      "passed": true,
+      "graph_nodes": 36,
+      "graph_edges": 44,
+      "ports": [
+        "V+",
+        "a",
+        "b",
+        "vout",
+        "V\\x2d"
+      ]
+    },
+    "nany": {
+      "passed": true,
+      "graph_nodes": 60,
+      "graph_edges": 76,
+      "ports": [
+        "VDD",
+        "vout",
+        "VMID",
+        "a",
+        "b",
+        "VSS"
+      ]
+    },
+    "inverter": {
+      "passed": true,
+      "graph_nodes": 24,
+      "graph_edges": 28,
+      "ports": [
+        "VDD",
+        "vin",
+        "vout",
+        "VSS"
+      ]
+    }
+  },
+  "unchanged_local_geometry": [
+    "inverter",
+    "nany",
+    "mul_inv",
+    "mul_nor",
+    "mul_nand",
+    "half_adder"
+  ],
+  "models_reference_rules_identical": true,
+  "comparison": "All formal port names, device terminal roles, model names and every literal parameter value match; anonymous net/instance names and instance coordinates may differ.",
+  "limitation": "No interconnect RC in either extraction. No timing improvement is claimed.",
+  "rerun": "81 inputs plus return, fresh extracted circuit, 10 pF || 1 Mohm, 1 us hold",
+  "fresh_native": {
+    "mode": "all_81_inputs",
+    "load_fF": 10000,
+    "hold_ns": 1000,
+    "max_step_ns": 10,
+    "load_resistance_ohm": 1000000.0,
+    "samples": 82,
+    "transitions": 81,
+    "max_output_error_V": 0.061286488711401965,
+    "max_product_error_V": 0.10090926036369328,
+    "max_sum_cout_error_V": 0.061286488711401965,
+    "max_and_or_error_V": 0.05962498773359304,
+    "max_settle_ns": 414.265199999998,
+    "unsettled": 0,
+    "passed": true
+  },
+  "reused": "6480 and 648 transitions from the proven equivalent baseline circuit"
+}

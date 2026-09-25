@@ -1,0 +1,42 @@
+{
+  "inverter": {
+    "source_sha256": "db254c47b4c8c1f0bc3329fc52e70e6d8809a85122c820d12f57564d70228def",
+    "image_sha256": "891c36eb182b4a1d825b5c8c0daf8202dde8d50aff2beb223369af4d40f50237",
+    "crop": [
+      0,
+      0,
+      930,
+      880
+    ]
+  },
+  "mul_nand": {
+    "source_sha256": "02f4bcddd1e0736c6184d16da7cdb282f65a7d27bae59a568434573ab96afea0",
+    "image_sha256": "3dc45f069604f42db35e45873c75a7a7befbfbd184323917e54a63d4499b2acd",
+    "crop": [
+      100,
+      0,
+      930,
+      1040
+    ]
+  },
+  "mul_nor": {
+    "source_sha256": "b06d4f999ace81c91333e52b2207f2a9a1f949561e3a494486e8b0427159c45d",
+    "image_sha256": "6ada721875ea3a97de848dd277e8dd0d0bb28c9c79aa17138861c7fbb73399ed",
+    "crop": [
+      100,
+      0,
+      930,
+      1140
+    ]
+  },
+  "nany": {
+    "source_sha256": "ed54832af23ea507d6cc0302abf85cc9f281199c8d422346cd3499aabcdb4630",
+    "image_sha256": "a4a4d154e63839abeb00c8efa699d058e5533c70e52fbece1bc7bf9941467fc8",
+    "crop": [
+      -340,
+      -520,
+      980,
+      640
+    ]
+  }
+}

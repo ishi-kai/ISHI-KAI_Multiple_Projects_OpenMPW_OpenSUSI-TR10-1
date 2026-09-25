@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "technology": "TR-1um",
+  "registered_cells": [
+    "inverter",
+    "nany",
+    "half_adder"
+  ],
+  "live_pcell_variants": 12,
+  "defunct_cells": 0,
+  "primitive_geometry_match": true,
+  "half_adder_geometry_match": true,
+  "half_adder_shared_children": {
+    "inverter": 2,
+    "nany": 5
+  },
+  "parent_instantiation": true,
+  "standalone_parent_geometry_match": true,
+  "refresh_test": true,
+  "gds_sha256": "e577df2b6b70cf5cd9bace2c2a7144bb082406014a5c3020a7480bbf36a87e17"
+}

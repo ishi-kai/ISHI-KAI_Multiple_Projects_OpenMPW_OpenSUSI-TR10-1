@@ -1,0 +1,804 @@
+{
+  "top_cell": "nany",
+  "gds": "/home/ishi-kai/balanced-ternary-logic/nany.gds",
+  "gds_sha256": "3403d325575c08cee2765c459d40985ee041db48a1ed21f1e13f3d9306af6282",
+  "source_schematic": "/home/ishi-kai/balanced-ternary-logic/nany.sch",
+  "pdk": "/home/ishi-kai/pdk/TR-1um",
+  "dbu_um": 0.001,
+  "width_um": 148.0,
+  "height_um": 115.0,
+  "area_um2": 17020.0,
+  "ports": {
+    "a": {
+      "layer": [
+        20,
+        0
+      ],
+      "label_layer": [
+        49,
+        0
+      ],
+      "position_um": [
+        2,
+        52
+      ],
+      "edge": "left",
+      "direction": "input",
+      "access_box_um": [
+        0.30000000000000004,
+        50.3,
+        3.7,
+        53.7
+      ]
+    },
+    "b": {
+      "layer": [
+        20,
+        0
+      ],
+      "label_layer": [
+        49,
+        0
+      ],
+      "position_um": [
+        2,
+        46
+      ],
+      "edge": "left",
+      "direction": "input",
+      "access_box_um": [
+        0.30000000000000004,
+        44.3,
+        3.7,
+        47.7
+      ]
+    },
+    "vout": {
+      "layer": [
+        20,
+        0
+      ],
+      "label_layer": [
+        49,
+        0
+      ],
+      "position_um": [
+        146.0,
+        58
+      ],
+      "edge": "right",
+      "direction": "output",
+      "access_box_um": [
+        144.3,
+        56.3,
+        147.7,
+        59.7
+      ]
+    },
+    "VDD": {
+      "layer": [
+        13,
+        0
+      ],
+      "label_layer": [
+        48,
+        0
+      ],
+      "position_um": [
+        74.0,
+        113.3
+      ],
+      "edge": "top",
+      "direction": "power",
+      "access_box_um": [
+        72.3,
+        111.6,
+        75.7,
+        115.0
+      ]
+    },
+    "VSS": {
+      "layer": [
+        13,
+        0
+      ],
+      "label_layer": [
+        48,
+        0
+      ],
+      "position_um": [
+        74.0,
+        1.7
+      ],
+      "edge": "bottom",
+      "direction": "power",
+      "access_box_um": [
+        72.3,
+        0.0,
+        75.7,
+        3.4
+      ]
+    },
+    "VMID": {
+      "layer": [
+        20,
+        0
+      ],
+      "label_layer": [
+        49,
+        0
+      ],
+      "position_um": [
+        74.0,
+        38
+      ],
+      "edge": "left",
+      "direction": "power",
+      "access_box_um": [
+        72.3,
+        36.3,
+        75.7,
+        39.7
+      ]
+    }
+  },
+  "instances": [
+    {
+      "role": "XM5",
+      "cell": "fet_p",
+      "pcell": "fet_p",
+      "origin_um": [
+        20,
+        88
+      ],
+      "rotation_deg": 0,
+      "parameters": {
+        "cont_between_gates": true,
+        "l": 1.0,
+        "n": 1,
+        "type": "PFET",
+        "w": 34,
+        "y0": "c"
+      }
+    },
+    {
+      "role": "XM3",
+      "cell": "fet_p",
+      "pcell": "fet_p",
+      "origin_um": [
+        35,
+        88
+      ],
+      "rotation_deg": 0,
+      "parameters": {
+        "cont_between_gates": true,
+        "l": 1.0,
+        "n": 1,
+        "type": "PFET",
+        "w": 34,
+        "y0": "c"
+      }
+    },
+    {
+      "role": "XM6",
+      "cell": "fet_p$1",
+      "pcell": "fet_p",
+      "origin_um": [
+        50,
+        88
+      ],
+      "rotation_deg": 0,
+      "parameters": {
+        "cont_between_gates": true,
+        "l": 1.0,
+        "n": 1,
+        "type": "PFET",
+        "w": 14,
+        "y0": "c"
+      }
+    },
+    {
+      "role": "XM8",
+      "cell": "fet_p$1",
+      "pcell": "fet_p",
+      "origin_um": [
+        65,
+        88
+      ],
+      "rotation_deg": 0,
+      "parameters": {
+        "cont_between_gates": true,
+        "l": 1.0,
+        "n": 1,
+        "type": "PFET",
+        "w": 14,
+        "y0": "c"
+      }
+    },
+    {
+      "role": "XM2",
+      "cell": "fet_n",
+      "pcell": "fet_n",
+      "origin_um": [
+        20,
+        15
+      ],
+      "rotation_deg": 0,
+      "parameters": {
+        "cont_between_gates": true,
+        "l": 1.0,
+        "n": 1,
+        "type": "NFET",
+        "w": 11,
+        "y0": "c"
+      }
+    },
+    {
+      "role": "XM1",
+      "cell": "fet_n",
+      "pcell": "fet_n",
+      "origin_um": [
+        35,
+        15
+      ],
+      "rotation_deg": 0,
+      "parameters": {
+        "cont_between_gates": true,
+        "l": 1.0,
+        "n": 1,
+        "type": "NFET",
+        "w": 11,
+        "y0": "c"
+      }
+    },
+    {
+      "role": "XM7",
+      "cell": "fet_n$1",
+      "pcell": "fet_n",
+      "origin_um": [
+        50,
+        15
+      ],
+      "rotation_deg": 0,
+      "parameters": {
+        "cont_between_gates": true,
+        "l": 1.0,
+        "n": 1,
+        "type": "NFET",
+        "w": 8,
+        "y0": "c"
+      }
+    },
+    {
+      "role": "XM9",
+      "cell": "fet_n$1",
+      "pcell": "fet_n",
+      "origin_um": [
+        65,
+        15
+      ],
+      "rotation_deg": 0,
+      "parameters": {
+        "cont_between_gates": true,
+        "l": 1.0,
+        "n": 1,
+        "type": "NFET",
+        "w": 8,
+        "y0": "c"
+      }
+    },
+    {
+      "role": "R2",
+      "cell": "res_diff",
+      "pcell": "res_diff",
+      "origin_um": [
+        112.5,
+        72
+      ],
+      "rotation_deg": 0,
+      "parameters": {
+        "l": 30.0,
+        "w": 2.8
+      }
+    },
+    {
+      "role": "R1",
+      "cell": "res_diff",
+      "pcell": "res_diff",
+      "origin_um": [
+        112.5,
+        42
+      ],
+      "rotation_deg": 0,
+      "parameters": {
+        "l": 30.0,
+        "w": 2.8
+      }
+    },
+    {
+      "role": "PMOS well tap",
+      "cell": "cont_n",
+      "pcell": "cont_n",
+      "origin_um": [
+        12.6,
+        88
+      ],
+      "rotation_deg": 0,
+      "parameters": {
+        "hole": false,
+        "x": 2.6,
+        "x0": "c",
+        "y": 2.6,
+        "y0": "c"
+      }
+    },
+    {
+      "role": "RR well tap",
+      "cell": "cont_n",
+      "pcell": "cont_n",
+      "origin_um": [
+        112.5,
+        57
+      ],
+      "rotation_deg": 0,
+      "parameters": {
+        "hole": false,
+        "x": 2.6,
+        "x0": "c",
+        "y": 2.6,
+        "y0": "c"
+      }
+    },
+    {
+      "role": "VSS bulk tap",
+      "cell": "cont_p",
+      "pcell": "cont_p",
+      "origin_um": [
+        8,
+        15
+      ],
+      "rotation_deg": 0,
+      "parameters": {
+        "hole": false,
+        "x": 2.6,
+        "x0": "c",
+        "y": 2.6,
+        "y0": "c"
+      }
+    },
+    {
+      "role": "VSS bulk tap",
+      "cell": "cont_p",
+      "pcell": "cont_p",
+      "origin_um": [
+        76,
+        15
+      ],
+      "rotation_deg": 0,
+      "parameters": {
+        "hole": false,
+        "x": 2.6,
+        "x0": "c",
+        "y": 2.6,
+        "y0": "c"
+      }
+    },
+    {
+      "role": "RR GC tie",
+      "cell": "cont_g",
+      "pcell": "cont_g",
+      "origin_um": [
+        135,
+        42
+      ],
+      "rotation_deg": 0,
+      "parameters": {
+        "x": 2.6,
+        "x0": "c",
+        "y": 2.6,
+        "y0": "c"
+      }
+    },
+    {
+      "role": "RR GC tie",
+      "cell": "cont_g",
+      "pcell": "cont_g",
+      "origin_um": [
+        135,
+        72
+      ],
+      "rotation_deg": 0,
+      "parameters": {
+        "x": 2.6,
+        "x0": "c",
+        "y": 2.6,
+        "y0": "c"
+      }
+    },
+    {
+      "role": "net2",
+      "cell": "via_1",
+      "pcell": "via_1",
+      "origin_um": [
+        40,
+        64
+      ],
+      "rotation_deg": 0,
+      "parameters": {
+        "x": 3.4,
+        "x0": "c",
+        "y": 3.4,
+        "y0": "c"
+      }
+    },
+    {
+      "role": "net3",
+      "cell": "via_1",
+      "pcell": "via_1",
+      "origin_um": [
+        15,
+        32
+      ],
+      "rotation_deg": 0,
+      "parameters": {
+        "x": 3.4,
+        "x0": "c",
+        "y": 3.4,
+        "y0": "c"
+      }
+    },
+    {
+      "role": "vout clamp",
+      "cell": "via_1",
+      "pcell": "via_1",
+      "origin_um": [
+        45,
+        58
+      ],
+      "rotation_deg": 0,
+      "parameters": {
+        "x": 3.4,
+        "x0": "c",
+        "y": 3.4,
+        "y0": "c"
+      }
+    },
+    {
+      "role": "VMID clamp",
+      "cell": "via_1",
+      "pcell": "via_1",
+      "origin_um": [
+        45,
+        38
+      ],
+      "rotation_deg": 0,
+      "parameters": {
+        "x": 3.4,
+        "x0": "c",
+        "y": 3.4,
+        "y0": "c"
+      }
+    },
+    {
+      "role": "vout clamp",
+      "cell": "via_1",
+      "pcell": "via_1",
+      "origin_um": [
+        60,
+        58
+      ],
+      "rotation_deg": 0,
+      "parameters": {
+        "x": 3.4,
+        "x0": "c",
+        "y": 3.4,
+        "y0": "c"
+      }
+    },
+    {
+      "role": "VMID clamp",
+      "cell": "via_1",
+      "pcell": "via_1",
+      "origin_um": [
+        60,
+        38
+      ],
+      "rotation_deg": 0,
+      "parameters": {
+        "x": 3.4,
+        "x0": "c",
+        "y": 3.4,
+        "y0": "c"
+      }
+    },
+    {
+      "role": "main input gate",
+      "cell": "cont_g",
+      "pcell": "cont_g",
+      "origin_um": [
+        20,
+        52
+      ],
+      "rotation_deg": 0,
+      "parameters": {
+        "x": 2.6,
+        "x0": "c",
+        "y": 2.6,
+        "y0": "c"
+      }
+    },
+    {
+      "role": "main input access",
+      "cell": "via_1",
+      "pcell": "via_1",
+      "origin_um": [
+        23.3,
+        52
+      ],
+      "rotation_deg": 0,
+      "parameters": {
+        "x": 3.4,
+        "x0": "c",
+        "y": 3.4,
+        "y0": "c"
+      }
+    },
+    {
+      "role": "main input gate",
+      "cell": "cont_g",
+      "pcell": "cont_g",
+      "origin_um": [
+        35,
+        46
+      ],
+      "rotation_deg": 0,
+      "parameters": {
+        "x": 2.6,
+        "x0": "c",
+        "y": 2.6,
+        "y0": "c"
+      }
+    },
+    {
+      "role": "main input access",
+      "cell": "via_1",
+      "pcell": "via_1",
+      "origin_um": [
+        38.3,
+        46
+      ],
+      "rotation_deg": 0,
+      "parameters": {
+        "x": 3.4,
+        "x0": "c",
+        "y": 3.4,
+        "y0": "c"
+      }
+    },
+    {
+      "role": "clamp p gate",
+      "cell": "cont_g",
+      "pcell": "cont_g",
+      "origin_um": [
+        50,
+        76
+      ],
+      "rotation_deg": 0,
+      "parameters": {
+        "x": 2.6,
+        "x0": "c",
+        "y": 2.6,
+        "y0": "c"
+      }
+    },
+    {
+      "role": "clamp p input",
+      "cell": "via_1",
+      "pcell": "via_1",
+      "origin_um": [
+        50,
+        52
+      ],
+      "rotation_deg": 0,
+      "parameters": {
+        "x": 3.4,
+        "x0": "c",
+        "y": 3.4,
+        "y0": "c"
+      }
+    },
+    {
+      "role": "clamp p gate",
+      "cell": "cont_g",
+      "pcell": "cont_g",
+      "origin_um": [
+        65,
+        76
+      ],
+      "rotation_deg": 0,
+      "parameters": {
+        "x": 2.6,
+        "x0": "c",
+        "y": 2.6,
+        "y0": "c"
+      }
+    },
+    {
+      "role": "clamp p input",
+      "cell": "via_1",
+      "pcell": "via_1",
+      "origin_um": [
+        65,
+        46
+      ],
+      "rotation_deg": 0,
+      "parameters": {
+        "x": 3.4,
+        "x0": "c",
+        "y": 3.4,
+        "y0": "c"
+      }
+    },
+    {
+      "role": "clamp n gate",
+      "cell": "cont_g",
+      "pcell": "cont_g",
+      "origin_um": [
+        50,
+        23
+      ],
+      "rotation_deg": 0,
+      "parameters": {
+        "x": 2.6,
+        "x0": "c",
+        "y": 2.6,
+        "y0": "c"
+      }
+    },
+    {
+      "role": "clamp n gate",
+      "cell": "cont_g",
+      "pcell": "cont_g",
+      "origin_um": [
+        65,
+        23
+      ],
+      "rotation_deg": 0,
+      "parameters": {
+        "x": 2.6,
+        "x0": "c",
+        "y": 2.6,
+        "y0": "c"
+      }
+    },
+    {
+      "role": "clamp n b",
+      "cell": "via_1",
+      "pcell": "via_1",
+      "origin_um": [
+        50,
+        46
+      ],
+      "rotation_deg": 0,
+      "parameters": {
+        "x": 3.4,
+        "x0": "c",
+        "y": 3.4,
+        "y0": "c"
+      }
+    },
+    {
+      "role": "clamp n a crossover",
+      "cell": "via_1",
+      "pcell": "via_1",
+      "origin_um": [
+        65,
+        26.3
+      ],
+      "rotation_deg": 0,
+      "parameters": {
+        "x": 3.4,
+        "x0": "c",
+        "y": 3.4,
+        "y0": "c"
+      }
+    },
+    {
+      "role": "clamp n a return",
+      "cell": "via_1",
+      "pcell": "via_1",
+      "origin_um": [
+        75,
+        26.3
+      ],
+      "rotation_deg": 0,
+      "parameters": {
+        "x": 3.4,
+        "x0": "c",
+        "y": 3.4,
+        "y0": "c"
+      }
+    },
+    {
+      "role": "clamp n a",
+      "cell": "via_1",
+      "pcell": "via_1",
+      "origin_um": [
+        75,
+        52
+      ],
+      "rotation_deg": 0,
+      "parameters": {
+        "x": 3.4,
+        "x0": "c",
+        "y": 3.4,
+        "y0": "c"
+      }
+    },
+    {
+      "role": "R2 input",
+      "cell": "via_1",
+      "pcell": "via_1",
+      "origin_um": [
+        97,
+        64
+      ],
+      "rotation_deg": 0,
+      "parameters": {
+        "x": 3.4,
+        "x0": "c",
+        "y": 3.4,
+        "y0": "c"
+      }
+    },
+    {
+      "role": "R1 input",
+      "cell": "via_1",
+      "pcell": "via_1",
+      "origin_um": [
+        97,
+        32
+      ],
+      "rotation_deg": 0,
+      "parameters": {
+        "x": 3.4,
+        "x0": "c",
+        "y": 3.4,
+        "y0": "c"
+      }
+    },
+    {
+      "role": "RR output",
+      "cell": "via_1",
+      "pcell": "via_1",
+      "origin_um": [
+        128,
+        58
+      ],
+      "rotation_deg": 0,
+      "parameters": {
+        "x": 3.4,
+        "x0": "c",
+        "y": 3.4,
+        "y0": "c"
+      }
+    }
+  ],
+  "device_counts": {
+    "PMOS": 4,
+    "NMOS": 4,
+    "F_RR": 2
+  },
+  "placement": {
+    "gap_um": 12,
+    "abutment": false,
+    "shared_bulk": "VSS",
+    "orientations": [
+      "R0",
+      "MY",
+      "MX",
+      "R180"
+    ],
+    "qualification": "12 um gap geometric check for four orientations; two R0 cells with real interconnect also verified. No zero-gap abutment."
+  }
+}

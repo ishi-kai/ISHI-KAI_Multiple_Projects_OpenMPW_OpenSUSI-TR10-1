@@ -1,0 +1,44 @@
+{
+  "name": "hot_seeded_gear",
+  "temperature_C": 125,
+  "rail_V": 5,
+  "load_fF": 10000,
+  "hold_ns": 1000,
+  "edge_ns": 1,
+  "no_nodeset": false,
+  "load_resistance_ohm": 1000000.0,
+  "zero_offset_V": 0,
+  "supply_resistance_ohm": 0,
+  "power_ramp_ns": 0,
+  "samples": 82,
+  "elapsed_s": 288.7797420024872,
+  "max_errors_V": {
+    "sum": 0.07473533730799975,
+    "cout": 0.06939341193655757,
+    "and_out": 0.06870710025830284,
+    "or_out": 0.0688561176230742,
+    "product": 0.10653568387078273
+  },
+  "tolerance_fail_samples": 0,
+  "logic_fail_samples": 0,
+  "worst": {
+    "state_trits": [
+      1,
+      -1,
+      0,
+      -1
+    ],
+    "output": "product",
+    "actual_V": -0.10653568387078273,
+    "expected_V": 0.0
+  },
+  "current_mA": {
+    "VDD": 8.35153728,
+    "VSS": 8.35156188,
+    "VMID": 2.395386267285447e-05
+  },
+  "power_mW_max": 83.51549580000001,
+  "failure_examples": [],
+  "solver_warnings": [],
+  "max_abs_saved_node_V": 5.10578598
+}

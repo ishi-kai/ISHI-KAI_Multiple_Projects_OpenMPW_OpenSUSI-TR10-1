@@ -1,0 +1,88 @@
+{
+  "passed": true,
+  "gds_sha256": "653da52bad1220d17bb5bac5464fc6a04b2f29e9e8f5dec04108883622b4514c",
+  "device_counts": {
+    "PMOS": 59,
+    "NMOS": 59,
+    "F_RR": 46
+  },
+  "bbox_um": [
+    3.3000000000000003,
+    12.35,
+    1791.7,
+    793.2
+  ],
+  "allocation_um": [
+    0,
+    0,
+    1800,
+    1000
+  ],
+  "fits_allocation": true,
+  "drawing_drc_items": 0,
+  "strict_lvs_passed": true,
+  "standalone_mask_categories": {
+    "WAR06: Floating SG Detected": 14
+  },
+  "driven_fixture_mask_items": 0,
+  "cases": [
+    {
+      "scope": "\u56de\u8def\u56f3",
+      "mode": "81\u5165\u529b\uff0b\u5fa9\u5e30",
+      "load_fF": 10000,
+      "max_error_mV": 61.30651831886169,
+      "max_settle_ns": 415.46584000000075,
+      "sum_cout_error_mV": 61.30651831886169,
+      "and_or_error_mV": 59.62533840918294
+    },
+    {
+      "scope": "\u56de\u8def\u56f3",
+      "mode": "\u51686,480\u9077\u79fb",
+      "load_fF": 10000,
+      "max_error_mV": 64.29712543027489,
+      "max_settle_ns": 504.31199999997625,
+      "sum_cout_error_mV": 64.29712543027489,
+      "and_or_error_mV": 60.53031136698728
+    },
+    {
+      "scope": "\u56de\u8def\u56f3",
+      "mode": "1\u5165\u529b648\u9077\u79fb",
+      "load_fF": 10000,
+      "max_error_mV": 64.10709513783974,
+      "max_settle_ns": 499.4120000000112,
+      "sum_cout_error_mV": 64.10709513783974,
+      "and_or_error_mV": 60.52696268729019
+    },
+    {
+      "scope": "\u62bd\u51fa\u56de\u8def",
+      "mode": "81\u5165\u529b\uff0b\u5fa9\u5e30",
+      "load_fF": 10000,
+      "max_error_mV": 61.28647900336048,
+      "max_settle_ns": 414.2685999999994,
+      "sum_cout_error_mV": 61.28647900336048,
+      "and_or_error_mV": 59.62498785514825
+    },
+    {
+      "scope": "\u62bd\u51fa\u56de\u8def",
+      "mode": "\u51686,480\u9077\u79fb",
+      "load_fF": 10000,
+      "max_error_mV": 64.26232390161601,
+      "max_settle_ns": 503.6700000000419,
+      "sum_cout_error_mV": 64.26232390161601,
+      "and_or_error_mV": 60.527692577986514
+    },
+    {
+      "scope": "\u62bd\u51fa\u56de\u8def",
+      "mode": "1\u5165\u529b648\u9077\u79fb",
+      "load_fF": 10000,
+      "max_error_mV": 64.08548266328573,
+      "max_settle_ns": 485.86799999998766,
+      "sum_cout_error_mV": 64.08548266328573,
+      "and_or_error_mV": 60.524000280697265
+    }
+  ],
+  "max_product_error_V": 0.10091075198887532,
+  "scope": "Nominal 27 C ideal rails. Device extraction, no wire RC, no pad frame, no 5-chip chain test.",
+  "edge_ports_equivalence": "reports/mac_edge_ports.json",
+  "edge_access": "reports/mac_edge_access.json"
+}

@@ -1,0 +1,29 @@
+{
+  "source_sha256": "1bf31dfe2323cff80d45e4f4686e0a4f59642abb613944dfadea76e01ba6ef81",
+  "scope": "Separate fixture with all three external FA inputs tied to VDD; no waiver regions or changes to the functional FA.",
+  "drc": {
+    "passed": true,
+    "items": 0,
+    "categories": {}
+  },
+  "lvs": {
+    "passed": true,
+    "circuits": [
+      "Match",
+      "Match",
+      "Match",
+      "Match",
+      "Match"
+    ],
+    "errors": [],
+    "strict_ports": true,
+    "extracted": "/home/ishi-kai/balanced-ternary-logic/simulation/full_adder_layout/verify/driver/lvs/full_adder.extracted"
+  },
+  "mask_drc": {
+    "passed": true,
+    "items": 0,
+    "categories": {},
+    "gds_sha256": "52de0a1f4af7eabb71dab641f3a3734bb5921ed63023b4ceace4197862144c8d"
+  },
+  "passed": true
+}

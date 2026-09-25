@@ -1,0 +1,10 @@
+{
+  "dbu_um": 0.1,
+  "half_adder_drc": {
+    "passed": true,
+    "items": 0,
+    "categories": {}
+  },
+  "half_adder_scope": "Existing single INV placement only, not a completed HA. Magnification corrected to 1.",
+  "static_inverter_pmos": "Official 13.5/1 PCell frozen before grid conversion to preserve dimensions on GUI reload."
+}

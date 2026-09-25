@@ -1,0 +1,64 @@
+{
+  "passed": true,
+  "gds_sha256": "a9ff0fec14150144d8bbeee7ecfe4f348d0035a6e7206696a63669becdeb60bb",
+  "submitted_gds_sha256": "66299d3dcbe0bb877e9014607ac4cb35b85d079cc12ffe0d6c3752778236b937",
+  "device_counts": {
+    "PMOS": 59,
+    "NMOS": 59,
+    "F_RR": 46
+  },
+  "body_errors": [],
+  "size_errors": [],
+  "actual_RR_um": {
+    "W": 2.8,
+    "L": 30
+  },
+  "external_inputs_gate_only": {
+    "x": 6,
+    "a": 4,
+    "b": 4,
+    "cin": 8
+  },
+  "top_pin_correspondence": {
+    "VDD": "VDD",
+    "VMID": "VMID",
+    "VSS": "VSS",
+    "a": "A",
+    "and_out": "AND_OUT",
+    "b": "B",
+    "cin": "CIN",
+    "cout": "COUT",
+    "or_out": "OR_OUT",
+    "sum": "SUM",
+    "x": "X"
+  },
+  "package_manifest_and_dependencies_match": true,
+  "annotation_findings": [
+    {
+      "file": "inverter.sch",
+      "line": 13,
+      "text": "T {RR1 / RR2: W = 2.8 um / L = 20 um} 950 250 0 0 0.24 0.24 {}"
+    },
+    {
+      "file": "nany.sch",
+      "line": 191,
+      "text": "T {R1/R2: W = 2.8 um / L = 16 um / about 4.13 kohm each} 1030 -95 0 0 0.24 0.24 {}"
+    },
+    {
+      "file": "mul_inv.sch",
+      "line": 13,
+      "text": "T {RR1 / RR2: W = 2.8 um / L = 15 um} 950 250 0 0 0.24 0.24 {}"
+    },
+    {
+      "file": "mul_nand.sch",
+      "line": 116,
+      "text": "T {RR1 / RR2: W = 2.8 um / L = 15 um} 950 250 0 0 0.24 0.24 {}"
+    },
+    {
+      "file": "mul_nor.sch",
+      "line": 13,
+      "text": "T {RR1 / RR2: W = 2.8 um / L = 15 um} 950 250 0 0 0.25 0.25 {}"
+    }
+  ],
+  "scope": "Actual extracted connectivity, every body/SUB, all device dimensions, named top-port LVS correspondence, portable package and existing manifest."
+}

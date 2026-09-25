@@ -1,0 +1,51 @@
+{
+  "all": {
+    "passed": true,
+    "unique_transitions": 6480,
+    "each_once": true,
+    "samples": 6512,
+    "max_errors_V": {
+      "sum": 0.06426232390161601,
+      "cout": 0.06139600121289668,
+      "and": 0.060455919644125444,
+      "or": 0.060527692577986514,
+      "product": 0.10090237748961903
+    },
+    "raw_sha256": {
+      "simulation/final_review/extracted/all_6480_10000f/chunk_0/data.txt": "e401f86fb5cdd6fb512523559bd5e8c32d00ac86ce573736c3f409e55c1f2fa8",
+      "simulation/final_review/extracted/all_6480_10000f/chunk_1/data.txt": "d0b38835a43a73280049b9fde6fd422f3e261cb025802f832f636f737fc7ab62",
+      "simulation/final_review/extracted/all_6480_10000f/chunk_10/data.txt": "af179021c178265482261ee06363a17e341b9dd0160c3f75bcf24a5f1c2c3be8",
+      "simulation/final_review/extracted/all_6480_10000f/chunk_11/data.txt": "8955d33db62fe8168a2f9e2ae7863a0353b08cd6e075f7c3a0e88fa6e8faf643",
+      "simulation/final_review/extracted/all_6480_10000f/chunk_12/data.txt": "c66e1a5c590f09713319053c1c5e6500eb8ae95162a07632071f019cb29215d1",
+      "simulation/final_review/extracted/all_6480_10000f/chunk_13/data.txt": "7156b9e69626161065a3c5c93150cbede80ee54d8850440a2df5ce9580293228",
+      "simulation/final_review/extracted/all_6480_10000f/chunk_14/data.txt": "70ec001971580f6916cd4032c0969f747d70f0d790a613b42a8811f21ada3095",
+      "simulation/final_review/extracted/all_6480_10000f/chunk_15/data.txt": "5582e00d5aa9a7574dad7dcbc672b1cbe420a099329aa8e7267b3cb3d0aec8f5",
+      "simulation/final_review/extracted/all_6480_10000f/chunk_2/data.txt": "25f90a04a9c26b3f27006d33025881452ea7166f32bcb5f8ec1a9952006f5d7b",
+      "simulation/final_review/extracted/all_6480_10000f/chunk_3/data.txt": "9d983ec2eca79458f097445e4afd405e0f9ea23814e63288db34105f995f5856",
+      "simulation/final_review/extracted/all_6480_10000f/chunk_4/data.txt": "6c641f97841d67a8b9094caf8d2396986506dd5a8ed34943b249418f85fdac80",
+      "simulation/final_review/extracted/all_6480_10000f/chunk_5/data.txt": "8a6d761c32a9647d8d612a3ac44237fdd8a794f8de35f7d114f8361073093822",
+      "simulation/final_review/extracted/all_6480_10000f/chunk_6/data.txt": "53840ec1f2f8370785c4e3949933105661f3907817a370f022add154bfc25029",
+      "simulation/final_review/extracted/all_6480_10000f/chunk_7/data.txt": "ccd3107bf4aefe977ae075256869425bb32a03e579affdf92fed8096fe70a97c",
+      "simulation/final_review/extracted/all_6480_10000f/chunk_8/data.txt": "d76faf8c35885ec7d75b00c86c3945621dff5cfefae216f38135822e401b2b24",
+      "simulation/final_review/extracted/all_6480_10000f/chunk_9/data.txt": "99035fd40504fef5f1be9f273becbaa8a38e7397bfd8878047e1fdcae1c51a86"
+    },
+    "source": "simulation/final_review/extracted"
+  },
+  "single": {
+    "passed": true,
+    "unique_transitions": 648,
+    "each_once": true,
+    "samples": 649,
+    "max_errors_V": {
+      "sum": 0.06408548266328573,
+      "cout": 0.06071630676509443,
+      "and": 0.06045633068848577,
+      "or": 0.060524000280697265,
+      "product": 0.10090317473653566
+    },
+    "raw_sha256": {
+      "simulation/final_review/extracted/single_input_648_10000f/data.txt": "76ac164d8aeee54bd545848229dfc1219ef377367e7462406af228ac63648534"
+    },
+    "source": "simulation/final_review/extracted"
+  }
+}

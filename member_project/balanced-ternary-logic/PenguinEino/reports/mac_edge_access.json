@@ -1,0 +1,175 @@
+{
+  "passed": true,
+  "gds_sha256": "653da52bad1220d17bb5bac5464fc6a04b2f29e9e8f5dec04108883622b4514c",
+  "baseline_commit": "e904eed",
+  "original_geometry_preserved": true,
+  "art_unchanged": true,
+  "ports": {
+    "and_out": {
+      "layer": 20,
+      "position_um": [
+        1780,
+        715
+      ],
+      "edge": "right",
+      "outward_corridor_um": [
+        1780,
+        713.3,
+        1800,
+        716.7
+      ],
+      "clear": true
+    },
+    "or_out": {
+      "layer": 20,
+      "position_um": [
+        1780,
+        705
+      ],
+      "edge": "right",
+      "outward_corridor_um": [
+        1780,
+        703.3,
+        1800,
+        706.7
+      ],
+      "clear": true
+    },
+    "a": {
+      "layer": 13,
+      "position_um": [
+        10,
+        500
+      ],
+      "edge": "left",
+      "outward_corridor_um": [
+        0,
+        498.3,
+        10,
+        501.7
+      ],
+      "clear": true
+    },
+    "b": {
+      "layer": 13,
+      "position_um": [
+        10,
+        530
+      ],
+      "edge": "left",
+      "outward_corridor_um": [
+        0,
+        528.3,
+        10,
+        531.7
+      ],
+      "clear": true
+    },
+    "x": {
+      "layer": 13,
+      "position_um": [
+        10,
+        485
+      ],
+      "edge": "left",
+      "outward_corridor_um": [
+        0,
+        483.3,
+        10,
+        486.7
+      ],
+      "clear": true
+    },
+    "cin": {
+      "layer": 13,
+      "position_um": [
+        10,
+        475
+      ],
+      "edge": "left",
+      "outward_corridor_um": [
+        0,
+        473.3,
+        10,
+        476.7
+      ],
+      "clear": true
+    },
+    "sum": {
+      "layer": 13,
+      "position_um": [
+        1780,
+        201.3
+      ],
+      "edge": "right",
+      "outward_corridor_um": [
+        1780,
+        199.60000000000002,
+        1800,
+        203.0
+      ],
+      "clear": true
+    },
+    "cout": {
+      "layer": 13,
+      "position_um": [
+        1780,
+        64.1
+      ],
+      "edge": "right",
+      "outward_corridor_um": [
+        1780,
+        62.39999999999999,
+        1800,
+        65.8
+      ],
+      "clear": true
+    },
+    "VDD": {
+      "layer": 13,
+      "position_um": [
+        1780,
+        744.6
+      ],
+      "edge": "right",
+      "outward_corridor_um": [
+        1780,
+        742.9,
+        1800,
+        746.3000000000001
+      ],
+      "clear": true
+    },
+    "VSS": {
+      "layer": 13,
+      "position_um": [
+        1780,
+        418.2
+      ],
+      "edge": "right",
+      "outward_corridor_um": [
+        1780,
+        416.5,
+        1800,
+        419.9
+      ],
+      "clear": true
+    },
+    "VMID": {
+      "layer": 13,
+      "position_um": [
+        10,
+        790
+      ],
+      "edge": "left",
+      "outward_corridor_um": [
+        0,
+        788.3,
+        10,
+        791.7
+      ],
+      "clear": true
+    }
+  },
+  "scope": "Straight 3.4 um wide outward access to the allocation boundary; exit corridors do not overlap each other or other same-layer metal."
+}

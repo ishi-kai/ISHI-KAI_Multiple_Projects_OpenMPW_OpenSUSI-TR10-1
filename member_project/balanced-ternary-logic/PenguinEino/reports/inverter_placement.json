@@ -1,0 +1,53 @@
+{
+  "source_sha256": "66242f8be89020ec65350f12ffcc2a7301bc632955dfde345016224138e7e3a4",
+  "gap_um": 12,
+  "placements": [
+    {
+      "orientation": "R0",
+      "origin_um": [
+        0,
+        0
+      ]
+    },
+    {
+      "orientation": "MY",
+      "origin_um": [
+        204.0,
+        0
+      ]
+    },
+    {
+      "orientation": "MX",
+      "origin_um": [
+        0,
+        144.0
+      ]
+    },
+    {
+      "orientation": "R180",
+      "origin_um": [
+        204.0,
+        144.0
+      ]
+    }
+  ],
+  "drc": {
+    "passed": false,
+    "items": 4,
+    "categories": {
+      "GC.ANT:GC must electrically connect to Substrate (or text if not chip level)": 4
+    }
+  },
+  "mask_drc": {
+    "passed": false,
+    "items": 4,
+    "categories": {
+      "WAR06: Floating SG Detected": 4
+    },
+    "gds_sha256": "406a9aab3e91a0437e631398f5e442be965f8bb65ab298f5054aacb83d6e7d44"
+  },
+  "scope": "Four isolated replicas: geometric spacing with mirrors/rotation, no inter-cell routing. No zero-gap abutment claim.",
+  "passed": false,
+  "spacing_only_passed": true,
+  "open_input_warning_note": "Isolated replicas intentionally have no input discharge path. Raw Drawing/mask failures are retained; spacing-only is not manufacturing acceptance."
+}

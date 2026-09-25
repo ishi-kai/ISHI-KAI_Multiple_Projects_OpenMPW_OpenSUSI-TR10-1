@@ -1,0 +1,26 @@
+{
+  "source_sha256": "3403d325575c08cee2765c459d40985ee041db48a1ed21f1e13f3d9306af6282",
+  "scope": "Two unchanged NANY primitives with shared power rails and a routed driver output to load input. Driver input tied to VDD in fixture only.",
+  "gap_um": 12,
+  "drc": {
+    "passed": true,
+    "items": 0,
+    "categories": {}
+  },
+  "lvs": {
+    "passed": true,
+    "circuits": [
+      "Match",
+      "Match"
+    ],
+    "errors": [],
+    "strict_ports": true
+  },
+  "mask_drc": {
+    "passed": true,
+    "items": 0,
+    "categories": {},
+    "gds_sha256": "8ebee4af26ff21c39188f8d2ee7142e1cdfd1e52147a720e066a3f7791b5ed5f"
+  },
+  "passed": true
+}

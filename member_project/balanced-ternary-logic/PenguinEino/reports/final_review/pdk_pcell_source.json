@@ -1,0 +1,18 @@
+{
+  "branch": "dev",
+  "revision": "9ef2ac38e1717b3ba2a4b0b374e48c53017e952c",
+  "pcell_source_hashes": {
+    "libs.tech/klayout/tech/python/cells/resistor.py": "ab7be658a5d05d0cd2c44f2aec24591a191848fe7bc91072ca150cb51770494f",
+    "libs.tech/klayout/tech/python/cells/capacitor.py": "bedb019afe56876ccd3551b6c1188e88f05173825b527fe70bbed07662fe24ff",
+    "libs.tech/klayout/tech/python/cells/via.py": "98db2a38e96273f13bd1d211a46a57b3fb36f7d04a79272ce0a782400d781f34",
+    "libs.tech/klayout/tech/python/cells/util.py": "f00041f08412398f7f673faaf0fd75d6c50ea7424197f5674375182c32f9e3db",
+    "libs.tech/klayout/tech/python/cells/diode.py": "e037d2c99a1ae43ff04ee455ab6fd97a8ba655daf0695247bcbcc22125b41ea5",
+    "libs.tech/klayout/tech/python/cells/cont.py": "562fd67fc7584a9e8b2d2d004c6fd683d4da4c192d48369abedc21a3b09df6b6",
+    "libs.tech/klayout/tech/python/cells/__init__.py": "d8784e93941e9964282cbf049c11764af32ca684510eaa2f9e6e5b44d3282719",
+    "libs.tech/klayout/tech/python/cells/rules_def.py": "44e187de705caa13ee6215b3544493dec4fc475ab3cda50f04ffdc7b1cd9edc8",
+    "libs.tech/klayout/tech/python/cells/layers_def.py": "25e6a72cf929620d41a89f1e5c2a2819941ce70c76dd7f86c0e335d6aa9d93a4",
+    "libs.tech/klayout/tech/python/cells/fet.py": "b337521437b00de0c1b29037e0e0735ee9fbaece1a175a29e5c0473b48ec7323"
+  },
+  "source_differences": [],
+  "passed": true
+}

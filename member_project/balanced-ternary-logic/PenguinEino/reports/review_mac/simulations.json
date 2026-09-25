@@ -1,0 +1,8788 @@
+{
+  "no_nodeset": {
+    "name": "no_nodeset",
+    "temperature_C": 27,
+    "rail_V": 5,
+    "load_fF": 10,
+    "hold_ns": 200,
+    "edge_ns": 1,
+    "no_nodeset": true,
+    "load_resistance_ohm": null,
+    "zero_offset_V": 0,
+    "supply_resistance_ohm": 0,
+    "elapsed_s": 65.36042165756226,
+    "max_errors_V": {
+      "sum": 0.0025749905038306357,
+      "cout": 0.0006852782664712644,
+      "and_out": 0.0637027875,
+      "or_out": 0.35846228,
+      "product": 0.208290282020905
+    },
+    "tolerance_fail_samples": 0,
+    "logic_fail_samples": 0,
+    "worst": {
+      "state_trits": [
+        -1,
+        0,
+        0,
+        -1
+      ],
+      "output": "or_out",
+      "actual_V": 0.35846228,
+      "expected_V": 0.0
+    },
+    "current_mA": {
+      "VDD": 18.386886804503643,
+      "VSS": 18.382120247710724,
+      "VMID": 0.010260605911514922
+    },
+    "power_mW_max": 183.8450352610718,
+    "failure_examples": []
+  },
+  "nominal": {
+    "name": "nominal",
+    "temperature_C": 27,
+    "rail_V": 5,
+    "load_fF": 10,
+    "hold_ns": 200,
+    "edge_ns": 1,
+    "no_nodeset": false,
+    "load_resistance_ohm": null,
+    "zero_offset_V": 0,
+    "supply_resistance_ohm": 0,
+    "elapsed_s": 66.81319308280945,
+    "max_errors_V": {
+      "sum": 0.0025749905038306357,
+      "cout": 0.0006852782664712644,
+      "and_out": 0.0637027875,
+      "or_out": 0.35846228,
+      "product": 0.208290282020905
+    },
+    "tolerance_fail_samples": 0,
+    "logic_fail_samples": 0,
+    "worst": {
+      "state_trits": [
+        -1,
+        0,
+        0,
+        -1
+      ],
+      "output": "or_out",
+      "actual_V": 0.35846228,
+      "expected_V": 0.0
+    },
+    "current_mA": {
+      "VDD": 18.386886804503643,
+      "VSS": 18.382120247710724,
+      "VMID": 0.010260605911514922
+    },
+    "power_mW_max": 183.8450352610718,
+    "failure_examples": [],
+    "mos_stress": {
+      "devices": 114,
+      "VDS_over_8V": 53,
+      "any_terminal_over_5_75V": 114,
+      "rows": [
+        {
+          "name": "xdut.x_mul.x_t1.xxm1",
+          "model": "pmos",
+          "terminals": [
+            "xdut.x_mul.x_t1.net1",
+            "a",
+            "vdd",
+            "vdd"
+          ],
+          "VDS": {
+            "max_abs_V": 9.999999599999999,
+            "state_trits": [
+              -1,
+              1,
+              1,
+              0
+            ]
+          },
+          "VGS": {
+            "max_abs_V": 10.0,
+            "state_trits": [
+              -1,
+              -1,
+              -1,
+              -1
+            ]
+          },
+          "VDB": {
+            "max_abs_V": 9.999999599999999,
+            "state_trits": [
+              -1,
+              1,
+              1,
+              0
+            ]
+          },
+          "VSB": {
+            "max_abs_V": 0.0,
+            "state_trits": [
+              -1,
+              -1,
+              -1,
+              -1
+            ]
+          },
+          "VGD": {
+            "max_abs_V": 9.99999999,
+            "state_trits": [
+              -1,
+              -1,
+              -1,
+              -1
+            ]
+          },
+          "VGB": {
+            "max_abs_V": 10.0,
+            "state_trits": [
+              -1,
+              -1,
+              -1,
+              -1
+            ]
+          }
+        },
+        {
+          "name": "xdut.x_mul.x_t1.xxm3",
+          "model": "pmos",
+          "terminals": [
+            "xdut.x_mul.x_t1.net1",
+            "b",
+            "vdd",
+            "vdd"
+          ],
+          "VDS": {
+            "max_abs_V": 9.999999599999999,
+            "state_trits": [
+              -1,
+              1,
+              1,
+              0
+            ]
+          },
+          "VGS": {
+            "max_abs_V": 10.0,
+            "state_trits": [
+              -1,
+              -1,
+              -1,
+              -1
+            ]
+          },
+          "VDB": {
+            "max_abs_V": 9.999999599999999,
+            "state_trits": [
+              -1,
+              1,
+              1,
+              0
+            ]
+          },
+          "VSB": {
+            "max_abs_V": 0.0,
+            "state_trits": [
+              -1,
+              -1,
+              -1,
+              -1
+            ]
+          },
+          "VGD": {
+            "max_abs_V": 9.99999999,
+            "state_trits": [
+              -1,
+              -1,
+              -1,
+              -1
+            ]
+          },
+          "VGB": {
+            "max_abs_V": 10.0,
+            "state_trits": [
+              -1,
+              -1,
+              -1,
+              -1
+            ]
+          }
+        },
+        {
+          "name": "xdut.x_mul.x_t1.xxm2",
+          "model": "nmos",
+          "terminals": [
+            "xdut.x_mul.x_t1.net2",
+            "a",
+            "xdut.x_mul.x_t1.net3",
+            "vss"
+          ],
+          "VDS": {
+            "max_abs_V": 10.256833116568998,
+            "state_trits": [
+              -1,
+              -1,
+              -1,
+              -1
+            ]
+          },
+          "VGS": {
+            "max_abs_V": 9.99999998,
+            "state_trits": [
+              -1,
+              1,
+              1,
+              -1
+            ]
+          },
+          "VDB": {
+            "max_abs_V": 9.99999982,
+            "state_trits": [
+              -1,
+              -1,
+              -1,
+              -1
+            ]
+          },
+          "VSB": {
+            "max_abs_V": 8.202081956272078,
+            "state_trits": [
+              -1,
+              1,
+              -1,
+              1
+            ]
+          },
+          "VGD": {
+            "max_abs_V": 9.99999996,
+            "state_trits": [
+              -1,
+              1,
+              1,
+              -1
+            ]
+          },
+          "VGB": {
+            "max_abs_V": 10.0,
+            "state_trits": [
+              -1,
+              1,
+              -1,
+              -1
+            ]
+          }
+        },
+        {
+          "name": "xdut.x_mul.x_t1.xxm4",
+          "model": "nmos",
+          "terminals": [
+            "xdut.x_mul.x_t1.net3",
+            "b",
+            "vss",
+            "vss"
+          ],
+          "VDS": {
+            "max_abs_V": 8.202081956272078,
+            "state_trits": [
+              -1,
+              1,
+              -1,
+              1
+            ]
+          },
+          "VGS": {
+            "max_abs_V": 10.0,
+            "state_trits": [
+              -1,
+              -1,
+              1,
+              -1
+            ]
+          },
+          "VDB": {
+            "max_abs_V": 8.202081956272078,
+            "state_trits": [
+              -1,
+              1,
+              -1,
+              1
+            ]
+          },
+          "VSB": {
+            "max_abs_V": 0.0,
+            "state_trits": [
+              -1,
+              -1,
+              -1,
+              -1
+            ]
+          },
+          "VGD": {
+            "max_abs_V": 9.99999998,
+            "state_trits": [
+              -1,
+              1,
+              1,
+              -1
+            ]
+          },
+          "VGB": {
+            "max_abs_V": 10.0,
+            "state_trits": [
+              -1,
+              -1,
+              1,
+              -1
+            ]
+          }
+        },
+        {
+          "name": "xdut.x_mul.x_t2.xxm4",
+          "model": "pmos",
+          "terminals": [
+            "xdut.x_mul.x_t2.net1",
+            "a",
+            "vdd",
+            "vdd"
+          ],
+          "VDS": {
+            "max_abs_V": 7.778766968633514,
+            "state_trits": [
+              0,
+              1,
+              -1,
+              1
+            ]
+          },
+          "VGS": {
+            "max_abs_V": 10.0,
+            "state_trits": [
+              -1,
+              -1,
+              -1,
+              -1
+            ]
+          },
+          "VDB": {
+            "max_abs_V": 7.778766968633514,
+            "state_trits": [
+              0,
+              1,
+              -1,
+              1
+            ]
+          },
+          "VSB": {
+            "max_abs_V": 0.0,
+            "state_trits": [
+              -1,
+              -1,
+              -1,
+              -1
+            ]
+          },
+          "VGD": {
+            "max_abs_V": 9.99999999,
+            "state_trits": [
+              -1,
+              -1,
+              1,
+              -1
+            ]
+          },
+          "VGB": {
+            "max_abs_V": 10.0,
+            "state_trits": [
+              -1,
+              -1,
+              -1,
+              -1
+            ]
+          }
+        },
+        {
+          "name": "xdut.x_mul.x_t2.xxm3",
+          "model": "pmos",
+          "terminals": [
+            "xdut.x_mul.x_t2.net2",
+            "b",
+            "xdut.x_mul.x_t2.net1",
+            "vdd"
+          ],
+          "VDS": {
+            "max_abs_V": 9.99999965,
+            "state_trits": [
+              -1,
+              0,
+              1,
+              -1
+            ]
+          },
+          "VGS": {
+            "max_abs_V": 9.999999930000001,
+            "state_trits": [
+              -1,
+              -1,
+              -1,
+              -1
+            ]
+          },
+          "VDB": {
+            "max_abs_V": 9.99999987,
+            "state_trits": [
+              -1,
+              1,
+              0,
+              -1
+            ]
+          },
+          "VSB": {
+            "max_abs_V": 7.778766968633514,
+            "state_trits": [
+              0,
+              1,
+              -1,
+              1
+            ]
+          },
+          "VGD": {
+            "max_abs_V": 9.99999987,
+            "state_trits": [
+              -1,
+              1,
+              1,
+              -1
+            ]
+          },
+          "VGB": {
+            "max_abs_V": 10.0,
+            "state_trits": [
+              -1,
+              -1,
+              -1,
+              -1
+            ]
+          }
+        },
+        {
+          "name": "xdut.x_mul.x_t2.xxm2",
+          "model": "nmos",
+          "terminals": [
+            "xdut.x_mul.x_t2.net3",
+            "a",
+            "vss",
+            "vss"
+          ],
+          "VDS": {
+            "max_abs_V": 9.99999849,
+            "state_trits": [
+              -1,
+              -1,
+              -1,
+              -1
+            ]
+          },
+          "VGS": {
+            "max_abs_V": 10.0,
+            "state_trits": [
+              -1,
+              1,
+              -1,
+              -1
+            ]
+          },
+          "VDB": {
+            "max_abs_V": 9.99999849,
+            "state_trits": [
+              -1,
+              -1,
+              -1,
+              -1
+            ]
+          },
+          "VSB": {
+            "max_abs_V": 0.0,
+            "state_trits": [
+              -1,
+              -1,
+              -1,
+              -1
+            ]
+          },
+          "VGD": {
+            "max_abs_V": 9.99999999,
+            "state_trits": [
+              -1,
+              1,
+              0,
+              -1
+            ]
+          },
+          "VGB": {
+            "max_abs_V": 10.0,
+            "state_trits": [
+              -1,
+              1,
+              -1,
+              -1
+            ]
+          }
+        },
+        {
+          "name": "xdut.x_mul.x_t2.xxm1",
+          "model": "nmos",
+          "terminals": [
+            "xdut.x_mul.x_t2.net3",
+            "b",
+            "vss",
+            "vss"
+          ],
+          "VDS": {
+            "max_abs_V": 9.99999849,
+            "state_trits": [
+              -1,
+              -1,
+              -1,
+              -1
+            ]
+          },
+          "VGS": {
+            "max_abs_V": 10.0,
+            "state_trits": [
+              -1,
+              -1,
+              1,
+              -1
+            ]
+          },
+          "VDB": {
+            "max_abs_V": 9.99999849,
+            "state_trits": [
+              -1,
+              -1,
+              -1,
+              -1
+            ]
+          },
+          "VSB": {
+            "max_abs_V": 0.0,
+            "state_trits": [
+              -1,
+              -1,
+              -1,
+              -1
+            ]
+          },
+          "VGD": {
+            "max_abs_V": 9.99999999,
+            "state_trits": [
+              -1,
+              1,
+              1,
+              -1
+            ]
+          },
+          "VGB": {
+            "max_abs_V": 10.0,
+            "state_trits": [
+              -1,
+              -1,
+              1,
+              -1
+            ]
+          }
+        },
+        {
+          "name": "xdut.x_mul.x_t3.xxm1",
+          "model": "pmos",
+          "terminals": [
+            "xdut.x_mul.x_t3.net1",
+            "xdut.x_mul.t2",
+            "vdd",
+            "vdd"
+          ],
+          "VDS": {
+            "max_abs_V": 9.99999979,
+            "state_trits": [
+              -1,
+              -1,
+              -1,
+              -1
+            ]
+          },
+          "VGS": {
+            "max_abs_V": 9.99999992,
+            "state_trits": [
+              -1,
+              1,
+              0,
+              -1
+            ]
+          },
+          "VDB": {
+            "max_abs_V": 9.99999979,
+            "state_trits": [
+              -1,
+              -1,
+              -1,
+              -1
+            ]
+          },
+          "VSB": {
+            "max_abs_V": 0.0,
+            "state_trits": [
+              -1,
+              -1,
+              -1,
+              -1
+            ]
+          },
+          "VGD": {
+            "max_abs_V": 9.99999984,
+            "state_trits": [
+              -1,
+              1,
+              0,
+              -1
+            ]
+          },
+          "VGB": {
+            "max_abs_V": 9.99999992,
+            "state_trits": [
+              -1,
+              1,
+              0,
+              -1
+            ]
+          }
+        },
+        {
+          "name": "xdut.x_mul.x_t3.xxm2",
+          "model": "nmos",
+          "terminals": [
+            "xdut.x_mul.x_t3.net2",
+            "xdut.x_mul.t2",
+            "vss",
+            "vss"
+          ],
+          "VDS": {
+            "max_abs_V": 9.99999938,
+            "state_trits": [
+              -1,
+              -1,
+              1,
+              -1
+            ]
+          },
+          "VGS": {
+            "max_abs_V": 9.999999169999999,
+            "state_trits": [
+              -1,
+              -1,
+              -1,
+              -1
+            ]
+          },
+          "VDB": {
+            "max_abs_V": 9.99999938,
+            "state_trits": [
+              -1,
+              -1,
+              1,
+              -1
+            ]
+          },
+          "VSB": {
+            "max_abs_V": 0.0,
+            "state_trits": [
+              -1,
+              -1,
+              -1,
+              -1
+            ]
+          },
+          "VGD": {
+            "max_abs_V": 9.999999299999999,
+            "state_trits": [
+              -1,
+              1,
+              0,
+              -1
+            ]
+          },
+          "VGB": {
+            "max_abs_V": 9.999999169999999,
+            "state_trits": [
+              -1,
+              -1,
+              -1,
+              -1
+            ]
+          }
+        },
+        {
+          "name": "xdut.x_mul.x_p.xxm1",
+          "model": "pmos",
+          "terminals": [
+            "xdut.x_mul.x_p.net1",
+            "xdut.nmin",
+            "vdd",
+            "vdd"
+          ],
+          "VDS": {
+            "max_abs_V": 9.999999599999999,
+            "state_trits": [
+              1,
+              -1,
+              1,
+              1
+            ]
+          },
+          "VGS": {
+            "max_abs_V": 9.999999769999999,
+            "state_trits": [
+              -1,
+              1,
+              1,
+              0
+            ]
+          },
+          "VDB": {
+            "max_abs_V": 9.999999599999999,
+            "state_trits": [
+              1,
+              -1,
+              1,
+              1
+            ]
+          },
+          "VSB": {
+            "max_abs_V": 0.0,
+            "state_trits": [
+              -1,
+              -1,
+              -1,
+              -1
+            ]
+          },
+          "VGD": {
+            "max_abs_V": 9.99999962,
+            "state_trits": [
+              0,
+              1,
+              1,
+              -1
+            ]
+          },
+          "VGB": {
+            "max_abs_V": 9.999999769999999,
+            "state_trits": [
+              -1,
+              1,
+              1,
+              0
+            ]
+          }
+        },
+        {
+          "name": "xdut.x_mul.x_p.xxm3",
+          "model": "pmos",
+          "terminals": [
+            "xdut.x_mul.x_p.net1",
+            "or_out",
+            "vdd",
+            "vdd"
+          ],
+          "VDS": {
+            "max_abs_V": 9.999999599999999,
+            "state_trits": [
+              1,
+              -1,
+              1,
+              1
+            ]
+          },
+          "VGS": {
+            "max_abs_V": 9.99999987,
+            "state_trits": [
+              -1,
+              -1,
+              -1,
+              -1
+            ]
+          },
+          "VDB": {
+            "max_abs_V": 9.999999599999999,
+            "state_trits": [
+              1,
+              -1,
+              1,
+              1
+            ]
+          },
+          "VSB": {
+            "max_abs_V": 0.0,
+            "state_trits": [
+              -1,
+              -1,
+              -1,
+              -1
+            ]
+          },
+          "VGD": {
+            "max_abs_V": 9.999999800000001,
+            "state_trits": [
+              -1,
+              -1,
+              -1,
+              -1
+            ]
+          },
+          "VGB": {
+            "max_abs_V": 9.99999987,
+            "state_trits": [
+              -1,
+              -1,
+              -1,
+              -1
+            ]
+          }
+        },
+        {
+          "name": "xdut.x_mul.x_p.xxm2",
+          "model": "nmos",
+          "terminals": [
+            "xdut.x_mul.x_p.net2",
+            "xdut.nmin",
+            "xdut.x_mul.x_p.net3",
+            "vss"
+          ],
+          "VDS": {
+            "max_abs_V": 9.99999829,
+            "state_trits": [
+              0,
+              1,
+              1,
+              -1
+            ]
+          },
+          "VGS": {
+            "max_abs_V": 9.999999070000001,
+            "state_trits": [
+              1,
+              -1,
+              1,
+              -1
+            ]
+          },
+          "VDB": {
+            "max_abs_V": 9.99999923,
+            "state_trits": [
+              -1,
+              -1,
+              -1,
+              -1
+            ]
+          },
+          "VSB": {
+            "max_abs_V": 8.51894252,
+            "state_trits": [
+              -1,
+              -1,
+              -1,
+              -1
+            ]
+          },
+          "VGD": {
+            "max_abs_V": 9.99999905,
+            "state_trits": [
+              1,
+              -1,
+              1,
+              0
+            ]
+          },
+          "VGB": {
+            "max_abs_V": 9.999999899999999,
+            "state_trits": [
+              -1,
+              -1,
+              -1,
+              -1
+            ]
+          }
+        },
+        {
+          "name": "xdut.x_mul.x_p.xxm4",
+          "model": "nmos",
+          "terminals": [
+            "xdut.x_mul.x_p.net3",
+            "or_out",
+            "vss",
+            "vss"
+          ],
+          "VDS": {
+            "max_abs_V": 8.51894252,
+            "state_trits": [
+              -1,
+              -1,
+              -1,
+              -1
+            ]
+          },
+          "VGS": {
+            "max_abs_V": 9.99999964,
+            "state_trits": [
+              -1,
+              -1,
+              1,
+              -1
+            ]
+          },
+          "VDB": {
+            "max_abs_V": 8.51894252,
+            "state_trits": [
+              -1,
+              -1,
+              -1,
+              -1
+            ]
+          },
+          "VSB": {
+            "max_abs_V": 0.0,
+            "state_trits": [
+              -1,
+              -1,
+              -1,
+              -1
+            ]
+          },
+          "VGD": {
+            "max_abs_V": 9.99999962,
+            "state_trits": [
+              1,
+              -1,
+              1,
+              -1
+            ]
+          },
+          "VGB": {
+            "max_abs_V": 9.99999964,
+            "state_trits": [
+              -1,
+              -1,
+              1,
+              -1
+            ]
+          }
+        },
+        {
+          "name": "xdut.x_fa.x_ha1.x_t.xxm3",
+          "model": "pmos",
+          "terminals": [
+            "xdut.x_fa.x_ha1.x_t.net2",
+            "xdut.p",
+            "xdut.x_fa.x_ha1.x_t.net1",
+            "vdd"
+          ],
+          "VDS": {
+            "max_abs_V": 9.999999500000001,
+            "state_trits": [
+              0,
+              1,
+              1,
+              -1
+            ]
+          },
+          "VGS": {
+            "max_abs_V": 9.99999314,
+            "state_trits": [
+              -1,
+              1,
+              -1,
+              1
+            ]
+          },
+          "VDB": {
+            "max_abs_V": 10.00000005,
+            "state_trits": [
+              1,
+              1,
+              1,
+              -1
+            ]
+          },
+          "VSB": {
+            "max_abs_V": 5.000007537435894,
+            "state_trits": [
+              1,
+              1,
+              -1,
+              -1
+            ]
+          },
+          "VGD": {
+            "max_abs_V": 9.99999861,
+            "state_trits": [
+              0,
+              1,
+              1,
+              -1
+            ]
+          },
+          "VGB": {
+            "max_abs_V": 9.999999769999999,
+            "state_trits": [
+              1,
+              -1,
+              1,
+              1
+            ]
+          }
+        },
+        {
+          "name": "xdut.x_fa.x_ha1.x_t.xxm2",
+          "model": "nmos",
+          "terminals": [
+            "xdut.x_fa.x_ha1.x_t.net3",
+            "x",
+            "xdut.x_fa.x_ha1.x_t.net4",
+            "vss"
+          ],
+          "VDS": {
+            "max_abs_V": 10.190716272223908,
+            "state_trits": [
+              -1,
+              -1,
+              1,
+              -1
+            ]
+          },
+          "VGS": {
+            "max_abs_V": 10.00000001,
+            "state_trits": [
+              1,
+              1,
+              1,
+              -1
+            ]
+          },
+          "VDB": {
+            "max_abs_V": 9.9999983,
+            "state_trits": [
+              -1,
+              0,
+              -1,
+              0
+            ]
+          },
+          "VSB": {
+            "max_abs_V": 4.999996786829187,
+            "state_trits": [
+              1,
+              -1,
+              1,
+              1
+            ]
+          },
+          "VGD": {
+            "max_abs_V": 10.00000001,
+            "state_trits": [
+              1,
+              1,
+              1,
+              -1
+            ]
+          },
+          "VGB": {
+            "max_abs_V": 10.0,
+            "state_trits": [
+              1,
+              -1,
+              -1,
+              -1
+            ]
+          }
+        },
+        {
+          "name": "xdut.x_fa.x_ha1.x_t.xxm1",
+          "model": "nmos",
+          "terminals": [
+            "xdut.x_fa.x_ha1.x_t.net4",
+            "xdut.p",
+            "vss",
+            "vss"
+          ],
+          "VDS": {
+            "max_abs_V": 4.999996786829187,
+            "state_trits": [
+              1,
+              -1,
+              1,
+              1
+            ]
+          },
+          "VGS": {
+            "max_abs_V": 9.99999957,
+            "state_trits": [
+              -1,
+              -1,
+              -1,
+              -1
+            ]
+          },
+          "VDB": {
+            "max_abs_V": 4.999996786829187,
+            "state_trits": [
+              1,
+              -1,
+              1,
+              1
+            ]
+          },
+          "VSB": {
+            "max_abs_V": 0.0,
+            "state_trits": [
+              -1,
+              -1,
+              -1,
+              -1
+            ]
+          },
+          "VGD": {
+            "max_abs_V": 9.99999956,
+            "state_trits": [
+              -1,
+              -1,
+              -1,
+              -1
+            ]
+          },
+          "VGB": {
+            "max_abs_V": 9.99999957,
+            "state_trits": [
+              -1,
+              -1,
+              -1,
+              -1
+            ]
+          }
+        },
+        {
+          "name": "xdut.x_fa.x_ha1.x_t.xxm5",
+          "model": "pmos",
+          "terminals": [
+            "xdut.x_fa.x_ha1.x_t.net1",
+            "x",
+            "vdd",
+            "vdd"
+          ],
+          "VDS": {
+            "max_abs_V": 5.000007537435894,
+            "state_trits": [
+              1,
+              1,
+              -1,
+              -1
+            ]
+          },
+          "VGS": {
+            "max_abs_V": 10.0,
+            "state_trits": [
+              -1,
+              -1,
+              -1,
+              -1
+            ]
+          },
+          "VDB": {
+            "max_abs_V": 5.000007537435894,
+            "state_trits": [
+              1,
+              1,
+              -1,
+              -1
+            ]
+          },
+          "VSB": {
+            "max_abs_V": 0.0,
+            "state_trits": [
+              -1,
+              -1,
+              -1,
+              -1
+            ]
+          },
+          "VGD": {
+            "max_abs_V": 10.00000001,
+            "state_trits": [
+              -1,
+              -1,
+              -1,
+              -1
+            ]
+          },
+          "VGB": {
+            "max_abs_V": 10.0,
+            "state_trits": [
+              -1,
+              -1,
+              -1,
+              -1
+            ]
+          }
+        },
+        {
+          "name": "xdut.x_fa.x_ha1.x_t.xxm6",
+          "model": "pmos",
+          "terminals": [
+            "xdut.x_fa.x_ha1.x_t.net5",
+            "x",
+            "xdut.x_fa.x_ha1.t",
+            "vdd"
+          ],
+          "VDS": {
+            "max_abs_V": 5.000000110013208,
+            "state_trits": [
+              1,
+              1,
+              1,
+              -1
+            ]
+          },
+          "VGS": {
+            "max_abs_V": 10.00000011,
+            "state_trits": [
+              1,
+              1,
+              1,
+              -1
+            ]
+          },
+          "VDB": {
+            "max_abs_V": 6.481904435910653,
+            "state_trits": [
+              1,
+              -1,
+              1,
+              -1
+            ]
+          },
+          "VSB": {
+            "max_abs_V": 10.00000011,
+            "state_trits": [
+              1,
+              1,
+              1,
+              -1
+            ]
+          },
+          "VGD": {
+            "max_abs_V": 9.99999898,
+            "state_trits": [
+              -1,
+              0,
+              -1,
+              0
+            ]
+          },
+          "VGB": {
+            "max_abs_V": 10.0,
+            "state_trits": [
+              -1,
+              -1,
+              -1,
+              -1
+            ]
+          }
+        },
+        {
+          "name": "xdut.x_fa.x_ha1.x_t.xxm7",
+          "model": "nmos",
+          "terminals": [
+            "xdut.x_fa.x_ha1.x_t.net5",
+            "xdut.p",
+            "vmid",
+            "vss"
+          ],
+          "VDS": {
+            "max_abs_V": 4.99999898,
+            "state_trits": [
+              -1,
+              0,
+              -1,
+              0
+            ]
+          },
+          "VGS": {
+            "max_abs_V": 4.99999977,
+            "state_trits": [
+              1,
+              -1,
+              1,
+              1
+            ]
+          },
+          "VDB": {
+            "max_abs_V": 9.99999898,
+            "state_trits": [
+              -1,
+              0,
+              -1,
+              0
+            ]
+          },
+          "VSB": {
+            "max_abs_V": 5.0,
+            "state_trits": [
+              -1,
+              -1,
+              -1,
+              -1
+            ]
+          },
+          "VGD": {
+            "max_abs_V": 9.999969547528874,
+            "state_trits": [
+              -1,
+              1,
+              -1,
+              1
+            ]
+          },
+          "VGB": {
+            "max_abs_V": 9.99999957,
+            "state_trits": [
+              -1,
+              -1,
+              -1,
+              -1
+            ]
+          }
+        },
+        {
+          "name": "xdut.x_fa.x_ha1.x_t.xxm8",
+          "model": "pmos",
+          "terminals": [
+            "xdut.x_fa.x_ha1.x_t.net6",
+            "xdut.p",
+            "xdut.x_fa.x_ha1.t",
+            "vdd"
+          ],
+          "VDS": {
+            "max_abs_V": 9.164281278763447,
+            "state_trits": [
+              0,
+              -1,
+              -1,
+              -1
+            ]
+          },
+          "VGS": {
+            "max_abs_V": 9.999998770000001,
+            "state_trits": [
+              0,
+              1,
+              1,
+              -1
+            ]
+          },
+          "VDB": {
+            "max_abs_V": 6.858129699175,
+            "state_trits": [
+              -1,
+              -1,
+              -1,
+              -1
+            ]
+          },
+          "VSB": {
+            "max_abs_V": 10.00000011,
+            "state_trits": [
+              1,
+              1,
+              1,
+              -1
+            ]
+          },
+          "VGD": {
+            "max_abs_V": 9.999969547528874,
+            "state_trits": [
+              -1,
+              1,
+              -1,
+              1
+            ]
+          },
+          "VGB": {
+            "max_abs_V": 9.999999769999999,
+            "state_trits": [
+              1,
+              -1,
+              1,
+              1
+            ]
+          }
+        },
+        {
+          "name": "xdut.x_fa.x_ha1.x_t.xxm9",
+          "model": "nmos",
+          "terminals": [
+            "xdut.x_fa.x_ha1.x_t.net6",
+            "x",
+            "vmid",
+            "vss"
+          ],
+          "VDS": {
+            "max_abs_V": 5.209968346338901,
+            "state_trits": [
+              -1,
+              1,
+              1,
+              -1
+            ]
+          },
+          "VGS": {
+            "max_abs_V": 5.0,
+            "state_trits": [
+              -1,
+              -1,
+              -1,
+              -1
+            ]
+          },
+          "VDB": {
+            "max_abs_V": 10.2099683463389,
+            "state_trits": [
+              -1,
+              1,
+              1,
+              -1
+            ]
+          },
+          "VSB": {
+            "max_abs_V": 5.0,
+            "state_trits": [
+              -1,
+              -1,
+              -1,
+              -1
+            ]
+          },
+          "VGD": {
+            "max_abs_V": 10.2099683463389,
+            "state_trits": [
+              -1,
+              1,
+              1,
+              -1
+            ]
+          },
+          "VGB": {
+            "max_abs_V": 10.0,
+            "state_trits": [
+              1,
+              -1,
+              -1,
+              -1
+            ]
+          }
+        },
+        {
+          "name": "xdut.x_fa.x_ha1.x_u.xxm3",
+          "model": "pmos",
+          "terminals": [
+            "xdut.x_fa.x_ha1.x_u.net2",
+            "xdut.x_fa.x_ha1.t",
+            "xdut.x_fa.x_ha1.x_u.net1",
+            "vdd"
+          ],
+          "VDS": {
+            "max_abs_V": 9.99999996,
+            "state_trits": [
+              -1,
+              -1,
+              0,
+              -1
+            ]
+          },
+          "VGS": {
+            "max_abs_V": 9.9999978,
+            "state_trits": [
+              1,
+              0,
+              1,
+              1
+            ]
+          },
+          "VDB": {
+            "max_abs_V": 9.999999970000001,
+            "state_trits": [
+              -1,
+              -1,
+              0,
+              -1
+            ]
+          },
+          "VSB": {
+            "max_abs_V": 4.999999791623858,
+            "state_trits": [
+              0,
+              1,
+              1,
+              1
+            ]
+          },
+          "VGD": {
+            "max_abs_V": 9.999998911412675,
+            "state_trits": [
+              -1,
+              0,
+              -1,
+              -1
+            ]
+          },
+          "VGB": {
+            "max_abs_V": 10.00000011,
+            "state_trits": [
+              1,
+              1,
+              1,
+              -1
+            ]
+          }
+        },
+        {
+          "name": "xdut.x_fa.x_ha1.x_u.xxm2",
+          "model": "nmos",
+          "terminals": [
+            "xdut.x_fa.x_ha1.x_u.net3",
+            "xdut.p",
+            "xdut.x_fa.x_ha1.x_u.net4",
+            "vss"
+          ],
+          "VDS": {
+            "max_abs_V": 9.99999832,
+            "state_trits": [
+              1,
+              1,
+              -1,
+              -1
+            ]
+          },
+          "VGS": {
+            "max_abs_V": 9.99999953,
+            "state_trits": [
+              -1,
+              -1,
+              -1,
+              -1
+            ]
+          },
+          "VDB": {
+            "max_abs_V": 9.999998399999999,
+            "state_trits": [
+              1,
+              1,
+              -1,
+              -1
+            ]
+          },
+          "VSB": {
+            "max_abs_V": 5.000004369938565,
+            "state_trits": [
+              1,
+              1,
+              1,
+              -1
+            ]
+          },
+          "VGD": {
+            "max_abs_V": 9.99999951,
+            "state_trits": [
+              -1,
+              -1,
+              -1,
+              -1
+            ]
+          },
+          "VGB": {
+            "max_abs_V": 9.99999957,
+            "state_trits": [
+              -1,
+              -1,
+              -1,
+              -1
+            ]
+          }
+        },
+        {
+          "name": "xdut.x_fa.x_ha1.x_u.xxm1",
+          "model": "nmos",
+          "terminals": [
+            "xdut.x_fa.x_ha1.x_u.net4",
+            "xdut.x_fa.x_ha1.t",
+            "vss",
+            "vss"
+          ],
+          "VDS": {
+            "max_abs_V": 5.000004369938565,
+            "state_trits": [
+              1,
+              1,
+              1,
+              -1
+            ]
+          },
+          "VGS": {
+            "max_abs_V": 9.99999899,
+            "state_trits": [
+              -1,
+              0,
+              -1,
+              0
+            ]
+          },
+          "VDB": {
+            "max_abs_V": 5.000004369938565,
+            "state_trits": [
+              1,
+              1,
+              1,
+              -1
+            ]
+          },
+          "VSB": {
+            "max_abs_V": 0.0,
+            "state_trits": [
+              -1,
+              -1,
+              -1,
+              -1
+            ]
+          },
+          "VGD": {
+            "max_abs_V": 9.999998971412676,
+            "state_trits": [
+              -1,
+              0,
+              -1,
+              -1
+            ]
+          },
+          "VGB": {
+            "max_abs_V": 9.99999899,
+            "state_trits": [
+              -1,
+              0,
+              -1,
+              0
+            ]
+          }
+        },
+        {
+          "name": "xdut.x_fa.x_ha1.x_u.xxm5",
+          "model": "pmos",
+          "terminals": [
+            "xdut.x_fa.x_ha1.x_u.net1",
+            "xdut.p",
+            "vdd",
+            "vdd"
+          ],
+          "VDS": {
+            "max_abs_V": 4.999999791623858,
+            "state_trits": [
+              0,
+              1,
+              1,
+              1
+            ]
+          },
+          "VGS": {
+            "max_abs_V": 9.999999769999999,
+            "state_trits": [
+              1,
+              -1,
+              1,
+              1
+            ]
+          },
+          "VDB": {
+            "max_abs_V": 4.999999791623858,
+            "state_trits": [
+              0,
+              1,
+              1,
+              1
+            ]
+          },
+          "VSB": {
+            "max_abs_V": 0.0,
+            "state_trits": [
+              -1,
+              -1,
+              -1,
+              -1
+            ]
+          },
+          "VGD": {
+            "max_abs_V": 9.999999679999998,
+            "state_trits": [
+              1,
+              1,
+              -1,
+              1
+            ]
+          },
+          "VGB": {
+            "max_abs_V": 9.999999769999999,
+            "state_trits": [
+              1,
+              -1,
+              1,
+              1
+            ]
+          }
+        },
+        {
+          "name": "xdut.x_fa.x_ha1.x_u.xxm6",
+          "model": "pmos",
+          "terminals": [
+            "xdut.x_fa.x_ha1.x_u.net5",
+            "xdut.p",
+            "xdut.x_fa.x_ha1.u",
+            "vdd"
+          ],
+          "VDS": {
+            "max_abs_V": 9.288771111668,
+            "state_trits": [
+              -1,
+              -1,
+              -1,
+              -1
+            ]
+          },
+          "VGS": {
+            "max_abs_V": 9.99999925,
+            "state_trits": [
+              -1,
+              -1,
+              -1,
+              -1
+            ]
+          },
+          "VDB": {
+            "max_abs_V": 6.313461324435507,
+            "state_trits": [
+              0,
+              -1,
+              -1,
+              -1
+            ]
+          },
+          "VSB": {
+            "max_abs_V": 10.000000125996621,
+            "state_trits": [
+              -1,
+              -1,
+              0,
+              -1
+            ]
+          },
+          "VGD": {
+            "max_abs_V": 9.99999875,
+            "state_trits": [
+              1,
+              1,
+              -1,
+              -1
+            ]
+          },
+          "VGB": {
+            "max_abs_V": 9.999999769999999,
+            "state_trits": [
+              1,
+              -1,
+              1,
+              1
+            ]
+          }
+        },
+        {
+          "name": "xdut.x_fa.x_ha1.x_u.xxm7",
+          "model": "nmos",
+          "terminals": [
+            "xdut.x_fa.x_ha1.x_u.net5",
+            "xdut.x_fa.x_ha1.t",
+            "vmid",
+            "vss"
+          ],
+          "VDS": {
+            "max_abs_V": 5.236047006073324,
+            "state_trits": [
+              1,
+              1,
+              1,
+              -1
+            ]
+          },
+          "VGS": {
+            "max_abs_V": 5.00000011,
+            "state_trits": [
+              1,
+              1,
+              1,
+              -1
+            ]
+          },
+          "VDB": {
+            "max_abs_V": 10.236047006073324,
+            "state_trits": [
+              1,
+              1,
+              1,
+              -1
+            ]
+          },
+          "VSB": {
+            "max_abs_V": 5.0,
+            "state_trits": [
+              -1,
+              -1,
+              -1,
+              -1
+            ]
+          },
+          "VGD": {
+            "max_abs_V": 10.236047116073324,
+            "state_trits": [
+              1,
+              1,
+              1,
+              -1
+            ]
+          },
+          "VGB": {
+            "max_abs_V": 9.99999899,
+            "state_trits": [
+              -1,
+              0,
+              -1,
+              0
+            ]
+          }
+        },
+        {
+          "name": "xdut.x_fa.x_ha1.x_u.xxm8",
+          "model": "pmos",
+          "terminals": [
+            "xdut.x_fa.x_ha1.x_u.net6",
+            "xdut.x_fa.x_ha1.t",
+            "xdut.x_fa.x_ha1.u",
+            "vdd"
+          ],
+          "VDS": {
+            "max_abs_V": 5.234412184837524,
+            "state_trits": [
+              -1,
+              0,
+              0,
+              -1
+            ]
+          },
+          "VGS": {
+            "max_abs_V": 9.999999070000001,
+            "state_trits": [
+              -1,
+              0,
+              -1,
+              -1
+            ]
+          },
+          "VDB": {
+            "max_abs_V": 5.438519024665332,
+            "state_trits": [
+              -1,
+              1,
+              -1,
+              -1
+            ]
+          },
+          "VSB": {
+            "max_abs_V": 10.000000125996621,
+            "state_trits": [
+              -1,
+              -1,
+              0,
+              -1
+            ]
+          },
+          "VGD": {
+            "max_abs_V": 9.99999407,
+            "state_trits": [
+              1,
+              0,
+              1,
+              1
+            ]
+          },
+          "VGB": {
+            "max_abs_V": 10.00000011,
+            "state_trits": [
+              1,
+              1,
+              1,
+              -1
+            ]
+          }
+        },
+        {
+          "name": "xdut.x_fa.x_ha1.x_u.xxm9",
+          "model": "nmos",
+          "terminals": [
+            "xdut.x_fa.x_ha1.x_u.net6",
+            "xdut.p",
+            "vmid",
+            "vss"
+          ],
+          "VDS": {
+            "max_abs_V": 4.99999908,
+            "state_trits": [
+              1,
+              1,
+              -1,
+              -1
+            ]
+          },
+          "VGS": {
+            "max_abs_V": 4.99999977,
+            "state_trits": [
+              1,
+              -1,
+              1,
+              1
+            ]
+          },
+          "VDB": {
+            "max_abs_V": 9.99999908,
+            "state_trits": [
+              1,
+              1,
+              -1,
+              -1
+            ]
+          },
+          "VSB": {
+            "max_abs_V": 5.0,
+            "state_trits": [
+              -1,
+              -1,
+              -1,
+              -1
+            ]
+          },
+          "VGD": {
+            "max_abs_V": 9.99999875,
+            "state_trits": [
+              1,
+              1,
+              -1,
+              -1
+            ]
+          },
+          "VGB": {
+            "max_abs_V": 9.99999957,
+            "state_trits": [
+              -1,
+              -1,
+              -1,
+              -1
+            ]
+          }
+        },
+        {
+          "name": "xdut.x_fa.x_ha1.x_na.xxm1",
+          "model": "pmos",
+          "terminals": [
+            "xdut.x_fa.x_ha1.x_na.net1",
+            "x",
+            "vdd",
+            "vdd"
+          ],
+          "VDS": {
+            "max_abs_V": 9.99999981,
+            "state_trits": [
+              1,
+              -1,
+              0,
+              -1
+            ]
+          },
+          "VGS": {
+            "max_abs_V": 10.0,
+            "state_trits": [
+              -1,
+              -1,
+              -1,
+              -1
+            ]
+          },
+          "VDB": {
+            "max_abs_V": 9.99999981,
+            "state_trits": [
+              1,
+              -1,
+              0,
+              -1
+            ]
+          },
+          "VSB": {
+            "max_abs_V": 0.0,
+            "state_trits": [
+              -1,
+              -1,
+              -1,
+              -1
+            ]
+          },
+          "VGD": {
+            "max_abs_V": 9.99999994352343,
+            "state_trits": [
+              -1,
+              1,
+              1,
+              -1
+            ]
+          },
+          "VGB": {
+            "max_abs_V": 10.0,
+            "state_trits": [
+              -1,
+              -1,
+              -1,
+              -1
+            ]
+          }
+        },
+        {
+          "name": "xdut.x_fa.x_ha1.x_na.xxm2",
+          "model": "nmos",
+          "terminals": [
+            "xdut.x_fa.x_ha1.x_na.net2",
+            "x",
+            "vss",
+            "vss"
+          ],
+          "VDS": {
+            "max_abs_V": 9.99999921,
+            "state_trits": [
+              -1,
+              1,
+              1,
+              -1
+            ]
+          },
+          "VGS": {
+            "max_abs_V": 10.0,
+            "state_trits": [
+              1,
+              -1,
+              -1,
+              -1
+            ]
+          },
+          "VDB": {
+            "max_abs_V": 9.99999921,
+            "state_trits": [
+              -1,
+              1,
+              1,
+              -1
+            ]
+          },
+          "VSB": {
+            "max_abs_V": 0.0,
+            "state_trits": [
+              -1,
+              -1,
+              -1,
+              -1
+            ]
+          },
+          "VGD": {
+            "max_abs_V": 9.99999999,
+            "state_trits": [
+              1,
+              -1,
+              0,
+              -1
+            ]
+          },
+          "VGB": {
+            "max_abs_V": 10.0,
+            "state_trits": [
+              1,
+              -1,
+              -1,
+              -1
+            ]
+          }
+        },
+        {
+          "name": "xdut.x_fa.x_ha1.x_c.xxm3",
+          "model": "pmos",
+          "terminals": [
+            "xdut.x_fa.x_ha1.x_c.net2",
+            "xdut.x_fa.x_ha1.u",
+            "xdut.x_fa.x_ha1.x_c.net1",
+            "vdd"
+          ],
+          "VDS": {
+            "max_abs_V": 6.1126863883377,
+            "state_trits": [
+              -1,
+              -1,
+              1,
+              1
+            ]
+          },
+          "VGS": {
+            "max_abs_V": 5.0000433033405765,
+            "state_trits": [
+              -1,
+              -1,
+              0,
+              -1
+            ]
+          },
+          "VDB": {
+            "max_abs_V": 9.9999941798153,
+            "state_trits": [
+              -1,
+              -1,
+              1,
+              1
+            ]
+          },
+          "VSB": {
+            "max_abs_V": 5.000039154931264,
+            "state_trits": [
+              -1,
+              1,
+              1,
+              -1
+            ]
+          },
+          "VGD": {
+            "max_abs_V": 5.0000864811150505,
+            "state_trits": [
+              1,
+              1,
+              -1,
+              -1
+            ]
+          },
+          "VGB": {
+            "max_abs_V": 10.000000125996621,
+            "state_trits": [
+              -1,
+              -1,
+              0,
+              -1
+            ]
+          }
+        },
+        {
+          "name": "xdut.x_fa.x_ha1.x_c.xxm2",
+          "model": "nmos",
+          "terminals": [
+            "xdut.x_fa.x_ha1.x_c.net3",
+            "xdut.x_fa.x_ha1.na",
+            "xdut.x_fa.x_ha1.x_c.net4",
+            "vss"
+          ],
+          "VDS": {
+            "max_abs_V": 9.99999693,
+            "state_trits": [
+              1,
+              -1,
+              -1,
+              1
+            ]
+          },
+          "VGS": {
+            "max_abs_V": 9.99999886,
+            "state_trits": [
+              -1,
+              -1,
+              1,
+              1
+            ]
+          },
+          "VDB": {
+            "max_abs_V": 9.999997010000001,
+            "state_trits": [
+              1,
+              -1,
+              -1,
+              1
+            ]
+          },
+          "VSB": {
+            "max_abs_V": 5.00004240533219,
+            "state_trits": [
+              -1,
+              -1,
+              0,
+              -1
+            ]
+          },
+          "VGD": {
+            "max_abs_V": 9.999998399999999,
+            "state_trits": [
+              -1,
+              -1,
+              1,
+              1
+            ]
+          },
+          "VGB": {
+            "max_abs_V": 9.99999964,
+            "state_trits": [
+              -1,
+              1,
+              1,
+              -1
+            ]
+          }
+        },
+        {
+          "name": "xdut.x_fa.x_ha1.x_c.xxm1",
+          "model": "nmos",
+          "terminals": [
+            "xdut.x_fa.x_ha1.x_c.net4",
+            "xdut.x_fa.x_ha1.u",
+            "vss",
+            "vss"
+          ],
+          "VDS": {
+            "max_abs_V": 5.00004240533219,
+            "state_trits": [
+              -1,
+              -1,
+              0,
+              -1
+            ]
+          },
+          "VGS": {
+            "max_abs_V": 9.99999909,
+            "state_trits": [
+              1,
+              1,
+              -1,
+              -1
+            ]
+          },
+          "VDB": {
+            "max_abs_V": 5.00004240533219,
+            "state_trits": [
+              -1,
+              -1,
+              0,
+              -1
+            ]
+          },
+          "VSB": {
+            "max_abs_V": 0.0,
+            "state_trits": [
+              -1,
+              -1,
+              -1,
+              -1
+            ]
+          },
+          "VGD": {
+            "max_abs_V": 9.99999908,
+            "state_trits": [
+              1,
+              1,
+              -1,
+              -1
+            ]
+          },
+          "VGB": {
+            "max_abs_V": 9.99999909,
+            "state_trits": [
+              1,
+              1,
+              -1,
+              -1
+            ]
+          }
+        },
+        {
+          "name": "xdut.x_fa.x_ha1.x_c.xxm5",
+          "model": "pmos",
+          "terminals": [
+            "xdut.x_fa.x_ha1.x_c.net1",
+            "xdut.x_fa.x_ha1.na",
+            "vdd",
+            "vdd"
+          ],
+          "VDS": {
+            "max_abs_V": 5.000039154931264,
+            "state_trits": [
+              -1,
+              1,
+              1,
+              -1
+            ]
+          },
+          "VGS": {
+            "max_abs_V": 9.99999994,
+            "state_trits": [
+              1,
+              -1,
+              0,
+              -1
+            ]
+          },
+          "VDB": {
+            "max_abs_V": 5.000039154931264,
+            "state_trits": [
+              -1,
+              1,
+              1,
+              -1
+            ]
+          },
+          "VSB": {
+            "max_abs_V": 0.0,
+            "state_trits": [
+              -1,
+              -1,
+              -1,
+              -1
+            ]
+          },
+          "VGD": {
+            "max_abs_V": 9.999999930000001,
+            "state_trits": [
+              1,
+              -1,
+              0,
+              -1
+            ]
+          },
+          "VGB": {
+            "max_abs_V": 9.99999994,
+            "state_trits": [
+              1,
+              -1,
+              0,
+              -1
+            ]
+          }
+        },
+        {
+          "name": "xdut.x_fa.x_ha1.x_c.xxm6",
+          "model": "pmos",
+          "terminals": [
+            "xdut.x_fa.x_ha1.x_c.net5",
+            "xdut.x_fa.x_ha1.na",
+            "xdut.x_fa.c1",
+            "vdd"
+          ],
+          "VDS": {
+            "max_abs_V": 5.581357303095469,
+            "state_trits": [
+              -1,
+              -1,
+              1,
+              0
+            ]
+          },
+          "VGS": {
+            "max_abs_V": 9.99999752,
+            "state_trits": [
+              1,
+              -1,
+              -1,
+              1
+            ]
+          },
+          "VDB": {
+            "max_abs_V": 5.52823928374141,
+            "state_trits": [
+              0,
+              0,
+              0,
+              -1
+            ]
+          },
+          "VSB": {
+            "max_abs_V": 9.9999942698153,
+            "state_trits": [
+              -1,
+              -1,
+              1,
+              1
+            ]
+          },
+          "VGD": {
+            "max_abs_V": 9.99999751,
+            "state_trits": [
+              1,
+              -1,
+              -1,
+              1
+            ]
+          },
+          "VGB": {
+            "max_abs_V": 9.99999994,
+            "state_trits": [
+              1,
+              -1,
+              0,
+              -1
+            ]
+          }
+        },
+        {
+          "name": "xdut.x_fa.x_ha1.x_c.xxm7",
+          "model": "nmos",
+          "terminals": [
+            "xdut.x_fa.x_ha1.x_c.net5",
+            "xdut.x_fa.x_ha1.u",
+            "vmid",
+            "vss"
+          ],
+          "VDS": {
+            "max_abs_V": 4.9999977,
+            "state_trits": [
+              1,
+              -1,
+              -1,
+              1
+            ]
+          },
+          "VGS": {
+            "max_abs_V": 5.000000125996622,
+            "state_trits": [
+              -1,
+              -1,
+              0,
+              -1
+            ]
+          },
+          "VDB": {
+            "max_abs_V": 9.9999977,
+            "state_trits": [
+              1,
+              -1,
+              -1,
+              1
+            ]
+          },
+          "VSB": {
+            "max_abs_V": 5.0,
+            "state_trits": [
+              -1,
+              -1,
+              -1,
+              -1
+            ]
+          },
+          "VGD": {
+            "max_abs_V": 9.166243052212,
+            "state_trits": [
+              -1,
+              -1,
+              -1,
+              -1
+            ]
+          },
+          "VGB": {
+            "max_abs_V": 9.99999909,
+            "state_trits": [
+              1,
+              1,
+              -1,
+              -1
+            ]
+          }
+        },
+        {
+          "name": "xdut.x_fa.x_ha1.x_c.xxm8",
+          "model": "pmos",
+          "terminals": [
+            "xdut.x_fa.x_ha1.x_c.net6",
+            "xdut.x_fa.x_ha1.u",
+            "xdut.x_fa.c1",
+            "vdd"
+          ],
+          "VDS": {
+            "max_abs_V": 5.176602412266889,
+            "state_trits": [
+              1,
+              -1,
+              0,
+              -1
+            ]
+          },
+          "VGS": {
+            "max_abs_V": 5.0000863527040735,
+            "state_trits": [
+              1,
+              1,
+              -1,
+              -1
+            ]
+          },
+          "VDB": {
+            "max_abs_V": 5.000010647323558,
+            "state_trits": [
+              -1,
+              1,
+              1,
+              -1
+            ]
+          },
+          "VSB": {
+            "max_abs_V": 9.9999942698153,
+            "state_trits": [
+              -1,
+              -1,
+              1,
+              1
+            ]
+          },
+          "VGD": {
+            "max_abs_V": 5.00001231495287,
+            "state_trits": [
+              -1,
+              -1,
+              0,
+              -1
+            ]
+          },
+          "VGB": {
+            "max_abs_V": 10.000000125996621,
+            "state_trits": [
+              -1,
+              -1,
+              0,
+              -1
+            ]
+          }
+        },
+        {
+          "name": "xdut.x_fa.x_ha1.x_c.xxm9",
+          "model": "nmos",
+          "terminals": [
+            "xdut.x_fa.x_ha1.x_c.net6",
+            "xdut.x_fa.x_ha1.na",
+            "vmid",
+            "vss"
+          ],
+          "VDS": {
+            "max_abs_V": 5.176602964538238,
+            "state_trits": [
+              1,
+              -1,
+              0,
+              -1
+            ]
+          },
+          "VGS": {
+            "max_abs_V": 4.99999994,
+            "state_trits": [
+              1,
+              -1,
+              0,
+              -1
+            ]
+          },
+          "VDB": {
+            "max_abs_V": 10.176602964538237,
+            "state_trits": [
+              1,
+              -1,
+              0,
+              -1
+            ]
+          },
+          "VSB": {
+            "max_abs_V": 5.0,
+            "state_trits": [
+              -1,
+              -1,
+              -1,
+              -1
+            ]
+          },
+          "VGD": {
+            "max_abs_V": 10.176602904538239,
+            "state_trits": [
+              1,
+              -1,
+              0,
+              -1
+            ]
+          },
+          "VGB": {
+            "max_abs_V": 9.99999964,
+            "state_trits": [
+              -1,
+              1,
+              1,
+              -1
+            ]
+          }
+        },
+        {
+          "name": "xdut.x_fa.x_ha1.x_d.xxm3",
+          "model": "pmos",
+          "terminals": [
+            "xdut.x_fa.x_ha1.x_d.net2",
+            "xdut.x_fa.c1",
+            "xdut.x_fa.x_ha1.x_d.net1",
+            "vdd"
+          ],
+          "VDS": {
+            "max_abs_V": 6.249842677888511,
+            "state_trits": [
+              -1,
+              -1,
+              0,
+              -1
+            ]
+          },
+          "VGS": {
+            "max_abs_V": 5.002494983391412,
+            "state_trits": [
+              0,
+              1,
+              1,
+              -1
+            ]
+          },
+          "VDB": {
+            "max_abs_V": 9.99999982,
+            "state_trits": [
+              -1,
+              0,
+              -1,
+              -1
+            ]
+          },
+          "VSB": {
+            "max_abs_V": 5.000000022842023,
+            "state_trits": [
+              -1,
+              1,
+              -1,
+              -1
+            ]
+          },
+          "VGD": {
+            "max_abs_V": 5.002494883391413,
+            "state_trits": [
+              0,
+              1,
+              1,
+              -1
+            ]
+          },
+          "VGB": {
+            "max_abs_V": 9.9999942698153,
+            "state_trits": [
+              -1,
+              -1,
+              1,
+              1
+            ]
+          }
+        },
+        {
+          "name": "xdut.x_fa.x_ha1.x_d.xxm2",
+          "model": "nmos",
+          "terminals": [
+            "xdut.x_fa.x_ha1.x_d.net3",
+            "xdut.x_fa.x_ha1.t",
+            "xdut.x_fa.x_ha1.x_d.net4",
+            "vss"
+          ],
+          "VDS": {
+            "max_abs_V": 9.9999982,
+            "state_trits": [
+              0,
+              -1,
+              -1,
+              -1
+            ]
+          },
+          "VGS": {
+            "max_abs_V": 9.99999896,
+            "state_trits": [
+              -1,
+              0,
+              -1,
+              0
+            ]
+          },
+          "VDB": {
+            "max_abs_V": 9.99999828,
+            "state_trits": [
+              0,
+              -1,
+              -1,
+              -1
+            ]
+          },
+          "VSB": {
+            "max_abs_V": 4.9999999281612215,
+            "state_trits": [
+              -1,
+              -1,
+              1,
+              1
+            ]
+          },
+          "VGD": {
+            "max_abs_V": 9.99999895,
+            "state_trits": [
+              -1,
+              0,
+              -1,
+              1
+            ]
+          },
+          "VGB": {
+            "max_abs_V": 9.99999899,
+            "state_trits": [
+              -1,
+              0,
+              -1,
+              0
+            ]
+          }
+        },
+        {
+          "name": "xdut.x_fa.x_ha1.x_d.xxm1",
+          "model": "nmos",
+          "terminals": [
+            "xdut.x_fa.x_ha1.x_d.net4",
+            "xdut.x_fa.c1",
+            "vss",
+            "vss"
+          ],
+          "VDS": {
+            "max_abs_V": 4.9999999281612215,
+            "state_trits": [
+              -1,
+              -1,
+              1,
+              1
+            ]
+          },
+          "VGS": {
+            "max_abs_V": 9.999997709999999,
+            "state_trits": [
+              1,
+              -1,
+              -1,
+              1
+            ]
+          },
+          "VDB": {
+            "max_abs_V": 4.9999999281612215,
+            "state_trits": [
+              -1,
+              -1,
+              1,
+              1
+            ]
+          },
+          "VSB": {
+            "max_abs_V": 0.0,
+            "state_trits": [
+              -1,
+              -1,
+              -1,
+              -1
+            ]
+          },
+          "VGD": {
+            "max_abs_V": 9.9999977,
+            "state_trits": [
+              1,
+              -1,
+              -1,
+              1
+            ]
+          },
+          "VGB": {
+            "max_abs_V": 9.999997709999999,
+            "state_trits": [
+              1,
+              -1,
+              -1,
+              1
+            ]
+          }
+        },
+        {
+          "name": "xdut.x_fa.x_ha1.x_d.xxm5",
+          "model": "pmos",
+          "terminals": [
+            "xdut.x_fa.x_ha1.x_d.net1",
+            "xdut.x_fa.x_ha1.t",
+            "vdd",
+            "vdd"
+          ],
+          "VDS": {
+            "max_abs_V": 5.000000022842023,
+            "state_trits": [
+              -1,
+              1,
+              -1,
+              -1
+            ]
+          },
+          "VGS": {
+            "max_abs_V": 10.00000011,
+            "state_trits": [
+              1,
+              1,
+              1,
+              -1
+            ]
+          },
+          "VDB": {
+            "max_abs_V": 5.000000022842023,
+            "state_trits": [
+              -1,
+              1,
+              -1,
+              -1
+            ]
+          },
+          "VSB": {
+            "max_abs_V": 0.0,
+            "state_trits": [
+              -1,
+              -1,
+              -1,
+              -1
+            ]
+          },
+          "VGD": {
+            "max_abs_V": 10.000000100000001,
+            "state_trits": [
+              1,
+              1,
+              1,
+              -1
+            ]
+          },
+          "VGB": {
+            "max_abs_V": 10.00000011,
+            "state_trits": [
+              1,
+              1,
+              1,
+              -1
+            ]
+          }
+        },
+        {
+          "name": "xdut.x_fa.x_ha1.x_d.xxm6",
+          "model": "pmos",
+          "terminals": [
+            "xdut.x_fa.x_ha1.x_d.net5",
+            "xdut.x_fa.x_ha1.t",
+            "xdut.x_fa.x_ha1.d",
+            "vdd"
+          ],
+          "VDS": {
+            "max_abs_V": 7.979357974855823,
+            "state_trits": [
+              0,
+              -1,
+              1,
+              -1
+            ]
+          },
+          "VGS": {
+            "max_abs_V": 9.99999882,
+            "state_trits": [
+              -1,
+              0,
+              -1,
+              -1
+            ]
+          },
+          "VDB": {
+            "max_abs_V": 5.2470714258477,
+            "state_trits": [
+              -1,
+              -1,
+              -1,
+              -1
+            ]
+          },
+          "VSB": {
+            "max_abs_V": 9.99999985,
+            "state_trits": [
+              -1,
+              0,
+              -1,
+              -1
+            ]
+          },
+          "VGD": {
+            "max_abs_V": 9.999998640000001,
+            "state_trits": [
+              0,
+              1,
+              1,
+              -1
+            ]
+          },
+          "VGB": {
+            "max_abs_V": 10.00000011,
+            "state_trits": [
+              1,
+              1,
+              1,
+              -1
+            ]
+          }
+        },
+        {
+          "name": "xdut.x_fa.x_ha1.x_d.xxm7",
+          "model": "nmos",
+          "terminals": [
+            "xdut.x_fa.x_ha1.x_d.net5",
+            "xdut.x_fa.c1",
+            "vmid",
+            "vss"
+          ],
+          "VDS": {
+            "max_abs_V": 4.99999896,
+            "state_trits": [
+              0,
+              -1,
+              -1,
+              -1
+            ]
+          },
+          "VGS": {
+            "max_abs_V": 4.99999771,
+            "state_trits": [
+              1,
+              -1,
+              -1,
+              1
+            ]
+          },
+          "VDB": {
+            "max_abs_V": 9.99999896,
+            "state_trits": [
+              0,
+              -1,
+              -1,
+              -1
+            ]
+          },
+          "VSB": {
+            "max_abs_V": 5.0,
+            "state_trits": [
+              -1,
+              -1,
+              -1,
+              -1
+            ]
+          },
+          "VGD": {
+            "max_abs_V": 5.45652592923624,
+            "state_trits": [
+              -1,
+              -1,
+              1,
+              0
+            ]
+          },
+          "VGB": {
+            "max_abs_V": 9.999997709999999,
+            "state_trits": [
+              1,
+              -1,
+              -1,
+              1
+            ]
+          }
+        },
+        {
+          "name": "xdut.x_fa.x_ha1.x_d.xxm8",
+          "model": "pmos",
+          "terminals": [
+            "xdut.x_fa.x_ha1.x_d.net6",
+            "xdut.x_fa.c1",
+            "xdut.x_fa.x_ha1.d",
+            "vdd"
+          ],
+          "VDS": {
+            "max_abs_V": 4.999999843401172,
+            "state_trits": [
+              -1,
+              1,
+              0,
+              -1
+            ]
+          },
+          "VGS": {
+            "max_abs_V": 5.002494033391413,
+            "state_trits": [
+              0,
+              1,
+              1,
+              -1
+            ]
+          },
+          "VDB": {
+            "max_abs_V": 5.727651382157323,
+            "state_trits": [
+              0,
+              0,
+              0,
+              -1
+            ]
+          },
+          "VSB": {
+            "max_abs_V": 9.99999985,
+            "state_trits": [
+              -1,
+              0,
+              -1,
+              -1
+            ]
+          },
+          "VGD": {
+            "max_abs_V": 5.002494023391413,
+            "state_trits": [
+              0,
+              1,
+              1,
+              -1
+            ]
+          },
+          "VGB": {
+            "max_abs_V": 9.9999942698153,
+            "state_trits": [
+              -1,
+              -1,
+              1,
+              1
+            ]
+          }
+        },
+        {
+          "name": "xdut.x_fa.x_ha1.x_d.xxm9",
+          "model": "nmos",
+          "terminals": [
+            "xdut.x_fa.x_ha1.x_d.net6",
+            "xdut.x_fa.x_ha1.t",
+            "vmid",
+            "vss"
+          ],
+          "VDS": {
+            "max_abs_V": 4.99999896,
+            "state_trits": [
+              0,
+              1,
+              1,
+              -1
+            ]
+          },
+          "VGS": {
+            "max_abs_V": 5.00000011,
+            "state_trits": [
+              1,
+              1,
+              1,
+              -1
+            ]
+          },
+          "VDB": {
+            "max_abs_V": 9.99999896,
+            "state_trits": [
+              0,
+              1,
+              1,
+              -1
+            ]
+          },
+          "VSB": {
+            "max_abs_V": 5.0,
+            "state_trits": [
+              -1,
+              -1,
+              -1,
+              -1
+            ]
+          },
+          "VGD": {
+            "max_abs_V": 9.999998640000001,
+            "state_trits": [
+              0,
+              1,
+              1,
+              -1
+            ]
+          },
+          "VGB": {
+            "max_abs_V": 9.99999899,
+            "state_trits": [
+              -1,
+              0,
+              -1,
+              0
+            ]
+          }
+        },
+        {
+          "name": "xdut.x_fa.x_ha1.x_nd.xxm1",
+          "model": "pmos",
+          "terminals": [
+            "xdut.x_fa.x_ha1.x_nd.net1",
+            "xdut.x_fa.x_ha1.d",
+            "vdd",
+            "vdd"
+          ],
+          "VDS": {
+            "max_abs_V": 9.99999968,
+            "state_trits": [
+              0,
+              -1,
+              -1,
+              -1
+            ]
+          },
+          "VGS": {
+            "max_abs_V": 9.99999985,
+            "state_trits": [
+              -1,
+              0,
+              -1,
+              -1
+            ]
+          },
+          "VDB": {
+            "max_abs_V": 9.99999968,
+            "state_trits": [
+              0,
+              -1,
+              -1,
+              -1
+            ]
+          },
+          "VSB": {
+            "max_abs_V": 0.0,
+            "state_trits": [
+              -1,
+              -1,
+              -1,
+              -1
+            ]
+          },
+          "VGD": {
+            "max_abs_V": 9.99999975,
+            "state_trits": [
+              -1,
+              0,
+              -1,
+              -1
+            ]
+          },
+          "VGB": {
+            "max_abs_V": 9.99999985,
+            "state_trits": [
+              -1,
+              0,
+              -1,
+              -1
+            ]
+          }
+        },
+        {
+          "name": "xdut.x_fa.x_ha1.x_nd.xxm2",
+          "model": "nmos",
+          "terminals": [
+            "xdut.x_fa.x_ha1.x_nd.net2",
+            "xdut.x_fa.x_ha1.d",
+            "vss",
+            "vss"
+          ],
+          "VDS": {
+            "max_abs_V": 9.99999892,
+            "state_trits": [
+              -1,
+              0,
+              0,
+              0
+            ]
+          },
+          "VGS": {
+            "max_abs_V": 9.99999897,
+            "state_trits": [
+              0,
+              -1,
+              -1,
+              -1
+            ]
+          },
+          "VDB": {
+            "max_abs_V": 9.99999892,
+            "state_trits": [
+              -1,
+              0,
+              0,
+              0
+            ]
+          },
+          "VSB": {
+            "max_abs_V": 0.0,
+            "state_trits": [
+              -1,
+              -1,
+              -1,
+              -1
+            ]
+          },
+          "VGD": {
+            "max_abs_V": 9.999998940000001,
+            "state_trits": [
+              0,
+              -1,
+              -1,
+              -1
+            ]
+          },
+          "VGB": {
+            "max_abs_V": 9.99999897,
+            "state_trits": [
+              0,
+              -1,
+              -1,
+              -1
+            ]
+          }
+        },
+        {
+          "name": "xdut.x_fa.x_ha1.x_s.xxm3",
+          "model": "pmos",
+          "terminals": [
+            "xdut.x_fa.x_ha1.x_s.net2",
+            "xdut.x_fa.c1",
+            "xdut.x_fa.x_ha1.x_s.net1",
+            "vdd"
+          ],
+          "VDS": {
+            "max_abs_V": 9.99999983176609,
+            "state_trits": [
+              1,
+              -1,
+              -1,
+              1
+            ]
+          },
+          "VGS": {
+            "max_abs_V": 9.9999893496306,
+            "state_trits": [
+              -1,
+              -1,
+              1,
+              1
+            ]
+          },
+          "VDB": {
+            "max_abs_V": 10.000002843167291,
+            "state_trits": [
+              -1,
+              1,
+              0,
+              1
+            ]
+          },
+          "VSB": {
+            "max_abs_V": 3.743750019642899,
+            "state_trits": [
+              -1,
+              1,
+              0,
+              1
+            ]
+          },
+          "VGD": {
+            "max_abs_V": 9.99999756176609,
+            "state_trits": [
+              1,
+              -1,
+              -1,
+              1
+            ]
+          },
+          "VGB": {
+            "max_abs_V": 9.9999942698153,
+            "state_trits": [
+              -1,
+              -1,
+              1,
+              1
+            ]
+          }
+        },
+        {
+          "name": "xdut.x_fa.x_ha1.x_s.xxm2",
+          "model": "nmos",
+          "terminals": [
+            "xdut.x_fa.x_ha1.x_s.net3",
+            "xdut.x_fa.x_ha1.nd",
+            "xdut.x_fa.x_ha1.x_s.net4",
+            "vss"
+          ],
+          "VDS": {
+            "max_abs_V": 9.999998219999998,
+            "state_trits": [
+              1,
+              0,
+              0,
+              -1
+            ]
+          },
+          "VGS": {
+            "max_abs_V": 9.99999971,
+            "state_trits": [
+              -1,
+              1,
+              0,
+              1
+            ]
+          },
+          "VDB": {
+            "max_abs_V": 9.9999983,
+            "state_trits": [
+              1,
+              0,
+              0,
+              -1
+            ]
+          },
+          "VSB": {
+            "max_abs_V": 3.7892458112448,
+            "state_trits": [
+              -1,
+              -1,
+              1,
+              1
+            ]
+          },
+          "VGD": {
+            "max_abs_V": 9.999999983167292,
+            "state_trits": [
+              -1,
+              1,
+              0,
+              1
+            ]
+          },
+          "VGB": {
+            "max_abs_V": 9.99999936,
+            "state_trits": [
+              -1,
+              1,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "name": "xdut.x_fa.x_ha1.x_s.xxm1",
+          "model": "nmos",
+          "terminals": [
+            "xdut.x_fa.x_ha1.x_s.net4",
+            "xdut.x_fa.c1",
+            "vss",
+            "vss"
+          ],
+          "VDS": {
+            "max_abs_V": 3.7892458112448,
+            "state_trits": [
+              -1,
+              -1,
+              1,
+              1
+            ]
+          },
+          "VGS": {
+            "max_abs_V": 9.999997709999999,
+            "state_trits": [
+              1,
+              -1,
+              -1,
+              1
+            ]
+          },
+          "VDB": {
+            "max_abs_V": 3.7892458112448,
+            "state_trits": [
+              -1,
+              -1,
+              1,
+              1
+            ]
+          },
+          "VSB": {
+            "max_abs_V": 0.0,
+            "state_trits": [
+              -1,
+              -1,
+              -1,
+              -1
+            ]
+          },
+          "VGD": {
+            "max_abs_V": 9.999997709999999,
+            "state_trits": [
+              1,
+              -1,
+              -1,
+              1
+            ]
+          },
+          "VGB": {
+            "max_abs_V": 9.999997709999999,
+            "state_trits": [
+              1,
+              -1,
+              -1,
+              1
+            ]
+          }
+        },
+        {
+          "name": "xdut.x_fa.x_ha1.x_s.xxm5",
+          "model": "pmos",
+          "terminals": [
+            "xdut.x_fa.x_ha1.x_s.net1",
+            "xdut.x_fa.x_ha1.nd",
+            "vdd",
+            "vdd"
+          ],
+          "VDS": {
+            "max_abs_V": 3.743750019642899,
+            "state_trits": [
+              -1,
+              1,
+              0,
+              1
+            ]
+          },
+          "VGS": {
+            "max_abs_V": 9.99999981,
+            "state_trits": [
+              0,
+              -1,
+              -1,
+              -1
+            ]
+          },
+          "VDB": {
+            "max_abs_V": 3.743750019642899,
+            "state_trits": [
+              -1,
+              1,
+              0,
+              1
+            ]
+          },
+          "VSB": {
+            "max_abs_V": 0.0,
+            "state_trits": [
+              -1,
+              -1,
+              -1,
+              -1
+            ]
+          },
+          "VGD": {
+            "max_abs_V": 9.999999729999999,
+            "state_trits": [
+              0,
+              -1,
+              -1,
+              -1
+            ]
+          },
+          "VGB": {
+            "max_abs_V": 9.99999981,
+            "state_trits": [
+              0,
+              -1,
+              -1,
+              -1
+            ]
+          }
+        },
+        {
+          "name": "xdut.x_fa.x_ha1.x_s.xxm6",
+          "model": "pmos",
+          "terminals": [
+            "xdut.x_fa.x_ha1.x_s.net5",
+            "xdut.x_fa.x_ha1.nd",
+            "xdut.x_fa.s1",
+            "vdd"
+          ],
+          "VDS": {
+            "max_abs_V": 9.6049824226028,
+            "state_trits": [
+              -1,
+              0,
+              -1,
+              -1
+            ]
+          },
+          "VGS": {
+            "max_abs_V": 10.000002803167293,
+            "state_trits": [
+              -1,
+              1,
+              0,
+              1
+            ]
+          },
+          "VDB": {
+            "max_abs_V": 5.6105577507525,
+            "state_trits": [
+              -1,
+              -1,
+              -1,
+              -1
+            ]
+          },
+          "VSB": {
+            "max_abs_V": 10.000003453167292,
+            "state_trits": [
+              -1,
+              1,
+              0,
+              1
+            ]
+          },
+          "VGD": {
+            "max_abs_V": 9.9999988,
+            "state_trits": [
+              1,
+              0,
+              0,
+              -1
+            ]
+          },
+          "VGB": {
+            "max_abs_V": 9.99999981,
+            "state_trits": [
+              0,
+              -1,
+              -1,
+              -1
+            ]
+          }
+        },
+        {
+          "name": "xdut.x_fa.x_ha1.x_s.xxm7",
+          "model": "nmos",
+          "terminals": [
+            "xdut.x_fa.x_ha1.x_s.net5",
+            "xdut.x_fa.c1",
+            "vmid",
+            "vss"
+          ],
+          "VDS": {
+            "max_abs_V": 4.99999899,
+            "state_trits": [
+              1,
+              0,
+              0,
+              -1
+            ]
+          },
+          "VGS": {
+            "max_abs_V": 4.99999771,
+            "state_trits": [
+              1,
+              -1,
+              -1,
+              1
+            ]
+          },
+          "VDB": {
+            "max_abs_V": 9.99999899,
+            "state_trits": [
+              1,
+              0,
+              0,
+              -1
+            ]
+          },
+          "VSB": {
+            "max_abs_V": 5.0,
+            "state_trits": [
+              -1,
+              -1,
+              -1,
+              -1
+            ]
+          },
+          "VGD": {
+            "max_abs_V": 9.999944928152999,
+            "state_trits": [
+              -1,
+              -1,
+              1,
+              1
+            ]
+          },
+          "VGB": {
+            "max_abs_V": 9.999997709999999,
+            "state_trits": [
+              1,
+              -1,
+              -1,
+              1
+            ]
+          }
+        },
+        {
+          "name": "xdut.x_fa.x_ha1.x_s.xxm8",
+          "model": "pmos",
+          "terminals": [
+            "xdut.x_fa.x_ha1.x_s.net6",
+            "xdut.x_fa.c1",
+            "xdut.x_fa.s1",
+            "vdd"
+          ],
+          "VDS": {
+            "max_abs_V": 10.210680230683867,
+            "state_trits": [
+              1,
+              1,
+              1,
+              -1
+            ]
+          },
+          "VGS": {
+            "max_abs_V": 9.99999771353218,
+            "state_trits": [
+              1,
+              -1,
+              -1,
+              1
+            ]
+          },
+          "VDB": {
+            "max_abs_V": 5.805935120942926,
+            "state_trits": [
+              0,
+              0,
+              -1,
+              -1
+            ]
+          },
+          "VSB": {
+            "max_abs_V": 10.000003453167292,
+            "state_trits": [
+              -1,
+              1,
+              0,
+              1
+            ]
+          },
+          "VGD": {
+            "max_abs_V": 9.999944938153,
+            "state_trits": [
+              -1,
+              -1,
+              1,
+              1
+            ]
+          },
+          "VGB": {
+            "max_abs_V": 9.9999942698153,
+            "state_trits": [
+              -1,
+              -1,
+              1,
+              1
+            ]
+          }
+        },
+        {
+          "name": "xdut.x_fa.x_ha1.x_s.xxm9",
+          "model": "nmos",
+          "terminals": [
+            "xdut.x_fa.x_ha1.x_s.net6",
+            "xdut.x_fa.x_ha1.nd",
+            "vmid",
+            "vss"
+          ],
+          "VDS": {
+            "max_abs_V": 5.2106858006838666,
+            "state_trits": [
+              1,
+              1,
+              1,
+              -1
+            ]
+          },
+          "VGS": {
+            "max_abs_V": 4.99999981,
+            "state_trits": [
+              0,
+              -1,
+              -1,
+              -1
+            ]
+          },
+          "VDB": {
+            "max_abs_V": 10.210685800683866,
+            "state_trits": [
+              1,
+              1,
+              1,
+              -1
+            ]
+          },
+          "VSB": {
+            "max_abs_V": 5.0,
+            "state_trits": [
+              -1,
+              -1,
+              -1,
+              -1
+            ]
+          },
+          "VGD": {
+            "max_abs_V": 9.99999879,
+            "state_trits": [
+              1,
+              0,
+              0,
+              -1
+            ]
+          },
+          "VGB": {
+            "max_abs_V": 9.99999936,
+            "state_trits": [
+              -1,
+              1,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "name": "xdut.x_fa.x_ha2.x_t.xxm3",
+          "model": "pmos",
+          "terminals": [
+            "xdut.x_fa.x_ha2.x_t.net2",
+            "cin",
+            "xdut.x_fa.x_ha2.x_t.net1",
+            "vdd"
+          ],
+          "VDS": {
+            "max_abs_V": 9.99999951,
+            "state_trits": [
+              -1,
+              1,
+              1,
+              1
+            ]
+          },
+          "VGS": {
+            "max_abs_V": 9.99999998,
+            "state_trits": [
+              -1,
+              -1,
+              0,
+              -1
+            ]
+          },
+          "VDB": {
+            "max_abs_V": 10.000004447036973,
+            "state_trits": [
+              1,
+              1,
+              0,
+              1
+            ]
+          },
+          "VSB": {
+            "max_abs_V": 5.000006646866587,
+            "state_trits": [
+              1,
+              0,
+              1,
+              -1
+            ]
+          },
+          "VGD": {
+            "max_abs_V": 10.000004447036973,
+            "state_trits": [
+              1,
+              1,
+              0,
+              1
+            ]
+          },
+          "VGB": {
+            "max_abs_V": 10.0,
+            "state_trits": [
+              -1,
+              -1,
+              -1,
+              -1
+            ]
+          }
+        },
+        {
+          "name": "xdut.x_fa.x_ha2.x_t.xxm2",
+          "model": "nmos",
+          "terminals": [
+            "xdut.x_fa.x_ha2.x_t.net3",
+            "xdut.x_fa.s1",
+            "xdut.x_fa.x_ha2.x_t.net4",
+            "vss"
+          ],
+          "VDS": {
+            "max_abs_V": 10.25501258584326,
+            "state_trits": [
+              -1,
+              0,
+              1,
+              -1
+            ]
+          },
+          "VGS": {
+            "max_abs_V": 9.99999935,
+            "state_trits": [
+              0,
+              -1,
+              -1,
+              1
+            ]
+          },
+          "VDB": {
+            "max_abs_V": 9.99999976,
+            "state_trits": [
+              -1,
+              -1,
+              0,
+              -1
+            ]
+          },
+          "VSB": {
+            "max_abs_V": 5.000000988084685,
+            "state_trits": [
+              -1,
+              1,
+              -1,
+              -1
+            ]
+          },
+          "VGD": {
+            "max_abs_V": 9.99999972,
+            "state_trits": [
+              0,
+              -1,
+              -1,
+              1
+            ]
+          },
+          "VGB": {
+            "max_abs_V": 9.999998999999999,
+            "state_trits": [
+              1,
+              0,
+              0,
+              -1
+            ]
+          }
+        },
+        {
+          "name": "xdut.x_fa.x_ha2.x_t.xxm1",
+          "model": "nmos",
+          "terminals": [
+            "xdut.x_fa.x_ha2.x_t.net4",
+            "cin",
+            "vss",
+            "vss"
+          ],
+          "VDS": {
+            "max_abs_V": 5.000000988084685,
+            "state_trits": [
+              -1,
+              1,
+              -1,
+              -1
+            ]
+          },
+          "VGS": {
+            "max_abs_V": 10.0,
+            "state_trits": [
+              -1,
+              -1,
+              -1,
+              1
+            ]
+          },
+          "VDB": {
+            "max_abs_V": 5.000000988084685,
+            "state_trits": [
+              -1,
+              1,
+              -1,
+              -1
+            ]
+          },
+          "VSB": {
+            "max_abs_V": 0.0,
+            "state_trits": [
+              -1,
+              -1,
+              -1,
+              -1
+            ]
+          },
+          "VGD": {
+            "max_abs_V": 10.00000036,
+            "state_trits": [
+              -1,
+              -1,
+              1,
+              1
+            ]
+          },
+          "VGB": {
+            "max_abs_V": 10.0,
+            "state_trits": [
+              -1,
+              -1,
+              -1,
+              1
+            ]
+          }
+        },
+        {
+          "name": "xdut.x_fa.x_ha2.x_t.xxm5",
+          "model": "pmos",
+          "terminals": [
+            "xdut.x_fa.x_ha2.x_t.net1",
+            "xdut.x_fa.s1",
+            "vdd",
+            "vdd"
+          ],
+          "VDS": {
+            "max_abs_V": 5.000006646866587,
+            "state_trits": [
+              1,
+              0,
+              1,
+              -1
+            ]
+          },
+          "VGS": {
+            "max_abs_V": 10.000003453167292,
+            "state_trits": [
+              -1,
+              1,
+              0,
+              1
+            ]
+          },
+          "VDB": {
+            "max_abs_V": 5.000006646866587,
+            "state_trits": [
+              1,
+              0,
+              1,
+              -1
+            ]
+          },
+          "VSB": {
+            "max_abs_V": 0.0,
+            "state_trits": [
+              -1,
+              -1,
+              -1,
+              -1
+            ]
+          },
+          "VGD": {
+            "max_abs_V": 10.000003443167293,
+            "state_trits": [
+              -1,
+              1,
+              0,
+              1
+            ]
+          },
+          "VGB": {
+            "max_abs_V": 10.000003453167292,
+            "state_trits": [
+              -1,
+              1,
+              0,
+              1
+            ]
+          }
+        },
+        {
+          "name": "xdut.x_fa.x_ha2.x_t.xxm6",
+          "model": "pmos",
+          "terminals": [
+            "xdut.x_fa.x_ha2.x_t.net5",
+            "xdut.x_fa.s1",
+            "xdut.x_fa.x_ha2.t",
+            "vdd"
+          ],
+          "VDS": {
+            "max_abs_V": 10.317837883680326,
+            "state_trits": [
+              1,
+              -1,
+              0,
+              0
+            ]
+          },
+          "VGS": {
+            "max_abs_V": 10.000003491168,
+            "state_trits": [
+              1,
+              -1,
+              0,
+              1
+            ]
+          },
+          "VDB": {
+            "max_abs_V": 6.86175625701772,
+            "state_trits": [
+              1,
+              0,
+              1,
+              -1
+            ]
+          },
+          "VSB": {
+            "max_abs_V": 10.000004501168,
+            "state_trits": [
+              1,
+              -1,
+              0,
+              1
+            ]
+          },
+          "VGD": {
+            "max_abs_V": 9.99999897,
+            "state_trits": [
+              -1,
+              1,
+              0,
+              -1
+            ]
+          },
+          "VGB": {
+            "max_abs_V": 10.000003453167292,
+            "state_trits": [
+              -1,
+              1,
+              0,
+              1
+            ]
+          }
+        },
+        {
+          "name": "xdut.x_fa.x_ha2.x_t.xxm7",
+          "model": "nmos",
+          "terminals": [
+            "xdut.x_fa.x_ha2.x_t.net5",
+            "cin",
+            "vmid",
+            "vss"
+          ],
+          "VDS": {
+            "max_abs_V": 5.318215960610771,
+            "state_trits": [
+              1,
+              -1,
+              0,
+              0
+            ]
+          },
+          "VGS": {
+            "max_abs_V": 5.0,
+            "state_trits": [
+              -1,
+              -1,
+              -1,
+              -1
+            ]
+          },
+          "VDB": {
+            "max_abs_V": 10.318215960610772,
+            "state_trits": [
+              1,
+              -1,
+              0,
+              0
+            ]
+          },
+          "VSB": {
+            "max_abs_V": 5.0,
+            "state_trits": [
+              -1,
+              -1,
+              -1,
+              -1
+            ]
+          },
+          "VGD": {
+            "max_abs_V": 10.116334084022228,
+            "state_trits": [
+              1,
+              -1,
+              0,
+              -1
+            ]
+          },
+          "VGB": {
+            "max_abs_V": 10.0,
+            "state_trits": [
+              -1,
+              -1,
+              -1,
+              1
+            ]
+          }
+        },
+        {
+          "name": "xdut.x_fa.x_ha2.x_t.xxm8",
+          "model": "pmos",
+          "terminals": [
+            "xdut.x_fa.x_ha2.x_t.net6",
+            "cin",
+            "xdut.x_fa.x_ha2.t",
+            "vdd"
+          ],
+          "VDS": {
+            "max_abs_V": 8.039413124231116,
+            "state_trits": [
+              -1,
+              -1,
+              -1,
+              1
+            ]
+          },
+          "VGS": {
+            "max_abs_V": 10.000004501168,
+            "state_trits": [
+              1,
+              -1,
+              0,
+              1
+            ]
+          },
+          "VDB": {
+            "max_abs_V": 5.000001934656238,
+            "state_trits": [
+              1,
+              0,
+              1,
+              -1
+            ]
+          },
+          "VSB": {
+            "max_abs_V": 10.000004501168,
+            "state_trits": [
+              1,
+              -1,
+              0,
+              1
+            ]
+          },
+          "VGD": {
+            "max_abs_V": 9.999999800000001,
+            "state_trits": [
+              -1,
+              -1,
+              0,
+              -1
+            ]
+          },
+          "VGB": {
+            "max_abs_V": 10.0,
+            "state_trits": [
+              -1,
+              -1,
+              -1,
+              -1
+            ]
+          }
+        },
+        {
+          "name": "xdut.x_fa.x_ha2.x_t.xxm9",
+          "model": "nmos",
+          "terminals": [
+            "xdut.x_fa.x_ha2.x_t.net6",
+            "xdut.x_fa.s1",
+            "vmid",
+            "vss"
+          ],
+          "VDS": {
+            "max_abs_V": 5.36365985980592,
+            "state_trits": [
+              0,
+              1,
+              -1,
+              1
+            ]
+          },
+          "VGS": {
+            "max_abs_V": 5.0000034531672926,
+            "state_trits": [
+              -1,
+              1,
+              0,
+              1
+            ]
+          },
+          "VDB": {
+            "max_abs_V": 10.36365985980592,
+            "state_trits": [
+              0,
+              1,
+              -1,
+              1
+            ]
+          },
+          "VSB": {
+            "max_abs_V": 5.0,
+            "state_trits": [
+              -1,
+              -1,
+              -1,
+              -1
+            ]
+          },
+          "VGD": {
+            "max_abs_V": 10.363663004870237,
+            "state_trits": [
+              -1,
+              1,
+              0,
+              1
+            ]
+          },
+          "VGB": {
+            "max_abs_V": 9.999998999999999,
+            "state_trits": [
+              1,
+              0,
+              0,
+              -1
+            ]
+          }
+        },
+        {
+          "name": "xdut.x_fa.x_ha2.x_u.xxm3",
+          "model": "pmos",
+          "terminals": [
+            "xdut.x_fa.x_ha2.x_u.net2",
+            "xdut.x_fa.x_ha2.t",
+            "xdut.x_fa.x_ha2.x_u.net1",
+            "vdd"
+          ],
+          "VDS": {
+            "max_abs_V": 9.99999944,
+            "state_trits": [
+              -1,
+              0,
+              0,
+              0
+            ]
+          },
+          "VGS": {
+            "max_abs_V": 9.999650460628152,
+            "state_trits": [
+              1,
+              0,
+              1,
+              0
+            ]
+          },
+          "VDB": {
+            "max_abs_V": 9.99999946,
+            "state_trits": [
+              -1,
+              0,
+              0,
+              0
+            ]
+          },
+          "VSB": {
+            "max_abs_V": 4.999999795481569,
+            "state_trits": [
+              -1,
+              -1,
+              -1,
+              1
+            ]
+          },
+          "VGD": {
+            "max_abs_V": 9.99999845,
+            "state_trits": [
+              -1,
+              0,
+              0,
+              0
+            ]
+          },
+          "VGB": {
+            "max_abs_V": 10.000004501168,
+            "state_trits": [
+              1,
+              -1,
+              0,
+              1
+            ]
+          }
+        },
+        {
+          "name": "xdut.x_fa.x_ha2.x_u.xxm2",
+          "model": "nmos",
+          "terminals": [
+            "xdut.x_fa.x_ha2.x_u.net3",
+            "cin",
+            "xdut.x_fa.x_ha2.x_u.net4",
+            "vss"
+          ],
+          "VDS": {
+            "max_abs_V": 9.9999982,
+            "state_trits": [
+              1,
+              -1,
+              0,
+              -1
+            ]
+          },
+          "VGS": {
+            "max_abs_V": 9.999965466345863,
+            "state_trits": [
+              0,
+              -1,
+              1,
+              1
+            ]
+          },
+          "VDB": {
+            "max_abs_V": 9.99999828,
+            "state_trits": [
+              1,
+              -1,
+              0,
+              -1
+            ]
+          },
+          "VSB": {
+            "max_abs_V": 5.000053511965413,
+            "state_trits": [
+              -1,
+              1,
+              -1,
+              1
+            ]
+          },
+          "VGD": {
+            "max_abs_V": 9.99999828,
+            "state_trits": [
+              1,
+              -1,
+              0,
+              -1
+            ]
+          },
+          "VGB": {
+            "max_abs_V": 10.0,
+            "state_trits": [
+              -1,
+              -1,
+              -1,
+              1
+            ]
+          }
+        },
+        {
+          "name": "xdut.x_fa.x_ha2.x_u.xxm1",
+          "model": "nmos",
+          "terminals": [
+            "xdut.x_fa.x_ha2.x_u.net4",
+            "xdut.x_fa.x_ha2.t",
+            "vss",
+            "vss"
+          ],
+          "VDS": {
+            "max_abs_V": 5.000053511965413,
+            "state_trits": [
+              -1,
+              1,
+              -1,
+              1
+            ]
+          },
+          "VGS": {
+            "max_abs_V": 9.99999982,
+            "state_trits": [
+              -1,
+              -1,
+              0,
+              -1
+            ]
+          },
+          "VDB": {
+            "max_abs_V": 5.000053511965413,
+            "state_trits": [
+              -1,
+              1,
+              -1,
+              1
+            ]
+          },
+          "VSB": {
+            "max_abs_V": 0.0,
+            "state_trits": [
+              -1,
+              -1,
+              -1,
+              -1
+            ]
+          },
+          "VGD": {
+            "max_abs_V": 9.99999981,
+            "state_trits": [
+              -1,
+              -1,
+              0,
+              -1
+            ]
+          },
+          "VGB": {
+            "max_abs_V": 9.99999982,
+            "state_trits": [
+              -1,
+              -1,
+              0,
+              -1
+            ]
+          }
+        },
+        {
+          "name": "xdut.x_fa.x_ha2.x_u.xxm5",
+          "model": "pmos",
+          "terminals": [
+            "xdut.x_fa.x_ha2.x_u.net1",
+            "cin",
+            "vdd",
+            "vdd"
+          ],
+          "VDS": {
+            "max_abs_V": 4.999999795481569,
+            "state_trits": [
+              -1,
+              -1,
+              -1,
+              1
+            ]
+          },
+          "VGS": {
+            "max_abs_V": 10.0,
+            "state_trits": [
+              -1,
+              -1,
+              -1,
+              -1
+            ]
+          },
+          "VDB": {
+            "max_abs_V": 4.999999795481569,
+            "state_trits": [
+              -1,
+              -1,
+              -1,
+              1
+            ]
+          },
+          "VSB": {
+            "max_abs_V": 0.0,
+            "state_trits": [
+              -1,
+              -1,
+              -1,
+              -1
+            ]
+          },
+          "VGD": {
+            "max_abs_V": 10.00000002,
+            "state_trits": [
+              -1,
+              1,
+              1,
+              -1
+            ]
+          },
+          "VGB": {
+            "max_abs_V": 10.0,
+            "state_trits": [
+              -1,
+              -1,
+              -1,
+              -1
+            ]
+          }
+        },
+        {
+          "name": "xdut.x_fa.x_ha2.x_u.xxm6",
+          "model": "pmos",
+          "terminals": [
+            "xdut.x_fa.x_ha2.x_u.net5",
+            "cin",
+            "xdut.x_fa.x_ha2.u",
+            "vdd"
+          ],
+          "VDS": {
+            "max_abs_V": 5.364816234611602,
+            "state_trits": [
+              -1,
+              1,
+              -1,
+              1
+            ]
+          },
+          "VGS": {
+            "max_abs_V": 9.99999897,
+            "state_trits": [
+              -1,
+              -1,
+              1,
+              -1
+            ]
+          },
+          "VDB": {
+            "max_abs_V": 5.6290529237068965,
+            "state_trits": [
+              1,
+              1,
+              1,
+              1
+            ]
+          },
+          "VSB": {
+            "max_abs_V": 9.99999962,
+            "state_trits": [
+              -1,
+              0,
+              0,
+              0
+            ]
+          },
+          "VGD": {
+            "max_abs_V": 9.99999896,
+            "state_trits": [
+              -1,
+              -1,
+              1,
+              -1
+            ]
+          },
+          "VGB": {
+            "max_abs_V": 10.0,
+            "state_trits": [
+              -1,
+              -1,
+              -1,
+              -1
+            ]
+          }
+        },
+        {
+          "name": "xdut.x_fa.x_ha2.x_u.xxm7",
+          "model": "nmos",
+          "terminals": [
+            "xdut.x_fa.x_ha2.x_u.net5",
+            "xdut.x_fa.x_ha2.t",
+            "vmid",
+            "vss"
+          ],
+          "VDS": {
+            "max_abs_V": 5.364869757166644,
+            "state_trits": [
+              -1,
+              1,
+              -1,
+              1
+            ]
+          },
+          "VGS": {
+            "max_abs_V": 5.000004501168,
+            "state_trits": [
+              1,
+              -1,
+              0,
+              1
+            ]
+          },
+          "VDB": {
+            "max_abs_V": 10.364869757166645,
+            "state_trits": [
+              -1,
+              1,
+              -1,
+              1
+            ]
+          },
+          "VSB": {
+            "max_abs_V": 5.0,
+            "state_trits": [
+              -1,
+              -1,
+              -1,
+              -1
+            ]
+          },
+          "VGD": {
+            "max_abs_V": 10.364874249637769,
+            "state_trits": [
+              -1,
+              1,
+              -1,
+              1
+            ]
+          },
+          "VGB": {
+            "max_abs_V": 9.99999982,
+            "state_trits": [
+              -1,
+              -1,
+              0,
+              -1
+            ]
+          }
+        },
+        {
+          "name": "xdut.x_fa.x_ha2.x_u.xxm8",
+          "model": "pmos",
+          "terminals": [
+            "xdut.x_fa.x_ha2.x_u.net6",
+            "xdut.x_fa.x_ha2.t",
+            "xdut.x_fa.x_ha2.u",
+            "vdd"
+          ],
+          "VDS": {
+            "max_abs_V": 10.301399658193537,
+            "state_trits": [
+              1,
+              -1,
+              -1,
+              0
+            ]
+          },
+          "VGS": {
+            "max_abs_V": 9.999998609999999,
+            "state_trits": [
+              -1,
+              0,
+              0,
+              0
+            ]
+          },
+          "VDB": {
+            "max_abs_V": 5.900407572285238,
+            "state_trits": [
+              -1,
+              1,
+              1,
+              0
+            ]
+          },
+          "VSB": {
+            "max_abs_V": 9.99999962,
+            "state_trits": [
+              -1,
+              0,
+              0,
+              0
+            ]
+          },
+          "VGD": {
+            "max_abs_V": 9.999505369420833,
+            "state_trits": [
+              1,
+              0,
+              1,
+              0
+            ]
+          },
+          "VGB": {
+            "max_abs_V": 10.000004501168,
+            "state_trits": [
+              1,
+              -1,
+              0,
+              1
+            ]
+          }
+        },
+        {
+          "name": "xdut.x_fa.x_ha2.x_u.xxm9",
+          "model": "nmos",
+          "terminals": [
+            "xdut.x_fa.x_ha2.x_u.net6",
+            "cin",
+            "vmid",
+            "vss"
+          ],
+          "VDS": {
+            "max_abs_V": 5.3014324011689915,
+            "state_trits": [
+              1,
+              -1,
+              -1,
+              0
+            ]
+          },
+          "VGS": {
+            "max_abs_V": 5.0,
+            "state_trits": [
+              -1,
+              -1,
+              -1,
+              -1
+            ]
+          },
+          "VDB": {
+            "max_abs_V": 10.301432401168992,
+            "state_trits": [
+              1,
+              -1,
+              -1,
+              0
+            ]
+          },
+          "VSB": {
+            "max_abs_V": 5.0,
+            "state_trits": [
+              -1,
+              -1,
+              -1,
+              -1
+            ]
+          },
+          "VGD": {
+            "max_abs_V": 10.08860573570534,
+            "state_trits": [
+              1,
+              -1,
+              -1,
+              -1
+            ]
+          },
+          "VGB": {
+            "max_abs_V": 10.0,
+            "state_trits": [
+              -1,
+              -1,
+              -1,
+              1
+            ]
+          }
+        },
+        {
+          "name": "xdut.x_fa.x_ha2.x_na.xxm1",
+          "model": "pmos",
+          "terminals": [
+            "xdut.x_fa.x_ha2.x_na.net1",
+            "xdut.x_fa.s1",
+            "vdd",
+            "vdd"
+          ],
+          "VDS": {
+            "max_abs_V": 9.99999995,
+            "state_trits": [
+              1,
+              0,
+              0,
+              -1
+            ]
+          },
+          "VGS": {
+            "max_abs_V": 10.000003453167292,
+            "state_trits": [
+              -1,
+              1,
+              0,
+              1
+            ]
+          },
+          "VDB": {
+            "max_abs_V": 9.99999995,
+            "state_trits": [
+              1,
+              0,
+              0,
+              -1
+            ]
+          },
+          "VSB": {
+            "max_abs_V": 0.0,
+            "state_trits": [
+              -1,
+              -1,
+              -1,
+              -1
+            ]
+          },
+          "VGD": {
+            "max_abs_V": 10.000003383167293,
+            "state_trits": [
+              -1,
+              1,
+              0,
+              1
+            ]
+          },
+          "VGB": {
+            "max_abs_V": 10.000003453167292,
+            "state_trits": [
+              -1,
+              1,
+              0,
+              1
+            ]
+          }
+        },
+        {
+          "name": "xdut.x_fa.x_ha2.x_na.xxm2",
+          "model": "nmos",
+          "terminals": [
+            "xdut.x_fa.x_ha2.x_na.net2",
+            "xdut.x_fa.s1",
+            "vss",
+            "vss"
+          ],
+          "VDS": {
+            "max_abs_V": 9.99999909,
+            "state_trits": [
+              -1,
+              -1,
+              0,
+              1
+            ]
+          },
+          "VGS": {
+            "max_abs_V": 9.999998999999999,
+            "state_trits": [
+              1,
+              0,
+              0,
+              -1
+            ]
+          },
+          "VDB": {
+            "max_abs_V": 9.99999909,
+            "state_trits": [
+              -1,
+              -1,
+              0,
+              1
+            ]
+          },
+          "VSB": {
+            "max_abs_V": 0.0,
+            "state_trits": [
+              -1,
+              -1,
+              -1,
+              -1
+            ]
+          },
+          "VGD": {
+            "max_abs_V": 10.000002523167293,
+            "state_trits": [
+              -1,
+              1,
+              0,
+              1
+            ]
+          },
+          "VGB": {
+            "max_abs_V": 9.999998999999999,
+            "state_trits": [
+              1,
+              0,
+              0,
+              -1
+            ]
+          }
+        },
+        {
+          "name": "xdut.x_fa.x_ha2.x_c.xxm3",
+          "model": "pmos",
+          "terminals": [
+            "xdut.x_fa.x_ha2.x_c.net2",
+            "xdut.x_fa.x_ha2.u",
+            "xdut.x_fa.x_ha2.x_c.net1",
+            "vdd"
+          ],
+          "VDS": {
+            "max_abs_V": 6.553929240923342,
+            "state_trits": [
+              1,
+              1,
+              1,
+              -1
+            ]
+          },
+          "VGS": {
+            "max_abs_V": 4.999992881669869,
+            "state_trits": [
+              -1,
+              0,
+              0,
+              0
+            ]
+          },
+          "VDB": {
+            "max_abs_V": 9.999394511617663,
+            "state_trits": [
+              -1,
+              0,
+              1,
+              -1
+            ]
+          },
+          "VSB": {
+            "max_abs_V": 5.000018791429697,
+            "state_trits": [
+              0,
+              -1,
+              1,
+              1
+            ]
+          },
+          "VGD": {
+            "max_abs_V": 5.000019041024417,
+            "state_trits": [
+              1,
+              0,
+              1,
+              -1
+            ]
+          },
+          "VGB": {
+            "max_abs_V": 9.99999962,
+            "state_trits": [
+              -1,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "name": "xdut.x_fa.x_ha2.x_c.xxm2",
+          "model": "nmos",
+          "terminals": [
+            "xdut.x_fa.x_ha2.x_c.net3",
+            "xdut.x_fa.x_ha2.na",
+            "xdut.x_fa.x_ha2.x_c.net4",
+            "vss"
+          ],
+          "VDS": {
+            "max_abs_V": 9.99999752,
+            "state_trits": [
+              -1,
+              1,
+              -1,
+              1
+            ]
+          },
+          "VGS": {
+            "max_abs_V": 9.999912717207781,
+            "state_trits": [
+              -1,
+              0,
+              1,
+              -1
+            ]
+          },
+          "VDB": {
+            "max_abs_V": 9.9999976,
+            "state_trits": [
+              -1,
+              1,
+              -1,
+              1
+            ]
+          },
+          "VSB": {
+            "max_abs_V": 4.999999947586221,
+            "state_trits": [
+              1,
+              1,
+              1,
+              0
+            ]
+          },
+          "VGD": {
+            "max_abs_V": 9.999997400000002,
+            "state_trits": [
+              -1,
+              1,
+              -1,
+              1
+            ]
+          },
+          "VGB": {
+            "max_abs_V": 9.99999953,
+            "state_trits": [
+              -1,
+              -1,
+              0,
+              1
+            ]
+          }
+        },
+        {
+          "name": "xdut.x_fa.x_ha2.x_c.xxm1",
+          "model": "nmos",
+          "terminals": [
+            "xdut.x_fa.x_ha2.x_c.net4",
+            "xdut.x_fa.x_ha2.u",
+            "vss",
+            "vss"
+          ],
+          "VDS": {
+            "max_abs_V": 4.999999947586221,
+            "state_trits": [
+              1,
+              1,
+              1,
+              0
+            ]
+          },
+          "VGS": {
+            "max_abs_V": 9.99999897,
+            "state_trits": [
+              -1,
+              -1,
+              1,
+              -1
+            ]
+          },
+          "VDB": {
+            "max_abs_V": 4.999999947586221,
+            "state_trits": [
+              1,
+              1,
+              1,
+              0
+            ]
+          },
+          "VSB": {
+            "max_abs_V": 0.0,
+            "state_trits": [
+              -1,
+              -1,
+              -1,
+              -1
+            ]
+          },
+          "VGD": {
+            "max_abs_V": 9.99999896,
+            "state_trits": [
+              -1,
+              -1,
+              1,
+              -1
+            ]
+          },
+          "VGB": {
+            "max_abs_V": 9.99999897,
+            "state_trits": [
+              -1,
+              -1,
+              1,
+              -1
+            ]
+          }
+        },
+        {
+          "name": "xdut.x_fa.x_ha2.x_c.xxm5",
+          "model": "pmos",
+          "terminals": [
+            "xdut.x_fa.x_ha2.x_c.net1",
+            "xdut.x_fa.x_ha2.na",
+            "vdd",
+            "vdd"
+          ],
+          "VDS": {
+            "max_abs_V": 5.000018791429697,
+            "state_trits": [
+              0,
+              -1,
+              1,
+              1
+            ]
+          },
+          "VGS": {
+            "max_abs_V": 10.00000008,
+            "state_trits": [
+              1,
+              0,
+              0,
+              -1
+            ]
+          },
+          "VDB": {
+            "max_abs_V": 5.000018791429697,
+            "state_trits": [
+              0,
+              -1,
+              1,
+              1
+            ]
+          },
+          "VSB": {
+            "max_abs_V": 0.0,
+            "state_trits": [
+              -1,
+              -1,
+              -1,
+              -1
+            ]
+          },
+          "VGD": {
+            "max_abs_V": 10.00000007,
+            "state_trits": [
+              1,
+              0,
+              0,
+              -1
+            ]
+          },
+          "VGB": {
+            "max_abs_V": 10.00000008,
+            "state_trits": [
+              1,
+              0,
+              0,
+              -1
+            ]
+          }
+        },
+        {
+          "name": "xdut.x_fa.x_ha2.x_c.xxm6",
+          "model": "pmos",
+          "terminals": [
+            "xdut.x_fa.x_ha2.x_c.net5",
+            "xdut.x_fa.x_ha2.na",
+            "xdut.x_fa.c2",
+            "vdd"
+          ],
+          "VDS": {
+            "max_abs_V": 5.341280281964545,
+            "state_trits": [
+              -1,
+              -1,
+              0,
+              -1
+            ]
+          },
+          "VGS": {
+            "max_abs_V": 9.9999981,
+            "state_trits": [
+              -1,
+              1,
+              -1,
+              1
+            ]
+          },
+          "VDB": {
+            "max_abs_V": 6.29728660063394,
+            "state_trits": [
+              1,
+              -1,
+              -1,
+              0
+            ]
+          },
+          "VSB": {
+            "max_abs_V": 9.999646099761396,
+            "state_trits": [
+              -1,
+              0,
+              1,
+              -1
+            ]
+          },
+          "VGD": {
+            "max_abs_V": 9.999998080000001,
+            "state_trits": [
+              -1,
+              -1,
+              1,
+              1
+            ]
+          },
+          "VGB": {
+            "max_abs_V": 10.00000008,
+            "state_trits": [
+              1,
+              0,
+              0,
+              -1
+            ]
+          }
+        },
+        {
+          "name": "xdut.x_fa.x_ha2.x_c.xxm7",
+          "model": "nmos",
+          "terminals": [
+            "xdut.x_fa.x_ha2.x_c.net5",
+            "xdut.x_fa.x_ha2.u",
+            "vmid",
+            "vss"
+          ],
+          "VDS": {
+            "max_abs_V": 4.99999828,
+            "state_trits": [
+              -1,
+              -1,
+              1,
+              1
+            ]
+          },
+          "VGS": {
+            "max_abs_V": 4.99999962,
+            "state_trits": [
+              -1,
+              0,
+              0,
+              0
+            ]
+          },
+          "VDB": {
+            "max_abs_V": 9.99999828,
+            "state_trits": [
+              -1,
+              -1,
+              1,
+              1
+            ]
+          },
+          "VSB": {
+            "max_abs_V": 5.0,
+            "state_trits": [
+              -1,
+              -1,
+              -1,
+              -1
+            ]
+          },
+          "VGD": {
+            "max_abs_V": 5.000003573108177,
+            "state_trits": [
+              1,
+              0,
+              1,
+              -1
+            ]
+          },
+          "VGB": {
+            "max_abs_V": 9.99999897,
+            "state_trits": [
+              -1,
+              -1,
+              1,
+              -1
+            ]
+          }
+        },
+        {
+          "name": "xdut.x_fa.x_ha2.x_c.xxm8",
+          "model": "pmos",
+          "terminals": [
+            "xdut.x_fa.x_ha2.x_c.net6",
+            "xdut.x_fa.x_ha2.u",
+            "xdut.x_fa.c2",
+            "vdd"
+          ],
+          "VDS": {
+            "max_abs_V": 5.22464941662288,
+            "state_trits": [
+              1,
+              0,
+              0,
+              -1
+            ]
+          },
+          "VGS": {
+            "max_abs_V": 5.000019068924361,
+            "state_trits": [
+              1,
+              0,
+              1,
+              -1
+            ]
+          },
+          "VDB": {
+            "max_abs_V": 5.7108559347108,
+            "state_trits": [
+              -1,
+              -1,
+              -1,
+              -1
+            ]
+          },
+          "VSB": {
+            "max_abs_V": 9.999646099761396,
+            "state_trits": [
+              -1,
+              0,
+              1,
+              -1
+            ]
+          },
+          "VGD": {
+            "max_abs_V": 5.435546874138925,
+            "state_trits": [
+              1,
+              -1,
+              0,
+              -1
+            ]
+          },
+          "VGB": {
+            "max_abs_V": 9.99999962,
+            "state_trits": [
+              -1,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "name": "xdut.x_fa.x_ha2.x_c.xxm9",
+          "model": "nmos",
+          "terminals": [
+            "xdut.x_fa.x_ha2.x_c.net6",
+            "xdut.x_fa.x_ha2.na",
+            "vmid",
+            "vss"
+          ],
+          "VDS": {
+            "max_abs_V": 5.2246277026177435,
+            "state_trits": [
+              1,
+              0,
+              0,
+              -1
+            ]
+          },
+          "VGS": {
+            "max_abs_V": 5.00000008,
+            "state_trits": [
+              1,
+              0,
+              0,
+              -1
+            ]
+          },
+          "VDB": {
+            "max_abs_V": 10.224627702617743,
+            "state_trits": [
+              1,
+              0,
+              0,
+              -1
+            ]
+          },
+          "VSB": {
+            "max_abs_V": 5.0,
+            "state_trits": [
+              -1,
+              -1,
+              -1,
+              -1
+            ]
+          },
+          "VGD": {
+            "max_abs_V": 10.224627782617745,
+            "state_trits": [
+              1,
+              0,
+              0,
+              -1
+            ]
+          },
+          "VGB": {
+            "max_abs_V": 9.99999953,
+            "state_trits": [
+              -1,
+              -1,
+              0,
+              1
+            ]
+          }
+        },
+        {
+          "name": "xdut.x_fa.x_ha2.x_d.xxm3",
+          "model": "pmos",
+          "terminals": [
+            "xdut.x_fa.x_ha2.x_d.net2",
+            "xdut.x_fa.c2",
+            "xdut.x_fa.x_ha2.x_d.net1",
+            "vdd"
+          ],
+          "VDS": {
+            "max_abs_V": 6.17420685,
+            "state_trits": [
+              -1,
+              -1,
+              -1,
+              -1
+            ]
+          },
+          "VGS": {
+            "max_abs_V": 5.002579336481973,
+            "state_trits": [
+              -1,
+              1,
+              1,
+              1
+            ]
+          },
+          "VDB": {
+            "max_abs_V": 9.99999985,
+            "state_trits": [
+              0,
+              -1,
+              0,
+              -1
+            ]
+          },
+          "VSB": {
+            "max_abs_V": 5.000005524989213,
+            "state_trits": [
+              -1,
+              0,
+              -1,
+              -1
+            ]
+          },
+          "VGD": {
+            "max_abs_V": 5.0025792364819734,
+            "state_trits": [
+              -1,
+              1,
+              1,
+              1
+            ]
+          },
+          "VGB": {
+            "max_abs_V": 9.999646099761396,
+            "state_trits": [
+              -1,
+              0,
+              1,
+              -1
+            ]
+          }
+        },
+        {
+          "name": "xdut.x_fa.x_ha2.x_d.xxm2",
+          "model": "nmos",
+          "terminals": [
+            "xdut.x_fa.x_ha2.x_d.net3",
+            "xdut.x_fa.x_ha2.t",
+            "xdut.x_fa.x_ha2.x_d.net4",
+            "vss"
+          ],
+          "VDS": {
+            "max_abs_V": 9.9999982,
+            "state_trits": [
+              -1,
+              -1,
+              -1,
+              1
+            ]
+          },
+          "VGS": {
+            "max_abs_V": 9.9999996,
+            "state_trits": [
+              -1,
+              -1,
+              -1,
+              -1
+            ]
+          },
+          "VDB": {
+            "max_abs_V": 9.99999828,
+            "state_trits": [
+              -1,
+              -1,
+              -1,
+              1
+            ]
+          },
+          "VSB": {
+            "max_abs_V": 4.99999854730915,
+            "state_trits": [
+              -1,
+              0,
+              1,
+              -1
+            ]
+          },
+          "VGD": {
+            "max_abs_V": 9.99999958,
+            "state_trits": [
+              -1,
+              -1,
+              -1,
+              -1
+            ]
+          },
+          "VGB": {
+            "max_abs_V": 9.99999982,
+            "state_trits": [
+              -1,
+              -1,
+              0,
+              -1
+            ]
+          }
+        },
+        {
+          "name": "xdut.x_fa.x_ha2.x_d.xxm1",
+          "model": "nmos",
+          "terminals": [
+            "xdut.x_fa.x_ha2.x_d.net4",
+            "xdut.x_fa.c2",
+            "vss",
+            "vss"
+          ],
+          "VDS": {
+            "max_abs_V": 4.99999854730915,
+            "state_trits": [
+              -1,
+              0,
+              1,
+              -1
+            ]
+          },
+          "VGS": {
+            "max_abs_V": 9.9999983,
+            "state_trits": [
+              -1,
+              1,
+              -1,
+              1
+            ]
+          },
+          "VDB": {
+            "max_abs_V": 4.99999854730915,
+            "state_trits": [
+              -1,
+              0,
+              1,
+              -1
+            ]
+          },
+          "VSB": {
+            "max_abs_V": 0.0,
+            "state_trits": [
+              -1,
+              -1,
+              -1,
+              -1
+            ]
+          },
+          "VGD": {
+            "max_abs_V": 9.99999829,
+            "state_trits": [
+              -1,
+              1,
+              -1,
+              1
+            ]
+          },
+          "VGB": {
+            "max_abs_V": 9.9999983,
+            "state_trits": [
+              -1,
+              1,
+              -1,
+              1
+            ]
+          }
+        },
+        {
+          "name": "xdut.x_fa.x_ha2.x_d.xxm5",
+          "model": "pmos",
+          "terminals": [
+            "xdut.x_fa.x_ha2.x_d.net1",
+            "xdut.x_fa.x_ha2.t",
+            "vdd",
+            "vdd"
+          ],
+          "VDS": {
+            "max_abs_V": 5.000005524989213,
+            "state_trits": [
+              -1,
+              0,
+              -1,
+              -1
+            ]
+          },
+          "VGS": {
+            "max_abs_V": 10.000004501168,
+            "state_trits": [
+              1,
+              -1,
+              0,
+              1
+            ]
+          },
+          "VDB": {
+            "max_abs_V": 5.000005524989213,
+            "state_trits": [
+              -1,
+              0,
+              -1,
+              -1
+            ]
+          },
+          "VSB": {
+            "max_abs_V": 0.0,
+            "state_trits": [
+              -1,
+              -1,
+              -1,
+              -1
+            ]
+          },
+          "VGD": {
+            "max_abs_V": 10.000004491168,
+            "state_trits": [
+              1,
+              -1,
+              0,
+              1
+            ]
+          },
+          "VGB": {
+            "max_abs_V": 10.000004501168,
+            "state_trits": [
+              1,
+              -1,
+              0,
+              1
+            ]
+          }
+        },
+        {
+          "name": "xdut.x_fa.x_ha2.x_d.xxm6",
+          "model": "pmos",
+          "terminals": [
+            "xdut.x_fa.x_ha2.x_d.net5",
+            "xdut.x_fa.x_ha2.t",
+            "xdut.x_fa.x_ha2.d",
+            "vdd"
+          ],
+          "VDS": {
+            "max_abs_V": 8.867473034028311,
+            "state_trits": [
+              0,
+              0,
+              1,
+              -1
+            ]
+          },
+          "VGS": {
+            "max_abs_V": 9.99999932,
+            "state_trits": [
+              -1,
+              -1,
+              -1,
+              -1
+            ]
+          },
+          "VDB": {
+            "max_abs_V": 5.808437793165065,
+            "state_trits": [
+              -1,
+              -1,
+              -1,
+              0
+            ]
+          },
+          "VSB": {
+            "max_abs_V": 9.99999987,
+            "state_trits": [
+              0,
+              -1,
+              0,
+              -1
+            ]
+          },
+          "VGD": {
+            "max_abs_V": 9.99999865,
+            "state_trits": [
+              0,
+              -1,
+              0,
+              1
+            ]
+          },
+          "VGB": {
+            "max_abs_V": 10.000004501168,
+            "state_trits": [
+              1,
+              -1,
+              0,
+              1
+            ]
+          }
+        },
+        {
+          "name": "xdut.x_fa.x_ha2.x_d.xxm7",
+          "model": "nmos",
+          "terminals": [
+            "xdut.x_fa.x_ha2.x_d.net5",
+            "xdut.x_fa.c2",
+            "vmid",
+            "vss"
+          ],
+          "VDS": {
+            "max_abs_V": 4.99999896,
+            "state_trits": [
+              -1,
+              -1,
+              -1,
+              1
+            ]
+          },
+          "VGS": {
+            "max_abs_V": 4.9999983,
+            "state_trits": [
+              -1,
+              1,
+              -1,
+              1
+            ]
+          },
+          "VDB": {
+            "max_abs_V": 9.99999896,
+            "state_trits": [
+              -1,
+              -1,
+              -1,
+              1
+            ]
+          },
+          "VSB": {
+            "max_abs_V": 5.0,
+            "state_trits": [
+              -1,
+              -1,
+              -1,
+              -1
+            ]
+          },
+          "VGD": {
+            "max_abs_V": 8.48858352646961,
+            "state_trits": [
+              -1,
+              -1,
+              0,
+              -1
+            ]
+          },
+          "VGB": {
+            "max_abs_V": 9.9999983,
+            "state_trits": [
+              -1,
+              1,
+              -1,
+              1
+            ]
+          }
+        },
+        {
+          "name": "xdut.x_fa.x_ha2.x_d.xxm8",
+          "model": "pmos",
+          "terminals": [
+            "xdut.x_fa.x_ha2.x_d.net6",
+            "xdut.x_fa.c2",
+            "xdut.x_fa.x_ha2.d",
+            "vdd"
+          ],
+          "VDS": {
+            "max_abs_V": 4.999999860249288,
+            "state_trits": [
+              0,
+              -1,
+              0,
+              -1
+            ]
+          },
+          "VGS": {
+            "max_abs_V": 5.002578386481973,
+            "state_trits": [
+              -1,
+              1,
+              1,
+              1
+            ]
+          },
+          "VDB": {
+            "max_abs_V": 5.942073072419189,
+            "state_trits": [
+              1,
+              0,
+              -1,
+              -1
+            ]
+          },
+          "VSB": {
+            "max_abs_V": 9.99999987,
+            "state_trits": [
+              0,
+              -1,
+              0,
+              -1
+            ]
+          },
+          "VGD": {
+            "max_abs_V": 5.002578366481973,
+            "state_trits": [
+              -1,
+              1,
+              1,
+              1
+            ]
+          },
+          "VGB": {
+            "max_abs_V": 9.999646099761396,
+            "state_trits": [
+              -1,
+              0,
+              1,
+              -1
+            ]
+          }
+        },
+        {
+          "name": "xdut.x_fa.x_ha2.x_d.xxm9",
+          "model": "nmos",
+          "terminals": [
+            "xdut.x_fa.x_ha2.x_d.net6",
+            "xdut.x_fa.x_ha2.t",
+            "vmid",
+            "vss"
+          ],
+          "VDS": {
+            "max_abs_V": 4.99999896,
+            "state_trits": [
+              0,
+              0,
+              -1,
+              1
+            ]
+          },
+          "VGS": {
+            "max_abs_V": 5.000004501168,
+            "state_trits": [
+              1,
+              -1,
+              0,
+              1
+            ]
+          },
+          "VDB": {
+            "max_abs_V": 9.99999896,
+            "state_trits": [
+              0,
+              0,
+              -1,
+              1
+            ]
+          },
+          "VSB": {
+            "max_abs_V": 5.0,
+            "state_trits": [
+              -1,
+              -1,
+              -1,
+              -1
+            ]
+          },
+          "VGD": {
+            "max_abs_V": 9.999998640000001,
+            "state_trits": [
+              0,
+              -1,
+              0,
+              1
+            ]
+          },
+          "VGB": {
+            "max_abs_V": 9.99999982,
+            "state_trits": [
+              -1,
+              -1,
+              0,
+              -1
+            ]
+          }
+        },
+        {
+          "name": "xdut.x_fa.x_ha2.x_nd.xxm1",
+          "model": "pmos",
+          "terminals": [
+            "xdut.x_fa.x_ha2.x_nd.net1",
+            "xdut.x_fa.x_ha2.d",
+            "vdd",
+            "vdd"
+          ],
+          "VDS": {
+            "max_abs_V": 9.99999968,
+            "state_trits": [
+              -1,
+              -1,
+              -1,
+              1
+            ]
+          },
+          "VGS": {
+            "max_abs_V": 9.99999987,
+            "state_trits": [
+              0,
+              -1,
+              0,
+              -1
+            ]
+          },
+          "VDB": {
+            "max_abs_V": 9.99999968,
+            "state_trits": [
+              -1,
+              -1,
+              -1,
+              1
+            ]
+          },
+          "VSB": {
+            "max_abs_V": 0.0,
+            "state_trits": [
+              -1,
+              -1,
+              -1,
+              -1
+            ]
+          },
+          "VGD": {
+            "max_abs_V": 9.99999972,
+            "state_trits": [
+              1,
+              -1,
+              -1,
+              0
+            ]
+          },
+          "VGB": {
+            "max_abs_V": 9.99999987,
+            "state_trits": [
+              0,
+              -1,
+              0,
+              -1
+            ]
+          }
+        },
+        {
+          "name": "xdut.x_fa.x_ha2.x_nd.xxm2",
+          "model": "nmos",
+          "terminals": [
+            "xdut.x_fa.x_ha2.x_nd.net2",
+            "xdut.x_fa.x_ha2.d",
+            "vss",
+            "vss"
+          ],
+          "VDS": {
+            "max_abs_V": 9.99999902,
+            "state_trits": [
+              -1,
+              -1,
+              -1,
+              -1
+            ]
+          },
+          "VGS": {
+            "max_abs_V": 9.99999897,
+            "state_trits": [
+              -1,
+              -1,
+              -1,
+              1
+            ]
+          },
+          "VDB": {
+            "max_abs_V": 9.99999902,
+            "state_trits": [
+              -1,
+              -1,
+              -1,
+              -1
+            ]
+          },
+          "VSB": {
+            "max_abs_V": 0.0,
+            "state_trits": [
+              -1,
+              -1,
+              -1,
+              -1
+            ]
+          },
+          "VGD": {
+            "max_abs_V": 9.999998940000001,
+            "state_trits": [
+              -1,
+              -1,
+              -1,
+              1
+            ]
+          },
+          "VGB": {
+            "max_abs_V": 9.99999897,
+            "state_trits": [
+              -1,
+              -1,
+              -1,
+              1
+            ]
+          }
+        },
+        {
+          "name": "xdut.x_fa.x_ha2.x_s.xxm3",
+          "model": "pmos",
+          "terminals": [
+            "xdut.x_fa.x_ha2.x_s.net2",
+            "xdut.x_fa.c2",
+            "xdut.x_fa.x_ha2.x_s.net1",
+            "vdd"
+          ],
+          "VDS": {
+            "max_abs_V": 9.999997881235563,
+            "state_trits": [
+              -1,
+              1,
+              -1,
+              1
+            ]
+          },
+          "VGS": {
+            "max_abs_V": 9.999631773249536,
+            "state_trits": [
+              -1,
+              0,
+              1,
+              -1
+            ]
+          },
+          "VDB": {
+            "max_abs_V": 9.99999969,
+            "state_trits": [
+              -1,
+              -1,
+              0,
+              0
+            ]
+          },
+          "VSB": {
+            "max_abs_V": 3.9017854966297,
+            "state_trits": [
+              -1,
+              1,
+              0,
+              0
+            ]
+          },
+          "VGD": {
+            "max_abs_V": 9.9999962,
+            "state_trits": [
+              -1,
+              1,
+              -1,
+              1
+            ]
+          },
+          "VGB": {
+            "max_abs_V": 9.999646099761396,
+            "state_trits": [
+              -1,
+              0,
+              1,
+              -1
+            ]
+          }
+        },
+        {
+          "name": "xdut.x_fa.x_ha2.x_s.xxm2",
+          "model": "nmos",
+          "terminals": [
+            "xdut.x_fa.x_ha2.x_s.net3",
+            "xdut.x_fa.x_ha2.nd",
+            "xdut.x_fa.x_ha2.x_s.net4",
+            "vss"
+          ],
+          "VDS": {
+            "max_abs_V": 9.9999982,
+            "state_trits": [
+              -1,
+              -1,
+              -1,
+              1
+            ]
+          },
+          "VGS": {
+            "max_abs_V": 9.9999994469865,
+            "state_trits": [
+              -1,
+              1,
+              0,
+              0
+            ]
+          },
+          "VDB": {
+            "max_abs_V": 9.99999828,
+            "state_trits": [
+              -1,
+              -1,
+              -1,
+              1
+            ]
+          },
+          "VSB": {
+            "max_abs_V": 3.70647572601563,
+            "state_trits": [
+              -1,
+              0,
+              1,
+              -1
+            ]
+          },
+          "VGD": {
+            "max_abs_V": 9.9999994,
+            "state_trits": [
+              -1,
+              -1,
+              -1,
+              -1
+            ]
+          },
+          "VGB": {
+            "max_abs_V": 9.99999946,
+            "state_trits": [
+              -1,
+              -1,
+              -1,
+              -1
+            ]
+          }
+        },
+        {
+          "name": "xdut.x_fa.x_ha2.x_s.xxm1",
+          "model": "nmos",
+          "terminals": [
+            "xdut.x_fa.x_ha2.x_s.net4",
+            "xdut.x_fa.c2",
+            "vss",
+            "vss"
+          ],
+          "VDS": {
+            "max_abs_V": 3.70647572601563,
+            "state_trits": [
+              -1,
+              0,
+              1,
+              -1
+            ]
+          },
+          "VGS": {
+            "max_abs_V": 9.9999983,
+            "state_trits": [
+              -1,
+              1,
+              -1,
+              1
+            ]
+          },
+          "VDB": {
+            "max_abs_V": 3.70647572601563,
+            "state_trits": [
+              -1,
+              0,
+              1,
+              -1
+            ]
+          },
+          "VSB": {
+            "max_abs_V": 0.0,
+            "state_trits": [
+              -1,
+              -1,
+              -1,
+              -1
+            ]
+          },
+          "VGD": {
+            "max_abs_V": 9.9999981396306,
+            "state_trits": [
+              -1,
+              -1,
+              1,
+              1
+            ]
+          },
+          "VGB": {
+            "max_abs_V": 9.9999983,
+            "state_trits": [
+              -1,
+              1,
+              -1,
+              1
+            ]
+          }
+        },
+        {
+          "name": "xdut.x_fa.x_ha2.x_s.xxm5",
+          "model": "pmos",
+          "terminals": [
+            "xdut.x_fa.x_ha2.x_s.net1",
+            "xdut.x_fa.x_ha2.nd",
+            "vdd",
+            "vdd"
+          ],
+          "VDS": {
+            "max_abs_V": 3.9017854966297,
+            "state_trits": [
+              -1,
+              1,
+              0,
+              0
+            ]
+          },
+          "VGS": {
+            "max_abs_V": 9.99999981,
+            "state_trits": [
+              -1,
+              -1,
+              -1,
+              1
+            ]
+          },
+          "VDB": {
+            "max_abs_V": 3.9017854966297,
+            "state_trits": [
+              -1,
+              1,
+              0,
+              0
+            ]
+          },
+          "VSB": {
+            "max_abs_V": 0.0,
+            "state_trits": [
+              -1,
+              -1,
+              -1,
+              -1
+            ]
+          },
+          "VGD": {
+            "max_abs_V": 9.999999729999999,
+            "state_trits": [
+              -1,
+              -1,
+              -1,
+              1
+            ]
+          },
+          "VGB": {
+            "max_abs_V": 9.99999981,
+            "state_trits": [
+              -1,
+              -1,
+              -1,
+              1
+            ]
+          }
+        },
+        {
+          "name": "xdut.x_fa.x_ha2.x_s.xxm6",
+          "model": "pmos",
+          "terminals": [
+            "xdut.x_fa.x_ha2.x_s.net5",
+            "xdut.x_fa.x_ha2.nd",
+            "sum",
+            "vdd"
+          ],
+          "VDS": {
+            "max_abs_V": 9.466122344629547,
+            "state_trits": [
+              1,
+              1,
+              1,
+              0
+            ]
+          },
+          "VGS": {
+            "max_abs_V": 9.999999229915499,
+            "state_trits": [
+              -1,
+              -1,
+              0,
+              0
+            ]
+          },
+          "VDB": {
+            "max_abs_V": 6.183768830855901,
+            "state_trits": [
+              1,
+              0,
+              1,
+              -1
+            ]
+          },
+          "VSB": {
+            "max_abs_V": 9.999999769999999,
+            "state_trits": [
+              -1,
+              -1,
+              0,
+              0
+            ]
+          },
+          "VGD": {
+            "max_abs_V": 9.999998770000001,
+            "state_trits": [
+              -1,
+              -1,
+              -1,
+              1
+            ]
+          },
+          "VGB": {
+            "max_abs_V": 9.99999981,
+            "state_trits": [
+              -1,
+              -1,
+              -1,
+              1
+            ]
+          }
+        },
+        {
+          "name": "xdut.x_fa.x_ha2.x_s.xxm7",
+          "model": "nmos",
+          "terminals": [
+            "xdut.x_fa.x_ha2.x_s.net5",
+            "xdut.x_fa.c2",
+            "vmid",
+            "vss"
+          ],
+          "VDS": {
+            "max_abs_V": 4.99999896,
+            "state_trits": [
+              -1,
+              -1,
+              -1,
+              1
+            ]
+          },
+          "VGS": {
+            "max_abs_V": 4.9999983,
+            "state_trits": [
+              -1,
+              1,
+              -1,
+              1
+            ]
+          },
+          "VDB": {
+            "max_abs_V": 9.99999896,
+            "state_trits": [
+              -1,
+              -1,
+              -1,
+              1
+            ]
+          },
+          "VSB": {
+            "max_abs_V": 5.0,
+            "state_trits": [
+              -1,
+              -1,
+              -1,
+              -1
+            ]
+          },
+          "VGD": {
+            "max_abs_V": 9.999504338363865,
+            "state_trits": [
+              -1,
+              0,
+              1,
+              -1
+            ]
+          },
+          "VGB": {
+            "max_abs_V": 9.9999983,
+            "state_trits": [
+              -1,
+              1,
+              -1,
+              1
+            ]
+          }
+        },
+        {
+          "name": "xdut.x_fa.x_ha2.x_s.xxm8",
+          "model": "pmos",
+          "terminals": [
+            "xdut.x_fa.x_ha2.x_s.net6",
+            "xdut.x_fa.c2",
+            "sum",
+            "vdd"
+          ],
+          "VDS": {
+            "max_abs_V": 10.188029561572053,
+            "state_trits": [
+              1,
+              0,
+              0,
+              1
+            ]
+          },
+          "VGS": {
+            "max_abs_V": 9.99999636,
+            "state_trits": [
+              -1,
+              1,
+              -1,
+              1
+            ]
+          },
+          "VDB": {
+            "max_abs_V": 5.834915802519559,
+            "state_trits": [
+              1,
+              0,
+              1,
+              -1
+            ]
+          },
+          "VSB": {
+            "max_abs_V": 9.999999769999999,
+            "state_trits": [
+              -1,
+              -1,
+              0,
+              0
+            ]
+          },
+          "VGD": {
+            "max_abs_V": 9.999504318363865,
+            "state_trits": [
+              -1,
+              0,
+              1,
+              -1
+            ]
+          },
+          "VGB": {
+            "max_abs_V": 9.999646099761396,
+            "state_trits": [
+              -1,
+              0,
+              1,
+              -1
+            ]
+          }
+        },
+        {
+          "name": "xdut.x_fa.x_ha2.x_s.xxm9",
+          "model": "nmos",
+          "terminals": [
+            "xdut.x_fa.x_ha2.x_s.net6",
+            "xdut.x_fa.x_ha2.nd",
+            "vmid",
+            "vss"
+          ],
+          "VDS": {
+            "max_abs_V": 5.188033121572053,
+            "state_trits": [
+              1,
+              0,
+              0,
+              1
+            ]
+          },
+          "VGS": {
+            "max_abs_V": 4.99999981,
+            "state_trits": [
+              -1,
+              -1,
+              -1,
+              1
+            ]
+          },
+          "VDB": {
+            "max_abs_V": 10.188033121572053,
+            "state_trits": [
+              1,
+              0,
+              0,
+              1
+            ]
+          },
+          "VSB": {
+            "max_abs_V": 5.0,
+            "state_trits": [
+              -1,
+              -1,
+              -1,
+              -1
+            ]
+          },
+          "VGD": {
+            "max_abs_V": 9.999998770000001,
+            "state_trits": [
+              0,
+              0,
+              -1,
+              1
+            ]
+          },
+          "VGB": {
+            "max_abs_V": 9.99999946,
+            "state_trits": [
+              -1,
+              -1,
+              -1,
+              -1
+            ]
+          }
+        },
+        {
+          "name": "xdut.x_fa.x_cmerge.xxm3",
+          "model": "pmos",
+          "terminals": [
+            "xdut.x_fa.x_cmerge.net2",
+            "xdut.x_fa.c2",
+            "xdut.x_fa.x_cmerge.net1",
+            "vdd"
+          ],
+          "VDS": {
+            "max_abs_V": 9.999999509416,
+            "state_trits": [
+              1,
+              -1,
+              0,
+              1
+            ]
+          },
+          "VGS": {
+            "max_abs_V": 9.999629571389004,
+            "state_trits": [
+              -1,
+              0,
+              1,
+              -1
+            ]
+          },
+          "VDB": {
+            "max_abs_V": 9.99999974,
+            "state_trits": [
+              1,
+              -1,
+              -1,
+              0
+            ]
+          },
+          "VSB": {
+            "max_abs_V": 5.000005502851787,
+            "state_trits": [
+              1,
+              1,
+              1,
+              -1
+            ]
+          },
+          "VGD": {
+            "max_abs_V": 9.99999758,
+            "state_trits": [
+              1,
+              -1,
+              0,
+              1
+            ]
+          },
+          "VGB": {
+            "max_abs_V": 9.999646099761396,
+            "state_trits": [
+              -1,
+              0,
+              1,
+              -1
+            ]
+          }
+        },
+        {
+          "name": "xdut.x_fa.x_cmerge.xxm2",
+          "model": "nmos",
+          "terminals": [
+            "xdut.x_fa.x_cmerge.net3",
+            "xdut.x_fa.c1",
+            "xdut.x_fa.x_cmerge.net4",
+            "vss"
+          ],
+          "VDS": {
+            "max_abs_V": 9.999998179999999,
+            "state_trits": [
+              -1,
+              -1,
+              1,
+              0
+            ]
+          },
+          "VGS": {
+            "max_abs_V": 9.99999768,
+            "state_trits": [
+              1,
+              -1,
+              -1,
+              1
+            ]
+          },
+          "VDB": {
+            "max_abs_V": 9.99999826,
+            "state_trits": [
+              -1,
+              -1,
+              1,
+              0
+            ]
+          },
+          "VSB": {
+            "max_abs_V": 4.9999972052603745,
+            "state_trits": [
+              1,
+              -1,
+              -1,
+              -1
+            ]
+          },
+          "VGD": {
+            "max_abs_V": 9.999997661766091,
+            "state_trits": [
+              1,
+              -1,
+              -1,
+              1
+            ]
+          },
+          "VGB": {
+            "max_abs_V": 9.999997709999999,
+            "state_trits": [
+              1,
+              -1,
+              -1,
+              1
+            ]
+          }
+        },
+        {
+          "name": "xdut.x_fa.x_cmerge.xxm1",
+          "model": "nmos",
+          "terminals": [
+            "xdut.x_fa.x_cmerge.net4",
+            "xdut.x_fa.c2",
+            "vss",
+            "vss"
+          ],
+          "VDS": {
+            "max_abs_V": 4.9999972052603745,
+            "state_trits": [
+              1,
+              -1,
+              -1,
+              -1
+            ]
+          },
+          "VGS": {
+            "max_abs_V": 9.9999983,
+            "state_trits": [
+              -1,
+              1,
+              -1,
+              1
+            ]
+          },
+          "VDB": {
+            "max_abs_V": 4.9999972052603745,
+            "state_trits": [
+              1,
+              -1,
+              -1,
+              -1
+            ]
+          },
+          "VSB": {
+            "max_abs_V": 0.0,
+            "state_trits": [
+              -1,
+              -1,
+              -1,
+              -1
+            ]
+          },
+          "VGD": {
+            "max_abs_V": 9.99999829,
+            "state_trits": [
+              -1,
+              1,
+              -1,
+              1
+            ]
+          },
+          "VGB": {
+            "max_abs_V": 9.9999983,
+            "state_trits": [
+              -1,
+              1,
+              -1,
+              1
+            ]
+          }
+        },
+        {
+          "name": "xdut.x_fa.x_cmerge.xxm5",
+          "model": "pmos",
+          "terminals": [
+            "xdut.x_fa.x_cmerge.net1",
+            "xdut.x_fa.c1",
+            "vdd",
+            "vdd"
+          ],
+          "VDS": {
+            "max_abs_V": 5.000005502851787,
+            "state_trits": [
+              1,
+              1,
+              1,
+              -1
+            ]
+          },
+          "VGS": {
+            "max_abs_V": 9.9999942698153,
+            "state_trits": [
+              -1,
+              -1,
+              1,
+              1
+            ]
+          },
+          "VDB": {
+            "max_abs_V": 5.000005502851787,
+            "state_trits": [
+              1,
+              1,
+              1,
+              -1
+            ]
+          },
+          "VSB": {
+            "max_abs_V": 0.0,
+            "state_trits": [
+              -1,
+              -1,
+              -1,
+              -1
+            ]
+          },
+          "VGD": {
+            "max_abs_V": 9.999994259815299,
+            "state_trits": [
+              -1,
+              -1,
+              1,
+              1
+            ]
+          },
+          "VGB": {
+            "max_abs_V": 9.9999942698153,
+            "state_trits": [
+              -1,
+              -1,
+              1,
+              1
+            ]
+          }
+        },
+        {
+          "name": "xdut.x_fa.x_cmerge.xxm6",
+          "model": "pmos",
+          "terminals": [
+            "xdut.x_fa.x_cmerge.net5",
+            "xdut.x_fa.c1",
+            "xdut.x_fa.nc",
+            "vdd"
+          ],
+          "VDS": {
+            "max_abs_V": 5.1589372544831615,
+            "state_trits": [
+              1,
+              1,
+              1,
+              0
+            ]
+          },
+          "VGS": {
+            "max_abs_V": 9.9999975,
+            "state_trits": [
+              1,
+              -1,
+              -1,
+              1
+            ]
+          },
+          "VDB": {
+            "max_abs_V": 5.855349226029973,
+            "state_trits": [
+              1,
+              -1,
+              -1,
+              -1
+            ]
+          },
+          "VSB": {
+            "max_abs_V": 9.999999800000001,
+            "state_trits": [
+              1,
+              -1,
+              -1,
+              0
+            ]
+          },
+          "VGD": {
+            "max_abs_V": 9.9999899071359,
+            "state_trits": [
+              -1,
+              -1,
+              1,
+              0
+            ]
+          },
+          "VGB": {
+            "max_abs_V": 9.9999942698153,
+            "state_trits": [
+              -1,
+              -1,
+              1,
+              1
+            ]
+          }
+        },
+        {
+          "name": "xdut.x_fa.x_cmerge.xxm7",
+          "model": "nmos",
+          "terminals": [
+            "xdut.x_fa.x_cmerge.net5",
+            "xdut.x_fa.c2",
+            "vmid",
+            "vss"
+          ],
+          "VDS": {
+            "max_abs_V": 4.99999894,
+            "state_trits": [
+              -1,
+              -1,
+              1,
+              0
+            ]
+          },
+          "VGS": {
+            "max_abs_V": 4.9999983,
+            "state_trits": [
+              -1,
+              1,
+              -1,
+              1
+            ]
+          },
+          "VDB": {
+            "max_abs_V": 9.999998940000001,
+            "state_trits": [
+              -1,
+              -1,
+              1,
+              0
+            ]
+          },
+          "VSB": {
+            "max_abs_V": 5.0,
+            "state_trits": [
+              -1,
+              -1,
+              -1,
+              -1
+            ]
+          },
+          "VGD": {
+            "max_abs_V": 9.999482357898021,
+            "state_trits": [
+              -1,
+              0,
+              1,
+              -1
+            ]
+          },
+          "VGB": {
+            "max_abs_V": 9.9999983,
+            "state_trits": [
+              -1,
+              1,
+              -1,
+              1
+            ]
+          }
+        },
+        {
+          "name": "xdut.x_fa.x_cmerge.xxm8",
+          "model": "pmos",
+          "terminals": [
+            "xdut.x_fa.x_cmerge.net6",
+            "xdut.x_fa.c2",
+            "xdut.x_fa.nc",
+            "vdd"
+          ],
+          "VDS": {
+            "max_abs_V": 7.953535611864094,
+            "state_trits": [
+              0,
+              1,
+              1,
+              1
+            ]
+          },
+          "VGS": {
+            "max_abs_V": 9.999997740000001,
+            "state_trits": [
+              1,
+              -1,
+              0,
+              1
+            ]
+          },
+          "VDB": {
+            "max_abs_V": 5.000000842880752,
+            "state_trits": [
+              1,
+              1,
+              1,
+              -1
+            ]
+          },
+          "VSB": {
+            "max_abs_V": 9.999999800000001,
+            "state_trits": [
+              1,
+              -1,
+              -1,
+              0
+            ]
+          },
+          "VGD": {
+            "max_abs_V": 9.999482337898023,
+            "state_trits": [
+              -1,
+              0,
+              1,
+              -1
+            ]
+          },
+          "VGB": {
+            "max_abs_V": 9.999646099761396,
+            "state_trits": [
+              -1,
+              0,
+              1,
+              -1
+            ]
+          }
+        },
+        {
+          "name": "xdut.x_fa.x_cmerge.xxm9",
+          "model": "nmos",
+          "terminals": [
+            "xdut.x_fa.x_cmerge.net6",
+            "xdut.x_fa.c1",
+            "vmid",
+            "vss"
+          ],
+          "VDS": {
+            "max_abs_V": 4.99999894,
+            "state_trits": [
+              -1,
+              -1,
+              1,
+              0
+            ]
+          },
+          "VGS": {
+            "max_abs_V": 4.99999771,
+            "state_trits": [
+              1,
+              -1,
+              -1,
+              1
+            ]
+          },
+          "VDB": {
+            "max_abs_V": 9.999998940000001,
+            "state_trits": [
+              -1,
+              -1,
+              1,
+              0
+            ]
+          },
+          "VSB": {
+            "max_abs_V": 5.0,
+            "state_trits": [
+              -1,
+              -1,
+              -1,
+              -1
+            ]
+          },
+          "VGD": {
+            "max_abs_V": 9.9999899071359,
+            "state_trits": [
+              -1,
+              -1,
+              1,
+              0
+            ]
+          },
+          "VGB": {
+            "max_abs_V": 9.999997709999999,
+            "state_trits": [
+              1,
+              -1,
+              -1,
+              1
+            ]
+          }
+        },
+        {
+          "name": "xdut.x_fa.x_cout.xxm1",
+          "model": "pmos",
+          "terminals": [
+            "xdut.x_fa.x_cout.net1",
+            "xdut.x_fa.nc",
+            "vdd",
+            "vdd"
+          ],
+          "VDS": {
+            "max_abs_V": 9.99999968,
+            "state_trits": [
+              -1,
+              -1,
+              1,
+              -1
+            ]
+          },
+          "VGS": {
+            "max_abs_V": 9.999999800000001,
+            "state_trits": [
+              1,
+              -1,
+              -1,
+              0
+            ]
+          },
+          "VDB": {
+            "max_abs_V": 9.99999968,
+            "state_trits": [
+              -1,
+              -1,
+              1,
+              -1
+            ]
+          },
+          "VSB": {
+            "max_abs_V": 0.0,
+            "state_trits": [
+              -1,
+              -1,
+              -1,
+              -1
+            ]
+          },
+          "VGD": {
+            "max_abs_V": 9.99999972,
+            "state_trits": [
+              1,
+              -1,
+              -1,
+              0
+            ]
+          },
+          "VGB": {
+            "max_abs_V": 9.999999800000001,
+            "state_trits": [
+              1,
+              -1,
+              -1,
+              0
+            ]
+          }
+        },
+        {
+          "name": "xdut.x_fa.x_cout.xxm2",
+          "model": "nmos",
+          "terminals": [
+            "xdut.x_fa.x_cout.net2",
+            "xdut.x_fa.nc",
+            "vss",
+            "vss"
+          ],
+          "VDS": {
+            "max_abs_V": 9.99999902,
+            "state_trits": [
+              0,
+              -1,
+              -1,
+              1
+            ]
+          },
+          "VGS": {
+            "max_abs_V": 9.99999896,
+            "state_trits": [
+              -1,
+              -1,
+              1,
+              0
+            ]
+          },
+          "VDB": {
+            "max_abs_V": 9.99999902,
+            "state_trits": [
+              0,
+              -1,
+              -1,
+              1
+            ]
+          },
+          "VSB": {
+            "max_abs_V": 0.0,
+            "state_trits": [
+              -1,
+              -1,
+              -1,
+              -1
+            ]
+          },
+          "VGD": {
+            "max_abs_V": 9.99999893,
+            "state_trits": [
+              -1,
+              -1,
+              1,
+              0
+            ]
+          },
+          "VGB": {
+            "max_abs_V": 9.99999896,
+            "state_trits": [
+              -1,
+              -1,
+              1,
+              0
+            ]
+          }
+        },
+        {
+          "name": "xdut.x_and.xxm1",
+          "model": "pmos",
+          "terminals": [
+            "xdut.x_and.net1",
+            "xdut.nmin",
+            "vdd",
+            "vdd"
+          ],
+          "VDS": {
+            "max_abs_V": 9.99999968,
+            "state_trits": [
+              -1,
+              -1,
+              -1,
+              -1
+            ]
+          },
+          "VGS": {
+            "max_abs_V": 9.999999769999999,
+            "state_trits": [
+              -1,
+              1,
+              1,
+              0
+            ]
+          },
+          "VDB": {
+            "max_abs_V": 9.99999968,
+            "state_trits": [
+              -1,
+              -1,
+              -1,
+              -1
+            ]
+          },
+          "VSB": {
+            "max_abs_V": 0.0,
+            "state_trits": [
+              -1,
+              -1,
+              -1,
+              -1
+            ]
+          },
+          "VGD": {
+            "max_abs_V": 9.99999969,
+            "state_trits": [
+              -1,
+              1,
+              1,
+              0
+            ]
+          },
+          "VGB": {
+            "max_abs_V": 9.999999769999999,
+            "state_trits": [
+              -1,
+              1,
+              1,
+              0
+            ]
+          }
+        },
+        {
+          "name": "xdut.x_and.xxm2",
+          "model": "nmos",
+          "terminals": [
+            "xdut.x_and.net2",
+            "xdut.nmin",
+            "vss",
+            "vss"
+          ],
+          "VDS": {
+            "max_abs_V": 9.99999902,
+            "state_trits": [
+              -1,
+              1,
+              1,
+              -1
+            ]
+          },
+          "VGS": {
+            "max_abs_V": 9.999999899999999,
+            "state_trits": [
+              -1,
+              -1,
+              -1,
+              -1
+            ]
+          },
+          "VDB": {
+            "max_abs_V": 9.99999902,
+            "state_trits": [
+              -1,
+              1,
+              1,
+              -1
+            ]
+          },
+          "VSB": {
+            "max_abs_V": 0.0,
+            "state_trits": [
+              -1,
+              -1,
+              -1,
+              -1
+            ]
+          },
+          "VGD": {
+            "max_abs_V": 9.99999987,
+            "state_trits": [
+              -1,
+              -1,
+              -1,
+              -1
+            ]
+          },
+          "VGB": {
+            "max_abs_V": 9.999999899999999,
+            "state_trits": [
+              -1,
+              -1,
+              -1,
+              -1
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "cold_m40": {
+    "name": "cold_m40",
+    "temperature_C": -40,
+    "rail_V": 5,
+    "load_fF": 10,
+    "hold_ns": 200,
+    "edge_ns": 1,
+    "no_nodeset": false,
+    "load_resistance_ohm": null,
+    "zero_offset_V": 0,
+    "supply_resistance_ohm": 0,
+    "elapsed_s": 71.93217825889587,
+    "max_errors_V": {
+      "sum": 0.0396305688365424,
+      "cout": 0.0380906283,
+      "and_out": 0.0694789006,
+      "or_out": 0.160603554,
+      "product": 0.1748789368531
+    },
+    "tolerance_fail_samples": 0,
+    "logic_fail_samples": 0,
+    "worst": {
+      "state_trits": [
+        1,
+        -1,
+        0,
+        -1
+      ],
+      "output": "product",
+      "actual_V": -0.1748789368531,
+      "expected_V": 0.0
+    },
+    "current_mA": {
+      "VDD": 20.313678194698497,
+      "VSS": 20.312242624241186,
+      "VMID": 0.012980382437467547
+    },
+    "power_mW_max": 203.12960409469844,
+    "failure_examples": []
+  },
+  "hot_125": {
+    "name": "hot_125",
+    "temperature_C": 125,
+    "rail_V": 5,
+    "load_fF": 10,
+    "hold_ns": 200,
+    "edge_ns": 1,
+    "no_nodeset": false,
+    "load_resistance_ohm": null,
+    "zero_offset_V": 0,
+    "supply_resistance_ohm": 0,
+    "elapsed_s": 54.13242435455322,
+    "max_errors_V": {
+      "sum": 0.08713794979531664,
+      "cout": 0.0930186522,
+      "and_out": 0.171637853,
+      "or_out": 0.737622132,
+      "product": 0.2535108564975943
+    },
+    "tolerance_fail_samples": 9,
+    "logic_fail_samples": 0,
+    "worst": {
+      "state_trits": [
+        0,
+        0,
+        0,
+        -1
+      ],
+      "output": "or_out",
+      "actual_V": 0.737622132,
+      "expected_V": 0.0
+    },
+    "current_mA": {
+      "VDD": 15.531771756824469,
+      "VSS": 15.535543534088687,
+      "VMID": 0.009015098919821229
+    },
+    "power_mW_max": 155.33657645456577,
+    "failure_examples": [
+      {
+        "state_trits": [
+          -1,
+          0,
+          0,
+          -1
+        ],
+        "actual_V": [
+          4.999752061060932,
+          -4.99998613,
+          -0.0402219962,
+          0.737622131,
+          0.253477252
+        ],
+        "expected_V": [
+          5,
+          -5,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "state_trits": [
+          -1,
+          0,
+          0,
+          0
+        ],
+        "actual_V": [
+          -4.99997808,
+          0.05875015216773703,
+          -0.0402219962,
+          0.737622131,
+          0.253477251
+        ],
+        "expected_V": [
+          -5,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "state_trits": [
+          -1,
+          0,
+          0,
+          1
+        ],
+        "actual_V": [
+          0.08712913340414823,
+          0.05877267544230272,
+          -0.0402219962,
+          0.737622131,
+          0.253477251
+        ],
+        "expected_V": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "state_trits": [
+          0,
+          0,
+          0,
+          -1
+        ],
+        "actual_V": [
+          -4.99961191837212,
+          0.0688224811298726,
+          -0.0402219964,
+          0.737622132,
+          0.253472582900593
+        ],
+        "expected_V": [
+          -5,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "state_trits": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "actual_V": [
+          0.07278757399603619,
+          0.06794769619261087,
+          -0.0402219963,
+          0.737622131,
+          0.25347391739084585
+        ],
+        "expected_V": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "state_trits": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "actual_V": [
+          4.99992478,
+          0.06885511584652348,
+          -0.0402219962,
+          0.737622131,
+          0.2534746757310974
+        ],
+        "expected_V": [
+          5,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    ]
+  },
+  "rail_5_5": {
+    "name": "rail_5_5",
+    "simulation_error": "e-08\nxdut.x_fa.x_ha2.x_u.net4                  -5.5\nxdut.x_fa.x_ha2.x_u.net5           1.40198e-08\nxdut.x_fa.x_ha2.x_u.net6               0.00056\nxdut.x_fa.x_ha2.x_na.net1              4.43322\nxdut.x_fa.x_ha2.na                 -0.00623292\nxdut.x_fa.x_ha2.x_na.net2             -4.34645\nxdut.x_fa.x_ha2.x_c.net2               4.35924\nxdut.x_fa.x_ha2.x_c.net1               4.97559\nxdut.x_fa.c2                        -0.0112245\nxdut.x_fa.x_ha2.x_c.net3              -4.28553\nxdut.x_fa.x_ha2.x_c.net4               -4.9375\nxdut.x_fa.x_ha2.x_c.net5             0.0005582\nxdut.x_fa.x_ha2.x_c.net6           0.000558322\nxdut.x_fa.x_ha2.x_d.net2                  -5.5\nxdut.x_fa.x_ha2.x_d.net1               1.24295\nxdut.x_fa.x_ha2.d                         -5.5\nxdut.x_fa.x_ha2.x_d.net3                  -5.5\nxdut.x_fa.x_ha2.x_d.net4                  -5.5\nxdut.x_fa.x_ha2.x_d.net5           0.000558413\nxdut.x_fa.x_ha2.x_d.net6           1.37024e-12\nxdut.x_fa.x_ha2.x_nd.net1             -508.719\nxdut.x_fa.x_ha2.nd                 5.67396e+10\nxdut.x_fa.x_ha2.x_nd.net2             -6.29247\nxdut.x_fa.x_ha2.x_s.net2          -3.93761e+10\nxdut.x_fa.x_ha2.x_s.net1          -8.01609e+08\nsum                                    5.79308\nxdut.x_fa.x_ha2.x_s.net3           1.65599e+10\nxdut.x_fa.x_ha2.x_s.net4               7.98175\nxdut.x_fa.x_ha2.x_s.net5           0.000558413\nxdut.x_fa.x_ha2.x_s.net6               5.79308\nxdut.x_fa.x_cmerge.net2                4.35995\nxdut.x_fa.x_cmerge.net1                4.97514\nxdut.x_fa.nc                        -0.0107288\nxdut.x_fa.x_cmerge.net3               -4.28524\nxdut.x_fa.x_cmerge.net4               -4.93657\nxdut.x_fa.x_cmerge.net5            0.000558413\nxdut.x_fa.x_cmerge.net6              0.0005582\nxdut.x_fa.x_cout.net1                 -718.506\ncout                               5.67396e+10\nxdut.x_fa.x_cout.net2                 -6.29192\nxdut.x_and.net1                           -5.5\nand_out                                   -5.5\nxdut.x_and.net2                           -5.5\nvcin#branch                            5.5e-12\nvb#branch                              5.5e-12\nva#branch                              5.5e-12\nvx#branch                              5.5e-12\nvmid#branch                       -5.77855e-11\nvss#branch                           0.0134751\nvdd#branch                           -0.103335\n\ndoAnalyses: TRAN:  Timestep too small; initial timepoint: cause unrecorded.\n\n\ntran simulation(s) aborted\n\nNo. of Data Rows : 1\nngspice-46+ done\n",
+    "elapsed_s": 1.4726853370666504
+  },
+  "hot_85": {
+    "name": "hot_85",
+    "temperature_C": 85,
+    "rail_V": 5,
+    "load_fF": 10,
+    "hold_ns": 200,
+    "edge_ns": 1,
+    "no_nodeset": false,
+    "load_resistance_ohm": null,
+    "zero_offset_V": 0,
+    "supply_resistance_ohm": 0,
+    "elapsed_s": 59.34578514099121,
+    "max_errors_V": {
+      "sum": 0.04696493806027675,
+      "cout": 0.05135392795473054,
+      "and_out": 0.120913341,
+      "or_out": 0.582404079,
+      "product": 0.2368544147014192
+    },
+    "tolerance_fail_samples": 9,
+    "logic_fail_samples": 0,
+    "worst": {
+      "state_trits": [
+        0,
+        0,
+        0,
+        -1
+      ],
+      "output": "or_out",
+      "actual_V": 0.582404079,
+      "expected_V": 0.0
+    },
+    "current_mA": {
+      "VDD": 16.665050550699412,
+      "VSS": 16.66543323232826,
+      "VMID": 0.016943108300266956
+    },
+    "power_mW_max": 166.65241891513838,
+    "failure_examples": [
+      {
+        "state_trits": [
+          -1,
+          0,
+          0,
+          -1
+        ],
+        "actual_V": [
+          4.999810241060889,
+          -4.99999836,
+          -0.0511209925,
+          0.582404078,
+          0.236829364
+        ],
+        "expected_V": [
+          5,
+          -5,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "state_trits": [
+          -1,
+          0,
+          0,
+          0
+        ],
+        "actual_V": [
+          -4.99999937,
+          0.034951213580587254,
+          -0.0511209925,
+          0.582404078,
+          0.236829364
+        ],
+        "expected_V": [
+          -5,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "state_trits": [
+          -1,
+          0,
+          0,
+          1
+        ],
+        "actual_V": [
+          0.04695917785677608,
+          0.03496820439468906,
+          -0.0511209925,
+          0.582404078,
+          0.236829364
+        ],
+        "expected_V": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "state_trits": [
+          0,
+          0,
+          0,
+          -1
+        ],
+        "actual_V": [
+          -4.999711470836648,
+          0.03940309745364336,
+          -0.0511209926,
+          0.582404079,
+          0.2368254601225685
+        ],
+        "expected_V": [
+          -5,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "state_trits": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "actual_V": [
+          0.04009840992530308,
+          0.0390735800437364,
+          -0.0511209926,
+          0.582404079,
+          0.2368264541143923
+        ],
+        "expected_V": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "state_trits": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "actual_V": [
+          4.9999854,
+          0.03942694894707021,
+          -0.0511209926,
+          0.582404079,
+          0.2368270248264426
+        ],
+        "expected_V": [
+          5,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    ]
+  },
+  "rail_4_5": {
+    "name": "rail_4_5",
+    "temperature_C": 27,
+    "rail_V": 4.5,
+    "load_fF": 10,
+    "hold_ns": 200,
+    "edge_ns": 1,
+    "no_nodeset": false,
+    "load_resistance_ohm": null,
+    "zero_offset_V": 0,
+    "supply_resistance_ohm": 0,
+    "elapsed_s": 62.58784556388855,
+    "max_errors_V": {
+      "sum": 0.005370973116245601,
+      "cout": 0.007970199397806688,
+      "and_out": 0.0743763635,
+      "or_out": 0.476585322,
+      "product": 0.2032930562568606
+    },
+    "tolerance_fail_samples": 0,
+    "logic_fail_samples": 0,
+    "worst": {
+      "state_trits": [
+        -1,
+        0,
+        0,
+        -1
+      ],
+      "output": "or_out",
+      "actual_V": 0.476585322,
+      "expected_V": 0.0
+    },
+    "current_mA": {
+      "VDD": 16.170174594814736,
+      "VSS": 16.170438870699638,
+      "VMID": 0.01568203796358406
+    },
+    "power_mW_max": 145.53276059481468,
+    "failure_examples": []
+  },
+  "rail_2_5": {
+    "name": "rail_2_5",
+    "temperature_C": 27,
+    "rail_V": 2.5,
+    "load_fF": 10,
+    "hold_ns": 200,
+    "edge_ns": 1,
+    "no_nodeset": false,
+    "load_resistance_ohm": null,
+    "zero_offset_V": 0,
+    "supply_resistance_ohm": 0,
+    "elapsed_s": 80.94965171813965,
+    "max_errors_V": {
+      "sum": 5.000181089783827,
+      "cout": 5.000004495982085,
+      "and_out": 1.3069038,
+      "or_out": 1.7761709954098484,
+      "product": 2.4954912856279945
+    },
+    "tolerance_fail_samples": 58,
+    "logic_fail_samples": 52,
+    "worst": {
+      "state_trits": [
+        0,
+        0,
+        0,
+        -1
+      ],
+      "output": "sum",
+      "actual_V": 2.500181089783827,
+      "expected_V": -2.5
+    },
+    "current_mA": {
+      "VDD": 2.8181780181996996,
+      "VSS": 2.815397127165912,
+      "VMID": 0.0060770725119147564
+    },
+    "power_mW_max": 14.083937863414029,
+    "failure_examples": [
+      {
+        "state_trits": [
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "actual_V": [
+          -2.49999982,
+          2.49999987,
+          -2.49999988,
+          -2.49999992,
+          2.49999984
+        ],
+        "expected_V": [
+          -2.5,
+          0.0,
+          -2.5,
+          -2.5,
+          2.5
+        ]
+      },
+      {
+        "state_trits": [
+          -1,
+          -1,
+          -1,
+          0
+        ],
+        "actual_V": [
+          -2.4999933734716513,
+          2.499998032606662,
+          -2.49999988,
+          -2.49999992,
+          2.49999984
+        ],
+        "expected_V": [
+          0.0,
+          0.0,
+          -2.5,
+          -2.5,
+          2.5
+        ]
+      },
+      {
+        "state_trits": [
+          -1,
+          -1,
+          -1,
+          1
+        ],
+        "actual_V": [
+          -2.4741006256928935,
+          2.49999985,
+          -2.49999988,
+          -2.49999992,
+          2.49999984
+        ],
+        "expected_V": [
+          2.5,
+          0.0,
+          -2.5,
+          -2.5,
+          2.5
+        ]
+      },
+      {
+        "state_trits": [
+          -1,
+          -1,
+          0,
+          -1
+        ],
+        "actual_V": [
+          -2.5000450498080573,
+          2.5000044959820853,
+          -2.49999988,
+          -1.65963303,
+          2.48567806
+        ],
+        "expected_V": [
+          2.5,
+          -2.5,
+          -2.5,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "state_trits": [
+          -1,
+          -1,
+          0,
+          0
+        ],
+        "actual_V": [
+          -2.4999940630920348,
+          2.499998036597724,
+          -2.49999988,
+          -1.65963303,
+          2.48567806
+        ],
+        "expected_V": [
+          -2.5,
+          0.0,
+          -2.5,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "state_trits": [
+          -1,
+          -1,
+          0,
+          1
+        ],
+        "actual_V": [
+          -2.4741132172338927,
+          2.49999985,
+          -2.49999988,
+          -1.65963303,
+          2.48567806
+        ],
+        "expected_V": [
+          0.0,
+          0.0,
+          -2.5,
+          0.0,
+          0.0
+        ]
+      }
+    ]
+  },
+  "load_1p": {
+    "name": "load_1p",
+    "temperature_C": 27,
+    "rail_V": 5,
+    "load_fF": 1000,
+    "hold_ns": 200,
+    "edge_ns": 1,
+    "no_nodeset": false,
+    "load_resistance_ohm": null,
+    "zero_offset_V": 0,
+    "supply_resistance_ohm": 0,
+    "elapsed_s": 83.24580478668213,
+    "max_errors_V": {
+      "sum": 0.002575504481982498,
+      "cout": 0.0006853959453834513,
+      "and_out": 0.0637027875,
+      "or_out": 0.35846228,
+      "product": 0.20829213640362565
+    },
+    "tolerance_fail_samples": 0,
+    "logic_fail_samples": 0,
+    "worst": {
+      "state_trits": [
+        -1,
+        0,
+        0,
+        -1
+      ],
+      "output": "or_out",
+      "actual_V": 0.35846228,
+      "expected_V": 0.0
+    },
+    "current_mA": {
+      "VDD": 18.392957571506,
+      "VSS": 18.382420504052,
+      "VMID": 0.013432248509892069
+    },
+    "power_mW_max": 183.87689037779,
+    "failure_examples": []
+  },
+  "load_10p": {
+    "name": "load_10p",
+    "temperature_C": 27,
+    "rail_V": 5,
+    "load_fF": 10000,
+    "hold_ns": 200,
+    "edge_ns": 1,
+    "no_nodeset": false,
+    "load_resistance_ohm": null,
+    "zero_offset_V": 0,
+    "supply_resistance_ohm": 0,
+    "elapsed_s": 81.26493978500366,
+    "max_errors_V": {
+      "sum": 1.3373629037919952,
+      "cout": 0.7791406255434579,
+      "and_out": 0.5982671671767719,
+      "or_out": 0.3584621941914201,
+      "product": 0.20963566102815673
+    },
+    "tolerance_fail_samples": 7,
+    "logic_fail_samples": 0,
+    "worst": {
+      "state_trits": [
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "output": "sum",
+      "actual_V": -3.662637096208005,
+      "expected_V": -5.0
+    },
+    "current_mA": {
+      "VDD": 18.376529177494334,
+      "VSS": 18.376282774489795,
+      "VMID": 0.01055336015140336
+    },
+    "power_mW_max": 183.76405975992066,
+    "failure_examples": [
+      {
+        "state_trits": [
+          -1,
+          -1,
+          0,
+          -1
+        ],
+        "actual_V": [
+          4.610770719450738,
+          -4.396548648249228,
+          -4.999996688506694,
+          -0.014842020369138342,
+          -0.20453292718434604
+        ],
+        "expected_V": [
+          5,
+          -5,
+          -5,
+          0,
+          0
+        ]
+      },
+      {
+        "state_trits": [
+          0,
+          -1,
+          -1,
+          -1
+        ],
+        "actual_V": [
+          -0.24299420720951218,
+          0.05870312447167336,
+          -4.401751881959228,
+          -4.846893654676743,
+          4.999366165376731
+        ],
+        "expected_V": [
+          0,
+          0,
+          -5,
+          -5,
+          5
+        ]
+      },
+      {
+        "state_trits": [
+          0,
+          -1,
+          1,
+          -1
+        ],
+        "actual_V": [
+          4.260370131589916,
+          -4.220859374456542,
+          -4.999998959258853,
+          4.918396879294621,
+          -4.9998704095363
+        ],
+        "expected_V": [
+          5,
+          -5,
+          -5,
+          5,
+          -5
+        ]
+      },
+      {
+        "state_trits": [
+          0,
+          0,
+          -1,
+          -1
+        ],
+        "actual_V": [
+          -4.461223881526308,
+          -0.09135885359318573,
+          -4.999614732484211,
+          0.010477747909018374,
+          -0.20963566102815673
+        ],
+        "expected_V": [
+          -5,
+          0,
+          -5,
+          0,
+          0
+        ]
+      },
+      {
+        "state_trits": [
+          1,
+          -1,
+          -1,
+          -1
+        ],
+        "actual_V": [
+          3.8891517278541987,
+          0.27349449135845005,
+          -4.401732832823228,
+          -4.846895463668388,
+          4.999368021492903
+        ],
+        "expected_V": [
+          5,
+          0,
+          -5,
+          -5,
+          5
+        ]
+      },
+      {
+        "state_trits": [
+          1,
+          -1,
+          1,
+          -1
+        ],
+        "actual_V": [
+          -4.447712583915214,
+          0.03827046215997487,
+          -4.999998966147132,
+          4.918391075710724,
+          -4.999891754276808
+        ],
+        "expected_V": [
+          -5,
+          0,
+          -5,
+          5,
+          -5
+        ]
+      }
+    ]
+  },
+  "load_1meg": {
+    "name": "load_1meg",
+    "temperature_C": 27,
+    "rail_V": 5,
+    "load_fF": 10,
+    "hold_ns": 200,
+    "edge_ns": 1,
+    "no_nodeset": false,
+    "load_resistance_ohm": 1000000.0,
+    "zero_offset_V": 0,
+    "supply_resistance_ohm": 0,
+    "elapsed_s": 65.82976078987122,
+    "max_errors_V": {
+      "sum": 0.025115375912273308,
+      "cout": 0.03505760999999996,
+      "and_out": 0.06344029106244416,
+      "or_out": 0.357096765,
+      "product": 0.20828759498366214
+    },
+    "tolerance_fail_samples": 0,
+    "logic_fail_samples": 0,
+    "worst": {
+      "state_trits": [
+        -1,
+        0,
+        0,
+        -1
+      ],
+      "output": "or_out",
+      "actual_V": 0.357096765,
+      "expected_V": 0.0
+    },
+    "current_mA": {
+      "VDD": 18.378133792865732,
+      "VSS": 18.37780956352562,
+      "VMID": 0.010941705599891152
+    },
+    "power_mW_max": 183.77971678195675,
+    "failure_examples": []
+  },
+  "load_50ohm": {
+    "name": "load_50ohm",
+    "temperature_C": 27,
+    "rail_V": 5,
+    "load_fF": 10,
+    "hold_ns": 200,
+    "edge_ns": 1,
+    "no_nodeset": false,
+    "load_resistance_ohm": 50,
+    "zero_offset_V": 0,
+    "supply_resistance_ohm": 0,
+    "elapsed_s": 63.32592558860779,
+    "max_errors_V": {
+      "sum": 5.048561421397782,
+      "cout": 5.000008151681634,
+      "and_out": 4.965402416582705,
+      "or_out": 4.948210569866535,
+      "product": 5.1981801039376
+    },
+    "tolerance_fail_samples": 79,
+    "logic_fail_samples": 79,
+    "worst": {
+      "state_trits": [
+        1,
+        -1,
+        -1,
+        -1
+      ],
+      "output": "product",
+      "actual_V": -0.1981801039376,
+      "expected_V": 5.0
+    },
+    "current_mA": {
+      "VDD": 18.424161617309103,
+      "VSS": 18.34719373286562,
+      "VMID": 0.01859468477671779
+    },
+    "power_mW_max": 183.85677675087362,
+    "failure_examples": [
+      {
+        "state_trits": [
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "actual_V": [
+          0.0481392245,
+          -0.0351566471,
+          -0.0351566472,
+          -0.0521578934,
+          -0.19815609
+        ],
+        "expected_V": [
+          -5,
+          0,
+          -5,
+          -5,
+          5
+        ]
+      },
+      {
+        "state_trits": [
+          -1,
+          -1,
+          -1,
+          0
+        ],
+        "actual_V": [
+          -0.048561322862187145,
+          8.168743115080062e-06,
+          -0.0351566472,
+          -0.0521578934,
+          -0.19815609
+        ],
+        "expected_V": [
+          0,
+          0,
+          -5,
+          -5,
+          5
+        ]
+      },
+      {
+        "state_trits": [
+          -1,
+          -1,
+          -1,
+          1
+        ],
+        "actual_V": [
+          -4.4298665195846005e-05,
+          8.07944460330127e-06,
+          -0.0351566472,
+          -0.0521578934,
+          -0.19815609
+        ],
+        "expected_V": [
+          5,
+          0,
+          -5,
+          -5,
+          5
+        ]
+      },
+      {
+        "state_trits": [
+          -1,
+          -1,
+          0,
+          -1
+        ],
+        "actual_V": [
+          0.0481361118823392,
+          -0.0351559322905708,
+          -0.035156647290783,
+          6.37266782457938e-05,
+          -0.207460149
+        ],
+        "expected_V": [
+          5,
+          -5,
+          -5,
+          0,
+          0
+        ]
+      },
+      {
+        "state_trits": [
+          -1,
+          -1,
+          0,
+          0
+        ],
+        "actual_V": [
+          -0.04856143542290939,
+          7.94259280527758e-06,
+          -0.0351566471,
+          6.372624645249824e-05,
+          -0.207460149
+        ],
+        "expected_V": [
+          -5,
+          0,
+          -5,
+          0,
+          0
+        ]
+      },
+      {
+        "state_trits": [
+          -1,
+          -1,
+          0,
+          1
+        ],
+        "actual_V": [
+          -4.372822143069125e-05,
+          8.079205350443937e-06,
+          -0.0351566471,
+          6.372624643925249e-05,
+          -0.207460149
+        ],
+        "expected_V": [
+          0,
+          0,
+          -5,
+          0,
+          0
+        ]
+      }
+    ]
+  },
+  "zero_plus_0_5": {
+    "name": "zero_plus_0_5",
+    "temperature_C": 27,
+    "rail_V": 5,
+    "load_fF": 10,
+    "hold_ns": 200,
+    "edge_ns": 1,
+    "no_nodeset": false,
+    "load_resistance_ohm": null,
+    "zero_offset_V": 0.5,
+    "supply_resistance_ohm": 0,
+    "elapsed_s": 72.86801981925964,
+    "max_errors_V": {
+      "sum": 0.0028710697277466346,
+      "cout": 0.0013632445571112,
+      "and_out": 0.0805686605,
+      "or_out": 0.469914358,
+      "product": 0.2212991158965874
+    },
+    "tolerance_fail_samples": 0,
+    "logic_fail_samples": 0,
+    "worst": {
+      "state_trits": [
+        0,
+        0,
+        0,
+        -1
+      ],
+      "output": "or_out",
+      "actual_V": 0.469914358,
+      "expected_V": 0.0
+    },
+    "current_mA": {
+      "VDD": 18.36564228121702,
+      "VSS": 18.35762183596101,
+      "VMID": 0.012703268678305126
+    },
+    "power_mW_max": 183.61632058589018,
+    "failure_examples": []
+  },
+  "slow_edge_100ns": {
+    "name": "slow_edge_100ns",
+    "temperature_C": 27,
+    "rail_V": 5,
+    "load_fF": 10,
+    "hold_ns": 500,
+    "edge_ns": 100,
+    "no_nodeset": false,
+    "load_resistance_ohm": null,
+    "zero_offset_V": 0,
+    "supply_resistance_ohm": 0,
+    "elapsed_s": 85.69471549987793,
+    "max_errors_V": {
+      "sum": 0.0025753710817954818,
+      "cout": 0.0006854491582845819,
+      "and_out": 0.0637027875,
+      "or_out": 0.35846228,
+      "product": 0.20826163648949664
+    },
+    "tolerance_fail_samples": 0,
+    "logic_fail_samples": 0,
+    "worst": {
+      "state_trits": [
+        -1,
+        0,
+        0,
+        -1
+      ],
+      "output": "or_out",
+      "actual_V": 0.35846228,
+      "expected_V": 0.0
+    },
+    "current_mA": {
+      "VDD": 18.3777478,
+      "VSS": 18.377749700000003,
+      "VMID": 0.0042540114454978194
+    },
+    "power_mW_max": 183.7774875,
+    "failure_examples": []
+  },
+  "zero_minus_0_5": {
+    "name": "zero_minus_0_5",
+    "temperature_C": 27,
+    "rail_V": 5,
+    "load_fF": 10,
+    "hold_ns": 200,
+    "edge_ns": 1,
+    "no_nodeset": false,
+    "load_resistance_ohm": null,
+    "zero_offset_V": -0.5,
+    "supply_resistance_ohm": 0,
+    "elapsed_s": 63.92623853683472,
+    "max_errors_V": {
+      "sum": 0.002574984639225114,
+      "cout": 0.0006852919036254718,
+      "and_out": 0.08979759,
+      "or_out": 0.284184925,
+      "product": 0.20185009860960001
+    },
+    "tolerance_fail_samples": 0,
+    "logic_fail_samples": 0,
+    "worst": {
+      "state_trits": [
+        -1,
+        0,
+        0,
+        -1
+      ],
+      "output": "or_out",
+      "actual_V": 0.284184925,
+      "expected_V": 0.0
+    },
+    "current_mA": {
+      "VDD": 18.35769421047702,
+      "VSS": 18.356740393062726,
+      "VMID": 0.01822988436370574
+    },
+    "power_mW_max": 183.57217301769873,
+    "failure_examples": []
+  },
+  "supply_R_10": {
+    "name": "supply_R_10",
+    "temperature_C": 27,
+    "rail_V": 5,
+    "load_fF": 10,
+    "hold_ns": 200,
+    "edge_ns": 1,
+    "no_nodeset": false,
+    "load_resistance_ohm": null,
+    "zero_offset_V": 0,
+    "supply_resistance_ohm": 10,
+    "elapsed_s": 74.0957419872284,
+    "max_errors_V": {
+      "sum": 0.13572847855153203,
+      "cout": 0.054656885875076,
+      "and_out": 0.15891921684105448,
+      "or_out": 0.38993840956795217,
+      "product": 0.2079565572495
+    },
+    "tolerance_fail_samples": 0,
+    "logic_fail_samples": 0,
+    "worst": {
+      "state_trits": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "output": "or_out",
+      "actual_V": 0.38993840956795217,
+      "expected_V": 0.0
+    },
+    "current_mA": {
+      "VDD": 17.60537366025133,
+      "VSS": 17.605756811247584,
+      "VMID": 0.002511642938684374
+    },
+    "power_mW_max": 176.05565235749458,
+    "failure_examples": []
+  },
+  "load_10p_slow": {
+    "name": "load_10p_slow",
+    "temperature_C": 27,
+    "rail_V": 5,
+    "load_fF": 10000,
+    "hold_ns": 1000,
+    "edge_ns": 1,
+    "no_nodeset": false,
+    "load_resistance_ohm": null,
+    "zero_offset_V": 0,
+    "supply_resistance_ohm": 0,
+    "elapsed_s": 251.24515676498413,
+    "max_errors_V": {
+      "sum": 0.002575071605943698,
+      "cout": 0.0006850312895587997,
+      "and_out": 0.0637027877,
+      "or_out": 0.35846228,
+      "product": 0.20824295490313988
+    },
+    "tolerance_fail_samples": 0,
+    "logic_fail_samples": 0,
+    "worst": {
+      "state_trits": [
+        -1,
+        0,
+        0,
+        -1
+      ],
+      "output": "or_out",
+      "actual_V": 0.35846228,
+      "expected_V": 0.0
+    },
+    "current_mA": {
+      "VDD": 18.38456568799138,
+      "VSS": 18.378683184940908,
+      "VMID": 0.012643183169421248
+    },
+    "power_mW_max": 183.81624436466143,
+    "failure_examples": []
+  },
+  "supply_R_50": {
+    "name": "supply_R_50",
+    "temperature_C": 27,
+    "rail_V": 5,
+    "load_fF": 10,
+    "hold_ns": 200,
+    "edge_ns": 1,
+    "no_nodeset": false,
+    "load_resistance_ohm": null,
+    "zero_offset_V": 0,
+    "supply_resistance_ohm": 50,
+    "elapsed_s": 63.41179943084717,
+    "max_errors_V": {
+      "sum": 0.5994156678859817,
+      "cout": 0.2595775005217691,
+      "and_out": 0.6892795999999999,
+      "or_out": 0.6821929899999999,
+      "product": 0.44859759133029
+    },
+    "tolerance_fail_samples": 15,
+    "logic_fail_samples": 0,
+    "worst": {
+      "state_trits": [
+        0,
+        0,
+        -1,
+        0
+      ],
+      "output": "and_out",
+      "actual_V": -4.3107204,
+      "expected_V": -5.0
+    },
+    "current_mA": {
+      "VDD": 15.0459812,
+      "VSS": 15.045994215139721,
+      "VMID": 4.0642690373041925e-05
+    },
+    "power_mW_max": 150.4598770756986,
+    "failure_examples": [
+      {
+        "state_trits": [
+          0,
+          -1,
+          0,
+          -1
+        ],
+        "actual_V": [
+          -4.470108140025189,
+          0.006543683049592617,
+          -4.47016799,
+          -0.03992817134905539,
+          -0.20210622796851294
+        ],
+        "expected_V": [
+          -5,
+          0,
+          -5,
+          0,
+          0
+        ]
+      },
+      {
+        "state_trits": [
+          0,
+          -1,
+          0,
+          0
+        ],
+        "actual_V": [
+          0.006783922858186237,
+          0.00799390621358125,
+          -4.3109173333536965,
+          -0.06202388580183274,
+          -0.19845858900610913
+        ],
+        "expected_V": [
+          0,
+          0,
+          -5,
+          0,
+          0
+        ]
+      },
+      {
+        "state_trits": [
+          0,
+          -1,
+          0,
+          1
+        ],
+        "actual_V": [
+          4.47016955,
+          0.0065602282927984664,
+          -4.47016957730739,
+          -0.03992849413844338,
+          -0.2021002666155662
+        ],
+        "expected_V": [
+          5,
+          0,
+          -5,
+          0,
+          0
+        ]
+      },
+      {
+        "state_trits": [
+          0,
+          0,
+          -1,
+          -1
+        ],
+        "actual_V": [
+          -4.4697481933303,
+          0.006551620768479201,
+          -4.4699544087878,
+          -0.063379160615159,
+          -0.19693213245503002
+        ],
+        "expected_V": [
+          -5,
+          0,
+          -5,
+          0,
+          0
+        ]
+      },
+      {
+        "state_trits": [
+          0,
+          0,
+          -1,
+          0
+        ],
+        "actual_V": [
+          0.006861202866033587,
+          0.008008837507060263,
+          -4.3107204,
+          -0.08947610312336315,
+          -0.1919902416542635
+        ],
+        "expected_V": [
+          0,
+          0,
+          -5,
+          0,
+          0
+        ]
+      },
+      {
+        "state_trits": [
+          0,
+          0,
+          -1,
+          1
+        ],
+        "actual_V": [
+          4.46995738,
+          0.006570390913112611,
+          -4.4699579,
+          -0.06337854829527828,
+          -0.1969170211888684
+        ],
+        "expected_V": [
+          5,
+          0,
+          -5,
+          0,
+          0
+        ]
+      }
+    ]
+  }
+}

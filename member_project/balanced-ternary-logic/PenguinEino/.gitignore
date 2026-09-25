@@ -1,0 +1,11 @@
+simulation/
+__pycache__/
+*.py[cod]
+layout/backups/
+*.bak
+*.swp
+
+# Keep the submission default LVS reference; other simulation outputs stay ignored.
+!submission/simulation/
+submission/simulation/*
+!submission/simulation/mac.spice

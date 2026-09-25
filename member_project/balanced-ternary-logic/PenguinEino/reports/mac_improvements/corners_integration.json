@@ -1,0 +1,438 @@
+{
+  "cases": {
+    "startup_-1": {
+      "name": "startup_-1",
+      "temperature_C": 27,
+      "rail_V": 5,
+      "load_fF": 10000,
+      "hold_ns": 1000,
+      "edge_ns": 1,
+      "no_nodeset": true,
+      "load_resistance_ohm": 1000000.0,
+      "zero_offset_V": 0,
+      "supply_resistance_ohm": 0,
+      "power_ramp_ns": 100,
+      "samples": 1,
+      "elapsed_s": 4.233841180801392,
+      "max_errors_V": {
+        "sum": 0.056816034405772875,
+        "cout": 0.03463205436940735,
+        "and_out": 0.05698559257797253,
+        "or_out": 0.056989427354266375,
+        "product": 8.12830777281448e-05
+      },
+      "tolerance_fail_samples": 0,
+      "logic_fail_samples": 0,
+      "worst": {
+        "state_trits": [
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "output": "or_out",
+        "actual_V": -4.943010572645734,
+        "expected_V": -5.0
+      },
+      "current_mA": {
+        "VDD": 2.9068350687580775,
+        "VSS": 2.92202438098959,
+        "VMID": 4.189860101876181e-06
+      },
+      "power_mW_max": 29.144297248738336,
+      "failure_examples": [],
+      "solver_warnings": [
+        "Warning: singular matrix:  check node xdut.x_and.net2",
+        "Warning: singular matrix:  check node xdut.x_fa.x_ha1.nd",
+        "Warning: singular matrix:  check node xdut.x_fa.x_cout.net2",
+        "Warning: singular matrix:  check node xdut.x_fa.x_cout.net2",
+        "Warning: singular matrix:  check node xdut.x_or1.net1",
+        "Warning: singular matrix:  check node xdut.x_or1.net1",
+        "Warning: Dynamic gmin stepping failed",
+        "Warning: True gmin stepping failed",
+        "Warning: source stepping failed"
+      ],
+      "max_abs_saved_node_V": 5.00015752,
+      "passed": true
+    },
+    "startup_0": {
+      "name": "startup_0",
+      "temperature_C": 27,
+      "rail_V": 5,
+      "load_fF": 10000,
+      "hold_ns": 1000,
+      "edge_ns": 1,
+      "no_nodeset": true,
+      "load_resistance_ohm": 1000000.0,
+      "zero_offset_V": 0,
+      "supply_resistance_ohm": 0,
+      "power_ramp_ns": 100,
+      "samples": 1,
+      "elapsed_s": 4.338623523712158,
+      "max_errors_V": {
+        "sum": 0.04158219432203316,
+        "cout": 0.03478778438571248,
+        "and_out": 0.04317322201549127,
+        "or_out": 0.03527179126574651,
+        "product": 0.0356255698
+      },
+      "tolerance_fail_samples": 0,
+      "logic_fail_samples": 0,
+      "worst": {
+        "state_trits": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "output": "and_out",
+        "actual_V": -0.04317322201549127,
+        "expected_V": 0.0
+      },
+      "current_mA": {
+        "VDD": 9.60389105,
+        "VSS": 9.60404633,
+        "VMID": 1.1069646099062115e-07
+      },
+      "power_mW_max": 96.0396869,
+      "failure_examples": [],
+      "solver_warnings": [
+        "Warning: singular matrix:  check node xdut.x_and.net2",
+        "Warning: singular matrix:  check node xdut.x_fa.x_ha1.nd",
+        "Warning: singular matrix:  check node xdut.x_fa.x_cout.net2",
+        "Warning: singular matrix:  check node xdut.x_fa.x_cout.net2",
+        "Warning: singular matrix:  check node xdut.x_or1.net1",
+        "Warning: singular matrix:  check node xdut.x_or1.net1",
+        "Warning: Dynamic gmin stepping failed",
+        "Warning: True gmin stepping failed",
+        "Warning: source stepping failed"
+      ],
+      "max_abs_saved_node_V": 0.414098917,
+      "passed": true
+    },
+    "startup_1": {
+      "name": "startup_1",
+      "temperature_C": 27,
+      "rail_V": 5,
+      "load_fF": 10000,
+      "hold_ns": 1000,
+      "edge_ns": 1,
+      "no_nodeset": true,
+      "load_resistance_ohm": 1000000.0,
+      "zero_offset_V": 0,
+      "supply_resistance_ohm": 0,
+      "power_ramp_ns": 100,
+      "samples": 1,
+      "elapsed_s": 3.977668523788452,
+      "max_errors_V": {
+        "sum": 0.043077085815617,
+        "cout": 0.060127212413239484,
+        "and_out": 0.06010950967599982,
+        "or_out": 0.0601113153502606,
+        "product": 2.600000000185787e-06
+      },
+      "tolerance_fail_samples": 0,
+      "logic_fail_samples": 0,
+      "worst": {
+        "state_trits": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "output": "cout",
+        "actual_V": 4.9398727875867605,
+        "expected_V": 5.0
+      },
+      "current_mA": {
+        "VDD": 1.67222879895116,
+        "VSS": 1.6570546523498602,
+        "VMID": 1.09229799458452e-05
+      },
+      "power_mW_max": 16.6464172565051,
+      "failure_examples": [],
+      "solver_warnings": [
+        "Warning: singular matrix:  check node xdut.x_and.net2",
+        "Warning: singular matrix:  check node xdut.x_fa.x_ha1.nd",
+        "Warning: singular matrix:  check node xdut.x_fa.x_cout.net2",
+        "Warning: singular matrix:  check node xdut.x_fa.x_cout.net2",
+        "Warning: singular matrix:  check node xdut.x_or1.net1",
+        "Warning: singular matrix:  check node xdut.x_or1.net1",
+        "Warning: Dynamic gmin stepping failed",
+        "Warning: True gmin stepping failed",
+        "Warning: source stepping failed"
+      ],
+      "max_abs_saved_node_V": 5.00209141,
+      "passed": true
+    },
+    "feed_10ohm": {
+      "name": "feed_10ohm",
+      "temperature_C": 27,
+      "rail_V": 5,
+      "load_fF": 10000,
+      "hold_ns": 1000,
+      "edge_ns": 1,
+      "no_nodeset": false,
+      "load_resistance_ohm": 1000000.0,
+      "zero_offset_V": 0,
+      "supply_resistance_ohm": 10,
+      "power_ramp_ns": 0,
+      "samples": 82,
+      "elapsed_s": 163.94449019432068,
+      "max_errors_V": {
+        "sum": 0.13258489683642427,
+        "cout": 0.09263496829995432,
+        "and_out": 0.14081974848057843,
+        "or_out": 0.13567947103632072,
+        "product": 0.10042709014644076
+      },
+      "tolerance_fail_samples": 0,
+      "logic_fail_samples": 0,
+      "worst": {
+        "state_trits": [
+          0,
+          0,
+          -1,
+          0
+        ],
+        "output": "and_out",
+        "actual_V": -4.859180251519422,
+        "expected_V": -5.0
+      },
+      "current_mA": {
+        "VDD": 9.409200791512562,
+        "VSS": 9.409351173025124,
+        "VMID": 7.5362493280539e-06
+      },
+      "power_mW_max": 94.09275982268844,
+      "failure_examples": [],
+      "solver_warnings": [],
+      "max_abs_saved_node_V": 5.07136161,
+      "passed": true
+    },
+    "feed_25ohm": {
+      "name": "feed_25ohm",
+      "temperature_C": 27,
+      "rail_V": 5,
+      "load_fF": 10000,
+      "hold_ns": 1000,
+      "edge_ns": 1,
+      "no_nodeset": false,
+      "load_resistance_ohm": 1000000.0,
+      "zero_offset_V": 0,
+      "supply_resistance_ohm": 25,
+      "power_ramp_ns": 0,
+      "samples": 82,
+      "elapsed_s": 164.80251383781433,
+      "max_errors_V": {
+        "sum": 0.23800727024505353,
+        "cout": 0.1410136490978937,
+        "and_out": 0.26256953885247825,
+        "or_out": 0.24668937963136717,
+        "product": 0.12194571219098904
+      },
+      "tolerance_fail_samples": 0,
+      "logic_fail_samples": 0,
+      "worst": {
+        "state_trits": [
+          0,
+          0,
+          -1,
+          0
+        ],
+        "output": "and_out",
+        "actual_V": -4.737430461147522,
+        "expected_V": -5.0
+      },
+      "current_mA": {
+        "VDD": 9.131355402605015,
+        "VSS": 9.131495962605015,
+        "VMID": 7.667788719118469e-06
+      },
+      "power_mW_max": 91.31425682605015,
+      "failure_examples": [],
+      "solver_warnings": [],
+      "max_abs_saved_node_V": 5.10215024,
+      "passed": true
+    },
+    "feed_50ohm": {
+      "name": "feed_50ohm",
+      "temperature_C": 27,
+      "rail_V": 5,
+      "load_fF": 10000,
+      "hold_ns": 1000,
+      "edge_ns": 1,
+      "no_nodeset": false,
+      "load_resistance_ohm": 1000000.0,
+      "zero_offset_V": 0,
+      "supply_resistance_ohm": 50,
+      "power_ramp_ns": 0,
+      "samples": 82,
+      "elapsed_s": 141.81532263755798,
+      "max_errors_V": {
+        "sum": 0.4031680322575495,
+        "cout": 0.219399383739602,
+        "and_out": 0.4514644932700147,
+        "or_out": 0.4200420184805971,
+        "product": 0.23763281999999997
+      },
+      "tolerance_fail_samples": 0,
+      "logic_fail_samples": 0,
+      "worst": {
+        "state_trits": [
+          0,
+          0,
+          -1,
+          0
+        ],
+        "output": "and_out",
+        "actual_V": -4.548535506729985,
+        "expected_V": -5.0
+      },
+      "current_mA": {
+        "VDD": 8.702594451461945,
+        "VSS": 8.70272051292389,
+        "VMID": 7.748588681829657e-06
+      },
+      "power_mW_max": 87.02657482192917,
+      "failure_examples": [],
+      "solver_warnings": [],
+      "max_abs_saved_node_V": 5.18421299,
+      "passed": true
+    },
+    "zero_-0.5": {
+      "name": "zero_-0.5",
+      "temperature_C": 27,
+      "rail_V": 5,
+      "load_fF": 10000,
+      "hold_ns": 1000,
+      "edge_ns": 1,
+      "no_nodeset": false,
+      "load_resistance_ohm": 1000000.0,
+      "zero_offset_V": -0.5,
+      "supply_resistance_ohm": 0,
+      "power_ramp_ns": 0,
+      "samples": 82,
+      "elapsed_s": 141.15771746635437,
+      "max_errors_V": {
+        "sum": 0.06130765575357078,
+        "cout": 0.05981487405541763,
+        "and_out": 0.059571255787578714,
+        "or_out": 0.05962624431184782,
+        "product": 0.10077010003850194
+      },
+      "tolerance_fail_samples": 0,
+      "logic_fail_samples": 0,
+      "worst": {
+        "state_trits": [
+          1,
+          -1,
+          0,
+          -1
+        ],
+        "output": "product",
+        "actual_V": -0.10077010003850194,
+        "expected_V": 0.0
+      },
+      "current_mA": {
+        "VDD": 9.601182121174755,
+        "VSS": 9.601342172349513,
+        "VMID": 7.475273907080398e-06
+      },
+      "power_mW_max": 96.01262146762136,
+      "failure_examples": [],
+      "solver_warnings": [],
+      "max_abs_saved_node_V": 5.10663056,
+      "passed": true
+    },
+    "zero_0.5": {
+      "name": "zero_0.5",
+      "temperature_C": 27,
+      "rail_V": 5,
+      "load_fF": 10000,
+      "hold_ns": 1000,
+      "edge_ns": 1,
+      "no_nodeset": false,
+      "load_resistance_ohm": 1000000.0,
+      "zero_offset_V": 0.5,
+      "supply_resistance_ohm": 0,
+      "power_ramp_ns": 0,
+      "samples": 82,
+      "elapsed_s": 132.8165111541748,
+      "max_errors_V": {
+        "sum": 0.06130923761147855,
+        "cout": 0.0598137242318284,
+        "and_out": 0.059568711277946385,
+        "or_out": 0.059624609556195196,
+        "product": 0.10103543823153224
+      },
+      "tolerance_fail_samples": 0,
+      "logic_fail_samples": 0,
+      "worst": {
+        "state_trits": [
+          1,
+          -1,
+          0,
+          -1
+        ],
+        "output": "product",
+        "actual_V": -0.10103543823153224,
+        "expected_V": 0.0
+      },
+      "current_mA": {
+        "VDD": 9.602520522154638,
+        "VSS": 9.602675683231958,
+        "VMID": 7.487262249000079e-06
+      },
+      "power_mW_max": 96.02598102693298,
+      "failure_examples": [],
+      "solver_warnings": [],
+      "max_abs_saved_node_V": 5.10661902,
+      "passed": true
+    }
+  },
+  "source_sha256": {
+    "nany.sch": "ed54832af23ea507d6cc0302abf85cc9f281199c8d422346cd3499aabcdb4630",
+    "nand_tb.sch": "4327130f369128a4fcfd0ddf1f2b612cdd53d5ccfb85c97219e95beafd713bf1",
+    "nti.sch": "736481540955fbd66b4840cae262ddee76cffd16cce6437633d2f8ddfe15dc39",
+    "full_adder_tb.sch": "073882c490eddbe05ffd6da3f608908f58b4b310f8581b628b89eb93244a0ef2",
+    "mul_tb.sch": "3d630be39869d683eeb056e681b121e205efc4ec2dd3caa51cbfd80a46840dbc",
+    "nsign.sch": "011da5c0eed9daba858328f7f5325ba7a199ee1cbae01a471b3e87a3ecb2c5c0",
+    "pti.sch": "b88b91b7929e0c48010efa0c22d0bfaa5fab7a8335e3e6f3573c1c436233fb17",
+    "nor.sch": "9e45070348ee5eebf934834ac813945a399672eeff9eb24e5f70e34c913c84af",
+    "ternary_sram_read_tb.sch": "494aff118a77328c2b84813827894b437ba7cf3812cf8cb25222961e3f9c2904",
+    "mac_tb.sch": "8c376f296d265d17601bb97e50c34b78a62273658d8271afe8fa18650495c7ae",
+    "inverter_chain_tb.sch": "c3aa4c677cb392e05c5898fb2856e05e319f39da607683acb7f90baba4b405fb",
+    "inverter.sch": "db254c47b4c8c1f0bc3329fc52e70e6d8809a85122c820d12f57564d70228def",
+    "nsign_tb.sch": "3fb4c414b4ab982eb16d8bf625aa0b27ccc6e92095a439217a344b8cabb61ff9",
+    "cons_tb.sch": "ac0bbc75fe3f1bcc88949254c1b607bc30eb999402813632d8ee90b8d1cb96cf",
+    "mul_nand.sch": "02f4bcddd1e0736c6184d16da7cdb282f65a7d27bae59a568434573ab96afea0",
+    "inverter_tb.sch": "650f8f5d145530c146b0cb8f73d728a9c33ffb6d78fcec4a5a0472b5a0eb8bd8",
+    "pti_tb.sch": "2c4c946c14549e7bd0ea129cab276b79354b3871210cb233bb5c5cbd85d57614",
+    "nand.sch": "dacf14826a54a9838280b9e0bc403f3680332edfeef569d9ecebc6d1da029fad",
+    "mul_inv.sch": "015e068c3dc97c81e8b14964e72137bc8e1101cca91d1bed7fa820e6e7e0829e",
+    "ternary_latch_tb.sch": "a4b0beb6fea6b966e9258582a7cf2b1874ef687e33ab75e562aceacb2ba99a3e",
+    "nti_tb.sch": "64c5747c6ea4886cb0a4543486f93e62ee08a27038ac4dd01579dc3629ad7797",
+    "mac.sch": "9a846bd911297f2176624ed253acb215f0b349c2a2d955ed4bc744fb4a0801fd",
+    "nor_tb.sch": "b8445d2653e93e77aead3baf08967b152001c6144027983219e9b79fc779af4d",
+    "full_adder.sch": "dc0a3a0b776e23fad1a34190746a4eafe2dfdbeb6fa18cdcf8bc24e28805ee26",
+    "nany_tb.sch": "53a05bdb1cf82b95d4cb682fd4dc396293552340492c92d954b6f6c4cb95ca29",
+    "cons.sch": "db0187c64321dfe2ae49b688fba2c063080f4b97a1bb512b0fb1305950865b80",
+    "mul_nor.sch": "b06d4f999ace81c91333e52b2207f2a9a1f949561e3a494486e8b0427159c45d",
+    "ternary_sram.sch": "6f3c78ba4f252a93f5b4126d46077cf3f546ba0dbed15ce98b44ec168eb21b32",
+    "ternary_sram_tb.sch": "00f78f37d5a38037b17b743246a12dd775b49e6fae94f37df0ead0d0574e3498",
+    "half_adder_tb.sch": "11e96feb1f15963949a28d16cdd8e4ed735ecb4b0fc32e79d17bcf9bbac036c3",
+    "ternary_latch.sch": "5d6b6b5511fa4a265961750d464bdc8792b5385a5e0a10005e3fcda26207be33",
+    "mul.sch": "369cbbc0d1d9159ca6b221b2e83edd8b2d933eb2a2abb4c955cca928c8bac572",
+    "nor_chain_tb.sch": "3941c924b2924566104b8d437455294e0c60e0fd6206212f2f19f5d0068bb6b8",
+    "half_adder.sch": "2523ef16811218c7b62f45d1a17ee22349f92e07c0d40a8c2f43d3e6cd41333b"
+  },
+  "model_sha256": {
+    "libs.tech/spice/models/models_IP62_cap_v5p1.lib": "265c1e2b5228381633ec936f208101b64a0538905c41bdf53e760df10f347bed",
+    "libs.tech/spice/models/models_IP62_diode_v2.lib": "37c19bd4f6d631a5862f2b6aeda62e5eb73ed15fe0de9932296a81a144f1550f",
+    "libs.tech/spice/models/models_IP62_res_v5.lib": "0d6e2e4b7739fd68946c746830ed8896f4ec5ee98e984fdb5c8dd1116ad78311",
+    "libs.tech/spice/models/models_IP62_mos_v2.lib": "251864d489d0e15a3081871763af29e1bbc8654ae55662bede40e0a7bbac1400",
+    "libs.tech/spice/models/ip62_models": "219ca479adc7d6d960f83e18e0081da153a479f34615333d74c946869bc4c6ec"
+  },
+  "scope": "Unchanged PDK; nominal process; 10 pF || 1 Mohm, 1 us hold. Not a foundry PVT or voltage-survival qualification."
+}

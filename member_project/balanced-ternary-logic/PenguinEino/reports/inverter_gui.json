@@ -1,0 +1,9 @@
+{
+  "gds": "/home/ishi-kai/balanced-ternary-logic/inverter.gds",
+  "gds_sha256": "42bc2c653b2c5287d169be09d208bde4e7e9eecf50f5a3238f10762b18e4a5eb",
+  "drawing_drc_items": 0,
+  "lvs_match": true,
+  "lvs_errors": [],
+  "default_macro_paths": true,
+  "passed": true
+}

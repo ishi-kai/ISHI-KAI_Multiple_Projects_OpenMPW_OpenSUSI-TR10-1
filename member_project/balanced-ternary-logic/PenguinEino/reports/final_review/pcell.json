@@ -1,0 +1,47 @@
+{
+  "inverter": {
+    "differences": [],
+    "live_pcell_variants": 7,
+    "passed": true
+  },
+  "nany": {
+    "differences": [],
+    "live_pcell_variants": 9,
+    "passed": true
+  },
+  "half_adder": {
+    "differences": [],
+    "live_pcell_variants": 11,
+    "passed": true
+  },
+  "full_adder": {
+    "differences": [],
+    "live_pcell_variants": 11,
+    "passed": true
+  },
+  "mul_nand": {
+    "differences": [],
+    "live_pcell_variants": 7,
+    "passed": true
+  },
+  "mul_nor": {
+    "differences": [],
+    "live_pcell_variants": 7,
+    "passed": true
+  },
+  "mul_inv": {
+    "differences": [],
+    "live_pcell_variants": 7,
+    "passed": true
+  },
+  "mul": {
+    "differences": [],
+    "live_pcell_variants": 11,
+    "passed": true
+  },
+  "mac": {
+    "differences": [],
+    "live_pcell_variants": 15,
+    "passed": true
+  }
+}

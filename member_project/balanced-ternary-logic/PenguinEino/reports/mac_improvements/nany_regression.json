@@ -1,0 +1,41 @@
+{
+  "passed": true,
+  "device_sha256": "8b86988d642e3fced367f8459f07c1a41776bd343e3add999c5806b0b64b9e05",
+  "schematic_sha256": "ed54832af23ea507d6cc0302abf85cc9f281199c8d422346cd3499aabcdb4630",
+  "cases": [
+    {
+      "mode": "dc",
+      "error": 0.0445943482,
+      "band_error": 0.0810757505
+    },
+    {
+      "mode": "tran_10f",
+      "count": 72,
+      "error": 0.0445943316,
+      "settle_ns": 15.646579999999972,
+      "unsettled": 0
+    },
+    {
+      "mode": "tran_100f",
+      "count": 72,
+      "error": 0.0445943316,
+      "settle_ns": 18.746979999999894,
+      "unsettled": 0
+    },
+    {
+      "mode": "skew_a",
+      "count": 72,
+      "error": 0.0445943316,
+      "settle_ns": 14.949999999999932,
+      "unsettled": 0
+    },
+    {
+      "mode": "skew_b",
+      "count": 72,
+      "error": 0.0445943316,
+      "settle_ns": 15.125179999999887,
+      "unsettled": 0
+    }
+  ],
+  "scope": "Nominal +/-5 V, 27 C; all 72 transitions at 10/100 fF, input skew +/-2 ns, DC neighborhoods. Not the 10 pF MAC specification."
+}

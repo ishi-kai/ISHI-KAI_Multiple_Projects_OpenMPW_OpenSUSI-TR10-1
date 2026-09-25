@@ -1,0 +1,83 @@
+.subckt mac x a b cin sum cout VDD VSS VMID and_out or_out
+x_mul a b p VDD VSS nmin or_raw mul
+x_fa x p cin sum cout VDD VSS VMID full_adder
+x_and nmin and_out VDD VSS inverter
+x_or1 or_raw or_n VDD VSS inverter
+x_or2 or_n or_out VDD VSS inverter
+.ends
+
+.subckt mul a b p VDD VSS t1 t3
+x_t1 a b t1 VDD VSS mul_nand
+x_t2 a b t2 VDD VSS mul_nor
+x_t3 t2 t3 VDD VSS mul_inv
+x_p t1 t3 p VDD VSS mul_nand
+.ends
+
+
+.subckt full_adder a b cin sum cout VDD VSS VMID
+x_ha1 a b s1 c1 VDD VSS VMID half_adder
+x_ha2 s1 cin sum c2 VDD VSS VMID half_adder
+x_cmerge c1 c2 nc VDD VSS VMID nany
+x_cout nc cout VDD VSS inverter
+.ends
+
+
+.subckt inverter vin vout VDD VSS
+MXM1 net1 vin VDD VDD PMOS w=13.5u l=1u
+XR1 net1 vout VDD F_RR w=2.8e-06 l=30e-06
+XR2 vout net2 VDD F_RR w=2.8e-06 l=30e-06
+MXM2 net2 vin VSS VSS NMOS w=5u l=1u
+.ends
+
+
+.subckt mul_nand a b vout V+ V-
+MXM1 net1 a V+ V+ PMOS w=19u l=1u
+MXM3 net1 b V+ V+ PMOS w=19u l=1u
+XR1 net1 vout V+ F_RR w=2.8e-06 l=30e-06
+XR2 vout net2 V+ F_RR w=2.8e-06 l=30e-06
+MXM2 net2 a net3 V- NMOS w=13u l=1u
+MXM4 net3 b V- V- NMOS w=13u l=1u
+.ends
+
+
+.subckt mul_nor a b vout V+ V-
+MXM4 net1 a V+ V+ PMOS w=37u l=1u
+MXM3 net2 b net1 V+ PMOS w=37u l=1u
+XR2 net2 vout V+ F_RR w=2.8e-06 l=30e-06
+XR1 vout net3 V+ F_RR w=2.8e-06 l=30e-06
+MXM2 net3 a V- V- NMOS w=6.5u l=1u
+MXM1 net3 b V- V- NMOS w=6.5u l=1u
+.ends
+
+
+.subckt mul_inv vin vout VDD VSS
+MXM1 net1 vin VDD VDD PMOS w=13.5u l=1u
+XR1 net1 vout VDD F_RR w=2.8e-06 l=30e-06
+XR2 vout net2 VDD F_RR w=2.8e-06 l=30e-06
+MXM2 net2 vin VSS VSS NMOS w=5u l=1u
+.ends
+
+
+.subckt half_adder a b sum carry VDD VSS VMID
+x_t a b t VDD VSS VMID nany
+x_u b t u VDD VSS VMID nany
+x_na a na VDD VSS inverter
+x_c na u carry VDD VSS VMID nany
+x_d t carry d VDD VSS VMID nany
+x_nd d nd VDD VSS inverter
+x_s nd carry sum VDD VSS VMID nany
+.ends
+
+
+.subckt nany a b vout VDD VSS VMID
+MXM3 net2 b net1 VDD PMOS w=34u l=1u
+XR2 net2 vout VDD F_RR w=2.8e-06 l=30e-06
+XR1 vout net3 VDD F_RR w=2.8e-06 l=30e-06
+MXM2 net3 a net4 VSS NMOS w=11u l=1u
+MXM1 net4 b VSS VSS NMOS w=11u l=1u
+MXM5 net1 a VDD VDD PMOS w=34u l=1u
+MXM6 net5 a vout VDD PMOS w=14u l=1u
+MXM7 net5 b VMID VSS NMOS w=8u l=1u
+MXM8 net6 b vout VDD PMOS w=14u l=1u
+MXM9 net6 a VMID VSS NMOS w=8u l=1u
+.ends

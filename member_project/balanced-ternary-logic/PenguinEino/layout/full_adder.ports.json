@@ -1,0 +1,344 @@
+{
+  "top_cell": "full_adder",
+  "dbu_um": 0.001,
+  "placement_grid_um": 0.05,
+  "bbox_um": [
+    -132.0,
+    -110.85000000000001,
+    1601.0,
+    331.7
+  ],
+  "ports": {
+    "a": {
+      "layer": [
+        13,
+        0
+      ],
+      "label_layer": [
+        48,
+        0
+      ],
+      "position_um": [
+        -128.45,
+        29.5
+      ]
+    },
+    "b": {
+      "layer": [
+        13,
+        0
+      ],
+      "label_layer": [
+        48,
+        0
+      ],
+      "position_um": [
+        -128.75,
+        36.1
+      ]
+    },
+    "cin": {
+      "layer": [
+        13,
+        0
+      ],
+      "label_layer": [
+        48,
+        0
+      ],
+      "position_um": [
+        620.9,
+        35.75
+      ]
+    },
+    "sum": {
+      "layer": [
+        13,
+        0
+      ],
+      "label_layer": [
+        48,
+        0
+      ],
+      "position_um": [
+        1340.9,
+        78.1
+      ]
+    },
+    "cout": {
+      "layer": [
+        13,
+        0
+      ],
+      "label_layer": [
+        48,
+        0
+      ],
+      "position_um": [
+        1576.25,
+        -59.1
+      ]
+    },
+    "VMID": {
+      "layer": [
+        13,
+        0
+      ],
+      "label_layer": [
+        48,
+        0
+      ],
+      "position_um": [
+        -121.65,
+        83.8
+      ]
+    },
+    "VDD": {
+      "layer": [
+        13,
+        0
+      ],
+      "label_layer": [
+        48,
+        0
+      ],
+      "position_um": [
+        600,
+        235
+      ]
+    },
+    "VSS": {
+      "layer": [
+        13,
+        0
+      ],
+      "label_layer": [
+        48,
+        0
+      ],
+      "position_um": [
+        650,
+        295
+      ]
+    }
+  },
+  "instances": [],
+  "routes": [
+    {
+      "net": "cout",
+      "layer": "M2",
+      "points_um": [
+        [
+          1562.45,
+          -59.75
+        ],
+        [
+          1569,
+          -59.75
+        ]
+      ],
+      "width_um": 3.4
+    },
+    {
+      "net": "cout",
+      "layer": "M1",
+      "points_um": [
+        [
+          1569,
+          -59.75
+        ],
+        [
+          1577.6,
+          -59.75
+        ]
+      ],
+      "width_um": 3.4
+    },
+    {
+      "net": "c1",
+      "layer": "M1",
+      "points_um": [
+        [
+          561.65,
+          59.75
+        ],
+        [
+          568.5,
+          59.75
+        ]
+      ],
+      "width_um": 3.4
+    },
+    {
+      "net": "c1",
+      "layer": "M2",
+      "points_um": [
+        [
+          568.5,
+          59.75
+        ],
+        [
+          568.5,
+          330
+        ]
+      ],
+      "width_um": 3.4
+    },
+    {
+      "net": "c1",
+      "layer": "M1",
+      "points_um": [
+        [
+          568.5,
+          330
+        ],
+        [
+          1308.45,
+          330
+        ]
+      ],
+      "width_um": 3.4
+    },
+    {
+      "net": "c1",
+      "layer": "M2",
+      "points_um": [
+        [
+          1308.45,
+          330
+        ],
+        [
+          1308.45,
+          20.65
+        ]
+      ],
+      "width_um": 3.4
+    },
+    {
+      "net": "VSS",
+      "layer": "M2",
+      "points_um": [
+        [
+          -116.05,
+          97.15
+        ],
+        [
+          -116.05,
+          295
+        ]
+      ],
+      "width_um": 4
+    },
+    {
+      "net": "VSS",
+      "layer": "M2",
+      "points_um": [
+        [
+          580.9,
+          97.15
+        ],
+        [
+          580.9,
+          295
+        ]
+      ],
+      "width_um": 4
+    },
+    {
+      "net": "VDD",
+      "layer": "M1",
+      "points_um": [
+        [
+          1460,
+          15.05
+        ],
+        [
+          1464.4,
+          15.05
+        ],
+        [
+          1464.4,
+          -33.95
+        ],
+        [
+          1476.45,
+          -33.95
+        ]
+      ],
+      "width_um": 3.4
+    },
+    {
+      "net": "VSS",
+      "layer": "M2",
+      "points_um": [
+        [
+          1585,
+          -102.85
+        ],
+        [
+          1585,
+          295
+        ]
+      ],
+      "width_um": 4
+    },
+    {
+      "net": "VDD",
+      "layer": "M2",
+      "points_um": [
+        [
+          1432,
+          19.05
+        ],
+        [
+          1432,
+          235
+        ]
+      ],
+      "width_um": 3.4
+    },
+    {
+      "net": "VDD",
+      "layer": "M2",
+      "points_um": [
+        [
+          1542,
+          -29.950000000000003
+        ],
+        [
+          1542,
+          235
+        ]
+      ],
+      "width_um": 3.4
+    }
+  ],
+  "gds_sha256": "e159fbbf0bfd6b9ea943f7d53e1d88fe74aa811bb4f313da34b0e4a9430c2fbd",
+  "sources": {
+    "/home/ishi-kai/balanced-ternary-logic/half_adder.gds": "4ae02d9027d72ed279b6e016f4f48c2be1d0bc626206fd6fb8bee9c504aafaf9",
+    "/home/ishi-kai/balanced-ternary-logic/nany.gds": "3403d325575c08cee2765c459d40985ee041db48a1ed21f1e13f3d9306af6282",
+    "/home/ishi-kai/balanced-ternary-logic/inverter.gds": "66242f8be89020ec65350f12ffcc2a7301bc632955dfde345016224138e7e3a4",
+    "/home/ishi-kai/balanced-ternary-logic/layout/full_adder_signal_template.json": "a47b3d226c19f785d09cfccc3370a068fb5b5141c50b11820aeb53dddcd845a5"
+  },
+  "device_counts": {
+    "PMOS": 49,
+    "NMOS": 49,
+    "F_RR": 32
+  },
+  "manual_signal_routing_preserved_except": [
+    "C1 lifted over widened power rails",
+    "Cout via moved outside widened RR guard tie"
+  ],
+  "power_paths_replaced": [
+    "path (1260900,-96550;1312000,-96550) w=3400 bx=0 ex=0 r=false",
+    "path (1260900,15050;1312000,15050) w=3400 bx=0 ex=0 r=false",
+    "path (1444000,-96550;1468450,-96550) w=3400 bx=0 ex=0 r=false",
+    "path (1444000,15050;1464400,15050;1464400,-33950;1468450,-33950) w=3400 bx=0 ex=0 r=false",
+    "path (-96050,215050;-125700,215050) w=3400 bx=0 ex=0 r=false",
+    "path (-96050,103450;-125700,103450) w=3400 bx=0 ex=0 r=false",
+    "path (563950,215050;600900,215050) w=3400 bx=0 ex=0 r=false",
+    "path (563950,103450;600900,103450) w=3400 bx=0 ex=0 r=false",
+    "path (563950,15050;600900,15050) w=3400 bx=0 ex=0 r=false",
+    "path (563950,-96550;600900,-96550) w=3400 bx=0 ex=0 r=false"
+  ]
+}

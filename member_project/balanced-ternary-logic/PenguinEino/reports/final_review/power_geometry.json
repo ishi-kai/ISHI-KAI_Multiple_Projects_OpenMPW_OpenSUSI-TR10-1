@@ -1,0 +1,147 @@
+{
+  "passed": true,
+  "gds_sha256": "a9ff0fec14150144d8bbeee7ecfe4f348d0035a6e7206696a63669becdeb60bb",
+  "rails": [
+    {
+      "name": "upper_VDD",
+      "box_um": [
+        20,
+        722.6,
+        1480,
+        766.6
+      ],
+      "width_um": 44,
+      "missing_area_um2": 0
+    },
+    {
+      "name": "upper_VSS",
+      "box_um": [
+        20,
+        559.4,
+        1480,
+        603.4
+      ],
+      "width_um": 44,
+      "missing_area_um2": 0
+    },
+    {
+      "name": "FA_VDD",
+      "box_um": [
+        48,
+        336.2,
+        1781,
+        380.2
+      ],
+      "width_um": 44,
+      "missing_area_um2": 0
+    },
+    {
+      "name": "FA_VSS",
+      "box_um": [
+        48,
+        396.2,
+        1781,
+        440.2
+      ],
+      "width_um": 44,
+      "missing_area_um2": 0
+    }
+  ],
+  "spines": [
+    {
+      "net": "VDD",
+      "box_um": [
+        873,
+        358.2,
+        887,
+        744.6
+      ],
+      "width_um": 14,
+      "landings": [
+        {
+          "center_um": [
+            880,
+            358.2
+          ],
+          "cuts": 24
+        },
+        {
+          "center_um": [
+            880,
+            744.6
+          ],
+          "cuts": 24
+        }
+      ]
+    },
+    {
+      "net": "VSS",
+      "box_um": [
+        853,
+        418.2,
+        867,
+        581.4
+      ],
+      "width_um": 14,
+      "landings": [
+        {
+          "center_um": [
+            860,
+            418.2
+          ],
+          "cuts": 24
+        },
+        {
+          "center_um": [
+            860,
+            581.4
+          ],
+          "cuts": 24
+        }
+      ]
+    }
+  ],
+  "upper_cells": [
+    {
+      "cell": "mul_nand",
+      "index": 0,
+      "y_um": 600.0
+    },
+    {
+      "cell": "mul_nor",
+      "index": 1,
+      "y_um": 600.0
+    },
+    {
+      "cell": "mul_inv",
+      "index": 2,
+      "y_um": 600.0
+    },
+    {
+      "cell": "mul_nand",
+      "index": 3,
+      "y_um": 600.0
+    },
+    {
+      "cell": "inverter",
+      "x_um": 960.0,
+      "y_um": 600.0
+    },
+    {
+      "cell": "inverter",
+      "x_um": 1160.0,
+      "y_um": 600.0
+    },
+    {
+      "cell": "inverter",
+      "x_um": 1360.0,
+      "y_um": 600.0
+    }
+  ],
+  "dc_source": "reports/mac_improvements/supply_T-40.0_fixed0_num0_power1_4.5_5.5_0.5.json",
+  "dc_source_sha256": "a42f50d245c3ed07ab296f1befca19e69daacf5a2f3dca8c04623f3deac42283",
+  "maximum_total_dc_A": 0.0103633212,
+  "main_M1_conservative_capacity_A": 0.011,
+  "topology": "Separate upper MUL/INV row and middle FA return; old 40 um shared return overlay removed.",
+  "scope": "Actual geometric coverage and nominal +/-5 V DC screening; not wire RC, AC or EM signoff."
+}

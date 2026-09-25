@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "all_original_functional_geometry_preserved": true,
+  "art_clearance_from_functional_M1_M2_vias_um": 3,
+  "added_area_um2": {
+    "13/0": 18290.3825,
+    "20/0": 14717.4,
+    "19/0": 3.92
+  },
+  "art_bbox_um": "(1517,450;1733,694)"
+}

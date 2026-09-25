@@ -1,0 +1,38 @@
+{
+  "cases": {
+    "1": {
+      "max_terminal_difference_V": {
+        "VDS": 11.01076781,
+        "VGS": 10.75403955,
+        "VGD": 11.23710123,
+        "VGB": 10.619588570000001,
+        "VDB": 11.060215379999999,
+        "VSB": 10.619588570000001
+      },
+      "wave_sha256": "6b5ba9a38bc7d337ee278066b711b64c748e0e9fb747894aae6a12403e390604"
+    },
+    "10": {
+      "max_terminal_difference_V": {
+        "VDS": 10.908975649999999,
+        "VGS": 10.75915034,
+        "VGD": 10.81546113,
+        "VGB": 10.623411919999999,
+        "VDB": 10.621350660000001,
+        "VSB": 10.623411919999999
+      },
+      "wave_sha256": "efdeeef3b142e6fc0ba3743691a67bc5e723f5dc30943fddc5fc33eb484381bc"
+    },
+    "100": {
+      "max_terminal_difference_V": {
+        "VDS": 10.76445977,
+        "VGS": 10.73842891,
+        "VGD": 10.74862841,
+        "VGB": 10.69673835,
+        "VDB": 10.68266469,
+        "VSB": 10.69673835
+      },
+      "wave_sha256": "20493a61274d1fa45471ef6b25952dd268235e5dd157b225d913b9d36cd01287"
+    }
+  },
+  "scope": "Cold 81-state sequence, +/-5 V. Full transient terminal differences; not breakdown modeling."
+}

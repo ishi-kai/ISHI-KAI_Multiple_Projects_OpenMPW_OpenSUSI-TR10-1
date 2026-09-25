@@ -1,0 +1,61 @@
+{
+  "passed": true,
+  "baseline_commit": "b3042dc",
+  "baseline_gds_sha256": "13a8c4415aac8f88be5a9fc05792727665c7352ef444de89f1c39f2e7bcbafd6",
+  "new_gds_sha256": "27f22be16cac5fe157506a670efba637a03b19787db8602da430fe1dab6865a6",
+  "baseline_extracted_sha256": "0325246bb323e7bd1955960a6b1b7260403e7b850755d85d7b078b06abb6464c",
+  "new_extracted_sha256": "eebf5368e541fa7747bc294f1dfc229e8af1ac1a635f097449836c894fabe87c",
+  "parameter_and_pin_exact_isomorphic_cells": [
+    "full_adder",
+    "half_adder",
+    "inverter",
+    "mac",
+    "mul",
+    "mul_inv",
+    "mul_nand",
+    "mul_nor",
+    "nany"
+  ],
+  "only_added_geometry": true,
+  "bridges_FA_coordinates_um": [
+    {
+      "net": "VSS",
+      "box": [
+        563.95,
+        89.15,
+        600.9,
+        105.15
+      ]
+    },
+    {
+      "net": "VDD",
+      "box": [
+        563.95,
+        13.35,
+        600.9,
+        25.35
+      ]
+    },
+    {
+      "net": "VSS",
+      "box": [
+        563.95,
+        -110.85,
+        600.9,
+        -94.85
+      ]
+    },
+    {
+      "net": "VSS",
+      "box": [
+        1260.9,
+        -110.85,
+        1312,
+        -94.85
+      ]
+    }
+  ],
+  "models_reference_rules_identical": true,
+  "transients": "All existing cases inherited by exact electrical equivalence; no new transient run for these four bridges.",
+  "scope": "No interconnect R/C is extracted; lower resistance and current redistribution are not quantified."
+}

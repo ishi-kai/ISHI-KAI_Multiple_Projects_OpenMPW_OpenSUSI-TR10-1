@@ -1,0 +1,11 @@
+{
+  "mismatches": [
+    {
+      "path": "/home/ishi-kai/balanced-ternary-logic/simulation/mac/extracted/mac_extracted.spice",
+      "recorded": "9e06ee2eeb85bdb6cc2130ebe6025589f23764b39df9ea8afb4afc5fa19ee250",
+      "current": "86cca8ae7566eb2ffe3d9367618a8b9e36dcbb43c9d97bf325721f56005b4f31"
+    }
+  ],
+  "disposition": "Excluded legacy extracted waves from this review; freshly simulate final extracted 81/6480/648 cases and independently re-evaluate them.",
+  "note": "Historical Git-based netlist equivalence remains separate; this is a mutable include-path archival issue."
+}

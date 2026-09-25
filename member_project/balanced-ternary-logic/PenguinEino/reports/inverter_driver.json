@@ -1,0 +1,26 @@
+{
+  "source_sha256": "66242f8be89020ec65350f12ffcc2a7301bc632955dfde345016224138e7e3a4",
+  "scope": "Two unchanged INV primitives with shared power rails and a routed driver output to load input. Driver input tied to VDD in fixture only.",
+  "gap_um": 12,
+  "drc": {
+    "passed": true,
+    "items": 0,
+    "categories": {}
+  },
+  "lvs": {
+    "passed": true,
+    "circuits": [
+      "Match",
+      "Match"
+    ],
+    "errors": [],
+    "strict_ports": true
+  },
+  "mask_drc": {
+    "passed": true,
+    "items": 0,
+    "categories": {},
+    "gds_sha256": "a58b69ff456f355ddee612d32d43925445bfe1bb184ac287004a1d3d467caa06"
+  },
+  "passed": true
+}

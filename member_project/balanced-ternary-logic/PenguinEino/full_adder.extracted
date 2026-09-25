@@ -1,0 +1,93 @@
+* Created by KLayout
+*** My special header ***
+
+* cell full_adder
+* pin VDD
+* pin VMID
+* pin VSS
+* pin a
+* pin b
+* pin cin
+* pin cout
+* pin sum
+.SUBCKT full_adder VDD VMID VSS a b cin cout sum
+* cell instance $1 r0 *1 1468.45,-98.25
+X$1 VDD \$1 cout VSS inverter
+* cell instance $2 r0 *1 1312,-98.25
+X$2 VDD \$1 VMID \$12 \$8 VSS nany
+* cell instance $4 r0 *1 -96.05,-98.25
+X$4 \$12 VMID VDD \$13 a b VSS half_adder
+* cell instance $5 r0 *1 600.9,-98.25
+X$5 \$8 VMID VDD sum \$13 cin VSS half_adder
+.ENDS full_adder
+
+* cell half_adder
+* pin carry
+* pin VMID
+* pin VDD
+* pin sum
+* pin a
+* pin b
+* pin VSS
+.SUBCKT half_adder carry VMID VDD sum a b VSS
+* cell instance $1 r0 *1 496,200
+X$1 VDD carry VMID \$11 \$12 VSS nany
+* cell instance $2 r0 *1 508,0
+X$2 VDD sum VMID \$4 carry VSS nany
+* cell instance $3 r0 *1 184,0
+X$3 VDD \$7 VMID \$3 carry VSS nany
+* cell instance $4 r0 *1 328,200
+X$4 VDD \$12 VMID b \$3 VSS nany
+* cell instance $5 r0 *1 160,200
+X$5 VDD \$3 VMID a b VSS nany
+* cell instance $6 r0 *1 352,0
+X$6 VDD \$7 \$4 VSS inverter
+* cell instance $7 r0 *1 40,200
+X$7 VDD a \$11 VSS inverter
+.ENDS half_adder
+
+* cell nany
+* pin VDD
+* pin vout
+* pin VMID
+* pin a
+* pin b
+* pin VSS
+.SUBCKT nany VDD vout VMID a b VSS
+* device instance $1 r0 *1 50,88 PMOS
+XM$1 \$7 a vout VDD PMOS L=1u W=14u AS=39.2p AD=39.2p PS=33.6u PD=33.6u
+* device instance $2 r0 *1 65,88 PMOS
+XM$2 \$10 b vout VDD PMOS L=1u W=14u AS=39.2p AD=39.2p PS=33.6u PD=33.6u
+* device instance $3 r0 *1 20,88 PMOS
+XM$3 \$31 a VDD VDD PMOS L=1u W=34u AS=95.2p AD=95.2p PS=73.6u PD=73.6u
+* device instance $4 r0 *1 35,88 PMOS
+XM$4 \$3 b \$31 VDD PMOS L=1u W=34u AS=95.2p AD=95.2p PS=73.6u PD=73.6u
+* device instance $5 r0 *1 50,15 NMOS
+XM$5 \$7 b VMID VSS NMOS L=1u W=8u AS=22.4p AD=22.4p PS=21.6u PD=21.6u
+* device instance $6 r0 *1 65,15 NMOS
+XM$6 \$10 a VMID VSS NMOS L=1u W=8u AS=22.4p AD=22.4p PS=21.6u PD=21.6u
+* device instance $7 r0 *1 20,15 NMOS
+XM$7 \$32 a \$4 VSS NMOS L=1u W=11u AS=30.8p AD=30.8p PS=27.6u PD=27.6u
+* device instance $8 r0 *1 35,15 NMOS
+XM$8 VSS b \$32 VSS NMOS L=1u W=11u AS=30.8p AD=30.8p PS=27.6u PD=27.6u
+* device instance $9 r0 *1 112.5,42 F_RR
+XR$9 \$4 vout VDD F_RR R=10.7142857143 L=30u W=2.8u A=84p P=65.6u m=1
+* device instance $10 r0 *1 112.5,72 F_RR
+XR$10 \$3 vout VDD F_RR R=10.7142857143 L=30u W=2.8u A=84p P=65.6u m=1
+.ENDS nany
+
+* cell inverter
+* pin VDD
+* pin vin
+* pin vout
+* pin VSS
+.SUBCKT inverter VDD vin vout VSS
+* device instance $1 r0 *1 13.2,44 PMOS
+XM$1 \$4 vin VDD VDD PMOS L=1u W=13.5u AS=37.8p AD=37.8p PS=32.6u PD=32.6u
+* device instance $2 r0 *1 13.2,14 NMOS
+XM$2 \$5 vin VSS VSS NMOS L=1u W=5u AS=14p AD=14p PS=15.6u PD=15.6u
+* device instance $3 r0 *1 64,32 F_RR
+XR$3 \$5 vout VDD F_RR R=10.7142857143 L=30u W=2.8u A=84p P=65.6u m=1
+* device instance $4 r0 *1 64,45 F_RR
+XR$4 \$4 vout VDD F_RR R=10.7142857143 L=30u W=2.8u A=84p P=65.6u m=1
+.ENDS inverter

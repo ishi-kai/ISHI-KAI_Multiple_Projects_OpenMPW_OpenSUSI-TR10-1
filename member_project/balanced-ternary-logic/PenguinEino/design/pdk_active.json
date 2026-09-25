@@ -1,0 +1,16 @@
+{
+  "branch": "dev",
+  "revision": "9ef2ac38e1717b3ba2a4b0b374e48c53017e952c",
+  "source": "/home/ishi-kai/src/TR-1um",
+  "active": "/home/ishi-kai/pdk/TR-1um",
+  "previous_installation": "/home/ishi-kai/pdk/TR-1um.before-dev-20260924-000936",
+  "installation_mode": "installed_copy",
+  "dbu_um": 0.001,
+  "layout_dev_fix": "2026-09-24: GC contacts moved outside RR recognition region; Drawing DRC and strict LVS pass.",
+  "checked_files_match_dev_source": {
+    "libs.tech/klayout/tech/drc/run.drc": true,
+    "libs.tech/klayout/tech/drc/04_TapeOut.drc": true,
+    "libs.tech/klayout/tech/python/cells/util.py": true,
+    "libs.tech/klayout/tech/lvs/run.lvs": true
+  }
+}

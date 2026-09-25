@@ -1,0 +1,13 @@
+{
+  "cell": "nany",
+  "version": "mac_rr30_2026-09-24",
+  "status": "reviewed_schematic_baseline",
+  "previous_baseline": "nany_v1.json",
+  "change": "Both F_RR lengths changed from 16 um to 30 um; MOS sizes, topology and ports unchanged.",
+  "device_sha256": "8b86988d642e3fced367f8459f07c1a41776bd343e3add999c5806b0b64b9e05",
+  "mos_count": 8,
+  "resistor_count": 2,
+  "matches_legacy_nsign": false,
+  "layout": "nany.gds",
+  "ports_metadata": "layout/nany.ports.json"
+}

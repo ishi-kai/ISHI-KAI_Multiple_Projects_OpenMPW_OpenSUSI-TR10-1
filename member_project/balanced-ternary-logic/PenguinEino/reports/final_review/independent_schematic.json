@@ -1,0 +1,51 @@
+{
+  "all": {
+    "passed": true,
+    "unique_transitions": 6480,
+    "each_once": true,
+    "samples": 6512,
+    "max_errors_V": {
+      "sum": 0.06429712543027488,
+      "cout": 0.061408597833204404,
+      "and": 0.06045839154880195,
+      "or": 0.06053031136698728,
+      "product": 0.10090232839390352
+    },
+    "raw_sha256": {
+      "simulation/mac/schematic/all_6480_10000f/chunk_0/data.txt": "131c41cf9e5b3e5bc1be129fd790bc9a7f480f87cbbb837573dbc9ed328800fe",
+      "simulation/mac/schematic/all_6480_10000f/chunk_1/data.txt": "60ea93de1fc3caefe9b7662dc6a59bfb495bbca77f2b6b7161a65fa04c4f0088",
+      "simulation/mac/schematic/all_6480_10000f/chunk_10/data.txt": "8ffb50193385f5f5069a34358044a311e1f39892bf5e10954412a00583b154c9",
+      "simulation/mac/schematic/all_6480_10000f/chunk_11/data.txt": "87adae38584b3f272f599471d9e806cd7e7c04f88f6473e881b1cb2b7a8da6ae",
+      "simulation/mac/schematic/all_6480_10000f/chunk_12/data.txt": "0a51277a7a6455aa9a9361a249393ca56e9c797ce29b9aa25cec98d38c9a2f75",
+      "simulation/mac/schematic/all_6480_10000f/chunk_13/data.txt": "2c42c1256a7ec0793ea46dfe3b8bd4fad06e1ea45de41f7972b97ac78a5c530e",
+      "simulation/mac/schematic/all_6480_10000f/chunk_14/data.txt": "834a4da4d387550983a7ee25c179de4dcf899d788b316dbfe029bcc46691636b",
+      "simulation/mac/schematic/all_6480_10000f/chunk_15/data.txt": "ece6f900c527d02d82cf7908aee3b4ce3958e5d96662c3c39a94188c72dc2303",
+      "simulation/mac/schematic/all_6480_10000f/chunk_2/data.txt": "cd121e2ee43b8e085d0e4ccd5df7b3f850dc1eb95134a177d76c972ac2b6e840",
+      "simulation/mac/schematic/all_6480_10000f/chunk_3/data.txt": "e678d31698119bd2533fd76bba29a20d5843fdcddb67309fdf061d552641776c",
+      "simulation/mac/schematic/all_6480_10000f/chunk_4/data.txt": "58ddae3f7220d41f8422c1974ce776ab8f1c141ba604061f55889d63e96e2cf7",
+      "simulation/mac/schematic/all_6480_10000f/chunk_5/data.txt": "2242667f7ab37dca54564175016f63ed01ba5f7e442470d965d257455225c020",
+      "simulation/mac/schematic/all_6480_10000f/chunk_6/data.txt": "33e6f6ca600b9b351b45e1b6038b44454d4bb6fba21aff9cecf3fee5c490e477",
+      "simulation/mac/schematic/all_6480_10000f/chunk_7/data.txt": "023a364b40d3bf0f0ed39d36aeedd5a3bc13c1a0fc9d6a19e62eb1c4f6336514",
+      "simulation/mac/schematic/all_6480_10000f/chunk_8/data.txt": "998def8a48f1f879556cc4a4e5eb81551dd45a1529bf85bf32ea1bb7bbbd5604",
+      "simulation/mac/schematic/all_6480_10000f/chunk_9/data.txt": "03d17d6abe654053c0d6c881af49f40076d90f074b9bf6ac689547dc413657a1"
+    },
+    "source": "simulation/mac/schematic"
+  },
+  "single": {
+    "passed": true,
+    "unique_transitions": 648,
+    "each_once": true,
+    "samples": 649,
+    "max_errors_V": {
+      "sum": 0.06410709513783974,
+      "cout": 0.06072336871817008,
+      "and": 0.0604582660132289,
+      "or": 0.06052696268729019,
+      "product": 0.10090317677508392
+    },
+    "raw_sha256": {
+      "simulation/mac/schematic/single_input_648_10000f/data.txt": "8e5e586385c694dca2163f00cf4fd5b27ba96ea5e0c0f9e9f162db99d5ba1693"
+    },
+    "source": "simulation/mac/schematic"
+  }
+}

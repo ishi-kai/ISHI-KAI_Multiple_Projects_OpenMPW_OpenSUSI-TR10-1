@@ -1,0 +1,27 @@
+{
+  "source_sha256": "e577df2b6b70cf5cd9bace2c2a7144bb082406014a5c3020a7480bbf36a87e17",
+  "scope": "Separate fixture with HA inputs tied to VDD; functional HA remains unchanged.",
+  "drc": {
+    "passed": true,
+    "items": 0,
+    "categories": {}
+  },
+  "lvs": {
+    "passed": true,
+    "circuits": [
+      "Match",
+      "Match",
+      "Match",
+      "Match"
+    ],
+    "errors": [],
+    "strict_ports": true
+  },
+  "mask_drc": {
+    "passed": true,
+    "items": 0,
+    "categories": {},
+    "gds_sha256": "efb0d40c7c347684d9958cda965a9d3266fa8cf50d83fc4ef31c6827b417a4e0"
+  },
+  "passed": true
+}

@@ -1,0 +1,1012 @@
+{
+  "verdict": "Core passes tested conditions; final manufacturing signoff pending frame/ESD and accepted voltage exception.",
+  "source_commit": "894b4a1758f4de0cff262a7f3c3616f294ff2b60",
+  "gds_sha256": "a9ff0fec14150144d8bbeee7ecfe4f348d0035a6e7206696a63669becdeb60bb",
+  "submitted_gds_sha256": "66299d3dcbe0bb877e9014607ac4cb35b85d079cc12ffe0d6c3752778236b937",
+  "extracted_sha256": "e48a046cf3b58eedce493e841368e2fb8c5877e21d56edb88a2b1cd5277524a0",
+  "physical_cells": 10,
+  "drawing_and_strict_lvs_passed": true,
+  "standalone_mask_items": 14,
+  "driven_fixture_mask_items": 0,
+  "fresh_extracted": [
+    {
+      "mode": "all_81_inputs",
+      "load_fF": 10000,
+      "hold_ns": 1000,
+      "max_step_ns": 10,
+      "load_resistance_ohm": 1000000.0,
+      "samples": 82,
+      "transitions": 81,
+      "max_output_error_V": 0.06128647900336048,
+      "max_product_error_V": 0.10090926024511429,
+      "max_sum_cout_error_V": 0.06128647900336048,
+      "max_and_or_error_V": 0.05962498785514825,
+      "max_settle_ns": 414.2685999999994,
+      "unsettled": 0,
+      "passed": true
+    },
+    {
+      "mode": "all_6480_10000f",
+      "load_fF": 10000,
+      "max_step_ns": 20,
+      "hold_ns": 1000,
+      "transitions": 6480,
+      "unique_directed_transitions": 6480,
+      "samples": 6512,
+      "unsettled": 0,
+      "passed": true,
+      "chunks": [
+        {
+          "mode": "all_6480_10000f/chunk_0",
+          "load_fF": 10000,
+          "max_step_ns": 20,
+          "hold_ns": 1000,
+          "load_resistance_ohm": 1000000.0,
+          "solver": {
+            "method": "gear",
+            "maxord": 2,
+            "reltol": 0.001,
+            "abstol_A": 1e-09,
+            "vntol_V": 1e-05,
+            "trtol": 10
+          },
+          "samples": 407,
+          "transitions": 406,
+          "max_output_error_V": 0.06386530422705494,
+          "max_product_error_V": 0.10089105,
+          "max_sum_cout_error_V": 0.06386530422705494,
+          "max_and_or_error_V": 0.06048698552111276,
+          "max_settle_ns": 494.3530000000028,
+          "unsettled": 0,
+          "passed": true
+        },
+        {
+          "mode": "all_6480_10000f/chunk_1",
+          "load_fF": 10000,
+          "max_step_ns": 20,
+          "hold_ns": 1000,
+          "load_resistance_ohm": 1000000.0,
+          "solver": {
+            "method": "gear",
+            "maxord": 2,
+            "reltol": 0.001,
+            "abstol_A": 1e-09,
+            "vntol_V": 1e-05,
+            "trtol": 10
+          },
+          "samples": 407,
+          "transitions": 406,
+          "max_output_error_V": 0.06293896356840367,
+          "max_product_error_V": 0.10090224927028311,
+          "max_sum_cout_error_V": 0.06293896356840367,
+          "max_and_or_error_V": 0.060504619107540236,
+          "max_settle_ns": 475.85800000000745,
+          "unsettled": 0,
+          "passed": true
+        },
+        {
+          "mode": "all_6480_10000f/chunk_2",
+          "load_fF": 10000,
+          "max_step_ns": 20,
+          "hold_ns": 1000,
+          "load_resistance_ohm": 1000000.0,
+          "solver": {
+            "method": "gear",
+            "maxord": 2,
+            "reltol": 0.001,
+            "abstol_A": 1e-09,
+            "vntol_V": 1e-05,
+            "trtol": 10
+          },
+          "samples": 407,
+          "transitions": 406,
+          "max_output_error_V": 0.06179454851904165,
+          "max_product_error_V": 0.10090235240791545,
+          "max_sum_cout_error_V": 0.06179454851904165,
+          "max_and_or_error_V": 0.06051204253346665,
+          "max_settle_ns": 452.54099999999744,
+          "unsettled": 0,
+          "passed": true
+        },
+        {
+          "mode": "all_6480_10000f/chunk_3",
+          "load_fF": 10000,
+          "max_step_ns": 20,
+          "hold_ns": 1000,
+          "load_resistance_ohm": 1000000.0,
+          "solver": {
+            "method": "gear",
+            "maxord": 2,
+            "reltol": 0.001,
+            "abstol_A": 1e-09,
+            "vntol_V": 1e-05,
+            "trtol": 10
+          },
+          "samples": 407,
+          "transitions": 406,
+          "max_output_error_V": 0.06295498083408368,
+          "max_product_error_V": 0.10090225031436315,
+          "max_sum_cout_error_V": 0.06295498083408368,
+          "max_and_or_error_V": 0.060506745685364294,
+          "max_settle_ns": 478.7659999999887,
+          "unsettled": 0,
+          "passed": true
+        },
+        {
+          "mode": "all_6480_10000f/chunk_4",
+          "load_fF": 10000,
+          "max_step_ns": 20,
+          "hold_ns": 1000,
+          "load_resistance_ohm": 1000000.0,
+          "solver": {
+            "method": "gear",
+            "maxord": 2,
+            "reltol": 0.001,
+            "abstol_A": 1e-09,
+            "vntol_V": 1e-05,
+            "trtol": 10
+          },
+          "samples": 407,
+          "transitions": 406,
+          "max_output_error_V": 0.06328864980136206,
+          "max_product_error_V": 0.1009023554408076,
+          "max_sum_cout_error_V": 0.06328864980136206,
+          "max_and_or_error_V": 0.060497653064977897,
+          "max_settle_ns": 486.98099999999977,
+          "unsettled": 0,
+          "passed": true
+        },
+        {
+          "mode": "all_6480_10000f/chunk_5",
+          "load_fF": 10000,
+          "max_step_ns": 20,
+          "hold_ns": 1000,
+          "load_resistance_ohm": 1000000.0,
+          "solver": {
+            "method": "gear",
+            "maxord": 2,
+            "reltol": 0.001,
+            "abstol_A": 1e-09,
+            "vntol_V": 1e-05,
+            "trtol": 10
+          },
+          "samples": 407,
+          "transitions": 406,
+          "max_output_error_V": 0.0633982225502141,
+          "max_product_error_V": 0.10090232138671308,
+          "max_sum_cout_error_V": 0.0633982225502141,
+          "max_and_or_error_V": 0.06044897692486462,
+          "max_settle_ns": 474.08400000000256,
+          "unsettled": 0,
+          "passed": true
+        },
+        {
+          "mode": "all_6480_10000f/chunk_6",
+          "load_fF": 10000,
+          "max_step_ns": 20,
+          "hold_ns": 1000,
+          "load_resistance_ohm": 1000000.0,
+          "solver": {
+            "method": "gear",
+            "maxord": 2,
+            "reltol": 0.001,
+            "abstol_A": 1e-09,
+            "vntol_V": 1e-05,
+            "trtol": 10
+          },
+          "samples": 407,
+          "transitions": 406,
+          "max_output_error_V": 0.06305264167615654,
+          "max_product_error_V": 0.10090237552885416,
+          "max_sum_cout_error_V": 0.06305264167615654,
+          "max_and_or_error_V": 0.060488188092305606,
+          "max_settle_ns": 467.2833999999998,
+          "unsettled": 0,
+          "passed": true
+        },
+        {
+          "mode": "all_6480_10000f/chunk_7",
+          "load_fF": 10000,
+          "max_step_ns": 20,
+          "hold_ns": 1000,
+          "load_resistance_ohm": 1000000.0,
+          "solver": {
+            "method": "gear",
+            "maxord": 2,
+            "reltol": 0.001,
+            "abstol_A": 1e-09,
+            "vntol_V": 1e-05,
+            "trtol": 10
+          },
+          "samples": 407,
+          "transitions": 406,
+          "max_output_error_V": 0.06339591128180366,
+          "max_product_error_V": 0.10090237748961903,
+          "max_sum_cout_error_V": 0.06339591128180366,
+          "max_and_or_error_V": 0.0604817235709918,
+          "max_settle_ns": 480.7960000000021,
+          "unsettled": 0,
+          "passed": true
+        },
+        {
+          "mode": "all_6480_10000f/chunk_8",
+          "load_fF": 10000,
+          "max_step_ns": 20,
+          "hold_ns": 1000,
+          "load_resistance_ohm": 1000000.0,
+          "solver": {
+            "method": "gear",
+            "maxord": 2,
+            "reltol": 0.001,
+            "abstol_A": 1e-09,
+            "vntol_V": 1e-05,
+            "trtol": 10
+          },
+          "samples": 407,
+          "transitions": 406,
+          "max_output_error_V": 0.06425438371403658,
+          "max_product_error_V": 0.10090128035234852,
+          "max_sum_cout_error_V": 0.06425438371403658,
+          "max_and_or_error_V": 0.06052556936058462,
+          "max_settle_ns": 502.2950000000128,
+          "unsettled": 0,
+          "passed": true
+        },
+        {
+          "mode": "all_6480_10000f/chunk_9",
+          "load_fF": 10000,
+          "max_step_ns": 20,
+          "hold_ns": 1000,
+          "load_resistance_ohm": 1000000.0,
+          "solver": {
+            "method": "gear",
+            "maxord": 2,
+            "reltol": 0.001,
+            "abstol_A": 1e-09,
+            "vntol_V": 1e-05,
+            "trtol": 10
+          },
+          "samples": 407,
+          "transitions": 406,
+          "max_output_error_V": 0.06297198089069056,
+          "max_product_error_V": 0.10089919763026574,
+          "max_sum_cout_error_V": 0.06297198089069056,
+          "max_and_or_error_V": 0.06049482268860107,
+          "max_settle_ns": 475.34430000000066,
+          "unsettled": 0,
+          "passed": true
+        },
+        {
+          "mode": "all_6480_10000f/chunk_10",
+          "load_fF": 10000,
+          "max_step_ns": 20,
+          "hold_ns": 1000,
+          "load_resistance_ohm": 1000000.0,
+          "solver": {
+            "method": "gear",
+            "maxord": 2,
+            "reltol": 0.001,
+            "abstol_A": 1e-09,
+            "vntol_V": 1e-05,
+            "trtol": 10
+          },
+          "samples": 407,
+          "transitions": 406,
+          "max_output_error_V": 0.0642264294084347,
+          "max_product_error_V": 0.10090100639252862,
+          "max_sum_cout_error_V": 0.0642264294084347,
+          "max_and_or_error_V": 0.06052601221883691,
+          "max_settle_ns": 503.6700000000419,
+          "unsettled": 0,
+          "passed": true
+        },
+        {
+          "mode": "all_6480_10000f/chunk_11",
+          "load_fF": 10000,
+          "max_step_ns": 20,
+          "hold_ns": 1000,
+          "load_resistance_ohm": 1000000.0,
+          "solver": {
+            "method": "gear",
+            "maxord": 2,
+            "reltol": 0.001,
+            "abstol_A": 1e-09,
+            "vntol_V": 1e-05,
+            "trtol": 10
+          },
+          "samples": 407,
+          "transitions": 406,
+          "max_output_error_V": 0.06426232390161601,
+          "max_product_error_V": 0.10089809644077134,
+          "max_sum_cout_error_V": 0.06426232390161601,
+          "max_and_or_error_V": 0.060527692577986514,
+          "max_settle_ns": 495.172300000002,
+          "unsettled": 0,
+          "passed": true
+        },
+        {
+          "mode": "all_6480_10000f/chunk_12",
+          "load_fF": 10000,
+          "max_step_ns": 20,
+          "hold_ns": 1000,
+          "load_resistance_ohm": 1000000.0,
+          "solver": {
+            "method": "gear",
+            "maxord": 2,
+            "reltol": 0.001,
+            "abstol_A": 1e-09,
+            "vntol_V": 1e-05,
+            "trtol": 10
+          },
+          "samples": 407,
+          "transitions": 406,
+          "max_output_error_V": 0.06372523527685647,
+          "max_product_error_V": 0.10090100735867805,
+          "max_sum_cout_error_V": 0.06372523527685647,
+          "max_and_or_error_V": 0.06048731865477386,
+          "max_settle_ns": 487.649000000034,
+          "unsettled": 0,
+          "passed": true
+        },
+        {
+          "mode": "all_6480_10000f/chunk_13",
+          "load_fF": 10000,
+          "max_step_ns": 20,
+          "hold_ns": 1000,
+          "load_resistance_ohm": 1000000.0,
+          "solver": {
+            "method": "gear",
+            "maxord": 2,
+            "reltol": 0.001,
+            "abstol_A": 1e-09,
+            "vntol_V": 1e-05,
+            "trtol": 10
+          },
+          "samples": 407,
+          "transitions": 406,
+          "max_output_error_V": 0.06385674500879723,
+          "max_product_error_V": 0.10090112361622941,
+          "max_sum_cout_error_V": 0.06385674500879723,
+          "max_and_or_error_V": 0.06050964306727469,
+          "max_settle_ns": 487.09100000000035,
+          "unsettled": 0,
+          "passed": true
+        },
+        {
+          "mode": "all_6480_10000f/chunk_14",
+          "load_fF": 10000,
+          "max_step_ns": 20,
+          "hold_ns": 1000,
+          "load_resistance_ohm": 1000000.0,
+          "solver": {
+            "method": "gear",
+            "maxord": 2,
+            "reltol": 0.001,
+            "abstol_A": 1e-09,
+            "vntol_V": 1e-05,
+            "trtol": 10
+          },
+          "samples": 407,
+          "transitions": 406,
+          "max_output_error_V": 0.06294769341726347,
+          "max_product_error_V": 0.100891053,
+          "max_sum_cout_error_V": 0.06294769341726347,
+          "max_and_or_error_V": 0.06051354756924887,
+          "max_settle_ns": 477.90600000001723,
+          "unsettled": 0,
+          "passed": true
+        },
+        {
+          "mode": "all_6480_10000f/chunk_15",
+          "load_fF": 10000,
+          "max_step_ns": 20,
+          "hold_ns": 1000,
+          "load_resistance_ohm": 1000000.0,
+          "solver": {
+            "method": "gear",
+            "maxord": 2,
+            "reltol": 0.001,
+            "abstol_A": 1e-09,
+            "vntol_V": 1e-05,
+            "trtol": 10
+          },
+          "samples": 407,
+          "transitions": 406,
+          "max_output_error_V": 0.06328577477613884,
+          "max_product_error_V": 0.10089105,
+          "max_sum_cout_error_V": 0.06328577477613884,
+          "max_and_or_error_V": 0.06051775588443764,
+          "max_settle_ns": 478.50699999998324,
+          "unsettled": 0,
+          "passed": true
+        }
+      ],
+      "initialization": "Sixteen Euler slices, each preceded by initial and source-state holds. Original 6480 edges plus setup transitions.",
+      "max_output_error_V": 0.06426232390161601,
+      "max_product_error_V": 0.10090237748961903,
+      "max_sum_cout_error_V": 0.06426232390161601,
+      "max_and_or_error_V": 0.060527692577986514,
+      "max_settle_ns": 503.6700000000419
+    },
+    {
+      "mode": "single_input_648_10000f",
+      "load_fF": 10000,
+      "max_step_ns": 20,
+      "hold_ns": 1000,
+      "load_resistance_ohm": 1000000.0,
+      "solver": {
+        "method": "gear",
+        "maxord": 2,
+        "reltol": 0.001,
+        "abstol_A": 1e-09,
+        "vntol_V": 1e-05,
+        "trtol": 10
+      },
+      "samples": 649,
+      "transitions": 648,
+      "max_output_error_V": 0.06408548266328573,
+      "max_product_error_V": 0.10090317473653566,
+      "max_sum_cout_error_V": 0.06408548266328573,
+      "max_and_or_error_V": 0.060524000280697265,
+      "max_settle_ns": 485.86799999998766,
+      "unsettled": 0,
+      "passed": true
+    }
+  ],
+  "chain5": {
+    "passed": true,
+    "cases": [
+      {
+        "name": "initial",
+        "x": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "a": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "b": 1,
+        "max_error_V": 0.058511038746937416,
+        "settle_ns": 0,
+        "passed": true
+      },
+      {
+        "name": "carry_1_-1",
+        "x": [
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "a": [
+          -1,
+          0,
+          0,
+          0,
+          0
+        ],
+        "b": 1,
+        "max_error_V": 0.058511038746937416,
+        "settle_ns": 405.3274063540357,
+        "passed": true
+      },
+      {
+        "name": "carry_1_0",
+        "x": [
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "a": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "b": 1,
+        "max_error_V": 0.058511038746938304,
+        "settle_ns": 418.30074131969013,
+        "passed": true
+      },
+      {
+        "name": "carry_1_1",
+        "x": [
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "a": [
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        "b": 1,
+        "max_error_V": 0.05851104401766083,
+        "settle_ns": 985.4676754390985,
+        "passed": true
+      },
+      {
+        "name": "carry_1_0",
+        "x": [
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "a": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "b": 1,
+        "max_error_V": 0.058511038746937416,
+        "settle_ns": 651.3458251423108,
+        "passed": true
+      },
+      {
+        "name": "carry_1_-1",
+        "x": [
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "a": [
+          -1,
+          0,
+          0,
+          0,
+          0
+        ],
+        "b": 1,
+        "max_error_V": 0.058511038746938304,
+        "settle_ns": 296.025491455508,
+        "passed": true
+      },
+      {
+        "name": "carry_-1_1",
+        "x": [
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "a": [
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        "b": 1,
+        "max_error_V": 0.05851103878077968,
+        "settle_ns": 421.83779846586185,
+        "passed": true
+      },
+      {
+        "name": "carry_-1_0",
+        "x": [
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "a": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "b": 1,
+        "max_error_V": 0.058511038746938304,
+        "settle_ns": 386.32338440868625,
+        "passed": true
+      },
+      {
+        "name": "carry_-1_-1",
+        "x": [
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "a": [
+          -1,
+          0,
+          0,
+          0,
+          0
+        ],
+        "b": 1,
+        "max_error_V": 0.058511038746937416,
+        "settle_ns": 1181.4355628629492,
+        "passed": true
+      },
+      {
+        "name": "carry_-1_0",
+        "x": [
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "a": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "b": 1,
+        "max_error_V": 0.05851103874693919,
+        "settle_ns": 595.8045747801661,
+        "passed": true
+      },
+      {
+        "name": "carry_-1_1",
+        "x": [
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "a": [
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        "b": 1,
+        "max_error_V": 0.05851103878077968,
+        "settle_ns": 307.5914114146508,
+        "passed": true
+      },
+      {
+        "name": "subtract",
+        "x": [
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "a": [
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "b": -1,
+        "max_error_V": 0.05851444629875502,
+        "settle_ns": 839.6350918522876,
+        "passed": true
+      },
+      {
+        "name": "subtract_reverse",
+        "x": [
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "a": [
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "b": -1,
+        "max_error_V": 0.058511038746938304,
+        "settle_ns": 443.60916495706624,
+        "passed": true
+      },
+      {
+        "name": "multiply",
+        "x": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "a": [
+          1,
+          -1,
+          0,
+          1,
+          -1
+        ],
+        "b": -1,
+        "max_error_V": 0.058511038746938304,
+        "settle_ns": 426.9187371067892,
+        "passed": true
+      },
+      {
+        "name": "zero_product",
+        "x": [
+          1,
+          0,
+          -1,
+          0,
+          1
+        ],
+        "a": [
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "b": 0,
+        "max_error_V": 0.05851103874694008,
+        "settle_ns": 439.3965265283332,
+        "passed": true
+      },
+      {
+        "name": "mac_0",
+        "x": [
+          1,
+          -1,
+          0,
+          -1,
+          0
+        ],
+        "a": [
+          0,
+          0,
+          0,
+          -1,
+          0
+        ],
+        "b": -1,
+        "max_error_V": 0.05787530324434531,
+        "settle_ns": 379.13029092241777,
+        "passed": true
+      },
+      {
+        "name": "mac_1",
+        "x": [
+          -1,
+          -1,
+          -1,
+          -1,
+          1
+        ],
+        "a": [
+          -1,
+          0,
+          1,
+          -1,
+          -1
+        ],
+        "b": 0,
+        "max_error_V": 0.05851103874692942,
+        "settle_ns": 429.25998852304474,
+        "passed": true
+      },
+      {
+        "name": "mac_2",
+        "x": [
+          0,
+          -1,
+          1,
+          -1,
+          -1
+        ],
+        "a": [
+          -1,
+          0,
+          -1,
+          1,
+          -1
+        ],
+        "b": 0,
+        "max_error_V": 0.05851103874692676,
+        "settle_ns": 442.66486562706996,
+        "passed": true
+      },
+      {
+        "name": "mac_3",
+        "x": [
+          1,
+          0,
+          0,
+          1,
+          -1
+        ],
+        "a": [
+          -1,
+          1,
+          1,
+          0,
+          1
+        ],
+        "b": 1,
+        "max_error_V": 0.05851103878077257,
+        "settle_ns": 443.473594875235,
+        "passed": true
+      },
+      {
+        "name": "mac_4",
+        "x": [
+          0,
+          1,
+          0,
+          1,
+          0
+        ],
+        "a": [
+          0,
+          0,
+          0,
+          -1,
+          1
+        ],
+        "b": -1,
+        "max_error_V": 0.05851418852035817,
+        "settle_ns": 456.0534149190207,
+        "passed": true
+      },
+      {
+        "name": "mac_5",
+        "x": [
+          -1,
+          1,
+          0,
+          1,
+          1
+        ],
+        "a": [
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "b": 1,
+        "max_error_V": 0.05851103878077257,
+        "settle_ns": 438.1581496328872,
+        "passed": true
+      },
+      {
+        "name": "mac_6",
+        "x": [
+          -1,
+          1,
+          0,
+          1,
+          -1
+        ],
+        "a": [
+          -1,
+          1,
+          1,
+          -1,
+          0
+        ],
+        "b": -1,
+        "max_error_V": 0.058514188724404725,
+        "settle_ns": 439.89651864040934,
+        "passed": true
+      },
+      {
+        "name": "mac_7",
+        "x": [
+          0,
+          0,
+          -1,
+          -1,
+          -1
+        ],
+        "a": [
+          0,
+          -1,
+          0,
+          -1,
+          0
+        ],
+        "b": 0,
+        "max_error_V": 0.05582159541305565,
+        "settle_ns": 392.8486121550086,
+        "passed": true
+      }
+    ],
+    "max_error_V": 0.05851444629875502,
+    "max_settle_ns": 1181.4355628629492,
+    "extracted_sha256": "e48a046cf3b58eedce493e841368e2fb8c5877e21d56edb88a2b1cd5277524a0",
+    "gds_sha256": "a9ff0fec14150144d8bbeee7ecfe4f348d0035a6e7206696a63669becdeb60bb",
+    "wall_s": 247.36823725700378,
+    "scope": "Selected 5-chip equivalent chain, 27 C ideal shared rails, 10 pF || 1 Mohm per output plus next Cin gate load, 5 us hold. No wire RC/pad/package, not exhaustive.",
+    "samples": 23,
+    "transitions": 22,
+    "unique_inputs": 19,
+    "one_us_sampling_failures": [
+      {
+        "index": 8,
+        "name": "carry_-1_-1",
+        "output": "sum",
+        "stage": 4,
+        "max_error_V": 1.938015406021277,
+        "actual_V": 3.061984593978723,
+        "expected_V": 5.0
+      }
+    ]
+  },
+  "prior_corner_source_model_hashes_revalidated": {
+    "corners_supply": "3ed9d8662e8eff5cbc665d085681ee9599681820697fd343c3e468030f4acbdb",
+    "corners_stress": "df878b4b41c415c16eef2fd9bc589edbd523ad317c8347cd0060df071470175a",
+    "corners_integration": "8042222777020dae3c9e8cfb45600395013ed35c7a1a0d817a6f4c51eaec8515",
+    "corners_boundary": "4881fda918819c66f24b35cd191f617f6030bff5a6db71954073e07bb4481ab0",
+    "corners_slew_stress": "54607324dbe8cfc1bca58bcc1e50d7768689146f3f033e17498a227bfa612545"
+  },
+  "existing_cold_stress_peak_V": {
+    "VDS": 11.01076781,
+    "VGS": 10.75403955,
+    "VGD": 11.23710123,
+    "VGB": 10.619588570000001,
+    "VDB": 11.060215379999999,
+    "VSB": 10.619588570000001
+  },
+  "findings": [
+    {
+      "priority": "manufacturing",
+      "topic": "Actual pad/ESD frame integration and final mask DRC incomplete"
+    },
+    {
+      "priority": "accepted_exception",
+      "topic": "10 V span exceeds public 5 V MOS VDS rating; cold transient peak remains about 11.24 V"
+    },
+    {
+      "priority": "validation_scope",
+      "topic": "Wire RC, supply current redistribution/IR/EM and statistical/process variation remain unqualified"
+    },
+    {
+      "priority": "timing",
+      "topic": "Five-stage chain requires a separate settling specification; one 1 us sample misses +/-0.5 V, selected 5 us test passes"
+    },
+    {
+      "priority": "documentation",
+      "topic": "Five primitive schematics contain obsolete RR length annotations; actual SCH/GDS/extracted W2.8 L30 agree"
+    }
+  ],
+  "legacy_waveform_issue": {
+    "mismatches": [
+      {
+        "path": "/home/ishi-kai/balanced-ternary-logic/simulation/mac/extracted/mac_extracted.spice",
+        "recorded": "9e06ee2eeb85bdb6cc2130ebe6025589f23764b39df9ea8afb4afc5fa19ee250",
+        "current": "86cca8ae7566eb2ffe3d9367618a8b9e36dcbb43c9d97bf325721f56005b4f31"
+      }
+    ],
+    "disposition": "Excluded legacy extracted waves from this review; freshly simulate final extracted 81/6480/648 cases and independently re-evaluate them.",
+    "note": "Historical Git-based netlist equivalence remains separate; this is a mutable include-path archival issue."
+  }
+}

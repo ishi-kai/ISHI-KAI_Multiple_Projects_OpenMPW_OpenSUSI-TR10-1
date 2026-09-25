@@ -1,0 +1,602 @@
+{
+  "top_cell": "mul",
+  "dbu_um": 0.001,
+  "placement_grid_um": 0.05,
+  "bbox_um": [
+    0.0,
+    -1.7,
+    820.0,
+    234.0
+  ],
+  "ports": {
+    "a": {
+      "layer": [
+        13,
+        0
+      ],
+      "label_layer": [
+        48,
+        0
+      ],
+      "position_um": [
+        20,
+        0
+      ]
+    },
+    "b": {
+      "layer": [
+        13,
+        0
+      ],
+      "label_layer": [
+        48,
+        0
+      ],
+      "position_um": [
+        20,
+        6
+      ]
+    },
+    "t1": {
+      "layer": [
+        13,
+        0
+      ],
+      "label_layer": [
+        48,
+        0
+      ],
+      "position_um": [
+        796,
+        12
+      ]
+    },
+    "t3": {
+      "layer": [
+        13,
+        0
+      ],
+      "label_layer": [
+        48,
+        0
+      ],
+      "position_um": [
+        796,
+        24
+      ]
+    },
+    "p": {
+      "layer": [
+        13,
+        0
+      ],
+      "label_layer": [
+        48,
+        0
+      ],
+      "position_um": [
+        796,
+        30
+      ]
+    },
+    "VDD": {
+      "layer": [
+        13,
+        0
+      ],
+      "label_layer": [
+        48,
+        0
+      ],
+      "position_um": [
+        816,
+        224.3
+      ]
+    },
+    "VSS": {
+      "layer": [
+        13,
+        0
+      ],
+      "label_layer": [
+        48,
+        0
+      ],
+      "position_um": [
+        816,
+        101.7
+      ]
+    }
+  },
+  "instances": [
+    {
+      "role": "x_t1",
+      "cell": "mul_nand",
+      "origin_um": [
+        40,
+        100
+      ],
+      "magnification": 1
+    },
+    {
+      "role": "x_t2",
+      "cell": "mul_nor",
+      "origin_um": [
+        240,
+        100
+      ],
+      "magnification": 1
+    },
+    {
+      "role": "x_t3",
+      "cell": "mul_inv",
+      "origin_um": [
+        440,
+        100
+      ],
+      "magnification": 1
+    },
+    {
+      "role": "x_p",
+      "cell": "mul_nand",
+      "origin_um": [
+        640,
+        100
+      ],
+      "magnification": 1
+    }
+  ],
+  "routes": [
+    {
+      "net": "a",
+      "layer": "M2",
+      "points_um": [
+        [
+          42,
+          146
+        ],
+        [
+          28,
+          146
+        ]
+      ],
+      "width_um": 3.4
+    },
+    {
+      "net": "a",
+      "layer": "M2",
+      "points_um": [
+        [
+          28,
+          146
+        ],
+        [
+          28,
+          0
+        ]
+      ],
+      "width_um": 3.4
+    },
+    {
+      "net": "b",
+      "layer": "M2",
+      "points_um": [
+        [
+          42,
+          152
+        ],
+        [
+          22,
+          152
+        ]
+      ],
+      "width_um": 3.4
+    },
+    {
+      "net": "b",
+      "layer": "M2",
+      "points_um": [
+        [
+          22,
+          152
+        ],
+        [
+          22,
+          6
+        ]
+      ],
+      "width_um": 3.4
+    },
+    {
+      "net": "t1",
+      "layer": "M2",
+      "points_um": [
+        [
+          170,
+          159
+        ],
+        [
+          180,
+          159
+        ]
+      ],
+      "width_um": 3.4
+    },
+    {
+      "net": "t1",
+      "layer": "M2",
+      "points_um": [
+        [
+          180,
+          159
+        ],
+        [
+          180,
+          12
+        ]
+      ],
+      "width_um": 3.4
+    },
+    {
+      "net": "a",
+      "layer": "M2",
+      "points_um": [
+        [
+          242,
+          146
+        ],
+        [
+          228,
+          146
+        ]
+      ],
+      "width_um": 3.4
+    },
+    {
+      "net": "a",
+      "layer": "M2",
+      "points_um": [
+        [
+          228,
+          146
+        ],
+        [
+          228,
+          0
+        ]
+      ],
+      "width_um": 3.4
+    },
+    {
+      "net": "b",
+      "layer": "M2",
+      "points_um": [
+        [
+          242,
+          152
+        ],
+        [
+          222,
+          152
+        ]
+      ],
+      "width_um": 3.4
+    },
+    {
+      "net": "b",
+      "layer": "M2",
+      "points_um": [
+        [
+          222,
+          152
+        ],
+        [
+          222,
+          6
+        ]
+      ],
+      "width_um": 3.4
+    },
+    {
+      "net": "t2",
+      "layer": "M2",
+      "points_um": [
+        [
+          370,
+          159
+        ],
+        [
+          380,
+          159
+        ]
+      ],
+      "width_um": 3.4
+    },
+    {
+      "net": "t2",
+      "layer": "M2",
+      "points_um": [
+        [
+          380,
+          159
+        ],
+        [
+          380,
+          18
+        ]
+      ],
+      "width_um": 3.4
+    },
+    {
+      "net": "t2",
+      "layer": "M1",
+      "points_um": [
+        [
+          442,
+          125
+        ],
+        [
+          422,
+          125
+        ]
+      ],
+      "width_um": 3.4
+    },
+    {
+      "net": "t2",
+      "layer": "M2",
+      "points_um": [
+        [
+          422,
+          125
+        ],
+        [
+          422,
+          18
+        ]
+      ],
+      "width_um": 3.4
+    },
+    {
+      "net": "t3",
+      "layer": "M2",
+      "points_um": [
+        [
+          534,
+          138.5
+        ],
+        [
+          544,
+          138.5
+        ]
+      ],
+      "width_um": 3.4
+    },
+    {
+      "net": "t3",
+      "layer": "M2",
+      "points_um": [
+        [
+          544,
+          138.5
+        ],
+        [
+          544,
+          24
+        ]
+      ],
+      "width_um": 3.4
+    },
+    {
+      "net": "VDD",
+      "layer": "M1",
+      "points_um": [
+        [
+          534.3,
+          164.3
+        ],
+        [
+          554,
+          164.3
+        ],
+        [
+          554,
+          224.3
+        ]
+      ],
+      "width_um": 3.4
+    },
+    {
+      "net": "t1",
+      "layer": "M2",
+      "points_um": [
+        [
+          642,
+          146
+        ],
+        [
+          628,
+          146
+        ]
+      ],
+      "width_um": 3.4
+    },
+    {
+      "net": "t1",
+      "layer": "M2",
+      "points_um": [
+        [
+          628,
+          146
+        ],
+        [
+          628,
+          12
+        ]
+      ],
+      "width_um": 3.4
+    },
+    {
+      "net": "t3",
+      "layer": "M2",
+      "points_um": [
+        [
+          642,
+          152
+        ],
+        [
+          622,
+          152
+        ]
+      ],
+      "width_um": 3.4
+    },
+    {
+      "net": "t3",
+      "layer": "M2",
+      "points_um": [
+        [
+          622,
+          152
+        ],
+        [
+          622,
+          24
+        ]
+      ],
+      "width_um": 3.4
+    },
+    {
+      "net": "p",
+      "layer": "M2",
+      "points_um": [
+        [
+          770,
+          159
+        ],
+        [
+          780,
+          159
+        ]
+      ],
+      "width_um": 3.4
+    },
+    {
+      "net": "p",
+      "layer": "M2",
+      "points_um": [
+        [
+          780,
+          159
+        ],
+        [
+          780,
+          30
+        ]
+      ],
+      "width_um": 3.4
+    },
+    {
+      "net": "a",
+      "layer": "M1",
+      "points_um": [
+        [
+          20,
+          0
+        ],
+        [
+          228,
+          0
+        ]
+      ],
+      "width_um": 3.4
+    },
+    {
+      "net": "b",
+      "layer": "M1",
+      "points_um": [
+        [
+          20,
+          6
+        ],
+        [
+          222,
+          6
+        ]
+      ],
+      "width_um": 3.4
+    },
+    {
+      "net": "t1",
+      "layer": "M1",
+      "points_um": [
+        [
+          180,
+          12
+        ],
+        [
+          796,
+          12
+        ]
+      ],
+      "width_um": 3.4
+    },
+    {
+      "net": "t2",
+      "layer": "M1",
+      "points_um": [
+        [
+          380,
+          18
+        ],
+        [
+          422,
+          18
+        ]
+      ],
+      "width_um": 3.4
+    },
+    {
+      "net": "t3",
+      "layer": "M1",
+      "points_um": [
+        [
+          544,
+          24
+        ],
+        [
+          796,
+          24
+        ]
+      ],
+      "width_um": 3.4
+    },
+    {
+      "net": "p",
+      "layer": "M1",
+      "points_um": [
+        [
+          780,
+          30
+        ],
+        [
+          796,
+          30
+        ]
+      ],
+      "width_um": 3.4
+    }
+  ],
+  "gds_sha256": "71c9fae39518de9fa1d7fec9c334e717d7456199f2f65f4199542019c0b8e0fe",
+  "sources": {
+    "/home/ishi-kai/balanced-ternary-logic/mul_nand.gds": "2e33be77ea2bb0ca714aa35bff585bf1f109c195958a8d1d632cb1ec52bf25ff",
+    "/home/ishi-kai/balanced-ternary-logic/mul_nor.gds": "704347b70467b0547ded933987a8e6145860cabc08bb68903f4e80ea5d77f9f5",
+    "/home/ishi-kai/balanced-ternary-logic/mul_inv.gds": "e316bb94a0bb1ef31a19aa5ffcdeff0ea264cd727582f41e977f23ad38d986fc"
+  },
+  "device_counts": {
+    "PMOS": 7,
+    "NMOS": 7,
+    "F_RR": 8
+  },
+  "aligned_cell_origin_y_um": 100
+}

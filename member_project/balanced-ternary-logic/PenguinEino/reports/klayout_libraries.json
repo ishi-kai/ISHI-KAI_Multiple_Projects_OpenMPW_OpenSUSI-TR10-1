@@ -1,0 +1,18 @@
+[
+  {
+    "library": "BT",
+    "cell": "inverter",
+    "dbu": 0.001,
+    "bbox": "(0,0;84,66)",
+    "library_link": true,
+    "geometry_match": true
+  },
+  {
+    "library": "BT",
+    "cell": "nany",
+    "dbu": 0.001,
+    "bbox": "(0,0;132,115)",
+    "library_link": true,
+    "geometry_match": true
+  }
+]

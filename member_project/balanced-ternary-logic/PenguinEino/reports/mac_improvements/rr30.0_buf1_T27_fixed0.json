@@ -1,0 +1,408 @@
+{
+  "length_um": 30.0,
+  "or_buffer": true,
+  "temperature_C": 27,
+  "fixed_inputs": false,
+  "source_sha256": {
+    "nany.sch": "ccb2fe30da68a0ef2bbcda8836d70b65579f0c6be58fd024a511a6e90fdb64cc",
+    "nand_tb.sch": "4327130f369128a4fcfd0ddf1f2b612cdd53d5ccfb85c97219e95beafd713bf1",
+    "nti.sch": "736481540955fbd66b4840cae262ddee76cffd16cce6437633d2f8ddfe15dc39",
+    "full_adder_tb.sch": "073882c490eddbe05ffd6da3f608908f58b4b310f8581b628b89eb93244a0ef2",
+    "mul_tb.sch": "3d630be39869d683eeb056e681b121e205efc4ec2dd3caa51cbfd80a46840dbc",
+    "nsign.sch": "011da5c0eed9daba858328f7f5325ba7a199ee1cbae01a471b3e87a3ecb2c5c0",
+    "pti.sch": "b88b91b7929e0c48010efa0c22d0bfaa5fab7a8335e3e6f3573c1c436233fb17",
+    "nor.sch": "9e45070348ee5eebf934834ac813945a399672eeff9eb24e5f70e34c913c84af",
+    "ternary_sram_read_tb.sch": "494aff118a77328c2b84813827894b437ba7cf3812cf8cb25222961e3f9c2904",
+    "mac_tb.sch": "2d2c2037d2f12256a9ae91c0fd480d5f644ba8c401ef524204a7faa7e1f24ad5",
+    "inverter_chain_tb.sch": "c3aa4c677cb392e05c5898fb2856e05e319f39da607683acb7f90baba4b405fb",
+    "inverter.sch": "290c8ce9aa810cf83f9b24eaa435c5b729892daff5f1e42d4e43dc7d7e89274d",
+    "nsign_tb.sch": "3fb4c414b4ab982eb16d8bf625aa0b27ccc6e92095a439217a344b8cabb61ff9",
+    "cons_tb.sch": "ac0bbc75fe3f1bcc88949254c1b607bc30eb999402813632d8ee90b8d1cb96cf",
+    "mul_nand.sch": "ce797d2dd581aab66b9da0768c3e292a4217dcdf992ecdf7f8603f36134f1a03",
+    "inverter_tb.sch": "650f8f5d145530c146b0cb8f73d728a9c33ffb6d78fcec4a5a0472b5a0eb8bd8",
+    "pti_tb.sch": "2c4c946c14549e7bd0ea129cab276b79354b3871210cb233bb5c5cbd85d57614",
+    "nand.sch": "dacf14826a54a9838280b9e0bc403f3680332edfeef569d9ecebc6d1da029fad",
+    "mul_inv.sch": "991208956eabcea4b0614b78b82afc3b492f30933297ee6916ff3e7e19a4aeee",
+    "ternary_latch_tb.sch": "a4b0beb6fea6b966e9258582a7cf2b1874ef687e33ab75e562aceacb2ba99a3e",
+    "nti_tb.sch": "64c5747c6ea4886cb0a4543486f93e62ee08a27038ac4dd01579dc3629ad7797",
+    "mac.sch": "6b3838413b9bf13e0f8717ade6a1215ea29035fc6d12f4848acfc3821a1e88a8",
+    "nor_tb.sch": "b8445d2653e93e77aead3baf08967b152001c6144027983219e9b79fc779af4d",
+    "full_adder.sch": "dc0a3a0b776e23fad1a34190746a4eafe2dfdbeb6fa18cdcf8bc24e28805ee26",
+    "nany_tb.sch": "53a05bdb1cf82b95d4cb682fd4dc396293552340492c92d954b6f6c4cb95ca29",
+    "cons.sch": "db0187c64321dfe2ae49b688fba2c063080f4b97a1bb512b0fb1305950865b80",
+    "mul_nor.sch": "b71df77441c92ae3fa271ec392cb4452b893eb933afa607701086e6633801a51",
+    "ternary_sram.sch": "6f3c78ba4f252a93f5b4126d46077cf3f546ba0dbed15ce98b44ec168eb21b32",
+    "ternary_sram_tb.sch": "00f78f37d5a38037b17b743246a12dd775b49e6fae94f37df0ead0d0574e3498",
+    "half_adder_tb.sch": "11e96feb1f15963949a28d16cdd8e4ed735ecb4b0fc32e79d17bcf9bbac036c3",
+    "ternary_latch.sch": "5d6b6b5511fa4a265961750d464bdc8792b5385a5e0a10005e3fcda26207be33",
+    "mul.sch": "369cbbc0d1d9159ca6b221b2e83edd8b2d933eb2a2abb4c955cca928c8bac572",
+    "nor_chain_tb.sch": "3941c924b2924566104b8d437455294e0c60e0fd6206212f2f19f5d0068bb6b8",
+    "half_adder.sch": "2523ef16811218c7b62f45d1a17ee22349f92e07c0d40a8c2f43d3e6cd41333b"
+  },
+  "rows": [
+    {
+      "rail_V": 4.0,
+      "total_supply_V": 8.0,
+      "states": 81,
+      "valid": true,
+      "logic_pass": true,
+      "accuracy_pass": true,
+      "max_error_V": 0.0858503116,
+      "max_output_error_V": 0.047069459999999896,
+      "max_supply_current_A": 0.00752758416,
+      "worst": {
+        "rail_V": 4.0,
+        "actual_V": [
+          3.95329007,
+          -3.9547052,
+          -3.9547052,
+          -0.0185805061,
+          -0.0858503116
+        ],
+        "expected_V": [
+          4.0,
+          -4.0,
+          -4.0,
+          0.0,
+          0.0
+        ],
+        "error_V": [
+          0.04670993000000001,
+          0.04529480000000019,
+          0.04529480000000019,
+          0.0185805061,
+          0.0858503116
+        ],
+        "logic_ok": true,
+        "accuracy_ok": true,
+        "physical": true,
+        "max_internal_V": 4.0,
+        "supply_current_A": 0.00194832798
+      }
+    },
+    {
+      "rail_V": 4.25,
+      "total_supply_V": 8.5,
+      "states": 81,
+      "valid": true,
+      "logic_pass": true,
+      "accuracy_pass": true,
+      "max_error_V": 0.088988649,
+      "max_output_error_V": 0.04992163000000005,
+      "max_supply_current_A": 0.0080485088,
+      "worst": {
+        "rail_V": 4.25,
+        "actual_V": [
+          4.20051096,
+          -4.20206655,
+          -4.20206655,
+          -0.022363792,
+          -0.088988649
+        ],
+        "expected_V": [
+          4.25,
+          -4.25,
+          -4.25,
+          0.0,
+          0.0
+        ],
+        "error_V": [
+          0.049489040000000095,
+          0.04793345000000038,
+          0.04793345000000038,
+          0.022363792,
+          0.088988649
+        ],
+        "logic_ok": true,
+        "accuracy_ok": true,
+        "physical": true,
+        "max_internal_V": 4.25,
+        "supply_current_A": 0.00208397229
+      }
+    },
+    {
+      "rail_V": 4.5,
+      "total_supply_V": 9.0,
+      "states": 81,
+      "valid": true,
+      "logic_pass": true,
+      "accuracy_pass": true,
+      "max_error_V": 0.0925726589,
+      "max_output_error_V": 0.05277945000000006,
+      "max_supply_current_A": 0.00856799524,
+      "worst": {
+        "rail_V": 4.5,
+        "actual_V": [
+          4.44772564,
+          -4.44943267,
+          -4.44943267,
+          -0.0264534824,
+          -0.0925726589
+        ],
+        "expected_V": [
+          4.5,
+          -4.5,
+          -4.5,
+          0.0,
+          0.0
+        ],
+        "error_V": [
+          0.052274360000000186,
+          0.0505673299999998,
+          0.0505673299999998,
+          0.0264534824,
+          0.0925726589
+        ],
+        "logic_ok": true,
+        "accuracy_ok": true,
+        "physical": true,
+        "max_internal_V": 4.5,
+        "supply_current_A": 0.00221920678
+      }
+    },
+    {
+      "rail_V": 4.75,
+      "total_supply_V": 9.5,
+      "states": 81,
+      "valid": true,
+      "logic_pass": true,
+      "accuracy_pass": true,
+      "max_error_V": 0.0965532978,
+      "max_output_error_V": 0.05564266000000018,
+      "max_supply_current_A": 0.009086373,
+      "worst": {
+        "rail_V": 4.75,
+        "actual_V": [
+          4.69493479,
+          -4.69680337,
+          -4.69680337,
+          -0.0308263467,
+          -0.0965532978
+        ],
+        "expected_V": [
+          4.75,
+          -4.75,
+          -4.75,
+          0.0,
+          0.0
+        ],
+        "error_V": [
+          0.05506521000000042,
+          0.05319663000000041,
+          0.05319663000000041,
+          0.0308263467,
+          0.0965532978
+        ],
+        "logic_ok": true,
+        "accuracy_ok": true,
+        "physical": true,
+        "max_internal_V": 4.75,
+        "supply_current_A": 0.00235412214
+      }
+    },
+    {
+      "rail_V": 5.0,
+      "total_supply_V": 10.0,
+      "states": 81,
+      "valid": true,
+      "logic_pass": true,
+      "accuracy_pass": true,
+      "max_error_V": 0.10089105,
+      "max_output_error_V": 0.05851103999999996,
+      "max_supply_current_A": 0.0096038906,
+      "worst": {
+        "rail_V": 5.0,
+        "actual_V": [
+          4.94213893,
+          -4.9441784,
+          -4.9441784,
+          -0.0354649641,
+          -0.10089105
+        ],
+        "expected_V": [
+          5.0,
+          -5.0,
+          -5.0,
+          0.0,
+          0.0
+        ],
+        "error_V": [
+          0.0578610700000004,
+          0.055821599999999805,
+          0.055821599999999805,
+          0.0354649641,
+          0.10089105
+        ],
+        "logic_ok": true,
+        "accuracy_ok": true,
+        "physical": true,
+        "max_internal_V": 5.0,
+        "supply_current_A": 0.00248878663
+      }
+    },
+    {
+      "rail_V": 5.25,
+      "total_supply_V": 10.5,
+      "states": 81,
+      "valid": true,
+      "logic_pass": true,
+      "accuracy_pass": true,
+      "max_error_V": 0.10555316,
+      "max_output_error_V": 0.06138442000000044,
+      "max_supply_current_A": 0.0101207403,
+      "worst": {
+        "rail_V": 5.25,
+        "actual_V": [
+          5.18933846,
+          -5.19155743,
+          -5.19155743,
+          -0.0403549884,
+          -0.10555316
+        ],
+        "expected_V": [
+          5.25,
+          -5.25,
+          -5.25,
+          0.0,
+          0.0
+        ],
+        "error_V": [
+          0.0606615399999999,
+          0.058442570000000416,
+          0.058442570000000416,
+          0.0403549884,
+          0.10555316
+        ],
+        "logic_ok": true,
+        "accuracy_ok": true,
+        "physical": true,
+        "max_internal_V": 5.25,
+        "supply_current_A": 0.00262325295
+      }
+    },
+    {
+      "rail_V": 5.5,
+      "total_supply_V": 11.0,
+      "states": 81,
+      "valid": true,
+      "logic_pass": true,
+      "accuracy_pass": true,
+      "max_error_V": 0.11051165,
+      "max_output_error_V": 0.0642626599999998,
+      "max_supply_current_A": 0.0106370733,
+      "worst": {
+        "rail_V": 5.5,
+        "actual_V": [
+          5.43653373,
+          -5.43894004,
+          -5.43894004,
+          -0.0454835653,
+          -0.11051165
+        ],
+        "expected_V": [
+          5.5,
+          -5.5,
+          -5.5,
+          0.0,
+          0.0
+        ],
+        "error_V": [
+          0.06346627000000016,
+          0.06105995999999969,
+          0.06105995999999969,
+          0.0454835653,
+          0.11051165
+        ],
+        "logic_ok": true,
+        "accuracy_ok": true,
+        "physical": true,
+        "max_internal_V": 5.5,
+        "supply_current_A": 0.00275756253
+      }
+    },
+    {
+      "rail_V": 5.75,
+      "total_supply_V": 11.5,
+      "states": 81,
+      "valid": true,
+      "logic_pass": true,
+      "accuracy_pass": true,
+      "max_error_V": 0.115741914,
+      "max_output_error_V": 0.06714567000000038,
+      "max_supply_current_A": 0.0111530112,
+      "worst": {
+        "rail_V": 5.75,
+        "actual_V": [
+          5.68372498,
+          -5.68632579,
+          -5.68632579,
+          -0.0508386172,
+          -0.115741914
+        ],
+        "expected_V": [
+          5.75,
+          -5.75,
+          -5.75,
+          0.0,
+          0.0
+        ],
+        "error_V": [
+          0.06627501999999996,
+          0.06367421000000029,
+          0.06367421000000029,
+          0.0508386172,
+          0.115741914
+        ],
+        "logic_ok": true,
+        "accuracy_ok": true,
+        "physical": true,
+        "max_internal_V": 5.75,
+        "supply_current_A": 0.00289174858
+      }
+    },
+    {
+      "rail_V": 6.0,
+      "total_supply_V": 12.0,
+      "states": 81,
+      "valid": true,
+      "logic_pass": true,
+      "accuracy_pass": true,
+      "max_error_V": 0.121221697,
+      "max_output_error_V": 0.07003336000000004,
+      "max_supply_current_A": 0.0116686526,
+      "worst": {
+        "rail_V": 6.0,
+        "actual_V": [
+          5.93091242,
+          -5.93371415,
+          -5.93371415,
+          -0.0564082805,
+          -0.121221697
+        ],
+        "expected_V": [
+          6.0,
+          -6.0,
+          -6.0,
+          0.0,
+          0.0
+        ],
+        "error_V": [
+          0.0690875799999997,
+          0.06628584999999987,
+          0.06628584999999987,
+          0.0564082805,
+          0.121221697
+        ],
+        "logic_ok": true,
+        "accuracy_ok": true,
+        "physical": true,
+        "max_internal_V": 6.0,
+        "supply_current_A": 0.00302583803
+      }
+    }
+  ],
+  "scope": "DC continuation per input state; nominal model; 1 Mohm output loads; supply tracking inputs unless fixed_inputs=true.",
+  "raw_state_archive": "simulation/mac_improvements/rr30.0_buf1_T27_fixed0/candidate_all_states.json",
+  "raw_state_sha256": "92529a3767f948696ddb191c6a839a018d3b6ed8a01eac5320af22e463b2a2b8",
+  "status": "Historical candidate characterization; consult source hashes, not current-layout signoff."
+}

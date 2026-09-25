@@ -1,0 +1,44 @@
+{
+  "name": "convergence_tolerance_check",
+  "temperature_C": 27,
+  "rail_V": 5,
+  "load_fF": 10000,
+  "hold_ns": 1000,
+  "edge_ns": 1,
+  "no_nodeset": false,
+  "load_resistance_ohm": 1000000.0,
+  "zero_offset_V": 0,
+  "supply_resistance_ohm": 0,
+  "power_ramp_ns": 0,
+  "samples": 82,
+  "elapsed_s": 84.12719202041626,
+  "max_errors_V": {
+    "sum": 0.06114040731055059,
+    "cout": 0.059732321951964096,
+    "and_out": 0.059511620050155756,
+    "or_out": 0.05956351287948802,
+    "product": 0.1009109941485177
+  },
+  "tolerance_fail_samples": 0,
+  "logic_fail_samples": 0,
+  "worst": {
+    "state_trits": [
+      1,
+      -1,
+      0,
+      -1
+    ],
+    "output": "product",
+    "actual_V": -0.1009109941485177,
+    "expected_V": 0.0
+  },
+  "current_mA": {
+    "VDD": 9.603891691095782,
+    "VSS": 9.604049152739456,
+    "VMID": 7.0118965422193605e-06
+  },
+  "power_mW_max": 96.0397042191762,
+  "failure_examples": [],
+  "solver_warnings": [],
+  "max_abs_saved_node_V": 5.10659629
+}

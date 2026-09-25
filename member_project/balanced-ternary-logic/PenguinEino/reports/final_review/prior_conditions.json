@@ -1,0 +1,383 @@
+{
+  "source_model_hashes_match": true,
+  "report_sha256": {
+    "corners_supply": "3ed9d8662e8eff5cbc665d085681ee9599681820697fd343c3e468030f4acbdb",
+    "corners_stress": "df878b4b41c415c16eef2fd9bc589edbd523ad317c8347cd0060df071470175a",
+    "corners_integration": "8042222777020dae3c9e8cfb45600395013ed35c7a1a0d817a6f4c51eaec8515",
+    "corners_boundary": "4881fda918819c66f24b35cd191f617f6030bff5a6db71954073e07bb4481ab0",
+    "corners_slew_stress": "54607324dbe8cfc1bca58bcc1e50d7768689146f3f033e17498a227bfa612545"
+  },
+  "cases": {
+    "corners_supply": {
+      "T27_rail2.2": {
+        "temperature_C": 27,
+        "rail_V": 2.2,
+        "edge_ns": 1,
+        "zero_offset_V": 0,
+        "supply_resistance_ohm": 0,
+        "power_ramp_ns": 0,
+        "passed": true,
+        "tolerance_fail_samples": 0,
+        "logic_fail_samples": 0,
+        "max_errors_V": {
+          "sum": 0.03175663114719551,
+          "cout": 0.02783186734292764,
+          "and_out": 0.09589046283175454,
+          "or_out": 0.128406354,
+          "product": 0.07777673410713386
+        }
+      },
+      "T27_rail2.5": {
+        "temperature_C": 27,
+        "rail_V": 2.5,
+        "edge_ns": 1,
+        "zero_offset_V": 0,
+        "supply_resistance_ohm": 0,
+        "power_ramp_ns": 0,
+        "passed": true,
+        "tolerance_fail_samples": 0,
+        "logic_fail_samples": 0,
+        "max_errors_V": {
+          "sum": 0.03348732937101584,
+          "cout": 0.03106324974280561,
+          "and_out": 0.04786957502212763,
+          "or_out": 0.030789588006250757,
+          "product": 0.08070228981726478
+        }
+      },
+      "T125_rail2.5": {
+        "temperature_C": 125,
+        "rail_V": 2.5,
+        "edge_ns": 1,
+        "zero_offset_V": 0,
+        "supply_resistance_ohm": 0,
+        "power_ramp_ns": 0,
+        "passed": true,
+        "tolerance_fail_samples": 0,
+        "logic_fail_samples": 0,
+        "max_errors_V": {
+          "sum": 0.04340510592789615,
+          "cout": 0.07097259913276174,
+          "and_out": 0.111368987,
+          "or_out": 0.0753247183,
+          "product": 0.10097727951946185
+        }
+      },
+      "T-40_rail2.5": {
+        "temperature_C": -40,
+        "rail_V": 2.5,
+        "edge_ns": 1,
+        "zero_offset_V": 0,
+        "supply_resistance_ohm": 0,
+        "power_ramp_ns": 0,
+        "passed": true,
+        "tolerance_fail_samples": 0,
+        "logic_fail_samples": 0,
+        "max_errors_V": {
+          "sum": 0.02975192810183458,
+          "cout": 0.04544917966884319,
+          "and_out": 0.06620034839736003,
+          "or_out": 0.0367884487,
+          "product": 0.08066996954243603
+        }
+      },
+      "T27_rail3": {
+        "temperature_C": 27,
+        "rail_V": 3,
+        "edge_ns": 1,
+        "zero_offset_V": 0,
+        "supply_resistance_ohm": 0,
+        "power_ramp_ns": 0,
+        "passed": true,
+        "tolerance_fail_samples": 0,
+        "logic_fail_samples": 0,
+        "max_errors_V": {
+          "sum": 0.03864795673245647,
+          "cout": 0.03665449571433976,
+          "and_out": 0.036446170367708586,
+          "or_out": 0.036477493127634375,
+          "product": 0.07931627343556855
+        }
+      },
+      "T27_rail7": {
+        "temperature_C": 27,
+        "rail_V": 7,
+        "edge_ns": 1,
+        "zero_offset_V": 0,
+        "supply_resistance_ohm": 0,
+        "power_ramp_ns": 0,
+        "passed": true,
+        "tolerance_fail_samples": 0,
+        "logic_fail_samples": 0,
+        "max_errors_V": {
+          "sum": 0.09176169339888325,
+          "cout": 0.08554644002579194,
+          "and_out": 0.08547355685475805,
+          "or_out": 0.08317802160736676,
+          "product": 0.1452483828486712
+        }
+      }
+    },
+    "corners_stress": {
+      "cold_current": {
+        "temperature_C": -40,
+        "rail_V": 5,
+        "edge_ns": 1,
+        "zero_offset_V": 0,
+        "supply_resistance_ohm": 0,
+        "power_ramp_ns": 0,
+        "passed": true,
+        "tolerance_fail_samples": 0,
+        "logic_fail_samples": 0,
+        "max_errors_V": {
+          "sum": 0.05606832811449003,
+          "cout": 0.056332748476070976,
+          "and_out": 0.0574101917048127,
+          "or_out": 0.05548136492820799,
+          "product": 0.09190245355508586
+        }
+      }
+    },
+    "corners_integration": {
+      "startup_-1": {
+        "temperature_C": 27,
+        "rail_V": 5,
+        "edge_ns": 1,
+        "zero_offset_V": 0,
+        "supply_resistance_ohm": 0,
+        "power_ramp_ns": 100,
+        "passed": true,
+        "tolerance_fail_samples": 0,
+        "logic_fail_samples": 0,
+        "max_errors_V": {
+          "sum": 0.056816034405772875,
+          "cout": 0.03463205436940735,
+          "and_out": 0.05698559257797253,
+          "or_out": 0.056989427354266375,
+          "product": 8.12830777281448e-05
+        }
+      },
+      "startup_0": {
+        "temperature_C": 27,
+        "rail_V": 5,
+        "edge_ns": 1,
+        "zero_offset_V": 0,
+        "supply_resistance_ohm": 0,
+        "power_ramp_ns": 100,
+        "passed": true,
+        "tolerance_fail_samples": 0,
+        "logic_fail_samples": 0,
+        "max_errors_V": {
+          "sum": 0.04158219432203316,
+          "cout": 0.03478778438571248,
+          "and_out": 0.04317322201549127,
+          "or_out": 0.03527179126574651,
+          "product": 0.0356255698
+        }
+      },
+      "startup_1": {
+        "temperature_C": 27,
+        "rail_V": 5,
+        "edge_ns": 1,
+        "zero_offset_V": 0,
+        "supply_resistance_ohm": 0,
+        "power_ramp_ns": 100,
+        "passed": true,
+        "tolerance_fail_samples": 0,
+        "logic_fail_samples": 0,
+        "max_errors_V": {
+          "sum": 0.043077085815617,
+          "cout": 0.060127212413239484,
+          "and_out": 0.06010950967599982,
+          "or_out": 0.0601113153502606,
+          "product": 2.600000000185787e-06
+        }
+      },
+      "feed_10ohm": {
+        "temperature_C": 27,
+        "rail_V": 5,
+        "edge_ns": 1,
+        "zero_offset_V": 0,
+        "supply_resistance_ohm": 10,
+        "power_ramp_ns": 0,
+        "passed": true,
+        "tolerance_fail_samples": 0,
+        "logic_fail_samples": 0,
+        "max_errors_V": {
+          "sum": 0.13258489683642427,
+          "cout": 0.09263496829995432,
+          "and_out": 0.14081974848057843,
+          "or_out": 0.13567947103632072,
+          "product": 0.10042709014644076
+        }
+      },
+      "feed_25ohm": {
+        "temperature_C": 27,
+        "rail_V": 5,
+        "edge_ns": 1,
+        "zero_offset_V": 0,
+        "supply_resistance_ohm": 25,
+        "power_ramp_ns": 0,
+        "passed": true,
+        "tolerance_fail_samples": 0,
+        "logic_fail_samples": 0,
+        "max_errors_V": {
+          "sum": 0.23800727024505353,
+          "cout": 0.1410136490978937,
+          "and_out": 0.26256953885247825,
+          "or_out": 0.24668937963136717,
+          "product": 0.12194571219098904
+        }
+      },
+      "feed_50ohm": {
+        "temperature_C": 27,
+        "rail_V": 5,
+        "edge_ns": 1,
+        "zero_offset_V": 0,
+        "supply_resistance_ohm": 50,
+        "power_ramp_ns": 0,
+        "passed": true,
+        "tolerance_fail_samples": 0,
+        "logic_fail_samples": 0,
+        "max_errors_V": {
+          "sum": 0.4031680322575495,
+          "cout": 0.219399383739602,
+          "and_out": 0.4514644932700147,
+          "or_out": 0.4200420184805971,
+          "product": 0.23763281999999997
+        }
+      },
+      "zero_-0.5": {
+        "temperature_C": 27,
+        "rail_V": 5,
+        "edge_ns": 1,
+        "zero_offset_V": -0.5,
+        "supply_resistance_ohm": 0,
+        "power_ramp_ns": 0,
+        "passed": true,
+        "tolerance_fail_samples": 0,
+        "logic_fail_samples": 0,
+        "max_errors_V": {
+          "sum": 0.06130765575357078,
+          "cout": 0.05981487405541763,
+          "and_out": 0.059571255787578714,
+          "or_out": 0.05962624431184782,
+          "product": 0.10077010003850194
+        }
+      },
+      "zero_0.5": {
+        "temperature_C": 27,
+        "rail_V": 5,
+        "edge_ns": 1,
+        "zero_offset_V": 0.5,
+        "supply_resistance_ohm": 0,
+        "power_ramp_ns": 0,
+        "passed": true,
+        "tolerance_fail_samples": 0,
+        "logic_fail_samples": 0,
+        "max_errors_V": {
+          "sum": 0.06130923761147855,
+          "cout": 0.0598137242318284,
+          "and_out": 0.059568711277946385,
+          "or_out": 0.059624609556195196,
+          "product": 0.10103543823153224
+        }
+      }
+    },
+    "corners_boundary": {
+      "T27_rail2.1": {
+        "temperature_C": 27,
+        "rail_V": 2.1,
+        "edge_ns": 1,
+        "zero_offset_V": 0,
+        "supply_resistance_ohm": 0,
+        "power_ramp_ns": 0,
+        "passed": false,
+        "tolerance_fail_samples": 9,
+        "logic_fail_samples": 0,
+        "max_errors_V": {
+          "sum": 0.03186697643688152,
+          "cout": 0.02680830617181451,
+          "and_out": 0.14255436973617824,
+          "or_out": 0.697593552,
+          "product": 0.06922232860633465
+        }
+      },
+      "T27_rail2.15": {
+        "temperature_C": 27,
+        "rail_V": 2.15,
+        "edge_ns": 1,
+        "zero_offset_V": 0,
+        "supply_resistance_ohm": 0,
+        "power_ramp_ns": 0,
+        "passed": true,
+        "tolerance_fail_samples": 0,
+        "logic_fail_samples": 0,
+        "max_errors_V": {
+          "sum": 0.03176462472571373,
+          "cout": 0.027312667660342793,
+          "and_out": 0.11487356283488194,
+          "or_out": 0.279200654,
+          "product": 0.07471040443642545
+        }
+      },
+      "slow_edge_100ns": {
+        "temperature_C": 27,
+        "rail_V": 5,
+        "edge_ns": 100,
+        "zero_offset_V": 0,
+        "supply_resistance_ohm": 0,
+        "power_ramp_ns": 0,
+        "passed": true,
+        "tolerance_fail_samples": 0,
+        "logic_fail_samples": 0,
+        "max_errors_V": {
+          "sum": 0.06563336560224364,
+          "cout": 0.06071057657773693,
+          "and_out": 0.06030364219860207,
+          "or_out": 0.06049801068560878,
+          "product": 0.10091294051456406
+        }
+      }
+    },
+    "corners_slew_stress": {
+      "cold_edge_10ns": {
+        "temperature_C": -40,
+        "rail_V": 5,
+        "edge_ns": 10,
+        "zero_offset_V": 0,
+        "supply_resistance_ohm": 0,
+        "power_ramp_ns": 0,
+        "passed": true,
+        "tolerance_fail_samples": 0,
+        "logic_fail_samples": 0,
+        "max_errors_V": {
+          "sum": 0.056246104632962535,
+          "cout": 0.056332772188059065,
+          "and_out": 0.0574102008573066,
+          "or_out": 0.055514907512805856,
+          "product": 0.09190252373096741
+        }
+      },
+      "cold_edge_100ns": {
+        "temperature_C": -40,
+        "rail_V": 5,
+        "edge_ns": 100,
+        "zero_offset_V": 0,
+        "supply_resistance_ohm": 0,
+        "power_ramp_ns": 0,
+        "passed": true,
+        "tolerance_fail_samples": 0,
+        "logic_fail_samples": 0,
+        "max_errors_V": {
+          "sum": 0.05866589094630381,
+          "cout": 0.05633310707492541,
+          "and_out": 0.0574103064183307,
+          "or_out": 0.05601447012295768,
+          "product": 0.09190316307909586
+        }
+      }
+    }
+  },
+  "scope": "Existing schematic condition tests; source/model hashes revalidated, not newly simulated."
+}

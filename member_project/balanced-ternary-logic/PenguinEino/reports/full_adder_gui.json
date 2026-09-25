@@ -1,0 +1,9 @@
+{
+  "gds": "/home/ishi-kai/balanced-ternary-logic/full_adder.gds",
+  "gds_sha256": "1bf31dfe2323cff80d45e4f4686e0a4f59642abb613944dfadea76e01ba6ef81",
+  "drawing_drc_items": 0,
+  "lvs_match": true,
+  "lvs_errors": [],
+  "default_macro_paths": true,
+  "passed": true
+}

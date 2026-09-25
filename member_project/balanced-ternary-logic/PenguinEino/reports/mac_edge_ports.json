@@ -1,0 +1,44 @@
+{
+  "passed": true,
+  "baseline_commit": "e904eed",
+  "gds_sha256": "653da52bad1220d17bb5bac5464fc6a04b2f29e9e8f5dec04108883622b4514c",
+  "extracted_sha256": "40eaee57baae9e25c346d6e066f0dee1770bfe623176c1e0b254a7a3dcfadd16",
+  "cells": [
+    "full_adder",
+    "half_adder",
+    "inverter",
+    "mac",
+    "mul",
+    "mul_inv",
+    "mul_nand",
+    "mul_nor",
+    "nany"
+  ],
+  "dbu_um": 0.001,
+  "grid_um": 0.05,
+  "bbox_um": [
+    3.3000000000000003,
+    12.35,
+    1791.7,
+    793.2
+  ],
+  "changes": "All eleven external ports at left/right allocation edges with straight outward access; original circuit and art preserved",
+  "comparison": "Exact named formal ports, device terminal roles, models and parameters; all 9 electrical cells isomorphic.",
+  "scope": "Device extraction, no wire RC; exhaustive results inherited only by proved electrical equivalence.",
+  "fresh_native": {
+    "mode": "all_81_inputs",
+    "load_fF": 10000,
+    "hold_ns": 1000,
+    "max_step_ns": 10,
+    "load_resistance_ohm": 1000000.0,
+    "samples": 82,
+    "transitions": 81,
+    "max_output_error_V": 0.06128647900336048,
+    "max_product_error_V": 0.10090926024511429,
+    "max_sum_cout_error_V": 0.06128647900336048,
+    "max_and_or_error_V": 0.05962498785514825,
+    "max_settle_ns": 414.2685999999994,
+    "unsettled": 0,
+    "passed": true
+  }
+}

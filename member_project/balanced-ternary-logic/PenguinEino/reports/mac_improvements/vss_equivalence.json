@@ -1,0 +1,136 @@
+{
+  "baseline_gds_sha256": "83a38ddc0e8dbc2aab769d2b50253850a343b6e1863eb4ad9c0464ce39502155",
+  "new_gds_sha256": "c826b7af8ef71a58b0b60417c1d4ad46129ed50c9d4e1dc67afdb9242a999226",
+  "baseline_extracted_sha256": "b4c1e39c7dd836e189b41689689047a2ed0d9e35ebac944a7ba2009f4b888b21",
+  "new_extracted_sha256": "501c92703ea991e3596949643a82ac317202e3919b216cd5cf24185d6c0254dd",
+  "baseline_report_sha256": "ce678979a8e473a7ae0575a21c26db7ef41449692fd2f08d9fc5707b5c6863aa",
+  "allowed_change": "MAC-local internal net $11 renamed $10; all other SPICE bytes identical.",
+  "cache_note": "An automatic restart rewrote four progress logs/decks before cancellation. The completed old data arrays, dependency records and per-transition results were preserved, re-evaluated, and their aggregates checked exactly against the saved completed baseline report.",
+  "identical_device_network": true,
+  "identical_models": true,
+  "identical_reference": true,
+  "identical_rules": true,
+  "rechecked_waveforms": [
+    {
+      "case": "chunk_0",
+      "passed": true,
+      "wave_sha256": "217941150904fd5269882bd2e01b14d9594d411d754845c520ae9d284c636ed7",
+      "max_error_V": 0.06386530422705494,
+      "max_settle_ns": 494.3530000000028
+    },
+    {
+      "case": "chunk_1",
+      "passed": true,
+      "wave_sha256": "e24acbe62de0be837ccf488a3ecc6e4a2fe7c9554e1df376bb4b47374bd5eb6d",
+      "max_error_V": 0.06293896356840367,
+      "max_settle_ns": 475.85800000000745
+    },
+    {
+      "case": "chunk_2",
+      "passed": true,
+      "wave_sha256": "cc73d3cd0b0d1856d75a690711fb8ee00edf552859333709054655e3917c29e6",
+      "max_error_V": 0.06179454851904165,
+      "max_settle_ns": 452.54099999999744
+    },
+    {
+      "case": "chunk_3",
+      "passed": true,
+      "wave_sha256": "3ef3f7d5ab3ad1d2b1aab72254708d48933772b39ead01f02262024eb9a2b29a",
+      "max_error_V": 0.06295498083408368,
+      "max_settle_ns": 478.7659999999887
+    },
+    {
+      "case": "chunk_4",
+      "passed": true,
+      "wave_sha256": "6aaaa66b13405eaaf5498a9020a1bf78796a742fd0f98d576264ad48b5633c7c",
+      "max_error_V": 0.06328864980136206,
+      "max_settle_ns": 486.98099999999977
+    },
+    {
+      "case": "chunk_5",
+      "passed": true,
+      "wave_sha256": "acf43843c3a1360a80d8b74038e5d799761cfd73cd89e27cc2cca89240e32fd3",
+      "max_error_V": 0.0633982225502141,
+      "max_settle_ns": 474.08400000000256
+    },
+    {
+      "case": "chunk_6",
+      "passed": true,
+      "wave_sha256": "593b8d7fe24bcef553146761622365048f8a868c81160e2b6b041106826e6fee",
+      "max_error_V": 0.06305264167615654,
+      "max_settle_ns": 467.2833999999998
+    },
+    {
+      "case": "chunk_7",
+      "passed": true,
+      "wave_sha256": "bfe5e55804734b8fc67ae4e3187b8335d3afda1c69e8ad54bbbf6a5da0296fe6",
+      "max_error_V": 0.06339591128180366,
+      "max_settle_ns": 480.7960000000021
+    },
+    {
+      "case": "chunk_8",
+      "passed": true,
+      "wave_sha256": "10df71705b02f57989d23e98284d794f01f7d346666023cbe88c469a22d20bc8",
+      "max_error_V": 0.06425438371403658,
+      "max_settle_ns": 502.2950000000128
+    },
+    {
+      "case": "chunk_9",
+      "passed": true,
+      "wave_sha256": "f1c1a60c6b097f8c3ff2cf59c736bce9c5a9b220fcb3e0c4d4f55aeacb2f4907",
+      "max_error_V": 0.06297198089069056,
+      "max_settle_ns": 475.34430000000066
+    },
+    {
+      "case": "chunk_10",
+      "passed": true,
+      "wave_sha256": "8b91273ea84c9bc79e49677951018c703240006b166ca6a38efe0bce41fac4bc",
+      "max_error_V": 0.0642264294084347,
+      "max_settle_ns": 503.6700000000419
+    },
+    {
+      "case": "chunk_11",
+      "passed": true,
+      "wave_sha256": "ef067ecf08b5cd9c65a27a46d87b308bf9e27a750269dc793e1b5a42fab09cf2",
+      "max_error_V": 0.06426232390161601,
+      "max_settle_ns": 495.172300000002
+    },
+    {
+      "case": "chunk_12",
+      "passed": true,
+      "wave_sha256": "81f38c2718b14798ea088e9c8bf975845e4e34a858eb03097f5646345fdd1afc",
+      "max_error_V": 0.06372523527685647,
+      "max_settle_ns": 487.649000000034
+    },
+    {
+      "case": "chunk_13",
+      "passed": true,
+      "wave_sha256": "e269a3aafa506531a2d49c9d0e64bf7842be3d04db4ef4e516e5bf8c0384659f",
+      "max_error_V": 0.06385674500879723,
+      "max_settle_ns": 487.09100000000035
+    },
+    {
+      "case": "chunk_14",
+      "passed": true,
+      "wave_sha256": "d6cf327a5fae90b7f7874ca1fb94783f0762cab74f2126a9f21405822e8e01d4",
+      "max_error_V": 0.06294769341726347,
+      "max_settle_ns": 477.90600000001723
+    },
+    {
+      "case": "chunk_15",
+      "passed": true,
+      "wave_sha256": "7f67fd81e9908b3eb7d2017a47901469cbc9b7373d45da0f839d79f022ef0203",
+      "max_error_V": 0.06328577477613884,
+      "max_settle_ns": 478.50699999998324
+    },
+    {
+      "case": "single_input_648_10000f",
+      "passed": true,
+      "wave_sha256": "562bd3a534d3a463da709f233492f8c13e0c6bb4789c533448d7e25d0dca6a63",
+      "max_error_V": 0.06408548266328573,
+      "max_settle_ns": 485.86799999998766
+    }
+  ],
+  "rerun": "Native 81 inputs plus return, 10 pF || 1 Mohm, 1 us.",
+  "limitation": "Metal widened only. No wire RC in this extraction, therefore no simulated RC benefit is claimed."
+}

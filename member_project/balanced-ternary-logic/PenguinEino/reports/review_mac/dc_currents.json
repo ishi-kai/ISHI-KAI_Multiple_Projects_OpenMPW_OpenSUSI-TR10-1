@@ -1,0 +1,44 @@
+{
+  "(0, 0, 0, 0)": {
+    "state_trits": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "dc_currents_A": {
+      "i(vdd)": -0.0183777,
+      "i(vss)": 0.01837775,
+      "i(vmid)": -1.10049e-10,
+      "v.xdut.vprobe_x_fa_vdd#branch": 0.01348843,
+      "v.xdut.vprobe_x_fa_vss#branch": -0.0134884,
+      "v.xdut.vprobe_x_fa_vmid#branch": 1.100488e-10,
+      "v.xdut.vprobe_x_mul_vdd#branch": 0.004240221,
+      "v.xdut.vprobe_x_mul_vss#branch": -0.00424022,
+      "v.xdut.vprobe_x_and_vdd#branch": 0.0006490987,
+      "v.xdut.vprobe_x_and_vss#branch": -0.000649099
+    },
+    "power_W": 0.18377725
+  },
+  "(0, 0, -1, 0)": {
+    "state_trits": [
+      0,
+      0,
+      -1,
+      0
+    ],
+    "dc_currents_A": {
+      "i(vdd)": -0.0165179,
+      "i(vss)": 0.01651793,
+      "i(vmid)": -1.10049e-10,
+      "v.xdut.vprobe_x_fa_vdd#branch": 0.01348672,
+      "v.xdut.vprobe_x_fa_vss#branch": -0.0134867,
+      "v.xdut.vprobe_x_fa_vmid#branch": 1.10049e-10,
+      "v.xdut.vprobe_x_mul_vdd#branch": 0.003031217,
+      "v.xdut.vprobe_x_mul_vss#branch": -0.00303122,
+      "v.xdut.vprobe_x_and_vdd#branch": 2.255045e-11,
+      "v.xdut.vprobe_x_and_vss#branch": -3.75504e-11
+    },
+    "power_W": 0.16517915
+  }
+}

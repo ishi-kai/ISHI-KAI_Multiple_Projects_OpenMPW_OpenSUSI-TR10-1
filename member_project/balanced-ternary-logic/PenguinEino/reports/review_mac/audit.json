@@ -1,0 +1,266 @@
+{
+  "files": {
+    "nany.sch": "ccb2fe30da68a0ef2bbcda8836d70b65579f0c6be58fd024a511a6e90fdb64cc",
+    "nand_tb.sch": "4327130f369128a4fcfd0ddf1f2b612cdd53d5ccfb85c97219e95beafd713bf1",
+    "half_adder.extracted": "455f3a8d17aadc73cf303b58d119a31e75ad738ffe91270b5f993de379f59cd4",
+    "nti.sch": "736481540955fbd66b4840cae262ddee76cffd16cce6437633d2f8ddfe15dc39",
+    "mac.sym": "1148a5a1f53d5f301fee32d0a16af7db76ff871f93410ffcdf5e31dd4f197000",
+    "full_adder_tb.sch": "073882c490eddbe05ffd6da3f608908f58b4b310f8581b628b89eb93244a0ef2",
+    "mul_inv.sym": "33e0e45aaa7454f03cda8ba2698667967a1827f372b486ef3a6e2b580e34cbac",
+    "mul_tb.sch": "3d630be39869d683eeb056e681b121e205efc4ec2dd3caa51cbfd80a46840dbc",
+    "mul_inv.extracted": "b1be5d60d8f47f665ccd3058d191439991cf09283b0e2022626bbbb6aaae3e37",
+    "nsign.sch": "011da5c0eed9daba858328f7f5325ba7a199ee1cbae01a471b3e87a3ecb2c5c0",
+    "mul_nor.extracted": "8f855e72dea65c36554c6f342e631d0a1fd15c3075052eec317ce0943f87b8bd",
+    "nany.gds": "f89b57b00aedc6a17d24d7f255416e1e68c5dde5f4f916bca5dc71d67e587640",
+    "mul.sym": "b77e677e524da9f2df9bf1929da01400dbefe25539d20e0a26e1afa17d8de298",
+    "mul_nand.extracted": "d10f050f7c779fab0cbb75425702f7b284f7d2cfc064da9dc7aadd8b2dec2f53",
+    "pti.sch": "b88b91b7929e0c48010efa0c22d0bfaa5fab7a8335e3e6f3573c1c436233fb17",
+    "mac.extracted": "d4d72b935d2519861165526518f6e60f4ae3df849405f75f776778d63bae02cc",
+    "nor.sch": "9e45070348ee5eebf934834ac813945a399672eeff9eb24e5f70e34c913c84af",
+    "nti.sym": "9200e72baee44ced61aa277e6181b8c92d294c80805c3777a60bc29a9806970d",
+    "mul_nor.gds": "406dcd11bb7c1d648497526c212237c167a7c218b39639349b66f0833e801fcb",
+    "ternary_sram_read_tb.sch": "494aff118a77328c2b84813827894b437ba7cf3812cf8cb25222961e3f9c2904",
+    "mac_tb.sch": "2d2c2037d2f12256a9ae91c0fd480d5f644ba8c401ef524204a7faa7e1f24ad5",
+    "nand.sym": "a71d2171d22a90ba0d5805353cf3a18791f3db2a1ba0e70ea18a85e013d8233d",
+    "inverter_chain_tb.sch": "c3aa4c677cb392e05c5898fb2856e05e319f39da607683acb7f90baba4b405fb",
+    "mul_nor.sym": "9cc6fcb4f0500be6c6042403f471031e83f2226a5d08624c0266130c414a3a05",
+    "ternary_latch.sym": "ee17dba49ef750a0847c4b988b299f1eefe2cefca373bf0a31c3642a91c45f0f",
+    "mul.gds": "680f3fbd0478c20b3dacda411db0fd3d52b8eb2428e9111cfcef9ae49622ef67",
+    "half_adder.gds": "e577df2b6b70cf5cd9bace2c2a7144bb082406014a5c3020a7480bbf36a87e17",
+    "mul_inv.gds": "ca48216a540ba03cca26bf62f56fc8e2e7568b23f75ce04494cf24506b984d9e",
+    "nsign.sym": "41252e9aaa1e0424cf94b52db0ea3db5e8e06ee27a41895d576d185bbbfc920d",
+    "inverter.sch": "290c8ce9aa810cf83f9b24eaa435c5b729892daff5f1e42d4e43dc7d7e89274d",
+    "full_adder.sym": "75deb8b6d3b5800e11441f1287865947b5dfa224b9004fe345dabccfa8902666",
+    "nsign_tb.sch": "3fb4c414b4ab982eb16d8bf625aa0b27ccc6e92095a439217a344b8cabb61ff9",
+    "mul_nand.sym": "a71d2171d22a90ba0d5805353cf3a18791f3db2a1ba0e70ea18a85e013d8233d",
+    "mac.gds": "822fed3eeba3e0e83213bbe9f67fcf7930cfa63994fc546cfbc9e1ff516ad870",
+    "cons_tb.sch": "ac0bbc75fe3f1bcc88949254c1b607bc30eb999402813632d8ee90b8d1cb96cf",
+    "inverter.extracted": "69d63c994bde4a18286e6a036fc218b1a97950b5b2ac34af7a87d062152ca030",
+    "mul_nand.sch": "ce797d2dd581aab66b9da0768c3e292a4217dcdf992ecdf7f8603f36134f1a03",
+    "nany.extracted": "84312afc0f036479cd134b19ed8c8bfccf3771e6d123c49277546717bdd11764",
+    "mul.extracted": "4b619a2ac0b198daa85ef9c5b11e21d2814584a163f9f27cd7996ae83ae6f6ec",
+    "inverter_tb.sch": "650f8f5d145530c146b0cb8f73d728a9c33ffb6d78fcec4a5a0472b5a0eb8bd8",
+    "nany.sym": "ce61f330d4c40e89c054bafcc896579d5fac819d95e78a45a2b1172b7e2aee56",
+    "pti_tb.sch": "2c4c946c14549e7bd0ea129cab276b79354b3871210cb233bb5c5cbd85d57614",
+    "half_adder.sym": "60fc9f30723a987fe66a9de0996afd5409eef22c6c3df80f22d54df91d5ba437",
+    "full_adder.extracted": "418988028d59cd32181e619a61171fa8f89dc435d859f45ae0716f1bfcf9754a",
+    "nand.sch": "dacf14826a54a9838280b9e0bc403f3680332edfeef569d9ecebc6d1da029fad",
+    "mul_inv.sch": "991208956eabcea4b0614b78b82afc3b492f30933297ee6916ff3e7e19a4aeee",
+    "ternary_latch_tb.sch": "a4b0beb6fea6b966e9258582a7cf2b1874ef687e33ab75e562aceacb2ba99a3e",
+    "inverter.gds": "13623ddea48f53fce0fe340afd720e66905fae5bfc0bdaccd4e3f85c39579de4",
+    "pti.sym": "eb4493f693a10f8bceebed5b6cdd97aae73f8da2e932e4011221ef37fff6bbb0",
+    "nti_tb.sch": "64c5747c6ea4886cb0a4543486f93e62ee08a27038ac4dd01579dc3629ad7797",
+    "mac.sch": "6b3838413b9bf13e0f8717ade6a1215ea29035fc6d12f4848acfc3821a1e88a8",
+    "nor_tb.sch": "b8445d2653e93e77aead3baf08967b152001c6144027983219e9b79fc779af4d",
+    "full_adder.sch": "dc0a3a0b776e23fad1a34190746a4eafe2dfdbeb6fa18cdcf8bc24e28805ee26",
+    "nany_tb.sch": "53a05bdb1cf82b95d4cb682fd4dc396293552340492c92d954b6f6c4cb95ca29",
+    "cons.sch": "db0187c64321dfe2ae49b688fba2c063080f4b97a1bb512b0fb1305950865b80",
+    "inverter.sym": "33a7d33a457877572e7bf504ae7c92db017da58adac8d5e72286d93ba17e410f",
+    "mul_nor.sch": "b71df77441c92ae3fa271ec392cb4452b893eb933afa607701086e6633801a51",
+    "ternary_sram.sym": "329bf300809763a8de4c48b39573f2c402720417f2345734a149f0e01850178b",
+    "ternary_sram.sch": "6f3c78ba4f252a93f5b4126d46077cf3f546ba0dbed15ce98b44ec168eb21b32",
+    "cons.sym": "8a0e6f83c9937c52b17266ffee4622a2464c2a4e8591cdd900d9af892a814fba",
+    "ternary_sram_tb.sch": "00f78f37d5a38037b17b743246a12dd775b49e6fae94f37df0ead0d0574e3498",
+    "half_adder_tb.sch": "11e96feb1f15963949a28d16cdd8e4ed735ecb4b0fc32e79d17bcf9bbac036c3",
+    "full_adder.gds": "d4be4d5cc1d40a85ed7a51e51784707d37ae374dffe99d9c84f052c6bcfa628c",
+    "nor.sym": "9cc6fcb4f0500be6c6042403f471031e83f2226a5d08624c0266130c414a3a05",
+    "mul_nand.gds": "33e48870d367b4c41b9dd46620da3dabddefb023ba4123364cdb34e7230acbeb",
+    "ternary_latch.sch": "5d6b6b5511fa4a265961750d464bdc8792b5385a5e0a10005e3fcda26207be33",
+    "mul.sch": "369cbbc0d1d9159ca6b221b2e83edd8b2d933eb2a2abb4c955cca928c8bac572",
+    "nor_chain_tb.sch": "3941c924b2924566104b8d437455294e0c60e0fd6206212f2f19f5d0068bb6b8",
+    "half_adder.sch": "2523ef16811218c7b62f45d1a17ee22349f92e07c0d40a8c2f43d3e6cd41333b",
+    "submission/nany.sch": "ccb2fe30da68a0ef2bbcda8836d70b65579f0c6be58fd024a511a6e90fdb64cc",
+    "submission/mac.sym": "1148a5a1f53d5f301fee32d0a16af7db76ff871f93410ffcdf5e31dd4f197000",
+    "submission/mul_inv.sym": "33e0e45aaa7454f03cda8ba2698667967a1827f372b486ef3a6e2b580e34cbac",
+    "submission/mul.sym": "b77e677e524da9f2df9bf1929da01400dbefe25539d20e0a26e1afa17d8de298",
+    "submission/mac.extracted": "d4d72b935d2519861165526518f6e60f4ae3df849405f75f776778d63bae02cc",
+    "submission/mac_tb.sch": "65082d312f028234e1653ba41c7f83d214513b92f6982d6663ecae4802c63c80",
+    "submission/mul_nor.sym": "9cc6fcb4f0500be6c6042403f471031e83f2226a5d08624c0266130c414a3a05",
+    "submission/inverter.sch": "290c8ce9aa810cf83f9b24eaa435c5b729892daff5f1e42d4e43dc7d7e89274d",
+    "submission/full_adder.sym": "75deb8b6d3b5800e11441f1287865947b5dfa224b9004fe345dabccfa8902666",
+    "submission/mul_nand.sym": "a71d2171d22a90ba0d5805353cf3a18791f3db2a1ba0e70ea18a85e013d8233d",
+    "submission/mac.gds": "da5d981d506da9e8b37c49d053109457d773966074667dd0516f9b1e2295808e",
+    "submission/mul_nand.sch": "ce797d2dd581aab66b9da0768c3e292a4217dcdf992ecdf7f8603f36134f1a03",
+    "submission/nany.sym": "ce61f330d4c40e89c054bafcc896579d5fac819d95e78a45a2b1172b7e2aee56",
+    "submission/half_adder.sym": "60fc9f30723a987fe66a9de0996afd5409eef22c6c3df80f22d54df91d5ba437",
+    "submission/mul_inv.sch": "991208956eabcea4b0614b78b82afc3b492f30933297ee6916ff3e7e19a4aeee",
+    "submission/mac.sch": "2b1174fce0a7ef94b5516be0335c300aa68b03f2fa16e70c641a5078f3a13d93",
+    "submission/full_adder.sch": "28b84c2cb5fa85b31e5108de5ca0540c308724b3eccf3bee0be30871db53d33d",
+    "submission/inverter.sym": "33a7d33a457877572e7bf504ae7c92db017da58adac8d5e72286d93ba17e410f",
+    "submission/mul_nor.sch": "b71df77441c92ae3fa271ec392cb4452b893eb933afa607701086e6633801a51",
+    "submission/mul.sch": "17bdc7926d2b5609cb71378dfcab59c9384eefe9c47797487c17575b429dd5c5",
+    "submission/half_adder.sch": "ad221fdff5cb4a1943bc362d83699224038f52175ac12423cad8aa5e676b7b21"
+  },
+  "git_status": " M full_adder.extracted\n M full_adder.gds\n?? reports/review_mac/\n?? scripts/review_mac.py\n",
+  "pdk_revision": "9ef2ac38e1717b3ba2a4b0b374e48c53017e952c",
+  "pdk_hashes": {
+    "libs.tech/klayout/tech/drc/run_IP62.drc": "07f9811a87a562ac4e0e4a13b70c5f60dd9d3ca962a8b034acb224877a3c5ebe",
+    "libs.tech/klayout/tech/drc/run_tile.drc": "5966f762d81e7408f245957ec1b0813caa346a5cb902fbd9e5fd9ba22dccd135",
+    "libs.tech/klayout/tech/drc/run.drc": "8ffc43f3ea42fedf8f6f39facfada8309cd16d089a3af1b26016526e215f56ca",
+    "libs.tech/klayout/tech/drc/drc.lydrc": "1e610ee59a2022e5e3da275fdf99b6717678403035ddc14f27f7ff94d02b31b8",
+    "libs.tech/klayout/tech/drc/04_TapeOut.drc": "56b7d1905429bf49bcc1313413e33f1fe69d87af104e287ecfa1a9981447ae6f",
+    "libs.tech/klayout/tech/drc/03_Electrical.drc": "497d9cd3ddbccbba68f73553618b455fecffe849b4be37f10d750030b7bde085",
+    "libs.tech/klayout/tech/drc/02_Device.drc": "f2a79da0cfe7f1bca89b2b00bd7576393eb302a20b8568f16f6214f4bf2729bc",
+    "libs.tech/klayout/tech/drc/drc_IP62.lydrc": "e5b40a257ce8e7e88e488d8b73086af15e984dc46399ec600818788317b1c1da",
+    "libs.tech/klayout/tech/drc/01_Basics.drc": "b8cfb0df7b6e98db833a8019b50fad3be9672b91793d215690c4e0dfb480c2ff",
+    "libs.tech/klayout/tech/drc/00_Layers.drc": "6e029f7adeb58062bd8f5a1983d8c71188d23b5d5c5a2c404501026df8174e86",
+    "libs.tech/klayout/tech/drc/run_mdp.drc": "828f54f161f47efb4c1b9721577ec018649d367438bdc6c9ef50123c4a30bd4c",
+    "libs.tech/klayout/tech/drc/IP62/10_TapeOut.drc": "7620a3b4c153b9f13b5fa65953e65f034ac9fb1b6a9c1994a3f6aff32c19382c",
+    "libs.tech/klayout/tech/drc/IP62/03_Check.drc": "6487168daa36b1d9765b42e461fd4d271495aeef919a41b2c937745071af7b46",
+    "libs.tech/klayout/tech/drc/IP62/04_Check.drc": "5a2107118f3a92377b57a220c865f75e59e589675956c70e7b35ec890e8c9d2a",
+    "libs.tech/klayout/tech/drc/IP62/06_Check.drc": "26fd6afb7a2fc69ba584763fece00e7e77aaa7d55c4b43acea2bc1daa4c22b20",
+    "libs.tech/klayout/tech/drc/IP62/02_Device.drc": "df84a871f7b9c6f1c9809deae2d8d716377596c8a400d1690949a731eeb82010",
+    "libs.tech/klayout/tech/drc/IP62/01_Basics.drc": "eac124d2e77929ca2b675cd6c8b6e36065a5cecf699f2ca59a532647fdea7314",
+    "libs.tech/klayout/tech/drc/IP62/00_Layers.drc": "32f0957029368e89a032626b3a2fb8b09930c36cc9581b62c0ad132c9d393b07",
+    "libs.tech/klayout/tech/drc/IP62/05_Check.drc": "1a81ef8b0ce88d435963a2f05cc253dfa786df3841de4e505a7867517aeb3911",
+    "libs.tech/klayout/tech/drc/IP62/07_Check.drc": "4ad62763f3ae5c9233fc8a9fd55a5ec999450362070956fcf0348060ce03d758",
+    "libs.tech/klayout/tech/drc/IP62/08_Check.drc": "a4dbf53e06b7993d1e54138da767990f90197a8960fcb86c8c7b63bfa9cf602d",
+    "libs.tech/klayout/tech/drc/IP62/09_Check.drc": "e5602d8aa07ab997a023b5d4da91437ce066f56abf71a1eca4556e1a8110eb72",
+    "libs.tech/klayout/tech/lvs/05_Compare.lvs": "ba20494aa1483f3f42f9d7668d704c1773ac0b7953482d47476875b25d40c18d",
+    "libs.tech/klayout/tech/lvs/03_Combiner.lvs": "38f081645ca9396735b685ea0acbfb36796b14df252b7c292c371dd911be6388",
+    "libs.tech/klayout/tech/lvs/01_Extract.lvs": "2206d70e86e72b0397a25811c5680715cd63d37ae42fd30e8185e7fdec0e21a6",
+    "libs.tech/klayout/tech/lvs/02_Extract.lvs": "91d26f9d2150cedea78ef2591971bf5159b8c6c7bae0f89d9117837dbb716762",
+    "libs.tech/klayout/tech/lvs/04_Custom.lvs": "bb9339879006ed5eaf3c635ad3d5d1bf3a2d732e4d2e0e74482685945b3d8cbe",
+    "libs.tech/klayout/tech/lvs/lvs.lylvs": "1fdbec8c7f76a2f2c93584cefb8b250535f40ab41ffe5f426d14be1248eae70a",
+    "libs.tech/klayout/tech/lvs/run.lvs": "bc765ce4cb5a23c15866ed1727b83484965394da2f557ac508431c7c58addec3",
+    "libs.tech/klayout/tech/lvs/IP62/01_Extract.lvs": "3584c4f1477f9b63b0f6b219a4e7a39db61070ef9e8614ac2a7033b38ea7a1f3",
+    "libs.tech/klayout/tech/lvs/IP62/03_Extract.lvs": "05f0ef3f480f8523c2c1f8f109673ad576df5fdf2cdae207726d9182a2be937d",
+    "libs.tech/klayout/tech/lvs/IP62/04_Compare.lvs": "e95cc8df79f34e7faf2d0a0d2e943f966f72e4ccb065fff0278d25bf61893a39",
+    "libs.tech/klayout/tech/lvs/IP62/02_Extract.lvs": "07ef72a2ee9be769a53a83bffc6a75dbf9e85b622d229c416fe12ff57bf0d8ac",
+    "libs.tech/klayout/tech/lvs/IP62/run.lvs": "df3087c9b616daad0ac0681423436d6e02df19270648220fbaee15db10a56ef0",
+    "libs.tech/spice/models/models_IP62_cap_v5p1.lib": "265c1e2b5228381633ec936f208101b64a0538905c41bdf53e760df10f347bed",
+    "libs.tech/spice/models/models_IP62_diode_v2.lib": "37c19bd4f6d631a5862f2b6aeda62e5eb73ed15fe0de9932296a81a144f1550f",
+    "libs.tech/spice/models/models_IP62_res_v5.lib": "0d6e2e4b7739fd68946c746830ed8896f4ec5ee98e984fdb5c8dd1116ad78311",
+    "libs.tech/spice/models/models_IP62_mos_v2.lib": "251864d489d0e15a3081871763af29e1bbc8654ae55662bede40e0a7bbac1400",
+    "libs.tech/spice/models/ip62_models": "219ca479adc7d6d960f83e18e0081da153a479f34615333d74c946869bc4c6ec"
+  },
+  "pdk_source_differences": [],
+  "geometry": {
+    "dbu_um": 0.001,
+    "bbox_um": [
+      0.3,
+      24.95,
+      1771.7,
+      783.7
+    ],
+    "fits": true
+  },
+  "placement_problems": [],
+  "global_origin_problems": [],
+  "off_grid_polygon_points": 0,
+  "submission_shape_differences": [],
+  "embedded_cell_shape_differences": {
+    "inverter": [],
+    "nany": [],
+    "half_adder": [],
+    "full_adder": [],
+    "mul_nand": [],
+    "mul_nor": [],
+    "mul_inv": [],
+    "mul": []
+  },
+  "ports": [
+    {
+      "name": "and_out",
+      "coordinate_um": [
+        706,
+        558.5
+      ],
+      "on_metal": true
+    },
+    {
+      "name": "or_out",
+      "coordinate_um": [
+        540,
+        600
+      ],
+      "on_metal": true
+    },
+    {
+      "name": "a",
+      "coordinate_um": [
+        40,
+        558
+      ],
+      "on_metal": true
+    },
+    {
+      "name": "b",
+      "coordinate_um": [
+        40,
+        564
+      ],
+      "on_metal": true
+    },
+    {
+      "name": "x",
+      "coordinate_um": [
+        32,
+        392
+      ],
+      "on_metal": true
+    },
+    {
+      "name": "cin",
+      "coordinate_um": [
+        769,
+        392
+      ],
+      "on_metal": true
+    },
+    {
+      "name": "sum",
+      "coordinate_um": [
+        1520.9,
+        201.3
+      ],
+      "on_metal": true
+    },
+    {
+      "name": "cout",
+      "coordinate_um": [
+        1770,
+        64.1
+      ],
+      "on_metal": true
+    },
+    {
+      "name": "VDD",
+      "coordinate_um": [
+        678,
+        770
+      ],
+      "on_metal": true
+    },
+    {
+      "name": "VSS",
+      "coordinate_um": [
+        594,
+        776
+      ],
+      "on_metal": true
+    },
+    {
+      "name": "VMID",
+      "coordinate_um": [
+        8,
+        782
+      ],
+      "on_metal": true
+    }
+  ],
+  "existing_report_hash_mismatches": {
+    "inverter": {
+      "recorded": "42bc2c653b2c5287d169be09d208bde4e7e9eecf50f5a3238f10762b18e4a5eb",
+      "current": "13623ddea48f53fce0fe340afd720e66905fae5bfc0bdaccd4e3f85c39579de4"
+    },
+    "nany": {
+      "recorded": "d7d071a8bd197239d1959d5e8680fe69c28d66cc9e2e3e27cf98d712bd381bae",
+      "current": "f89b57b00aedc6a17d24d7f255416e1e68c5dde5f4f916bca5dc71d67e587640"
+    },
+    "full_adder": {
+      "recorded": "1bf31dfe2323cff80d45e4f4686e0a4f59642abb613944dfadea76e01ba6ef81",
+      "current": "d4be4d5cc1d40a85ed7a51e51784707d37ae374dffe99d9c84f052c6bcfa628c"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "gds": "/home/ishi-kai/balanced-ternary-logic/half_adder.gds",
+  "gds_sha256": "e577df2b6b70cf5cd9bace2c2a7144bb082406014a5c3020a7480bbf36a87e17",
+  "drawing_drc_items": 0,
+  "lvs_match": true,
+  "lvs_errors": [],
+  "default_macro_paths": true,
+  "passed": true
+}

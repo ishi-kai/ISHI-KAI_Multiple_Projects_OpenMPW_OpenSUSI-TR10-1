@@ -1,0 +1,312 @@
+{
+  "source_sha256": "d4be4d5cc1d40a85ed7a51e51784707d37ae374dffe99d9c84f052c6bcfa628c",
+  "shapes": [
+    {
+      "layer": [
+        13,
+        0
+      ],
+      "shape": "path (561650,59750;569200,59750;569200,22350;1310150,22350;1310150,22350) w=3400 bx=0 ex=0 r=false"
+    },
+    {
+      "layer": [
+        13,
+        0
+      ],
+      "shape": "path (561650,77750;583350,77750;583350,29750;619200,29750) w=3400 bx=0 ex=0 r=false"
+    },
+    {
+      "layer": [
+        13,
+        0
+      ],
+      "shape": "path (1258500,59850;1297200,59850;1297200,28950) w=3400 bx=0 ex=0 r=false"
+    },
+    {
+      "layer": [
+        13,
+        0
+      ],
+      "shape": "path (1297200,-25150;1297200,-52250;1308600,-52250) w=3400 bx=0 ex=0 r=false"
+    },
+    {
+      "layer": [
+        13,
+        0
+      ],
+      "shape": "path (1260900,-96550;1312000,-96550) w=3400 bx=0 ex=0 r=false"
+    },
+    {
+      "layer": [
+        13,
+        0
+      ],
+      "shape": "path (1260900,15050;1312000,15050) w=3400 bx=0 ex=0 r=false"
+    },
+    {
+      "layer": [
+        13,
+        0
+      ],
+      "shape": "path (1444000,-96550;1468450,-96550) w=3400 bx=0 ex=0 r=false"
+    },
+    {
+      "layer": [
+        13,
+        0
+      ],
+      "shape": "path (1444000,15050;1464400,15050;1464400,-33950;1468450,-33950) w=3400 bx=0 ex=0 r=false"
+    },
+    {
+      "layer": [
+        13,
+        0
+      ],
+      "shape": "path (-77750,35750;-130450,35750) w=3400 bx=0 ex=0 r=false"
+    },
+    {
+      "layer": [
+        13,
+        0
+      ],
+      "shape": "path (-77750,29700;-130350,29700) w=3400 bx=0 ex=0 r=false"
+    },
+    {
+      "layer": [
+        13,
+        0
+      ],
+      "shape": "path (-96050,215050;-125700,215050) w=3400 bx=0 ex=0 r=false"
+    },
+    {
+      "layer": [
+        13,
+        0
+      ],
+      "shape": "path (-96050,103450;-125700,103450) w=3400 bx=0 ex=0 r=false"
+    },
+    {
+      "layer": [
+        13,
+        0
+      ],
+      "shape": "path (-77750,83750;-125700,83750) w=3400 bx=0 ex=0 r=false"
+    },
+    {
+      "layer": [
+        13,
+        0
+      ],
+      "shape": "path (395650,83750;619200,83750) w=3400 bx=0 ex=0 r=false"
+    },
+    {
+      "layer": [
+        13,
+        0
+      ],
+      "shape": "path (563950,215050;600900,215050) w=3400 bx=0 ex=0 r=false"
+    },
+    {
+      "layer": [
+        13,
+        0
+      ],
+      "shape": "path (563950,103450;600900,103450) w=3400 bx=0 ex=0 r=false"
+    },
+    {
+      "layer": [
+        13,
+        0
+      ],
+      "shape": "path (563950,15050;600900,15050) w=3400 bx=0 ex=0 r=false"
+    },
+    {
+      "layer": [
+        13,
+        0
+      ],
+      "shape": "path (563950,-96550;600900,-96550) w=3400 bx=0 ex=0 r=false"
+    },
+    {
+      "layer": [
+        13,
+        0
+      ],
+      "shape": "path (1258600,77750;1344150,77750) w=3400 bx=0 ex=0 r=false"
+    },
+    {
+      "layer": [
+        13,
+        0
+      ],
+      "shape": "path (1555850,-59750;1577600,-59750) w=3400 bx=0 ex=0 r=false"
+    },
+    {
+      "layer": [
+        13,
+        0
+      ],
+      "shape": "path (1267400,-60250;1312000,-60250) w=3400 bx=0 ex=0 r=false"
+    },
+    {
+      "layer": [
+        20,
+        0
+      ],
+      "shape": "path (1308450,20650;1308450,-46250;1312000,-46250) w=3400 bx=0 ex=0 r=false"
+    },
+    {
+      "layer": [
+        20,
+        0
+      ],
+      "shape": "path (1297200,28950;1297200,-25150) w=3400 bx=0 ex=0 r=false"
+    },
+    {
+      "layer": [
+        20,
+        0
+      ],
+      "shape": "path (1444000,-40250;1457950,-40250;1457950,-73250;1468450,-73250) w=3400 bx=0 ex=0 r=false"
+    },
+    {
+      "layer": [
+        20,
+        0
+      ],
+      "shape": "path (1240900,-60250;1267400,-60250) w=3400 bx=0 ex=0 r=false"
+    },
+    {
+      "layer": [
+        48,
+        0
+      ],
+      "shape": "text ('b',r0 -128950,36150) ha=l va=b"
+    },
+    {
+      "layer": [
+        48,
+        0
+      ],
+      "shape": "text ('a',r0 -128950,31050) ha=l va=b"
+    },
+    {
+      "layer": [
+        48,
+        0
+      ],
+      "shape": "text ('sum',r0 1340900,78100) ha=l va=b"
+    },
+    {
+      "layer": [
+        48,
+        0
+      ],
+      "shape": "text ('cout',r0 1576250,-59100) ha=l va=b"
+    },
+    {
+      "layer": [
+        48,
+        0
+      ],
+      "shape": "text ('cin',r0 620900,35750)"
+    },
+    {
+      "layer": [
+        48,
+        0
+      ],
+      "shape": "text ('VDD',r0 -123150,215500) ha=l va=b"
+    },
+    {
+      "layer": [
+        48,
+        0
+      ],
+      "shape": "text ('VSS',r0 -123150,104150) ha=l va=b"
+    },
+    {
+      "layer": [
+        48,
+        0
+      ],
+      "shape": "text ('VMID',r0 -121650,83800) ha=l va=b"
+    },
+    {
+      "layer": [
+        49,
+        0
+      ],
+      "shape": "box (-127700,30500;-127700,30500)"
+    },
+    {
+      "layer": [
+        49,
+        0
+      ],
+      "shape": "box (-127800,30050;-127800,30050)"
+    }
+  ],
+  "instances": [
+    {
+      "name": "half_adder",
+      "transform": "r0 *1 -96.05,-98.25",
+      "properties": {}
+    },
+    {
+      "name": "half_adder",
+      "transform": "r0 *1 600.9,-98.25",
+      "properties": {}
+    },
+    {
+      "name": "inverter",
+      "transform": "r0 *1 1468.45,-98.25",
+      "properties": {}
+    },
+    {
+      "name": "nany",
+      "transform": "r0 *1 1312,-98.25",
+      "properties": {}
+    },
+    {
+      "name": "via_1",
+      "transform": "r0 *1 1308.45,22.35",
+      "properties": {}
+    },
+    {
+      "name": "via_1",
+      "transform": "r0 *1 1297.2,30.65",
+      "properties": {}
+    },
+    {
+      "name": "via_1",
+      "transform": "r0 *1 1297.2,-23.45",
+      "properties": {}
+    },
+    {
+      "name": "via_1",
+      "transform": "r0 *1 1310.3,-52.25",
+      "properties": {}
+    },
+    {
+      "name": "via_1",
+      "transform": "r0 *1 1466.75,-73.25",
+      "properties": {}
+    },
+    {
+      "name": "via_1",
+      "transform": "r0 *1 1554.15,-59.75",
+      "properties": {}
+    },
+    {
+      "name": "via_1",
+      "transform": "r0 *1 1265.7,-60.25",
+      "properties": {}
+    },
+    {
+      "name": "via_1",
+      "transform": "r0 *1 1310.3,-60.25",
+      "properties": {}
+    }
+  ]
+}

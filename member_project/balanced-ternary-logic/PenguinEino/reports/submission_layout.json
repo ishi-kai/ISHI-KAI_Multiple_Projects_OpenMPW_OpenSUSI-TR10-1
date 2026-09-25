@@ -1,0 +1,39 @@
+{
+  "gds_sha256": "5bfc005c573121c83881a7645dd31cfa6390ec41f33c96dcdeabbe0ab04e2b8f",
+  "reference_sha256": "d349d8c5deff1faa163d7a18358ac7b7c8002b9d4002cdfeaae80daeda3b5e7d",
+  "drawing_drc": {
+    "passed": true,
+    "items": 0,
+    "categories": {}
+  },
+  "lvs": {
+    "passed": true,
+    "circuits": [
+      "Match",
+      "Match",
+      "Match",
+      "Match",
+      "Match",
+      "Match",
+      "Match",
+      "Match",
+      "Match"
+    ],
+    "errors": [],
+    "log_entries": [],
+    "strict_ports": true,
+    "extracted": "/home/ishi-kai/balanced-ternary-logic/simulation/submission/lvs/mac.extracted",
+    "report": "/home/ishi-kai/balanced-ternary-logic/simulation/submission/lvs/lvs.lvsdb"
+  },
+  "mask_drc": {
+    "passed": false,
+    "items": 14,
+    "categories": {
+      "WAR06: Floating SG Detected": 14
+    },
+    "gds_sha256": "b90f8c34567ecf20377ba8d0a72fe9dfd4672fc8749856435e8f2297a002d98d"
+  },
+  "extracted_electrically_identical": true,
+  "passed": true,
+  "scope": "Drawing and strict LVS pass; standalone mask input warnings match the source exactly."
+}

@@ -1,0 +1,27 @@
+{
+  "passed": true,
+  "baseline_commit": "fb6db90",
+  "baseline_gds_sha256": "27f22be16cac5fe157506a670efba637a03b19787db8602da430fe1dab6865a6",
+  "new_gds_sha256": "a9ff0fec14150144d8bbeee7ecfe4f348d0035a6e7206696a63669becdeb60bb",
+  "baseline_extracted_sha256": "eebf5368e541fa7747bc294f1dfc229e8af1ac1a635f097449836c894fabe87c",
+  "new_extracted_sha256": "e48a046cf3b58eedce493e841368e2fb8c5877e21d56edb88a2b1cd5277524a0",
+  "parameter_and_pin_exact_isomorphic_cells": [
+    "full_adder",
+    "half_adder",
+    "inverter",
+    "mac",
+    "mul",
+    "mul_inv",
+    "mul_nand",
+    "mul_nor",
+    "nany"
+  ],
+  "changed_area_um2": {
+    "13/0": 865.77,
+    "19/0": 1.96
+  },
+  "changes": "Bridge HA2 VDD to merge NANY; connect NANY VDD to output INV; remove redundant C1 via at FA (1308.45,22.35) and continue M2",
+  "models_reference_rules_identical": true,
+  "transients": "All existing cases inherited by exact electrical equivalence; no new transient run for these VDD connections.",
+  "scope": "No interconnect R/C is extracted; lower resistance and current redistribution are not quantified."
+}

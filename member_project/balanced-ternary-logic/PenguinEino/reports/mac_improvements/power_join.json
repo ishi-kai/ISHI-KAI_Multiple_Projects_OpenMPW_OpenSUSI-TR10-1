@@ -1,0 +1,86 @@
+{
+  "passed": true,
+  "gds_sha256": "e5aaab51a1722560c7929a5e841455afdde426caee79fbc41a3e42aec8c6452c",
+  "m1_overlay_box_um": [
+    520,
+    378.2,
+    870,
+    418.2
+  ],
+  "width_um": 40,
+  "conservative_continuous_capacity_A": 0.01,
+  "currents": [
+    {
+      "rail_V": 5.0,
+      "segment": "left branch",
+      "states": 81,
+      "current_A": 0.0081451324,
+      "state": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "terms": {
+        "v.xdut.vprobe_x_mul_vss#branch": -0.0018402903,
+        "v.xdut.x_fa.vprobe_x_ha1_vss#branch": -0.00315240306,
+        "v.xdut.x_fa.vprobe_x_ha2_vss#branch": -0.00315243904
+      }
+    },
+    {
+      "rail_V": 5.0,
+      "segment": "main landing",
+      "states": 81,
+      "current_A": 0.00904028478,
+      "state": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "terms": {
+        "v.xdut.vprobe_x_mul_vss#branch": -0.0018402903,
+        "v.xdut.vprobe_x_fa_vss#branch": -0.00719999448
+      }
+    },
+    {
+      "rail_V": 5.5,
+      "segment": "left branch",
+      "states": 81,
+      "current_A": 0.009001776409999999,
+      "state": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "terms": {
+        "v.xdut.vprobe_x_mul_vss#branch": -0.00203213157,
+        "v.xdut.x_fa.vprobe_x_ha1_vss#branch": -0.00348480432,
+        "v.xdut.x_fa.vprobe_x_ha2_vss#branch": -0.00348484052
+      }
+    },
+    {
+      "rail_V": 5.5,
+      "segment": "main landing",
+      "states": 81,
+      "current_A": 0.00999165763,
+      "state": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "terms": {
+        "v.xdut.vprobe_x_mul_vss#branch": -0.00203213157,
+        "v.xdut.vprobe_x_fa_vss#branch": -0.00795952606
+      }
+    }
+  ],
+  "source_sha256": "d55ab44e97612a4a19e2673fec91619d82364330ed815354c1f06f77044fa78a",
+  "scope": "Correlated DC currents from all 81 states, -40 C; parent MAC VSS overlay only. No AC/current-crowding/EM signoff.",
+  "requalified_by": "reports/mac_improvements/power_placement_equivalence.json",
+  "historical": true,
+  "superseded_by": "reports/mac_alignment/power_geometry.json",
+  "applicability": "Historical 40 um shared return in the identified old GDS; absent from current aligned layout."
+}

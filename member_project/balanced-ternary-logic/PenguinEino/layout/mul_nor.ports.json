@@ -1,0 +1,432 @@
+{
+  "top_cell": "mul_nor",
+  "dbu_um": 0.001,
+  "placement_grid_um": 0.05,
+  "bbox_um": [
+    0,
+    0,
+    132,
+    126
+  ],
+  "width_um": 132,
+  "height_um": 126,
+  "ports": {
+    "a": {
+      "layer": [
+        20,
+        0
+      ],
+      "label_layer": [
+        49,
+        0
+      ],
+      "position_um": [
+        2,
+        46
+      ]
+    },
+    "b": {
+      "layer": [
+        20,
+        0
+      ],
+      "label_layer": [
+        49,
+        0
+      ],
+      "position_um": [
+        2,
+        52
+      ]
+    },
+    "vout": {
+      "layer": [
+        20,
+        0
+      ],
+      "label_layer": [
+        49,
+        0
+      ],
+      "position_um": [
+        130,
+        59
+      ]
+    },
+    "V+": {
+      "layer": [
+        13,
+        0
+      ],
+      "label_layer": [
+        48,
+        0
+      ],
+      "position_um": [
+        66.0,
+        124.3
+      ]
+    },
+    "V-": {
+      "layer": [
+        13,
+        0
+      ],
+      "label_layer": [
+        48,
+        0
+      ],
+      "position_um": [
+        66.0,
+        1.7
+      ]
+    }
+  },
+  "instances": [
+    {
+      "role": "fet_p_a",
+      "cell": "fet_p",
+      "pcell": "fet_p",
+      "origin_um": [
+        20,
+        96
+      ],
+      "rotation_deg": 0,
+      "parameters": {
+        "cont_between_gates": true,
+        "l": 1.0,
+        "n": 1,
+        "type": "PFET",
+        "w": 37,
+        "y0": "c"
+      }
+    },
+    {
+      "role": "fet_n_a",
+      "cell": "fet_n",
+      "pcell": "fet_n",
+      "origin_um": [
+        20,
+        16
+      ],
+      "rotation_deg": 0,
+      "parameters": {
+        "cont_between_gates": true,
+        "l": 1.0,
+        "n": 1,
+        "type": "NFET",
+        "w": 6.5,
+        "y0": "c"
+      }
+    },
+    {
+      "role": "fet_p_b",
+      "cell": "fet_p",
+      "pcell": "fet_p",
+      "origin_um": [
+        35,
+        96
+      ],
+      "rotation_deg": 0,
+      "parameters": {
+        "cont_between_gates": true,
+        "l": 1.0,
+        "n": 1,
+        "type": "PFET",
+        "w": 37,
+        "y0": "c"
+      }
+    },
+    {
+      "role": "fet_n_b",
+      "cell": "fet_n",
+      "pcell": "fet_n",
+      "origin_um": [
+        35,
+        16
+      ],
+      "rotation_deg": 0,
+      "parameters": {
+        "cont_between_gates": true,
+        "l": 1.0,
+        "n": 1,
+        "type": "NFET",
+        "w": 6.5,
+        "y0": "c"
+      }
+    },
+    {
+      "role": "Rtop",
+      "cell": "res_diff",
+      "pcell": "res_diff",
+      "origin_um": [
+        90,
+        78
+      ],
+      "rotation_deg": 0,
+      "parameters": {
+        "l": 30,
+        "w": 2.8
+      }
+    },
+    {
+      "role": "Rbottom",
+      "cell": "res_diff",
+      "pcell": "res_diff",
+      "origin_um": [
+        90,
+        42
+      ],
+      "rotation_deg": 0,
+      "parameters": {
+        "l": 30,
+        "w": 2.8
+      }
+    },
+    {
+      "role": "PMOS well tap",
+      "cell": "cont_n",
+      "pcell": "cont_n",
+      "origin_um": [
+        12.6,
+        96
+      ],
+      "rotation_deg": 0,
+      "parameters": {
+        "hole": false,
+        "x": 2.6,
+        "x0": "c",
+        "y": 2.6,
+        "y0": "c"
+      }
+    },
+    {
+      "role": "RR well tap",
+      "cell": "cont_n",
+      "pcell": "cont_n",
+      "origin_um": [
+        90,
+        60
+      ],
+      "rotation_deg": 0,
+      "parameters": {
+        "hole": false,
+        "x": 2.6,
+        "x0": "c",
+        "y": 2.6,
+        "y0": "c"
+      }
+    },
+    {
+      "role": "bulk tap",
+      "cell": "cont_p",
+      "pcell": "cont_p",
+      "origin_um": [
+        8,
+        16
+      ],
+      "rotation_deg": 0,
+      "parameters": {
+        "hole": false,
+        "x": 2.6,
+        "x0": "c",
+        "y": 2.6,
+        "y0": "c"
+      }
+    },
+    {
+      "role": "RR GC tie",
+      "cell": "cont_g",
+      "pcell": "cont_g",
+      "origin_um": [
+        112.5,
+        42
+      ],
+      "rotation_deg": 0,
+      "parameters": {
+        "x": 2.6,
+        "x0": "c",
+        "y": 2.6,
+        "y0": "c"
+      }
+    },
+    {
+      "role": "RR GC tie",
+      "cell": "cont_g",
+      "pcell": "cont_g",
+      "origin_um": [
+        112.5,
+        78
+      ],
+      "rotation_deg": 0,
+      "parameters": {
+        "x": 2.6,
+        "x0": "c",
+        "y": 2.6,
+        "y0": "c"
+      }
+    },
+    {
+      "role": "series P drain",
+      "cell": "via_1",
+      "pcell": "via_1",
+      "origin_um": [
+        40,
+        65
+      ],
+      "rotation_deg": 0,
+      "parameters": {
+        "x": 3.4,
+        "x0": "c",
+        "y": 3.4,
+        "y0": "c"
+      }
+    },
+    {
+      "role": "parallel N drain",
+      "cell": "via_1",
+      "pcell": "via_1",
+      "origin_um": [
+        25,
+        30
+      ],
+      "rotation_deg": 0,
+      "parameters": {
+        "x": 3.4,
+        "x0": "c",
+        "y": 3.4,
+        "y0": "c"
+      }
+    },
+    {
+      "role": "parallel N drain",
+      "cell": "via_1",
+      "pcell": "via_1",
+      "origin_um": [
+        40,
+        30
+      ],
+      "rotation_deg": 0,
+      "parameters": {
+        "x": 3.4,
+        "x0": "c",
+        "y": 3.4,
+        "y0": "c"
+      }
+    },
+    {
+      "role": "input gate",
+      "cell": "cont_g",
+      "pcell": "cont_g",
+      "origin_um": [
+        20,
+        46
+      ],
+      "rotation_deg": 0,
+      "parameters": {
+        "x": 2.6,
+        "x0": "c",
+        "y": 2.6,
+        "y0": "c"
+      }
+    },
+    {
+      "role": "input access",
+      "cell": "via_1",
+      "pcell": "via_1",
+      "origin_um": [
+        23.3,
+        46
+      ],
+      "rotation_deg": 0,
+      "parameters": {
+        "x": 3.4,
+        "x0": "c",
+        "y": 3.4,
+        "y0": "c"
+      }
+    },
+    {
+      "role": "input gate",
+      "cell": "cont_g",
+      "pcell": "cont_g",
+      "origin_um": [
+        35,
+        52
+      ],
+      "rotation_deg": 0,
+      "parameters": {
+        "x": 2.6,
+        "x0": "c",
+        "y": 2.6,
+        "y0": "c"
+      }
+    },
+    {
+      "role": "input access",
+      "cell": "via_1",
+      "pcell": "via_1",
+      "origin_um": [
+        38.3,
+        52
+      ],
+      "rotation_deg": 0,
+      "parameters": {
+        "x": 3.4,
+        "x0": "c",
+        "y": 3.4,
+        "y0": "c"
+      }
+    },
+    {
+      "role": "RR input",
+      "cell": "via_1",
+      "pcell": "via_1",
+      "origin_um": [
+        74.5,
+        65
+      ],
+      "rotation_deg": 0,
+      "parameters": {
+        "x": 3.4,
+        "x0": "c",
+        "y": 3.4,
+        "y0": "c"
+      }
+    },
+    {
+      "role": "RR input",
+      "cell": "via_1",
+      "pcell": "via_1",
+      "origin_um": [
+        74.5,
+        30
+      ],
+      "rotation_deg": 0,
+      "parameters": {
+        "x": 3.4,
+        "x0": "c",
+        "y": 3.4,
+        "y0": "c"
+      }
+    },
+    {
+      "role": "output access",
+      "cell": "via_1",
+      "pcell": "via_1",
+      "origin_um": [
+        105.5,
+        59
+      ],
+      "rotation_deg": 0,
+      "parameters": {
+        "x": 3.4,
+        "x0": "c",
+        "y": 3.4,
+        "y0": "c"
+      }
+    }
+  ],
+  "schematic": "/home/ishi-kai/balanced-ternary-logic/mul_nor.sch",
+  "gds_sha256": "704347b70467b0547ded933987a8e6145860cabc08bb68903f4e80ea5d77f9f5"
+}

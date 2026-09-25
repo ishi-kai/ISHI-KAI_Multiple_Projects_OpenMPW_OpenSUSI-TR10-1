@@ -1,0 +1,183 @@
+{
+  "candidate_hot": {
+    "name": "candidate_hot",
+    "simulation_error": "lue :  5.30280e-07\n Reference value :  6.27280e-07\n Reference value :  7.27280e-07\n Reference value :  8.28280e-07\n Reference value :  9.29280e-07\n Reference value :  1.00000e-06\n Reference value :  1.00000e-06\n Reference value :  1.00001e-06\n Reference value :  1.00001e-06\n Reference value :  1.00001e-06\n Reference value :  1.00001e-06\n Reference value :  1.00002e-06\n Reference value :  1.00002e-06\n Reference value :  1.00003e-06\n Reference value :  1.00003e-06\n Reference value :  1.00004e-06\n Reference value :  1.00005e-06\n Reference value :  1.00005e-06\n Reference value :  1.00488e-06\n Reference value :  1.08060e-06\n Reference value :  1.17960e-06\n Reference value :  1.25460e-06\n Reference value :  1.35160e-06\n Reference value :  1.45160e-06\n Reference value :  1.54560e-06\n Reference value :  1.64060e-06\n Reference value :  1.72860e-06\n Reference value :  1.82060e-06\n Reference value :  1.89560e-06\n Reference value :  1.98160e-06\n Reference value :  2.04686e-06\n Reference value :  2.13286e-06\n Reference value :  2.22386e-06\n Reference value :  2.31686e-06\n Reference value :  2.41286e-06\n Reference value :  2.50686e-06\n Reference value :  2.60286e-06\n Reference value :  2.68386e-06\n Reference value :  2.78186e-06\n Reference value :  2.88086e-06\n Reference value :  2.98086e-06\n Reference value :  3.01400e-06\n Reference value :  3.06194e-06\n Reference value :  3.09713e-06\n Reference value :  3.18813e-06\n Reference value :  3.22713e-06\n Reference value :  3.26013e-06\n Reference value :  3.29213e-06\n Reference value :  3.32613e-06\n Reference value :  3.36113e-06\n Reference value :  3.38413e-06\n Reference value :  3.39826e-06\n Reference value :  3.43213e-06\n Reference value :  3.45276e-06\n Reference value :  3.48876e-06\n Reference value :  3.52688e-06\n Reference value :  3.54076e-06\n Reference value :  3.57251e-06\n Reference value :  3.57838e-06\n Reference value :  3.60638e-06\n Reference value :  3.62826e-06\n Reference value :  3.64426e-06\n Reference value :  3.65826e-06\n Reference value :  3.67613e-06\n Reference value :  3.71813e-06\n Reference value :  3.76213e-06\n Reference value :  3.80213e-06\n Reference value :  3.84513e-06\n Reference value :  3.87713e-06\n Reference value :  3.92013e-06\n Reference value :  3.95913e-06\n Reference value :  4.00000e-06\n Reference value :  4.00000e-06\ndoAnalyses: TRAN:  Timestep too small; time = 4e-06, timestep = 1.25e-21: trouble with node \"vcin#branch\"\n\n\ntran simulation(s) aborted\n\nNo. of Data Rows : 4181\nngspice-46+ done\n",
+    "elapsed_s": 24.983593225479126
+  },
+  "candidate_cold": {
+    "name": "candidate_cold",
+    "temperature_C": -40,
+    "rail_V": 5,
+    "load_fF": 10000,
+    "hold_ns": 1000,
+    "edge_ns": 1,
+    "no_nodeset": false,
+    "load_resistance_ohm": 1000000.0,
+    "zero_offset_V": 0,
+    "supply_resistance_ohm": 0,
+    "power_ramp_ns": 0,
+    "samples": 82,
+    "elapsed_s": 255.01137256622314,
+    "max_errors_V": {
+      "sum": 0.05610722555518155,
+      "cout": 0.056332789440068,
+      "and_out": 0.0574102200982009,
+      "or_out": 0.055495459666139446,
+      "product": 0.09190247772523671
+    },
+    "tolerance_fail_samples": 0,
+    "logic_fail_samples": 0,
+    "worst": {
+      "state_trits": [
+        1,
+        -1,
+        0,
+        -1
+      ],
+      "output": "product",
+      "actual_V": -0.09190247772523671,
+      "expected_V": 0.0
+    },
+    "current_mA": {
+      "VDD": 10.349068727755872,
+      "VSS": 10.355175318927616,
+      "VMID": 0.010888636727210011
+    },
+    "power_mW_max": 103.52122023341745,
+    "failure_examples": [],
+    "solver_warnings": [],
+    "max_abs_saved_node_V": 5.10908345
+  },
+  "candidate_nominal": {
+    "name": "candidate_nominal",
+    "temperature_C": 27,
+    "rail_V": 5,
+    "load_fF": 10000,
+    "hold_ns": 1000,
+    "edge_ns": 1,
+    "no_nodeset": false,
+    "load_resistance_ohm": 1000000.0,
+    "zero_offset_V": 0,
+    "supply_resistance_ohm": 0,
+    "power_ramp_ns": 0,
+    "samples": 82,
+    "elapsed_s": 260.80045533180237,
+    "max_errors_V": {
+      "sum": 0.061358765968043016,
+      "cout": 0.05984048312041512,
+      "and_out": 0.05958978452695973,
+      "or_out": 0.0596450441719254,
+      "product": 0.10091089677972466
+    },
+    "tolerance_fail_samples": 0,
+    "logic_fail_samples": 0,
+    "worst": {
+      "state_trits": [
+        1,
+        -1,
+        0,
+        -1
+      ],
+      "output": "product",
+      "actual_V": -0.10091089677972466,
+      "expected_V": 0.0
+    },
+    "current_mA": {
+      "VDD": 9.607396647969031,
+      "VSS": 9.604577322248067,
+      "VMID": 0.011695979827567048
+    },
+    "power_mW_max": 96.0598698510855,
+    "failure_examples": [],
+    "solver_warnings": [],
+    "max_abs_saved_node_V": 5.11325058
+  },
+  "candidate_low": {
+    "name": "candidate_low",
+    "temperature_C": 27,
+    "rail_V": 4,
+    "load_fF": 10000,
+    "hold_ns": 1000,
+    "edge_ns": 1,
+    "no_nodeset": false,
+    "load_resistance_ohm": 1000000.0,
+    "zero_offset_V": 0,
+    "supply_resistance_ohm": 0,
+    "power_ramp_ns": 0,
+    "samples": 82,
+    "elapsed_s": 248.09030556678772,
+    "max_errors_V": {
+      "sum": 0.04982167187447217,
+      "cout": 0.04814172175051157,
+      "and_out": 0.04796537293193737,
+      "or_out": 0.048006727734356325,
+      "product": 0.08587086752835212
+    },
+    "tolerance_fail_samples": 0,
+    "logic_fail_samples": 0,
+    "worst": {
+      "state_trits": [
+        1,
+        -1,
+        0,
+        -1
+      ],
+      "output": "product",
+      "actual_V": -0.08587086752835212,
+      "expected_V": 0.0
+    },
+    "current_mA": {
+      "VDD": 7.510275307357027,
+      "VSS": 7.5168543865109125,
+      "VMID": 0.015147904061876046
+    },
+    "power_mW_max": 60.10851877547176,
+    "failure_examples": [],
+    "solver_warnings": [],
+    "max_abs_saved_node_V": 4.11236905
+  },
+  "candidate_high": {
+    "name": "candidate_high",
+    "temperature_C": 27,
+    "rail_V": 6,
+    "load_fF": 10000,
+    "hold_ns": 1000,
+    "edge_ns": 1,
+    "no_nodeset": false,
+    "load_resistance_ohm": 1000000.0,
+    "zero_offset_V": 0,
+    "supply_resistance_ohm": 0,
+    "power_ramp_ns": 0,
+    "samples": 82,
+    "elapsed_s": 220.9482238292694,
+    "max_errors_V": {
+      "sum": 0.07340747207824005,
+      "cout": 0.07163398187713277,
+      "and_out": 0.07130911505850879,
+      "or_out": 0.07138079147102339,
+      "product": 0.12123324850781739
+    },
+    "tolerance_fail_samples": 0,
+    "logic_fail_samples": 0,
+    "worst": {
+      "state_trits": [
+        1,
+        -1,
+        0,
+        -1
+      ],
+      "output": "product",
+      "actual_V": -0.12123324850781739,
+      "expected_V": 0.0
+    },
+    "current_mA": {
+      "VDD": 11.678474107970287,
+      "VSS": 11.677260765621716,
+      "VMID": 0.00885609851778336
+    },
+    "power_mW_max": 140.13440924155202,
+    "failure_examples": [],
+    "solver_warnings": [],
+    "max_abs_saved_node_V": 6.11067069
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "changes": [
+    {
+      "port": "a",
+      "old_layer": "49/0",
+      "new_layer": "48/0",
+      "position_um": [
+        -128.45,
+        29.5
+      ]
+    },
+    {
+      "port": "sum",
+      "old_layer": "13/0",
+      "new_layer": "48/0",
+      "position_um": [
+        1340.9,
+        78.10000000000001
+      ]
+    },
+    {
+      "port": "cout",
+      "old_layer": "13/0",
+      "new_layer": "48/0",
+      "position_um": [
+        1576.25,
+        -59.1
+      ]
+    },
+    {
+      "port": "cin",
+      "new_layer": "48/0",
+      "position_um": [
+        620.9,
+        35.75
+      ]
+    }
+  ],
+  "source_sha256": "cfcbb966e5249aaca58d97a64db6c42ca461d0ddbd39f504f18708515813c43d",
+  "result_sha256": "1bf31dfe2323cff80d45e4f4686e0a4f59642abb613944dfadea76e01ba6ef81",
+  "all_cell_geometry_xor_empty": true
+}

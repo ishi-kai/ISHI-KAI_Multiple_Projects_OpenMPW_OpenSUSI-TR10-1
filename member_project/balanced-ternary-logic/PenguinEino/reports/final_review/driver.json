@@ -1,0 +1,36 @@
+{
+  "source_sha256": "a9ff0fec14150144d8bbeee7ecfe4f348d0035a6e7206696a63669becdeb60bb",
+  "scope": "Separate fixture tying the four external inputs to VDD. Functional MAC unchanged. No waivers.",
+  "drawing_drc": {
+    "passed": true,
+    "items": 0,
+    "categories": {}
+  },
+  "lvs": {
+    "passed": true,
+    "circuits": [
+      "Match",
+      "Match",
+      "Match",
+      "Match",
+      "Match",
+      "Match",
+      "Match",
+      "Match",
+      "Match",
+      "Match"
+    ],
+    "errors": [],
+    "log_entries": [],
+    "strict_ports": true,
+    "extracted": "/home/ishi-kai/balanced-ternary-logic/simulation/arithmetic_layout/mac_driver/lvs/mac_driver_check.extracted",
+    "report": "/home/ishi-kai/balanced-ternary-logic/simulation/arithmetic_layout/mac_driver/lvs/lvs.lvsdb"
+  },
+  "mask_drc": {
+    "passed": true,
+    "items": 0,
+    "categories": {},
+    "gds_sha256": "10db533853cc4d21a419a07c027c86c2c8cf08f8bef57ee84b0beab1e524d9d1"
+  },
+  "passed": true
+}

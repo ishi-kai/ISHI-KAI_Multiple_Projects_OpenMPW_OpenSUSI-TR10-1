@@ -1,0 +1,43 @@
+{
+  "units": "um",
+  "order": [
+    "NAND Wp",
+    "NAND Wn",
+    "NAND RR L",
+    "NOR Wp",
+    "NOR Wn",
+    "NOR RR L",
+    "INV Wp",
+    "INV Wn",
+    "INV RR L"
+  ],
+  "mos_L": 1,
+  "rr_W": 2.8,
+  "baseline": [
+    24,
+    16,
+    15,
+    46,
+    6.5,
+    17,
+    13.5,
+    5,
+    20
+  ],
+  "selected": [
+    19,
+    13,
+    30,
+    37,
+    6.5,
+    30,
+    13.5,
+    5,
+    30
+  ],
+  "selection": "MOS widths retained from the original search; RR lengths increased to 30 um to reduce static current and improve zero-level restoration. Qualification: reports/mac_improvements. Not a global optimum.",
+  "existing_primitives_unchanged": [
+    "nand.sch",
+    "nor.sch"
+  ]
+}

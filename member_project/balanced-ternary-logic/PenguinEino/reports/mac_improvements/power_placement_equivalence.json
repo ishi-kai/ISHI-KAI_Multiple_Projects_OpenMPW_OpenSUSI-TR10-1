@@ -1,0 +1,58 @@
+{
+  "passed": true,
+  "baseline_commit": "40b9cc7",
+  "baseline_report_sha256": "f02fe42ade97564d199a426ccc1af34ef9680a85c0dc9cd29df5fa900ace131b",
+  "baseline_gds_sha256": "c826b7af8ef71a58b0b60417c1d4ad46129ed50c9d4e1dc67afdb9242a999226",
+  "saved_user_gds_sha256": "20abcf0cc595e20eb7fdc72963101161cee0dfe35507dd453c7c0a8e897d18d8",
+  "saved_user_geometry_equals_qualified_submission": true,
+  "new_gds_sha256": "e5aaab51a1722560c7929a5e841455afdde426caee79fbc41a3e42aec8c6452c",
+  "extracted_spice_byte_identical": true,
+  "extracted_sha256": "501c92703ea991e3596949643a82ac317202e3919b216cd5cf24185d6c0254dd",
+  "models_reference_rules_identical": true,
+  "child_geometry_labels_and_placement_unchanged": true,
+  "changed_geometry_layers": [
+    [
+      13,
+      0
+    ],
+    [
+      19,
+      0
+    ],
+    [
+      20,
+      0
+    ]
+  ],
+  "main_rail_width_um": 44,
+  "main_spine_width_um": 14,
+  "main_junction_cuts": 24,
+  "old_rail_centers_um": {
+    "VDD": 900,
+    "VSS": 960
+  },
+  "new_rail_centers_um": {
+    "VDD": 744.3,
+    "VSS": 804.3
+  },
+  "rerun": "Fresh Drawing DRC, strict LVS, mask DRC and driven-input fixture. No new transient run: exact same extracted SPICE.",
+  "reused_cases": [
+    {
+      "transitions": 81,
+      "load_fF": 10000,
+      "passed": true
+    },
+    {
+      "transitions": 6480,
+      "load_fF": 10000,
+      "passed": true
+    },
+    {
+      "transitions": 648,
+      "load_fF": 10000,
+      "passed": true
+    }
+  ],
+  "limitation": "No interconnect RC extraction; no timing improvement is claimed.",
+  "backup": "layout/backups/mac_power_lower_oSKpjb"
+}

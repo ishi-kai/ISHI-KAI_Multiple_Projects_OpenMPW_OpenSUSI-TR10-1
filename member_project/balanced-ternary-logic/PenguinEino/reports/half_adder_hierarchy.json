@@ -1,0 +1,12 @@
+{
+  "gds_sha256": "e577df2b6b70cf5cd9bace2c2a7144bb082406014a5c3020a7480bbf36a87e17",
+  "standalone_without_libraries": true,
+  "counts": {
+    "inverter": 2,
+    "nany": 5
+  },
+  "primitive_geometry_unchanged": true,
+  "dbu_um": 0.001,
+  "placement_grid_um": 0.05,
+  "all_instance_magnifications_one": true
+}

@@ -1,0 +1,44 @@
+{
+  "passed": true,
+  "baseline_commit": "a15d63a",
+  "gds_sha256": "2f49b2a272a53948975812ee1e56e9bba871c229cf169a93b8595d7f7860a6dd",
+  "extracted_sha256": "e48a046cf3b58eedce493e841368e2fb8c5877e21d56edb88a2b1cd5277524a0",
+  "cells": [
+    "full_adder",
+    "half_adder",
+    "inverter",
+    "mac",
+    "mul",
+    "mul_inv",
+    "mul_nand",
+    "mul_nor",
+    "nany"
+  ],
+  "dbu_um": 0.001,
+  "grid_um": 0.05,
+  "bbox_um": [
+    6.3,
+    12.35,
+    1790.0,
+    791.7
+  ],
+  "changes": "Right-edge VDD/AND/OR access; isolated M2 EINOSUKE / OKAZAKI and penguin",
+  "comparison": "Exact named formal ports, device terminal roles, models and parameters; all 9 electrical cells isomorphic.",
+  "scope": "Device extraction, no wire RC; exhaustive results inherited only by proved electrical equivalence.",
+  "fresh_native": {
+    "mode": "all_81_inputs",
+    "load_fF": 10000,
+    "hold_ns": 1000,
+    "max_step_ns": 10,
+    "load_resistance_ohm": 1000000.0,
+    "samples": 82,
+    "transitions": 81,
+    "max_output_error_V": 0.06128647900336048,
+    "max_product_error_V": 0.10090926024511429,
+    "max_sum_cout_error_V": 0.06128647900336048,
+    "max_and_or_error_V": 0.05962498785514825,
+    "max_settle_ns": 414.2685999999994,
+    "unsettled": 0,
+    "passed": true
+  }
+}

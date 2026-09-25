@@ -1,0 +1,33 @@
+{
+  "cell": "nany",
+  "ports": [
+    "a",
+    "b",
+    "vout",
+    "VDD",
+    "VSS",
+    "VMID"
+  ],
+  "devices": [
+    "XR1 vout net3 VDD F_RR w=2.8e-06 l=16e-06 R=1 tc1=0 tc2=0",
+    "XR2 net2 vout VDD F_RR w=2.8e-06 l=16e-06 R=1 tc1=0 tc2=0",
+    "XXM1 net4 b VSS VSS NMOS w=11u l=1u nrd=0 nrs=0",
+    "XXM2 net3 a net4 VSS NMOS w=11u l=1u nrd=0 nrs=0",
+    "XXM3 net2 b net1 VDD PMOS w=34u l=1u nrd=0 nrs=0",
+    "XXM5 net1 a VDD VDD PMOS w=34u l=1u nrd=0 nrs=0",
+    "XXM6 net5 a vout VDD PMOS w=14u l=1u nrd=0 nrs=0",
+    "XXM7 net5 b VMID VSS NMOS w=8u l=1u nrd=0 nrs=0",
+    "XXM8 net6 b vout VDD PMOS w=14u l=1u nrd=0 nrs=0",
+    "XXM9 net6 a VMID VSS NMOS w=8u l=1u nrd=0 nrs=0"
+  ],
+  "device_sha256": "a6b90bc4eec2429dc8f9ad64c92411efb10d17e315eb0554ba463bfac186cfdf",
+  "matches_legacy_nsign": true,
+  "version": 1,
+  "status": "schematic_baseline",
+  "mos_count": 8,
+  "resistor_count": 2,
+  "explicit_capacitor_count": 0,
+  "layout_drc_lvs": "Drawing DRC 0; strict LVS Match; standalone mask WAR06 x6 retained; driven fixture Drawing/mask 0 and LVS Match",
+  "layout": "nany.gds",
+  "layout_documentation": "layout/NANY_LAYOUT.md"
+}

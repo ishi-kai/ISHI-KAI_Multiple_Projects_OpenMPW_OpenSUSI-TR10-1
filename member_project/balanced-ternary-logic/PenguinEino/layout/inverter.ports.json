@@ -1,0 +1,328 @@
+{
+  "top_cell": "inverter",
+  "gds": "../inverter.gds",
+  "gds_sha256": "66242f8be89020ec65350f12ffcc2a7301bc632955dfde345016224138e7e3a4",
+  "generator": "build_inverter.py",
+  "pdk": "/home/ishi-kai/pdk/TR-1um",
+  "database_unit_um": 0.001,
+  "placement_grid_um": 0.05,
+  "static_pcell_variants": [],
+  "bbox_um": [
+    0,
+    0,
+    96,
+    66
+  ],
+  "width_um": 96,
+  "height_um": 66,
+  "area_um2": 6336,
+  "ports": {
+    "vin": {
+      "layer": [
+        13,
+        0
+      ],
+      "label_layer": [
+        48,
+        0
+      ],
+      "position_um": [
+        2,
+        25
+      ],
+      "access_box_um": [
+        0,
+        23.7,
+        4,
+        26.3
+      ],
+      "edge": "left",
+      "direction": "input"
+    },
+    "vout": {
+      "layer": [
+        20,
+        0
+      ],
+      "label_layer": [
+        49,
+        0
+      ],
+      "position_um": [
+        94,
+        38.5
+      ],
+      "access_box_um": [
+        92,
+        36.8,
+        96,
+        40.2
+      ],
+      "edge": "right",
+      "direction": "output"
+    },
+    "VDD": {
+      "layer": [
+        13,
+        0
+      ],
+      "label_layer": [
+        48,
+        0
+      ],
+      "position_um": [
+        48,
+        64.3
+      ],
+      "access_box_um": [
+        0,
+        62.6,
+        96,
+        66
+      ],
+      "edge": "top",
+      "direction": "power",
+      "voltage_V": 5
+    },
+    "VSS": {
+      "layer": [
+        13,
+        0
+      ],
+      "label_layer": [
+        48,
+        0
+      ],
+      "position_um": [
+        48,
+        1.7
+      ],
+      "access_box_um": [
+        0,
+        0,
+        96,
+        3.4
+      ],
+      "edge": "bottom",
+      "direction": "power",
+      "voltage_V": -5
+    }
+  },
+  "source_schematic": "../inverter.sch",
+  "supply_contract": {
+    "VDD": "former V+; +5 V; PMOS body and RR SUB",
+    "VSS": "former V-; -5 V; NMOS body and global bulk",
+    "VMID": "not used by INV"
+  },
+  "instances": [
+    {
+      "role": "XM1",
+      "cell": "fet_p",
+      "pcell": "fet_p",
+      "origin_um": [
+        13.2,
+        44
+      ],
+      "rotation_deg": 0,
+      "parameters": {
+        "cont_between_gates": true,
+        "l": 1.0,
+        "n": 1,
+        "type": "PFET",
+        "w": 13.5,
+        "y0": "c"
+      }
+    },
+    {
+      "role": "XM2",
+      "cell": "fet_n",
+      "pcell": "fet_n",
+      "origin_um": [
+        13.2,
+        14
+      ],
+      "rotation_deg": 0,
+      "parameters": {
+        "cont_between_gates": true,
+        "l": 1.0,
+        "n": 1,
+        "type": "NFET",
+        "w": 5.0,
+        "y0": "c"
+      }
+    },
+    {
+      "role": "R1",
+      "cell": "res_diff",
+      "pcell": "res_diff",
+      "origin_um": [
+        64,
+        45
+      ],
+      "rotation_deg": 0,
+      "parameters": {
+        "l": 30.0,
+        "w": 2.8
+      }
+    },
+    {
+      "role": "R2",
+      "cell": "res_diff",
+      "pcell": "res_diff",
+      "origin_um": [
+        64,
+        32
+      ],
+      "rotation_deg": 0,
+      "parameters": {
+        "l": 30.0,
+        "w": 2.8
+      }
+    },
+    {
+      "role": "PMOS well tap",
+      "cell": "cont_n",
+      "pcell": "cont_n",
+      "origin_um": [
+        13.2,
+        55
+      ],
+      "rotation_deg": 0,
+      "parameters": {
+        "hole": false,
+        "x": 2.6,
+        "x0": "c",
+        "y": 2.6,
+        "y0": "c"
+      }
+    },
+    {
+      "role": "RR well tap",
+      "cell": "cont_n",
+      "pcell": "cont_n",
+      "origin_um": [
+        64,
+        54
+      ],
+      "rotation_deg": 0,
+      "parameters": {
+        "hole": false,
+        "x": 2.6,
+        "x0": "c",
+        "y": 2.6,
+        "y0": "c"
+      }
+    },
+    {
+      "role": "NMOS bulk tap",
+      "cell": "cont_p",
+      "pcell": "cont_p",
+      "origin_um": [
+        5.8,
+        14
+      ],
+      "rotation_deg": 0,
+      "parameters": {
+        "hole": false,
+        "x": 2.6,
+        "x0": "c",
+        "y": 2.6,
+        "y0": "c"
+      }
+    },
+    {
+      "role": "RR GC tie at y=32",
+      "cell": "cont_g",
+      "pcell": "cont_g",
+      "origin_um": [
+        86.5,
+        32
+      ],
+      "rotation_deg": 0,
+      "parameters": {
+        "x": 2.6,
+        "x0": "c",
+        "y": 2.6,
+        "y0": "c"
+      }
+    },
+    {
+      "role": "RR GC tie at y=45",
+      "cell": "cont_g",
+      "pcell": "cont_g",
+      "origin_um": [
+        86.5,
+        45
+      ],
+      "rotation_deg": 0,
+      "parameters": {
+        "x": 2.6,
+        "x0": "c",
+        "y": 2.6,
+        "y0": "c"
+      }
+    },
+    {
+      "role": "vin gate contact",
+      "cell": "cont_g",
+      "pcell": "cont_g",
+      "origin_um": [
+        13.2,
+        25
+      ],
+      "rotation_deg": 0,
+      "parameters": {
+        "x": 2.6,
+        "x0": "c",
+        "y": 2.6,
+        "y0": "c"
+      }
+    },
+    {
+      "role": "vout M1-M2 access",
+      "cell": "via_1",
+      "pcell": "via_1",
+      "origin_um": [
+        79.5,
+        38.5
+      ],
+      "rotation_deg": 0,
+      "parameters": {
+        "x": 3.4,
+        "x0": "c",
+        "y": 3.4,
+        "y0": "c"
+      }
+    }
+  ],
+  "device_counts": {
+    "PMOS": 1,
+    "NMOS": 1,
+    "F_RR": 2
+  },
+  "reuse": {
+    "minimum_gap_um": 12,
+    "gap_status": "12 um R0/MX/MY/R180 geometry checked; see qualification reports",
+    "zero_gap_abutment": false,
+    "share_wells": false,
+    "common_bulk_net": "VSS",
+    "orientations": [
+      "R0",
+      "MX",
+      "MY",
+      "R180"
+    ],
+    "orientation_note": "Transform all port coordinates with the instance; MX/R180 exchange top and bottom supply positions."
+  },
+  "qualification_reports": [
+    "../reports/inverter_layout.json",
+    "../reports/inverter_placement.json",
+    "../reports/inverter_driver.json"
+  ],
+  "standalone_mask_warning": {
+    "category": "WAR06: Floating SG Detected",
+    "net": "vin",
+    "explanation": "An unconnected external MOS-gate input has no active discharge path. The official warning is retained, without waiver or extra devices.",
+    "integration_evidence": "The unchanged 2-INV driven fixture has zero drawing/mask markers and strict LVS match."
+  }
+}

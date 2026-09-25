@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "max_settled_difference_V": {
+    "v(sum)": 0.0001911875807145691,
+    "v(cout)": 0.00010671433306264078,
+    "v(and_out)": 0.00010692366512543572,
+    "v(or_out)": 0.00010969104419977782,
+    "v(xdut.p)": 6.253905251440983e-07
+  },
+  "samples": 82,
+  "wave_sha256": {
+    "simulation/mac/schematic/tb_sequence/mac_tran.txt": "9b012f7b8af3e07f62ddbcbcf53f2dffe30f3b3f0175061245999765569cae7d",
+    "simulation/mac_improvements/tolerances/simulations/convergence_tolerance_check/data.txt": "823c8e9de2da2883d7c5b2fd7f810a5e44e33fcc78c73db71bf58fb282ed8275"
+  },
+  "scope": "27 C, +/-5 V, 10 pF || 1 Mohm, 1 us. Tight reltol=1e-4/default abstol vs reltol=1e-3/abstol=1nA/vntol=10uV/trtol=10. Does not bound every transition timing error."
+}

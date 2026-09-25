@@ -1,0 +1,316 @@
+{
+  "half_adder": {
+    "gds": "/home/ishi-kai/balanced-ternary-logic/half_adder.gds",
+    "sha256": "e577df2b6b70cf5cd9bace2c2a7144bb082406014a5c3020a7480bbf36a87e17",
+    "reference_sha256": "80e5b83c6b8c14af21343690bcc4738b760e435d5a706c3aabe09e92275c28f5",
+    "drawing": {
+      "passed": true,
+      "items": 0,
+      "categories": {}
+    },
+    "lvs": {
+      "passed": true,
+      "circuits": [
+        "Match",
+        "Match",
+        "Match"
+      ],
+      "errors": [],
+      "log_entries": [],
+      "strict_ports": true,
+      "extracted": "/home/ishi-kai/balanced-ternary-logic/simulation/review_mac/root/half_adder/lvs/half_adder.extracted",
+      "report": "/home/ishi-kai/balanced-ternary-logic/simulation/review_mac/root/half_adder/lvs/lvs.lvsdb"
+    },
+    "mask": {
+      "passed": false,
+      "items": 10,
+      "categories": {
+        "WAR06: Floating SG Detected": 10
+      },
+      "gds_sha256": "c860570554f52b668de12fdfdf2a4ee213d485c9486bdcd6d9226d5a0e1add8a"
+    }
+  },
+  "nany": {
+    "gds": "/home/ishi-kai/balanced-ternary-logic/nany.gds",
+    "sha256": "f89b57b00aedc6a17d24d7f255416e1e68c5dde5f4f916bca5dc71d67e587640",
+    "reference_sha256": "323aaa168ccded6aa74b18643e6e82b21effa13f57696ab044c212f82f4da5d3",
+    "drawing": {
+      "passed": true,
+      "items": 0,
+      "categories": {}
+    },
+    "lvs": {
+      "passed": true,
+      "circuits": [
+        "Match"
+      ],
+      "errors": [],
+      "log_entries": [],
+      "strict_ports": true,
+      "extracted": "/home/ishi-kai/balanced-ternary-logic/simulation/review_mac/root/nany/lvs/nany.extracted",
+      "report": "/home/ishi-kai/balanced-ternary-logic/simulation/review_mac/root/nany/lvs/lvs.lvsdb"
+    },
+    "mask": {
+      "passed": false,
+      "items": 6,
+      "categories": {
+        "WAR06: Floating SG Detected": 6
+      },
+      "gds_sha256": "78ae00596e0e21e97ef2fa8adc68c676c39f6522ce9a609638cb4cfcf3524481"
+    }
+  },
+  "inverter": {
+    "gds": "/home/ishi-kai/balanced-ternary-logic/inverter.gds",
+    "sha256": "13623ddea48f53fce0fe340afd720e66905fae5bfc0bdaccd4e3f85c39579de4",
+    "reference_sha256": "cde29e0158afa56d644ada61edddf47491c013dc176327edbfd536c6ec5ad956",
+    "drawing": {
+      "passed": true,
+      "items": 0,
+      "categories": {}
+    },
+    "lvs": {
+      "passed": true,
+      "circuits": [
+        "Match"
+      ],
+      "errors": [],
+      "log_entries": [],
+      "strict_ports": true,
+      "extracted": "/home/ishi-kai/balanced-ternary-logic/simulation/review_mac/root/inverter/lvs/inverter.extracted",
+      "report": "/home/ishi-kai/balanced-ternary-logic/simulation/review_mac/root/inverter/lvs/lvs.lvsdb"
+    },
+    "mask": {
+      "passed": false,
+      "items": 1,
+      "categories": {
+        "WAR06: Floating SG Detected": 1
+      },
+      "gds_sha256": "492807cdf3bc2899862fbdb8896546ed4fb948ee6d64cfaa53d23c9756b2699e"
+    }
+  },
+  "mul_nand": {
+    "gds": "/home/ishi-kai/balanced-ternary-logic/mul_nand.gds",
+    "sha256": "33e48870d367b4c41b9dd46620da3dabddefb023ba4123364cdb34e7230acbeb",
+    "reference_sha256": "0a0bc8d52bc3179d38e09cdf89067bc26b63bc580b42b283bfeb63c645f260af",
+    "drawing": {
+      "passed": true,
+      "items": 0,
+      "categories": {}
+    },
+    "lvs": {
+      "passed": true,
+      "circuits": [
+        "Match"
+      ],
+      "errors": [],
+      "log_entries": [],
+      "strict_ports": true,
+      "extracted": "/home/ishi-kai/balanced-ternary-logic/simulation/review_mac/root/mul_nand/lvs/mul_nand.extracted",
+      "report": "/home/ishi-kai/balanced-ternary-logic/simulation/review_mac/root/mul_nand/lvs/lvs.lvsdb"
+    },
+    "mask": {
+      "passed": false,
+      "items": 2,
+      "categories": {
+        "WAR06: Floating SG Detected": 2
+      },
+      "gds_sha256": "9502cf55f1834df00530a543c43df96af6842b680f152b5a2a445bb4860ba038"
+    }
+  },
+  "mul_nor": {
+    "gds": "/home/ishi-kai/balanced-ternary-logic/mul_nor.gds",
+    "sha256": "406dcd11bb7c1d648497526c212237c167a7c218b39639349b66f0833e801fcb",
+    "reference_sha256": "b1473c886a080a87a4880d2445d1c23977e3c4ef84a107eea831eb33dc09f515",
+    "drawing": {
+      "passed": true,
+      "items": 0,
+      "categories": {}
+    },
+    "lvs": {
+      "passed": true,
+      "circuits": [
+        "Match"
+      ],
+      "errors": [],
+      "log_entries": [],
+      "strict_ports": true,
+      "extracted": "/home/ishi-kai/balanced-ternary-logic/simulation/review_mac/root/mul_nor/lvs/mul_nor.extracted",
+      "report": "/home/ishi-kai/balanced-ternary-logic/simulation/review_mac/root/mul_nor/lvs/lvs.lvsdb"
+    },
+    "mask": {
+      "passed": false,
+      "items": 2,
+      "categories": {
+        "WAR06: Floating SG Detected": 2
+      },
+      "gds_sha256": "284f4c7989b3270918f75ea9366c1ccedde1c607d47aa03aea19417271fcf0bc"
+    }
+  },
+  "full_adder": {
+    "gds": "/home/ishi-kai/balanced-ternary-logic/full_adder.gds",
+    "sha256": "d4be4d5cc1d40a85ed7a51e51784707d37ae374dffe99d9c84f052c6bcfa628c",
+    "reference_sha256": "ad0abc331645c16f170e28441c71978500fc9333625e72b7004b798a90dd81eb",
+    "drawing": {
+      "passed": true,
+      "items": 0,
+      "categories": {}
+    },
+    "lvs": {
+      "passed": true,
+      "circuits": [
+        "Match",
+        "Match",
+        "Match",
+        "Match"
+      ],
+      "errors": [],
+      "log_entries": [],
+      "strict_ports": true,
+      "extracted": "/home/ishi-kai/balanced-ternary-logic/simulation/review_mac/root/full_adder/lvs/full_adder.extracted",
+      "report": "/home/ishi-kai/balanced-ternary-logic/simulation/review_mac/root/full_adder/lvs/lvs.lvsdb"
+    },
+    "mask": {
+      "passed": false,
+      "items": 16,
+      "categories": {
+        "WAR06: Floating SG Detected": 16
+      },
+      "gds_sha256": "5fd710eab0eb472f8352a9c188155242858e3e10bd8e5d6be8b2db20e99f4ebe"
+    }
+  },
+  "mul_inv": {
+    "gds": "/home/ishi-kai/balanced-ternary-logic/mul_inv.gds",
+    "sha256": "ca48216a540ba03cca26bf62f56fc8e2e7568b23f75ce04494cf24506b984d9e",
+    "reference_sha256": "1564b1e0cb780ba74980aab313934754ed5c6fd2e1badd78895f6043fb4425d4",
+    "drawing": {
+      "passed": true,
+      "items": 0,
+      "categories": {}
+    },
+    "lvs": {
+      "passed": true,
+      "circuits": [
+        "Match"
+      ],
+      "errors": [],
+      "log_entries": [],
+      "strict_ports": true,
+      "extracted": "/home/ishi-kai/balanced-ternary-logic/simulation/review_mac/root/mul_inv/lvs/mul_inv.extracted",
+      "report": "/home/ishi-kai/balanced-ternary-logic/simulation/review_mac/root/mul_inv/lvs/lvs.lvsdb"
+    },
+    "mask": {
+      "passed": false,
+      "items": 1,
+      "categories": {
+        "WAR06: Floating SG Detected": 1
+      },
+      "gds_sha256": "defe4516fc0a8f5eb814cd0a9ab891384460301ba09711a812944bdd3e08fca7"
+    }
+  },
+  "mul": {
+    "gds": "/home/ishi-kai/balanced-ternary-logic/mul.gds",
+    "sha256": "680f3fbd0478c20b3dacda411db0fd3d52b8eb2428e9111cfcef9ae49622ef67",
+    "reference_sha256": "48fffcf3697534aac658f785c4a2274957e321d2aab136ec36586b5d227891a4",
+    "drawing": {
+      "passed": true,
+      "items": 0,
+      "categories": {}
+    },
+    "lvs": {
+      "passed": true,
+      "circuits": [
+        "Match",
+        "Match",
+        "Match",
+        "Match"
+      ],
+      "errors": [],
+      "log_entries": [],
+      "strict_ports": true,
+      "extracted": "/home/ishi-kai/balanced-ternary-logic/simulation/review_mac/root/mul/lvs/mul.extracted",
+      "report": "/home/ishi-kai/balanced-ternary-logic/simulation/review_mac/root/mul/lvs/lvs.lvsdb"
+    },
+    "mask": {
+      "passed": false,
+      "items": 4,
+      "categories": {
+        "WAR06: Floating SG Detected": 4
+      },
+      "gds_sha256": "99c1d4e8ead3f48c2d035ed8d590abab1680f522fa157f007c293d02ed70f7d5"
+    }
+  },
+  "mac": {
+    "gds": "/home/ishi-kai/balanced-ternary-logic/mac.gds",
+    "sha256": "822fed3eeba3e0e83213bbe9f67fcf7930cfa63994fc546cfbc9e1ff516ad870",
+    "reference_sha256": "02d42f9ff4d1eb6e33455382c8d0da83c4ed0d924699a61aadc1f7be58a7e9e0",
+    "drawing": {
+      "passed": true,
+      "items": 0,
+      "categories": {}
+    },
+    "lvs": {
+      "passed": true,
+      "circuits": [
+        "Match",
+        "Match",
+        "Match",
+        "Match",
+        "Match",
+        "Match",
+        "Match",
+        "Match",
+        "Match"
+      ],
+      "errors": [],
+      "log_entries": [],
+      "strict_ports": true,
+      "extracted": "/home/ishi-kai/balanced-ternary-logic/simulation/review_mac/root/mac/lvs/mac.extracted",
+      "report": "/home/ishi-kai/balanced-ternary-logic/simulation/review_mac/root/mac/lvs/lvs.lvsdb"
+    },
+    "mask": {
+      "passed": false,
+      "items": 14,
+      "categories": {
+        "WAR06: Floating SG Detected": 14
+      },
+      "gds_sha256": "6dcf5645dbdc1cc32238c131e3d8b1be03451f56ec89ea3b0c268c863db0c24a"
+    }
+  },
+  "submission/mac": {
+    "gds": "/home/ishi-kai/balanced-ternary-logic/submission/mac.gds",
+    "sha256": "da5d981d506da9e8b37c49d053109457d773966074667dd0516f9b1e2295808e",
+    "reference_sha256": "510e798d386f94d2cab16bf9006318f536b78a36f1526614c1a565962827ba72",
+    "drawing": {
+      "passed": true,
+      "items": 0,
+      "categories": {}
+    },
+    "lvs": {
+      "passed": true,
+      "circuits": [
+        "Match",
+        "Match",
+        "Match",
+        "Match",
+        "Match",
+        "Match",
+        "Match",
+        "Match",
+        "Match"
+      ],
+      "errors": [],
+      "log_entries": [],
+      "strict_ports": true,
+      "extracted": "/home/ishi-kai/balanced-ternary-logic/simulation/review_mac/submission/mac/lvs/mac.extracted",
+      "report": "/home/ishi-kai/balanced-ternary-logic/simulation/review_mac/submission/mac/lvs/lvs.lvsdb"
+    },
+    "mask": {
+      "passed": false,
+      "items": 14,
+      "categories": {
+        "WAR06: Floating SG Detected": 14
+      },
+      "gds_sha256": "2dc73ceb9821f6fdf2999d44709c6a20a570a3433285df35961385baa1c1eb8a"
+    }
+  }
+}
