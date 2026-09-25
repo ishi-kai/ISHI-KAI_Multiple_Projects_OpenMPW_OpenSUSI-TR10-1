@@ -1,0 +1,53 @@
+{
+  "status": "ART_CORE_VERIFIED",
+  "gds_sha256": "95a799066aeade8a5ca04cd1425252759988ee61c429f383c699b1b17e4d29b3",
+  "base_gds_sha256": "4a56593ff8f9d61112e69780ed80f04ef276713d3f8fa88901554c8dbbbee22b",
+  "extracted_sha256": "36dfa47ed7d5c62f3cbab2801a5ab4ce384bf3b70079f45e701369be1f16bf24",
+  "all_original_functional_geometry_preserved": true,
+  "named_ports_preserved": [
+    "b",
+    "clk",
+    "g",
+    "hsync",
+    "r",
+    "vdd",
+    "vss",
+    "vsync"
+  ],
+  "extraction_electrically_identical": true,
+  "electrical_comparison": "exact cell parameters/internal terminals; top nets as named-port/physical-instance pin endpoint sets",
+  "drawing_drc": 0,
+  "strict_lvs": "PASS",
+  "inherited_mask_warnings": 1,
+  "size_um": [
+    1792.8,
+    897.2
+  ],
+  "art_bbox_um": "(40,404.1;148,502)",
+  "art_layer": "M1",
+  "art_clearance_um": 3.0,
+  "signal_opens": 0,
+  "signal_shorts": 0,
+  "missing_signal_pins": 0,
+  "power_component_counts": {
+    "vss": 1,
+    "vdd": 1
+  },
+  "scope": "isolated artwork; no wire RC/PVT/frame integration; functional RTL/gate/STA evidence retained by equivalence",
+  "hashes": {
+    "scripts/verify_letter_silicon_art.py": "498030fbe8e8c9c5b4e253a3ebbccfb68a1287b6caab5f51dc7844d2eefd605f",
+    "scripts/add_letter_silicon_art.py": "f9096f4e48a0641ba05fd2d4f848d021a57c29a2554c7978b885e2409daa8007",
+    "experiments/a_letter_silicon_art/config.py": "22deeca36f104edb752b3c8112ad0d42913f82468f554121d7b6d92bdd20d64f",
+    "experiments/a_letter_silicon_art/build/candidate.gds": "95a799066aeade8a5ca04cd1425252759988ee61c429f383c699b1b17e4d29b3",
+    "experiments/a_letter_silicon_art/build/core.extracted": "36dfa47ed7d5c62f3cbab2801a5ab4ce384bf3b70079f45e701369be1f16bf24",
+    "experiments/a_letter_silicon_art/build/art_geometry.json": "647ca0c1e7c745c4215e51c234b4377ce8ba05fcd885a473327f11d0537712b5",
+    "experiments/a_letter_silicon_art/build/core.lvsdb": "162c66a58f1e00542839129d5a65577aef52f36157e8c4349cde749e6125baef",
+    "experiments/a_letter_silicon_art/build/drawing.lyrdb": "f243be450602b1357f529dc2c89804023575be28527c25892b131b83ab8caa0a",
+    "experiments/a_letter_silicon_art/build/candidate_mdp.lyrdb": "6fa04ef6d400e7c248d941e880a6ca30fd985567b230bbb7d46fd7fc652c5c1c",
+    "experiments/a_letter_silicon_art/build/lvs.log": "da9970b86d46a79fcb0e690e08330af23913fa0ac863ee8d74c75aa9f2ea6b1b",
+    "experiments/a_letter_silicon_art/build/drc.log": "ab062eb8da93950aa7d9681cf54bcb8f1f07a28d72a3c04376c3e5c2dd14a763",
+    "release/ishi_vga_letter_scan_core/ishi_vga.gds": "4a56593ff8f9d61112e69780ed80f04ef276713d3f8fa88901554c8dbbbee22b",
+    "release/ishi_vga_letter_scan_core/ishi_vga.extracted": "40f084b017abe6f8ec83a93c44ba00ddeee5f2cb63bf5f913aabb769a84fe89b",
+    "release/ishi_vga_letter_scan_core/verification/placement.json": "9fa7f0b5ae235006ffb6aa9c0f1f63e1b228d06f1b3fc94c45a7d1dc4e586f62"
+  }
+}

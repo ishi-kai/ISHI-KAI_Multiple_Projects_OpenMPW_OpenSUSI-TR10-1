@@ -1,0 +1,433 @@
+{
+  "status": "PASS",
+  "gds_sha256": "95a799066aeade8a5ca04cd1425252759988ee61c429f383c699b1b17e4d29b3",
+  "cases": 20,
+  "cycles_checked": 922,
+  "stage_phases": [
+    0,
+    16,
+    32,
+    48,
+    64
+  ],
+  "phase_transitions": [
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      7,
+      8
+    ],
+    [
+      15,
+      16
+    ],
+    [
+      31,
+      32
+    ],
+    [
+      47,
+      48
+    ],
+    [
+      63,
+      64
+    ],
+    [
+      79,
+      80
+    ],
+    [
+      95,
+      96
+    ],
+    [
+      111,
+      112
+    ],
+    [
+      127,
+      0
+    ]
+  ],
+  "scope": "selected windows; 5 V/27 C, 1 pF outputs, 3.15 MHz; no wire RC, full-frame analog or PVT sweep",
+  "results": {
+    "stage_0": {
+      "status": "PASS",
+      "cycles_checked": 100,
+      "state_bits": 24,
+      "output_bits": 5,
+      "phase_transitions": [],
+      "rgb_values_seen": [
+        0,
+        1,
+        3,
+        4,
+        7
+      ],
+      "max_low_sample_v": 2.0852402370472987e-08,
+      "min_high_sample_v": 4.999999985987161,
+      "scope": "extracted full-core transistor simulation, selected time window; no wire RC or PVT sweep"
+    },
+    "stage_1": {
+      "status": "PASS",
+      "cycles_checked": 100,
+      "state_bits": 24,
+      "output_bits": 5,
+      "phase_transitions": [],
+      "rgb_values_seen": [
+        0,
+        1,
+        3,
+        4,
+        7
+      ],
+      "max_low_sample_v": 2.0852402381704763e-08,
+      "min_high_sample_v": 4.999999985987161,
+      "scope": "extracted full-core transistor simulation, selected time window; no wire RC or PVT sweep"
+    },
+    "stage_2": {
+      "status": "PASS",
+      "cycles_checked": 100,
+      "state_bits": 24,
+      "output_bits": 5,
+      "phase_transitions": [],
+      "rgb_values_seen": [
+        0,
+        1,
+        3,
+        4,
+        7
+      ],
+      "max_low_sample_v": 2.0852402379811165e-08,
+      "min_high_sample_v": 4.999999985987161,
+      "scope": "extracted full-core transistor simulation, selected time window; no wire RC or PVT sweep"
+    },
+    "stage_3": {
+      "status": "PASS",
+      "cycles_checked": 100,
+      "state_bits": 24,
+      "output_bits": 5,
+      "phase_transitions": [],
+      "rgb_values_seen": [
+        0,
+        1,
+        3,
+        4,
+        7
+      ],
+      "max_low_sample_v": 2.0852402382419553e-08,
+      "min_high_sample_v": 4.999999985987161,
+      "scope": "extracted full-core transistor simulation, selected time window; no wire RC or PVT sweep"
+    },
+    "stage_4": {
+      "status": "PASS",
+      "cycles_checked": 100,
+      "state_bits": 24,
+      "output_bits": 5,
+      "phase_transitions": [],
+      "rgb_values_seen": [
+        0,
+        1,
+        3,
+        4
+      ],
+      "max_low_sample_v": 2.085240236875984e-08,
+      "min_high_sample_v": 4.99999998598716,
+      "scope": "extracted full-core transistor simulation, selected time window; no wire RC or PVT sweep"
+    },
+    "lower": {
+      "status": "PASS",
+      "cycles_checked": 100,
+      "state_bits": 24,
+      "output_bits": 5,
+      "phase_transitions": [],
+      "rgb_values_seen": [
+        0,
+        3,
+        4,
+        7
+      ],
+      "max_low_sample_v": 2.085240545021499e-08,
+      "min_high_sample_v": 4.999999985987161,
+      "scope": "extracted full-core transistor simulation, selected time window; no wire RC or PVT sweep"
+    },
+    "vsync": {
+      "status": "PASS",
+      "cycles_checked": 210,
+      "state_bits": 24,
+      "output_bits": 5,
+      "phase_transitions": [],
+      "rgb_values_seen": [
+        0
+      ],
+      "max_low_sample_v": 2.0852402377303262e-08,
+      "min_high_sample_v": 4.999999985987161,
+      "scope": "extracted full-core transistor simulation, selected time window; no wire RC or PVT sweep"
+    },
+    "phase_000": {
+      "status": "PASS",
+      "cycles_checked": 4,
+      "state_bits": 24,
+      "output_bits": 5,
+      "phase_transitions": [
+        [
+          0,
+          1
+        ]
+      ],
+      "rgb_values_seen": [
+        0
+      ],
+      "max_low_sample_v": 2.0852402350521215e-08,
+      "min_high_sample_v": 4.999999985987163,
+      "scope": "extracted full-core transistor simulation, selected time window; no wire RC or PVT sweep"
+    },
+    "phase_001": {
+      "status": "PASS",
+      "cycles_checked": 4,
+      "state_bits": 24,
+      "output_bits": 5,
+      "phase_transitions": [
+        [
+          1,
+          2
+        ]
+      ],
+      "rgb_values_seen": [
+        0
+      ],
+      "max_low_sample_v": 2.0852402333310316e-08,
+      "min_high_sample_v": 4.999999985987163,
+      "scope": "extracted full-core transistor simulation, selected time window; no wire RC or PVT sweep"
+    },
+    "phase_003": {
+      "status": "PASS",
+      "cycles_checked": 4,
+      "state_bits": 24,
+      "output_bits": 5,
+      "phase_transitions": [
+        [
+          3,
+          4
+        ]
+      ],
+      "rgb_values_seen": [
+        0
+      ],
+      "max_low_sample_v": 2.085240233156229e-08,
+      "min_high_sample_v": 4.999999985987161,
+      "scope": "extracted full-core transistor simulation, selected time window; no wire RC or PVT sweep"
+    },
+    "phase_007": {
+      "status": "PASS",
+      "cycles_checked": 4,
+      "state_bits": 24,
+      "output_bits": 5,
+      "phase_transitions": [
+        [
+          7,
+          8
+        ]
+      ],
+      "rgb_values_seen": [
+        0
+      ],
+      "max_low_sample_v": 2.0852402349656305e-08,
+      "min_high_sample_v": 4.999999985987163,
+      "scope": "extracted full-core transistor simulation, selected time window; no wire RC or PVT sweep"
+    },
+    "phase_015": {
+      "status": "PASS",
+      "cycles_checked": 4,
+      "state_bits": 24,
+      "output_bits": 5,
+      "phase_transitions": [
+        [
+          15,
+          16
+        ]
+      ],
+      "rgb_values_seen": [
+        0
+      ],
+      "max_low_sample_v": 2.085240235251897e-08,
+      "min_high_sample_v": 4.999999985987163,
+      "scope": "extracted full-core transistor simulation, selected time window; no wire RC or PVT sweep"
+    },
+    "phase_031": {
+      "status": "PASS",
+      "cycles_checked": 4,
+      "state_bits": 24,
+      "output_bits": 5,
+      "phase_transitions": [
+        [
+          31,
+          32
+        ]
+      ],
+      "rgb_values_seen": [
+        0
+      ],
+      "max_low_sample_v": 2.08524023681583e-08,
+      "min_high_sample_v": 4.999999985987162,
+      "scope": "extracted full-core transistor simulation, selected time window; no wire RC or PVT sweep"
+    },
+    "phase_047": {
+      "status": "PASS",
+      "cycles_checked": 4,
+      "state_bits": 24,
+      "output_bits": 5,
+      "phase_transitions": [
+        [
+          47,
+          48
+        ]
+      ],
+      "rgb_values_seen": [
+        0
+      ],
+      "max_low_sample_v": 2.0852402352558495e-08,
+      "min_high_sample_v": 4.999999985987163,
+      "scope": "extracted full-core transistor simulation, selected time window; no wire RC or PVT sweep"
+    },
+    "phase_063": {
+      "status": "PASS",
+      "cycles_checked": 4,
+      "state_bits": 24,
+      "output_bits": 5,
+      "phase_transitions": [
+        [
+          63,
+          64
+        ]
+      ],
+      "rgb_values_seen": [
+        0
+      ],
+      "max_low_sample_v": 2.0852402322454888e-08,
+      "min_high_sample_v": 4.999999985987162,
+      "scope": "extracted full-core transistor simulation, selected time window; no wire RC or PVT sweep"
+    },
+    "phase_079": {
+      "status": "PASS",
+      "cycles_checked": 4,
+      "state_bits": 24,
+      "output_bits": 5,
+      "phase_transitions": [
+        [
+          79,
+          80
+        ]
+      ],
+      "rgb_values_seen": [
+        0
+      ],
+      "max_low_sample_v": 2.0852402329477075e-08,
+      "min_high_sample_v": 4.999999985987163,
+      "scope": "extracted full-core transistor simulation, selected time window; no wire RC or PVT sweep"
+    },
+    "phase_095": {
+      "status": "PASS",
+      "cycles_checked": 4,
+      "state_bits": 24,
+      "output_bits": 5,
+      "phase_transitions": [
+        [
+          95,
+          96
+        ]
+      ],
+      "rgb_values_seen": [
+        0
+      ],
+      "max_low_sample_v": 2.0852402349656305e-08,
+      "min_high_sample_v": 4.999999985987163,
+      "scope": "extracted full-core transistor simulation, selected time window; no wire RC or PVT sweep"
+    },
+    "phase_111": {
+      "status": "PASS",
+      "cycles_checked": 4,
+      "state_bits": 24,
+      "output_bits": 5,
+      "phase_transitions": [
+        [
+          111,
+          112
+        ]
+      ],
+      "rgb_values_seen": [
+        0
+      ],
+      "max_low_sample_v": 2.0852402349656305e-08,
+      "min_high_sample_v": 4.999999985987164,
+      "scope": "extracted full-core transistor simulation, selected time window; no wire RC or PVT sweep"
+    },
+    "phase_127": {
+      "status": "PASS",
+      "cycles_checked": 4,
+      "state_bits": 24,
+      "output_bits": 5,
+      "phase_transitions": [
+        [
+          127,
+          0
+        ]
+      ],
+      "rgb_values_seen": [
+        0
+      ],
+      "max_low_sample_v": 2.0852402349656305e-08,
+      "min_high_sample_v": 4.999999985987163,
+      "scope": "extracted full-core transistor simulation, selected time window; no wire RC or PVT sweep"
+    },
+    "powerup": {
+      "status": "PASS",
+      "cycles_checked": 64,
+      "state_bits": 24,
+      "output_bits": 5,
+      "phase_transitions": [],
+      "rgb_values_seen": [
+        0
+      ],
+      "max_low_sample_v": 2.0852402372119232e-08,
+      "min_high_sample_v": 4.999999985987161,
+      "scope": "extracted full-core transistor simulation, selected time window; no wire RC or PVT sweep"
+    }
+  },
+  "hashes": {
+    "experiments/letter_art_spice/config.py": "e3ddef4716150232f03d7fb6308fb1eabac130b1bd60601c086a928ad58bcab6",
+    "scripts/letter_spice_check.py": "df1522f67342a02c8a473aebd7d86720d316f4471980b559b562b294479e180e",
+    "experiments/letter_art_spice/build/extraction_manifest.json": "02ed091d1492e8a0e8a1d86a7e0f1a783d3b343de3a6d6a206a03497fbdffd78",
+    "experiments/letter_art_spice/build/stage_0/verification.json": "0645792e17b053bbbbd22ab4a0e1554e3923fb967965d218c937d3059a951b1e",
+    "experiments/letter_art_spice/build/stage_1/verification.json": "fd4327270096a8c8af2f41b0389bffd4010883a364ae5e5843a924f3e281bcfa",
+    "experiments/letter_art_spice/build/stage_2/verification.json": "8cce6bdd2a72508b00bfc77a04aee8b301a15a6fe22a2593fdc89659eba4171f",
+    "experiments/letter_art_spice/build/stage_3/verification.json": "d9e4bcc48a3a3b8ee4f66a13e2c751879ffc65ffdfb27d8ea28265b5cde97671",
+    "experiments/letter_art_spice/build/stage_4/verification.json": "f75a0a5d773d7da640eef5bb29df64893dd0799c98be4e065243600d7308ebf3",
+    "experiments/letter_art_spice/build/lower/verification.json": "a7940dfa5f8f806cae2e9dd3dcf1904855a22d16c7821c3468bd8d91e1d69d10",
+    "experiments/letter_art_spice/build/vsync/verification.json": "3f480aa1b0ef98afd39b9f2905c63fb78aaaebe304eb1c8fcb3050dd046b0a18",
+    "experiments/letter_art_spice/build/phase_000/verification.json": "40ab69e803b1c94679f13a02b805b944278e85bdfe978de8c9f722b822801452",
+    "experiments/letter_art_spice/build/phase_001/verification.json": "29baf8fcdcd71d452643b5e4cb525dfc27528e15f58940fc43d7e6b53a214097",
+    "experiments/letter_art_spice/build/phase_003/verification.json": "1f6023fac9e89942fe573c626664116906a9d87e0bc7cf687b5d6f3b73d8c3d0",
+    "experiments/letter_art_spice/build/phase_007/verification.json": "5ee29692bcd8e8fa41285f77245d5f8a1c9531c9b0d169da0ed3e61ec68648a9",
+    "experiments/letter_art_spice/build/phase_015/verification.json": "50c9a7b4284daa4b8a09f35ec0463009e6690146975c0bdd54bc029354d87803",
+    "experiments/letter_art_spice/build/phase_031/verification.json": "1937106780122a101a7671804043209f199d75dda3d88c7d33a7ead3739e49d5",
+    "experiments/letter_art_spice/build/phase_047/verification.json": "1d7c44e64adb4355727bf0d1d9771d1a31355b861d4ece1de969db9e3a5d78d2",
+    "experiments/letter_art_spice/build/phase_063/verification.json": "55412b17e178bcf0cf434b517e25dfd64a790e921e3dab75994b96d5663e6838",
+    "experiments/letter_art_spice/build/phase_079/verification.json": "becc32c6ba054fa573f0cb0cb974b2863f3a5f22d89a6b11ad82dd7eba5c1339",
+    "experiments/letter_art_spice/build/phase_095/verification.json": "90efc92153772f1746aff432a70ae105cdbb574af745621ab0aa7df9f3323059",
+    "experiments/letter_art_spice/build/phase_111/verification.json": "7b3ca391ea168307e540a458b99e957f8fd87eefd9a21c6b96a5b402ddeccad3",
+    "experiments/letter_art_spice/build/phase_127/verification.json": "24e8f47c2172b3b599ee89964f2e25cc7c4053e8eec15dbbf6cb6c9e1f89e455",
+    "experiments/letter_art_spice/build/powerup/verification.json": "4f9f740df63a6c83a2e83bdb61aed2aa5de92104c0d8ac4b1332bd0556834d88"
+  }
+}

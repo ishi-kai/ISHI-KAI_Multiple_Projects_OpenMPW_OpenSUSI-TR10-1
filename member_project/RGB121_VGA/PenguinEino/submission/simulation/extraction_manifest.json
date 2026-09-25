@@ -1,0 +1,26 @@
+{
+  "gds_sha256": "95a799066aeade8a5ca04cd1425252759988ee61c429f383c699b1b17e4d29b3",
+  "raw_sha256": "36dfa47ed7d5c62f3cbab2801a5ab4ce384bf3b70079f45e701369be1f16bf24",
+  "simulation_sha256": "b3d4fb66bcaf05d352a6c2dfcaf97a7320f4a0d02b5a937f61f5134b32d52050",
+  "hierarchical_device_count": 1990,
+  "no_combine": true,
+  "connection_and_device_parameter_tokens_preserved": true,
+  "identifier_collisions": 0,
+  "interconnect_rc": false,
+  "hashes": {
+    "experiments/a_letter_silicon_art/build/candidate.gds": "95a799066aeade8a5ca04cd1425252759988ee61c429f383c699b1b17e4d29b3",
+    "experiments/letter_art_spice/build/core.extracted": "36dfa47ed7d5c62f3cbab2801a5ab4ce384bf3b70079f45e701369be1f16bf24",
+    "release/ishi_vga_letter_scan_core/verification/placement.json": "9fa7f0b5ae235006ffb6aa9c0f1f63e1b228d06f1b3fc94c45a7d1dc4e586f62",
+    "experiments/letter_art_spice/config.py": "e3ddef4716150232f03d7fb6308fb1eabac130b1bd60601c086a928ad58bcab6",
+    "scripts/letter_spice_check.py": "df1522f67342a02c8a473aebd7d86720d316f4471980b559b562b294479e180e",
+    "toolchain.lock.json": "31f6f929b6be02cb5809d1c0d4d077f7fb7ca0eeb6c0b92d5885eeef2a4ebc5f",
+    "scripts/power_spice_check.py": "31eabc6902a4ed00edf4907f185bac105b0a81264f4440734c60c0cf614f6977",
+    "tools/APRtools/apr/klayout_extract.py": "46a41a245588b33219784bb2f963b4d62ffe39b3c5077347df1fae16513410a0",
+    "tools/APRtools/apr/gen_chip_sim_ready.py": "b9cb9581303523ceffa3591c29e7e49e4fd697eb1fbf7efaf7d0b4c714cfd95b",
+    "tools/TR-1um/libs.tech/spice/models/ip62_models": "219ca479adc7d6d960f83e18e0081da153a479f34615333d74c946869bc4c6ec",
+    "tools/TR-1um/libs.tech/spice/models/models_IP62_cap_v5p1.lib": "265c1e2b5228381633ec936f208101b64a0538905c41bdf53e760df10f347bed",
+    "tools/TR-1um/libs.tech/spice/models/models_IP62_diode_v2.lib": "37c19bd4f6d631a5862f2b6aeda62e5eb73ed15fe0de9932296a81a144f1550f",
+    "tools/TR-1um/libs.tech/spice/models/models_IP62_mos_v2.lib": "251864d489d0e15a3081871763af29e1bbc8654ae55662bede40e0a7bbac1400",
+    "tools/TR-1um/libs.tech/spice/models/models_IP62_res_v5.lib": "0d6e2e4b7739fd68946c746830ed8896f4ec5ee98e984fdb5c8dd1116ad78311"
+  }
+}
