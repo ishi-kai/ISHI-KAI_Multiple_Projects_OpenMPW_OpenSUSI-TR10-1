@@ -18,7 +18,8 @@ ISHI会版OpenMPW OpenSUSI-TR10-1～2026年OpenSUSI-TR10（OpenSUSI-TR1umシャ�
 # [ISHI-KAI DESIGN CHIP 01](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1_01)
 今年のグループワークの成果です。
 
-- ![フレーム](https://raw.githubusercontent.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1-01/refs/heads/main/images/all_frame.png)
+- ![フレーム](https://raw.githubusercontent.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1-01/main/images/all_frame.png)
+
 
 - [ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1)
     - [JJY Receiver](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/tree/main/member_project/JJY_Receiver/Masahiro)
@@ -28,7 +29,7 @@ ISHI会版OpenMPW OpenSUSI-TR10-1～2026年OpenSUSI-TR10（OpenSUSI-TR1umシャ�
 # [ISHI-KAI DESIGN CHIP 02](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1_02)
 今年のグループワークの成果です。
 
-- ![フレーム](https://raw.githubusercontent.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1-01/refs/heads/main/images/all_frame.png)
+- ![フレーム](https://raw.githubusercontent.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1-01/main/images/all_frame.png)
 
 - [ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1)
     - [AM Receiver](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/tree/main/member_project/AM_Radio/Yamada3)
@@ -53,7 +54,7 @@ ISHI会版OpenMPW OpenSUSI-TR10-1～2026年OpenSUSI-TR10（OpenSUSI-TR1umシャ�
 
 # [ICHIKEN&RISE-A DESIGN CHIP 01](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1_ichiken_01)
 
-- ![フレーム](https://raw.githubusercontent.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1_ichiken_01/refs/heads/main/images/all_frame.png)
+- ![フレーム](https://raw.githubusercontent.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1_ichiken_01/main/images/all_frame.png)
 
 ## [ICHIKEN Presents「1bit-CPUハンズオン supported by RISE-A」](https://ishi-kai.org/openmpw/shuttle/opensusi-tr10/2026/07/15/shuttle_ISHI-Kai_OpenMPW-TR10-1_1bit-CPU.html)
 [約50万登録者のものづくり系YouTuberのICHIKENさん](https://www.youtube.com/@ICHIKEN1)により、公開された[設計・レイアウトした1bit-CPUの動画](https://www.youtube.com/watch?v=5_aIvm-i4ag)に登場した[1bit-CPU](https://github.com/ishi-kai/openmpw-transistor-level-examples/tree/main/OpenSUSI-TR10/1bit-CPU)の設計・レイアウトの体験ができるハンズオンです。  
@@ -78,7 +79,7 @@ ISHI会版OpenMPW OpenSUSI-TR10-1～2026年OpenSUSI-TR10（OpenSUSI-TR1umシャ�
 
 # [ICHIKEN&RISE-A DESIGN CHIP 02](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1_ichiken_02)
 
-- ![フレーム](https://raw.githubusercontent.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1_ichiken_02/refs/heads/main/images/all_frame.png)
+- ![フレーム](https://raw.githubusercontent.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1_ichiken_02/main/images/all_frame.png)
 
 ## [ICHIKEN Presents「1bit-CPUハンズオン supported by RISE-A」](https://ishi-kai.org/openmpw/shuttle/opensusi-tr10/2026/07/15/shuttle_ISHI-Kai_OpenMPW-TR10-1_1bit-CPU.html)
 [約50万登録者のものづくり系YouTuberのICHIKENさん](https://www.youtube.com/@ICHIKEN1)により、公開された[設計・レイアウトした1bit-CPUの動画](https://www.youtube.com/watch?v=5_aIvm-i4ag)に登場した[1bit-CPU](https://github.com/ishi-kai/openmpw-transistor-level-examples/tree/main/OpenSUSI-TR10/1bit-CPU)の設計・レイアウトの体験ができるハンズオンです。  
@@ -102,7 +103,7 @@ ISHI会版OpenMPW OpenSUSI-TR10-1～2026年OpenSUSI-TR10（OpenSUSI-TR1umシャ�
 
 # [ICHIKEN&RISE-A DESIGN CHIP 03](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1_ichiken_03)
 
-- ![フレーム](https://raw.githubusercontent.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1_ichiken_03/refs/heads/main/images/all_frame.png)
+- ![フレーム](https://raw.githubusercontent.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1_ichiken_03/main/images/all_frame.png)
 
 ## [ICHIKEN Presents「1bit-CPUハンズオン supported by RISE-A」](https://ishi-kai.org/openmpw/shuttle/opensusi-tr10/2026/07/15/shuttle_ISHI-Kai_OpenMPW-TR10-1_1bit-CPU.html)
 [約50万登録者のものづくり系YouTuberのICHIKENさん](https://www.youtube.com/@ICHIKEN1)により、公開された[設計・レイアウトした1bit-CPUの動画](https://www.youtube.com/watch?v=5_aIvm-i4ag)に登場した[1bit-CPU](https://github.com/ishi-kai/openmpw-transistor-level-examples/tree/main/OpenSUSI-TR10/1bit-CPU)の設計・レイアウトの体験ができるハンズオンです。  
@@ -126,7 +127,7 @@ ISHI会版OpenMPW OpenSUSI-TR10-1～2026年OpenSUSI-TR10（OpenSUSI-TR1umシャ�
 
 # [ICHIKEN&RISE-A DESIGN CHIP 04](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1_ichiken_04)
 
-- ![フレーム](https://raw.githubusercontent.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1_ichiken_04/refs/heads/main/images/all_frame.png)
+- ![フレーム](https://raw.githubusercontent.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1_ichiken_04/main/images/all_frame.png)
 
 ## [ICHIKEN Presents「1bit-CPUハンズオン supported by RISE-A」](https://ishi-kai.org/openmpw/shuttle/opensusi-tr10/2026/07/15/shuttle_ISHI-Kai_OpenMPW-TR10-1_1bit-CPU.html)
 [約50万登録者のものづくり系YouTuberのICHIKENさん](https://www.youtube.com/@ICHIKEN1)により、公開された[設計・レイアウトした1bit-CPUの動画](https://www.youtube.com/watch?v=5_aIvm-i4ag)に登場した[1bit-CPU](https://github.com/ishi-kai/openmpw-transistor-level-examples/tree/main/OpenSUSI-TR10/1bit-CPU)の設計・レイアウトの体験ができるハンズオンです。  
@@ -151,7 +152,7 @@ ISHI会版OpenMPW OpenSUSI-TR10-1～2026年OpenSUSI-TR10（OpenSUSI-TR1umシャ�
 
 # [ICHIKEN&RISE-A DESIGN CHIP 05](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1_ichiken_05)
 
-- ![フレーム](https://raw.githubusercontent.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1_ichiken_05/refs/heads/main/images/all_frame.png)
+- ![フレーム](https://raw.githubusercontent.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1_ichiken_05/main/images/all_frame.png)
 
 ## [ICHIKEN Presents「1bit-CPUハンズオン supported by RISE-A」](https://ishi-kai.org/openmpw/shuttle/opensusi-tr10/2026/07/15/shuttle_ISHI-Kai_OpenMPW-TR10-1_1bit-CPU.html)
 [約50万登録者のものづくり系YouTuberのICHIKENさん](https://www.youtube.com/@ICHIKEN1)により、公開された[設計・レイアウトした1bit-CPUの動画](https://www.youtube.com/watch?v=5_aIvm-i4ag)に登場した[1bit-CPU](https://github.com/ishi-kai/openmpw-transistor-level-examples/tree/main/OpenSUSI-TR10/1bit-CPU)の設計・レイアウトの体験ができるハンズオンです。  
@@ -173,7 +174,7 @@ ISHI会版OpenMPW OpenSUSI-TR10-1～2026年OpenSUSI-TR10（OpenSUSI-TR1umシャ�
 
 # [ICHIKEN&RISE-A DESIGN CHIP 06](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1_ichiken_06)
 
-- ![フレーム](https://raw.githubusercontent.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1_ichiken_06/refs/heads/main/images/all_frame.png)
+- ![フレーム](https://raw.githubusercontent.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1_ichiken_06/main/images/all_frame.png)
 
 ## [ICHIKEN Presents「1bit-CPUハンズオン supported by RISE-A」](https://ishi-kai.org/openmpw/shuttle/opensusi-tr10/2026/07/15/shuttle_ISHI-Kai_OpenMPW-TR10-1_1bit-CPU.html)
 [約50万登録者のものづくり系YouTuberのICHIKENさん](https://www.youtube.com/@ICHIKEN1)により、公開された[設計・レイアウトした1bit-CPUの動画](https://www.youtube.com/watch?v=5_aIvm-i4ag)に登場した[1bit-CPU](https://github.com/ishi-kai/openmpw-transistor-level-examples/tree/main/OpenSUSI-TR10/1bit-CPU)の設計・レイアウトの体験ができるハンズオンです。  
@@ -196,7 +197,7 @@ ISHI会版OpenMPW OpenSUSI-TR10-1～2026年OpenSUSI-TR10（OpenSUSI-TR1umシャ�
 
 # [KOSEN DESIGN CHIP 04](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1_Kosen04)
 
-- ![フレーム](https://raw.githubusercontent.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1_Kosen04/refs/heads/main/images/all_frame.png)
+- ![フレーム](https://raw.githubusercontent.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1_Kosen04/main/images/all_frame.png)
 
 ## 高専機構への[1bit-CPU](https://github.com/ishi-kai/openmpw-transistor-level-examples/tree/main/OpenSUSI-TR10/1bit-CPU)ハンズオン
 [1bit-CPUハンズオンの高専機構へのレクチャーをしました](https://ishi-kai.org/seminar/shuttle/opensusi-tr10/2026/09/08/Seminar_1bit-CPU_KOSEN.html)でお伝えしたように来年の各高専へのISHI会ハンズオン展開の事前準備として、各高専の講師候補となる先生方へのレクチャーを行いました。  
@@ -221,7 +222,7 @@ RFミキサー関連回路一式です。
 
 # [Kyoto Prefectural Kogyo Senior High School's DESIGN CHIP 01](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1_kyoto-ths_01)
 
-- ![フレーム](https://raw.githubusercontent.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1_kyoto-ths_01/refs/heads/main/images/all_frame.png)
+- ![フレーム](https://raw.githubusercontent.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1_kyoto-ths_01/main/images/all_frame.png)
 
 ## [京都府立工業高等学校](https://www.kyoto-be.ne.jp/kyoto-ths/)でのハンズオンについて
 - [京都府立工業高等学校でオーディオ用OPAMP半導体ハンズオンしました。 Day 1](https://ishi-kai.org/seminar/opensusi-tr10/2026/07/16/Seminar_kyoto-ths_AudioOPAMP_handson_day1.html)
@@ -241,7 +242,7 @@ RFミキサー関連回路一式です。
 
 # [Kyoto Prefectural Kogyo Senior High School's DESIGN CHIP 02](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1_kyoto-ths_02)
 
-- ![フレーム](https://raw.githubusercontent.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1_kyoto-ths_02/refs/heads/main/images/all_frame.png)
+- ![フレーム](https://raw.githubusercontent.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1_kyoto-ths_02/main/images/all_frame.png)
 
 ## [京都府立工業高等学校](https://www.kyoto-be.ne.jp/kyoto-ths/)でのハンズオンについて
 - [京都府立工業高等学校でオーディオ用OPAMP半導体ハンズオンしました。 Day 1](https://ishi-kai.org/seminar/opensusi-tr10/2026/07/16/Seminar_kyoto-ths_AudioOPAMP_handson_day1.html)
@@ -260,7 +261,7 @@ RFミキサー関連回路一式です。
 
 # [Qdai DESIGN CHIP 04](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1_Qdai_04)
 
-- ![フレーム](https://raw.githubusercontent.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1_Qdai_04/refs/heads/main/images/all_frame.png)
+- ![フレーム](https://raw.githubusercontent.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1_Qdai_04/main/images/all_frame.png)
 
 ## [九州大学大学院システム情報科学府附属価値創造型半導体人材育成センター](https://ecsvc.ed.kyushu-u.ac.jp/)によるハンズオン
 [九州大学大学院システム情報科学府附属価値創造型半導体人材育成センター](https://ecsvc.ed.kyushu-u.ac.jp/)により実施された[約50万登録者のものづくり系YouTuberのICHIKENさん](https://www.youtube.com/@ICHIKEN1)の[1bit-CPUの動画](https://www.youtube.com/watch?v=5_aIvm-i4ag)に登場した[1bit-CPU](https://github.com/ishi-kai/openmpw-transistor-level-examples/tree/main/OpenSUSI-TR10/1bit-CPU)の設計・レイアウトの体験ができるハンズオンの成果物です。  
@@ -286,7 +287,7 @@ RFミキサー関連回路一式です。
 
 # [SiCA DESIGN CHIP 01](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1_SiCA_01)
 
-- ![フレーム](https://raw.githubusercontent.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1_SiCA_01/refs/heads/main/images/all_frame.png)
+- ![フレーム](https://raw.githubusercontent.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1_SiCA_01/main/images/all_frame.png)
 
 ## [未来共創半導体イノベーションアリーナ（SiCA：シーカ）](https://www.isct.ac.jp/ja/news/a5t5m3gwc273)によるハンズオン
 
@@ -305,7 +306,7 @@ RFミキサー関連回路一式です。
 
 # [SiCA DESIGN CHIP 02](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1_SiCA_02)
 
-- ![フレーム](https://raw.githubusercontent.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1_SiCA_02/refs/heads/main/images/all_frame.png)
+- ![フレーム](https://raw.githubusercontent.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1_SiCA_02/main/images/all_frame.png)
 
 ## [未来共創半導体イノベーションアリーナ（SiCA：シーカ）](https://www.isct.ac.jp/ja/news/a5t5m3gwc273)によるハンズオン
 
@@ -324,7 +325,7 @@ RFミキサー関連回路一式です。
 
 # [SiCA DESIGN CHIP 03](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1_SiCA_03)
 
-- ![フレーム](https://raw.githubusercontent.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1_SiCA_03/refs/heads/main/images/all_frame.png)
+- ![フレーム](https://raw.githubusercontent.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1_SiCA_03/main/images/all_frame.png)
 
 ## [未来共創半導体イノベーションアリーナ（SiCA：シーカ）](https://www.isct.ac.jp/ja/news/a5t5m3gwc273)によるハンズオン
 
@@ -344,7 +345,7 @@ RFミキサー関連回路一式です。
 
 # [SiCA DESIGN CHIP 04](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1_SiCA_04)
 
-- ![フレーム](https://raw.githubusercontent.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1_SiCA_04/refs/heads/main/images/all_frame.png)
+- ![フレーム](https://raw.githubusercontent.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1_SiCA_04/main/images/all_frame.png)
 
 ## [未来共創半導体イノベーションアリーナ（SiCA：シーカ）](https://www.isct.ac.jp/ja/news/a5t5m3gwc273)によるハンズオン
 
@@ -363,7 +364,7 @@ RFミキサー関連回路一式です。
 
 # [SiCA DESIGN CHIP 05](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1_SiCA_05)
 
-- ![フレーム](https://raw.githubusercontent.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1_SiCA_05/refs/heads/main/images/all_frame.png)
+- ![フレーム](https://raw.githubusercontent.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1_SiCA_05/main/images/all_frame.png)
 
 ## [未来共創半導体イノベーションアリーナ（SiCA：シーカ）](https://www.isct.ac.jp/ja/news/a5t5m3gwc273)によるハンズオン
 
@@ -382,7 +383,7 @@ RFミキサー関連回路一式です。
 
 # [SiCA DESIGN CHIP 06](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1_SiCA_06)
 
-- ![フレーム](https://raw.githubusercontent.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1_SiCA_06/refs/heads/main/images/all_frame.png)
+- ![フレーム](https://raw.githubusercontent.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1_SiCA_06/main/images/all_frame.png)
 
 ## [未来共創半導体イノベーションアリーナ（SiCA：シーカ）](https://www.isct.ac.jp/ja/news/a5t5m3gwc273)によるハンズオン
 
@@ -401,7 +402,7 @@ RFミキサー関連回路一式です。
 
 # [SiCA DESIGN CHIP 07](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1_SiCA_07)
 
-- ![フレーム](https://raw.githubusercontent.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1_SiCA_07/refs/heads/main/images/all_frame.png)
+- ![フレーム](https://raw.githubusercontent.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1_SiCA_07/main/images/all_frame.png)
 
 ## [未来共創半導体イノベーションアリーナ（SiCA：シーカ）](https://www.isct.ac.jp/ja/news/a5t5m3gwc273)によるハンズオン
 
@@ -421,7 +422,7 @@ RFミキサー関連回路一式です。
 
 # [SiCA DESIGN CHIP 08](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1_SiCA_08)
 
-- ![フレーム](https://raw.githubusercontent.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1_SiCA_08/refs/heads/main/images/all_frame.png)
+- ![フレーム](https://raw.githubusercontent.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1_SiCA_08/main/images/all_frame.png)
 
 ## [未来共創半導体イノベーションアリーナ（SiCA：シーカ）](https://www.isct.ac.jp/ja/news/a5t5m3gwc273)によるハンズオン
 
@@ -441,7 +442,7 @@ RFミキサー関連回路一式です。
 
 # [SiCA DESIGN CHIP 10](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1_SiCA_10)
 
-- ![フレーム](https://raw.githubusercontent.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1_SiCA_10/refs/heads/main/images/all_frame.png)
+- ![フレーム](https://raw.githubusercontent.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1_SiCA_10/main/images/all_frame.png)
 
 ## [未来共創半導体イノベーションアリーナ（SiCA：シーカ）](https://www.isct.ac.jp/ja/news/a5t5m3gwc273)によるハンズオン
 
@@ -461,7 +462,7 @@ RFミキサー関連回路一式です。
 
 # [ZEP DESIGN CHIP](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1_ZEP)
 
-- ![フレーム](https://raw.githubusercontent.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1_ZEP/refs/heads/main/images/all_frame.png)
+- ![フレーム](https://raw.githubusercontent.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1_ZEP/main/images/all_frame.png)
 
 ## [一緒にTapeout！教科書知識で作る世界に1つだけのIC](https://www.zep.co.jp/products/opensusi_1/)の回路
 [ZEPエンジニアリング社](https://www.zep.co.jp/)主催の[一緒にTapeout！教科書知識で作る世界に1つだけのIC](https://www.zep.co.jp/products/opensusi_1/)で作成したインバータ回路が載っています。  
@@ -485,8 +486,8 @@ RFミキサー関連回路一式です。
 ### 巨大インバータ回路
 対比のために、PMOSのW=1600um,L=2uとNMOSのW=680um,L=2umの巨大インバータ回路を作成しました。  
 
-- ![回路図](https://raw.githubusercontent.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1_ZEP/refs/heads/main/images/inverter_big_cir.png)
-- ![レイアウト](https://raw.githubusercontent.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1_ZEP/refs/heads/main/images/inverter_big_layout.png)
+- ![回路図](https://raw.githubusercontent.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1_ZEP/main/images/inverter_big_cir.png)
+- ![レイアウト](https://raw.githubusercontent.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1_ZEP/main/images/inverter_big_layout.png)
 
 
 ### リングオシレータ型VCO
@@ -494,15 +495,15 @@ RFミキサー関連回路一式です。
 ただし、回路としては、6個（偶数個）だけ載せて、最後の一つは受講者のインバータ回路をパッド経由で繋げることで、完成する回路となっています。  
 インバータ回路の利用法の一つを学ぶための回路となっています。  
 
-- ![回路図](https://raw.githubusercontent.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1_ZEP/refs/heads/main/images/vco_cir.png)
-- ![回路図](https://raw.githubusercontent.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1_ZEP/refs/heads/main/images/vco_inverter_cir.png)
-- ![回路図](https://raw.githubusercontent.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1_ZEP/refs/heads/main/images/vco_tb.png)
-- ![レイアウト](https://raw.githubusercontent.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1_ZEP/refs/heads/main/images/vco_layout.png)
+- ![回路図](https://raw.githubusercontent.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1_ZEP/main/images/vco_cir.png)
+- ![回路図](https://raw.githubusercontent.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1_ZEP/main/images/vco_inverter_cir.png)
+- ![回路図](https://raw.githubusercontent.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1_ZEP/main/images/vco_tb.png)
+- ![レイアウト](https://raw.githubusercontent.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1_ZEP/main/images/vco_layout.png)
 
 
 # [AUDIO OPAMP Handson by RISE-A DESIGN CHIP 01](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1_AUDIO_OPAMP01)
 
-- ![フレーム](https://raw.githubusercontent.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1_AUDIO_OPAMP01/refs/heads/main/images/all_frame.png)
+- ![フレーム](https://raw.githubusercontent.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1_AUDIO_OPAMP01/main/images/all_frame.png)
 
 ## RISE-A主催の[オーディオ用OPAMP設計ハンズオン](https://github.com/ishi-kai/openmpw-transistor-level-examples/tree/main/OpenSUSI-TR10/opamp_r2r_audio)
 「[ISHI会版OpenMPW OpenSUSI-TR10-1　オーディオ用OPAMP半導体ハンズオンセミナー](https://ishi-kai.org/openmpw/shuttle/opensusi-tr10/2026/04/14/shuttle_ISHI-Kai_OpenMPW-OpenSUSI-TR10-1_AudioOPAMP.html)」でご紹介した[オーディオ用OPAMP設計ハンズオン](https://github.com/ishi-kai/openmpw-transistor-level-examples/tree/main/OpenSUSI-TR10/opamp_r2r_audio)をRISE-A主催で、「高専生や大学生向け」に実施しました。  
@@ -518,7 +519,7 @@ zawa氏には今年のイチケンさんの新しい回路の設計やレイア�
 
 # [AUDIO OPAMP Handson by RISE-A DESIGN CHIP 02](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1_AUDIO_OPAMP02)
 
-- ![フレーム](https://raw.githubusercontent.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1_AUDIO_OPAMP02/refs/heads/main/images/all_frame.png)
+- ![フレーム](https://raw.githubusercontent.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1_AUDIO_OPAMP02/main/images/all_frame.png)
 
 ## RISE-A主催の[オーディオ用OPAMP設計ハンズオン](https://github.com/ishi-kai/openmpw-transistor-level-examples/tree/main/OpenSUSI-TR10/opamp_r2r_audio)
 「[ISHI会版OpenMPW OpenSUSI-TR10-1　オーディオ用OPAMP半導体ハンズオンセミナー](https://ishi-kai.org/openmpw/shuttle/opensusi-tr10/2026/04/14/shuttle_ISHI-Kai_OpenMPW-OpenSUSI-TR10-1_AudioOPAMP.html)」でご紹介した[オーディオ用OPAMP設計ハンズオン](https://github.com/ishi-kai/openmpw-transistor-level-examples/tree/main/OpenSUSI-TR10/opamp_r2r_audio)をRISE-A主催で、「高専生や大学生向け」に実施しました。  
@@ -535,7 +536,7 @@ zawa氏には今年のイチケンさんの新しい回路の設計やレイア�
 
 # [AUDIO OPAMP Handson by RISE-A DESIGN CHIP 03](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1_AUDIO_OPAMP03)
 
-- ![フレーム](https://raw.githubusercontent.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1_AUDIO_OPAMP03/refs/heads/main/images/all_frame.png)
+- ![フレーム](https://raw.githubusercontent.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1_AUDIO_OPAMP03/main/images/all_frame.png)
 
 ## RISE-A主催の[オーディオ用OPAMP設計ハンズオン](https://github.com/ishi-kai/openmpw-transistor-level-examples/tree/main/OpenSUSI-TR10/opamp_r2r_audio)
 「[ISHI会版OpenMPW OpenSUSI-TR10-1　オーディオ用OPAMP半導体ハンズオンセミナー](https://ishi-kai.org/openmpw/shuttle/opensusi-tr10/2026/04/14/shuttle_ISHI-Kai_OpenMPW-OpenSUSI-TR10-1_AudioOPAMP.html)」でご紹介した[オーディオ用OPAMP設計ハンズオン](https://github.com/ishi-kai/openmpw-transistor-level-examples/tree/main/OpenSUSI-TR10/opamp_r2r_audio)をRISE-A主催で、「高専生や大学生向け」に実施しました。  
@@ -553,7 +554,7 @@ zawa氏には今年のイチケンさんの新しい回路の設計やレイア�
 
 # [AUDIO OPAMP Handson by RISE-A DESIGN CHIP 04](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1_AUDIO_OPAMP04)
 
-- ![フレーム](https://raw.githubusercontent.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1_AUDIO_OPAMP04/refs/heads/main/images/all_frame.png)
+- ![フレーム](https://raw.githubusercontent.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1_AUDIO_OPAMP04/main/images/all_frame.png)
 
 ## RISE-A主催の[オーディオ用OPAMP設計ハンズオン](https://github.com/ishi-kai/openmpw-transistor-level-examples/tree/main/OpenSUSI-TR10/opamp_r2r_audio)
 「[ISHI会版OpenMPW OpenSUSI-TR10-1　オーディオ用OPAMP半導体ハンズオンセミナー](https://ishi-kai.org/openmpw/shuttle/opensusi-tr10/2026/04/14/shuttle_ISHI-Kai_OpenMPW-OpenSUSI-TR10-1_AudioOPAMP.html)」でご紹介した[オーディオ用OPAMP設計ハンズオン](https://github.com/ishi-kai/openmpw-transistor-level-examples/tree/main/OpenSUSI-TR10/opamp_r2r_audio)をRISE-A主催で、「高専生や大学生向け」に実施しました。  
@@ -577,7 +578,7 @@ zawa氏には今年のイチケンさんの新しい回路の設計やレイア�
 
 # [AUDIO OPAMP Handson by RISE-A DESIGN CHIP 05](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1_AUDIO_OPAMP05)
 
-- ![フレーム](https://raw.githubusercontent.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1_AUDIO_OPAMP05/refs/heads/main/images/all_frame.png)
+- ![フレーム](https://raw.githubusercontent.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1_AUDIO_OPAMP05/main/images/all_frame.png)
 
 ## RISE-A主催の[オーディオ用OPAMP設計ハンズオン](https://github.com/ishi-kai/openmpw-transistor-level-examples/tree/main/OpenSUSI-TR10/opamp_r2r_audio)
 「[ISHI会版OpenMPW OpenSUSI-TR10-1　オーディオ用OPAMP半導体ハンズオンセミナー](https://ishi-kai.org/openmpw/shuttle/opensusi-tr10/2026/04/14/shuttle_ISHI-Kai_OpenMPW-OpenSUSI-TR10-1_AudioOPAMP.html)」でご紹介した[オーディオ用OPAMP設計ハンズオン](https://github.com/ishi-kai/openmpw-transistor-level-examples/tree/main/OpenSUSI-TR10/opamp_r2r_audio)をRISE-A主催で、「高専生や大学生向け」に実施しました。  
@@ -599,7 +600,7 @@ zawa氏には今年のイチケンさんの新しい回路の設計やレイア�
 
 # [AUDIO OPAMP Handson by RISE-A DESIGN CHIP 06](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1_AUDIO_OPAMP06)
 
-- ![フレーム](https://raw.githubusercontent.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1_AUDIO_OPAMP06/refs/heads/main/images/all_frame.png)
+- ![フレーム](https://raw.githubusercontent.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1_AUDIO_OPAMP06/main/images/all_frame.png)
 
 ## RISE-A主催の[オーディオ用OPAMP設計ハンズオン](https://github.com/ishi-kai/openmpw-transistor-level-examples/tree/main/OpenSUSI-TR10/opamp_r2r_audio)
 「[ISHI会版OpenMPW OpenSUSI-TR10-1　オーディオ用OPAMP半導体ハンズオンセミナー](https://ishi-kai.org/openmpw/shuttle/opensusi-tr10/2026/04/14/shuttle_ISHI-Kai_OpenMPW-OpenSUSI-TR10-1_AudioOPAMP.html)」でご紹介した[オーディオ用OPAMP設計ハンズオン](https://github.com/ishi-kai/openmpw-transistor-level-examples/tree/main/OpenSUSI-TR10/opamp_r2r_audio)をRISE-A主催で、「高専生や大学生向け」に実施しました。  
@@ -621,7 +622,7 @@ zawa氏には今年のイチケンさんの新しい回路の設計やレイア�
 
 # [AUDIO OPAMP Handson by RISE-A DESIGN CHIP 07](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1_AUDIO_OPAMP07)
 
-- ![フレーム](https://raw.githubusercontent.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1_AUDIO_OPAMP07/refs/heads/main/images/all_frame.png)
+- ![フレーム](https://raw.githubusercontent.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1_AUDIO_OPAMP07/main/images/all_frame.png)
 
 ## RISE-A主催の[オーディオ用OPAMP設計ハンズオン](https://github.com/ishi-kai/openmpw-transistor-level-examples/tree/main/OpenSUSI-TR10/opamp_r2r_audio)
 「[ISHI会版OpenMPW OpenSUSI-TR10-1　オーディオ用OPAMP半導体ハンズオンセミナー](https://ishi-kai.org/openmpw/shuttle/opensusi-tr10/2026/04/14/shuttle_ISHI-Kai_OpenMPW-OpenSUSI-TR10-1_AudioOPAMP.html)」でご紹介した[オーディオ用OPAMP設計ハンズオン](https://github.com/ishi-kai/openmpw-transistor-level-examples/tree/main/OpenSUSI-TR10/opamp_r2r_audio)をRISE-A主催で、「高専生や大学生向け」に実施しました。  
@@ -639,7 +640,7 @@ zawa氏には今年のイチケンさんの新しい回路の設計やレイア�
 
 # [AUDIO OPAMP Handson by RISE-A DESIGN CHIP 08](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1_AUDIO_OPAMP08)
 
-- ![フレーム](https://raw.githubusercontent.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1_AUDIO_OPAMP08/refs/heads/main/images/all_frame.png)
+- ![フレーム](https://raw.githubusercontent.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1_AUDIO_OPAMP08/main/images/all_frame.png)
 
 ## RISE-A主催の[オーディオ用OPAMP設計ハンズオン](https://github.com/ishi-kai/openmpw-transistor-level-examples/tree/main/OpenSUSI-TR10/opamp_r2r_audio)
 「[ISHI会版OpenMPW OpenSUSI-TR10-1　オーディオ用OPAMP半導体ハンズオンセミナー](https://ishi-kai.org/openmpw/shuttle/opensusi-tr10/2026/04/14/shuttle_ISHI-Kai_OpenMPW-OpenSUSI-TR10-1_AudioOPAMP.html)」でご紹介した[オーディオ用OPAMP設計ハンズオン](https://github.com/ishi-kai/openmpw-transistor-level-examples/tree/main/OpenSUSI-TR10/opamp_r2r_audio)をRISE-A主催で、「高専生や大学生向け」に実施しました。  
@@ -657,7 +658,7 @@ zawa氏には今年のイチケンさんの新しい回路の設計やレイア�
 
 # [AUDIO OPAMP Handson by RISE-A DESIGN CHIP 09](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1_AUDIO_OPAMP09)
 
-- ![フレーム](https://raw.githubusercontent.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1_AUDIO_OPAMP09/refs/heads/main/images/all_frame.png)
+- ![フレーム](https://raw.githubusercontent.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1_AUDIO_OPAMP09/main/images/all_frame.png)
 
 ## RISE-A主催の[オーディオ用OPAMP設計ハンズオン](https://github.com/ishi-kai/openmpw-transistor-level-examples/tree/main/OpenSUSI-TR10/opamp_r2r_audio)
 「[ISHI会版OpenMPW OpenSUSI-TR10-1　オーディオ用OPAMP半導体ハンズオンセミナー](https://ishi-kai.org/openmpw/shuttle/opensusi-tr10/2026/04/14/shuttle_ISHI-Kai_OpenMPW-OpenSUSI-TR10-1_AudioOPAMP.html)」でご紹介した[オーディオ用OPAMP設計ハンズオン](https://github.com/ishi-kai/openmpw-transistor-level-examples/tree/main/OpenSUSI-TR10/opamp_r2r_audio)をRISE-A主催で、「高専生や大学生向け」に実施しました。  
@@ -675,7 +676,7 @@ zawa氏には今年のイチケンさんの新しい回路の設計やレイア�
 
 # [OpenSUSI DESIGN CHIP 01](ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1_OpenSUSI01)
 
-- ![フレーム](https://raw.githubusercontent.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1_OpenSUSI01/refs/heads/main/images/all_frame.png)
+- ![フレーム](https://raw.githubusercontent.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1_OpenSUSI01/main/images/all_frame.png)
 
 
 ## [OpenSUSI](https://opensusi.org/)による提供枠
@@ -690,7 +691,7 @@ zawa氏には今年のイチケンさんの新しい回路の設計やレイア�
 
 # [OpenSUSI DESIGN CHIP 02](ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1_OpenSUSI02)
 
-- ![フレーム](https://raw.githubusercontent.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1_OpenSUSI02/refs/heads/main/images/all_frame.png)
+- ![フレーム](https://raw.githubusercontent.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1_OpenSUSI02/main/images/all_frame.png)
 
 
 ## [OpenSUSI](https://opensusi.org/)による提供枠
@@ -714,7 +715,7 @@ zawa氏には今年のイチケンさんの新しい回路の設計やレイア�
 
 # [OpenSUSI DESIGN CHIP 03](ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1_OpenSUSI03)
 
-- ![フレーム](https://raw.githubusercontent.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1_OpenSUSI03/refs/heads/main/images/all_frame.png)
+- ![フレーム](https://raw.githubusercontent.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1_OpenSUSI03/main/images/all_frame.png)
 
 
 ## [OpenSUSI](https://opensusi.org/)による提供枠
@@ -729,7 +730,7 @@ OpenSUSI-MPWでどこまでレイアウトテクニックが使えるか？に�
 
 # [OpenSUSI DESIGN CHIP 04](ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1_OpenSUSI04)
 
-- ![フレーム](https://raw.githubusercontent.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1_OpenSUSI04/refs/heads/main/images/all_frame.png)
+- ![フレーム](https://raw.githubusercontent.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1_OpenSUSI04/main/images/all_frame.png)
 
 
 ## [OpenSUSI](https://opensusi.org/)による提供枠
@@ -745,7 +746,7 @@ OpenSUSI-MPWでどこまでレイアウトテクニックが使えるか？に�
 
 # [OpenSUSI DESIGN CHIP 05](ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1_OpenSUSI05)
 
-- ![フレーム](https://raw.githubusercontent.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1_OpenSUSI05/refs/heads/main/images/all_frame.png)
+- ![フレーム](https://raw.githubusercontent.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1_OpenSUSI05/main/images/all_frame.png)
 
 
 ## [OpenSUSI](https://opensusi.org/)による提供枠
