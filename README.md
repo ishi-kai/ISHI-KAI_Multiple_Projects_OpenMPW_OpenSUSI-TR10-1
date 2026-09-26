@@ -658,9 +658,11 @@ zawa氏には今年のイチケンさんの新しい回路の設計やレイア�
 一般社団法人[OpenSUSI](https://opensusi.org/)より、「来年の[OpenSUSI-MPW](https://www.opensusi.org/mpw-service)の発展に貢献できる回路・レイアウトに対して提供する」という条件で[ISHI会](https://ishi-kai.org/)向けに提供された枠になります。  
 
 
-### [九州大学](https://www.kyushu-u.ac.jp/ja/)の木野先生のTEG
+### [九州大学](https://www.kyushu-u.ac.jp/ja/)の[木野先生のTEG](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1_OpenSUSI01/tree/main/TEG/Kino)
 去年より、スポンサードしていただいている九州大学からのエントリーです。来年も実施していただけるとのことなので、枠を利用しております。  
 モノは、PMOSとNMOSのTEG回路です。どうしても使用ピン数が多くなるため、こちらで1枠利用しております。  
+
+- [木野先生のTEG](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1_OpenSUSI01/tree/main/TEG/Kino)
 
 
 
@@ -700,6 +702,7 @@ zawa氏には今年のイチケンさんの新しい回路の設計やレイア�
 [Yamada3チームが設計したAMラジオ](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/tree/main/member_project/AM_Radio/Yamada3)の回路図を生かして、究極のレイアウトを目指したレイアウトによるエントリーです。  
 OpenSUSI-MPWでどこまでレイアウトテクニックが使えるか？に挑戦した作品です。  
 
+- [noritsunaさんのAMラジオの究極レイアウト](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/tree/main/member_project/AM_Radio/noritsuna)
 
 
 # [OpenSUSI DESIGN CHIP 04](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1_OpenSUSI04)
