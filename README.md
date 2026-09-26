@@ -731,7 +731,12 @@ OpenSUSI-MPWでどこまでレイアウトテクニックが使えるか？に�
 Rail-to-Rail OPAMPの実利用例の[計装アンプ](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/tree/main/member_project/InstrumentationAmplifier/3zki/)となります。  これまでのISHI会の制作物やハンズオンが、二段増幅OPAMP→Rail-to-Rail OPAMP→オーディオ用OPAMPと進化してきて、ついに、[計装アンプ](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/tree/main/member_project/InstrumentationAmplifier/3zki/)に辿り着きました。  
 ISHI会の黎明期からいろいろな回路を投稿してくれたり、[イチケンさん](https://www.youtube.com/@ICHIKEN1)への回路のレクチャーやサポーターとして活躍していただいた[3zki](https://github.com/3zki/)氏がエントリーされたものとなります。  
 
+- [計装アンプ](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/tree/main/member_project/InstrumentationAmplifier/3zki/)
+
+
 ### [PenguinEino](http://github.com/PenguinEino/)の[RGB121 VGA出力回路](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/tree/main/member_project/RGB121_VGA/PenguinEino/)
 [TinyTapeout](http://tinytapeout.com/)の定番回路のVGA出力回路となります。OpenSUSI-MPWのサイズに合わせて、RGB121としてピン数を削減しています。
 今回、余った枠に精力的に回路を投稿てくれた[PenguinEino](http://github.com/PenguinEino/)氏がエントリーされたものです。
+
+- [RGB121 VGA出力回路](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/tree/main/member_project/RGB121_VGA/PenguinEino/)
 
