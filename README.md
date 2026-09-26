@@ -23,8 +23,8 @@ ISHI会版OpenMPW OpenSUSI-TR10-1～2026年OpenSUSI-TR10（OpenSUSI-TR1umシャ�
 
 
 - [ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1)
-    - [JJY Receiver](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/tree/raw/main/member_project/JJY_Receiver/Masahiro)
-    - [BGR](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/tree/raw/main/member_project/BGR/Maehashi)
+    - [JJY Receiver](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/tree/main/member_project/JJY_Receiver/Masahiro)
+    - [BGR](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/tree/main/member_project/BGR/Maehashi)
 
 
 # [ISHI-KAI DESIGN CHIP 02](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1_02)
@@ -33,8 +33,8 @@ ISHI会版OpenMPW OpenSUSI-TR10-1～2026年OpenSUSI-TR10（OpenSUSI-TR1umシャ�
 - ![フレーム](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1_02/raw/main/images/all_frame.png)
 
 - [ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1)
-    - [AM Receiver](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/tree/raw/main/member_project/AM_Radio/Yamada3)
-    - [DCDC Converter](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/tree/raw/main/member_project/DCDC)
+    - [AM Receiver](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/tree/main/member_project/AM_Radio/Yamada3)
+    - [DCDC Converter](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/tree/main/member_project/DCDC)
 
 
 
@@ -45,11 +45,11 @@ ISHI会版OpenMPW OpenSUSI-TR10-1～2026年OpenSUSI-TR10（OpenSUSI-TR1umシャ�
 ### インバータ回路
 
 - [ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1)
-    - [インバータ回路：exdojp](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/tree/raw/main/member_project/inverter/sanken/exodjp/)
-    - [インバータ回路：july_fifth](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/tree/raw/main/member_project/inverter/sanken/july_fifth/)
-    - [インバータ回路：kubotakeshi](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/tree/raw/main/member_project/inverter/sanken/kubotakeshi/)
-    - [インバータ回路：pankani](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/tree/raw/main/member_project/inverter/sanken/pankani/)
-    - [インバータ回路：yasushitech](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/tree/raw/main/member_project/inverter/sanken/yasushitech/)
+    - [インバータ回路：exdojp](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/tree/main/member_project/inverter/sanken/exodjp/)
+    - [インバータ回路：july_fifth](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/tree/main/member_project/inverter/sanken/july_fifth/)
+    - [インバータ回路：kubotakeshi](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/tree/main/member_project/inverter/sanken/kubotakeshi/)
+    - [インバータ回路：pankani](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/tree/main/member_project/inverter/sanken/pankani/)
+    - [インバータ回路：yasushitech](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/tree/main/member_project/inverter/sanken/yasushitech/)
 
 
 
@@ -67,9 +67,9 @@ ISHI会版OpenMPW OpenSUSI-TR10-1～2026年OpenSUSI-TR10（OpenSUSI-TR1umシャ�
 [2026年06月イベント：初めての半導体設計・製造体験！一日で作るインバータ回路ハンズオン](https://ishi-kai.org/openmpw/shuttle/opensusi-tr10/2026/04/10/shuttle_ISHI-Kai_OpenMPW-OpenSUSI-TR10-1_start.html)での成果となります。  
 
 - [ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1)
-    - [インバータ回路：yumu19](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/tree/raw/main/member_project/inverter/ichiken/yumu19/)
-    - [インバータ回路：soraoto06](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/tree/raw/main/member_project/inverter/ichiken/soraoto06/)
-    - [インバータ回路：Miyamoto_sprzk_naoyuki](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/tree/raw/main/member_project/inverter/ichiken/Miyamoto_sprzk_naoyuki/)
+    - [インバータ回路：yumu19](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/tree/main/member_project/inverter/ichiken/yumu19/)
+    - [インバータ回路：soraoto06](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/tree/main/member_project/inverter/ichiken/soraoto06/)
+    - [インバータ回路：Miyamoto_sprzk_naoyuki](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/tree/main/member_project/inverter/ichiken/Miyamoto_sprzk_naoyuki/)
 
 
 
@@ -88,9 +88,9 @@ ISHI会版OpenMPW OpenSUSI-TR10-1～2026年OpenSUSI-TR10（OpenSUSI-TR1umシャ�
 [2026年06月イベント：初めての半導体設計・製造体験！一日で作るインバータ回路ハンズオン](https://ishi-kai.org/openmpw/shuttle/opensusi-tr10/2026/04/10/shuttle_ISHI-Kai_OpenMPW-OpenSUSI-TR10-1_start.html)での成果となります。  
 
 - [ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1)
-    - [インバータ回路：Luft256](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/tree/raw/main/member_project/inverter/ichiken/Luft256/)
-    - [インバータ回路：shkoga](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/tree/raw/main/member_project/inverter/ichiken/shkoga/)
-    - [インバータ回路：TadasukeKuramochi](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/tree/raw/main/member_project/inverter/ichiken/TadasukeKuramochi/)
+    - [インバータ回路：Luft256](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/tree/main/member_project/inverter/ichiken/Luft256/)
+    - [インバータ回路：shkoga](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/tree/main/member_project/inverter/ichiken/shkoga/)
+    - [インバータ回路：TadasukeKuramochi](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/tree/main/member_project/inverter/ichiken/TadasukeKuramochi/)
 
 
 # [ICHIKEN&RISE-A DESIGN CHIP 03](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1_ichiken_03)
@@ -108,8 +108,8 @@ ISHI会版OpenMPW OpenSUSI-TR10-1～2026年OpenSUSI-TR10（OpenSUSI-TR1umシャ�
 [2026年06月イベント：初めての半導体設計・製造体験！一日で作るインバータ回路ハンズオン](https://ishi-kai.org/openmpw/shuttle/opensusi-tr10/2026/04/10/shuttle_ISHI-Kai_OpenMPW-OpenSUSI-TR10-1_start.html)での成果となります。  
 
 - [ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1)
-    - [インバータ回路：ANT_taro](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/tree/raw/main/member_project/inverter/ichiken/ANT_taro/)
-    - [インバータ回路：jog](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/tree/raw/main/member_project/inverter/ichiken/jog/)
+    - [インバータ回路：ANT_taro](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/tree/main/member_project/inverter/ichiken/ANT_taro/)
+    - [インバータ回路：jog](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/tree/main/member_project/inverter/ichiken/jog/)
 
 
 
@@ -128,9 +128,9 @@ ISHI会版OpenMPW OpenSUSI-TR10-1～2026年OpenSUSI-TR10（OpenSUSI-TR1umシャ�
 [初めての半導体設計・製造体験！一日で作るインバータ回路ハンズオン](https://ishi-kai.org/openmpw/shuttle/opensusi-tr10/2026/08/03/shuttle_ISHI-Kai_OpenMPW-OpenSUSI-TR10-1_hokuriku.html)での成果となります。  
 
 - [ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1)
-    - [インバータ回路：EinosukeOkazaki](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/tree/raw/main/member_project/inverter/ichiken/EinosukeOkazaki/)
-    - [インバータ回路：NanTarou](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/tree/raw/main/member_project/inverter/ichiken/NanTarou/)
-    - [インバータ回路：RS_232_C](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/tree/raw/main/member_project/inverter/ichiken/RS_232_C/)
+    - [インバータ回路：EinosukeOkazaki](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/tree/main/member_project/inverter/ichiken/EinosukeOkazaki/)
+    - [インバータ回路：NanTarou](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/tree/main/member_project/inverter/ichiken/NanTarou/)
+    - [インバータ回路：RS_232_C](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/tree/main/member_project/inverter/ichiken/RS_232_C/)
 
 
 
@@ -148,7 +148,7 @@ ISHI会版OpenMPW OpenSUSI-TR10-1～2026年OpenSUSI-TR10（OpenSUSI-TR1umシャ�
 [ICHIKEN Presents「1bit-CPUハンズオン supported by RISE-A」](https://ishi-kai.org/openmpw/shuttle/opensusi-tr10/2026/07/15/shuttle_ISHI-Kai_OpenMPW-TR10-1_1bit-CPU.html)の講師報酬枠です。  
 
 - [ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1)
-    - [I2C回路：ohno](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/tree/raw/main/member_project/I2C/ohono/)
+    - [I2C回路：ohno](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/tree/main/member_project/I2C/ohono/)
 
 
 
@@ -166,7 +166,7 @@ ISHI会版OpenMPW OpenSUSI-TR10-1～2026年OpenSUSI-TR10（OpenSUSI-TR1umシャ�
 [約50万登録者のものづくり系YouTuberのICHIKENさん](https://www.youtube.com/@ICHIKEN1)さんとのコラボレーション枠です。  
 
 - [ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1)
-    - [オーディオ用OPAMP回路：ichiken](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/tree/raw/main/member_project/opamp_r2r_audio/ichiken/)
+    - [オーディオ用OPAMP回路：ichiken](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/tree/main/member_project/opamp_r2r_audio/ichiken/)
 
 
 
@@ -191,7 +191,7 @@ RFミキサー関連回路一式です。
 - 差動IFアンプ
 
 - [ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1)
-    - [ミキサー回路：noritsuna](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/tree/raw/main/member_project/MIXER/noritsuna)
+    - [ミキサー回路：noritsuna](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/tree/main/member_project/MIXER/noritsuna)
 
 
 
@@ -211,7 +211,7 @@ RFミキサー関連回路一式です。
 [2026年08月イベント：オーディオ用OPAMP半導体ハンズオン](https://ishi-kai.org/openmpw/shuttle/opensusi-tr10/2026/04/14/shuttle_ISHI-Kai_OpenMPW-OpenSUSI-TR10-1_AudioOPAMP.html)での成果となります。  
 
 - [ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1)
-    - [オーディオ用OPAMP回路：yamazaki](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/tree/raw/main/member_project/opamp_r2r_audio/yamazaki/)
+    - [オーディオ用OPAMP回路：yamazaki](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/tree/main/member_project/opamp_r2r_audio/yamazaki/)
 
 
 
@@ -230,7 +230,7 @@ RFミキサー関連回路一式です。
 [2026年08月イベント：オーディオ用OPAMP半導体ハンズオン](https://ishi-kai.org/openmpw/shuttle/opensusi-tr10/2026/04/14/shuttle_ISHI-Kai_OpenMPW-OpenSUSI-TR10-1_AudioOPAMP.html)での成果となります。  
 
 - [ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1)
-    - [オーディオ用OPAMP回路：KabechiFC](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/tree/raw/main/member_project/opamp_r2r_audio/KabechiFC/)
+    - [オーディオ用OPAMP回路：KabechiFC](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/tree/main/member_project/opamp_r2r_audio/KabechiFC/)
 
 
 
@@ -252,11 +252,11 @@ RFミキサー関連回路一式です。
 
 ### Tiny555回路
 - [ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1)
-    - [Tiny555回路：yamada3](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/tree/raw/main/member_project/Tiny555/yamada3/)
+    - [Tiny555回路：yamada3](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/tree/main/member_project/Tiny555/yamada3/)
 
 ### 4bit 6T SRAM回路
 - [ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1)
-    - [SRAM回路：noritsuna](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/tree/raw/main/member_project/SRAM/noritsuna/)
+    - [SRAM回路：noritsuna](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/tree/main/member_project/SRAM/noritsuna/)
 
 
 
@@ -275,7 +275,7 @@ RFミキサー関連回路一式です。
 [ISHI会版OpenMPW OpenSUSI-TR10-1向けの回路やレイアウトを募集！！！](https://ishi-kai.org/openmpw/shuttle/opensusi-tr10/2026/08/31/shuttle_ISHI-Kai_OpenMPW-OpenSUSI-TR10-1_SP.html)に応募された回路とレイアウトです。  
 
 - [ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1)
-    - [1bit-CPU回路：kubotakeshi](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/tree/raw/main/member_project/ExtraDesign/1bit-CPU/kubotakeshi/)
+    - [1bit-CPU回路：kubotakeshi](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/tree/main/member_project/ExtraDesign/1bit-CPU/kubotakeshi/)
 
 
 
@@ -294,7 +294,7 @@ RFミキサー関連回路一式です。
 [2026年08月イベント：オーディオ用OPAMP半導体ハンズオンの](https://ishi-kai.org/openmpw/shuttle/opensusi-tr10/2026/04/13/shuttle_ISHI-Kai_OpenMPW-OpenSUSI-TR10-1_OPAMP.html)で完走された方の回路とレイアウトです。  
 
 - [ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1)
-    - [オーディオ用OPAMP回路：zawa](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/tree/raw/main/member_project/opamp_r2r_audio/zawa/)
+    - [オーディオ用OPAMP回路：zawa](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/tree/main/member_project/opamp_r2r_audio/zawa/)
 
 
 
@@ -314,7 +314,7 @@ RFミキサー関連回路一式です。
 [2026年08月イベント：二日でOPAMP回路ハンズオン](https://ishi-kai.org/openmpw/shuttle/opensusi-tr10/2026/04/13/shuttle_ISHI-Kai_OpenMPW-OpenSUSI-TR10-1_OPAMP.html)で完走された方の回路とレイアウトです。  
 
 - [ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1)
-    - [OPAMP回路：cat_nekonekone](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/tree/raw/main/member_project/opamp/cat_nekonekone/)
+    - [OPAMP回路：cat_nekonekone](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/tree/main/member_project/opamp/cat_nekonekone/)
 
 
 
@@ -333,7 +333,7 @@ RFミキサー関連回路一式です。
 [2026年08月イベント：二日でOPAMP回路ハンズオン](https://ishi-kai.org/openmpw/shuttle/opensusi-tr10/2026/04/13/shuttle_ISHI-Kai_OpenMPW-OpenSUSI-TR10-1_OPAMP.html)で完走された方の回路とレイアウトです。  
 
 - [ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1)
-    - [OPAMP回路：houta](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/tree/raw/main/member_project/opamp/houta/)
+    - [OPAMP回路：houta](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/tree/main/member_project/opamp/houta/)
 
 
 
@@ -352,7 +352,7 @@ RFミキサー関連回路一式です。
 [2026年08月イベント：二日でOPAMP回路ハンズオン](https://ishi-kai.org/openmpw/shuttle/opensusi-tr10/2026/04/13/shuttle_ISHI-Kai_OpenMPW-OpenSUSI-TR10-1_OPAMP.html)で完走された方の回路とレイアウトです。  
 
 - [ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1)
-    - [OPAMP回路：yamada](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/tree/raw/main/member_project/opamp/yamada/)
+    - [OPAMP回路：yamada](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/tree/main/member_project/opamp/yamada/)
 
 
 
@@ -371,7 +371,7 @@ RFミキサー関連回路一式です。
 [2026年08月イベント：二日でOPAMP回路ハンズオン](https://ishi-kai.org/openmpw/shuttle/opensusi-tr10/2026/04/13/shuttle_ISHI-Kai_OpenMPW-OpenSUSI-TR10-1_OPAMP.html)で完走された方の回路とレイアウトです。  
 
 - [ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1)
-    - [OPAMP回路：makoto645](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/tree/raw/main/member_project/opamp/makoto645/)
+    - [OPAMP回路：makoto645](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/tree/main/member_project/opamp/makoto645/)
 
 
 
@@ -391,7 +391,7 @@ RFミキサー関連回路一式です。
 [2026年08月イベント：二日でOPAMP回路ハンズオン](https://ishi-kai.org/openmpw/shuttle/opensusi-tr10/2026/04/13/shuttle_ISHI-Kai_OpenMPW-OpenSUSI-TR10-1_OPAMP.html)で完走された方の回路とレイアウトです。  
 
 - [ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1)
-    - [OPAMP回路：kubotakeshi](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/tree/raw/main/member_project/opamp/kubotakeshi/)
+    - [OPAMP回路：kubotakeshi](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/tree/main/member_project/opamp/kubotakeshi/)
 
 
 
@@ -411,7 +411,7 @@ RFミキサー関連回路一式です。
 [2026年08月イベント：二日でOPAMP回路ハンズオン](https://ishi-kai.org/openmpw/shuttle/opensusi-tr10/2026/04/13/shuttle_ISHI-Kai_OpenMPW-OpenSUSI-TR10-1_OPAMP.html)で完走された方の回路とレイアウトです。  
 
 - [ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1)
-    - [OPAMP回路：july_fifth](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/tree/raw/main/member_project/opamp/july_fifth/)
+    - [OPAMP回路：july_fifth](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/tree/main/member_project/opamp/july_fifth/)
 
 
 
@@ -431,7 +431,7 @@ RFミキサー関連回路一式です。
 [ISHI会版OpenMPW OpenSUSI-TR10-1向けの回路やレイアウトを募集！！！](https://ishi-kai.org/openmpw/shuttle/opensusi-tr10/2026/08/31/shuttle_ISHI-Kai_OpenMPW-OpenSUSI-TR10-1_SP.html)に応募された回路とレイアウトです。  
 
 - [ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1)
-    - [SRAM回路：PenguinEino](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/tree/raw/main/member_project/SRAM/PenguinEino/)
+    - [SRAM回路：PenguinEino](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/tree/main/member_project/SRAM/PenguinEino/)
 
 
 
@@ -452,11 +452,11 @@ RFミキサー関連回路一式です。
 [2026年06月イベント：初めての半導体設計・製造体験！一日で作るインバータ回路ハンズオン](https://ishi-kai.org/openmpw/shuttle/opensusi-tr10/2026/04/10/shuttle_ISHI-Kai_OpenMPW-OpenSUSI-TR10-1_start.html)での成果となります。  
 
 - [ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1)
-    - [インバータ回路：tarry](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/tree/raw/main/member_project/inverter/ZEP/tarry/)
-    - [インバータ回路：yanzm](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/tree/raw/main/member_project/inverter/ZEP/yanzm/)
-    - [インバータ回路：Yourein](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/tree/raw/main/member_project/inverter/ZEP/Yourein/)
-    - [インバータ回路：cat_nekonekone](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/tree/raw/main/member_project/inverter/ZEP/cat_nekonekone/)
-    - [インバータ回路：makoto645](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/tree/raw/main/member_project/inverter/ZEP/makoto645/)
+    - [インバータ回路：tarry](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/tree/main/member_project/inverter/ZEP/tarry/)
+    - [インバータ回路：yanzm](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/tree/main/member_project/inverter/ZEP/yanzm/)
+    - [インバータ回路：Yourein](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/tree/main/member_project/inverter/ZEP/Yourein/)
+    - [インバータ回路：cat_nekonekone](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/tree/main/member_project/inverter/ZEP/cat_nekonekone/)
+    - [インバータ回路：makoto645](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/tree/main/member_project/inverter/ZEP/makoto645/)
 
 ### 巨大インバータ回路
 対比のために、PMOSのW=1600um,L=2uとNMOSのW=680um,L=2umの巨大インバータ回路を作成しました。  
@@ -488,7 +488,7 @@ RFミキサー関連回路一式です。
 zawa氏には今年のイチケンさんの新しい回路の設計やレイアウトのレクチャーをしていただいたので、その報酬枠となります。  
 
 - [ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1)
-    - [OPAMP回路：zawa](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/tree/raw/main/member_project/opamp/zawa/)
+    - [OPAMP回路：zawa](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/tree/main/member_project/opamp/zawa/)
 
 
 
@@ -506,7 +506,7 @@ zawa氏には今年のイチケンさんの新しい回路の設計やレイア�
 [2026年08月イベント：二日でOPAMP回路ハンズオン](https://ishi-kai.org/openmpw/shuttle/opensusi-tr10/2026/04/13/shuttle_ISHI-Kai_OpenMPW-OpenSUSI-TR10-1_OPAMP.html)で完走された方の回路とレイアウトです。  
 
 - [ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1)
-    - [OPAMP回路：sable](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/tree/raw/main/member_project/opamp/sable/)
+    - [OPAMP回路：sable](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/tree/main/member_project/opamp/sable/)
 
 
 # [AUDIO OPAMP Handson by RISE-A DESIGN CHIP 03](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1_AUDIO_OPAMP03)
@@ -523,7 +523,7 @@ zawa氏には今年のイチケンさんの新しい回路の設計やレイア�
 [ISHI会版OpenMPW OpenSUSI-TR10-1向けの回路やレイアウトを募集！！！](https://ishi-kai.org/openmpw/shuttle/opensusi-tr10/2026/08/31/shuttle_ISHI-Kai_OpenMPW-OpenSUSI-TR10-1_SP.html)に応募された回路とレイアウトです。  
 
 - [ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1)
-    - [SRAM回路：ytr0](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/tree/raw/main/member_project/SRAM/ytr0/)
+    - [SRAM回路：ytr0](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/tree/main/member_project/SRAM/ytr0/)
 
 
 
@@ -541,13 +541,13 @@ zawa氏には今年のイチケンさんの新しい回路の設計やレイア�
 [ISHI会版OpenMPW OpenSUSI-TR10-1向けの回路やレイアウトを募集！！！](https://ishi-kai.org/openmpw/shuttle/opensusi-tr10/2026/08/31/shuttle_ISHI-Kai_OpenMPW-OpenSUSI-TR10-1_SP.html)に応募された回路とレイアウトです。  
 
 - [ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1)
-    - [555タイマー回路：makoto645](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/tree/raw/main/member_project/555timer/makoto645/)
+    - [555タイマー回路：makoto645](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/tree/main/member_project/555timer/makoto645/)
 
 ### Clock Divider回路
 [ISHI会版OpenMPW OpenSUSI-TR10-1向けの回路やレイアウトを募集！！！](https://ishi-kai.org/openmpw/shuttle/opensusi-tr10/2026/08/31/shuttle_ISHI-Kai_OpenMPW-OpenSUSI-TR10-1_SP.html)に応募された回路とレイアウトです。  
 
 - [ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1)
-    - [Clock Divider回路：ShuntaroOHNO](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/tree/raw/main/member_project/ClockDivider/ShuntaroOHNO/)
+    - [Clock Divider回路：ShuntaroOHNO](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/tree/main/member_project/ClockDivider/ShuntaroOHNO/)
 
 
 
@@ -565,10 +565,10 @@ zawa氏には今年のイチケンさんの新しい回路の設計やレイア�
 [ISHI会版OpenMPW OpenSUSI-TR10-1のラストチャンス！！！～2026年OpenSUSI-TR10（OpenSUSI-TR10シャトル）の相乗り募集：東京編～](https://ishi-kai.org/openmpw/shuttle/opensusi-tr10/2026/09/15/shuttle_ISHI-Kai_OpenMPW-OpenSUSI-TR10-1_last.html)での成果となります。  
 
 - [ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1)
-    - [インバータ回路：0x837c](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/tree/raw/main/member_project/inverter/RASE-A/0x837c/)
-    - [インバータ回路：7158918](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/tree/raw/main/member_project/inverter/RASE-A/7158918/)
-    - [インバータ回路：eycjur](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/tree/raw/main/member_project/inverter/RASE-A/eycjur/)
-    - [インバータ回路：jijinbei](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/tree/raw/main/member_project/inverter/RASE-A/jijinbei/)
+    - [インバータ回路：0x837c](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/tree/main/member_project/inverter/RASE-A/0x837c/)
+    - [インバータ回路：7158918](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/tree/main/member_project/inverter/RASE-A/7158918/)
+    - [インバータ回路：eycjur](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/tree/main/member_project/inverter/RASE-A/eycjur/)
+    - [インバータ回路：jijinbei](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/tree/main/member_project/inverter/RASE-A/jijinbei/)
 
 
 
@@ -588,10 +588,10 @@ zawa氏には今年のイチケンさんの新しい回路の設計やレイア�
 [ISHI会版OpenMPW OpenSUSI-TR10-1のラストチャンス！！！～2026年OpenSUSI-TR10（OpenSUSI-TR10シャトル）の相乗り募集：東京編～](https://ishi-kai.org/openmpw/shuttle/opensusi-tr10/2026/09/15/shuttle_ISHI-Kai_OpenMPW-OpenSUSI-TR10-1_last.html)での成果となります。  
 
 - [ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1)
-    - [インバータ回路：makoto_5555](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/tree/raw/main/member_project/inverter/RASE-A/makoto_5555/)
-    - [インバータ回路：sai1231s](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/tree/raw/main/member_project/inverter/RASE-A/sai1231s/)
-    - [インバータ回路：Talkie_junk](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/tree/raw/main/member_project/inverter/RASE-A/Talkie_junk/)
-    - [インバータ回路：WEI_YICHENG](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/tree/raw/main/member_project/inverter/RASE-A/WEI_YICHENG/)
+    - [インバータ回路：makoto_5555](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/tree/main/member_project/inverter/RASE-A/makoto_5555/)
+    - [インバータ回路：sai1231s](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/tree/main/member_project/inverter/RASE-A/sai1231s/)
+    - [インバータ回路：Talkie_junk](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/tree/main/member_project/inverter/RASE-A/Talkie_junk/)
+    - [インバータ回路：WEI_YICHENG](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/tree/main/member_project/inverter/RASE-A/WEI_YICHENG/)
 
 
 
@@ -609,7 +609,7 @@ zawa氏には今年のイチケンさんの新しい回路の設計やレイア�
 [ISHI会版OpenMPW OpenSUSI-TR10-1向けの回路やレイアウトを募集！！！](https://ishi-kai.org/openmpw/shuttle/opensusi-tr10/2026/08/31/shuttle_ISHI-Kai_OpenMPW-OpenSUSI-TR10-1_SP.html)に応募された回路とレイアウトです。  
 
 - [ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1)
-    - [平衡3値論理回路：PenguinEino](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/tree/raw/main/member_project/balanced-ternary-logic/PenguinEino/)
+    - [平衡3値論理回路：PenguinEino](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/tree/main/member_project/balanced-ternary-logic/PenguinEino/)
 
 
 
@@ -627,7 +627,7 @@ zawa氏には今年のイチケンさんの新しい回路の設計やレイア�
 [ISHI会版OpenMPW OpenSUSI-TR10-1向けの回路やレイアウトを募集！！！](https://ishi-kai.org/openmpw/shuttle/opensusi-tr10/2026/08/31/shuttle_ISHI-Kai_OpenMPW-OpenSUSI-TR10-1_SP.html)に応募された回路とレイアウトです。  
 
 - [ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1)
-    - [LPF回路：noritsuna](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/tree/raw/main/member_project/LPF/noritsuna/)
+    - [LPF回路：noritsuna](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/tree/main/member_project/LPF/noritsuna/)
 
 
 
@@ -645,7 +645,7 @@ zawa氏には今年のイチケンさんの新しい回路の設計やレイア�
 3zki氏には今年もイチケンさんの新しい回路の設計やレイアウトのサポートなどをしていただいたので、その報酬枠となります。  
 
 - [ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1)
-    - [オーディオ用OPAMP回路x2：3zki](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/tree/raw/main/member_project/opamp_r2r_audio/3zki/)
+    - [オーディオ用OPAMP回路x2：3zki](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/tree/main/member_project/opamp_r2r_audio/3zki/)
 
 
 
@@ -673,18 +673,17 @@ zawa氏には今年のイチケンさんの新しい回路の設計やレイア�
 一般社団法人[OpenSUSI](https://opensusi.org/)より、「来年の[OpenSUSI-MPW](https://www.opensusi.org/mpw-service)の発展に貢献できる回路・レイアウトに対して提供する」という条件で[ISHI会](https://ishi-kai.org/)向けに提供された枠になります。  
 
 
-### [MaehashiさんのCMOSイメージセンサー](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/tree/raw/main/member_project/imager/YuMaehashi/)
+### [MaehashiさんのCMOSイメージセンサー](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/tree/main/member_project/imager/YuMaehashi/)
 内容自体がレベルが高く、Maehashiさん自体も「[ISHI会版OpenMPW OpenSUSI-TR10-1開始！！！～2026年OpenSUSI-TR10-1（OpenSUSI-TR10シャトル）の相乗り募集：北海道編～](https://ishi-kai.org/openmpw/shuttle/opensusi-tr10/2026/04/10/shuttle_ISHI-Kai_OpenMPW-OpenSUSI-TR10-1_start.html)」の講師もしていただいたりと大活躍だったためのエントリーとなります。  
 
-- [CMOSイメージセンサー](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/tree/raw/main/member_project/imager/YuMaehashi/)
-
+- [CMOSイメージセンサー](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/tree/main/member_project/imager/YuMaehashi)
 
 ### インバータ回路
 [ISHI会版OpenMPW OpenSUSI-TR10-1開始！！！～2026年OpenSUSI-TR10（OpenSUSI-TR10シャトル）の相乗り募集：北陸編～](https://ishi-kai.org/openmpw/shuttle/opensusi-tr10/2026/08/03/shuttle_ISHI-Kai_OpenMPW-OpenSUSI-TR10-1_hokuriku.html)での成果となります。  
 某最強法務部を抱えると噂の企業様の版権物が載っているため、スポンサー枠に載せることが不可能だったため、こちらに回されました。  
 
 - [ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1)
-    - [インバータ回路：makoto56](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/tree/raw/main/member_project/inverter/OpenSUSI/makoto56/)
+    - [インバータ回路：makoto56](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/tree/main/member_project/inverter/OpenSUSI/makoto56/)
 
 
 
@@ -697,8 +696,8 @@ zawa氏には今年のイチケンさんの新しい回路の設計やレイア�
 一般社団法人[OpenSUSI](https://opensusi.org/)より、「来年の[OpenSUSI-MPW](https://www.opensusi.org/mpw-service)の発展に貢献できる回路・レイアウトに対して提供する」という条件で[ISHI会](https://ishi-kai.org/)向けに提供された枠になります。  
 
 
-### [noritsunaさんのAMラジオの究極レイアウト](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/tree/raw/main/member_project/AM_Radio/noritsuna)
-[Yamada3チームが設計したAMラジオ](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/tree/raw/main/member_project/AM_Radio/Yamada3)の回路図を生かして、究極のレイアウトを目指したレイアウトによるエントリーです。  
+### [noritsunaさんのAMラジオの究極レイアウト](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/tree/main/member_project/AM_Radio/noritsuna)
+[Yamada3チームが設計したAMラジオ](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/tree/main/member_project/AM_Radio/Yamada3)の回路図を生かして、究極のレイアウトを目指したレイアウトによるエントリーです。  
 OpenSUSI-MPWでどこまでレイアウトテクニックが使えるか？に挑戦した作品です。  
 
 
@@ -712,10 +711,10 @@ OpenSUSI-MPWでどこまでレイアウトテクニックが使えるか？に�
 一般社団法人[OpenSUSI](https://opensusi.org/)より、「来年の[OpenSUSI-MPW](https://www.opensusi.org/mpw-service)の発展に貢献できる回路・レイアウトに対して提供する」という条件で[ISHI会](https://ishi-kai.org/)向けに提供された枠になります。  
 
 
-### Ohno氏による[半導体計測用アドレスデコーダ・マルチプレクサ](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/tree/raw/main/member_project/Charactorization/ShuntaroOHNO/)回路
+### Ohno氏による[半導体計測用アドレスデコーダ・マルチプレクサ](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/tree/main/member_project/Charactorization/ShuntaroOHNO/)回路
 プロジェクトとしてもレアであり、[ISHI会版OpenMPW OpenSUSI-TR10-1開始！！！～2026年OpenSUSI-TR10（OpenSUSI-TR10シャトル）の相乗り募集：北陸編～](https://ishi-kai.org/openmpw/shuttle/opensusi-tr10/2026/08/03/shuttle_ISHI-Kai_OpenMPW-OpenSUSI-TR10-1_hokuriku.html)の講師や他のイベントでもサポーターとして活躍していただいたOhno氏がエントリーされました。  
 
-- [半導体計測用アドレスデコーダ・マルチプレクサ](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/tree/raw/main/member_project/Charactorization/ShuntaroOHNO/)
+- [半導体計測用アドレスデコーダ・マルチプレクサ](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/tree/main/member_project/Charactorization/ShuntaroOHNO/)
 
 
 
@@ -728,11 +727,11 @@ OpenSUSI-MPWでどこまでレイアウトテクニックが使えるか？に�
 一般社団法人[OpenSUSI](https://opensusi.org/)より、「来年の[OpenSUSI-MPW](https://www.opensusi.org/mpw-service)の発展に貢献できる回路・レイアウトに対して提供する」という条件で[ISHI会](https://ishi-kai.org/)向けに提供された枠になります。  
 
 
-### [3zki](https://github.com/3zki/)の[計装アンプ](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/tree/raw/main/member_project/InstrumentationAmplifier/3zki/)
-Rail-to-Rail OPAMPの実利用例の[計装アンプ](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/tree/raw/main/member_project/InstrumentationAmplifier/3zki/)となります。  これまでのISHI会の制作物やハンズオンが、二段増幅OPAMP→Rail-to-Rail OPAMP→オーディオ用OPAMPと進化してきて、ついに、[計装アンプ](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/tree/raw/main/member_project/InstrumentationAmplifier/3zki/)に辿り着きました。  
+### [3zki](https://github.com/3zki/)の[計装アンプ](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/tree/main/member_project/InstrumentationAmplifier/3zki/)
+Rail-to-Rail OPAMPの実利用例の[計装アンプ](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/tree/main/member_project/InstrumentationAmplifier/3zki/)となります。  これまでのISHI会の制作物やハンズオンが、二段増幅OPAMP→Rail-to-Rail OPAMP→オーディオ用OPAMPと進化してきて、ついに、[計装アンプ](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/tree/main/member_project/InstrumentationAmplifier/3zki/)に辿り着きました。  
 ISHI会の黎明期からいろいろな回路を投稿してくれたり、[イチケンさん](https://www.youtube.com/@ICHIKEN1)への回路のレクチャーやサポーターとして活躍していただいた[3zki](https://github.com/3zki/)氏がエントリーされたものとなります。  
 
-### [PenguinEino](http://github.com/PenguinEino/)の[RGB121 VGA出力回路](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/tree/raw/main/member_project/RGB121_VGA/PenguinEino/)
+### [PenguinEino](http://github.com/PenguinEino/)の[RGB121 VGA出力回路](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/tree/main/member_project/RGB121_VGA/PenguinEino/)
 [TinyTapeout](http://tinytapeout.com/)の定番回路のVGA出力回路となります。OpenSUSI-MPWのサイズに合わせて、RGB121としてピン数を削減しています。
 今回、余った枠に精力的に回路を投稿てくれた[PenguinEino](http://github.com/PenguinEino/)氏がエントリーされたものです。
 
