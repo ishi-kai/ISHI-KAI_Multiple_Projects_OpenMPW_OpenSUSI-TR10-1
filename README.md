@@ -208,7 +208,7 @@ RFミキサー関連回路一式です。
 [ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1)で実施した回路の一部が相乗りしています。  
 
 ### オーディオ用OPAMP回路
-[2026年08月イベント：オーディオ用OPAMP半導体ハンズオン]https://ishi-kai.org/openmpw/shuttle/opensusi-tr10/2026/04/14/shuttle_ISHI-Kai_OpenMPW-OpenSUSI-TR10-1_AudioOPAMP.html)での成果となります。  
+[2026年08月イベント：オーディオ用OPAMP半導体ハンズオン](https://ishi-kai.org/openmpw/shuttle/opensusi-tr10/2026/04/14/shuttle_ISHI-Kai_OpenMPW-OpenSUSI-TR10-1_AudioOPAMP.html)での成果となります。  
 
 - [ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1)
     - [オーディオ用OPAMP回路：yamazaki](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/tree/raw/main/member_project/opamp_r2r_audio/yamazaki/)
@@ -227,7 +227,7 @@ RFミキサー関連回路一式です。
 [ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1)で実施した回路の一部が相乗りしています。  
 
 ### オーディオ用OPAMP回路
-[2026年08月イベント：オーディオ用OPAMP半導体ハンズオン]https://ishi-kai.org/openmpw/shuttle/opensusi-tr10/2026/04/14/shuttle_ISHI-Kai_OpenMPW-OpenSUSI-TR10-1_AudioOPAMP.html)での成果となります。  
+[2026年08月イベント：オーディオ用OPAMP半導体ハンズオン](https://ishi-kai.org/openmpw/shuttle/opensusi-tr10/2026/04/14/shuttle_ISHI-Kai_OpenMPW-OpenSUSI-TR10-1_AudioOPAMP.html)での成果となります。  
 
 - [ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1)
     - [オーディオ用OPAMP回路：KabechiFC](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1/tree/raw/main/member_project/opamp_r2r_audio/KabechiFC/)
