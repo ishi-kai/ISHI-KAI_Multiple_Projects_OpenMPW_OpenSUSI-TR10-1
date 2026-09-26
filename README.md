@@ -60,11 +60,6 @@ ISHI会版OpenMPW OpenSUSI-TR10-1～2026年OpenSUSI-TR10（OpenSUSI-TR1umシャ�
 ## [ICHIKEN Presents「1bit-CPUハンズオン supported by RISE-A」](https://ishi-kai.org/openmpw/shuttle/opensusi-tr10/2026/07/15/shuttle_ISHI-Kai_OpenMPW-TR10-1_1bit-CPU.html)
 [約50万登録者のものづくり系YouTuberのICHIKENさん](https://www.youtube.com/@ICHIKEN1)により、公開された[設計・レイアウトした1bit-CPUの動画](https://www.youtube.com/watch?v=5_aIvm-i4ag)に登場した[1bit-CPU](https://github.com/ishi-kai/openmpw-transistor-level-examples/tree/raw/main/OpenSUSI-TR10/1bit-CPU)の設計・レイアウトの体験ができるハンズオンです。  
 
-- [1bit-CPU](https://github.com/ishi-kai/openmpw-transistor-level-examples/tree/raw/main/OpenSUSI-TR10/1bit-CPU)
-    - HDLやロジック回路（デジタル回路）がどのようにGDSに変換されているのかの学習が目的のハンズオンです。
-    - 「 [ISHI会版OpenMPW TR10-2でICHIKENさんが体験された1bit-CPUの解説動画が公開されました。](https://ishi-kai.org/openmpw/shuttle/tr10/2026/06/08/shuttle_ISHI-Kai_OpenMPW-TR10-2_ichiken.html)」
-
-
 ## ISHI会の回路
 [ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1)で実施した回路の一部が相乗りしています。  
 
@@ -84,10 +79,6 @@ ISHI会版OpenMPW OpenSUSI-TR10-1～2026年OpenSUSI-TR10（OpenSUSI-TR1umシャ�
 
 ## [ICHIKEN Presents「1bit-CPUハンズオン supported by RISE-A」](https://ishi-kai.org/openmpw/shuttle/opensusi-tr10/2026/07/15/shuttle_ISHI-Kai_OpenMPW-TR10-1_1bit-CPU.html)
 [約50万登録者のものづくり系YouTuberのICHIKENさん](https://www.youtube.com/@ICHIKEN1)により、公開された[設計・レイアウトした1bit-CPUの動画](https://www.youtube.com/watch?v=5_aIvm-i4ag)に登場した[1bit-CPU](https://github.com/ishi-kai/openmpw-transistor-level-examples/tree/raw/main/OpenSUSI-TR10/1bit-CPU)の設計・レイアウトの体験ができるハンズオンです。  
-
-- [1bit-CPU](https://github.com/ishi-kai/openmpw-transistor-level-examples/tree/raw/main/OpenSUSI-TR10/1bit-CPU)
-    - HDLやロジック回路（デジタル回路）がどのようにGDSに変換されているのかの学習が目的のハンズオンです。
-    - 「 [ISHI会版OpenMPW TR10-2でICHIKENさんが体験された1bit-CPUの解説動画が公開されました。](https://ishi-kai.org/openmpw/shuttle/tr10/2026/06/08/shuttle_ISHI-Kai_OpenMPW-TR10-2_ichiken.html)」
 
 
 ## ISHI会の回路
@@ -109,10 +100,6 @@ ISHI会版OpenMPW OpenSUSI-TR10-1～2026年OpenSUSI-TR10（OpenSUSI-TR1umシャ�
 ## [ICHIKEN Presents「1bit-CPUハンズオン supported by RISE-A」](https://ishi-kai.org/openmpw/shuttle/opensusi-tr10/2026/07/15/shuttle_ISHI-Kai_OpenMPW-TR10-1_1bit-CPU.html)
 [約50万登録者のものづくり系YouTuberのICHIKENさん](https://www.youtube.com/@ICHIKEN1)により、公開された[設計・レイアウトした1bit-CPUの動画](https://www.youtube.com/watch?v=5_aIvm-i4ag)に登場した[1bit-CPU](https://github.com/ishi-kai/openmpw-transistor-level-examples/tree/raw/main/OpenSUSI-TR10/1bit-CPU)の設計・レイアウトの体験ができるハンズオンです。  
 
-- [1bit-CPU](https://github.com/ishi-kai/openmpw-transistor-level-examples/tree/raw/main/OpenSUSI-TR10/1bit-CPU)
-    - HDLやロジック回路（デジタル回路）がどのようにGDSに変換されているのかの学習が目的のハンズオンです。
-    - 「 [ISHI会版OpenMPW TR10-2でICHIKENさんが体験された1bit-CPUの解説動画が公開されました。](https://ishi-kai.org/openmpw/shuttle/tr10/2026/06/08/shuttle_ISHI-Kai_OpenMPW-TR10-2_ichiken.html)」
-
 
 ## ISHI会の回路
 [ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1)で実施した回路の一部が相乗りしています。  
@@ -132,10 +119,6 @@ ISHI会版OpenMPW OpenSUSI-TR10-1～2026年OpenSUSI-TR10（OpenSUSI-TR1umシャ�
 
 ## [ICHIKEN Presents「1bit-CPUハンズオン supported by RISE-A」](https://ishi-kai.org/openmpw/shuttle/opensusi-tr10/2026/07/15/shuttle_ISHI-Kai_OpenMPW-TR10-1_1bit-CPU.html)
 [約50万登録者のものづくり系YouTuberのICHIKENさん](https://www.youtube.com/@ICHIKEN1)により、公開された[設計・レイアウトした1bit-CPUの動画](https://www.youtube.com/watch?v=5_aIvm-i4ag)に登場した[1bit-CPU](https://github.com/ishi-kai/openmpw-transistor-level-examples/tree/raw/main/OpenSUSI-TR10/1bit-CPU)の設計・レイアウトの体験ができるハンズオンです。  
-
-- [1bit-CPU](https://github.com/ishi-kai/openmpw-transistor-level-examples/tree/raw/main/OpenSUSI-TR10/1bit-CPU)
-    - HDLやロジック回路（デジタル回路）がどのようにGDSに変換されているのかの学習が目的のハンズオンです。
-    - 「 [ISHI会版OpenMPW TR10-2でICHIKENさんが体験された1bit-CPUの解説動画が公開されました。](https://ishi-kai.org/openmpw/shuttle/tr10/2026/06/08/shuttle_ISHI-Kai_OpenMPW-TR10-2_ichiken.html)」
 
 
 ## ISHI会の回路
@@ -158,10 +141,6 @@ ISHI会版OpenMPW OpenSUSI-TR10-1～2026年OpenSUSI-TR10（OpenSUSI-TR1umシャ�
 ## [ICHIKEN Presents「1bit-CPUハンズオン supported by RISE-A」](https://ishi-kai.org/openmpw/shuttle/opensusi-tr10/2026/07/15/shuttle_ISHI-Kai_OpenMPW-TR10-1_1bit-CPU.html)
 [約50万登録者のものづくり系YouTuberのICHIKENさん](https://www.youtube.com/@ICHIKEN1)により、公開された[設計・レイアウトした1bit-CPUの動画](https://www.youtube.com/watch?v=5_aIvm-i4ag)に登場した[1bit-CPU](https://github.com/ishi-kai/openmpw-transistor-level-examples/tree/raw/main/OpenSUSI-TR10/1bit-CPU)の設計・レイアウトの体験ができるハンズオンです。  
 
-- [1bit-CPU](https://github.com/ishi-kai/openmpw-transistor-level-examples/tree/raw/main/OpenSUSI-TR10/1bit-CPU)
-    - HDLやロジック回路（デジタル回路）がどのようにGDSに変換されているのかの学習が目的のハンズオンです。
-    - 「 [ISHI会版OpenMPW TR10-2でICHIKENさんが体験された1bit-CPUの解説動画が公開されました。](https://ishi-kai.org/openmpw/shuttle/tr10/2026/06/08/shuttle_ISHI-Kai_OpenMPW-TR10-2_ichiken.html)」
-
 ## ISHI会の回路
 [ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1)で実施した回路の一部が相乗りしています。  
 
@@ -179,11 +158,6 @@ ISHI会版OpenMPW OpenSUSI-TR10-1～2026年OpenSUSI-TR10（OpenSUSI-TR1umシャ�
 
 ## [ICHIKEN Presents「1bit-CPUハンズオン supported by RISE-A」](https://ishi-kai.org/openmpw/shuttle/opensusi-tr10/2026/07/15/shuttle_ISHI-Kai_OpenMPW-TR10-1_1bit-CPU.html)
 [約50万登録者のものづくり系YouTuberのICHIKENさん](https://www.youtube.com/@ICHIKEN1)により、公開された[設計・レイアウトした1bit-CPUの動画](https://www.youtube.com/watch?v=5_aIvm-i4ag)に登場した[1bit-CPU](https://github.com/ishi-kai/openmpw-transistor-level-examples/tree/raw/main/OpenSUSI-TR10/1bit-CPU)の設計・レイアウトの体験ができるハンズオンです。  
-
-- [1bit-CPU](https://github.com/ishi-kai/openmpw-transistor-level-examples/tree/raw/main/OpenSUSI-TR10/1bit-CPU)
-    - HDLやロジック回路（デジタル回路）がどのようにGDSに変換されているのかの学習が目的のハンズオンです。
-    - 「 [ISHI会版OpenMPW TR10-2でICHIKENさんが体験された1bit-CPUの解説動画が公開されました。](https://ishi-kai.org/openmpw/shuttle/tr10/2026/06/08/shuttle_ISHI-Kai_OpenMPW-TR10-2_ichiken.html)」
-
 
 ## ISHI会の回路
 [ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_OpenSUSI-TR10-1)で実施した回路の一部が相乗りしています。  
