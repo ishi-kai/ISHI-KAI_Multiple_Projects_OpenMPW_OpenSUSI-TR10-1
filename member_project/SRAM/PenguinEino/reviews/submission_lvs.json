@@ -1,11 +1,11 @@
 {
   "passed": true,
-  "checked_utc": "2026-09-13T03:05:43.802374+00:00",
+  "checked_utc": "2026-09-26T06:46:03.465866+00:00",
   "scope": "Isolated flat export; standard Xschem LVS settings and unmodified current-view GUI LVS macro with default reference lookup.",
-  "work": "build/sram512/submission_lvs/default_flow_hm3p8d_b",
-  "gds_sha256": "7cf6744ff1a17bc7a6560639bbdaeea98041bc4eb0629763154e4c86e44be5a2",
+  "work": "build/sram512/submission_lvs/default_flow_6u_kyzm0",
+  "gds_sha256": "d83e9e0d5a858d5e2a906a454a0cffdfb0a5ffb24e5bce0ba5ce7179eaff5282",
   "schematic_sha256": "20ea4a2e70a68adcb3452832df4d674e672619c591ad045b8adb5881612f73da",
-  "reference_sha256": "e4c9c58c8b528c9245ba87f61d5322450f2b6f901372ce70b0ebb4800f0aaff4",
+  "reference_sha256": "074e4344f7be219429f58c3f4b2c328a577ef8f1abe1f9b86ef3d87c70ad0658",
   "pdk_revision": "6afbd918951f2ea0dcd11c5a46986b4c20f9e6f9",
   "erc": true,
   "lvs": {
@@ -38,7 +38,7 @@
   "files": {
     "sense_amp_7t.sch": "fd8c65d937b248ae6d1eceec6d3c078b719e57398c8ab1ee282b200bbc7293b1",
     "sense_amp_7t.sym": "2baf283213c54b648d6eedbcbdce39248d61013e2fdc348ccb6be615ddbf8555",
-    "sram512.gds": "7cf6744ff1a17bc7a6560639bbdaeea98041bc4eb0629763154e4c86e44be5a2",
+    "sram512.gds": "d83e9e0d5a858d5e2a906a454a0cffdfb0a5ffb24e5bce0ba5ce7179eaff5282",
     "sram512.sch": "20ea4a2e70a68adcb3452832df4d674e672619c591ad045b8adb5881612f73da",
     "sram512.sym": "ce6c8b742ddf175fd55302b563c4f370f5c5cf3eddaab4c87becb7b834bfe734",
     "sram512_array.sch": "bf8e760f7cc182bc5947a1f7836e53fb1dcb559442df729c5e1c532c6f268369",

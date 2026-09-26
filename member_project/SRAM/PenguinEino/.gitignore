@@ -1,0 +1,19 @@
+# Installed PDKs and machine-local tool state
+/.pdk/
+# Reproducible calculations and multi-GB waveforms
+/build/*
+!/build/README.md
+**/__pycache__/
+*.pyc
+*.raw
+*.vcd
+# Learning testbench netlists are regenerated; small reference circuits stay tracked
+/learning/simulation/sram_tb*.spice
+/learning/simulation/sense_amp_7t.spice
+/learning/simulation/*waveforms.txt
+/learning/schematics/*waveforms.txt
+# Working output of the documented submission GUI flow; absent from ZIP.
+/submission/simulation/
+/submission/*.extracted
+/submission/*.lvsdb
+/submission/*.lyrdb
